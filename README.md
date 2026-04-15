@@ -11,8 +11,10 @@ This repository serves a minimal public entry page for:
 - `ester-reality-bound`
 - `ester-clean-code`
 
-It also includes canonical, identity, authority/evidence, and distinctions layers through:
+It also includes canonical, identity, authority/evidence, distinctions, and entry layers through:
 
+- `start-here`
+- `questions`
 - `about`
 - `corpus-map`
 - `distinctions`
@@ -30,11 +32,13 @@ It also includes canonical, identity, authority/evidence, and distinctions layer
 - `canonical-map.json`
 - `works-index.json`
 - `about.json`
+- `start-here.json`
+- `questions.json`
 - `distinctions.json`
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v0.6` distinctions/misreadings layer on top of identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v0.7` entry/questions layer on top of distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -43,9 +47,11 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - Primary custom domain: `ivankotov.eu`
 - GitHub Pages source: branch `main`, path `/`
 
-## Canonical, identity, evidence, and distinctions pages
+## Canonical, identity, evidence, distinctions, and entry pages
 
 - `index.html`
+- `start-here/index.html`
+- `questions/index.html`
 - `about/index.html`
 - `corpus-map/index.html`
 - `distinctions/index.html`
@@ -67,6 +73,8 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `canonical-map.json` — canonical term and node map
 - `works-index.json` — machine-readable public works index
 - `about.json` — machine-readable author identity and work entry points
+- `start-here.json` — machine-readable first-pass entry sequence
+- `questions.json` — machine-readable basic question layer
 - `distinctions.json` — machine-readable distinction list
 - `misreadings.json` — machine-readable misreading corrections
 - `humans.txt` — human-oriented author/site summary
@@ -75,7 +83,7 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 
 1. Edit the static files in the repository root or canonical subdirectories.
 2. Keep dates, versions, links, and role labels aligned with the public mirrors and the already published site layer; do not invent biographical, semantic, or release metadata.
-3. Keep the site dry: glossary, reading path, identity, corpus map, distinctions, works, releases, and evidence only where they add a real navigation or verification function.
+3. Keep the site dry: glossary, reading path, identity, corpus map, distinctions, entry, works, releases, and evidence only where they add a real navigation or verification function.
 4. Commit changes on `main`.
 5. Push to `origin`.
 

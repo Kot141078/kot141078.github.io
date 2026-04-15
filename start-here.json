@@ -1,0 +1,41 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/start-here/",
+  "sequence": [
+    {
+      "title": "About",
+      "url": "https://ivankotov.eu/about/",
+      "role": "public author/profile surface"
+    },
+    {
+      "title": "Advanced Global Intelligence",
+      "url": "https://ivankotov.eu/advanced-global-intelligence/",
+      "role": "architecture and corpus frame"
+    },
+    {
+      "title": "c = a + b",
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "role": "canonical architecture formula"
+    },
+    {
+      "title": "L4",
+      "url": "https://ivankotov.eu/l4/",
+      "role": "feasibility and reality boundary"
+    },
+    {
+      "title": "SER",
+      "url": "https://ivankotov.eu/ser/",
+      "role": "continuity and sovereignty structure"
+    },
+    {
+      "title": "Qubit of Hope — Volume I",
+      "url": "https://ivankotov.eu/qubit-of-hope/",
+      "role": "narrative entry layer"
+    },
+    {
+      "title": "Publications / Releases / Evidence",
+      "url": "https://ivankotov.eu/publications/",
+      "role": "public works and review surfaces"
+    }
+  ]
+}
