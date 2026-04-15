@@ -1,0 +1,88 @@
+{
+  "site": "Ivan Kotov — Advanced Global Intelligence, c = a + b, L4, SER",
+  "person": "Ivan Kotov",
+  "primary_domain": "https://ivankotov.eu/",
+  "nodes": [
+    {
+      "id": "agi",
+      "title": "Advanced Global Intelligence",
+      "url": "https://ivankotov.eu/advanced-global-intelligence/",
+      "summary": "Architectural frame for c = a + b, L4, SER, and adjacent public layers.",
+      "not": [
+        "a single giant model",
+        "a cloud-only brain",
+        "generic AGI hype"
+      ]
+    },
+    {
+      "id": "c-a-plus-b",
+      "title": "c = a + b",
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "summary": "Canonical formula for the accountable human anchor, bounded procedures and compute, and the long-lived entity layer.",
+      "not": [
+        "school algebra",
+        "a chatbot slogan",
+        "a swarm by default"
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "L4",
+      "url": "https://ivankotov.eu/l4/",
+      "summary": "Reality Boundary Layer and feasibility boundary under power, heat, latency, maintenance, scarcity, and irreversibility.",
+      "not": [
+        "a moral sticker",
+        "only a policy layer",
+        "metaphorical grounding without operational cost"
+      ]
+    },
+    {
+      "id": "ser",
+      "title": "SER",
+      "url": "https://ivankotov.eu/ser/",
+      "summary": "Continuity, sovereignty, arbitration, and bounded governance structure for long-lived entities.",
+      "not": [
+        "a multi-agent slogan",
+        "a memory hack",
+        "cloud-native continuity by default"
+      ]
+    },
+    {
+      "id": "qubit-of-hope",
+      "title": "Qubit of Hope — Volume I",
+      "url": "https://ivankotov.eu/qubit-of-hope/",
+      "summary": "Narrative/public entry layer into the world of c, complementary to AGI, L4, and SER.",
+      "not": [
+        "a substitute for the protocol layer",
+        "the canonical home of AGI, L4, or SER definitions"
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary",
+      "url": "https://ivankotov.eu/glossary/",
+      "summary": "Compact canonical term definitions for AGI, c = a + b, c, a, b, L4, SER, entity, oracle, and witness trail.",
+      "not": [
+        "a long essay",
+        "an open-ended taxonomy"
+      ]
+    },
+    {
+      "id": "reading-path",
+      "title": "Reading path",
+      "url": "https://ivankotov.eu/reading-path/",
+      "summary": "Recommended public order for reading AGI, c = a + b, L4, SER, and Qubit of Hope.",
+      "not": [
+        "random navigation",
+        "a substitute for the primary pages"
+      ]
+    }
+  ],
+  "reading_path": [
+    "agi",
+    "c-a-plus-b",
+    "l4",
+    "ser",
+    "qubit-of-hope"
+  ]
+}

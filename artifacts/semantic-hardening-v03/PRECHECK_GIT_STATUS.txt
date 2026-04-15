@@ -1,0 +1,3 @@
+git status --short
+
+(no output; working tree clean before preflight artifacts were created)

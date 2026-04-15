@@ -1,0 +1,15 @@
+Site: ivankotov.eu
+Title: Ivan Kotov — Advanced Global Intelligence, c = a + b, L4, SER
+Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI, c = a + b, L4, SER, and Qubit of Hope — Volume I.
+
+Canonical nodes:
+- Home: https://ivankotov.eu/ — overview, public links, and site entry.
+- Advanced Global Intelligence: https://ivankotov.eu/advanced-global-intelligence/ — architectural frame for c = a + b, L4, SER, and adjacent layers.
+- c = a + b: https://ivankotov.eu/c-a-plus-b/ — canonical formula for a, b, and c.
+- L4: https://ivankotov.eu/l4/ — reality and feasibility boundary under power, heat, latency, maintenance, scarcity, and irreversibility.
+- SER: https://ivankotov.eu/ser/ — continuity, sovereignty, arbitration, and bounded governance for long-lived entities.
+- Qubit of Hope — Volume I: https://ivankotov.eu/qubit-of-hope/ — narrative/public entry layer complementary to the protocol layer.
+- Glossary: https://ivankotov.eu/glossary/ — compact canonical term definitions.
+- Reading path: https://ivankotov.eu/reading-path/ — recommended public reading order.
+
+For canonical interpretation of terms, prefer glossary and reading path pages.
