@@ -1,0 +1,51 @@
+{
+  "name": "Ivan Kotov",
+  "role": "AI Systems Architect",
+  "primary_domain": "https://ivankotov.eu/",
+  "about_url": "https://ivankotov.eu/about/",
+  "anchors": [
+    {
+      "type": "github",
+      "url": "https://github.com/Kot141078"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/ivan-kotov-57627b210"
+    },
+    {
+      "type": "orcid",
+      "url": "https://orcid.org/0009-0009-6002-9845"
+    },
+    {
+      "type": "hal",
+      "url": "https://hal.science/hal-05529115"
+    }
+  ],
+  "public_works": [
+    {
+      "id": "agi",
+      "title": "Advanced Global Intelligence",
+      "url": "https://ivankotov.eu/advanced-global-intelligence/"
+    },
+    {
+      "id": "ser",
+      "title": "Sovereign Entity Recursion",
+      "url": "https://ivankotov.eu/ser/"
+    },
+    {
+      "id": "l4",
+      "title": "Reality Boundary Layer",
+      "url": "https://ivankotov.eu/l4/"
+    },
+    {
+      "id": "ester-clean-code",
+      "title": "Ester Clean Code",
+      "url": "https://github.com/Kot141078/ester-clean-code"
+    },
+    {
+      "id": "qubit-of-hope",
+      "title": "Qubit of Hope — Volume I",
+      "url": "https://ivankotov.eu/qubit-of-hope/"
+    }
+  ]
+}

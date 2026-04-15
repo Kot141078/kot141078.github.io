@@ -1,0 +1,10 @@
+Contract: SITE_IDENTITY_CORPUS_MAP_V05
+Repository: C:\Users\kotov\Desktop\AGI\kot141078.github.io
+Preflight command: git status --short
+Preflight base commit: 71c7ae0ba7233e05e6bdbf169bfb3509ecbef30b
+
+Result:
+(no output)
+
+Interpretation:
+Working tree was clean before identity/corpus-map v0.5 changes were created.

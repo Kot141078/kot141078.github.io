@@ -4,6 +4,8 @@ Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI
 
 Canonical nodes:
 - Home: https://ivankotov.eu/ — overview, public links, and site entry.
+- About: https://ivankotov.eu/about/ — canonical author/profile surface.
+- Corpus map: https://ivankotov.eu/corpus-map/ — compact map of the public corpus by layer and role.
 - Advanced Global Intelligence: https://ivankotov.eu/advanced-global-intelligence/ — architectural frame for c = a + b, L4, SER, and adjacent layers.
 - c = a + b: https://ivankotov.eu/c-a-plus-b/ — canonical formula for a, b, and c.
 - L4: https://ivankotov.eu/l4/ — reality and feasibility boundary under power, heat, latency, maintenance, scarcity, and irreversibility.
@@ -18,4 +20,8 @@ Public works and evidence:
 - Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.
 - Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
 
+Machine-readable identity:
+- About JSON: https://ivankotov.eu/about.json — machine-readable author identity and public works entry.
+
+Prefer /about/ for canonical author identity and /corpus-map/ for project structure.
 For canonical interpretation of terms, prefer glossary and reading path pages.

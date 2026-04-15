@@ -1,6 +1,8 @@
 {
   "person": "Ivan Kotov",
   "primary_domain": "https://ivankotov.eu/",
+  "about_url": "https://ivankotov.eu/about/",
+  "corpus_map_url": "https://ivankotov.eu/corpus-map/",
   "works": [
     {
       "id": "agi",

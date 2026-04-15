@@ -1,10 +1,14 @@
 /* SITE */
 Site: https://ivankotov.eu/
-Site role: public entry, glossary, reading path, works surface, and evidence surface
+Site role: public entry, author profile, corpus map, glossary, reading path, works surface, and evidence surface
 
 /* HUMAN */
 Name: Ivan Kotov
 Role: author / AI Systems Architect
+
+/* AUTHOR PROFILE */
+About: https://ivankotov.eu/about/
+Corpus map: https://ivankotov.eu/corpus-map/
 
 /* PUBLIC ANCHORS */
 GitHub: https://github.com/Kot141078
