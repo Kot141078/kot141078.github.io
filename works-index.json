@@ -3,6 +3,8 @@
   "primary_domain": "https://ivankotov.eu/",
   "about_url": "https://ivankotov.eu/about/",
   "corpus_map_url": "https://ivankotov.eu/corpus-map/",
+  "library_url": "https://ivankotov.eu/library/",
+  "downloads_url": "https://ivankotov.eu/downloads/",
   "works": [
     {
       "id": "agi",

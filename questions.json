@@ -51,6 +51,12 @@
       "question": "How should the corpus be read?",
       "answer": "Use Reading path for sequence, and Glossary / Distinctions for quick clarification.",
       "primary_url": "https://ivankotov.eu/reading-path/"
+    },
+    {
+      "question": "Where are the primary sources and downloads?",
+      "answer": "Use /library/ for source surfaces and /downloads/ for confirmed release/file entry points.",
+      "primary_url": "https://ivankotov.eu/library/",
+      "secondary_url": "https://ivankotov.eu/downloads/"
     }
   ]
 }

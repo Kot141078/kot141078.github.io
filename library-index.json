@@ -1,0 +1,51 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/library/",
+  "items": [
+    {
+      "id": "agi",
+      "title": "Advanced Global Intelligence (AGI)",
+      "role": "architecture",
+      "primary_page": "https://ivankotov.eu/advanced-global-intelligence/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/v1.1",
+      "type": "repo"
+    },
+    {
+      "id": "ser",
+      "title": "Sovereign Entity Recursion (SER)",
+      "role": "continuity",
+      "primary_page": "https://ivankotov.eu/ser/",
+      "repo_url": "https://github.com/Kot141078/sovereign-entity-recursion",
+      "release_url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/ecosystem-v0.2-2026-02-24",
+      "type": "repo"
+    },
+    {
+      "id": "erb-l4",
+      "title": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "role": "boundary",
+      "primary_page": "https://ivankotov.eu/l4/",
+      "repo_url": "https://github.com/Kot141078/ester-reality-bound",
+      "release_url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
+      "type": "repo"
+    },
+    {
+      "id": "ester-clean-code",
+      "title": "Ester Clean Code",
+      "role": "implementation",
+      "primary_page": "https://ivankotov.eu/publications/",
+      "repo_url": "https://github.com/Kot141078/ester-clean-code",
+      "release_url": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.5",
+      "type": "repo"
+    },
+    {
+      "id": "qubit-of-hope-volume-i",
+      "title": "Qubit of Hope — Volume I",
+      "role": "narrative",
+      "primary_page": "https://ivankotov.eu/qubit-of-hope/",
+      "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
+      "type": "book"
+    }
+  ]
+}

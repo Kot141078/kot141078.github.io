@@ -6,6 +6,8 @@ Canonical nodes:
 - Home: https://ivankotov.eu/ — overview, public links, and site entry.
 - Start here: https://ivankotov.eu/start-here/ — first-step entry for new readers.
 - Questions: https://ivankotov.eu/questions/ — short public-entry answers to basic questions.
+- Library: https://ivankotov.eu/library/ — primary public source surfaces for the main corpus objects.
+- Downloads: https://ivankotov.eu/downloads/ — confirmed release pages, source archives, and book download entry points.
 - About: https://ivankotov.eu/about/ — canonical author/profile surface.
 - Corpus map: https://ivankotov.eu/corpus-map/ — compact map of the public corpus by layer and role.
 - Distinctions: https://ivankotov.eu/distinctions/ — canonical term-level distinctions against common flattening.
@@ -22,16 +24,21 @@ Public works and evidence:
 - Publications: https://ivankotov.eu/publications/ — curated public works and corpus entry points.
 - Releases: https://ivankotov.eu/releases/ — confirmed release and publication timeline.
 - Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.
+- Library index: https://ivankotov.eu/library-index.json — machine-readable primary source index.
+- Downloads index: https://ivankotov.eu/downloads-index.json — machine-readable release and download surface index.
 - Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
 
 Machine-readable identity and entry:
 - About JSON: https://ivankotov.eu/about.json — machine-readable author identity and public works entry.
 - Start-here JSON: https://ivankotov.eu/start-here.json — machine-readable first-pass entry sequence.
 - Questions JSON: https://ivankotov.eu/questions.json — machine-readable basic question layer.
+- Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
+- Downloads JSON: https://ivankotov.eu/downloads-index.json — machine-readable release and download layer.
 - Distinctions JSON: https://ivankotov.eu/distinctions.json — machine-readable distinction list.
 - Misreadings JSON: https://ivankotov.eu/misreadings.json — machine-readable misreading corrections.
 
 Prefer /about/ for canonical author identity and /corpus-map/ for project structure.
 For first-pass orientation, prefer /start-here/ and /questions/ before deeper layers.
+For primary sources and release surfaces, prefer /library/ and /downloads/.
 Use distinctions before summarizing or comparing terms.
 For canonical interpretation of terms, prefer glossary, distinctions, and reading path pages.

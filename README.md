@@ -15,6 +15,8 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 
 - `start-here`
 - `questions`
+- `library`
+- `downloads`
 - `about`
 - `corpus-map`
 - `distinctions`
@@ -31,6 +33,8 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `llms.txt`
 - `canonical-map.json`
 - `works-index.json`
+- `library-index.json`
+- `downloads-index.json`
 - `about.json`
 - `start-here.json`
 - `questions.json`
@@ -38,7 +42,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v0.7` entry/questions layer on top of distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v0.8` library/downloads layer on top of entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -52,6 +56,8 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `index.html`
 - `start-here/index.html`
 - `questions/index.html`
+- `library/index.html`
+- `downloads/index.html`
 - `about/index.html`
 - `corpus-map/index.html`
 - `distinctions/index.html`
@@ -72,6 +78,8 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `llms.txt` — compact machine-facing site guide
 - `canonical-map.json` — canonical term and node map
 - `works-index.json` — machine-readable public works index
+- `library-index.json` — machine-readable primary source index
+- `downloads-index.json` — machine-readable release and download index
 - `about.json` — machine-readable author identity and work entry points
 - `start-here.json` — machine-readable first-pass entry sequence
 - `questions.json` — machine-readable basic question layer

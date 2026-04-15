@@ -1,0 +1,127 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/downloads/",
+  "items": [
+    {
+      "object": "Advanced Global Intelligence (AGI)",
+      "surface": "GitHub release v1.1",
+      "format": "release page / PDF bundle",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/v1.1",
+      "note": "Confirmed public release surface with attached PDF assets."
+    },
+    {
+      "object": "Advanced Global Intelligence (AGI)",
+      "surface": "Stable source snapshot",
+      "format": "zip source archive",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip",
+      "note": "Confirmed in the local README; TAR.GZ is also listed there."
+    },
+    {
+      "object": "Sovereign Entity Recursion (SER)",
+      "surface": "GitHub release ecosystem-v0.2-2026-02-24",
+      "format": "release page",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/ecosystem-v0.2-2026-02-24",
+      "note": "Confirmed public release surface; no attached assets confirmed."
+    },
+    {
+      "object": "Sovereign Entity Recursion (SER)",
+      "surface": "Stable source snapshot",
+      "format": "zip source archive",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip",
+      "note": "Confirmed in the local README; TAR.GZ is also listed there."
+    },
+    {
+      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "surface": "GitHub release l4-snapshot-2026-02-24",
+      "format": "release page",
+      "url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
+      "note": "Confirmed public release surface; no attached assets confirmed."
+    },
+    {
+      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "surface": "Stable source snapshot",
+      "format": "zip source archive",
+      "url": "https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip",
+      "note": "Confirmed in the local README; TAR.GZ is also listed there."
+    },
+    {
+      "object": "Ester Clean Code",
+      "surface": "GitHub release v0.2.5",
+      "format": "release page / attached asset",
+      "url": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.5",
+      "note": "Confirmed public release surface; attached asset artifact.txt is present."
+    },
+    {
+      "object": "Ester Clean Code",
+      "surface": "Stable source snapshot",
+      "format": "zip source archive",
+      "url": "https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.5.zip",
+      "note": "Confirmed in the local README; TAR.GZ is also listed there."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Downloads page",
+      "format": "md + pdf + epub + fb2",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
+      "note": "Confirmed repository download matrix for the public reading bundles."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "Russian",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#ru",
+      "note": "Status: provisional."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "French",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#fr",
+      "note": "Status: aligned."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "Spanish",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#es",
+      "note": "Status: provisional."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "German",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#de",
+      "note": "Status: aligned."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "English",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#en",
+      "note": "Status: provisional."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "Dutch",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#nl",
+      "note": "Status: aligned."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
+      "surface": "Language bundle",
+      "format": "md + pdf + epub + fb2",
+      "language": "Simplified Chinese",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#zh-cn",
+      "note": "Status: provisional."
+    }
+  ]
+}
