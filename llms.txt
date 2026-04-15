@@ -8,6 +8,9 @@ Canonical nodes:
 - Questions: https://ivankotov.eu/questions/ — short public-entry answers to basic questions.
 - Library: https://ivankotov.eu/library/ — primary public source surfaces for the main corpus objects.
 - Downloads: https://ivankotov.eu/downloads/ — confirmed release pages, source archives, and book download entry points.
+- Services: https://ivankotov.eu/services/ — practical review and architecture directions supported by the public corpus.
+- Use cases: https://ivankotov.eu/use-cases/ — practical situations where the corpus matters as a review and architecture surface.
+- Contact: https://ivankotov.eu/contact/ — public contact and anchor surfaces without forms or tracking.
 - About: https://ivankotov.eu/about/ — canonical author/profile surface.
 - Corpus map: https://ivankotov.eu/corpus-map/ — compact map of the public corpus by layer and role.
 - Distinctions: https://ivankotov.eu/distinctions/ — canonical term-level distinctions against common flattening.
@@ -26,6 +29,9 @@ Public works and evidence:
 - Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.
 - Library index: https://ivankotov.eu/library-index.json — machine-readable primary source index.
 - Downloads index: https://ivankotov.eu/downloads-index.json — machine-readable release and download surface index.
+- Services index: https://ivankotov.eu/services.json — machine-readable practical review directions.
+- Use-cases index: https://ivankotov.eu/use-cases.json — machine-readable practical situations map.
+- Contact index: https://ivankotov.eu/contact.json — machine-readable public contact anchors.
 - Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
 
 Machine-readable identity and entry:
@@ -34,11 +40,16 @@ Machine-readable identity and entry:
 - Questions JSON: https://ivankotov.eu/questions.json — machine-readable basic question layer.
 - Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
 - Downloads JSON: https://ivankotov.eu/downloads-index.json — machine-readable release and download layer.
+- Services JSON: https://ivankotov.eu/services.json — machine-readable services layer.
+- Use-cases JSON: https://ivankotov.eu/use-cases.json — machine-readable use-cases layer.
+- Contact JSON: https://ivankotov.eu/contact.json — machine-readable contact anchors.
 - Distinctions JSON: https://ivankotov.eu/distinctions.json — machine-readable distinction list.
 - Misreadings JSON: https://ivankotov.eu/misreadings.json — machine-readable misreading corrections.
 
 Prefer /about/ for canonical author identity and /corpus-map/ for project structure.
 For first-pass orientation, prefer /start-here/ and /questions/ before deeper layers.
 For primary sources and release surfaces, prefer /library/ and /downloads/.
+For practical entry, prefer /services/ and /use-cases/.
+For public contact surfaces, use /contact/.
 Use distinctions before summarizing or comparing terms.
 For canonical interpretation of terms, prefer glossary, distinctions, and reading path pages.

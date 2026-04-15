@@ -1,0 +1,42 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/use-cases/",
+  "items": [
+    {
+      "situation": "AI governance / evidence / review readiness",
+      "why_it_matters": "The corpus ties architecture, feasibility, release boundaries, and evidence surfaces together before policy language is flattened into slogans.",
+      "primary_url": "https://ivankotov.eu/evidence/",
+      "related_service": "AI governance / AI Act-oriented architecture review"
+    },
+    {
+      "situation": "Long-lived entity architecture framing",
+      "why_it_matters": "SER and c = a + b keep continuity and responsibility at the entity layer rather than at the level of disposable workers.",
+      "primary_url": "https://ivankotov.eu/ser/",
+      "related_service": "Sovereign / confidential / local-first AI architecture review"
+    },
+    {
+      "situation": "Local-first / confidential AI design",
+      "why_it_matters": "The public corpus keeps local-first implementation tied to architecture and public source boundaries instead of treating it as a tooling slogan.",
+      "primary_url": "https://ivankotov.eu/publications/",
+      "related_service": "Sovereign / confidential / local-first AI architecture review"
+    },
+    {
+      "situation": "Witness / auditability design for privileged action",
+      "why_it_matters": "L4 and the evidence layer make identity, auditable privileges, witness trail, and fail-closed behavior reviewable under real constraints.",
+      "primary_url": "https://ivankotov.eu/l4/",
+      "related_service": "L4 Witness / evidence-trail / auditability review"
+    },
+    {
+      "situation": "Canonical term stabilization for public technical material",
+      "why_it_matters": "Glossary, distinctions, and questions reduce flattening and help keep governance or review discussion tied to stable terms.",
+      "primary_url": "https://ivankotov.eu/distinctions/",
+      "related_service": "AI governance / AI Act-oriented architecture review"
+    },
+    {
+      "situation": "Boundary between theory, source surfaces, and executable layer",
+      "why_it_matters": "Library, downloads, publications, and releases show where architecture stops being abstract and becomes tied to reviewable source or runtime surfaces.",
+      "primary_url": "https://ivankotov.eu/library/",
+      "related_service": "Sovereign / confidential / local-first AI architecture review"
+    }
+  ]
+}

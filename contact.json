@@ -1,0 +1,22 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/contact/",
+  "anchors": [
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/ivan-kotov-57627b210"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/Kot141078"
+    },
+    {
+      "type": "orcid",
+      "url": "https://orcid.org/0009-0009-6002-9845"
+    },
+    {
+      "type": "hal",
+      "url": "https://hal.science/hal-05529115"
+    }
+  ]
+}

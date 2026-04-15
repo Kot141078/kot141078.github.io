@@ -5,6 +5,9 @@
   "corpus_map_url": "https://ivankotov.eu/corpus-map/",
   "library_url": "https://ivankotov.eu/library/",
   "downloads_url": "https://ivankotov.eu/downloads/",
+  "services_url": "https://ivankotov.eu/services/",
+  "use_cases_url": "https://ivankotov.eu/use-cases/",
+  "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
       "id": "agi",

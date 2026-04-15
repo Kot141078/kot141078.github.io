@@ -17,6 +17,9 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `questions`
 - `library`
 - `downloads`
+- `services`
+- `use-cases`
+- `contact`
 - `about`
 - `corpus-map`
 - `distinctions`
@@ -35,6 +38,9 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `works-index.json`
 - `library-index.json`
 - `downloads-index.json`
+- `services.json`
+- `use-cases.json`
+- `contact.json`
 - `about.json`
 - `start-here.json`
 - `questions.json`
@@ -42,7 +48,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v0.8` library/downloads layer on top of entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v0.9` services/use-cases/contact layer on top of library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -58,6 +64,9 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `questions/index.html`
 - `library/index.html`
 - `downloads/index.html`
+- `services/index.html`
+- `use-cases/index.html`
+- `contact/index.html`
 - `about/index.html`
 - `corpus-map/index.html`
 - `distinctions/index.html`
@@ -80,6 +89,9 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `works-index.json` — machine-readable public works index
 - `library-index.json` — machine-readable primary source index
 - `downloads-index.json` — machine-readable release and download index
+- `services.json` — machine-readable practical review directions
+- `use-cases.json` — machine-readable practical situations map
+- `contact.json` — machine-readable public contact anchors
 - `about.json` — machine-readable author identity and work entry points
 - `start-here.json` — machine-readable first-pass entry sequence
 - `questions.json` — machine-readable basic question layer

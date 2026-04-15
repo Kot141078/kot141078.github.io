@@ -57,6 +57,12 @@
       "answer": "Use /library/ for source surfaces and /downloads/ for confirmed release/file entry points.",
       "primary_url": "https://ivankotov.eu/library/",
       "secondary_url": "https://ivankotov.eu/downloads/"
+    },
+    {
+      "question": "What practical directions does this corpus support?",
+      "answer": "Use /services/ for grounded review directions and /use-cases/ for the practical situations where the corpus matters.",
+      "primary_url": "https://ivankotov.eu/services/",
+      "secondary_url": "https://ivankotov.eu/use-cases/"
     }
   ]
 }

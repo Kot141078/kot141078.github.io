@@ -1,0 +1,54 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/services/",
+  "items": [
+    {
+      "title": "AI governance / AI Act-oriented architecture review",
+      "summary": "Dry architecture review direction grounded in AGI, L4, evidence, and public source surfaces.",
+      "addresses": "The gap between governance language and the actual architecture, feasibility, and evidence contour.",
+      "primary_urls": [
+        "https://ivankotov.eu/advanced-global-intelligence/",
+        "https://ivankotov.eu/l4/",
+        "https://ivankotov.eu/evidence/",
+        "https://ivankotov.eu/library/"
+      ],
+      "not": [
+        "legal advice",
+        "instant certification",
+        "procurement shortcut"
+      ]
+    },
+    {
+      "title": "L4 Witness / evidence-trail / auditability review",
+      "summary": "Review direction for witness trail, auditable privileges, release boundaries, and fail-closed operational design.",
+      "addresses": "How identity, reviewability, and evidence boundaries stay legible under real constraints.",
+      "primary_urls": [
+        "https://ivankotov.eu/l4/",
+        "https://ivankotov.eu/evidence/",
+        "https://ivankotov.eu/releases/",
+        "https://ivankotov.eu/downloads/"
+      ],
+      "not": [
+        "forensic guarantee",
+        "managed SOC service",
+        "compliance badge generator"
+      ]
+    },
+    {
+      "title": "Sovereign / confidential / local-first AI architecture review",
+      "summary": "Review direction for continuity, sovereignty, local-first implementation, and confidential architecture boundaries.",
+      "addresses": "The boundary between long-lived entity framing, confidential/local-first design, and executable layers.",
+      "primary_urls": [
+        "https://ivankotov.eu/ser/",
+        "https://ivankotov.eu/advanced-global-intelligence/",
+        "https://ivankotov.eu/publications/",
+        "https://ivankotov.eu/library/"
+      ],
+      "not": [
+        "managed infrastructure outsourcing",
+        "generic chatbot integration",
+        "cloud migration sales copy"
+      ]
+    }
+  ]
+}
