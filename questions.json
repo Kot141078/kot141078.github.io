@@ -63,6 +63,11 @@
       "answer": "Use /services/ for grounded review directions and /use-cases/ for the practical situations where the corpus matters.",
       "primary_url": "https://ivankotov.eu/services/",
       "secondary_url": "https://ivankotov.eu/use-cases/"
+    },
+    {
+      "question": "Which topic page should I read first?",
+      "answer": "Start with /topics/; it groups the corpus by AI governance, local-first AI, and long-lived AI entities.",
+      "primary_url": "https://ivankotov.eu/topics/"
     }
   ]
 }

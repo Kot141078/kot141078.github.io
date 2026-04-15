@@ -15,6 +15,10 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 
 - `start-here`
 - `questions`
+- `topics`
+- `ai-governance`
+- `local-first-ai`
+- `long-lived-ai-entities`
 - `library`
 - `downloads`
 - `services`
@@ -44,11 +48,12 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `about.json`
 - `start-here.json`
 - `questions.json`
+- `topics-index.json`
 - `distinctions.json`
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v0.9` services/use-cases/contact layer on top of library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v1.0` topics/query-intent layer on top of services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -62,6 +67,10 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `index.html`
 - `start-here/index.html`
 - `questions/index.html`
+- `topics/index.html`
+- `ai-governance/index.html`
+- `local-first-ai/index.html`
+- `long-lived-ai-entities/index.html`
 - `library/index.html`
 - `downloads/index.html`
 - `services/index.html`
@@ -95,6 +104,7 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `about.json` — machine-readable author identity and work entry points
 - `start-here.json` — machine-readable first-pass entry sequence
 - `questions.json` — machine-readable basic question layer
+- `topics-index.json` — machine-readable topic and query-intent layer
 - `distinctions.json` — machine-readable distinction list
 - `misreadings.json` — machine-readable misreading corrections
 - `humans.txt` — human-oriented author/site summary

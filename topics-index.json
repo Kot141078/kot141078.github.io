@@ -1,0 +1,58 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/topics/",
+  "topics": [
+    {
+      "title": "AI governance",
+      "url": "https://ivankotov.eu/ai-governance/",
+      "summary": "Governance, oversight, and evidence-facing entry into reviewable architecture, feasibility, and public verification surfaces.",
+      "related_pages": [
+        "https://ivankotov.eu/l4/",
+        "https://ivankotov.eu/ser/",
+        "https://ivankotov.eu/evidence/",
+        "https://ivankotov.eu/services/",
+        "https://ivankotov.eu/publications/",
+        "https://ivankotov.eu/releases/"
+      ],
+      "related_works": [
+        "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/v1.1",
+        "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24"
+      ]
+    },
+    {
+      "title": "Local-first AI",
+      "url": "https://ivankotov.eu/local-first-ai/",
+      "summary": "Local-first, sovereign, and confidentiality-oriented entry into bounded architecture, identity, continuity, and implementation surfaces.",
+      "related_pages": [
+        "https://ivankotov.eu/about/",
+        "https://ivankotov.eu/services/",
+        "https://ivankotov.eu/use-cases/",
+        "https://ivankotov.eu/library/",
+        "https://ivankotov.eu/downloads/",
+        "https://ivankotov.eu/publications/"
+      ],
+      "related_works": [
+        "https://github.com/Kot141078/sovereign-entity-recursion",
+        "https://github.com/Kot141078/ester-clean-code",
+        "https://github.com/Kot141078/advanced-global-intelligence"
+      ]
+    },
+    {
+      "title": "Long-lived AI entities",
+      "url": "https://ivankotov.eu/long-lived-ai-entities/",
+      "summary": "Continuity-bearing entity entry into c = a + b, SER, distinctions from disposable workers, and the companion narrative layer.",
+      "related_pages": [
+        "https://ivankotov.eu/c-a-plus-b/",
+        "https://ivankotov.eu/ser/",
+        "https://ivankotov.eu/distinctions/",
+        "https://ivankotov.eu/misreadings/",
+        "https://ivankotov.eu/qubit-of-hope/"
+      ],
+      "related_works": [
+        "https://github.com/Kot141078/sovereign-entity-recursion",
+        "https://github.com/Kot141078/qubit-of-hope-volume-i",
+        "https://github.com/Kot141078/advanced-global-intelligence"
+      ]
+    }
+  ]
+}
