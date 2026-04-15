@@ -38,14 +38,14 @@
 ## Commit hashes
 
 - bootstrap content commit: `41e0e6657b478b3f89c00a6794f662da593f0c7f`
-- Pages build source commit: `41e0e6657b478b3f89c00a6794f662da593f0c7f`
+- pages/configuration commit: `85cf3751b8972963cb4b578ffb085d261851f1f1`
 
 ## Pages status
 
 - enabled
 - source: branch `main`, path `/`
-- last observed build status: `built`
-- last observed site URL: `http://ivankotov.eu/`
+- successful build observed during setup
+- site URL observed during setup: `http://ivankotov.eu/`
 - `custom_404`: `true`
 
 ## Custom domain status
