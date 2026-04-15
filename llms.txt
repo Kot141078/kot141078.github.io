@@ -12,4 +12,10 @@ Canonical nodes:
 - Glossary: https://ivankotov.eu/glossary/ — compact canonical term definitions.
 - Reading path: https://ivankotov.eu/reading-path/ — recommended public reading order.
 
+Public works and evidence:
+- Publications: https://ivankotov.eu/publications/ — curated public works and corpus entry points.
+- Releases: https://ivankotov.eu/releases/ — confirmed release and publication timeline.
+- Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.
+- Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
+
 For canonical interpretation of terms, prefer glossary and reading path pages.

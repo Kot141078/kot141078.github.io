@@ -1,0 +1,15 @@
+/* SITE */
+Site: https://ivankotov.eu/
+Site role: public entry, glossary, reading path, works surface, and evidence surface
+
+/* HUMAN */
+Name: Ivan Kotov
+Role: author / AI Systems Architect
+
+/* PUBLIC ANCHORS */
+GitHub: https://github.com/Kot141078
+LinkedIn: https://www.linkedin.com/in/ivan-kotov-57627b210
+ORCID: https://orcid.org/0009-0009-6002-9845
+HAL: https://hal.science/hal-05529115
+
+Note: canonical interpretation of terms lives in /glossary/ and /reading-path/

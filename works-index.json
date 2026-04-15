@@ -1,0 +1,83 @@
+{
+  "person": "Ivan Kotov",
+  "primary_domain": "https://ivankotov.eu/",
+  "works": [
+    {
+      "id": "agi",
+      "title": "Advanced Global Intelligence (AGI)",
+      "type": "repo",
+      "role": "architecture",
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/v1.1",
+      "date": "2026-01-02",
+      "version": "v1.1"
+    },
+    {
+      "id": "ser",
+      "title": "Sovereign Entity Recursion (SER)",
+      "type": "repo",
+      "role": "architecture",
+      "primary_url": "https://github.com/Kot141078/sovereign-entity-recursion",
+      "secondary_url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/ecosystem-v0.2-2026-02-24",
+      "date": "2026-02-25",
+      "version": "ecosystem-v0.2-2026-02-24"
+    },
+    {
+      "id": "erb-l4",
+      "title": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "type": "repo",
+      "role": "architecture",
+      "primary_url": "https://github.com/Kot141078/ester-reality-bound",
+      "secondary_url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
+      "date": "2026-02-25",
+      "version": "l4-snapshot-2026-02-24"
+    },
+    {
+      "id": "ester-clean-code",
+      "title": "Ester Clean Code",
+      "type": "repo",
+      "role": "implementation",
+      "primary_url": "https://github.com/Kot141078/ester-clean-code",
+      "secondary_url": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.5",
+      "date": "2026-04-11",
+      "version": "v0.2.5"
+    },
+    {
+      "id": "qubit-of-hope-volume-i",
+      "title": "Qubit of Hope — Volume I",
+      "type": "book",
+      "role": "narrative",
+      "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+      "date": "2026-04-11",
+      "version": "first-publication"
+    },
+    {
+      "id": "github-profile",
+      "title": "GitHub profile",
+      "type": "anchor",
+      "role": "profile/identity anchor",
+      "primary_url": "https://github.com/Kot141078"
+    },
+    {
+      "id": "linkedin-profile",
+      "title": "LinkedIn profile",
+      "type": "anchor",
+      "role": "profile/identity anchor",
+      "primary_url": "https://www.linkedin.com/in/ivan-kotov-57627b210"
+    },
+    {
+      "id": "orcid-profile",
+      "title": "ORCID profile",
+      "type": "anchor",
+      "role": "profile/identity anchor",
+      "primary_url": "https://orcid.org/0009-0009-6002-9845"
+    },
+    {
+      "id": "hal-record",
+      "title": "HAL record",
+      "type": "anchor",
+      "role": "profile/identity anchor",
+      "primary_url": "https://hal.science/hal-05529115"
+    }
+  ]
+}
