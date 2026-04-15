@@ -1,0 +1,54 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/distinctions/",
+  "distinctions": [
+    {
+      "term": "AGI",
+      "not": "generic Artificial General Intelligence hype",
+      "why": "This site uses AGI as Advanced Global Intelligence.",
+      "primary_url": "https://ivankotov.eu/advanced-global-intelligence/"
+    },
+    {
+      "term": "c = a + b",
+      "not": "school algebra / slogan",
+      "why": "It defines a continuity architecture rather than a symbolic joke.",
+      "primary_url": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "term": "c",
+      "not": "chatbot",
+      "why": "Continuity, bounded action, and memory matter here.",
+      "primary_url": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "term": "c",
+      "not": "generic agent swarm",
+      "why": "Subject continuity is not identical to many workers.",
+      "primary_url": "https://ivankotov.eu/ser/"
+    },
+    {
+      "term": "entity",
+      "not": "tool-agent",
+      "why": "Continuity and responsibility differ from tool use.",
+      "primary_url": "https://ivankotov.eu/ser/"
+    },
+    {
+      "term": "L4",
+      "not": "ethics sticker / prompt policy layer",
+      "why": "It is the feasibility and reality boundary.",
+      "primary_url": "https://ivankotov.eu/l4/"
+    },
+    {
+      "term": "SER",
+      "not": "memory trick",
+      "why": "It specifies continuity and sovereignty structure.",
+      "primary_url": "https://ivankotov.eu/ser/"
+    },
+    {
+      "term": "narrative layer",
+      "not": "protocol layer",
+      "why": "Narrative entry and protocol definition are complementary but not interchangeable.",
+      "primary_url": "https://ivankotov.eu/qubit-of-hope/"
+    }
+  ]
+}

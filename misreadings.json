@@ -1,0 +1,41 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/misreadings/",
+  "items": [
+    {
+      "misreading": "AGI here means generic AGI hype.",
+      "correction": "Here AGI means Advanced Global Intelligence.",
+      "primary_url": "https://ivankotov.eu/advanced-global-intelligence/"
+    },
+    {
+      "misreading": "c = a + b is just symbolic rhetoric.",
+      "correction": "It is used as a canonical architecture formula.",
+      "primary_url": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "misreading": "c is just a chatbot.",
+      "correction": "Here c is continuity-bearing and time-bound.",
+      "primary_url": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "misreading": "L4 is just safety language.",
+      "correction": "It is tied to cost, time, heat, maintenance, scarcity, and irreversibility.",
+      "primary_url": "https://ivankotov.eu/l4/"
+    },
+    {
+      "misreading": "SER is just another multi-agent framing.",
+      "correction": "It is about entity continuity and sovereignty structure.",
+      "primary_url": "https://ivankotov.eu/ser/"
+    },
+    {
+      "misreading": "The book replaces the protocol layer.",
+      "correction": "It is a narrative entry, not a substitute.",
+      "primary_url": "https://ivankotov.eu/qubit-of-hope/"
+    },
+    {
+      "misreading": "Entity and tool-agent mean the same thing here.",
+      "correction": "They differ because continuity and responsibility differ.",
+      "primary_url": "https://ivankotov.eu/glossary/"
+    }
+  ]
+}

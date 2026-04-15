@@ -11,10 +11,12 @@ This repository serves a minimal public entry page for:
 - `ester-reality-bound`
 - `ester-clean-code`
 
-It also includes canonical, identity, and authority/evidence layers through:
+It also includes canonical, identity, authority/evidence, and distinctions layers through:
 
 - `about`
 - `corpus-map`
+- `distinctions`
+- `misreadings`
 - `c = a + b`
 - `L4`
 - `SER`
@@ -28,9 +30,11 @@ It also includes canonical, identity, and authority/evidence layers through:
 - `canonical-map.json`
 - `works-index.json`
 - `about.json`
+- `distinctions.json`
+- `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v0.5` identity/corpus-map layer on top of authority/evidence layer `v0.4` and canonical layer `v0.3`.
+Current site layer: `v0.6` distinctions/misreadings layer on top of identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -39,11 +43,13 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - Primary custom domain: `ivankotov.eu`
 - GitHub Pages source: branch `main`, path `/`
 
-## Canonical, identity, and evidence pages
+## Canonical, identity, evidence, and distinctions pages
 
 - `index.html`
 - `about/index.html`
 - `corpus-map/index.html`
+- `distinctions/index.html`
+- `misreadings/index.html`
 - `advanced-global-intelligence/index.html`
 - `c-a-plus-b/index.html`
 - `l4/index.html`
@@ -61,13 +67,15 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `canonical-map.json` — canonical term and node map
 - `works-index.json` — machine-readable public works index
 - `about.json` — machine-readable author identity and work entry points
+- `distinctions.json` — machine-readable distinction list
+- `misreadings.json` — machine-readable misreading corrections
 - `humans.txt` — human-oriented author/site summary
 
 ## Updating content
 
 1. Edit the static files in the repository root or canonical subdirectories.
-2. Keep dates, versions, links, and role labels aligned with the public mirrors and the already published site layer; do not invent biographical or release metadata.
-3. Keep the site dry: glossary, reading path, identity, corpus map, works, releases, and evidence only where they add a real navigation or verification function.
+2. Keep dates, versions, links, and role labels aligned with the public mirrors and the already published site layer; do not invent biographical, semantic, or release metadata.
+3. Keep the site dry: glossary, reading path, identity, corpus map, distinctions, works, releases, and evidence only where they add a real navigation or verification function.
 4. Commit changes on `main`.
 5. Push to `origin`.
 
