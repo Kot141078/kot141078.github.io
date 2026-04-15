@@ -2,7 +2,7 @@
 
 - Date: `2026-04-15`
 - Iteration ID: `SITE_CANONICAL_LAYER_V02`
-- Result: `pending deploy check`
+- Result: `completed`
 
 ## Added and updated
 
@@ -74,6 +74,15 @@
 - No invented book metadata such as ISBN, publisher, or extra market fields.
 - No synthetic cover was drawn.
 - No new facts were introduced outside the local mirrors.
+
+## Commit and deploy
+
+- Content commit:
+  `03564360d2079821b802e0f637e85680e96841a4`
+- GitHub Pages deploy status after push:
+  `built`
+- Post-deploy checks saved to:
+  `artifacts/canonical-layer-v02/POST_DEPLOY_CHECK.md`
 
 ## Repository boundary
 
