@@ -11,6 +11,13 @@ This repository serves a minimal public entry page for:
 - `ester-reality-bound`
 - `ester-clean-code`
 
+It also includes canonical layer `v0.2` entry nodes for:
+
+- `c = a + b`
+- `L4`
+- `SER`
+- `Qubit of Hope — Volume I`
+
 It is a plain static site: HTML + CSS only, no build step, no package manager, no framework.
 
 ## Primary domain
@@ -26,6 +33,9 @@ It is a plain static site: HTML + CSS only, no build step, no package manager, n
    - `404.html`
    - `advanced-global-intelligence/index.html`
    - `c-a-plus-b/index.html`
+   - `l4/index.html`
+   - `ser/index.html`
+   - `qubit-of-hope/index.html`
 2. Commit changes on `main`.
 3. Push to `origin`.
 

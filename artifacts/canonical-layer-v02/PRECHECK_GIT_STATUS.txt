@@ -1,0 +1,2 @@
+
+working_tree_clean=true

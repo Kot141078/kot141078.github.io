@@ -242,6 +242,85 @@ h3 {
   margin-top: 1.2rem;
 }
 
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.section-links a {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.media-split {
+  display: grid;
+  grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.media-frame {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--bg-panel), #f5f1e8);
+  padding: 0.85rem;
+}
+
+.media-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.caption-note {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--bg-panel), #f5f1e8);
+}
+
+.matrix-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+
+.matrix-table th {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.98rem;
+}
+
+.matrix-table tr:last-child td {
+  border-bottom: none;
+}
+
+.status-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .back-link {
   display: inline-flex;
   margin-top: 1.4rem;
@@ -260,6 +339,10 @@ h3 {
 
   .card-grid,
   .link-list {
+    grid-template-columns: 1fr;
+  }
+
+  .media-split {
     grid-template-columns: 1fr;
   }
 
