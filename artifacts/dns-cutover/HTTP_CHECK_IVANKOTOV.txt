@@ -1,0 +1,51 @@
+=== http://ivankotov.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+HTTP/1.1 302 Moved Temporarily
+date: Wed, 15 Apr 2026 09:59:00 GMT
+content-type: text/html
+content-length: 142
+location: http://www.ivankotov.eu
+server: OVHcloud
+x-iplb-request-id: 6D887F46:1006_D5BA2105:0050_69DF6164_D2B394B3:5328
+x-iplb-instance: 52345
+
+
+=== https://ivankotov.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+curl: (35) Recv failure: Connection was reset
+
+=== http://www.ivankotov.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0  16224   0      0   0      0      0      0                              0
+  0  16224   0      0   0      0      0      0                              0
+  0  16224   0      0   0      0      0      0                              0
+HTTP/1.1 200 OK
+date: Wed, 15 Apr 2026 09:59:00 GMT
+content-type: text/html; charset=utf8
+pragma: no-cache
+cache-control: no-store, no-cache, must-revalidate
+content-length: 16224
+server: OVHcloud
+x-iplb-request-id: 6D887F46:100C_D5BA2105:0050_69DF6164_CFE25EAB:4983
+x-iplb-instance: 52193
+
+
+=== https://www.ivankotov.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+curl: (35) Recv failure: Connection was reset
+

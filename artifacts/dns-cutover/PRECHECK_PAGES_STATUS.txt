@@ -1,0 +1,1 @@
+{"url":"https://api.github.com/repos/Kot141078/kot141078.github.io/pages","status":"built","cname":"ivankotov.eu","custom_404":true,"html_url":"http://ivankotov.eu/","build_type":"legacy","source":{"branch":"main","path":"/"},"public":true,"protected_domain_state":null,"pending_domain_unverified_at":null,"https_enforced":false}

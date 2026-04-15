@@ -1,0 +1,26 @@
+Exact GitHub verification TXT name/value could not be obtained from this environment.
+GitHub profile-level Pages verified-domain UI/API was not accessible via available tools.
+
+Current TXT query for ivankotov.eu:
+
+QueryType    : TXT
+Text         : {1|www.ivankotov.eu}
+Strings      : {1|www.ivankotov.eu}
+Name         : ivankotov.eu
+Type         : TXT
+CharacterSet : Unicode
+Section      : Answer
+DataLength   : 16
+TTL          : 3587
+
+QueryType    : TXT
+Text         : {v=spf1 include:mx.ovh.com -all}
+Strings      : {v=spf1 include:mx.ovh.com -all}
+Name         : ivankotov.eu
+Type         : TXT
+CharacterSet : Unicode
+Section      : Answer
+DataLength   : 16
+TTL          : 3587
+
+

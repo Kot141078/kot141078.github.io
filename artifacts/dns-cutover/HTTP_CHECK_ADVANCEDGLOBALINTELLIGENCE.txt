@@ -1,0 +1,55 @@
+=== http://advancedglobalintelligence.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+  0    142   0      0   0      0      0      0                              0
+HTTP/1.1 302 Moved Temporarily
+date: Wed, 15 Apr 2026 09:59:00 GMT
+content-type: text/html
+content-length: 142
+location: http://www.advancedglobalintelligence.eu
+server: OVHcloud
+x-iplb-request-id: 6D887F46:1012_D5BA2105:0050_69DF6164_D101E602:51EA
+x-iplb-instance: 52243
+
+
+=== https://advancedglobalintelligence.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0      0   0      0   0      0      0      0           00:01              0
+  0      0   0      0   0      0      0      0           00:02              0
+curl: (7) Failed to connect to advancedglobalintelligence.eu port 443 after 2051 ms: Could not connect to server
+
+=== http://www.advancedglobalintelligence.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0  30925   0      0   0      0      0      0                              0
+  0  30925   0      0   0      0      0      0                              0
+  0  30925   0      0   0      0      0      0                              0
+HTTP/1.1 200 OK
+date: Wed, 15 Apr 2026 09:59:03 GMT
+content-type: text/html; charset=utf8
+pragma: no-cache
+cache-control: no-store, no-cache, must-revalidate
+content-length: 30925
+server: OVHcloud
+x-iplb-request-id: 6D887F46:1018_D5BA2105:0050_69DF6167_D101F313:51EA
+x-iplb-instance: 52243
+
+
+=== https://www.advancedglobalintelligence.eu ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+System.Management.Automation.RemoteException
+  0      0   0      0   0      0      0      0                              0
+  0      0   0      0   0      0      0      0           00:01              0
+  0      0   0      0   0      0      0      0           00:02              0
+curl: (7) Failed to connect to www.advancedglobalintelligence.eu port 443 after 2042 ms: Could not connect to server
+

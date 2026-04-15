@@ -1,0 +1,13 @@
+
+Address      : 213.186.33.5
+IPAddress    : 213.186.33.5
+QueryType    : A
+IP4Address   : 213.186.33.5
+Name         : ivankotov.eu
+Type         : A
+CharacterSet : Unicode
+Section      : Answer
+DataLength   : 4
+TTL          : 3600
+
+

@@ -1,0 +1,18 @@
+
+QueryType              : SOA
+Administrator          : tech.ovh.net
+PrimaryServer          : dns14.ovh.net
+NameAdministrator      : tech.ovh.net
+SerialNumber           : 2076243905
+TimeToZoneRefresh      : 86400
+TimeToZoneFailureRetry : 3600
+TimeToExpiration       : 3600000
+DefaultTTL             : 60
+Name                   : ivankotov.eu
+Type                   : SOA
+CharacterSet           : Unicode
+Section                : Authority
+DataLength             : 40
+TTL                    : 60
+
+
