@@ -5,8 +5,14 @@
     {
       "name": "AGI",
       "slug": "agi",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/agi/"
+    },
+    {
+      "name": "AI Architecture",
+      "slug": "ai-architecture",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
       "name": "AI Safety",
@@ -21,10 +27,28 @@
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
+      "name": "Data Mining",
+      "slug": "data-mining",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/data-mining/"
+    },
+    {
       "name": "Decentralized AI",
       "slug": "decentralized-ai",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/decentralized-ai/"
+    },
+    {
+      "name": "Economy",
+      "slug": "economy",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/economy/"
+    },
+    {
+      "name": "Future Tech",
+      "slug": "future-tech",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/future-tech/"
     }
   ]
 }
