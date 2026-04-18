@@ -634,6 +634,7 @@ def post_ld_json(entry: Entry) -> str:
             "@id": f"{entry.url}#post",
             "headline": entry.title,
             "url": entry.url,
+            "mainEntityOfPage": entry.url,
             "datePublished": entry.date_iso,
             "dateModified": entry.date_iso,
             "author": {"@type": "Person", "name": "Ivan Kotov", "url": "https://ivankotov.eu/about/"},
@@ -651,6 +652,8 @@ def post_ld_json(entry: Entry) -> str:
             ],
         },
     ]
+    if entry.tags:
+        graph[0]["keywords"] = ", ".join(tag.name for tag in entry.tags)
     if entry.primary_image:
         graph[0]["image"] = f"{SITE_URL}{entry.primary_image}"
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)

@@ -5,6 +5,13 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 14:09:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 15:10:04 +0000</lastBuildDate>
+    <item>
+      <title>AGI as Advanced Global Intelligence — public release v1.1</title>
+      <link>https://ivankotov.eu/diary/agi-public-release-v1-1/</link>
+      <guid>https://ivankotov.eu/diary/agi-public-release-v1-1/</guid>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0000</pubDate>
+      <description>Public release v1.1 of Advanced Global Intelligence (AGI) as a structured document pack that treats AGI as a distributed cybernetic ecosystem.</description>
+    </item>
   </channel>
 </rss>

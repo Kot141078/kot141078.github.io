@@ -1,7 +1,35 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 0,
-  "latest": null,
-  "items": []
+  "count": 1,
+  "latest": {
+    "title": "AGI as Advanced Global Intelligence — public release v1.1",
+    "date": "2026-01-02",
+    "slug": "agi-public-release-v1-1",
+    "summary": "Public release v1.1 of Advanced Global Intelligence (AGI) as a structured document pack that treats AGI as a distributed cybernetic ecosystem.",
+    "tags": [
+      "AGI",
+      "AI Safety",
+      "Cybernetics",
+      "Decentralized AI"
+    ],
+    "page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7412760534699245568--biu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+  },
+  "items": [
+    {
+      "title": "AGI as Advanced Global Intelligence — public release v1.1",
+      "date": "2026-01-02",
+      "slug": "agi-public-release-v1-1",
+      "summary": "Public release v1.1 of Advanced Global Intelligence (AGI) as a structured document pack that treats AGI as a distributed cybernetic ecosystem.",
+      "tags": [
+        "AGI",
+        "AI Safety",
+        "Cybernetics",
+        "Decentralized AI"
+      ],
+      "page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7412760534699245568--biu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/tags/",
-  "tags": []
+  "tags": [
+    {
+      "name": "AGI",
+      "slug": "agi",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/agi/"
+    },
+    {
+      "name": "AI Safety",
+      "slug": "ai-safety",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ai-safety/"
+    },
+    {
+      "name": "Cybernetics",
+      "slug": "cybernetics",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/cybernetics/"
+    },
+    {
+      "name": "Decentralized AI",
+      "slug": "decentralized-ai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/decentralized-ai/"
+    }
+  ]
 }
