@@ -2,30 +2,25 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Data harvesting is not \"inevitable\". It's a design choice.",
-    "date": "2026-03-03",
-    "slug": "data-harvesting-is-not-inevitable-it-s-a-design-choice",
-    "summary": "A note arguing that raw data should stay local while structured experience, not private exhaust, becomes the export surface for AI learning.",
+    "title": "AI isn't \"expensive.\" It's becoming infrastructure.",
+    "date": "2026-03-08",
+    "slug": "ai-isnt-expensive-its-becoming-infrastructure",
+    "summary": "A note that AI now behaves like infrastructure load, making local continuity, revocable cloud use, and constrained operation more important than model size.",
     "tags": [
-      "AI",
-      "Privacy",
-      "Data Minimization",
+      "AI Infrastructure",
+      "L4",
       "Local First",
-      "Edge AI",
-      "Digital Sovereignty",
-      "Cybersecurity",
-      "LLM",
-      "AI Architecture",
-      "Homelab",
-      "Gaming",
-      "Cloud Gaming",
-      "AI Governance",
-      "SER",
-      "L4"
+      "AI Agents",
+      "Reliability",
+      "Cybernetics",
+      "Governance",
+      "Verification",
+      "Resilience",
+      "Sovereign AI"
     ],
-    "page": "https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/",
-    "primary_image": "https://ivankotov.eu/assets/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/cover.jpg",
-    "image_alt": "Image of a lit home server rack and desk setup in a workshop, with a large data-center-like building visible through the rainy window.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-privacy-dataminimization-activity-7433254743470145537-V65B?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/",
+    "primary_image": "https://ivankotov.eu/assets/diary/ai-isnt-expensive-its-becoming-infrastructure/cover.jpg",
+    "image_alt": "Aerial view of a city beneath a large cloud with many glowing lines connecting the cloud to buildings below.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-l4-localfirst-activity-7434855226974580736-EDg7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 20:47:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 21:08:55 +0000</lastBuildDate>
+    <item>
+      <title>AI isn&#x27;t &quot;expensive.&quot; It&#x27;s becoming infrastructure.</title>
+      <link>https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/</link>
+      <guid>https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/</guid>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that AI now behaves like infrastructure load, making local continuity, revocable cloud use, and constrained operation more important than model size.</description>
+    </item>
+    <item>
+      <title>When tokens become electricity, &quot;terms of use&quot; become physics</title>
+      <link>https://ivankotov.eu/diary/when-tokens-become-electricity-terms-of-use-become-physics/</link>
+      <guid>https://ivankotov.eu/diary/when-tokens-become-electricity-terms-of-use-become-physics/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that machine-paced agent loops turn token access into infrastructure, demanding local continuity, budgets, and revocable cloud dependencies.</description>
+    </item>
+    <item>
+      <title>Experience Economy: why verified experience will outprice &quot;raw intelligence&quot;</title>
+      <link>https://ivankotov.eu/diary/experience-economy-why-verified-experience-will-outprice-raw-intelligence/</link>
+      <guid>https://ivankotov.eu/diary/experience-economy-why-verified-experience-will-outprice-raw-intelligence/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that verified experience becomes economically valuable only when it compresses uncertainty and provably reduces cost and risk.</description>
+    </item>
+    <item>
+      <title>Most AI talk is still stuck on capability: &quot;What can it do?&quot;</title>
+      <link>https://ivankotov.eu/diary/most-ai-talk-is-still-stuck-on-capability-what-can-it-do/</link>
+      <guid>https://ivankotov.eu/diary/most-ai-talk-is-still-stuck-on-capability-what-can-it-do/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that AI systems need a personal buffer architecture that preserves human agency instead of replacing it at machine speed.</description>
+    </item>
+    <item>
+      <title>AI horror stories sell emotion. The real AI shift is boring: responsibility, limits, and proof.</title>
+      <link>https://ivankotov.eu/diary/ai-horror-stories-sell-emotion-the-real-ai-shift-is-boring-responsibility-limits-and-proof/</link>
+      <guid>https://ivankotov.eu/diary/ai-horror-stories-sell-emotion-the-real-ai-shift-is-boring-responsibility-limits-and-proof/</guid>
+      <pubDate>Wed, 04 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note arguing that the real AI shift is about responsibility, limits, proof, and verification rather than fear-driven storylines.</description>
+    </item>
     <item>
       <title>Data harvesting is not &quot;inevitable&quot;. It&#x27;s a design choice.</title>
       <link>https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/</link>
