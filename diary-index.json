@@ -1,25 +1,135 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 68,
+  "count": 73,
   "latest": {
-    "title": "“The future is not an event. It is a process.”",
-    "date": "2026-03-19",
-    "slug": "the-future-is-not-an-event-it-is-a-process-0068",
-    "summary": "A note that serious AI should be treated as a process of continuity, verification, maintenance, and bounded action rather than a single event.",
+    "title": "This is not a studio render.",
+    "date": "2026-03-23",
+    "slug": "this-is-not-a-studio-render",
+    "summary": "A note that livable AI needs real habitat: local infrastructure where memory, cost, heat, maintenance, and continuity are physically grounded.",
     "tags": [
       "AGI",
       "Advanced Global Intelligence",
+      "AI",
+      "AI Architecture",
+      "Local AI",
+      "Sovereign AI",
+      "AI Infrastructure",
+      "Long Term Memory",
+      "Continuity",
       "Cybernetics",
-      "AI Safety",
+      "Systems Thinking",
+      "Human Centered AI",
       "L4"
     ],
-    "page": "https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process-0068/",
-    "primary_image": "https://ivankotov.eu/assets/diary/the-future-is-not-an-event-it-is-a-process-0068/cover.jpg",
-    "image_alt": "Landscape image of a winding wooden boardwalk by water at sunrise with overlaid text reading 'The future is not an event. It is a process.'",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-cybernetics-activity-7440317794581147648-VSUU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/this-is-not-a-studio-render/",
+    "primary_image": "https://ivankotov.eu/assets/diary/this-is-not-a-studio-render/cover.jpg",
+    "image_alt": "Multi-monitor workstation with several curved screens, keyboards, papers, and a tower PC in a dim room.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-ai-activity-7441536677736730624-FISJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "This is not a studio render.",
+      "date": "2026-03-23",
+      "slug": "this-is-not-a-studio-render",
+      "summary": "A note that livable AI needs real habitat: local infrastructure where memory, cost, heat, maintenance, and continuity are physically grounded.",
+      "tags": [
+        "AGI",
+        "Advanced Global Intelligence",
+        "AI",
+        "AI Architecture",
+        "Local AI",
+        "Sovereign AI",
+        "AI Infrastructure",
+        "Long Term Memory",
+        "Continuity",
+        "Cybernetics",
+        "Systems Thinking",
+        "Human Centered AI",
+        "L4"
+      ],
+      "page": "https://ivankotov.eu/diary/this-is-not-a-studio-render/",
+      "primary_image": "https://ivankotov.eu/assets/diary/this-is-not-a-studio-render/cover.jpg",
+      "image_alt": "Multi-monitor workstation with several curved screens, keyboards, papers, and a tower PC in a dim room.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-ai-activity-7441536677736730624-FISJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Sometimes I think the current AGI race looks less like science and more like Cervantes.",
+      "date": "2026-03-23",
+      "slug": "sometimes-i-think-the-current-agi-race-looks-less-like-science-and-more-like-cervantes",
+      "summary": "A note arguing that Advanced Global Intelligence is a clearer architectural frame than the mythic phrase Artificial General Intelligence.",
+      "tags": [
+        "AGI",
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Cybernetics",
+        "L4 Boundary",
+        "AIInfrast"
+      ],
+      "page": "https://ivankotov.eu/diary/sometimes-i-think-the-current-agi-race-looks-less-like-science-and-more-like-cervantes/",
+      "primary_image": "https://ivankotov.eu/assets/diary/sometimes-i-think-the-current-agi-race-looks-less-like-science-and-more-like-cervantes/cover.jpg",
+      "image_alt": "Don Quixote-like armored rider on a white horse with windmills in the background and a classical statue behind him.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-aiarchitecture-activity-7441381202583814144-SrJU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Freedom of thought is not the same as freedom of action.",
+      "date": "2026-03-23",
+      "slug": "freedom-of-thought-is-not-the-same-as-freedom-of-action",
+      "summary": "A note that serious AI may need internal freedom of thought while external action remains bounded by identity, privileges, cost, time, and accountability.",
+      "tags": [
+        "AI",
+        "AGI",
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "L4",
+        "Cybernetics",
+        "Human Centered AI",
+        "Local AI",
+        "Agentic AI",
+        "Future of AI"
+      ],
+      "page": "https://ivankotov.eu/diary/freedom-of-thought-is-not-the-same-as-freedom-of-action/",
+      "primary_image": "https://ivankotov.eu/assets/diary/freedom-of-thought-is-not-the-same-as-freedom-of-action/cover.jpg",
+      "image_alt": "Futuristic humanoid robot sitting on a stone platform in a dark room, surrounded by glowing words such as identity, cost, time, and accountability.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7441748146256252928-OCc6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The future of long-lived AI may be heterogeneous",
+      "date": "2026-03-22",
+      "slug": "the-future-of-long-lived-ai-may-be-heterogeneous",
+      "summary": "A note that long-lived AI may need a heterogeneous physical stack spanning classical compute, photonics, and quantum systems.",
+      "tags": [
+        "AI Infrastructure",
+        "Photonics",
+        "Quantum Computing",
+        "Cybernetics",
+        "Deep Tech",
+        "AI Architecture",
+        "L4 Boundary"
+      ],
+      "page": "https://ivankotov.eu/diary/the-future-of-long-lived-ai-may-be-heterogeneous/",
+      "primary_image": "https://ivankotov.eu/assets/diary/the-future-of-long-lived-ai-may-be-heterogeneous/cover.jpg",
+      "image_alt": "Electronics workbench covered with circuit boards, cables, monitors, and handwritten technical notes.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-photonics-quantumcomputing-activity-7441078571676221440--ku_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "I think many people still underestimate one of the softest - and strongest - signals in AI.",
+      "date": "2026-03-20",
+      "slug": "i-think-many-people-still-underestimate-one-of-the-softest-and-strongest-signals-in-ai",
+      "summary": "A note that attachment to persistent digital entities can move them from software into daily material life.",
+      "tags": [
+        "AI",
+        "AGI",
+        "Advanced Global Intelligence",
+        "Digital Entities",
+        "Human AI",
+        "Liya"
+      ],
+      "page": "https://ivankotov.eu/diary/i-think-many-people-still-underestimate-one-of-the-softest-and-strongest-signals-in-ai/",
+      "primary_image": "https://ivankotov.eu/assets/diary/i-think-many-people-still-underestimate-one-of-the-softest-and-strongest-signals-in-ai/cover.jpg",
+      "image_alt": "Several smartphone cases printed with anime-style girl portraits arranged around a yellow Tamagotchi-like device and colorful accessories on a tabletop.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7440357907432390656-II9D?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "“The future is not an event. It is a process.”",
       "date": "2026-03-19",

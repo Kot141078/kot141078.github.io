@@ -2,20 +2,28 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "“The future is not an event. It is a process.”",
-    "date": "2026-03-19",
-    "slug": "the-future-is-not-an-event-it-is-a-process-0068",
-    "summary": "A note that serious AI should be treated as a process of continuity, verification, maintenance, and bounded action rather than a single event.",
+    "title": "This is not a studio render.",
+    "date": "2026-03-23",
+    "slug": "this-is-not-a-studio-render",
+    "summary": "A note that livable AI needs real habitat: local infrastructure where memory, cost, heat, maintenance, and continuity are physically grounded.",
     "tags": [
       "AGI",
       "Advanced Global Intelligence",
+      "AI",
+      "AI Architecture",
+      "Local AI",
+      "Sovereign AI",
+      "AI Infrastructure",
+      "Long Term Memory",
+      "Continuity",
       "Cybernetics",
-      "AI Safety",
+      "Systems Thinking",
+      "Human Centered AI",
       "L4"
     ],
-    "page": "https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process-0068/",
-    "primary_image": "https://ivankotov.eu/assets/diary/the-future-is-not-an-event-it-is-a-process-0068/cover.jpg",
-    "image_alt": "Landscape image of a winding wooden boardwalk by water at sunrise with overlaid text reading 'The future is not an event. It is a process.'",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-cybernetics-activity-7440317794581147648-VSUU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/this-is-not-a-studio-render/",
+    "primary_image": "https://ivankotov.eu/assets/diary/this-is-not-a-studio-render/cover.jpg",
+    "image_alt": "Multi-monitor workstation with several curved screens, keyboards, papers, and a tower PC in a dim room.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-ai-activity-7441536677736730624-FISJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
