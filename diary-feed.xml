@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 20:24:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 20:47:06 +0000</lastBuildDate>
+    <item>
+      <title>Data harvesting is not &quot;inevitable&quot;. It&#x27;s a design choice.</title>
+      <link>https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/</link>
+      <guid>https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/</guid>
+      <pubDate>Tue, 03 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note arguing that raw data should stay local while structured experience, not private exhaust, becomes the export surface for AI learning.</description>
+    </item>
+    <item>
+      <title>L4 in Practice: 5 Reality Signals That Kill &quot;Smart&quot; Systems</title>
+      <link>https://ivankotov.eu/diary/l4-in-practice-5-reality-signals-that-kill-smart-systems-0057/</link>
+      <guid>https://ivankotov.eu/diary/l4-in-practice-5-reality-signals-that-kill-smart-systems-0057/</guid>
+      <pubDate>Fri, 27 Feb 2026 12:00:00 +0000</pubDate>
+      <description>A note that cost, heat, time, maintenance, and human bandwidth are the signals that determine whether long-lived AI survives contact with physics.</description>
+    </item>
+    <item>
+      <title>Visual Experience Capsules (VXCX) - Why &quot;what you see&quot; matters more than pixels</title>
+      <link>https://ivankotov.eu/diary/visual-experience-capsules-vxcx-why-what-you-see-matters-more-than-pixels/</link>
+      <guid>https://ivankotov.eu/diary/visual-experience-capsules-vxcx-why-what-you-see-matters-more-than-pixels/</guid>
+      <pubDate>Thu, 26 Feb 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing VXCX v0.1 as an L2 protocol for sharing visual experience capsules without transmitting raw pixels by default.</description>
+    </item>
+    <item>
+      <title>The EU AI Act is landing in the real world - and the timing is not accidental.</title>
+      <link>https://ivankotov.eu/diary/the-eu-ai-act-is-landing-in-the-real-world-and-the-timing-is-not-accidental/</link>
+      <guid>https://ivankotov.eu/diary/the-eu-ai-act-is-landing-in-the-real-world-and-the-timing-is-not-accidental/</guid>
+      <pubDate>Wed, 25 Feb 2026 12:00:00 +0000</pubDate>
+      <description>A note that the EU AI Act is arriving as a compliance timeline and evidence discipline, with embodied systems making responsibility procedural.</description>
+    </item>
+    <item>
+      <title>Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline).</title>
+      <link>https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/</link>
+      <guid>https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/</guid>
+      <pubDate>Sun, 22 Feb 2026 12:00:00 +0000</pubDate>
+      <description>A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.</description>
+    </item>
     <item>
       <title>HGI - why am I only hearing this now? And why &quot;General&quot; is never a default.</title>
       <link>https://ivankotov.eu/diary/hgi-why-am-i-only-hearing-this-now-and-why-general-is-never-a-default/</link>

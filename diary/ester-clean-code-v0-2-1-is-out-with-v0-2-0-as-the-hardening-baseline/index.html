@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline). | Diary | Ivan Kotov</title>
+  <meta name="description" content="A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/">
+  <meta property="og:title" content="Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline). | Diary | Ivan Kotov">
+  <meta property="og:description" content="A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/#post",
+      "headline": "Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline).",
+      "url": "https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/",
+      "datePublished": "2026-02-22",
+      "dateModified": "2026-02-22",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "Open Source, AGPL, Local First, Security Engineering, Audit Trail, AI Governance, AI Safety, AI Architecture, L4, Reality Boundary, AppSec, DevSecOps, Security, GRC, Compliance, Risk Management, AI Audit, AI Assurance, AI Compliance, EU AI Act, Human Oversight, Least Privilege, Identity, Access Control, Zero Trust, Supply Chain Security, Reproducible Builds, Secure by Design, Fail Closed, Local AI, Decentralized AI, Agentic AI, Autonomous Agents, Safety by Architecture, Governance by Design, Witness Trail, Cryptographic Integrity, Open Source Security, Python, Cybernetics, Information Theory",
+      "image": "https://ivankotov.eu/assets/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/cover.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline).",
+          "item": "https://ivankotov.eu/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline).</h1>
+        <div class="entry-meta">
+          <span>2026-02-22</span>
+          <span>ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline</span>
+        </div>
+        <p class="lead page-lead">A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.</p>
+        <div class="section-links">
+          <a href="../tags/open-source/">Open Source</a>
+          <a href="../tags/agpl/">AGPL</a>
+          <a href="../tags/local-first/">Local First</a>
+          <a href="../tags/security-engineering/">Security Engineering</a>
+          <a href="../tags/audit-trail/">Audit Trail</a>
+          <a href="../tags/ai-governance/">AI Governance</a>
+          <a href="../tags/ai-safety/">AI Safety</a>
+          <a href="../tags/ai-architecture/">AI Architecture</a>
+          <a href="../tags/l4/">L4</a>
+          <a href="../tags/reality-boundary/">Reality Boundary</a>
+          <a href="../tags/appsec/">AppSec</a>
+          <a href="../tags/devsecops/">DevSecOps</a>
+          <a href="../tags/security/">Security</a>
+          <a href="../tags/grc/">GRC</a>
+          <a href="../tags/compliance/">Compliance</a>
+          <a href="../tags/risk-management/">Risk Management</a>
+          <a href="../tags/ai-audit/">AI Audit</a>
+          <a href="../tags/ai-assurance/">AI Assurance</a>
+          <a href="../tags/ai-compliance/">AI Compliance</a>
+          <a href="../tags/eu-ai-act/">EU AI Act</a>
+          <a href="../tags/human-oversight/">Human Oversight</a>
+          <a href="../tags/least-privilege/">Least Privilege</a>
+          <a href="../tags/identity/">Identity</a>
+          <a href="../tags/access-control/">Access Control</a>
+          <a href="../tags/zero-trust/">Zero Trust</a>
+          <a href="../tags/supply-chain-security/">Supply Chain Security</a>
+          <a href="../tags/reproducible-builds/">Reproducible Builds</a>
+          <a href="../tags/secure-by-design/">Secure by Design</a>
+          <a href="../tags/fail-closed/">Fail Closed</a>
+          <a href="../tags/local-ai/">Local AI</a>
+          <a href="../tags/decentralized-ai/">Decentralized AI</a>
+          <a href="../tags/agentic-ai/">Agentic AI</a>
+          <a href="../tags/autonomous-agents/">Autonomous Agents</a>
+          <a href="../tags/safety-by-architecture/">Safety by Architecture</a>
+          <a href="../tags/governance-by-design/">Governance by Design</a>
+          <a href="../tags/witness-trail/">Witness Trail</a>
+          <a href="../tags/cryptographic-integrity/">Cryptographic Integrity</a>
+          <a href="../tags/open-source-security/">Open Source Security</a>
+          <a href="../tags/python/">Python</a>
+          <a href="../tags/cybernetics/">Cybernetics</a>
+          <a href="../tags/information-theory/">Information Theory</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline/cover.jpg" alt="Graphic with the Ester logo and the text &quot;Reality-Bound Ester Clean Code v0.2.1 release - L4W-aligned - AGPL - Local-first.&quot;">
+      </div>
+        <div class="post-content">
+          <p>Ester Clean Code - v0.2.1 is out (with v0.2.0 as the hardening baseline).</p>
+          <p>This is not a chatbot release.</p>
+          <p>It&#x27;s a clean-code publication for a long-lived, local-first entity built for accountable action under real constraints (identity, privileges, budgets, fail-closed behavior).</p>
+          <h2>What&#x27;s new</h2>
+          <p>v0.2.0 (baseline): public hardening baseline (no &quot;silent defaults&quot; for secrets; reduced token/trace leakage; policy-driven boundaries).</p>
+          <p>v0.2.1 (latest): hygiene-only cleanup (generated artifacts removed; ignore rules tightened to prevent reintroduction).</p>
+          <h2>Why this exists</h2>
+          <p>Long-lived systems don&#x27;t fail from drama.</p>
+          <p>They fail from boring physics: fans fail, disks fill, clocks drift, keys leak, dependencies decay.</p>
+          <p>So this release is built around hygiene + fail-closed defaults, not &quot;trust me&quot; automation.</p>
+          <h2>Bridge set</h2>
+          <p>Explicit bridge: c = a + b isn&#x27;t philosophy - it&#x27;s wiring: a is the accountable human anchor, b is procedures/models - bounded by auditable privileges and a tamper-evident witness trail.</p>
+          <p>Hidden bridges:</p>
+          <ul><li>Ashby: control collapses when regulator variety &lt; environment variety.</li><li>Cover &amp; Thomas: ambiguity lowers signal; governance needs names with operational meaning.</li></ul>
+          <p>Naming note: AGI here = Advanced Global Intelligence, not &quot;Artificial General Intelligence&quot;.</p>
+          <p>If you care about reality-bound safety (L4) + auditability, take a look - link in the first comment.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_opensource-agpl-localfirst-activity-7431507070287405056--7SJ?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>
