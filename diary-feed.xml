@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 21:08:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 21:38:33 +0000</lastBuildDate>
+    <item>
+      <title>“The future is not an event. It is a process.”</title>
+      <link>https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process-0068/</link>
+      <guid>https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process-0068/</guid>
+      <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that serious AI should be treated as a process of continuity, verification, maintenance, and bounded action rather than a single event.</description>
+    </item>
+    <item>
+      <title>For years, the AI race was framed the same way</title>
+      <link>https://ivankotov.eu/diary/for-years-the-ai-race-was-framed-the-same-way/</link>
+      <guid>https://ivankotov.eu/diary/for-years-the-ai-race-was-framed-the-same-way/</guid>
+      <pubDate>Wed, 18 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that the AI systems people value most will be the ones that reduce cognitive overhead and stay coherent beside a human over time.</description>
+    </item>
+    <item>
+      <title>AI is slowly outgrowing the old language used to describe it.</title>
+      <link>https://ivankotov.eu/diary/ai-is-slowly-outgrowing-the-old-language-used-to-describe-it/</link>
+      <guid>https://ivankotov.eu/diary/ai-is-slowly-outgrowing-the-old-language-used-to-describe-it/</guid>
+      <pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that AI is moving from a product story to an industrial stack, and then toward a bounded coexistence layer between humans and infrastructure.</description>
+    </item>
+    <item>
+      <title>Beacon Profile v0.1: Why AI Entities Need Recognition, Not Just Identity</title>
+      <link>https://ivankotov.eu/diary/beacon-profile-v0-1-why-ai-entities-need-recognition-not-just-identity/</link>
+      <guid>https://ivankotov.eu/diary/beacon-profile-v0-1-why-ai-entities-need-recognition-not-just-identity/</guid>
+      <pubDate>Sun, 15 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing Beacon Profile v0.1 as a cross-layer recognition profile for long-lived digital entities based on cryptographic anchoring, behavioral continuity, and witness-backed challengeability.</description>
+    </item>
+    <item>
+      <title>You can&#x27;t &quot;take AI away&quot; anymore. So we need circuit breakers, not slogans.</title>
+      <link>https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/</link>
+      <guid>https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/</guid>
+      <pubDate>Mon, 09 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that AI dependency is already embedded in daily habits, so safety now depends on constraints, breakers, and local continuity rather than blanket bans.</description>
+    </item>
     <item>
       <title>AI isn&#x27;t &quot;expensive.&quot; It&#x27;s becoming infrastructure.</title>
       <link>https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/</link>
