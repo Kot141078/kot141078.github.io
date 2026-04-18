@@ -916,6 +916,7 @@ def make_index_payload(entries: list[Entry]) -> dict[str, object]:
             "tags": [tag.name for tag in entry.tags],
             "page": entry.url,
             **({"primary_image": f"{SITE_URL}{entry.primary_image}"} if entry.primary_image else {}),
+            **({"image_alt": entry.image_alt} if entry.image_alt else {}),
             **({"linkedin_url": entry.linkedin_url} if entry.linkedin_url else {}),
         }
         for entry in entries
@@ -930,6 +931,7 @@ def make_index_payload(entries: list[Entry]) -> dict[str, object]:
             "tags": [tag.name for tag in latest.tags],
             "page": latest.url,
             **({"primary_image": f"{SITE_URL}{latest.primary_image}"} if latest.primary_image else {}),
+            **({"image_alt": latest.image_alt} if latest.image_alt else {}),
             **({"linkedin_url": latest.linkedin_url} if latest.linkedin_url else {}),
         }
     return {
@@ -1056,9 +1058,10 @@ def render_home_slot_from_state(count: int, latest_item: dict[str, object] | Non
     image_html = ""
     primary_image = latest_item.get("primary_image")
     if isinstance(primary_image, str) and primary_image.startswith(SITE_URL):
+        image_alt = str(latest_item.get("image_alt", "")).strip() or str(latest_item.get("title", "Latest diary entry"))
         image_html = f"""
           <div class="entry-cover">
-            <img src="./{html.escape(primary_image.removeprefix(SITE_URL))}" alt="{html.escape(str(latest_item.get('title', 'Latest diary entry')))}">
+            <img src="./{html.escape(primary_image.removeprefix(SITE_URL))}" alt="{html.escape(image_alt)}">
           </div>
 """
     tags = latest_item.get("tags") or []

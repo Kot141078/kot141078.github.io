@@ -2,18 +2,20 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Proof of Reality",
-    "date": "2026-01-02",
-    "slug": "proof-of-reality",
-    "summary": "A proposal for Proof of Reality as a standard where digital entities live under L4 physical and economic constraints and produce reality-validated data.",
+    "title": "We are building a Partner",
+    "date": "2026-01-03",
+    "slug": "we-are-building-a-partner",
+    "summary": "An argument against monolithic cloud AGI in favor of c = a + b as an ecosystem of human, technology, entity, oracle, and arbiter.",
     "tags": [
       "AGI",
-      "Future Tech",
-      "Data Mining",
-      "AI Architecture",
-      "Economy"
+      "Human Centric AI",
+      "Digital Sovereignty",
+      "Philosophy",
+      "Innovation"
     ],
-    "page": "https://ivankotov.eu/diary/proof-of-reality/",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-futuretech-datamining-activity-7413416329489276929-6C6I?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
+    "primary_image": "https://ivankotov.eu/assets/diary/we-are-building-a-partner/cover.jpg",
+    "image_alt": "Diagram showing a human profile, the formula c = a + b, a sphere labeled Synthetic Subjectivity (c), and a compute block.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-humancentricai-digitalsovereignty-activity-7413692440169127937-TA-Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

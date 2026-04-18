@@ -5,7 +5,7 @@
     {
       "name": "AGI",
       "slug": "agi",
-      "count": 2,
+      "count": 3,
       "page": "https://ivankotov.eu/diary/tags/agi/"
     },
     {
@@ -39,6 +39,12 @@
       "page": "https://ivankotov.eu/diary/tags/decentralized-ai/"
     },
     {
+      "name": "Digital Sovereignty",
+      "slug": "digital-sovereignty",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/digital-sovereignty/"
+    },
+    {
       "name": "Economy",
       "slug": "economy",
       "count": 1,
@@ -49,6 +55,24 @@
       "slug": "future-tech",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/future-tech/"
+    },
+    {
+      "name": "Human Centric AI",
+      "slug": "human-centric-ai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/human-centric-ai/"
+    },
+    {
+      "name": "Innovation",
+      "slug": "innovation",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/innovation/"
+    },
+    {
+      "name": "Philosophy",
+      "slug": "philosophy",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/philosophy/"
     }
   ]
 }
