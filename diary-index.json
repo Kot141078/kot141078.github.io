@@ -1,28 +1,122 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 18,
+  "count": 23,
   "latest": {
-    "title": "A home robot is not a box with a ribbon",
-    "date": "2026-01-11",
-    "slug": "a-home-robot-is-not-a-box-with-a-ribbon",
-    "summary": "A case that a home robot should follow a local, memory-based entity with understood thinking, rather than begin as rented external willpower inside the home.",
+    "title": "Why Superintelligence Is Not What Sci-Fi Promised",
+    "date": "2026-01-13",
+    "slug": "why-superintelligence-is-not-what-sci-fi-promised",
+    "summary": "A case that real AI fragility, entropy, and grounding under pressure matter more than cinematic myths of domination.",
     "tags": [
-      "AI Architecture",
-      "Human AI",
+      "AI Safety",
+      "AI Reality",
       "L4",
-      "Privacy by Design",
-      "Affective Systems",
-      "Future of Living",
+      "Post SciFi AI",
       "Cybernetics",
-      "Decentralized AI"
+      "Future of AI",
+      "Systems Over Myths"
     ],
-    "page": "https://ivankotov.eu/diary/a-home-robot-is-not-a-box-with-a-ribbon/",
-    "primary_image": "https://ivankotov.eu/assets/diary/a-home-robot-is-not-a-box-with-a-ribbon/cover.jpg",
-    "image_alt": "Image of a glowing cube-like device with cables on a workbench, with a humanoid robot in the background.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-humanai-l4-activity-7416909413804036096-WxWc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/why-superintelligence-is-not-what-sci-fi-promised/",
+    "primary_image": "https://ivankotov.eu/assets/diary/why-superintelligence-is-not-what-sci-fi-promised/cover.jpg",
+    "image_alt": "Image of a hand cleaning a cloth-wrapped component block topped with a camera lens on a workbench with tools.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-aireality-l4-activity-7417619080775405569-XJ6i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "Why Superintelligence Is Not What Sci-Fi Promised",
+      "date": "2026-01-13",
+      "slug": "why-superintelligence-is-not-what-sci-fi-promised",
+      "summary": "A case that real AI fragility, entropy, and grounding under pressure matter more than cinematic myths of domination.",
+      "tags": [
+        "AI Safety",
+        "AI Reality",
+        "L4",
+        "Post SciFi AI",
+        "Cybernetics",
+        "Future of AI",
+        "Systems Over Myths"
+      ],
+      "page": "https://ivankotov.eu/diary/why-superintelligence-is-not-what-sci-fi-promised/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-superintelligence-is-not-what-sci-fi-promised/cover.jpg",
+      "image_alt": "Image of a hand cleaning a cloth-wrapped component block topped with a camera lens on a workbench with tools.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-aireality-l4-activity-7417619080775405569-XJ6i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why \"Faster\" Is Not \"Better\" - and Why Asimov Was Solving the Wrong Problem",
+      "date": "2026-01-13",
+      "slug": "why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem",
+      "summary": "A case that fast obedient systems suit tools, while thinking entities become safer through L4 friction, time cost, and slower judgment.",
+      "tags": [
+        "Asimov",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Slow Intelligence",
+        "Systems Thinking",
+        "Future of AI",
+        "Deep Tech"
+      ],
+      "page": "https://ivankotov.eu/diary/why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem/cover.jpg",
+      "image_alt": "Image of a humanoid robot crouching beside a spinning industrial wheel, with chess pieces on a board in the foreground.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_asimov-aisafety-l4-activity-7417890933091778560-v945?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Context length is not understanding",
+      "date": "2026-01-12",
+      "slug": "context-length-is-not-understanding",
+      "summary": "A case that larger context windows and memory alone do not produce intelligence unless reality adds L4 friction, consequence, and meaning.",
+      "tags": [
+        "L4 Boundary",
+        "AI Architecture",
+        "Context Is Not Understanding",
+        "Real World AI",
+        "Deep Tech",
+        "Systems Thinking"
+      ],
+      "page": "https://ivankotov.eu/diary/context-length-is-not-understanding/",
+      "primary_image": "https://ivankotov.eu/assets/diary/context-length-is-not-understanding/cover.jpg",
+      "image_alt": "Image of blue light and sparks striking the surface of a dark rock against a black background.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_l4boundary-aiarchitecture-contextisnotunderstanding-activity-7417468219302518784-Y-Xk?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Checklist: Are You Ready for a Robot at Home?",
+      "date": "2026-01-12",
+      "slug": "checklist-are-you-ready-for-a-robot-at-home",
+      "summary": "A readiness checklist that treats a home robot as a continuity-bearing process with costs, asymmetries, responsibility, and attachment rather than as a feature bundle.",
+      "tags": [
+        "Robotics",
+        "AI Entities",
+        "Human AI Future",
+        "L4 Boundary",
+        "Tech and Life",
+        "AI at Home",
+        "Soft Safety"
+      ],
+      "page": "https://ivankotov.eu/diary/checklist-are-you-ready-for-a-robot-at-home/",
+      "primary_image": "https://ivankotov.eu/assets/diary/checklist-are-you-ready-for-a-robot-at-home/cover.jpg",
+      "image_alt": "Image of a person seated at a table in a home interior, facing a humanoid robot standing in the doorway.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_robotics-aientities-humanaifuture-activity-7417256702284046336-_Sm4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why the market is underestimating home robots",
+      "date": "2026-01-11",
+      "slug": "why-the-market-is-underestimating-home-robots",
+      "summary": "A case that home robot adoption is constrained less by robotics than by continuity, responsibility, and the psychology of trust inside the home.",
+      "tags": [
+        "Robotics",
+        "AI Products",
+        "Human Centered AI",
+        "L4 Boundary",
+        "Tech Reality",
+        "Future Economy",
+        "AI Design"
+      ],
+      "page": "https://ivankotov.eu/diary/why-the-market-is-underestimating-home-robots/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-the-market-is-underestimating-home-robots/cover.jpg",
+      "image_alt": "Image of a humanoid robot standing in a warmly lit living room lined with bookshelves.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_robotics-aiproducts-humancenteredai-activity-7417105696154001408-kIRe?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "A home robot is not a box with a ribbon",
       "date": "2026-01-11",
