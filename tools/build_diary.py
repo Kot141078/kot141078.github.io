@@ -474,7 +474,7 @@ def render_archive_preview(entries: list[Entry]) -> str:
         )
     cards = [
         render_entry_card(entry, asset_prefix="../", entry_href=f"./{entry.slug}/", tag_prefix="./tags/", include_image=False)
-        for entry in entries[:4]
+        for entry in entries[:5]
     ]
     return "        <div class=\"entry-list\">\n" + "\n".join(cards) + "\n        </div>\n"
 
