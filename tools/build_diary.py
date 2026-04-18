@@ -444,7 +444,6 @@ def render_entry_card(entry: Entry, *, asset_prefix: str, entry_href: str, tag_p
     return f"""          <article class="entry-card">
 {image_html}            <div class="entry-meta">
               <span>{entry.date_iso}</span>
-              <span>{html.escape(entry.slug)}</span>
             </div>
             <h3>{html.escape(entry.title)}</h3>
             <p class="entry-summary">{html.escape(entry.summary)}</p>
@@ -1037,7 +1036,7 @@ def write_machine_readable(entries: list[Entry], tags: list[TagInfo]) -> None:
     write_feed(entries)
 
 
-def render_home_slot_from_state(count: int, latest_item: dict[str, object] | None) -> str:
+def render_home_slot_from_state(latest_item: dict[str, object] | None) -> str:
     if not latest_item:
         return """      <section class="section">
         <div class="section-head">
@@ -1064,8 +1063,6 @@ def render_home_slot_from_state(count: int, latest_item: dict[str, object] | Non
             <img src="./{html.escape(primary_image.removeprefix(SITE_URL))}" alt="{html.escape(image_alt)}">
           </div>
 """
-    tags = latest_item.get("tags") or []
-    tags_text = ", ".join(str(tag) for tag in tags) if tags else "untagged"
     return f"""      <section class="section">
         <div class="section-head">
           <p class="section-label">Diary</p>
@@ -1074,8 +1071,6 @@ def render_home_slot_from_state(count: int, latest_item: dict[str, object] | Non
         <article class="entry-card">
 {image_html}          <div class="entry-meta">
             <span>{html.escape(str(latest_item.get('date', '')))}</span>
-            <span>{html.escape(tags_text)}</span>
-            <span>{count} entr{'y' if count == 1 else 'ies'} total</span>
           </div>
           <h3>{html.escape(str(latest_item.get('title', 'Latest diary entry')))}</h3>
           <p class="entry-summary">{html.escape(str(latest_item.get('summary', '')))}</p>
@@ -1095,7 +1090,7 @@ def update_home_slot() -> None:
 
     latest_payload = json.loads(DIARY_LATEST_JSON.read_text(encoding="utf-8"))
     index_payload = json.loads(DIARY_INDEX_JSON.read_text(encoding="utf-8"))
-    slot_html = render_home_slot_from_state(int(index_payload["count"]), latest_payload.get("item"))
+    slot_html = render_home_slot_from_state(latest_payload.get("item"))
 
     replacement = HOME_SLOT_START + "\n" + slot_html + "\n      " + HOME_SLOT_END
     pattern = re.compile(re.escape(HOME_SLOT_START) + r".*?" + re.escape(HOME_SLOT_END), re.DOTALL)
