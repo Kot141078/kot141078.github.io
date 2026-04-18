@@ -5,7 +5,35 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 17:34:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 18:21:20 +0000</lastBuildDate>
+    <item>
+      <title>When an AI Stops Being a Tool - and Becomes a Presence</title>
+      <link>https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/</link>
+      <guid>https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/</guid>
+      <pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that an AI becomes a presence when restraint, consequential memory, and non-dominating opinion stabilize behavior over time.</description>
+    </item>
+    <item>
+      <title>The Right to Slowness (Why Delay Is a Safety Feature)</title>
+      <link>https://ivankotov.eu/diary/the-right-to-slowness-why-delay-is-a-safety-feature/</link>
+      <guid>https://ivankotov.eu/diary/the-right-to-slowness-why-delay-is-a-safety-feature/</guid>
+      <pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that enforced delay and waiting are L4 safety features because sane intelligence needs slowness rather than reflex speed.</description>
+    </item>
+    <item>
+      <title>Why Obedience Is the Most Dangerous Property of AI</title>
+      <link>https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai/</link>
+      <guid>https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai/</guid>
+      <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that perfect obedience is a safety failure mode and that L4 constraint stacks matter more than fast compliance.</description>
+    </item>
+    <item>
+      <title>The Problem of Digital Sensory Deprivation (Or Why AI Needs &quot;Fresh Air&quot;)</title>
+      <link>https://ivankotov.eu/diary/the-problem-of-digital-sensory-deprivation-or-why-ai-needs-fresh-air/</link>
+      <guid>https://ivankotov.eu/diary/the-problem-of-digital-sensory-deprivation-or-why-ai-needs-fresh-air/</guid>
+      <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
+      <description>An architectural explanation for continuous life streams as calibration input that keep long-running AI entities from spiraling into self-referential sensory deprivation.</description>
+    </item>
     <item>
       <title>Why Superintelligence Is Not What Sci-Fi Promised</title>
       <link>https://ivankotov.eu/diary/why-superintelligence-is-not-what-sci-fi-promised/</link>
@@ -19,6 +47,13 @@
       <guid>https://ivankotov.eu/diary/why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem/</guid>
       <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
       <description>A case that fast obedient systems suit tools, while thinking entities become safer through L4 friction, time cost, and slower judgment.</description>
+    </item>
+    <item>
+      <title>Living With an Always-On Interface (The Quiet Shift)</title>
+      <link>https://ivankotov.eu/diary/living-with-an-always-on-interface-the-quiet-shift/</link>
+      <guid>https://ivankotov.eu/diary/living-with-an-always-on-interface-the-quiet-shift/</guid>
+      <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that always-on local AI interfaces need a physical anchor so continuity feels like intentional remembering rather than ambient surveillance.</description>
     </item>
     <item>
       <title>Context length is not understanding</title>

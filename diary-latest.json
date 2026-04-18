@@ -2,22 +2,22 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Why Superintelligence Is Not What Sci-Fi Promised",
-    "date": "2026-01-13",
-    "slug": "why-superintelligence-is-not-what-sci-fi-promised",
-    "summary": "A case that real AI fragility, entropy, and grounding under pressure matter more than cinematic myths of domination.",
+    "title": "When an AI Stops Being a Tool - and Becomes a Presence",
+    "date": "2026-01-15",
+    "slug": "when-an-ai-stops-being-a-tool-and-becomes-a-presence",
+    "summary": "A case that an AI becomes a presence when restraint, consequential memory, and non-dominating opinion stabilize behavior over time.",
     "tags": [
-      "AI Safety",
-      "AI Reality",
-      "L4",
-      "Post SciFi AI",
+      "AI Entities",
+      "AI Architecture",
       "Cybernetics",
-      "Future of AI",
-      "Systems Over Myths"
+      "Systems Thinking",
+      "L4",
+      "Human Centered AI",
+      "Presence"
     ],
-    "page": "https://ivankotov.eu/diary/why-superintelligence-is-not-what-sci-fi-promised/",
-    "primary_image": "https://ivankotov.eu/assets/diary/why-superintelligence-is-not-what-sci-fi-promised/cover.jpg",
-    "image_alt": "Image of a hand cleaning a cloth-wrapped component block topped with a camera lens on a workbench with tools.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-aireality-l4-activity-7417619080775405569-XJ6i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/",
+    "primary_image": "https://ivankotov.eu/assets/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/cover.jpg",
+    "image_alt": "Image of a humanoid robot beside a seated person by a window, with an hourglass and chess piece in the foreground.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-aiarchitecture-cybernetics-activity-7419280148413198336-1MfZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
