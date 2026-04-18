@@ -1,0 +1,19 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/actor-grounding-layer/",
+  "title": "Actor Grounding Layer",
+  "summary": "Bounded upstream grounding layer for signals, actors, nodes, and perceptual paths before runtime reliance or action progression is allowed.",
+  "related_pages": [
+    "https://ivankotov.eu/l4/",
+    "https://ivankotov.eu/ser/",
+    "https://ivankotov.eu/evidence/",
+    "https://ivankotov.eu/corpus-map/",
+    "https://ivankotov.eu/long-lived-ai-entities/"
+  ],
+  "source_repo": "https://github.com/Kot141078/ester-reality-bound/tree/main/docs/actor-grounding-layer",
+  "not": [
+    "a replacement for ARL procedural dispute review",
+    "a replacement for L4 Witness evidence traceability",
+    "a replacement for L4 Hardware Perimeter"
+  ]
+}

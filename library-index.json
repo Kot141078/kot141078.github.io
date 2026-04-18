@@ -30,6 +30,14 @@
       "type": "repo"
     },
     {
+      "id": "actor-grounding-layer",
+      "title": "Actor Grounding Layer (AGL) v0.1",
+      "role": "grounding",
+      "primary_page": "https://ivankotov.eu/actor-grounding-layer/",
+      "repo_url": "https://github.com/Kot141078/ester-reality-bound/tree/main/docs/actor-grounding-layer",
+      "type": "docs"
+    },
+    {
       "id": "ester-clean-code",
       "title": "Ester Clean Code",
       "role": "implementation",
@@ -45,6 +53,15 @@
       "primary_page": "https://ivankotov.eu/qubit-of-hope/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
       "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
+      "type": "book"
+    },
+    {
+      "id": "qubit-of-hope-volume-ii",
+      "title": "Qubit of Hope — Volume II",
+      "role": "narrative continuation",
+      "primary_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
       "type": "book"
     }
   ]

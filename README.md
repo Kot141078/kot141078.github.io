@@ -30,14 +30,18 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings`
 - `c = a + b`
 - `L4`
+- `Actor Grounding Layer`
 - `SER`
 - `Qubit of Hope — Volume I`
+- `Qubit of Hope — Volume II`
 - `glossary`
 - `reading-path`
 - `publications`
 - `releases`
 - `evidence`
 - `llms.txt`
+- `actor-grounding-layer.json`
+- `qubit-of-hope-volume-ii.json`
 - `canonical-map.json`
 - `works-index.json`
 - `library-index.json`
@@ -53,7 +57,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v1.0` topics/query-intent layer on top of services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v1.3` AGL + Volume II integration layer on top of topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
 
@@ -83,8 +87,10 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 - `advanced-global-intelligence/index.html`
 - `c-a-plus-b/index.html`
 - `l4/index.html`
+- `actor-grounding-layer/index.html`
 - `ser/index.html`
 - `qubit-of-hope/index.html`
+- `qubit-of-hope-volume-ii/index.html`
 - `glossary/index.html`
 - `reading-path/index.html`
 - `publications/index.html`
@@ -94,6 +100,8 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 ## Machine-readable layer
 
 - `llms.txt` — compact machine-facing site guide
+- `actor-grounding-layer.json` — machine-readable grounding layer node
+- `qubit-of-hope-volume-ii.json` — machine-readable narrative continuation node
 - `canonical-map.json` — canonical term and node map
 - `works-index.json` — machine-readable public works index
 - `library-index.json` — machine-readable primary source index

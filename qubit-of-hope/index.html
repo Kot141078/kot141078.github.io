@@ -3,61 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Qubit of Hope — Volume I | Ivan Kotov</title>
-  <meta name="description" content="Narrative/public entry into the world of c, complementary to AGI, L4, and SER, with seven languages and four formats.">
+  <title>Qubit of Hope — Volumes I and II | Ivan Kotov</title>
+  <meta name="description" content="Book-layer hub for Qubit of Hope — Volume I and Volume II as the narrative/public entry into the world of c.">
   <link rel="canonical" href="https://ivankotov.eu/qubit-of-hope/">
-  <meta property="og:title" content="Qubit of Hope — Volume I | Ivan Kotov">
-  <meta property="og:description" content="Narrative/public entry into the world of c, complementary to AGI, L4, and SER, with seven languages and four formats.">
-  <meta property="og:type" content="book">
+  <meta property="og:title" content="Qubit of Hope — Volumes I and II | Ivan Kotov">
+  <meta property="og:description" content="Book-layer hub for Qubit of Hope — Volume I and Volume II as the narrative/public entry into the world of c.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://ivankotov.eu/qubit-of-hope/">
-  <meta property="og:image" content="https://ivankotov.eu/assets/media/qubit-of-hope-volume-i-cover.png">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "Qubit of Hope — Volume I",
-    "author": {
-      "@type": "Person",
-      "name": "Ivan Kotov",
-      "url": "https://ivankotov.eu/"
-    },
-    "url": "https://ivankotov.eu/qubit-of-hope/",
-    "description": "Narrative/public entry into the world of c, complementary to AGI, L4, and SER, with seven languages and four formats.",
-    "inLanguage": [
-      "ru",
-      "fr",
-      "es",
-      "de",
-      "en",
-      "nl",
-      "zh-CN"
-    ],
-    "bookFormat": "https://schema.org/EBook",
-    "encodingFormat": [
-      "text/markdown",
-      "application/pdf",
-      "application/epub+zip",
-      "application/x-fictionbook+xml"
-    ],
-    "image": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-i-cover.png"
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://ivankotov.eu/"
+        "@type": "CollectionPage",
+        "@id": "https://ivankotov.eu/qubit-of-hope/#page",
+        "url": "https://ivankotov.eu/qubit-of-hope/",
+        "name": "Qubit of Hope — Volumes I and II | Ivan Kotov",
+        "description": "Book-layer hub for Qubit of Hope — Volume I and Volume II as the narrative/public entry into the world of c.",
+        "mainEntity": {
+          "@id": "https://ivankotov.eu/qubit-of-hope/#volumes"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Qubit of Hope — Volume I",
-        "item": "https://ivankotov.eu/qubit-of-hope/"
+        "@type": "BreadcrumbList",
+        "@id": "https://ivankotov.eu/qubit-of-hope/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ivankotov.eu/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Qubit of Hope",
+            "item": "https://ivankotov.eu/qubit-of-hope/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://ivankotov.eu/qubit-of-hope/#volumes",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Book",
+              "name": "Qubit of Hope — Volume I",
+              "url": "https://ivankotov.eu/qubit-of-hope/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Book",
+              "name": "Qubit of Hope — Volume II",
+              "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/"
+            }
+          }
+        ]
       }
     ]
   }
@@ -75,9 +82,9 @@
         <a href="../l4/">L4</a>
         <a href="../ser/">SER</a>
         <a href="./">Book</a>
+        <a href="../qubit-of-hope-volume-ii/">Volume II</a>
         <a href="../publications/">Publications</a>
-        <a href="../releases/">Releases</a>
-        <a href="../evidence/">Evidence</a>
+        <a href="../downloads/">Downloads</a>
         <a href="../reading-path/">Reading path</a>
         <a href="../glossary/">Glossary</a>
       </nav>
@@ -85,22 +92,15 @@
 
     <main>
       <section class="hero">
-        <div class="media-split">
-          <div class="media-frame">
-            <img src="../assets/media/qubit-of-hope-volume-i-cover.png" alt="Cover image for Qubit of Hope — Volume I">
-          </div>
-          <div>
-            <p class="eyebrow">Book entry</p>
-            <h1>Qubit of Hope — Volume I</h1>
-            <p class="lead page-lead">Narrative/public entry layer into the world of <code>c</code>.</p>
-            <p class="summary">The local mirror confirms a multilingual reading repository with seven language editions and four digital formats.</p>
-            <div class="section-links">
-              <a href="https://github.com/Kot141078/qubit-of-hope-volume-i">Open repository</a>
-              <a href="../downloads/">Open source/download matrix in /downloads/</a>
-              <a href="../publications/">Open publications</a>
-              <a href="../evidence/">Open evidence</a>
-            </div>
-          </div>
+        <p class="eyebrow">Book-layer hub</p>
+        <h1>Qubit of Hope</h1>
+        <p class="lead page-lead">This page keeps the book layer together as the narrative/public entry into the world of <code>c</code>.</p>
+        <p class="summary">Volume I remains the original narrative entry node. Volume II continues that narrative layer without replacing the canonical architecture stack.</p>
+        <div class="section-links">
+          <a href="./">Book hub</a>
+          <a href="../qubit-of-hope-volume-ii/">Volume II page</a>
+          <a href="../downloads/">Downloads</a>
+          <a href="../publications/">Publications</a>
         </div>
       </section>
 
@@ -110,97 +110,70 @@
           <h2>Narrative layer, not protocol replacement</h2>
         </div>
         <div class="prose">
-          <p>The book is a narrative companion and public entry layer into the world of <code>c</code>. It sits beside AGI, SER, and L4 as a perception bridge, not as the canonical home of the normative stack.</p>
-          <p>Imported filenames and bundle status are preserved as found. The site entry keeps that transparency instead of flattening aligned and provisional bundles into one marketing claim.</p>
+          <p>The book layer is a narrative companion and public entry into the world of <code>c</code>. It sits beside AGI, L4, AGL, and SER rather than replacing the canonical architecture layer.</p>
+          <p>Volume I remains the first narrative entry. Volume II is the confirmed second-volume continuation with its own repository, release surface, cover asset, and language/format matrix.</p>
         </div>
         <div class="section-stack">
           <div>
             <h3>What this is not</h3>
             <ul class="bullet-list">
               <li>Not a substitute for the protocol layer.</li>
-              <li>Not the canonical home of AGI, <code>L4</code>, or SER definitions.</li>
+              <li>Not the canonical home of AGI, L4, AGL, or SER definitions.</li>
               <li>Not a claim that narrative and architecture are interchangeable.</li>
             </ul>
           </div>
           <div>
             <h3>Relation to adjacent layers</h3>
             <div class="micro-list">
-              <p>The book gives a narrative and public entry into the world of <code>c</code>.</p>
-              <p>AGI, <code>L4</code>, and SER keep the architectural and protocol layer.</p>
-              <p>Publications, releases, and evidence pages keep discoverability tied to reviewable public surfaces.</p>
+              <p>AGI provides the stack-level frame.</p>
+              <p>L4 and AGL keep feasibility and grounding constraints visible.</p>
+              <p>SER keeps continuity and sovereignty on the protocol side.</p>
             </div>
           </div>
-        </div>
-        <div class="section-links">
-          <a href="../reading-path/">Open reading path</a>
-          <a href="../glossary/">Open glossary</a>
-          <a href="../publications/">Open publications</a>
-          <a href="../evidence/">Open evidence</a>
         </div>
       </section>
 
       <section class="section">
         <div class="section-head">
-          <p class="section-label">Available editions</p>
-          <h2>Languages and formats found locally</h2>
+          <p class="section-label">Volume nodes</p>
+          <h2>Two public book entries</h2>
         </div>
-        <div class="table-wrap">
-          <table class="matrix-table">
-            <thead>
-              <tr>
-                <th>Language</th>
-                <th>Available formats</th>
-                <th>Status</th>
-                <th>Link</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Russian (<code>ru</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>provisional</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#ru">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>French (<code>fr</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>aligned</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#fr">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>Spanish (<code>es</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>provisional</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#es">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>German (<code>de</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>aligned</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#de">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>English (<code>en</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>provisional</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#en">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>Dutch (<code>nl</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>aligned</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#nl">Downloads</a></td>
-              </tr>
-              <tr>
-                <td>Simplified Chinese (<code>zh-CN</code>)</td>
-                <td>MD, PDF, EPUB, FB2</td>
-                <td>provisional</td>
-                <td><a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#zh-cn">Downloads</a></td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="card-grid">
+          <article class="card">
+            <p class="eyebrow">volume i</p>
+            <h3>Qubit of Hope — Volume I</h3>
+            <p>Original narrative/public entry node with seven language bundles and four confirmed reading formats.</p>
+            <div class="section-links">
+              <a href="./">Site hub</a>
+              <a href="https://github.com/Kot141078/qubit-of-hope-volume-i">Repository</a>
+              <a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md">Downloads surface</a>
+            </div>
+          </article>
+          <article class="card">
+            <p class="eyebrow">volume ii</p>
+            <h3>Qubit of Hope — Volume II</h3>
+            <p>Confirmed second-volume continuation with seven language bundles, four formats, a shared cover asset, and tagged public release <code>v1.0.0</code>.</p>
+            <div class="section-links">
+              <a href="../qubit-of-hope-volume-ii/">Site page</a>
+              <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii">Repository</a>
+              <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0">Tagged release</a>
+            </div>
+          </article>
         </div>
-        <p class="caption-note">Source basis: <code>README.md</code>, <code>BOOK_METADATA.json</code>, <code>EDITIONS_MATRIX.json</code>, <code>metadata/ASSET_MAP.json</code>, and <code>DOWNLOADS.md</code> in the local <code>qubit-of-hope-volume-i</code> mirror.</p>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Continue through the corpus</p>
+          <h2>Related pages</h2>
+        </div>
+        <div class="section-links">
+          <a href="../library/">Library</a>
+          <a href="../downloads/">Downloads</a>
+          <a href="../reading-path/">Reading path</a>
+          <a href="../publications/">Publications</a>
+          <a href="../evidence/">Evidence</a>
+        </div>
       </section>
     </main>
   </div>

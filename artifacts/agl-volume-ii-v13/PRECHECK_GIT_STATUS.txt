@@ -1,0 +1,2 @@
+git status --short
+(no output; working tree clean at pre-flight start)

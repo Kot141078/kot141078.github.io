@@ -46,6 +46,13 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
+      "object": "Actor Grounding Layer (AGL) v0.1",
+      "surface": "Repository document set",
+      "format": "markdown + pdf docs",
+      "url": "https://github.com/Kot141078/ester-reality-bound/tree/main/docs/actor-grounding-layer",
+      "note": "Confirmed public document set under docs/actor-grounding-layer; no separate release surface is confirmed."
+    },
+    {
       "object": "Ester Clean Code",
       "surface": "GitHub release v0.2.5",
       "format": "release page / attached asset",
@@ -66,6 +73,22 @@
       "language": "multilingual",
       "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
       "note": "Confirmed repository download matrix for the public reading bundles."
+    },
+    {
+      "object": "Qubit of Hope — Volume II",
+      "surface": "GitHub release v1.0.0",
+      "format": "release page",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
+      "note": "Tagged public release confirmed on 2026-04-17."
+    },
+    {
+      "object": "Qubit of Hope — Volume II",
+      "surface": "Downloads page",
+      "format": "md + pdf + epub + fb2",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/DOWNLOADS.md",
+      "note": "Confirmed repository download matrix for seven language bundles."
     },
     {
       "object": "Qubit of Hope — Volume I",

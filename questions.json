@@ -23,6 +23,11 @@
       "primary_url": "https://ivankotov.eu/ser/"
     },
     {
+      "question": "What is Actor Grounding Layer?",
+      "answer": "Actor Grounding Layer is the bounded upstream grounding layer for source-state qualification, runtime reliance, initiation gates, and fail-closed transitions.",
+      "primary_url": "https://ivankotov.eu/actor-grounding-layer/"
+    },
+    {
       "question": "Is this site a product page?",
       "answer": "No. It is a public entry and navigation surface, not a product pitch.",
       "primary_url": "https://ivankotov.eu/"
@@ -36,6 +41,12 @@
       "question": "What is the role of the book?",
       "answer": "The book is the narrative/public entry layer, not a substitute for the protocol layer.",
       "primary_url": "https://ivankotov.eu/qubit-of-hope/"
+    },
+    {
+      "question": "Is there a second volume of Qubit of Hope?",
+      "answer": "Yes. Volume II is the narrative continuation layer and has its own public page and repository surface.",
+      "primary_url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "secondary_url": "https://ivankotov.eu/qubit-of-hope/"
     },
     {
       "question": "Where are the public works and release surfaces?",

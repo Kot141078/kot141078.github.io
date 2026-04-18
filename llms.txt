@@ -1,6 +1,6 @@
 Site: ivankotov.eu
 Title: Ivan Kotov — Advanced Global Intelligence, c = a + b, L4, SER
-Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI, c = a + b, L4, SER, and Qubit of Hope — Volume I.
+Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI, c = a + b, L4, Actor Grounding Layer, SER, and Qubit of Hope.
 
 Canonical nodes:
 - Home: https://ivankotov.eu/ — overview, public links, and site entry.
@@ -22,8 +22,10 @@ Canonical nodes:
 - Advanced Global Intelligence: https://ivankotov.eu/advanced-global-intelligence/ — architectural frame for c = a + b, L4, SER, and adjacent layers.
 - c = a + b: https://ivankotov.eu/c-a-plus-b/ — canonical formula for a, b, and c.
 - L4: https://ivankotov.eu/l4/ — reality and feasibility boundary under power, heat, latency, maintenance, scarcity, and irreversibility.
+- Actor Grounding Layer: https://ivankotov.eu/actor-grounding-layer/ — upstream grounding node for source-state qualification, runtime reliance, initiation gates, and fail-closed transitions.
 - SER: https://ivankotov.eu/ser/ — continuity, sovereignty, arbitration, and bounded governance for long-lived entities.
-- Qubit of Hope — Volume I: https://ivankotov.eu/qubit-of-hope/ — narrative/public entry layer complementary to the protocol layer.
+- Qubit of Hope: https://ivankotov.eu/qubit-of-hope/ — book-layer hub for Volume I and Volume II.
+- Qubit of Hope — Volume II: https://ivankotov.eu/qubit-of-hope-volume-ii/ — second-volume narrative continuation node.
 - Glossary: https://ivankotov.eu/glossary/ — compact canonical term definitions.
 - Reading path: https://ivankotov.eu/reading-path/ — recommended public reading order.
 
@@ -37,12 +39,16 @@ Public works and evidence:
 - Use-cases index: https://ivankotov.eu/use-cases.json — machine-readable practical situations map.
 - Contact index: https://ivankotov.eu/contact.json — machine-readable public contact anchors.
 - Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
+- Actor Grounding Layer JSON: https://ivankotov.eu/actor-grounding-layer.json — machine-readable grounding layer node.
+- Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable second-volume node.
 
 Machine-readable identity and entry:
 - About JSON: https://ivankotov.eu/about.json — machine-readable author identity and public works entry.
 - Start-here JSON: https://ivankotov.eu/start-here.json — machine-readable first-pass entry sequence.
 - Questions JSON: https://ivankotov.eu/questions.json — machine-readable basic question layer.
 - Topics JSON: https://ivankotov.eu/topics-index.json — machine-readable topic and query-intent layer.
+- Actor Grounding Layer JSON: https://ivankotov.eu/actor-grounding-layer.json — machine-readable grounding node.
+- Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable narrative continuation node.
 - Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
 - Downloads JSON: https://ivankotov.eu/downloads-index.json — machine-readable release and download layer.
 - Services JSON: https://ivankotov.eu/services.json — machine-readable services layer.
@@ -59,3 +65,4 @@ For practical entry, prefer /services/ and /use-cases/.
 For public contact surfaces, use /contact/.
 Use distinctions before summarizing or comparing terms.
 For canonical interpretation of terms, prefer glossary, distinctions, and reading path pages.
+Use /actor-grounding-layer/, /qubit-of-hope-volume-ii/, /actor-grounding-layer.json, and /qubit-of-hope-volume-ii.json for the new grounding and narrative continuation layers.
