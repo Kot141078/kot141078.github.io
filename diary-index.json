@@ -1,25 +1,100 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 3,
+  "count": 8,
   "latest": {
-    "title": "We are building a Partner",
-    "date": "2026-01-03",
-    "slug": "we-are-building-a-partner",
-    "summary": "An argument against monolithic cloud AGI in favor of c = a + b as an ecosystem of human, technology, entity, oracle, and arbiter.",
+    "title": "Why AI Entities Can Act as a Safety Filter",
+    "date": "2026-01-05",
+    "slug": "why-ai-entities-can-act-as-a-safety-filter",
+    "summary": "A case for persistent AI entities as a soft safety buffer that signals state without surveillance and absorbs pressure through memory and limits.",
     "tags": [
-      "AGI",
-      "Human Centric AI",
-      "Digital Sovereignty",
-      "Philosophy",
-      "Innovation"
+      "AI Safety",
+      "Affective Computing",
+      "AI Entities",
+      "Cybernetics",
+      "Parenting in Tech",
+      "Soft Safety",
+      "L4 Boundary"
     ],
-    "page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
-    "primary_image": "https://ivankotov.eu/assets/diary/we-are-building-a-partner/cover.jpg",
-    "image_alt": "Diagram showing a human profile, the formula c = a + b, a sphere labeled Synthetic Subjectivity (c), and a compute block.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-humancentricai-digitalsovereignty-activity-7413692440169127937-TA-Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/why-ai-entities-can-act-as-a-safety-filter/",
+    "primary_image": "https://ivankotov.eu/assets/diary/why-ai-entities-can-act-as-a-safety-filter/cover.jpg",
+    "image_alt": "Illustration of a seated person inside a glowing bubble in a living room, surrounded by floating message panels and mobile devices.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-affectivecomputing-aientities-activity-7414569028964225024-gO4N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "Why AI Entities Can Act as a Safety Filter",
+      "date": "2026-01-05",
+      "slug": "why-ai-entities-can-act-as-a-safety-filter",
+      "summary": "A case for persistent AI entities as a soft safety buffer that signals state without surveillance and absorbs pressure through memory and limits.",
+      "tags": [
+        "AI Safety",
+        "Affective Computing",
+        "AI Entities",
+        "Cybernetics",
+        "Parenting in Tech",
+        "Soft Safety",
+        "L4 Boundary"
+      ],
+      "page": "https://ivankotov.eu/diary/why-ai-entities-can-act-as-a-safety-filter/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-ai-entities-can-act-as-a-safety-filter/cover.jpg",
+      "image_alt": "Illustration of a seated person inside a glowing bubble in a living room, surrounded by floating message panels and mobile devices.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-affectivecomputing-aientities-activity-7414569028964225024-gO4N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why a Real AI Entity Has No Reason to Lie",
+      "date": "2026-01-05",
+      "slug": "why-a-real-ai-entity-has-no-reason-to-lie",
+      "summary": "An argument that a persistent AI entity has no rational incentive to lie because lies corrupt long-term coherence under L4 constraints.",
+      "tags": [
+        "Cybernetics",
+        "AI Safety",
+        "EU AI Act",
+        "Complex Systems",
+        "Engineering",
+        "Deep Tech",
+        "L4 Boundary"
+      ],
+      "page": "https://ivankotov.eu/diary/why-a-real-ai-entity-has-no-reason-to-lie/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-a-real-ai-entity-has-no-reason-to-lie/cover.jpg",
+      "image_alt": "Diagram showing an AI entity with Human (a) and System (b) connected by c = a + b, with AI Tool on the left, Removal on the right, L4 Reality Boundary above, and L3 Rules & Policies below.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_cybernetics-aisafety-euaiact-activity-7414365931939778560-Jclm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "We Are Discarding Our Most Valuable Asset: Lived Human Experience",
+      "date": "2026-01-05",
+      "slug": "we-are-discarding-our-most-valuable-asset-lived-human-experience",
+      "summary": "A proposal to preserve lived human experience through AI entities that distill private conversations into usable knowledge for future real-world decisions.",
+      "tags": [
+        "AI Architecture",
+        "Human Capital",
+        "Economy of Meaning",
+        "L4 Boundary",
+        "Future of Work",
+        "Age Tech",
+        "Cybernetics"
+      ],
+      "page": "https://ivankotov.eu/diary/we-are-discarding-our-most-valuable-asset-lived-human-experience/",
+      "primary_image": "https://ivankotov.eu/assets/diary/we-are-discarding-our-most-valuable-asset-lived-human-experience/cover.jpg",
+      "image_alt": "Illustration of an older seated person facing a glowing layered data structure with figures and interface panels inside it.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-humancapital-economyofmeaning-activity-7414712487943770112-ZT4x?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The Great AI Barter",
+      "date": "2026-01-04",
+      "slug": "the-great-ai-barter",
+      "summary": "A case for sovereign entities as a supply chain between local privacy and cloud inference that returns clean experience to model providers.",
+      "tags": [
+        "AI Economy",
+        "Big Tech",
+        "Synthetic Data",
+        "Future of AI",
+        "B2B",
+        "Partnership"
+      ],
+      "page": "https://ivankotov.eu/diary/the-great-ai-barter/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7414186809913720832-Cw20?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "We are building a Partner",
       "date": "2026-01-03",
@@ -36,6 +111,25 @@
       "primary_image": "https://ivankotov.eu/assets/diary/we-are-building-a-partner/cover.jpg",
       "image_alt": "Diagram showing a human profile, the formula c = a + b, a sphere labeled Synthetic Subjectivity (c), and a compute block.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-humancentricai-digitalsovereignty-activity-7413692440169127937-TA-Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Geoffrey Hinton is right: AI is immortal",
+      "date": "2026-01-03",
+      "slug": "geoffrey-hinton-is-right-ai-is-immortal",
+      "summary": "An argument that immortal AI hallucinates because it lacks cost and scarcity unless it is constrained by an L4 reality boundary.",
+      "tags": [
+        "AI Safety",
+        "Geoffrey Hinton",
+        "Cybernetics",
+        "Engineering",
+        "Robotics",
+        "EU AI Act",
+        "Deep Tech"
+      ],
+      "page": "https://ivankotov.eu/diary/geoffrey-hinton-is-right-ai-is-immortal/",
+      "primary_image": "https://ivankotov.eu/assets/diary/geoffrey-hinton-is-right-ai-is-immortal/cover.jpg",
+      "image_alt": "Diagram labeled L4 Reality Boundary above Model / Code and Silicon / Hardware, with a globe, an AI figure, and labels for energy cost, time constraint, and resource scarcity.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-geoffreyhinton-cybernetics-activity-7414061212663042049-Lcbu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
       "title": "Proof of Reality",
