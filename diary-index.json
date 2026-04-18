@@ -1,26 +1,110 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 33,
+  "count": 38,
   "latest": {
-    "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
-    "date": "2026-01-18",
-    "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
-    "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
+    "title": "When Presence Becomes Violence",
+    "date": "2026-01-21",
+    "slug": "when-presence-becomes-violence",
+    "summary": "A case that safety in shared cognitive space depends on tact, limits, and respectful absence rather than constant availability.",
     "tags": [
-      "AI Interfaces",
-      "Private AI",
-      "Human Centered Tech",
-      "Systems Thinking",
-      "Local AI",
-      "Even G2"
+      "AI Entities",
+      "Presence",
+      "AI Safety",
+      "Cybernetics",
+      "Human Systems",
+      "L4",
+      "Soft Boundaries"
     ],
-    "page": "https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/",
-    "primary_image": "https://ivankotov.eu/assets/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/cover.jpg",
-    "image_alt": "Image of eyeglasses with a translucent interface reflected across one lens.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinterfaces-privateai-humancenteredtech-activity-7421144815435857920-n1a3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/when-presence-becomes-violence/",
+    "primary_image": "https://ivankotov.eu/assets/diary/when-presence-becomes-violence/cover.jpg",
+    "image_alt": "Image of a glowing cylindrical device on a table in a dark hallway, with a person reading in a lit room beyond.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-presence-aisafety-activity-7422594443284848640-k46O?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "When Presence Becomes Violence",
+      "date": "2026-01-21",
+      "slug": "when-presence-becomes-violence",
+      "summary": "A case that safety in shared cognitive space depends on tact, limits, and respectful absence rather than constant availability.",
+      "tags": [
+        "AI Entities",
+        "Presence",
+        "AI Safety",
+        "Cybernetics",
+        "Human Systems",
+        "L4",
+        "Soft Boundaries"
+      ],
+      "page": "https://ivankotov.eu/diary/when-presence-becomes-violence/",
+      "primary_image": "https://ivankotov.eu/assets/diary/when-presence-becomes-violence/cover.jpg",
+      "image_alt": "Image of a glowing cylindrical device on a table in a dark hallway, with a person reading in a lit room beyond.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-presence-aisafety-activity-7422594443284848640-k46O?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Release v1.3.0 - Sovereign Entity Recursion (SER)",
+      "date": "2026-01-21",
+      "slug": "release-v1-3-0-sovereign-entity-recursion-ser",
+      "summary": "Release note for SER v1.3.0, an architecture-first protocol for AI entities that must remain stable under cost, scarcity, time, and irreversibility.",
+      "tags": [],
+      "page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v130-ser-sovereign-entity-recursion-activity-7422179185089048576-mAWF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The Great AI Barter: Why Sovereign Entities are the best friends of Big Tech",
+      "date": "2026-01-20",
+      "slug": "the-great-ai-barter-why-sovereign-entities-are-the-best-friends-of-big-tech",
+      "summary": "A case that sovereign local entities can barter clean experience for cloud inference without giving up privacy or collapsing into cloud dependency.",
+      "tags": [
+        "AI Economy",
+        "Big Tech",
+        "Synthetic Data",
+        "Future of AI",
+        "B2B",
+        "Partnership"
+      ],
+      "page": "https://ivankotov.eu/diary/the-great-ai-barter-why-sovereign-entities-are-the-best-friends-of-big-tech/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7414186809913720832-Cw20?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Are You Actually Ready for a Robot at Home?",
+      "date": "2026-01-20",
+      "slug": "are-you-actually-ready-for-a-robot-at-home",
+      "summary": "A readiness checklist that treats a home robot as a long-term presence requiring boundaries, friction, and responsibility rather than feature-first convenience.",
+      "tags": [
+        "Home Robots",
+        "AI Entities",
+        "Privacy by Design",
+        "AI Architecture",
+        "L4",
+        "Human Systems",
+        "Future of Living"
+      ],
+      "page": "https://ivankotov.eu/diary/are-you-actually-ready-for-a-robot-at-home/",
+      "primary_image": "https://ivankotov.eu/assets/diary/are-you-actually-ready-for-a-robot-at-home/cover.jpg",
+      "image_alt": "Illustrated collage of a home robot in a house with a cat, security devices, a seated person, and a damaged robot head.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_homerobots-aientities-privacybydesign-activity-7421831930901401600-jvw4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why Control Always Fails at Scale (and Why We Keep Trying Anyway)",
+      "date": "2026-01-18",
+      "slug": "why-control-always-fails-at-scale-and-why-we-keep-trying-anyway",
+      "summary": "A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.",
+      "tags": [
+        "AI Safety",
+        "System Design",
+        "Cybernetics",
+        "L4",
+        "Complex Systems",
+        "AI Architecture",
+        "Deep Tech",
+        "Responsible AI"
+      ],
+      "page": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/cover.jpg",
+      "image_alt": "Image of a thick steel cable snapping with sparks at the break.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-systemdesign-cybernetics-activity-7421446803125858304-2A3P?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
       "date": "2026-01-18",

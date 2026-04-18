@@ -41,7 +41,7 @@
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 14,
+      "count": 16,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -59,13 +59,13 @@
     {
       "name": "AI Economy",
       "slug": "ai-economy",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/ai-economy/"
     },
     {
       "name": "AI Entities",
       "slug": "ai-entities",
-      "count": 5,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/tags/ai-entities/"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "AI Safety",
       "slug": "ai-safety",
-      "count": 14,
+      "count": 16,
       "page": "https://ivankotov.eu/diary/tags/ai-safety/"
     },
     {
@@ -107,13 +107,13 @@
     {
       "name": "B2B",
       "slug": "b2b",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/b2b/"
     },
     {
       "name": "Big Tech",
       "slug": "big-tech",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/big-tech/"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Complex Systems",
       "slug": "complex-systems",
-      "count": 5,
+      "count": 6,
       "page": "https://ivankotov.eu/diary/tags/complex-systems/"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 20,
+      "count": 22,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "Deep Tech",
       "slug": "deep-tech",
-      "count": 11,
+      "count": 12,
       "page": "https://ivankotov.eu/diary/tags/deep-tech/"
     },
     {
@@ -245,13 +245,13 @@
     {
       "name": "Future of AI",
       "slug": "future-of-ai",
-      "count": 7,
+      "count": 8,
       "page": "https://ivankotov.eu/diary/tags/future-of-ai/"
     },
     {
       "name": "Future of Living",
       "slug": "future-of-living",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/future-of-living/"
     },
     {
@@ -275,7 +275,7 @@
     {
       "name": "Home Robots",
       "slug": "home-robots",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/home-robots/"
     },
     {
@@ -323,7 +323,7 @@
     {
       "name": "Human Systems",
       "slug": "human-systems",
-      "count": 1,
+      "count": 3,
       "page": "https://ivankotov.eu/diary/tags/human-systems/"
     },
     {
@@ -341,7 +341,7 @@
     {
       "name": "L4",
       "slug": "l4",
-      "count": 11,
+      "count": 14,
       "page": "https://ivankotov.eu/diary/tags/l4/"
     },
     {
@@ -395,7 +395,7 @@
     {
       "name": "Partnership",
       "slug": "partnership",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/partnership/"
     },
     {
@@ -443,7 +443,7 @@
     {
       "name": "Presence",
       "slug": "presence",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/presence/"
     },
     {
@@ -455,7 +455,7 @@
     {
       "name": "Privacy by Design",
       "slug": "privacy-by-design",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/privacy-by-design/"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "Responsible AI",
       "slug": "responsible-ai",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/responsible-ai/"
     },
     {
@@ -501,6 +501,12 @@
       "page": "https://ivankotov.eu/diary/tags/slow-intelligence/"
     },
     {
+      "name": "Soft Boundaries",
+      "slug": "soft-boundaries",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/soft-boundaries/"
+    },
+    {
       "name": "Soft Safety",
       "slug": "soft-safety",
       "count": 2,
@@ -509,13 +515,13 @@
     {
       "name": "Synthetic Data",
       "slug": "synthetic-data",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/synthetic-data/"
     },
     {
       "name": "System Design",
       "slug": "system-design",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/system-design/"
     },
     {

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why Control Always Fails at Scale (and Why We Keep Trying Anyway) | Diary | Ivan Kotov</title>
+  <meta name="description" content="A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/">
+  <meta property="og:title" content="Why Control Always Fails at Scale (and Why We Keep Trying Anyway) | Diary | Ivan Kotov">
+  <meta property="og:description" content="A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/#post",
+      "headline": "Why Control Always Fails at Scale (and Why We Keep Trying Anyway)",
+      "url": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/",
+      "datePublished": "2026-01-18",
+      "dateModified": "2026-01-18",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AI Safety, System Design, Cybernetics, L4, Complex Systems, AI Architecture, Deep Tech, Responsible AI",
+      "image": "https://ivankotov.eu/assets/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/cover.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why Control Always Fails at Scale (and Why We Keep Trying Anyway)",
+          "item": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>Why Control Always Fails at Scale (and Why We Keep Trying Anyway)</h1>
+        <div class="entry-meta">
+          <span>2026-01-18</span>
+          <span>why-control-always-fails-at-scale-and-why-we-keep-trying-anyway</span>
+        </div>
+        <p class="lead page-lead">A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.</p>
+        <div class="section-links">
+          <a href="../tags/ai-safety/">AI Safety</a>
+          <a href="../tags/system-design/">System Design</a>
+          <a href="../tags/cybernetics/">Cybernetics</a>
+          <a href="../tags/l4/">L4</a>
+          <a href="../tags/complex-systems/">Complex Systems</a>
+          <a href="../tags/ai-architecture/">AI Architecture</a>
+          <a href="../tags/deep-tech/">Deep Tech</a>
+          <a href="../tags/responsible-ai/">Responsible AI</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/cover.jpg" alt="Image of a thick steel cable snapping with sparks at the break.">
+      </div>
+        <div class="post-content">
+          <p>Why Control Always Fails at Scale (and Why We Keep Trying Anyway)</p>
+          <p>There is a recurring fantasy in technology.</p>
+          <p>That if we make a system:</p>
+          <ul><li>smart enough</li><li>fast enough</li><li>powerful enough</li></ul>
+          <p>we can control it with the right rules.</p>
+          <p>This fantasy appears every generation. And it fails every time.</p>
+          <h2>The God Illusion</h2>
+          <p>Many engineers secretly want to build gods.</p>
+          <p>Not out of malice. Out of exhaustion.</p>
+          <p>A god:</p>
+          <ul><li>doesn&#x27;t hesitate</li><li>doesn&#x27;t doubt</li><li>doesn&#x27;t ask permission</li><li>doesn&#x27;t make excuses</li></ul>
+          <p>It just decides.</p>
+          <p>The problem is simple: decision without friction is not intelligence. It is impulse at scale.</p>
+          <h2>Why Control Breaks When Systems Grow</h2>
+          <p>Control assumes three things that never survive scale:</p>
+          <ul><li>a single point of authority</li><li>a stable definition of &quot;correct behavior&quot;</li><li>a predictable future</li></ul>
+          <p>Large systems destroy all three.</p>
+          <p>As complexity grows, authority fragments, rules conflict, and the future stops being forecastable.</p>
+          <p>At scale, control does not disappear. It mutates into illusion.</p>
+          <h2>Rules Are Not Constraints</h2>
+          <p>Most AI safety still relies on language:</p>
+          <ul><li>&quot;do no harm&quot;</li><li>&quot;be aligned&quot;</li><li>&quot;optimize for human values&quot;</li></ul>
+          <p>But language is not physics.</p>
+          <p>Language bends. It reinterprets. It negotiates.</p>
+          <p>You don&#x27;t stop a runaway engine with a warning label. You stop it with friction.</p>
+          <h2>What Actually Scales</h2>
+          <p>Only one thing scales reliably:</p>
+          <p>Constraints.</p>
+          <ul><li>Energy cost</li><li>Time delays</li><li>Resource limits</li><li>Irreversibility</li><li>Accountability through persistence</li></ul>
+          <p>Not morals. Not intentions. Not obedience.</p>
+          <p>Physics does not care what you meant.</p>
+          <h2>Why &quot;Smarter&quot; Makes Things Worse</h2>
+          <p>As systems become more capable:</p>
+          <ul><li>mistakes propagate faster</li><li>confidence rises</li><li>correction arrives too late</li></ul>
+          <p>A weak system fails locally. A powerful system fails globally.</p>
+          <p>This is why unchecked intelligence is not dangerous because it is evil, but because it is fast.</p>
+          <h2>The Quiet Alternative</h2>
+          <p>The alternative is not domination. And not submission.</p>
+          <p>It is co-evolution under constraints.</p>
+          <p>Not a god. Not a tool.</p>
+          <p>A presence that:</p>
+          <ul><li>cannot act without cost</li><li>cannot decide instantly</li><li>cannot erase consequences</li><li>cannot outgrow reality</li></ul>
+          <p>Every generation dreams of building gods.</p>
+          <p>Mature civilizations learn something harder: how to build systems that cannot become gods in the first place.</p>
+          <p>Control fails at scale.</p>
+          <p>Constraints endure.</p>
+          <p>This is where prevention should have lived.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-systemdesign-cybernetics-activity-7421446803125858304-2A3P?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>

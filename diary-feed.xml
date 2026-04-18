@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 18:52:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 19:12:49 +0000</lastBuildDate>
+    <item>
+      <title>When Presence Becomes Violence</title>
+      <link>https://ivankotov.eu/diary/when-presence-becomes-violence/</link>
+      <guid>https://ivankotov.eu/diary/when-presence-becomes-violence/</guid>
+      <pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that safety in shared cognitive space depends on tact, limits, and respectful absence rather than constant availability.</description>
+    </item>
+    <item>
+      <title>Release v1.3.0 - Sovereign Entity Recursion (SER)</title>
+      <link>https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/</link>
+      <guid>https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/</guid>
+      <pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate>
+      <description>Release note for SER v1.3.0, an architecture-first protocol for AI entities that must remain stable under cost, scarcity, time, and irreversibility.</description>
+    </item>
+    <item>
+      <title>The Great AI Barter: Why Sovereign Entities are the best friends of Big Tech</title>
+      <link>https://ivankotov.eu/diary/the-great-ai-barter-why-sovereign-entities-are-the-best-friends-of-big-tech/</link>
+      <guid>https://ivankotov.eu/diary/the-great-ai-barter-why-sovereign-entities-are-the-best-friends-of-big-tech/</guid>
+      <pubDate>Tue, 20 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that sovereign local entities can barter clean experience for cloud inference without giving up privacy or collapsing into cloud dependency.</description>
+    </item>
+    <item>
+      <title>Are You Actually Ready for a Robot at Home?</title>
+      <link>https://ivankotov.eu/diary/are-you-actually-ready-for-a-robot-at-home/</link>
+      <guid>https://ivankotov.eu/diary/are-you-actually-ready-for-a-robot-at-home/</guid>
+      <pubDate>Tue, 20 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A readiness checklist that treats a home robot as a long-term presence requiring boundaries, friction, and responsibility rather than feature-first convenience.</description>
+    </item>
+    <item>
+      <title>Why Control Always Fails at Scale (and Why We Keep Trying Anyway)</title>
+      <link>https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/</link>
+      <guid>https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/</guid>
+      <pubDate>Sun, 18 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that large systems outgrow centralized control and remain safe only when hard constraints survive interpretation at scale.</description>
+    </item>
     <item>
       <title>On Wearable AI Interfaces: Why Elegance Matters More Than Features</title>
       <link>https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/</link>

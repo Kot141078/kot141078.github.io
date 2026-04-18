@@ -2,21 +2,22 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
-    "date": "2026-01-18",
-    "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
-    "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
+    "title": "When Presence Becomes Violence",
+    "date": "2026-01-21",
+    "slug": "when-presence-becomes-violence",
+    "summary": "A case that safety in shared cognitive space depends on tact, limits, and respectful absence rather than constant availability.",
     "tags": [
-      "AI Interfaces",
-      "Private AI",
-      "Human Centered Tech",
-      "Systems Thinking",
-      "Local AI",
-      "Even G2"
+      "AI Entities",
+      "Presence",
+      "AI Safety",
+      "Cybernetics",
+      "Human Systems",
+      "L4",
+      "Soft Boundaries"
     ],
-    "page": "https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/",
-    "primary_image": "https://ivankotov.eu/assets/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/cover.jpg",
-    "image_alt": "Image of eyeglasses with a translucent interface reflected across one lens.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinterfaces-privateai-humancenteredtech-activity-7421144815435857920-n1a3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/when-presence-becomes-violence/",
+    "primary_image": "https://ivankotov.eu/assets/diary/when-presence-becomes-violence/cover.jpg",
+    "image_alt": "Image of a glowing cylindrical device on a table in a dark hallway, with a person reading in a lit room beyond.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-presence-aisafety-activity-7422594443284848640-k46O?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
