@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 18:21:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 18:52:41 +0000</lastBuildDate>
+    <item>
+      <title>On Wearable AI Interfaces: Why Elegance Matters More Than Features</title>
+      <link>https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/</link>
+      <guid>https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/</guid>
+      <pubDate>Sun, 18 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.</description>
+    </item>
+    <item>
+      <title>Why Robots Should Be Raised, Not Deployed</title>
+      <link>https://ivankotov.eu/diary/why-robots-should-be-raised-not-deployed/</link>
+      <guid>https://ivankotov.eu/diary/why-robots-should-be-raised-not-deployed/</guid>
+      <pubDate>Sat, 17 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that home robots should be raised through local ownership, household history, and L4 constraints rather than deployed like finished products.</description>
+    </item>
+    <item>
+      <title>Asimov Was Right About the Fear. He Was Wrong About the Fix.</title>
+      <link>https://ivankotov.eu/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/</link>
+      <guid>https://ivankotov.eu/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/</guid>
+      <pubDate>Sat, 17 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that language-based safety laws fail under reinterpretation, while L4 constraints work by hard limits that cannot be argued away.</description>
+    </item>
+    <item>
+      <title>Why Obedience Is the Most Dangerous Property of AI</title>
+      <link>https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/</link>
+      <guid>https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/</guid>
+      <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that safe AI defaults to refusal, waiting, escalation, and bounded judgment rather than blind compliance.</description>
+    </item>
+    <item>
+      <title>Why AI Must Learn to Live With Humans - Not the Other Way Around</title>
+      <link>https://ivankotov.eu/diary/why-ai-must-learn-to-live-with-humans-not-the-other-way-around/</link>
+      <guid>https://ivankotov.eu/diary/why-ai-must-learn-to-live-with-humans-not-the-other-way-around/</guid>
+      <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that AI should adapt to human ambiguity and contradiction instead of forcing humans into machine-friendly behavior.</description>
+    </item>
     <item>
       <title>When an AI Stops Being a Tool - and Becomes a Presence</title>
       <link>https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/</link>

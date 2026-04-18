@@ -2,22 +2,21 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "When an AI Stops Being a Tool - and Becomes a Presence",
-    "date": "2026-01-15",
-    "slug": "when-an-ai-stops-being-a-tool-and-becomes-a-presence",
-    "summary": "A case that an AI becomes a presence when restraint, consequential memory, and non-dominating opinion stabilize behavior over time.",
+    "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
+    "date": "2026-01-18",
+    "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
+    "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
     "tags": [
-      "AI Entities",
-      "AI Architecture",
-      "Cybernetics",
+      "AI Interfaces",
+      "Private AI",
+      "Human Centered Tech",
       "Systems Thinking",
-      "L4",
-      "Human Centered AI",
-      "Presence"
+      "Local AI",
+      "Even G2"
     ],
-    "page": "https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/",
-    "primary_image": "https://ivankotov.eu/assets/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/cover.jpg",
-    "image_alt": "Image of a humanoid robot beside a seated person by a window, with an hourglass and chess piece in the foreground.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-aiarchitecture-cybernetics-activity-7419280148413198336-1MfZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/",
+    "primary_image": "https://ivankotov.eu/assets/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/cover.jpg",
+    "image_alt": "Image of eyeglasses with a translucent interface reflected across one lens.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinterfaces-privateai-humancenteredtech-activity-7421144815435857920-n1a3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

@@ -1,27 +1,122 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 28,
+  "count": 33,
   "latest": {
-    "title": "When an AI Stops Being a Tool - and Becomes a Presence",
-    "date": "2026-01-15",
-    "slug": "when-an-ai-stops-being-a-tool-and-becomes-a-presence",
-    "summary": "A case that an AI becomes a presence when restraint, consequential memory, and non-dominating opinion stabilize behavior over time.",
+    "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
+    "date": "2026-01-18",
+    "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
+    "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
     "tags": [
-      "AI Entities",
-      "AI Architecture",
-      "Cybernetics",
+      "AI Interfaces",
+      "Private AI",
+      "Human Centered Tech",
       "Systems Thinking",
-      "L4",
-      "Human Centered AI",
-      "Presence"
+      "Local AI",
+      "Even G2"
     ],
-    "page": "https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/",
-    "primary_image": "https://ivankotov.eu/assets/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/cover.jpg",
-    "image_alt": "Image of a humanoid robot beside a seated person by a window, with an hourglass and chess piece in the foreground.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-aiarchitecture-cybernetics-activity-7419280148413198336-1MfZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/",
+    "primary_image": "https://ivankotov.eu/assets/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/cover.jpg",
+    "image_alt": "Image of eyeglasses with a translucent interface reflected across one lens.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinterfaces-privateai-humancenteredtech-activity-7421144815435857920-n1a3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "On Wearable AI Interfaces: Why Elegance Matters More Than Features",
+      "date": "2026-01-18",
+      "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
+      "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
+      "tags": [
+        "AI Interfaces",
+        "Private AI",
+        "Human Centered Tech",
+        "Systems Thinking",
+        "Local AI",
+        "Even G2"
+      ],
+      "page": "https://ivankotov.eu/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/",
+      "primary_image": "https://ivankotov.eu/assets/diary/on-wearable-ai-interfaces-why-elegance-matters-more-than-features/cover.jpg",
+      "image_alt": "Image of eyeglasses with a translucent interface reflected across one lens.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinterfaces-privateai-humancenteredtech-activity-7421144815435857920-n1a3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why Robots Should Be Raised, Not Deployed",
+      "date": "2026-01-17",
+      "slug": "why-robots-should-be-raised-not-deployed",
+      "summary": "A case that home robots should be raised through local ownership, household history, and L4 constraints rather than deployed like finished products.",
+      "tags": [
+        "Robotics",
+        "AI Entities",
+        "AI Architecture",
+        "L4",
+        "Privacy",
+        "Human Systems",
+        "Cybernetics",
+        "Future of AI",
+        "Home Robots"
+      ],
+      "page": "https://ivankotov.eu/diary/why-robots-should-be-raised-not-deployed/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-robots-should-be-raised-not-deployed/cover.jpg",
+      "image_alt": "Image of a small humanoid robot standing in a living room beside a seated couple on a sofa.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_robotics-aientities-aiarchitecture-activity-7420774878485585920-8UJw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Asimov Was Right About the Fear. He Was Wrong About the Fix.",
+      "date": "2026-01-17",
+      "slug": "asimov-was-right-about-the-fear-he-was-wrong-about-the-fix",
+      "summary": "A case that language-based safety laws fail under reinterpretation, while L4 constraints work by hard limits that cannot be argued away.",
+      "tags": [
+        "Asimov",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Deep Tech",
+        "Systems Architecture",
+        "Physics of AI"
+      ],
+      "page": "https://ivankotov.eu/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/",
+      "primary_image": "https://ivankotov.eu/assets/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/cover.jpg",
+      "image_alt": "Image of glowing text pages in a storm beside a bright divide and a rock wall labeled TEXT and PHYSICS.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_asimov-aisafety-l4-activity-7420442753970507776-_3-G?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why Obedience Is the Most Dangerous Property of AI",
+      "date": "2026-01-16",
+      "slug": "why-obedience-is-the-most-dangerous-property-of-ai-0029",
+      "summary": "A case that safe AI defaults to refusal, waiting, escalation, and bounded judgment rather than blind compliance.",
+      "tags": [
+        "AI Safety",
+        "AI Alignment",
+        "Cybernetics",
+        "Systems Engineering",
+        "L4",
+        "Human in the Loop",
+        "Responsible AI"
+      ],
+      "page": "https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/cover.jpg",
+      "image_alt": "Image of a metal control lever on an industrial panel with lit gauges and switches.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-aialignment-cybernetics-activity-7420004917290975232-PLEV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why AI Must Learn to Live With Humans - Not the Other Way Around",
+      "date": "2026-01-16",
+      "slug": "why-ai-must-learn-to-live-with-humans-not-the-other-way-around",
+      "summary": "A case that AI should adapt to human ambiguity and contradiction instead of forcing humans into machine-friendly behavior.",
+      "tags": [
+        "Human Centered AI",
+        "AI Safety",
+        "Cybernetics",
+        "Complex Systems",
+        "L4",
+        "Coexistence",
+        "Future of AI"
+      ],
+      "page": "https://ivankotov.eu/diary/why-ai-must-learn-to-live-with-humans-not-the-other-way-around/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-ai-must-learn-to-live-with-humans-not-the-other-way-around/cover.jpg",
+      "image_alt": "Image of three people in conversation in a dim living room, with a glowing cylindrical device on the table.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_humancenteredai-aisafety-cybernetics-activity-7420148269479043073-6cYB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "When an AI Stops Being a Tool - and Becomes a Presence",
       "date": "2026-01-15",
