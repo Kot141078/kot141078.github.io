@@ -2,28 +2,30 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "This is not a studio render.",
-    "date": "2026-03-23",
-    "slug": "this-is-not-a-studio-render",
-    "summary": "A note that livable AI needs real habitat: local infrastructure where memory, cost, heat, maintenance, and continuity are physically grounded.",
+    "title": "A lot of AI discussion still assumes the main demand will come from offices:",
+    "date": "2026-03-27",
+    "slug": "a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices",
+    "summary": "A note that persistent AI may be adopted first as domestic infrastructure rather than as office productivity software.",
     "tags": [
       "AGI",
       "Advanced Global Intelligence",
-      "AI",
       "AI Architecture",
+      "Human Centered AI",
       "Local AI",
-      "Sovereign AI",
-      "AI Infrastructure",
-      "Long Term Memory",
-      "Continuity",
+      "Private AI",
+      "Domestic Engineering",
+      "Home AI",
+      "Future of Living",
       "Cybernetics",
       "Systems Thinking",
-      "Human Centered AI",
-      "L4"
+      "Cognitive Infrastructure",
+      "Digital Continuity",
+      "L4",
+      "Future of AI"
     ],
-    "page": "https://ivankotov.eu/diary/this-is-not-a-studio-render/",
-    "primary_image": "https://ivankotov.eu/assets/diary/this-is-not-a-studio-render/cover.jpg",
-    "image_alt": "Multi-monitor workstation with several curved screens, keyboards, papers, and a tower PC in a dim room.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-ai-activity-7441536677736730624-FISJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices/",
+    "primary_image": "https://ivankotov.eu/assets/diary/a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices/cover.jpg",
+    "image_alt": "A wall-mounted device and control panel in a home kitchen nook with glowing lines reaching toward a phone and tablet.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-aiarchitecture-activity-7443212739453431809-UuFe?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

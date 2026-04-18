@@ -461,7 +461,7 @@ def render_latest_entries(entries: list[Entry]) -> str:
         )
     cards = [
         render_entry_card(entry, asset_prefix="../", entry_href=f"./{entry.slug}/", tag_prefix="./tags/", include_image=True)
-        for entry in entries[:3]
+        for entry in entries[:5]
     ]
     return "        <div class=\"archive-grid\">\n" + "\n".join(cards) + "\n        </div>\n"
 

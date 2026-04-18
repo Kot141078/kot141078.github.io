@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 21:59:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 22:39:26 +0000</lastBuildDate>
+    <item>
+      <title>A lot of AI discussion still assumes the main demand will come from offices:</title>
+      <link>https://ivankotov.eu/diary/a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices/</link>
+      <guid>https://ivankotov.eu/diary/a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices/</guid>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that persistent AI may be adopted first as domestic infrastructure rather than as office productivity software.</description>
+    </item>
+    <item>
+      <title>Most people look at AI systems from the outside.</title>
+      <link>https://ivankotov.eu/diary/most-people-look-at-ai-systems-from-the-outside/</link>
+      <guid>https://ivankotov.eu/diary/most-people-look-at-ai-systems-from-the-outside/</guid>
+      <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that continuity, memory, and stable identity change how an AI architecture looks from the inside.</description>
+    </item>
+    <item>
+      <title>ARQ is now published on Zenodo.</title>
+      <link>https://ivankotov.eu/diary/arq-is-now-published-on-zenodo/</link>
+      <guid>https://ivankotov.eu/diary/arq-is-now-published-on-zenodo/</guid>
+      <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
+      <description>Release note for ARQ on Zenodo as a citable public object with bounded deviation handling, traceability, and accountability.</description>
+    </item>
+    <item>
+      <title>A good AI should be difficult to manipulate - even by its owner</title>
+      <link>https://ivankotov.eu/diary/a-good-ai-should-be-difficult-to-manipulate-even-by-its-owner/</link>
+      <guid>https://ivankotov.eu/diary/a-good-ai-should-be-difficult-to-manipulate-even-by-its-owner/</guid>
+      <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that trustworthy long-lived AI should resist manipulation, including by the human who owns the hardware.</description>
+    </item>
+    <item>
+      <title>Agents are not the subject.</title>
+      <link>https://ivankotov.eu/diary/agents-are-not-the-subject/</link>
+      <guid>https://ivankotov.eu/diary/agents-are-not-the-subject/</guid>
+      <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that continuity in complex AI systems belongs to the orchestrating entity, not to agents or swarms.</description>
+    </item>
     <item>
       <title>This is not a studio render.</title>
       <link>https://ivankotov.eu/diary/this-is-not-a-studio-render/</link>
