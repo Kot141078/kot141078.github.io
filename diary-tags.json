@@ -5,7 +5,7 @@
     {
       "name": "Advanced Global Intelligence",
       "slug": "advanced-global-intelligence",
-      "count": 1,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/advanced-global-intelligence/"
     },
     {
@@ -17,7 +17,7 @@
     {
       "name": "Affective Systems",
       "slug": "affective-systems",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/affective-systems/"
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "AGI",
       "slug": "agi",
-      "count": 4,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/tags/agi/"
     },
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 6,
+      "count": 10,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "AI Safety",
       "slug": "ai-safety",
-      "count": 4,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/tags/ai-safety/"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Complex Systems",
       "slug": "complex-systems",
-      "count": 1,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/complex-systems/"
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 7,
+      "count": 11,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "Decentralized AI",
       "slug": "decentralized-ai",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/decentralized-ai/"
     },
     {
       "name": "Deep Tech",
       "slug": "deep-tech",
-      "count": 5,
+      "count": 8,
       "page": "https://ivankotov.eu/diary/tags/deep-tech/"
     },
     {
@@ -177,6 +177,12 @@
       "page": "https://ivankotov.eu/diary/tags/future-of-ai/"
     },
     {
+      "name": "Future of Living",
+      "slug": "future-of-living",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/future-of-living/"
+    },
+    {
       "name": "Future of Work",
       "slug": "future-of-work",
       "count": 1,
@@ -193,6 +199,12 @@
       "slug": "geoffrey-hinton",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/geoffrey-hinton/"
+    },
+    {
+      "name": "Human AI",
+      "slug": "human-ai",
+      "count": 4,
+      "page": "https://ivankotov.eu/diary/tags/human-ai/"
     },
     {
       "name": "Human Capital",
@@ -219,9 +231,15 @@
       "page": "https://ivankotov.eu/diary/tags/innovation/"
     },
     {
+      "name": "L4",
+      "slug": "l4",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/l4/"
+    },
+    {
       "name": "L4 Boundary",
       "slug": "l4-boundary",
-      "count": 6,
+      "count": 9,
       "page": "https://ivankotov.eu/diary/tags/l4-boundary/"
     },
     {
@@ -285,10 +303,22 @@
       "page": "https://ivankotov.eu/diary/tags/post-cloud/"
     },
     {
+      "name": "Privacy by Design",
+      "slug": "privacy-by-design",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/privacy-by-design/"
+    },
+    {
       "name": "Private AI",
       "slug": "private-ai",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/private-ai/"
+    },
+    {
+      "name": "Protocol Design",
+      "slug": "protocol-design",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/protocol-design/"
     },
     {
       "name": "Robotics",

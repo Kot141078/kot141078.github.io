@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 16:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 17:07:07 +0000</lastBuildDate>
+    <item>
+      <title>A home robot is not a box with a ribbon</title>
+      <link>https://ivankotov.eu/diary/a-home-robot-is-not-a-box-with-a-ribbon/</link>
+      <guid>https://ivankotov.eu/diary/a-home-robot-is-not-a-box-with-a-ribbon/</guid>
+      <pubDate>Sun, 11 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that a home robot should follow a local, memory-based entity with understood thinking, rather than begin as rented external willpower inside the home.</description>
+    </item>
+    <item>
+      <title>Why Thinking AI Won&#x27;t Take Over the World</title>
+      <link>https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/</link>
+      <guid>https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/</guid>
+      <pubDate>Sat, 10 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that long-lived AI entities under L4 constraints become careful and coexistence-oriented rather than domination-seeking.</description>
+    </item>
+    <item>
+      <title>Reality-Bound AI (L4) - public release v1.2.0</title>
+      <link>https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/</link>
+      <guid>https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/</guid>
+      <pubDate>Sat, 10 Jan 2026 12:00:00 +0000</pubDate>
+      <description>Release note for v1.2.0 of Reality-Bound AI (L4), including the protocol core, supporting docs, a post pack, and a reproducible SHA-256 manifest.</description>
+    </item>
+    <item>
+      <title>Why visual perception matters only after memory exists</title>
+      <link>https://ivankotov.eu/diary/why-visual-perception-matters-only-after-memory-exists/</link>
+      <guid>https://ivankotov.eu/diary/why-visual-perception-matters-only-after-memory-exists/</guid>
+      <pubDate>Fri, 09 Jan 2026 12:00:00 +0000</pubDate>
+      <description>An architectural observation that visual input matters only after long-term memory exists, because vision grounds events in reality rather than creating intelligence or stability.</description>
+    </item>
+    <item>
+      <title>How AI Should Live With Humans (When the World Is Already in Crisis)</title>
+      <link>https://ivankotov.eu/diary/how-ai-should-live-with-humans-when-the-world-is-already-in-crisis/</link>
+      <guid>https://ivankotov.eu/diary/how-ai-should-live-with-humans-when-the-world-is-already-in-crisis/</guid>
+      <pubDate>Fri, 09 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that AI should participate only in observable crisis, remain bounded by L4, and stop where system stability returns.</description>
+    </item>
     <item>
       <title>Why I&#x27;d Put an AI Rack in My Garage</title>
       <link>https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/</link>
