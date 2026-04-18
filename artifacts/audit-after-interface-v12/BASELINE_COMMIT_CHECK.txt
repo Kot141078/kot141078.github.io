@@ -1,0 +1,5 @@
+Requested baseline commit: 8da74a27e88189b7a2bc968a2b8e67c200835595
+git cat-file -t 8da74a27e88189b7a2bc968a2b8e67c200835595 => commit
+Current HEAD: 8da74a27e88189b7a2bc968a2b8e67c200835595
+Baseline present: yes
+HEAD equals baseline: yes

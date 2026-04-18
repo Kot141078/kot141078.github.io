@@ -1,0 +1,3 @@
+git diff --stat 8da74a27e88189b7a2bc968a2b8e67c200835595..HEAD
+
+No diffstat entries; HEAD equals baseline.
