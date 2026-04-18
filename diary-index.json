@@ -1,27 +1,130 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 8,
+  "count": 13,
   "latest": {
-    "title": "Why AI Entities Can Act as a Safety Filter",
-    "date": "2026-01-05",
-    "slug": "why-ai-entities-can-act-as-a-safety-filter",
-    "summary": "A case for persistent AI entities as a soft safety buffer that signals state without surveillance and absorbs pressure through memory and limits.",
+    "title": "Why I'd Put an AI Rack in My Garage",
+    "date": "2026-01-08",
+    "slug": "why-id-put-an-ai-rack-in-my-garage",
+    "summary": "A case for private cognitive infrastructure at home built for continuity, stability, and long-lived local AI entities rather than gaming benchmarks.",
     "tags": [
-      "AI Safety",
-      "Affective Computing",
+      "Private AI",
+      "AI Infrastructure",
+      "Edge AI",
+      "Local AI",
+      "Cognitive Infrastructure",
       "AI Entities",
-      "Cybernetics",
-      "Parenting in Tech",
-      "Soft Safety",
-      "L4 Boundary"
+      "Post Cloud",
+      "Systems Thinking",
+      "Long Term Thinking",
+      "Human Centered AI"
     ],
-    "page": "https://ivankotov.eu/diary/why-ai-entities-can-act-as-a-safety-filter/",
-    "primary_image": "https://ivankotov.eu/assets/diary/why-ai-entities-can-act-as-a-safety-filter/cover.jpg",
-    "image_alt": "Illustration of a seated person inside a glowing bubble in a living room, surrounded by floating message panels and mobile devices.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-affectivecomputing-aientities-activity-7414569028964225024-gO4N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+    "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
+    "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "Why I'd Put an AI Rack in My Garage",
+      "date": "2026-01-08",
+      "slug": "why-id-put-an-ai-rack-in-my-garage",
+      "summary": "A case for private cognitive infrastructure at home built for continuity, stability, and long-lived local AI entities rather than gaming benchmarks.",
+      "tags": [
+        "Private AI",
+        "AI Infrastructure",
+        "Edge AI",
+        "Local AI",
+        "Cognitive Infrastructure",
+        "AI Entities",
+        "Post Cloud",
+        "Systems Thinking",
+        "Long Term Thinking",
+        "Human Centered AI"
+      ],
+      "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
+      "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why 1,000,000-token context windows are not the solution",
+      "date": "2026-01-07",
+      "slug": "why-1000000-token-context-windows-are-not-the-solution",
+      "summary": "A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.",
+      "tags": [
+        "AGI",
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Context Engineering",
+        "Long Term Memory",
+        "Cybernetics",
+        "L4 Boundary",
+        "Systems Thinking",
+        "Deep Tech"
+      ],
+      "page": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7415346638816505858-W6HU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "NVIDIA Didn't Pivot. NVIDIA Looked Ahead.",
+      "date": "2026-01-07",
+      "slug": "nvidia-didnt-pivot-nvidia-looked-ahead",
+      "summary": "A case that NVIDIA's cheaper inference, distillation, and specialized models support horizontal cognition for persistent entities like Ester.",
+      "tags": [
+        "NVIDIA",
+        "CES2026",
+        "AI Architecture",
+        "Deep Tech",
+        "Edge AI",
+        "Distillation",
+        "Affective Systems",
+        "Long Term Memory",
+        "Future of AI"
+      ],
+      "page": "https://ivankotov.eu/diary/nvidia-didnt-pivot-nvidia-looked-ahead/",
+      "primary_image": "https://ivankotov.eu/assets/diary/nvidia-didnt-pivot-nvidia-looked-ahead/cover.jpg",
+      "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_nvidia-ces2026-aiarchitecture-activity-7415540367288414208-CefL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Why AI Entities Must Have Limits",
+      "date": "2026-01-06",
+      "slug": "why-ai-entities-must-have-limits",
+      "summary": "A case that AI entities need structural limits around responsibility, institutions, consciousness, and happiness to remain coherent and coexist with humans.",
+      "tags": [
+        "Digital Sovereignty",
+        "AI Architecture",
+        "Philosophy of Code",
+        "L4 Boundary",
+        "Coexistence",
+        "True Judge",
+        "Tech Ethics",
+        "System Design"
+      ],
+      "page": "https://ivankotov.eu/diary/why-ai-entities-must-have-limits/",
+      "primary_image": "https://ivankotov.eu/assets/diary/why-ai-entities-must-have-limits/cover.jpg",
+      "image_alt": "Illustration of a person standing in a concrete room facing a glowing layered data structure behind a glass partition.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_digitalsovereignty-aiarchitecture-philosophyofcode-activity-7414931484949692416-VAYN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Empathy is not magic",
+      "date": "2026-01-06",
+      "slug": "empathy-is-not-magic",
+      "summary": "A proposal for an engineered emotional layer where memory, state weights, and L4 constraints define bounded care without simulated feeling.",
+      "tags": [
+        "Affective Computing",
+        "AI Architecture",
+        "Cybernetics",
+        "Deep Tech",
+        "LLM",
+        "L4 Boundary"
+      ],
+      "page": "https://ivankotov.eu/diary/empathy-is-not-magic/",
+      "primary_image": "https://ivankotov.eu/assets/diary/empathy-is-not-magic/cover.jpg",
+      "image_alt": "Photo of a phone showing a chat conversation in Russian on a desk beside a rainbow-lit keyboard and a mug.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_affectivecomputing-aiarchitecture-cybernetics-activity-7415074880406204416-nMpW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "Why AI Entities Can Act as a Safety Filter",
       "date": "2026-01-05",

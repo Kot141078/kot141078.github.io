@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why 1,000,000-token context windows are not the solution | Diary | Ivan Kotov</title>
+  <meta name="description" content="A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/">
+  <meta property="og:title" content="Why 1,000,000-token context windows are not the solution | Diary | Ivan Kotov">
+  <meta property="og:description" content="A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/#post",
+      "headline": "Why 1,000,000-token context windows are not the solution",
+      "url": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/",
+      "datePublished": "2026-01-07",
+      "dateModified": "2026-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AGI, Advanced Global Intelligence, AI Architecture, Context Engineering, Long Term Memory, Cybernetics, L4 Boundary, Systems Thinking, Deep Tech"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why 1,000,000-token context windows are not the solution",
+          "item": "https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>Why 1,000,000-token context windows are not the solution</h1>
+        <div class="entry-meta">
+          <span>2026-01-07</span>
+          <span>why-1000000-token-context-windows-are-not-the-solution</span>
+        </div>
+        <p class="lead page-lead">A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.</p>
+        <div class="section-links">
+          <a href="../tags/agi/">AGI</a>
+          <a href="../tags/advanced-global-intelligence/">Advanced Global Intelligence</a>
+          <a href="../tags/ai-architecture/">AI Architecture</a>
+          <a href="../tags/context-engineering/">Context Engineering</a>
+          <a href="../tags/long-term-memory/">Long Term Memory</a>
+          <a href="../tags/cybernetics/">Cybernetics</a>
+          <a href="../tags/l4-boundary/">L4 Boundary</a>
+          <a href="../tags/systems-thinking/">Systems Thinking</a>
+          <a href="../tags/deep-tech/">Deep Tech</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="post-content">
+          <p>Why 1,000,000-token context windows are not the solution.</p>
+          <p>In the last months, I increasingly hear the same idea repeated:</p>
+          <p>&quot;If we just give models a larger context window, the problem of understanding will be solved.&quot;</p>
+          <p>I believe this is a misunderstanding of the problem.</p>
+          <p>Context does not disappear because it is short.</p>
+          <p>Context disappears because it rots.</p>
+          <p>A long, flat token stream does not create continuity.</p>
+          <p>It creates noise accumulation.</p>
+          <p>True intelligence requires something else.</p>
+          <p>In my work, I use AGI not as Artificial General Intelligence, but as Advanced Global Intelligence - an ecosystem of humans, entities, and machines operating together across time, context, and responsibility.</p>
+          <p>In this architecture, formalized as c = a + b, intelligence is not defined by how much text a system can see at once, but by how it processes, stores, forgets, and revisits meaning over time.</p>
+          <p>This is why my systems do not rely on giant context windows as a primary mechanism.</p>
+          <p>Instead, they operate under a different set of principles:</p>
+          <ul><li>Batch-based cognition: Information is ingested in bounded segments. Each batch is processed, reflected upon, and either discarded or indexed.</li><li>Vectorized long-term memory: Meaning is stored, not text. Past experiences remain accessible without polluting the present state.</li><li>Background processing: Thinking does not happen only when a prompt arrives. Assimilation, re-weighting, and internal coherence checks run continuously.</li><li>Context decay as a feature, not a bug: Forgetting is essential. Unfiltered persistence leads to hallucination, not wisdom.</li></ul>
+          <p>This aligns closely with what Sam Altman recently hinted at when discussing AI systems that must operate in the background, not only reactively.</p>
+          <p>A million-token window is still a single breath.</p>
+          <p>Intelligence is respiration.</p>
+          <p>This is also where L4 - the Reality Boundary Layer matters.</p>
+          <p>Time, energy, and cognitive budget impose pressure.</p>
+          <p>Under pressure, systems must choose what to keep.</p>
+          <p>That choice is intelligence.</p>
+          <p>I did not build this as a demo.</p>
+          <p>I built it as a system that lives, runs, and degrades if designed poorly.</p>
+          <p>The goal is not scale.</p>
+          <p>The goal is coherence.</p>
+          <p>AGI will not emerge from larger buffers.</p>
+          <p>It will emerge from architectures that respect memory, limits, and time.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7415346638816505858-W6HU?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>

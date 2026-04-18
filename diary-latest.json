@@ -2,22 +2,25 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Why AI Entities Can Act as a Safety Filter",
-    "date": "2026-01-05",
-    "slug": "why-ai-entities-can-act-as-a-safety-filter",
-    "summary": "A case for persistent AI entities as a soft safety buffer that signals state without surveillance and absorbs pressure through memory and limits.",
+    "title": "Why I'd Put an AI Rack in My Garage",
+    "date": "2026-01-08",
+    "slug": "why-id-put-an-ai-rack-in-my-garage",
+    "summary": "A case for private cognitive infrastructure at home built for continuity, stability, and long-lived local AI entities rather than gaming benchmarks.",
     "tags": [
-      "AI Safety",
-      "Affective Computing",
+      "Private AI",
+      "AI Infrastructure",
+      "Edge AI",
+      "Local AI",
+      "Cognitive Infrastructure",
       "AI Entities",
-      "Cybernetics",
-      "Parenting in Tech",
-      "Soft Safety",
-      "L4 Boundary"
+      "Post Cloud",
+      "Systems Thinking",
+      "Long Term Thinking",
+      "Human Centered AI"
     ],
-    "page": "https://ivankotov.eu/diary/why-ai-entities-can-act-as-a-safety-filter/",
-    "primary_image": "https://ivankotov.eu/assets/diary/why-ai-entities-can-act-as-a-safety-filter/cover.jpg",
-    "image_alt": "Illustration of a seated person inside a glowing bubble in a living room, surrounded by floating message panels and mobile devices.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-affectivecomputing-aientities-activity-7414569028964225024-gO4N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+    "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
+    "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

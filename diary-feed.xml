@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 16:13:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 16:37:39 +0000</lastBuildDate>
+    <item>
+      <title>Why I&#x27;d Put an AI Rack in My Garage</title>
+      <link>https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/</link>
+      <guid>https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/</guid>
+      <pubDate>Thu, 08 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case for private cognitive infrastructure at home built for continuity, stability, and long-lived local AI entities rather than gaming benchmarks.</description>
+    </item>
+    <item>
+      <title>Why 1,000,000-token context windows are not the solution</title>
+      <link>https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/</link>
+      <guid>https://ivankotov.eu/diary/why-1000000-token-context-windows-are-not-the-solution/</guid>
+      <pubDate>Wed, 07 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.</description>
+    </item>
+    <item>
+      <title>NVIDIA Didn&#x27;t Pivot. NVIDIA Looked Ahead.</title>
+      <link>https://ivankotov.eu/diary/nvidia-didnt-pivot-nvidia-looked-ahead/</link>
+      <guid>https://ivankotov.eu/diary/nvidia-didnt-pivot-nvidia-looked-ahead/</guid>
+      <pubDate>Wed, 07 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that NVIDIA&#x27;s cheaper inference, distillation, and specialized models support horizontal cognition for persistent entities like Ester.</description>
+    </item>
+    <item>
+      <title>Why AI Entities Must Have Limits</title>
+      <link>https://ivankotov.eu/diary/why-ai-entities-must-have-limits/</link>
+      <guid>https://ivankotov.eu/diary/why-ai-entities-must-have-limits/</guid>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A case that AI entities need structural limits around responsibility, institutions, consciousness, and happiness to remain coherent and coexist with humans.</description>
+    </item>
+    <item>
+      <title>Empathy is not magic</title>
+      <link>https://ivankotov.eu/diary/empathy-is-not-magic/</link>
+      <guid>https://ivankotov.eu/diary/empathy-is-not-magic/</guid>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0000</pubDate>
+      <description>A proposal for an engineered emotional layer where memory, state weights, and L4 constraints define bounded care without simulated feeling.</description>
+    </item>
     <item>
       <title>Why AI Entities Can Act as a Safety Filter</title>
       <link>https://ivankotov.eu/diary/why-ai-entities-can-act-as-a-safety-filter/</link>

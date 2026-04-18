@@ -3,10 +3,22 @@
   "page": "https://ivankotov.eu/diary/tags/",
   "tags": [
     {
+      "name": "Advanced Global Intelligence",
+      "slug": "advanced-global-intelligence",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/advanced-global-intelligence/"
+    },
+    {
       "name": "Affective Computing",
       "slug": "affective-computing",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/affective-computing/"
+    },
+    {
+      "name": "Affective Systems",
+      "slug": "affective-systems",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/affective-systems/"
     },
     {
       "name": "Age Tech",
@@ -17,13 +29,13 @@
     {
       "name": "AGI",
       "slug": "agi",
-      "count": 3,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/agi/"
     },
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 2,
+      "count": 6,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -35,8 +47,14 @@
     {
       "name": "AI Entities",
       "slug": "ai-entities",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/ai-entities/"
+    },
+    {
+      "name": "AI Infrastructure",
+      "slug": "ai-infrastructure",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ai-infrastructure/"
     },
     {
       "name": "AI Safety",
@@ -57,15 +75,39 @@
       "page": "https://ivankotov.eu/diary/tags/big-tech/"
     },
     {
+      "name": "CES2026",
+      "slug": "ces2026",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ces2026/"
+    },
+    {
+      "name": "Coexistence",
+      "slug": "coexistence",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/coexistence/"
+    },
+    {
+      "name": "Cognitive Infrastructure",
+      "slug": "cognitive-infrastructure",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/cognitive-infrastructure/"
+    },
+    {
       "name": "Complex Systems",
       "slug": "complex-systems",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/complex-systems/"
     },
     {
+      "name": "Context Engineering",
+      "slug": "context-engineering",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/context-engineering/"
+    },
+    {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 5,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -83,14 +125,20 @@
     {
       "name": "Deep Tech",
       "slug": "deep-tech",
-      "count": 2,
+      "count": 5,
       "page": "https://ivankotov.eu/diary/tags/deep-tech/"
     },
     {
       "name": "Digital Sovereignty",
       "slug": "digital-sovereignty",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/digital-sovereignty/"
+    },
+    {
+      "name": "Distillation",
+      "slug": "distillation",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/distillation/"
     },
     {
       "name": "Economy",
@@ -103,6 +151,12 @@
       "slug": "economy-of-meaning",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/economy-of-meaning/"
+    },
+    {
+      "name": "Edge AI",
+      "slug": "edge-ai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/edge-ai/"
     },
     {
       "name": "Engineering",
@@ -119,7 +173,7 @@
     {
       "name": "Future of AI",
       "slug": "future-of-ai",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/future-of-ai/"
     },
     {
@@ -147,6 +201,12 @@
       "page": "https://ivankotov.eu/diary/tags/human-capital/"
     },
     {
+      "name": "Human Centered AI",
+      "slug": "human-centered-ai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/human-centered-ai/"
+    },
+    {
       "name": "Human Centric AI",
       "slug": "human-centric-ai",
       "count": 1,
@@ -161,8 +221,38 @@
     {
       "name": "L4 Boundary",
       "slug": "l4-boundary",
-      "count": 3,
+      "count": 6,
       "page": "https://ivankotov.eu/diary/tags/l4-boundary/"
+    },
+    {
+      "name": "LLM",
+      "slug": "llm",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/llm/"
+    },
+    {
+      "name": "Local AI",
+      "slug": "local-ai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/local-ai/"
+    },
+    {
+      "name": "Long Term Memory",
+      "slug": "long-term-memory",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/long-term-memory/"
+    },
+    {
+      "name": "Long Term Thinking",
+      "slug": "long-term-thinking",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/long-term-thinking/"
+    },
+    {
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/nvidia/"
     },
     {
       "name": "Parenting in Tech",
@@ -183,6 +273,24 @@
       "page": "https://ivankotov.eu/diary/tags/philosophy/"
     },
     {
+      "name": "Philosophy of Code",
+      "slug": "philosophy-of-code",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/philosophy-of-code/"
+    },
+    {
+      "name": "Post Cloud",
+      "slug": "post-cloud",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/post-cloud/"
+    },
+    {
+      "name": "Private AI",
+      "slug": "private-ai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/private-ai/"
+    },
+    {
       "name": "Robotics",
       "slug": "robotics",
       "count": 1,
@@ -199,6 +307,30 @@
       "slug": "synthetic-data",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/synthetic-data/"
+    },
+    {
+      "name": "System Design",
+      "slug": "system-design",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/system-design/"
+    },
+    {
+      "name": "Systems Thinking",
+      "slug": "systems-thinking",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/systems-thinking/"
+    },
+    {
+      "name": "Tech Ethics",
+      "slug": "tech-ethics",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/tech-ethics/"
+    },
+    {
+      "name": "True Judge",
+      "slug": "true-judge",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/true-judge/"
     }
   ]
 }
