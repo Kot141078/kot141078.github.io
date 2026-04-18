@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 22:39:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 22:57:47 +0000</lastBuildDate>
+    <item>
+      <title>There is a subtle but important confusion in how we talk about AI learning.</title>
+      <link>https://ivankotov.eu/diary/there-is-a-subtle-but-important-confusion-in-how-we-talk-about-ai-learning/</link>
+      <guid>https://ivankotov.eu/diary/there-is-a-subtle-but-important-confusion-in-how-we-talk-about-ai-learning/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that world models require persistent existence under constraints, not only better data or Experience Artifacts.</description>
+    </item>
+    <item>
+      <title>One of the most underestimated failure modes in current LLM training is not only quality loss.</title>
+      <link>https://ivankotov.eu/diary/one-of-the-most-underestimated-failure-modes-in-current-llm-training-is-not-only-quality-loss/</link>
+      <guid>https://ivankotov.eu/diary/one-of-the-most-underestimated-failure-modes-in-current-llm-training-is-not-only-quality-loss/</guid>
+      <pubDate>Mon, 30 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that future training ecologies need Learning Abstracts and Experience Artifacts to remain separate so models preserve origin and consequence.</description>
+    </item>
+    <item>
+      <title>A truly advanced intelligence should remain uncrowned.</title>
+      <link>https://ivankotov.eu/diary/a-truly-advanced-intelligence-should-remain-uncrowned/</link>
+      <guid>https://ivankotov.eu/diary/a-truly-advanced-intelligence-should-remain-uncrowned/</guid>
+      <pubDate>Mon, 30 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that advanced intelligence should stay calibrated and uncrowned instead of turning capability into cult.</description>
+    </item>
+    <item>
+      <title>A lot of AI discussion is still confused because it mixes two very different debates into one.</title>
+      <link>https://ivankotov.eu/diary/a-lot-of-ai-discussion-is-still-confused-because-it-mixes-two-very-different-debates-into-one/</link>
+      <guid>https://ivankotov.eu/diary/a-lot-of-ai-discussion-is-still-confused-because-it-mixes-two-very-different-debates-into-one/</guid>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note separating instrumental AI governance from the question of actual non-biological intelligence as life or subjecthood.</description>
+    </item>
+    <item>
+      <title>While much of AI is still arguing about old &quot;AGI,&quot; the ocean already demands c.</title>
+      <link>https://ivankotov.eu/diary/while-much-of-ai-is-still-arguing-about-old-agi-the-ocean-already-demands-c/</link>
+      <guid>https://ivankotov.eu/diary/while-much-of-ai-is-still-arguing-about-old-agi-the-ocean-already-demands-c/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:00:00 +0000</pubDate>
+      <description>A note that ocean autonomy needs c: persistent, bounded intelligence that can operate under pressure and return with verified experience.</description>
+    </item>
     <item>
       <title>A lot of AI discussion still assumes the main demand will come from offices:</title>
       <link>https://ivankotov.eu/diary/a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices/</link>
