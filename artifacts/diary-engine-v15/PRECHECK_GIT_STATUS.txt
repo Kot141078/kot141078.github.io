@@ -1,0 +1,2 @@
+# git status --short
+# output was empty before the V15 pass; the working tree was clean.
