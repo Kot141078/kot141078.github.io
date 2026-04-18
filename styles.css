@@ -69,27 +69,64 @@ code {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.2rem;
+  align-items: flex-start;
+  padding: 0.95rem 1.1rem;
   margin-bottom: 1rem;
 }
 
 .brand {
+  display: grid;
+  gap: 0.08rem;
+  min-width: max-content;
+  color: var(--text);
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-name {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   font-weight: 700;
   letter-spacing: 0.03em;
-  color: var(--text);
+}
+
+.brand-role {
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.9rem 1.2rem;
+  justify-content: flex-end;
+  gap: 0.55rem;
 }
 
 .site-nav a {
-  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.site-nav a:hover {
+  background: var(--accent-soft);
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--line));
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] {
+  background: var(--accent-soft);
+  border-color: color-mix(in srgb, var(--accent) 34%, var(--line));
 }
 
 .hero,
@@ -102,6 +139,16 @@ code {
 .hero {
   padding-top: 2.6rem;
   padding-bottom: 2.6rem;
+}
+
+.hero-home {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.hero-home h1 {
+  font-size: clamp(2.45rem, 5.4vw, 3.8rem);
+  max-width: 12ch;
 }
 
 .eyebrow,
@@ -157,6 +204,23 @@ h3 {
   font-size: 1.05rem;
 }
 
+.hero-support,
+.hero-quote {
+  margin: 0.8rem 0 0;
+  max-width: 52rem;
+}
+
+.hero-support {
+  color: var(--text);
+  font-size: 1.02rem;
+}
+
+.hero-quote {
+  color: var(--muted);
+  font-size: 0.98rem;
+  font-style: italic;
+}
+
 .lead {
   margin-top: 0.9rem;
   max-width: 48rem;
@@ -206,8 +270,18 @@ h3 {
   gap: 1rem;
 }
 
+.surface-grid,
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .card,
-.timeline-item {
+.timeline-item,
+.surface-group,
+.entry-card,
+.empty-state {
   border: 1px solid var(--line);
   border-radius: 16px;
   background: linear-gradient(180deg, var(--bg-panel), #f5f1e8);
@@ -228,6 +302,100 @@ h3 {
 .timeline-item {
   display: grid;
   gap: 0.4rem;
+}
+
+.surface-group p,
+.entry-summary,
+.empty-state p {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+}
+
+.surface-links,
+.archive-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.95rem;
+}
+
+.surface-links a,
+.archive-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 0.85rem;
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.archive-chip {
+  color: var(--muted);
+}
+
+.entry-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.entry-cover {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+
+.entry-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.post-content {
+  display: grid;
+  gap: 0.9rem;
+  max-width: 54rem;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content pre,
+.post-content blockquote {
+  margin: 0;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.3rem;
+  color: var(--text);
+}
+
+.post-content li + li {
+  margin-top: 0.3rem;
+}
+
+.post-content pre,
+.post-content blockquote {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+}
+
+.diary-note {
+  margin-top: 0.6rem;
+  color: var(--muted);
 }
 
 .bridge {
@@ -360,17 +528,22 @@ h3 {
   }
 
   .site-header {
-    align-items: flex-start;
     flex-direction: column;
   }
 
   .card-grid,
-  .link-list {
+  .link-list,
+  .surface-grid,
+  .archive-grid {
     grid-template-columns: 1fr;
   }
 
   .media-split {
     grid-template-columns: 1fr;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
   }
 
   .hero,

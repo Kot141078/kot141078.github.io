@@ -14,6 +14,7 @@ This repository serves a minimal public entry page for:
 It also includes canonical, identity, authority/evidence, distinctions, and entry layers through:
 
 - `start-here`
+- `diary`
 - `questions`
 - `topics`
 - `ai-governance`
@@ -40,6 +41,8 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `releases`
 - `evidence`
 - `llms.txt`
+- `diary-index.json`
+- `diary-latest.json`
 - `actor-grounding-layer.json`
 - `qubit-of-hope-volume-ii.json`
 - `canonical-map.json`
@@ -57,9 +60,11 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v1.3` AGL + Volume II integration layer on top of topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v1.4` diary foundation + visual tightening layer on top of `v1.3` AGL + Volume II integration, topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no package manager, no framework.
+
+Diary foundation is prepared through plain Markdown source files in `content/diary/`, image folders in `assets/diary/`, and the stdlib-only helper `tools/build_diary.py`.
 
 ## Primary domain
 
@@ -70,6 +75,7 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 
 - `index.html`
 - `start-here/index.html`
+- `diary/index.html`
 - `questions/index.html`
 - `topics/index.html`
 - `ai-governance/index.html`
@@ -100,6 +106,8 @@ It is a plain static site: HTML + CSS + JSON/JSON-LD only, no build step, no pac
 ## Machine-readable layer
 
 - `llms.txt` — compact machine-facing site guide
+- `diary-index.json` — machine-readable diary archive index
+- `diary-latest.json` — machine-readable latest diary slot state
 - `actor-grounding-layer.json` — machine-readable grounding layer node
 - `qubit-of-hope-volume-ii.json` — machine-readable narrative continuation node
 - `canonical-map.json` — canonical term and node map
