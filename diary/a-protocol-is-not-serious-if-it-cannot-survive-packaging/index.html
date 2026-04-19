@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A protocol is not serious if it cannot survive packaging. | Diary | Ivan Kotov</title>
+  <meta name="description" content="A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/">
+  <meta property="og:title" content="A protocol is not serious if it cannot survive packaging. | Diary | Ivan Kotov">
+  <meta property="og:description" content="A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/#post",
+      "headline": "A protocol is not serious if it cannot survive packaging.",
+      "url": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/",
+      "datePublished": "2026-04-15",
+      "dateModified": "2026-04-15",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AI, AI Architecture, AI Safety, SER, L4, Cybernetics, Protocol Design, Long Lived AI, Advanced Global Intelligence",
+      "image": "https://ivankotov.eu/assets/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/cover.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "A protocol is not serious if it cannot survive packaging.",
+          "item": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>A protocol is not serious if it cannot survive packaging.</h1>
+        <div class="entry-meta">
+          <span>2026-04-15</span>
+          <span>a-protocol-is-not-serious-if-it-cannot-survive-packaging</span>
+        </div>
+        <p class="lead page-lead">A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.</p>
+        <div class="section-links">
+          <a href="../tags/ai/">AI</a>
+          <a href="../tags/ai-architecture/">AI Architecture</a>
+          <a href="../tags/ai-safety/">AI Safety</a>
+          <a href="../tags/ser/">SER</a>
+          <a href="../tags/l4/">L4</a>
+          <a href="../tags/cybernetics/">Cybernetics</a>
+          <a href="../tags/protocol-design/">Protocol Design</a>
+          <a href="../tags/long-lived-ai/">Long Lived AI</a>
+          <a href="../tags/advanced-global-intelligence/">Advanced Global Intelligence</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/cover.jpg" alt="A gloved hand resting on a binder with tabs labeled Core, Schemas, and Audit on a table in front of a blurred whiteboard.">
+      </div>
+        <div class="post-content">
+          <p>A protocol is not serious if it cannot survive packaging.</p>
+          <p>One quiet thing changed for me with ARQ v0.2.</p>
+          <p>It stopped being only an interesting architectural idea.</p>
+          <p>It became a package.</p>
+          <p>Not one long mixed note. Not a promising draft with mathematics, implementation hints, and release logic all tangled together. A package.</p>
+          <p>That distinction matters.</p>
+          <p>ARQ v0.2 now separates:</p>
+          <ul><li>normative core</li><li>explicit system models</li><li>notation discipline</li><li>valuation and anomaly scoring</li><li>lifecycle and witness binding</li><li>schemas</li><li>implementation profiles</li><li>failure and degradation</li><li>integration map</li><li>and conformance / audit layer</li></ul>
+          <p>This may sound less romantic than &quot;a clever new protocol.&quot;</p>
+          <p>Good.</p>
+          <p>Because long-lived systems do not fail only from bad ideas. They also fail from mixed layers, unclear scope, and elegant documents that collapse the moment someone tries to implement, audit, or challenge them.</p>
+          <p>Earth paragraph:</p>
+          <p>In engineering, there is a difference between a good control idea on a whiteboard and a machine you would actually sign off for extended operation. The second one needs labels, boundaries, records, procedures, and failure handling. Not because engineers are boring. Because reality is.</p>
+          <p>That is what ARQ v0.2 adds for me: less mythology, more survivable structure.</p>
+          <p>GitHub canonical ARQ v0.2 package in SER:</p>
+          <ul><li><a href="https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-v0.2-package-2026-04-14">https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-v0.2-package-2026-04-14</a></li></ul>
+          <p>Zenodo DOI:</p>
+          <ul><li><a href="https://doi.org/10.5281/zenodo.19573743">10.5281/zenodo.19573743</a></li></ul>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7450075804153139201-mAGl?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>

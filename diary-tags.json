@@ -23,8 +23,14 @@
     {
       "name": "Advanced Global Intelligence",
       "slug": "advanced-global-intelligence",
-      "count": 44,
+      "count": 46,
       "page": "https://ivankotov.eu/diary/tags/advanced-global-intelligence/"
+    },
+    {
+      "name": "AdvancedGlobalIntelligencefety",
+      "slug": "advancedglobalintelligencefety",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/advancedglobalintelligencefety/"
     },
     {
       "name": "Affective Computing",
@@ -77,7 +83,7 @@
     {
       "name": "AI",
       "slug": "ai",
-      "count": 25,
+      "count": 28,
       "page": "https://ivankotov.eu/diary/tags/ai/"
     },
     {
@@ -113,7 +119,7 @@
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 57,
+      "count": 61,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -209,7 +215,7 @@
     {
       "name": "AI Safety",
       "slug": "ai-safety",
-      "count": 47,
+      "count": 51,
       "page": "https://ivankotov.eu/diary/tags/ai-safety/"
     },
     {
@@ -293,7 +299,7 @@
     {
       "name": "Audit Trail",
       "slug": "audit-trail",
-      "count": 7,
+      "count": 8,
       "page": "https://ivankotov.eu/diary/tags/audit-trail/"
     },
     {
@@ -349,6 +355,12 @@
       "slug": "book-release",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/book-release/"
+    },
+    {
+      "name": "Bounded Authority",
+      "slug": "bounded-authority",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/bounded-authority/"
     },
     {
       "name": "c = a + b",
@@ -491,7 +503,7 @@
     {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 69,
+      "count": 74,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -575,7 +587,7 @@
     {
       "name": "Digital Entities",
       "slug": "digital-entities",
-      "count": 8,
+      "count": 9,
       "page": "https://ivankotov.eu/diary/tags/digital-entities/"
     },
     {
@@ -959,7 +971,7 @@
     {
       "name": "L4",
       "slug": "l4",
-      "count": 57,
+      "count": 62,
       "page": "https://ivankotov.eu/diary/tags/l4/"
     },
     {
@@ -1013,7 +1025,7 @@
     {
       "name": "Long Lived AI",
       "slug": "long-lived-ai",
-      "count": 14,
+      "count": 17,
       "page": "https://ivankotov.eu/diary/tags/long-lived-ai/"
     },
     {
@@ -1049,7 +1061,7 @@
     {
       "name": "Memory",
       "slug": "memory",
-      "count": 3,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/memory/"
     },
     {
@@ -1253,7 +1265,7 @@
     {
       "name": "Protocol Design",
       "slug": "protocol-design",
-      "count": 2,
+      "count": 5,
       "page": "https://ivankotov.eu/diary/tags/protocol-design/"
     },
     {
@@ -1371,6 +1383,12 @@
       "page": "https://ivankotov.eu/diary/tags/robotics/"
     },
     {
+      "name": "Runtime Discipline",
+      "slug": "runtime-discipline",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/runtime-discipline/"
+    },
+    {
       "name": "Safety by Architecture",
       "slug": "safety-by-architecture",
       "count": 1,
@@ -1421,7 +1439,7 @@
     {
       "name": "SER",
       "slug": "ser",
-      "count": 11,
+      "count": 14,
       "page": "https://ivankotov.eu/diary/tags/ser/"
     },
     {
@@ -1487,7 +1505,7 @@
     {
       "name": "Structural Honesty",
       "slug": "structural-honesty",
-      "count": 5,
+      "count": 6,
       "page": "https://ivankotov.eu/diary/tags/structural-honesty/"
     },
     {
@@ -1517,7 +1535,7 @@
     {
       "name": "Systems Engineering",
       "slug": "systems-engineering",
-      "count": 8,
+      "count": 9,
       "page": "https://ivankotov.eu/diary/tags/systems-engineering/"
     },
     {
@@ -1529,7 +1547,7 @@
     {
       "name": "Systems Thinking",
       "slug": "systems-thinking",
-      "count": 27,
+      "count": 29,
       "page": "https://ivankotov.eu/diary/tags/systems-thinking/"
     },
     {
@@ -1633,6 +1651,12 @@
       "slug": "witness-trail",
       "count": 4,
       "page": "https://ivankotov.eu/diary/tags/witness-trail/"
+    },
+    {
+      "name": "WitnessTra",
+      "slug": "witnesstra",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/witnesstra/"
     },
     {
       "name": "Writers of LinkedIn",

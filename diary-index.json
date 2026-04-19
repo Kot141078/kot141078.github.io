@@ -1,28 +1,132 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 103,
+  "count": 108,
   "latest": {
-    "title": "One of the most harmful habits in current AI systems is this:",
-    "date": "2026-04-13",
-    "slug": "one-of-the-most-harmful-habits-in-current-ai-systems-is-this",
-    "summary": "A note that ARL matters because a serious system should stop at real boundaries instead of laundering unresolved state back into action through fluent continuation.",
+    "title": "The quiet upgrade in ARQ v0.2 is model discipline.",
+    "date": "2026-04-16",
+    "slug": "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
+    "summary": "A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.",
     "tags": [
       "AI",
       "AI Architecture",
-      "AI Safety",
       "Systems Thinking",
+      "Cybernetics",
       "L4",
-      "Structural Honesty",
+      "Protocol Design",
       "Long Lived AI",
-      "Cybernetics"
+      "AdvancedGlobalIntelligencefety",
+      "Structural Honesty"
     ],
-    "page": "https://ivankotov.eu/diary/one-of-the-most-harmful-habits-in-current-ai-systems-is-this/",
-    "primary_image": "https://ivankotov.eu/assets/diary/one-of-the-most-harmful-habits-in-current-ai-systems-is-this/cover.jpg",
-    "image_alt": "A group viewing a transparent display labeled Paused and Frozen Branch with a stop point between an active path and a frozen branch.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7449486580525891584-LqH1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
+    "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
+    "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "The quiet upgrade in ARQ v0.2 is model discipline.",
+      "date": "2026-04-16",
+      "slug": "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
+      "summary": "A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.",
+      "tags": [
+        "AI",
+        "AI Architecture",
+        "Systems Thinking",
+        "Cybernetics",
+        "L4",
+        "Protocol Design",
+        "Long Lived AI",
+        "AdvancedGlobalIntelligencefety",
+        "Structural Honesty"
+      ],
+      "page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
+      "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
+      "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Not every anomaly deserves memory.",
+      "date": "2026-04-15",
+      "slug": "not-every-anomaly-deserves-memory",
+      "summary": "A note that long-lived AI should stage anomaly handling carefully so visible novelty does not automatically gain memory authority.",
+      "tags": [
+        "AI",
+        "AI Safety",
+        "Long Lived AI",
+        "Memory",
+        "Cybernetics",
+        "L4",
+        "Advanced Global Intelligence",
+        "Protocol Design",
+        "WitnessTra"
+      ],
+      "page": "https://ivankotov.eu/diary/not-every-anomaly-deserves-memory/",
+      "primary_image": "https://ivankotov.eu/assets/diary/not-every-anomaly-deserves-memory/cover.jpg",
+      "image_alt": "A workstation with charts on monitors and trays labeled Observation, Candidate, Provisional, Reject, Quarantine, and Log Anoly in a lab setting.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aisafety-longlivedai-activity-7450211392164413441-ZMza?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A protocol is not serious if it cannot survive packaging.",
+      "date": "2026-04-15",
+      "slug": "a-protocol-is-not-serious-if-it-cannot-survive-packaging",
+      "summary": "A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.",
+      "tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "SER",
+        "L4",
+        "Cybernetics",
+        "Protocol Design",
+        "Long Lived AI",
+        "Advanced Global Intelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/cover.jpg",
+      "image_alt": "A gloved hand resting on a binder with tabs labeled Core, Schemas, and Audit on a table in front of a blurred whiteboard.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7450075804153139201-mAGl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A review layer can fail in two opposite ways.",
+      "date": "2026-04-14",
+      "slug": "a-review-layer-can-fail-in-two-opposite-ways",
+      "summary": "A note that a serious review layer must stay procedural and witness-bound instead of hardening into a new sovereign center.",
+      "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "L4",
+        "SER",
+        "Digital Entities",
+        "Systems Thinking",
+        "Bounded Authority"
+      ],
+      "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
+      "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A release is not serious if it lives only in theory.",
+      "date": "2026-04-14",
+      "slug": "a-release-is-not-serious-if-it-lives-only-in-theory",
+      "summary": "A note that conflict discipline becomes serious only when it reaches runtime hooks, durable records, and lawful re-entry control.",
+      "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "Systems Engineering",
+        "L4",
+        "SER",
+        "Cybernetics",
+        "Audit Trail",
+        "Runtime Discipline"
+      ],
+      "page": "https://ivankotov.eu/diary/a-release-is-not-serious-if-it-lives-only-in-theory/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-release-is-not-serious-if-it-lives-only-in-theory/cover.jpg",
+      "image_alt": "A rail yard with multiple tracks, switching points, red signals, barriers, and an operator working at a control terminal near a fenced junction.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-systemsengineering-activity-7449849034682437632-A-bu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "One of the most harmful habits in current AI systems is this:",
       "date": "2026-04-13",

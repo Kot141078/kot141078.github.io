@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 00:30:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 00:56:45 +0000</lastBuildDate>
+    <item>
+      <title>The quiet upgrade in ARQ v0.2 is model discipline.</title>
+      <link>https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/</link>
+      <guid>https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/</guid>
+      <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.</description>
+    </item>
+    <item>
+      <title>Not every anomaly deserves memory.</title>
+      <link>https://ivankotov.eu/diary/not-every-anomaly-deserves-memory/</link>
+      <guid>https://ivankotov.eu/diary/not-every-anomaly-deserves-memory/</guid>
+      <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that long-lived AI should stage anomaly handling carefully so visible novelty does not automatically gain memory authority.</description>
+    </item>
+    <item>
+      <title>A protocol is not serious if it cannot survive packaging.</title>
+      <link>https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/</link>
+      <guid>https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/</guid>
+      <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.</description>
+    </item>
+    <item>
+      <title>A review layer can fail in two opposite ways.</title>
+      <link>https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/</link>
+      <guid>https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/</guid>
+      <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that a serious review layer must stay procedural and witness-bound instead of hardening into a new sovereign center.</description>
+    </item>
+    <item>
+      <title>A release is not serious if it lives only in theory.</title>
+      <link>https://ivankotov.eu/diary/a-release-is-not-serious-if-it-lives-only-in-theory/</link>
+      <guid>https://ivankotov.eu/diary/a-release-is-not-serious-if-it-lives-only-in-theory/</guid>
+      <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that conflict discipline becomes serious only when it reaches runtime hooks, durable records, and lawful re-entry control.</description>
+    </item>
     <item>
       <title>One of the most harmful habits in current AI systems is this:</title>
       <link>https://ivankotov.eu/diary/one-of-the-most-harmful-habits-in-current-ai-systems-is-this/</link>
