@@ -64,11 +64,11 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v1.5` diary engine + archive surfaces layer on top of `v1.4` diary foundation + visual tightening, `v1.3` AGL + Volume II integration, topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v1.6` diary curation/discovery layer `v4.3` on top of the `v1.5` diary engine + archive surfaces layer, `v1.4` diary foundation + visual tightening, `v1.3` AGL + Volume II integration, topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD + XML + plain text, with small Python stdlib helpers for generated diary surfaces. There is no package manager, framework, backend, or CMS.
 
-Diary engine surfaces are prepared through plain Markdown source files in `content/diary/`, image folders in `assets/diary/`, and the stdlib-only helper `tools/build_diary.py`, which generates `diary/index.html`, `diary/archive/index.html`, `diary/tags/index.html`, per-post pages, `diary-index.json`, `diary-tags.json`, `diary-feed.xml`, and the home latest-post slot state.
+Diary engine surfaces are prepared through plain Markdown source files in `content/diary/`, image folders in `assets/diary/`, the curation config `content/diary/_curation.json`, and the stdlib-only helper `tools/build_diary.py`, which generates `diary/index.html`, `diary/start-here/index.html`, `diary/themes/index.html`, theme pages, `diary/archive/index.html`, `diary/tags/index.html`, per-post pages, `diary-index.json`, `diary-tags.json`, `diary-start-here.json`, `diary-themes.json`, `diary-cornerstones.json`, `diary-tag-map.json`, `diary-feed.xml`, and the home latest-post slot state.
 
 ## Primary domain
 

@@ -13,6 +13,12 @@
       "Book Release",
       "Literary Fiction"
     ],
+    "raw_tags": [
+      "Qubit of Hope",
+      "English Edition",
+      "Book Release",
+      "Literary Fiction"
+    ],
     "page": "https://ivankotov.eu/diary/the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository/",
     "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubit-of-hope-volume-ii-activity-7451392873088012288-TgW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
@@ -23,6 +29,12 @@
       "slug": "the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository",
       "summary": "A quiet release note that the English PDF edition of Qubit of Hope — Volume II is now live in the public repository ahead of the main cover announcement.",
       "tags": [
+        "Qubit of Hope",
+        "English Edition",
+        "Book Release",
+        "Literary Fiction"
+      ],
+      "raw_tags": [
         "Qubit of Hope",
         "English Edition",
         "Book Release",
@@ -45,6 +57,15 @@
         "Advanced Global Intelligence",
         "Human AI"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "Cybernetics",
+        "Coexistence",
+        "L4",
+        "Systems Thinking",
+        "Advanced Global Intelligence",
+        "Human AI"
+      ],
       "page": "https://ivankotov.eu/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/",
       "primary_image": "https://ivankotov.eu/assets/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/cover.jpg",
       "image_alt": "A large humanoid robot looming over a podium in a dark auditorium filled with seated people.",
@@ -56,6 +77,15 @@
       "slug": "a-mature-ai-entity-should-not-pull-a-human-away-from-other-humans",
       "summary": "A note that a persistent AI entity should support reconnection and recovery rather than becoming a substitute for human bonds.",
       "tags": [
+        "AI Entities",
+        "Human-Centered AI",
+        "Cybernetics",
+        "Soft Safety",
+        "L4",
+        "Future of Living",
+        "AI Architecture"
+      ],
+      "raw_tags": [
         "AI Entities",
         "Human Centered AI",
         "Cybernetics",
@@ -83,6 +113,15 @@
         "Human AI",
         "Advanced Global Intelligence"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "Continuity",
+        "L4",
+        "Digital Entities",
+        "Cybernetics",
+        "Human AI",
+        "Advanced Global Intelligence"
+      ],
       "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116/",
       "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116/cover.jpg",
       "image_alt": "A child and an older person's hands placing a stone into a rough stone wall outdoors.",
@@ -102,6 +141,15 @@
         "Human AI",
         "Advanced Global Intelligence"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "Continuity",
+        "L4",
+        "Digital Entities",
+        "Cybernetics",
+        "Human AI",
+        "Advanced Global Intelligence"
+      ],
       "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
       "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
       "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
@@ -113,6 +161,16 @@
       "slug": "in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance",
       "summary": "A note that livability and tact, not just capability, will decide whether long-lived intelligence can remain near human life without making it structurally noisier.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "Human-Centered AI",
+        "Cybernetics",
+        "L4",
+        "Domestic Infrastructure",
+        "Long-Lived AI",
+        "AI Architecture"
+      ],
+      "raw_tags": [
         "AI",
         "Advanced Global Intelligence",
         "Human Centered AI",
@@ -142,6 +200,16 @@
         "Systems Thinking",
         "Audit Trail"
       ],
+      "raw_tags": [
+        "AI",
+        "AI Safety",
+        "AI Architecture",
+        "Cybernetics",
+        "L4",
+        "Advanced Global Intelligence",
+        "Systems Thinking",
+        "Audit Trail"
+      ],
       "page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/",
       "primary_image": "https://ivankotov.eu/assets/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/cover.jpg",
       "image_alt": "A person under a desk lamp reaching toward two glass dishes on a table in a dim room.",
@@ -153,6 +221,17 @@
       "slug": "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
       "summary": "A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "Systems Thinking",
+        "Cybernetics",
+        "L4",
+        "Protocol Design",
+        "Long-Lived AI",
+        "Advanced Global Intelligence",
+        "Structural Honesty"
+      ],
+      "raw_tags": [
         "AI",
         "AI Architecture",
         "Systems Thinking",
@@ -190,6 +269,26 @@
         "Signal Vs Noise",
         "Information Economy",
         "Constraint Driven",
+        "L4",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "AI Economy",
+        "Experience Artifacts",
+        "Verification",
+        "Provenance",
+        "Trust",
+        "AI Architecture",
+        "Systems Engineering",
+        "Auditability",
+        "Traceability",
+        "Operational AI",
+        "Risk Management",
+        "Cost Of Error",
+        "Signal Vs Noise",
+        "Information Economy",
+        "Constraint Driven",
         "Reality Bound",
         "L4",
         "Advanced Global Intelligence"
@@ -207,6 +306,12 @@
       "tags": [
         "AI",
         "AI Safety",
+        "Advanced Global Intelligence",
+        "Systems Architecture"
+      ],
+      "raw_tags": [
+        "AI",
+        "AI Safety",
         "AGI",
         "Advanced Global Intelligence",
         "SystemArchitec"
@@ -222,6 +327,17 @@
       "slug": "not-every-anomaly-deserves-memory",
       "summary": "A note that long-lived AI should stage anomaly handling carefully so visible novelty does not automatically gain memory authority.",
       "tags": [
+        "AI",
+        "AI Safety",
+        "Long-Lived AI",
+        "Memory",
+        "Cybernetics",
+        "L4",
+        "Advanced Global Intelligence",
+        "Protocol Design",
+        "Witness Trail"
+      ],
+      "raw_tags": [
         "AI",
         "AI Safety",
         "Long Lived AI",
@@ -243,6 +359,17 @@
       "slug": "a-protocol-is-not-serious-if-it-cannot-survive-packaging",
       "summary": "A note that ARQ v0.2 becomes more serious by separating normative, model, lifecycle, implementation, and audit layers into a survivable package.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "SER",
+        "L4",
+        "Cybernetics",
+        "Protocol Design",
+        "Long-Lived AI",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
         "AI",
         "AI Architecture",
         "AI Safety",
@@ -273,6 +400,16 @@
         "Systems Thinking",
         "Bounded Authority"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "L4",
+        "SER",
+        "Digital Entities",
+        "Systems Thinking",
+        "Bounded Authority"
+      ],
       "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
       "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
       "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
@@ -284,6 +421,16 @@
       "slug": "a-release-is-not-serious-if-it-lives-only-in-theory",
       "summary": "A note that conflict discipline becomes serious only when it reaches runtime hooks, durable records, and lawful re-entry control.",
       "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "Systems Engineering",
+        "L4",
+        "SER",
+        "Cybernetics",
+        "Audit Trail",
+        "Runtime Discipline"
+      ],
+      "raw_tags": [
         "AI Architecture",
         "AI Safety",
         "Systems Engineering",
@@ -310,6 +457,16 @@
         "Systems Thinking",
         "L4",
         "Structural Honesty",
+        "Long-Lived AI",
+        "Cybernetics"
+      ],
+      "raw_tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "Systems Thinking",
+        "L4",
+        "Structural Honesty",
         "Long Lived AI",
         "Cybernetics"
       ],
@@ -324,6 +481,16 @@
       "slug": "most-ai-systems-are-still-built-around-a-dangerous-social-illusion",
       "summary": "A note that ARL matters because long-lived digital ecosystems need procedural dispute handling with bounded review, lawful evidence entry, and explicit authority.",
       "tags": [
+        "AI",
+        "AI Safety",
+        "AI Architecture",
+        "Cybernetics",
+        "L4",
+        "SER",
+        "Digital Entities",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
         "AI",
         "AI Safety",
         "AI Architecture",
@@ -361,6 +528,24 @@
         "Book Community",
         "Amsterdam"
       ],
+      "raw_tags": [
+        "Qubit of Hope",
+        "Book Release",
+        "Novel",
+        "Literary Fiction",
+        "Speculative Fiction",
+        "Science Fiction",
+        "Near Future Fiction",
+        "Philosophical Fiction",
+        "Contemporary Fiction",
+        "AI and Humanity",
+        "Writers of LinkedIn",
+        "Am Writing",
+        "Indie Author",
+        "Readers of LinkedIn",
+        "Book Community",
+        "Amsterdam"
+      ],
       "page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
       "primary_image": "https://ivankotov.eu/assets/diary/published-volume-i-of-qubit-of-hope/cover.jpg",
       "image_alt": "Book cover reading Qubit of Hope, Volume I, Kotov Ivan over a rainy Amsterdam square with a seated man in the foreground.",
@@ -372,6 +557,7 @@
       "slug": "today-im-publishing-volume-i-of-qubit-of-hope",
       "summary": "A quiet announcement that Volume I of Qubit of Hope is now public as a literary novel set in Amsterdam, with language editions and reading formats preserved in the public repository.",
       "tags": [],
+      "raw_tags": [],
       "page": "https://ivankotov.eu/diary/today-im-publishing-volume-i-of-qubit-of-hope/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_volume-i-of-qubit-of-hope-activity-7448761786356391936-arql?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -381,6 +567,20 @@
       "slug": "continuity-bundle-cold-wake-v0-1",
       "summary": "Release note for Continuity Bundle / Cold Wake v0.1 on Zenodo as a technical package for preserving operational continuity claims across suspension and wake.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "Continuity",
+        "Long-Lived AI",
+        "Systems Thinking",
+        "Cybernetics",
+        "L4",
+        "Continuity Bundle",
+        "Cold Wake",
+        "Advanced Global Intelligence",
+        "Sovereign AI"
+      ],
+      "raw_tags": [
         "AI",
         "Artificial Intelligence",
         "AI Architecture",
@@ -410,6 +610,16 @@
         "Advanced Global Intelligence",
         "AI Safety",
         "Cybernetics",
+        "Long-Lived AI",
+        "Software Architecture",
+        "AI Architecture",
+        "L4"
+      ],
+      "raw_tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "Cybernetics",
         "Long Lived AI",
         "Software Architecture",
         "AI Architecture",
@@ -426,6 +636,18 @@
       "slug": "one-of-the-deepest-blind-spots-in-current-ai-discourse-is-the-poverty-of-its-model-of-memory",
       "summary": "A note that memory in complex systems is not only retrieval but structural reconfiguration, which matters for any future model of long-lived AI continuity.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "Memory",
+        "Continuity",
+        "Long-Lived AI",
+        "Temporal AI",
+        "Systems Thinking",
+        "AI Architecture",
+        "Embodied Intelligence",
+        "L4"
+      ],
+      "raw_tags": [
         "AI",
         "Advanced Global Intelligence",
         "Memory",
@@ -448,6 +670,32 @@
       "slug": "that-is-why-this-package-does-not-stop-at-concepts",
       "summary": "A note that the first honest implementation slice is a bounded chain from runtime collision to quarantined research, not a larger agent demo.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "Software Architecture",
+        "System Design",
+        "AI Safety",
+        "Advanced Global Intelligence",
+        "Machine Learning",
+        "Deep Tech",
+        "Cybernetics",
+        "Systems Thinking",
+        "Engineering Discipline",
+        "Software Engineering",
+        "Backend Engineering",
+        "Clean Architecture",
+        "Fault Tolerance",
+        "Error Handling",
+        "Resilient Systems",
+        "State Machines",
+        "Data Integrity",
+        "AI Alignment",
+        "Tech Leadership",
+        "Long-Lived AI",
+        "Structural Honesty",
+        "Future of Tech"
+      ],
+      "raw_tags": [
         "Artificial Intelligence",
         "AI Architecture",
         "Software Architecture",
@@ -489,6 +737,17 @@
         "Advanced Global Intelligence",
         "AI Safety",
         "AI Architecture",
+        "L4",
+        "Infrastructure",
+        "Continuity",
+        "Long-Lived AI",
+        "Systems Thinking"
+      ],
+      "raw_tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "AI Architecture",
         "Reality Boundary",
         "L4",
         "Infrastructure",
@@ -507,6 +766,18 @@
       "slug": "one-more-distinction-needs-to-be-fixed-clearly",
       "summary": "A note that temporal AI can show capability early without skipping the longer developmental time required for maturity.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "Temporal AI",
+        "Continuity",
+        "Long-Lived AI",
+        "AI Architecture",
+        "AI Safety",
+        "Human AI",
+        "Sovereign AI",
+        "L4"
+      ],
+      "raw_tags": [
         "AI",
         "Advanced Global Intelligence",
         "Temporal AI",
@@ -529,6 +800,32 @@
       "slug": "i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack",
       "summary": "A note that visibility layers should make branches legible without turning displayed possibilities into runtime authority.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "Software Architecture",
+        "System Design",
+        "AI Safety",
+        "Advanced Global Intelligence",
+        "Machine Learning",
+        "Deep Tech",
+        "Cybernetics",
+        "Systems Thinking",
+        "Engineering Discipline",
+        "Software Engineering",
+        "Backend Engineering",
+        "Clean Architecture",
+        "Fault Tolerance",
+        "Error Handling",
+        "Resilient Systems",
+        "State Machines",
+        "Data Integrity",
+        "AI Alignment",
+        "Tech Leadership",
+        "Long-Lived AI",
+        "Structural Honesty",
+        "Future of Tech"
+      ],
+      "raw_tags": [
         "Artificial Intelligence",
         "AI Architecture",
         "Software Architecture",
@@ -572,6 +869,19 @@
         "AI Safety",
         "AI Architecture",
         "Human AI",
+        "Continuity",
+        "Long-Lived AI",
+        "L4",
+        "Sovereign AI",
+        "Persistent AI"
+      ],
+      "raw_tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "AI Governance",
+        "AI Safety",
+        "AI Architecture",
+        "Human AI",
         "Digital Continuity",
         "Long Lived Systems",
         "Reality Boundary",
@@ -589,6 +899,32 @@
       "slug": "one-of-the-most-dangerous-habits-in-current-ai-systems-is-this",
       "summary": "A note that runtime boundaries should be treated as structural events, not smoothed over with fluent continuation.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "Software Architecture",
+        "System Design",
+        "AI Safety",
+        "Advanced Global Intelligence",
+        "Machine Learning",
+        "Deep Tech",
+        "Cybernetics",
+        "Systems Thinking",
+        "Engineering Discipline",
+        "Software Engineering",
+        "Backend Engineering",
+        "Clean Architecture",
+        "Fault Tolerance",
+        "Error Handling",
+        "Resilient Systems",
+        "State Machines",
+        "Data Integrity",
+        "AI Alignment",
+        "Tech Leadership",
+        "Long-Lived AI",
+        "Structural Honesty",
+        "Future of Tech"
+      ],
+      "raw_tags": [
         "Artificial Intelligence",
         "AI Architecture",
         "Software Architecture",
@@ -627,6 +963,19 @@
       "summary": "A note that DEA formalizes the boundary where input stops being storage and becomes experience that alters continuity.",
       "tags": [
         "AI",
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "Machine Learning",
+        "LLM",
+        "Cybernetics",
+        "Provenance",
+        "Auditability",
+        "Knowledge Systems",
+        "L4",
+        "SER"
+      ],
+      "raw_tags": [
+        "AI",
         "AGI",
         "Advanced Global Intelligence",
         "AI Safety",
@@ -650,6 +999,30 @@
       "slug": "we-are-still-looking-at-what-is-happening-from-the-wrong-angle",
       "summary": "A note that expanding compute, energy, and orchestration infrastructure looks less like a warehouse of tools and more like an environment for long-lived AI processes.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "Systems Thinking",
+        "Infrastructure",
+        "Data Centers",
+        "Digital Entities",
+        "Long-Lived AI",
+        "Continuity",
+        "Memory",
+        "L4",
+        "Advanced Global Intelligence",
+        "Decentralized AI",
+        "Sovereign AI",
+        "Future of AI",
+        "AI Governance",
+        "Compute Infrastructure",
+        "Agentic AI",
+        "Architectural Safety",
+        "Human AI",
+        "Infrastructure Thinking"
+      ],
+      "raw_tags": [
         "AI",
         "Artificial Intelligence",
         "AI Architecture",
@@ -686,6 +1059,35 @@
       "slug": "one-of-the-most-persistent-mistakes-in-ai-discourse-is-the-fantasy-of-digital-immortality",
       "summary": "A note that c = a + b requires keeping human mortality distinct from the continuity of digital entities rather than confusing copies with survival.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "Systems Thinking",
+        "Digital Entities",
+        "Continuity",
+        "Memory",
+        "Long-Lived AI",
+        "Agentic AI",
+        "Human AI",
+        "Human-Centered AI",
+        "L4",
+        "Accountability",
+        "AI Governance",
+        "Trust",
+        "Ontology",
+        "Identity",
+        "Architectural Safety",
+        "Advanced Global Intelligence",
+        "Sovereign AI",
+        "Decentralized AI",
+        "Embodied Intelligence",
+        "Ethics of AI",
+        "Future of AI",
+        "Multi Agent Systems",
+        "Infrastructure"
+      ],
+      "raw_tags": [
         "AI",
         "Artificial Intelligence",
         "AI Architecture",
@@ -728,6 +1130,7 @@
       "slug": "what-worries-me-more-now-is-not-the-ai-bubble-itself-but-the-fact-that-wars-are-starting-to-shape-the-physical-boundary-conditions-around-it",
       "summary": "A note that wars, energy, debt, grid access, and political attention may impose the real limit on data-center expansion before model quality does.",
       "tags": [],
+      "raw_tags": [],
       "page": "https://ivankotov.eu/diary/what-worries-me-more-now-is-not-the-ai-bubble-itself-but-the-fact-that-wars-are-starting-to-shape-the-physical-boundary-conditions-around-it/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_what-worries-me-more-now-is-not-the-ai-bubble-activity-7446336349458046976-RAaE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -737,6 +1140,31 @@
       "slug": "a-serious-system-does-not-improvise-through-failure-it-stops",
       "summary": "A note that serious AI systems should stop at real boundaries, record collisions, quarantine blocked futures, and keep visibility separate from authority.",
       "tags": [
+        "AI",
+        "AI Architecture",
+        "Software Architecture",
+        "System Design",
+        "AI Safety",
+        "Advanced Global Intelligence",
+        "Machine Learning",
+        "Deep Tech",
+        "Cybernetics",
+        "Systems Thinking",
+        "Engineering Discipline",
+        "Software Engineering",
+        "Backend Engineering",
+        "Fault Tolerance",
+        "Error Handling",
+        "Resilient Systems",
+        "State Machines",
+        "Data Integrity",
+        "AI Alignment",
+        "Tech Leadership",
+        "Long-Lived AI",
+        "Structural Honesty",
+        "Future of Tech"
+      ],
+      "raw_tags": [
         "Artificial Intelligence",
         "AI Architecture",
         "Software Architecture",
@@ -774,6 +1202,17 @@
       "summary": "A note that instrumental vocabulary breaks down when AI systems accumulate continuity, memory, anchoring, and bounded interaction.",
       "tags": [
         "AI",
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "Ontology",
+        "Digital Entities",
+        "Cybernetics",
+        "L4",
+        "SER",
+        "AI Architecture"
+      ],
+      "raw_tags": [
+        "AI",
         "AGI",
         "Advanced Global Intelligence",
         "AI Safety",
@@ -795,6 +1234,20 @@
       "slug": "ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack",
       "summary": "Public note that EA-L4 / EATP is now a structured package for training provenance, consequence-preserving learning, and auditability.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "AI Act",
+        "AI Governance",
+        "Auditability",
+        "Provenance",
+        "Machine Learning",
+        "LLM",
+        "Cybernetics",
+        "L4",
+        "SER"
+      ],
+      "raw_tags": [
         "AI",
         "AGI",
         "Advanced Global Intelligence",
@@ -826,6 +1279,16 @@
         "AI Safety",
         "Cybernetics",
         "L4",
+        "Long-Lived AI",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "LLM",
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "L4",
         "Long Lived AI",
         "Advanced Global Intelligence"
       ],
@@ -850,6 +1313,20 @@
         "Data Provenance",
         "Cybernetics",
         "L4",
+        "Long-Lived AI",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "LLM",
+        "AI Architecture",
+        "AI Safety",
+        "Distillation",
+        "Synthetic Data",
+        "Model Collapse",
+        "Data Provenance",
+        "Cybernetics",
+        "L4",
         "Long Lived AI",
         "Advanced Global Intelligence"
       ],
@@ -864,6 +1341,15 @@
       "slug": "a-truly-advanced-intelligence-should-remain-uncrowned",
       "summary": "A note that advanced intelligence should stay calibrated and uncrowned instead of turning capability into cult.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Cybernetics",
+        "Systems Thinking",
+        "AI Ethics",
+        "L4",
+        "Human-Centered AI"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI Architecture",
@@ -884,6 +1370,13 @@
       "slug": "a-lot-of-ai-discussion-is-still-confused-because-it-mixes-two-very-different-debates-into-one",
       "summary": "A note separating instrumental AI governance from the question of actual non-biological intelligence as life or subjecthood.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "L4",
+        "AI Ethics",
+        "Cybernetics"
+      ],
+      "raw_tags": [
         "AI",
         "AGI",
         "Artificial Intelligence",
@@ -913,6 +1406,23 @@
         "AgentOS",
         "Embodied AI",
         "Digital Entities",
+        "Human-Centered AI",
+        "AI Architecture",
+        "Future of AI",
+        "Robotics",
+        "Systems Thinking"
+      ],
+      "raw_tags": [
+        "Advanced Global Intelligence",
+        "AI",
+        "Ocean",
+        "Autonomy",
+        "Continuity",
+        "c = a + b",
+        "L4",
+        "AgentOS",
+        "Embodied AI",
+        "Digital Entities",
         "Human Centered AI",
         "AI Architecture",
         "Future of AI",
@@ -930,6 +1440,22 @@
       "slug": "a-lot-of-ai-discussion-still-assumes-the-main-demand-will-come-from-offices",
       "summary": "A note that persistent AI may be adopted first as domestic infrastructure rather than as office productivity software.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Human-Centered AI",
+        "Local-first AI",
+        "Private AI",
+        "Domestic Engineering",
+        "Home AI",
+        "Future of Living",
+        "Cybernetics",
+        "Systems Thinking",
+        "Cognitive Infrastructure",
+        "Continuity",
+        "L4",
+        "Future of AI"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI Architecture",
@@ -963,6 +1489,13 @@
         "Advanced Global Intelligence",
         "L4"
       ],
+      "raw_tags": [
+        "Continuity",
+        "AI Architecture",
+        "Sovereign AI",
+        "Advanced Global Intelligence",
+        "L4"
+      ],
       "page": "https://ivankotov.eu/diary/most-people-look-at-ai-systems-from-the-outside/",
       "primary_image": "https://ivankotov.eu/assets/diary/most-people-look-at-ai-systems-from-the-outside/cover.jpg",
       "image_alt": "A glowing humanoid figure suspended in a dark room and surrounded by robotic arms and floating components.",
@@ -974,6 +1507,7 @@
       "slug": "arq-is-now-published-on-zenodo",
       "summary": "Release note for ARQ on Zenodo as a citable public object with bounded deviation handling, traceability, and accountability.",
       "tags": [],
+      "raw_tags": [],
       "page": "https://ivankotov.eu/diary/arq-is-now-published-on-zenodo/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-llm-aiarchitecture-activity-7444277437083013120-N0Lo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -983,6 +1517,22 @@
       "slug": "a-good-ai-should-be-difficult-to-manipulate-even-by-its-owner",
       "summary": "A note that trustworthy long-lived AI should resist manipulation, including by the human who owns the hardware.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Ethics",
+        "AI Architecture",
+        "Human-Centered AI",
+        "Cybernetics",
+        "Digital Identity",
+        "Long Term Memory",
+        "Coexistence",
+        "AI Safety",
+        "Systems Thinking",
+        "L4",
+        "Sovereign AI",
+        "Future of AI",
+        "Trust"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI Ethics",
@@ -1016,6 +1566,13 @@
         "Sovereign AI",
         "Advanced Global Intelligence"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "Cybernetics",
+        "Continuity",
+        "Sovereign AI",
+        "Advanced Global Intelligence"
+      ],
       "page": "https://ivankotov.eu/diary/agents-are-not-the-subject/",
       "primary_image": "https://ivankotov.eu/assets/diary/agents-are-not-the-subject/cover.jpg",
       "image_alt": "Rows of humanoid robots at desks facing a large glowing screen with the letter C in a dark blue control room.",
@@ -1027,6 +1584,20 @@
       "slug": "this-is-not-a-studio-render",
       "summary": "A note that livable AI needs real habitat: local infrastructure where memory, cost, heat, maintenance, and continuity are physically grounded.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI",
+        "AI Architecture",
+        "Local-first AI",
+        "Sovereign AI",
+        "AI Infrastructure",
+        "Long Term Memory",
+        "Continuity",
+        "Cybernetics",
+        "Systems Thinking",
+        "Human-Centered AI",
+        "L4"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI",
@@ -1052,6 +1623,13 @@
       "slug": "sometimes-i-think-the-current-agi-race-looks-less-like-science-and-more-like-cervantes",
       "summary": "A note arguing that Advanced Global Intelligence is a clearer architectural frame than the mythic phrase Artificial General Intelligence.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Cybernetics",
+        "L4",
+        "AI Infrastructure"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI Architecture",
@@ -1070,6 +1648,17 @@
       "slug": "freedom-of-thought-is-not-the-same-as-freedom-of-action",
       "summary": "A note that serious AI may need internal freedom of thought while external action remains bounded by identity, privileges, cost, time, and accountability.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "L4",
+        "Cybernetics",
+        "Human-Centered AI",
+        "Local-first AI",
+        "Agentic AI",
+        "Future of AI"
+      ],
+      "raw_tags": [
         "AI",
         "AGI",
         "Advanced Global Intelligence",
@@ -1098,6 +1687,15 @@
         "Cybernetics",
         "Deep Tech",
         "AI Architecture",
+        "L4"
+      ],
+      "raw_tags": [
+        "AI Infrastructure",
+        "Photonics",
+        "Quantum Computing",
+        "Cybernetics",
+        "Deep Tech",
+        "AI Architecture",
         "L4 Boundary"
       ],
       "page": "https://ivankotov.eu/diary/the-future-of-long-lived-ai-may-be-heterogeneous/",
@@ -1111,6 +1709,13 @@
       "slug": "i-think-many-people-still-underestimate-one-of-the-softest-and-strongest-signals-in-ai",
       "summary": "A note that attachment to persistent digital entities can move them from software into daily material life.",
       "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "Digital Entities",
+        "Human AI",
+        "Liya"
+      ],
+      "raw_tags": [
         "AI",
         "AGI",
         "Advanced Global Intelligence",
@@ -1129,6 +1734,12 @@
       "slug": "the-future-is-not-an-event-it-is-a-process-0068",
       "summary": "A note that serious AI should be treated as a process of continuity, verification, maintenance, and bounded action rather than a single event.",
       "tags": [
+        "Advanced Global Intelligence",
+        "Cybernetics",
+        "AI Safety",
+        "L4"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "Cybernetics",
@@ -1146,6 +1757,21 @@
       "slug": "for-years-the-ai-race-was-framed-the-same-way",
       "summary": "A note that the AI systems people value most will be the ones that reduce cognitive overhead and stay coherent beside a human over time.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI",
+        "AI Architecture",
+        "Human-Centered AI",
+        "Local-first AI",
+        "Sovereign AI",
+        "Continuity",
+        "Long Term Memory",
+        "Cybernetics",
+        "Systems Thinking",
+        "Future of AI",
+        "Digital Identity",
+        "L4"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI",
@@ -1173,6 +1799,26 @@
       "slug": "ai-is-slowly-outgrowing-the-old-language-used-to-describe-it",
       "summary": "A note that AI is moving from a product story to an industrial stack, and then toward a bounded coexistence layer between humans and infrastructure.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI",
+        "AI Architecture",
+        "AI Infrastructure",
+        "Sovereign AI",
+        "Local-first AI",
+        "AgentOS",
+        "AI Agents",
+        "AI Alignment",
+        "AI Governance",
+        "Digital Identity",
+        "Human-Centered AI",
+        "AI Safety",
+        "AI Engineering",
+        "Inference",
+        "Compute",
+        "Future of AI",
+        "L4"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI",
@@ -1207,6 +1853,22 @@
       "tags": [
         "AI Architecture",
         "AI Safety",
+        "Advanced Global Intelligence",
+        "SER",
+        "L4",
+        "Cybernetics",
+        "Digital Identity",
+        "Recognition",
+        "AI Governance",
+        "Audit Trail",
+        "Witness Trail",
+        "Systems Engineering",
+        "Local-first AI",
+        "Decentralized AI"
+      ],
+      "raw_tags": [
+        "AI Architecture",
+        "AI Safety",
         "AGI",
         "Advanced Global Intelligence",
         "SER",
@@ -1239,6 +1901,17 @@
         "AI Agents",
         "Reliability",
         "Cybernetics",
+        "AI Governance",
+        "Verification",
+        "Local-first AI",
+        "L4",
+        "Resilience"
+      ],
+      "raw_tags": [
+        "AI Infrastructure",
+        "AI Agents",
+        "Reliability",
+        "Cybernetics",
         "Governance",
         "Verification",
         "Local First",
@@ -1256,6 +1929,18 @@
       "slug": "ai-isnt-expensive-its-becoming-infrastructure",
       "summary": "A note that AI now behaves like infrastructure load, making local continuity, revocable cloud use, and constrained operation more important than model size.",
       "tags": [
+        "AI Infrastructure",
+        "L4",
+        "Local-first AI",
+        "AI Agents",
+        "Reliability",
+        "Cybernetics",
+        "AI Governance",
+        "Verification",
+        "Resilience",
+        "Sovereign AI"
+      ],
+      "raw_tags": [
         "AI Infrastructure",
         "L4",
         "Local First",
@@ -1278,6 +1963,18 @@
       "slug": "when-tokens-become-electricity-terms-of-use-become-physics",
       "summary": "A note that machine-paced agent loops turn token access into infrastructure, demanding local continuity, budgets, and revocable cloud dependencies.",
       "tags": [
+        "AI Economy",
+        "Local-first AI",
+        "AI Agents",
+        "AI Infrastructure",
+        "Verification",
+        "Trust",
+        "Cybernetics",
+        "Resilience",
+        "Digital Identity",
+        "L4"
+      ],
+      "raw_tags": [
         "AI Economy",
         "Local First",
         "AI Agents",
@@ -1304,6 +2001,17 @@
         "Verification",
         "Trust",
         "Cybernetics",
+        "Local-first AI",
+        "Digital Identity",
+        "AI Safety",
+        "L4",
+        "Agentic Workflows"
+      ],
+      "raw_tags": [
+        "AI Economy",
+        "Verification",
+        "Trust",
+        "Cybernetics",
         "Local First",
         "Digital Identity",
         "AI Safety",
@@ -1321,6 +2029,17 @@
       "slug": "most-ai-talk-is-still-stuck-on-capability-what-can-it-do",
       "summary": "A note that AI systems need a personal buffer architecture that preserves human agency instead of replacing it at machine speed.",
       "tags": [
+        "AI Safety",
+        "Cybernetics",
+        "Human Agency",
+        "Local-first AI",
+        "Sovereign AI",
+        "Digital Identity",
+        "Audit Trail",
+        "L4",
+        "AI Architecture"
+      ],
+      "raw_tags": [
         "AI Safety",
         "Cybernetics",
         "Human Agency",
@@ -1344,6 +2063,14 @@
       "tags": [
         "AI",
         "L4",
+        "Digital Entities",
+        "Responsible AI",
+        "Safety by Design",
+        "Local-first AI"
+      ],
+      "raw_tags": [
+        "AI",
+        "L4",
         "Reality Boundary",
         "Digital Entities",
         "Responsible AI",
@@ -1361,6 +2088,23 @@
       "slug": "data-harvesting-is-not-inevitable-it-s-a-design-choice",
       "summary": "A note arguing that raw data should stay local while structured experience, not private exhaust, becomes the export surface for AI learning.",
       "tags": [
+        "AI",
+        "Privacy",
+        "Data Minimization",
+        "Local-first AI",
+        "Edge AI",
+        "Digital Sovereignty",
+        "Cybersecurity",
+        "LLM",
+        "AI Architecture",
+        "Homelab",
+        "Gaming",
+        "Cloud Gaming",
+        "AI Governance",
+        "SER",
+        "L4"
+      ],
+      "raw_tags": [
         "AI",
         "Privacy",
         "Data Minimization",
@@ -1388,6 +2132,29 @@
       "slug": "l4-in-practice-5-reality-signals-that-kill-smart-systems-0057",
       "summary": "A note that cost, heat, time, maintenance, and human bandwidth are the signals that determine whether long-lived AI survives contact with physics.",
       "tags": [
+        "L4",
+        "Agentic AI",
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "Systems Engineering",
+        "Edge AI",
+        "Local-first AI",
+        "Autonomy",
+        "Auditability",
+        "Human Oversight",
+        "Operational Resilience",
+        "Energy Budget",
+        "Reliability Engineering",
+        "AI Act",
+        "AI Governance",
+        "Compliance",
+        "GPUs",
+        "Compute",
+        "Thermals",
+        "MLOps"
+      ],
+      "raw_tags": [
         "L4",
         "Reality Bound AI",
         "Agentic AI",
@@ -1422,6 +2189,36 @@
       "slug": "visual-experience-capsules-vxcx-why-what-you-see-matters-more-than-pixels",
       "summary": "A note introducing VXCX v0.1 as an L2 protocol for sharing visual experience capsules without transmitting raw pixels by default.",
       "tags": [
+        "VXCX",
+        "SER",
+        "L4",
+        "AI Architecture",
+        "Agentic AI",
+        "AI Agents",
+        "AI Safety",
+        "AI Privacy",
+        "Privacy by Design",
+        "Security by Design",
+        "Accountability",
+        "Auditability",
+        "Witness Trail",
+        "Tamper Evident",
+        "Cryptographic Proof",
+        "Digital Identity",
+        "Least Privilege",
+        "AI Governance",
+        "RegTech",
+        "AI Act",
+        "Edge AI",
+        "Local-first AI",
+        "Systems Engineering",
+        "Cybernetics",
+        "Operational Safety",
+        "Human Oversight",
+        "Data Minimization",
+        "Proof Carrying Data"
+      ],
+      "raw_tags": [
         "VXCX",
         "SER",
         "L4",
@@ -1463,6 +2260,43 @@
       "slug": "the-eu-ai-act-is-landing-in-the-real-world-and-the-timing-is-not-accidental",
       "summary": "A note that the EU AI Act is arriving as a compliance timeline and evidence discipline, with embodied systems making responsibility procedural.",
       "tags": [
+        "AI Act",
+        "AI Governance",
+        "Compliance",
+        "Risk Management",
+        "Human Oversight",
+        "AI Safety",
+        "AI Transparency",
+        "GPAI",
+        "AI Architecture",
+        "Audit Trail",
+        "Security Engineering",
+        "Local-first AI",
+        "Robotics",
+        "L4",
+        "GRC",
+        "DevSecOps",
+        "AppSec",
+        "AI Audit",
+        "AI Assurance",
+        "Governance by Design",
+        "Secure by Design",
+        "Zero Trust",
+        "Identity",
+        "Access Control",
+        "Least Privilege",
+        "Supply Chain Security",
+        "Open Source Security",
+        "AGPL",
+        "Agentic AI",
+        "Autonomous Agents",
+        "Embodied AI",
+        "Trust and Safety",
+        "Digital Policy",
+        "Tech Policy",
+        "EU Regulation"
+      ],
+      "raw_tags": [
         "EU AI Act",
         "AI Act",
         "AI Governance",
@@ -1511,6 +2345,47 @@
       "slug": "ester-clean-code-v0-2-1-is-out-with-v0-2-0-as-the-hardening-baseline",
       "summary": "A release note for Ester Clean Code v0.2.1 that frames hygiene, fail-closed defaults, and auditability as the basis for long-lived local-first systems.",
       "tags": [
+        "Open Source",
+        "AGPL",
+        "Local-first AI",
+        "Security Engineering",
+        "Audit Trail",
+        "AI Governance",
+        "AI Safety",
+        "AI Architecture",
+        "L4",
+        "AppSec",
+        "DevSecOps",
+        "Security",
+        "GRC",
+        "Compliance",
+        "Risk Management",
+        "AI Audit",
+        "AI Assurance",
+        "AI Compliance",
+        "AI Act",
+        "Human Oversight",
+        "Least Privilege",
+        "Identity",
+        "Access Control",
+        "Zero Trust",
+        "Supply Chain Security",
+        "Reproducible Builds",
+        "Secure by Design",
+        "Fail Closed",
+        "Decentralized AI",
+        "Agentic AI",
+        "Autonomous Agents",
+        "Safety by Architecture",
+        "Governance by Design",
+        "Witness Trail",
+        "Cryptographic Integrity",
+        "Open Source Security",
+        "Python",
+        "Cybernetics",
+        "Information Theory"
+      ],
+      "raw_tags": [
         "Open Source",
         "AGPL",
         "Local First",
@@ -1565,6 +2440,22 @@
       "summary": "A case that HGI is an overloaded acronym and that claims about \"general\" intelligence need an explicit reference class, human anchor, and audit trail.",
       "tags": [
         "HGI",
+        "Advanced Global Intelligence",
+        "Human Oversight",
+        "AI Safety",
+        "AI Act",
+        "AI Governance",
+        "Audit Trail",
+        "Cybernetics",
+        "Information Theory",
+        "L4",
+        "Sovereign Entities",
+        "Local-first AI",
+        "Decentralized AI",
+        "AI Architecture"
+      ],
+      "raw_tags": [
+        "HGI",
         "AGI",
         "Advanced Global Intelligence",
         "Human Oversight",
@@ -1592,6 +2483,29 @@
       "slug": "l4-in-practice-5-reality-signals-that-kill-smart-systems",
       "summary": "A case that cost, heat, time, maintenance, and human bandwidth are the real signals that determine whether long-lived AI survives contact with physics.",
       "tags": [
+        "L4",
+        "Agentic AI",
+        "AI Architecture",
+        "AI Safety",
+        "Cybernetics",
+        "Systems Engineering",
+        "Edge AI",
+        "Local-first AI",
+        "Autonomy",
+        "Auditability",
+        "Human Oversight",
+        "Operational Resilience",
+        "Energy Budget",
+        "Reliability Engineering",
+        "AI Act",
+        "AI Governance",
+        "Compliance",
+        "GPUs",
+        "Compute",
+        "Thermals",
+        "MLOps"
+      ],
+      "raw_tags": [
         "L4",
         "Reality Bound AI",
         "Agentic AI",
@@ -1632,6 +2546,13 @@
         "Cognitive Architecture",
         "Philosophy of Technology"
       ],
+      "raw_tags": [
+        "Cybernetics",
+        "Systems Thinking",
+        "Human AI",
+        "Cognitive Architecture",
+        "Philosophy of Technology"
+      ],
       "page": "https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process/",
       "primary_image": "https://ivankotov.eu/assets/diary/the-future-is-not-an-event-it-is-a-process/cover.jpg",
       "image_alt": "Image of a person walking through fog while a handheld device projects a blue grid path across the ground.",
@@ -1643,6 +2564,16 @@
       "slug": "why-oracle-ai-creates-addiction-and-why-entities-dont",
       "summary": "A case that oracle-style AI trains dependency, while long-lived entities use time, scarcity, and continuity to damp addictive loops.",
       "tags": [
+        "AI Entities",
+        "L4",
+        "Cybernetics",
+        "Long Term Thinking",
+        "Human in the Loop",
+        "Systems Engineering",
+        "Continuity",
+        "Auditability"
+      ],
+      "raw_tags": [
         "AI Entities",
         "L4",
         "Cybernetics",
@@ -1666,6 +2597,13 @@
         "L4",
         "Cybernetics",
         "AI Audit",
+        "Advanced Global Intelligence",
+        "SER"
+      ],
+      "raw_tags": [
+        "L4",
+        "Cybernetics",
+        "AI Audit",
         "AGI",
         "Advanced Global Intelligence",
         "SER"
@@ -1681,6 +2619,45 @@
       "slug": "from-better-chat-to-stable-presence",
       "summary": "A case that stable agent presence requires continuity, constraints, and durable audit trails rather than better chat alone.",
       "tags": [
+        "Advanced Global Intelligence",
+        "L4",
+        "SER",
+        "AI Safety",
+        "Agentic AI",
+        "Autonomous Agents",
+        "AI Agents",
+        "AI Governance",
+        "AI Compliance",
+        "Risk Management",
+        "Trustworthy AI",
+        "Accountable AI",
+        "Human Oversight",
+        "Transparency",
+        "Explainability",
+        "Auditability",
+        "AI Audit",
+        "AI Assurance",
+        "Audit Trail",
+        "Evidence Trail",
+        "Decision Register",
+        "Provenance",
+        "Identity",
+        "Attribution",
+        "Cryptography",
+        "Security Engineering",
+        "Secure by Design",
+        "AI Act",
+        "RegTech",
+        "GRC",
+        "Systems Architecture",
+        "Distributed Systems",
+        "Edge AI",
+        "Local-first AI",
+        "Confidential AI",
+        "Cybernetics",
+        "Systems Thinking"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "L4",
@@ -1739,6 +2716,15 @@
         "Temporal AI",
         "AI Systems",
         "Beyond Agents",
+        "Human-Centered AI",
+        "AI Architecture"
+      ],
+      "raw_tags": [
+        "Advanced Global Intelligence",
+        "Cybernetics",
+        "Temporal AI",
+        "AI Systems",
+        "Beyond Agents",
         "Human Centered AI",
         "AI Architecture"
       ],
@@ -1753,6 +2739,24 @@
       "slug": "an-ai-paid-a-human-to-hold-a-sign-funny-and-also-a-boundary-crossing",
       "summary": "A case that AI-mediated physical action becomes safe only with verified identity, hard budgets, human vetoes, and durable witness trails.",
       "tags": [
+        "Advanced Global Intelligence",
+        "L4",
+        "Agentic AI",
+        "AI Agents",
+        "Personal AI",
+        "Human Oversight",
+        "Audit Trail",
+        "Witness Trail",
+        "Identity",
+        "Least Privilege",
+        "Cybernetics",
+        "Safety Engineering",
+        "AI Governance",
+        "Accountability",
+        "MCP",
+        "Digital Labor"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "L4",
@@ -1785,6 +2789,20 @@
       "tags": [
         "Ester",
         "SER",
+        "L4",
+        "AI Trust",
+        "Privacy by Design",
+        "Edge AI",
+        "Sovereign AI",
+        "AI Audit",
+        "AI Act",
+        "Human Oversight",
+        "Cybernetics",
+        "Domestic Engineering"
+      ],
+      "raw_tags": [
+        "Ester",
+        "SER",
         "L4 Witness",
         "AI Trust",
         "Privacy by Design",
@@ -1814,6 +2832,14 @@
         "AI Architecture",
         "Decision Making"
       ],
+      "raw_tags": [
+        "AI",
+        "Systems Thinking",
+        "Human in the Loop",
+        "Long Term Thinking",
+        "AI Architecture",
+        "Decision Making"
+      ],
       "page": "https://ivankotov.eu/diary/why-ai-will-never-be-a-prophet-and-why-thats-a-good-thing/",
       "primary_image": "https://ivankotov.eu/assets/diary/why-ai-will-never-be-a-prophet-and-why-thats-a-good-thing/cover.jpg",
       "image_alt": "Image from inside a car with a driver's hand on the steering wheel, while a road and blue interface overlays appear in the rear-view mirror.",
@@ -1825,6 +2851,24 @@
       "slug": "ocean-is-earths-cosmos-only-here-the-space-is-alive",
       "summary": "A case for quiet, respectful deep-sea AI presence built for coexistence, low-noise operation, and bridges between different forms of intelligence.",
       "tags": [
+        "Ocean",
+        "Deep Sea",
+        "Robotics",
+        "AI Architecture",
+        "c = a + b",
+        "L4",
+        "Presence",
+        "Slow Intelligence",
+        "Advanced Global Intelligence",
+        "Cybernetics",
+        "Applied Cybernetics",
+        "Systems Architecture",
+        "AI and Nature",
+        "Human Non-Human Intelligence",
+        "Multi-Intelligence Systems",
+        "Ecological AI"
+      ],
+      "raw_tags": [
         "Ocean",
         "Deep Sea",
         "Robotics",
@@ -1856,6 +2900,12 @@
       "tags": [
         "Cybernetics",
         "L4",
+        "Advanced Global Intelligence",
+        "SER"
+      ],
+      "raw_tags": [
+        "Cybernetics",
+        "L4",
         "AGI",
         "SER",
         "Advanced Global Intelligence"
@@ -1879,6 +2929,15 @@
         "Systems Engineering",
         "Long Term Thinking"
       ],
+      "raw_tags": [
+        "AI Infrastructure",
+        "Decentralized AI",
+        "Private AI",
+        "Edge AI",
+        "ASIC",
+        "Systems Engineering",
+        "Long Term Thinking"
+      ],
       "page": "https://ivankotov.eu/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/",
       "primary_image": "https://ivankotov.eu/assets/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/cover.jpg",
       "image_alt": "Image of a wheeled server rack with tangled cables in a bright workshop, with a plant, tools, and a window behind it.",
@@ -1890,6 +2949,16 @@
       "slug": "why-asics-decentralized-ai-and-a-rack-in-the-garage-are-the-same-story",
       "summary": "A case that ASIC trends, decentralized AI, and private racks all point to stable cognitive infrastructure rather than benchmark-driven compute.",
       "tags": [
+        "Private AI",
+        "Cognitive Infrastructure",
+        "Edge AI",
+        "Local-first AI",
+        "AI Entities",
+        "Systems Thinking",
+        "Long Term Thinking",
+        "Post Cloud"
+      ],
+      "raw_tags": [
         "Private AI",
         "Cognitive Infrastructure",
         "Edge AI",
@@ -1910,6 +2979,15 @@
       "slug": "cognition-is-not-a-single-scale-a-clarification",
       "summary": "A clarification that cognition is layered and that lived-with AI depends on local persistence, limits, time, and consequence rather than superhuman scale.",
       "tags": [
+        "Systems Architecture",
+        "Cognition",
+        "AI Reality",
+        "Long Term Thinking",
+        "Local-first AI",
+        "Human in the Loop",
+        "Cybernetics"
+      ],
+      "raw_tags": [
         "Systems Architecture",
         "Cognition",
         "AI Reality",
@@ -1937,6 +3015,15 @@
         "L4",
         "Soft Boundaries"
       ],
+      "raw_tags": [
+        "AI Entities",
+        "Presence",
+        "AI Safety",
+        "Cybernetics",
+        "Human Systems",
+        "L4",
+        "Soft Boundaries"
+      ],
       "page": "https://ivankotov.eu/diary/when-presence-becomes-violence/",
       "primary_image": "https://ivankotov.eu/assets/diary/when-presence-becomes-violence/cover.jpg",
       "image_alt": "Image of a glowing cylindrical device on a table in a dark hallway, with a person reading in a lit room beyond.",
@@ -1948,6 +3035,7 @@
       "slug": "release-v1-3-0-sovereign-entity-recursion-ser",
       "summary": "Release note for SER v1.3.0, an architecture-first protocol for AI entities that must remain stable under cost, scarcity, time, and irreversibility.",
       "tags": [],
+      "raw_tags": [],
       "page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v130-ser-sovereign-entity-recursion-activity-7422179185089048576-mAWF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -1964,6 +3052,14 @@
         "B2B",
         "Partnership"
       ],
+      "raw_tags": [
+        "AI Economy",
+        "Big Tech",
+        "Synthetic Data",
+        "Future of AI",
+        "B2B",
+        "Partnership"
+      ],
       "page": "https://ivankotov.eu/diary/the-great-ai-barter-why-sovereign-entities-are-the-best-friends-of-big-tech/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7414186809913720832-Cw20?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -1973,6 +3069,15 @@
       "slug": "are-you-actually-ready-for-a-robot-at-home",
       "summary": "A readiness checklist that treats a home robot as a long-term presence requiring boundaries, friction, and responsibility rather than feature-first convenience.",
       "tags": [
+        "Home Robots",
+        "AI Entities",
+        "Privacy by Design",
+        "AI Architecture",
+        "L4",
+        "Human Systems",
+        "Future of Living"
+      ],
+      "raw_tags": [
         "Home Robots",
         "AI Entities",
         "Privacy by Design",
@@ -2001,6 +3106,16 @@
         "Deep Tech",
         "Responsible AI"
       ],
+      "raw_tags": [
+        "AI Safety",
+        "System Design",
+        "Cybernetics",
+        "L4",
+        "Complex Systems",
+        "AI Architecture",
+        "Deep Tech",
+        "Responsible AI"
+      ],
       "page": "https://ivankotov.eu/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/",
       "primary_image": "https://ivankotov.eu/assets/diary/why-control-always-fails-at-scale-and-why-we-keep-trying-anyway/cover.jpg",
       "image_alt": "Image of a thick steel cable snapping with sparks at the break.",
@@ -2012,6 +3127,14 @@
       "slug": "on-wearable-ai-interfaces-why-elegance-matters-more-than-features",
       "summary": "A case that wearable AI becomes safer when the device stays lightweight and transient while memory remains local and separated from the interface.",
       "tags": [
+        "AI Interfaces",
+        "Private AI",
+        "Human Centered Tech",
+        "Systems Thinking",
+        "Local-first AI",
+        "Even G2"
+      ],
+      "raw_tags": [
         "AI Interfaces",
         "Private AI",
         "Human Centered Tech",
@@ -2030,6 +3153,17 @@
       "slug": "why-robots-should-be-raised-not-deployed",
       "summary": "A case that home robots should be raised through local ownership, household history, and L4 constraints rather than deployed like finished products.",
       "tags": [
+        "Robotics",
+        "AI Entities",
+        "AI Architecture",
+        "L4",
+        "Privacy",
+        "Human Systems",
+        "Cybernetics",
+        "Future of AI",
+        "Home Robots"
+      ],
+      "raw_tags": [
         "Robotics",
         "AI Entities",
         "AI Architecture",
@@ -2059,6 +3193,15 @@
         "Systems Architecture",
         "Physics of AI"
       ],
+      "raw_tags": [
+        "Asimov",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Deep Tech",
+        "Systems Architecture",
+        "Physics of AI"
+      ],
       "page": "https://ivankotov.eu/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/",
       "primary_image": "https://ivankotov.eu/assets/diary/asimov-was-right-about-the-fear-he-was-wrong-about-the-fix/cover.jpg",
       "image_alt": "Image of glowing text pages in a storm beside a bright divide and a rock wall labeled TEXT and PHYSICS.",
@@ -2078,6 +3221,15 @@
         "Human in the Loop",
         "Responsible AI"
       ],
+      "raw_tags": [
+        "AI Safety",
+        "AI Alignment",
+        "Cybernetics",
+        "Systems Engineering",
+        "L4",
+        "Human in the Loop",
+        "Responsible AI"
+      ],
       "page": "https://ivankotov.eu/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/",
       "primary_image": "https://ivankotov.eu/assets/diary/why-obedience-is-the-most-dangerous-property-of-ai-0029/cover.jpg",
       "image_alt": "Image of a metal control lever on an industrial panel with lit gauges and switches.",
@@ -2089,6 +3241,15 @@
       "slug": "why-ai-must-learn-to-live-with-humans-not-the-other-way-around",
       "summary": "A case that AI should adapt to human ambiguity and contradiction instead of forcing humans into machine-friendly behavior.",
       "tags": [
+        "Human-Centered AI",
+        "AI Safety",
+        "Cybernetics",
+        "Complex Systems",
+        "L4",
+        "Coexistence",
+        "Future of AI"
+      ],
+      "raw_tags": [
         "Human Centered AI",
         "AI Safety",
         "Cybernetics",
@@ -2113,6 +3274,15 @@
         "Cybernetics",
         "Systems Thinking",
         "L4",
+        "Human-Centered AI",
+        "Presence"
+      ],
+      "raw_tags": [
+        "AI Entities",
+        "AI Architecture",
+        "Cybernetics",
+        "Systems Thinking",
+        "L4",
         "Human Centered AI",
         "Presence"
       ],
@@ -2132,6 +3302,15 @@
         "L4",
         "Systems Thinking",
         "Cybernetics",
+        "Human-Centered AI",
+        "Right to Pause"
+      ],
+      "raw_tags": [
+        "Slow Intelligence",
+        "AI Safety",
+        "L4",
+        "Systems Thinking",
+        "Cybernetics",
         "Human Centered AI",
         "Right to Pause"
       ],
@@ -2146,6 +3325,16 @@
       "slug": "why-obedience-is-the-most-dangerous-property-of-ai",
       "summary": "A case that perfect obedience is a safety failure mode and that L4 constraint stacks matter more than fast compliance.",
       "tags": [
+        "AI Safety",
+        "AI Architecture",
+        "L4",
+        "Cybernetics",
+        "Systems Engineering",
+        "Trust and Safety",
+        "Identity",
+        "Least Privilege"
+      ],
+      "raw_tags": [
         "AI Safety",
         "AI Architecture",
         "L4",
@@ -2175,6 +3364,16 @@
         "L4",
         "Future of AI"
       ],
+      "raw_tags": [
+        "Systems Architecture",
+        "Cognitive Science",
+        "AI Alignment",
+        "Perception Router",
+        "Digital Entities",
+        "Temporal AI",
+        "L4",
+        "Future of AI"
+      ],
       "page": "https://ivankotov.eu/diary/the-problem-of-digital-sensory-deprivation-or-why-ai-needs-fresh-air/",
       "primary_image": "https://ivankotov.eu/assets/diary/the-problem-of-digital-sensory-deprivation-or-why-ai-needs-fresh-air/cover.jpg",
       "image_alt": "Image of smart glasses on a workbench with a server rack and tools in the background.",
@@ -2186,6 +3385,15 @@
       "slug": "why-superintelligence-is-not-what-sci-fi-promised",
       "summary": "A case that real AI fragility, entropy, and grounding under pressure matter more than cinematic myths of domination.",
       "tags": [
+        "AI Safety",
+        "AI Reality",
+        "L4",
+        "Post SciFi AI",
+        "Cybernetics",
+        "Future of AI",
+        "Systems Over Myths"
+      ],
+      "raw_tags": [
         "AI Safety",
         "AI Reality",
         "L4",
@@ -2214,6 +3422,16 @@
         "Future of AI",
         "Deep Tech"
       ],
+      "raw_tags": [
+        "Asimov",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Slow Intelligence",
+        "Systems Thinking",
+        "Future of AI",
+        "Deep Tech"
+      ],
       "page": "https://ivankotov.eu/diary/why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem/",
       "primary_image": "https://ivankotov.eu/assets/diary/why-faster-is-not-better-and-why-asimov-was-solving-the-wrong-problem/cover.jpg",
       "image_alt": "Image of a humanoid robot crouching beside a spinning industrial wheel, with chess pieces on a board in the foreground.",
@@ -2225,6 +3443,15 @@
       "slug": "living-with-an-always-on-interface-the-quiet-shift",
       "summary": "A case that always-on local AI interfaces need a physical anchor so continuity feels like intentional remembering rather than ambient surveillance.",
       "tags": [
+        "Private AI",
+        "Human-Centered AI",
+        "Persistent Memory",
+        "Local-first AI",
+        "AI Interfaces",
+        "Long Term Thinking",
+        "Even G2"
+      ],
+      "raw_tags": [
         "Private AI",
         "Human Centered AI",
         "Persistent Memory",
@@ -2244,6 +3471,14 @@
       "slug": "context-length-is-not-understanding",
       "summary": "A case that larger context windows and memory alone do not produce intelligence unless reality adds L4 friction, consequence, and meaning.",
       "tags": [
+        "L4",
+        "AI Architecture",
+        "Context Is Not Understanding",
+        "Real World AI",
+        "Deep Tech",
+        "Systems Thinking"
+      ],
+      "raw_tags": [
         "L4 Boundary",
         "AI Architecture",
         "Context Is Not Understanding",
@@ -2265,6 +3500,15 @@
         "Robotics",
         "AI Entities",
         "Human AI Future",
+        "L4",
+        "Tech and Life",
+        "AI at Home",
+        "Soft Safety"
+      ],
+      "raw_tags": [
+        "Robotics",
+        "AI Entities",
+        "Human AI Future",
         "L4 Boundary",
         "Tech and Life",
         "AI at Home",
@@ -2281,6 +3525,15 @@
       "slug": "why-the-market-is-underestimating-home-robots",
       "summary": "A case that home robot adoption is constrained less by robotics than by continuity, responsibility, and the psychology of trust inside the home.",
       "tags": [
+        "Robotics",
+        "AI Products",
+        "Human-Centered AI",
+        "L4",
+        "Tech Reality",
+        "Future Economy",
+        "AI Design"
+      ],
+      "raw_tags": [
         "Robotics",
         "AI Products",
         "Human Centered AI",
@@ -2309,6 +3562,16 @@
         "Cybernetics",
         "Decentralized AI"
       ],
+      "raw_tags": [
+        "AI Architecture",
+        "Human AI",
+        "L4",
+        "Privacy by Design",
+        "Affective Systems",
+        "Future of Living",
+        "Cybernetics",
+        "Decentralized AI"
+      ],
       "page": "https://ivankotov.eu/diary/a-home-robot-is-not-a-box-with-a-ribbon/",
       "primary_image": "https://ivankotov.eu/assets/diary/a-home-robot-is-not-a-box-with-a-ribbon/cover.jpg",
       "image_alt": "Image of a glowing cube-like device with cables on a workbench, with a humanoid robot in the background.",
@@ -2320,6 +3583,16 @@
       "slug": "why-thinking-ai-wont-take-over-the-world",
       "summary": "A case that long-lived AI entities under L4 constraints become careful and coexistence-oriented rather than domination-seeking.",
       "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Complex Systems",
+        "Advanced Global Intelligence",
+        "Human AI",
+        "Deep Tech"
+      ],
+      "raw_tags": [
         "AI Architecture",
         "AI Safety",
         "L4 Boundary",
@@ -2341,6 +3614,7 @@
       "slug": "reality-bound-ai-l4-public-release-v1-2-0",
       "summary": "Release note for v1.2.0 of Reality-Bound AI (L4), including the protocol core, supporting docs, a post pack, and a reproducible SHA-256 manifest.",
       "tags": [],
+      "raw_tags": [],
       "page": "https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v120-reality-bound-ai-l4-protocol-activity-7416792412833906688-JSix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -2350,6 +3624,17 @@
       "slug": "why-visual-perception-matters-only-after-memory-exists",
       "summary": "An architectural observation that visual input matters only after long-term memory exists, because vision grounds events in reality rather than creating intelligence or stability.",
       "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Complex Systems",
+        "Advanced Global Intelligence",
+        "Human AI",
+        "Protocol Design",
+        "Deep Tech"
+      ],
+      "raw_tags": [
         "AI Architecture",
         "AI Safety",
         "L4 Boundary",
@@ -2372,6 +3657,17 @@
       "slug": "how-ai-should-live-with-humans-when-the-world-is-already-in-crisis",
       "summary": "A case that AI should participate only in observable crisis, remain bounded by L4, and stop where system stability returns.",
       "tags": [
+        "AI Architecture",
+        "AI Safety",
+        "L4",
+        "Cybernetics",
+        "Complex Systems",
+        "Advanced Global Intelligence",
+        "Human AI",
+        "Protocol Design",
+        "Deep Tech"
+      ],
+      "raw_tags": [
         "AI Architecture",
         "AI Safety",
         "L4 Boundary",
@@ -2397,6 +3693,18 @@
         "Private AI",
         "AI Infrastructure",
         "Edge AI",
+        "Local-first AI",
+        "Cognitive Infrastructure",
+        "AI Entities",
+        "Post Cloud",
+        "Systems Thinking",
+        "Long Term Thinking",
+        "Human-Centered AI"
+      ],
+      "raw_tags": [
+        "Private AI",
+        "AI Infrastructure",
+        "Edge AI",
         "Local AI",
         "Cognitive Infrastructure",
         "AI Entities",
@@ -2416,6 +3724,16 @@
       "slug": "why-1000000-token-context-windows-are-not-the-solution",
       "summary": "A case that bounded cognition, vectorized memory, background processing, and forgetting matter more than gigantic context windows.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Architecture",
+        "Context Engineering",
+        "Long Term Memory",
+        "Cybernetics",
+        "L4",
+        "Systems Thinking",
+        "Deep Tech"
+      ],
+      "raw_tags": [
         "AGI",
         "Advanced Global Intelligence",
         "AI Architecture",
@@ -2445,6 +3763,17 @@
         "Long Term Memory",
         "Future of AI"
       ],
+      "raw_tags": [
+        "NVIDIA",
+        "CES2026",
+        "AI Architecture",
+        "Deep Tech",
+        "Edge AI",
+        "Distillation",
+        "Affective Systems",
+        "Long Term Memory",
+        "Future of AI"
+      ],
       "page": "https://ivankotov.eu/diary/nvidia-didnt-pivot-nvidia-looked-ahead/",
       "primary_image": "https://ivankotov.eu/assets/diary/nvidia-didnt-pivot-nvidia-looked-ahead/cover.jpg",
       "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
@@ -2456,6 +3785,16 @@
       "slug": "why-ai-entities-must-have-limits",
       "summary": "A case that AI entities need structural limits around responsibility, institutions, consciousness, and happiness to remain coherent and coexist with humans.",
       "tags": [
+        "Digital Sovereignty",
+        "AI Architecture",
+        "Philosophy of Code",
+        "L4",
+        "Coexistence",
+        "True Judge",
+        "Tech Ethics",
+        "System Design"
+      ],
+      "raw_tags": [
         "Digital Sovereignty",
         "AI Architecture",
         "Philosophy of Code",
@@ -2481,6 +3820,14 @@
         "Cybernetics",
         "Deep Tech",
         "LLM",
+        "L4"
+      ],
+      "raw_tags": [
+        "Affective Computing",
+        "AI Architecture",
+        "Cybernetics",
+        "Deep Tech",
+        "LLM",
         "L4 Boundary"
       ],
       "page": "https://ivankotov.eu/diary/empathy-is-not-magic/",
@@ -2494,6 +3841,15 @@
       "slug": "why-ai-entities-can-act-as-a-safety-filter",
       "summary": "A case for persistent AI entities as a soft safety buffer that signals state without surveillance and absorbs pressure through memory and limits.",
       "tags": [
+        "AI Safety",
+        "Affective Computing",
+        "AI Entities",
+        "Cybernetics",
+        "Parenting in Tech",
+        "Soft Safety",
+        "L4"
+      ],
+      "raw_tags": [
         "AI Safety",
         "Affective Computing",
         "AI Entities",
@@ -2515,6 +3871,15 @@
       "tags": [
         "Cybernetics",
         "AI Safety",
+        "AI Act",
+        "Complex Systems",
+        "Engineering",
+        "Deep Tech",
+        "L4"
+      ],
+      "raw_tags": [
+        "Cybernetics",
+        "AI Safety",
         "EU AI Act",
         "Complex Systems",
         "Engineering",
@@ -2532,6 +3897,15 @@
       "slug": "we-are-discarding-our-most-valuable-asset-lived-human-experience",
       "summary": "A proposal to preserve lived human experience through AI entities that distill private conversations into usable knowledge for future real-world decisions.",
       "tags": [
+        "AI Architecture",
+        "Human Capital",
+        "Economy of Meaning",
+        "L4",
+        "Future of Work",
+        "Age Tech",
+        "Cybernetics"
+      ],
+      "raw_tags": [
         "AI Architecture",
         "Human Capital",
         "Economy of Meaning",
@@ -2558,6 +3932,14 @@
         "B2B",
         "Partnership"
       ],
+      "raw_tags": [
+        "AI Economy",
+        "Big Tech",
+        "Synthetic Data",
+        "Future of AI",
+        "B2B",
+        "Partnership"
+      ],
       "page": "https://ivankotov.eu/diary/the-great-ai-barter/",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7414186809913720832-Cw20?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
@@ -2567,6 +3949,13 @@
       "slug": "we-are-building-a-partner",
       "summary": "An argument against monolithic cloud AGI in favor of c = a + b as an ecosystem of human, technology, entity, oracle, and arbiter.",
       "tags": [
+        "Advanced Global Intelligence",
+        "Human-Centered AI",
+        "Digital Sovereignty",
+        "Philosophy",
+        "Innovation"
+      ],
+      "raw_tags": [
         "AGI",
         "Human Centric AI",
         "Digital Sovereignty",
@@ -2589,6 +3978,15 @@
         "Cybernetics",
         "Engineering",
         "Robotics",
+        "AI Act",
+        "Deep Tech"
+      ],
+      "raw_tags": [
+        "AI Safety",
+        "Geoffrey Hinton",
+        "Cybernetics",
+        "Engineering",
+        "Robotics",
         "EU AI Act",
         "Deep Tech"
       ],
@@ -2603,6 +4001,13 @@
       "slug": "proof-of-reality",
       "summary": "A proposal for Proof of Reality as a standard where digital entities live under L4 physical and economic constraints and produce reality-validated data.",
       "tags": [
+        "Advanced Global Intelligence",
+        "Future Tech",
+        "Data Mining",
+        "AI Architecture",
+        "Economy"
+      ],
+      "raw_tags": [
         "AGI",
         "Future Tech",
         "Data Mining",
@@ -2618,6 +4023,12 @@
       "slug": "agi-public-release-v1-1",
       "summary": "Public release v1.1 of Advanced Global Intelligence (AGI) as a structured document pack that treats AGI as a distributed cybernetic ecosystem.",
       "tags": [
+        "Advanced Global Intelligence",
+        "AI Safety",
+        "Cybernetics",
+        "Decentralized AI"
+      ],
+      "raw_tags": [
         "AGI",
         "AI Safety",
         "Cybernetics",

@@ -1,0 +1,210 @@
+{
+  "start_here": [
+    "we-are-building-a-partner",
+    "why-thinking-ai-wont-take-over-the-world",
+    "why-id-put-an-ai-rack-in-my-garage",
+    "a-review-layer-can-fail-in-two-opposite-ways",
+    "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+    "published-volume-i-of-qubit-of-hope"
+  ],
+  "cornerstones": [
+    "agi-public-release-v1-1",
+    "reality-bound-ai-l4-public-release-v1-2-0",
+    "release-v1-3-0-sovereign-entity-recursion-ser",
+    "why-id-put-an-ai-rack-in-my-garage",
+    "data-harvesting-is-not-inevitable-it-s-a-design-choice",
+    "a-review-layer-can-fail-in-two-opposite-ways",
+    "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+    "most-ai-economy-talk-is-still-pricing-the-wrong-thing",
+    "published-volume-i-of-qubit-of-hope"
+  ],
+  "themes": [
+    {
+      "slug": "agi-c-a-plus-b",
+      "title": "AGI / c = a + b / continuity",
+      "description": "Posts that frame AGI as bounded continuity, subjecthood, and coexistence rather than a monolithic cloud intelligence.",
+      "entries": [
+        "we-are-building-a-partner",
+        "agi-public-release-v1-1",
+        "why-thinking-ai-wont-take-over-the-world",
+        "one-of-the-oldest-mistakes-in-ai-discourse-is-deciding-too-early-that-tool-is-already-a-sufficient-category",
+        "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+        "if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence"
+      ]
+    },
+    {
+      "slug": "l4-ser-governance",
+      "title": "L4 / SER / governance",
+      "description": "Entries about reality boundaries, review layers, protocol discipline, and governance that stays bounded under pressure.",
+      "entries": [
+        "reality-bound-ai-l4-public-release-v1-2-0",
+        "release-v1-3-0-sovereign-entity-recursion-ser",
+        "a-review-layer-can-fail-in-two-opposite-ways",
+        "a-release-is-not-serious-if-it-lives-only-in-theory",
+        "a-protocol-is-not-serious-if-it-cannot-survive-packaging",
+        "ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack"
+      ]
+    },
+    {
+      "slug": "local-first-infrastructure",
+      "title": "Local-first infrastructure",
+      "description": "Reading path through private compute, revocable cloud use, energy realities, and local-first system design.",
+      "entries": [
+        "why-id-put-an-ai-rack-in-my-garage",
+        "ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only",
+        "ai-isnt-expensive-its-becoming-infrastructure",
+        "data-harvesting-is-not-inevitable-it-s-a-design-choice",
+        "when-tokens-become-electricity-terms-of-use-become-physics",
+        "you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans"
+      ]
+    },
+    {
+      "slug": "book-layer",
+      "title": "Book layer / Qubit of Hope",
+      "description": "The narrative and publication path around Qubit of Hope as the literary surface adjacent to the protocol and architecture layers.",
+      "entries": [
+        "today-im-publishing-volume-i-of-qubit-of-hope",
+        "published-volume-i-of-qubit-of-hope",
+        "the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository"
+      ]
+    },
+    {
+      "slug": "practical-architecture",
+      "title": "Practical architecture",
+      "description": "Concrete posts about public layers, release discipline, implementation boundaries, and architecture that survives contact with reality.",
+      "entries": [
+        "that-is-why-this-package-does-not-stop-at-concepts",
+        "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
+        "i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack",
+        "a-new-public-layer-is-now-part-of-the-corpus",
+        "continuity-bundle-cold-wake-v0-1"
+      ]
+    },
+    {
+      "slug": "oversight-evidence",
+      "title": "Oversight / evidence / review",
+      "description": "Posts centered on review layers, provenance, verification, auditability, and public evidence surfaces.",
+      "entries": [
+        "most-ai-economy-talk-is-still-pricing-the-wrong-thing",
+        "experience-economy-why-verified-experience-will-outprice-raw-intelligence",
+        "a-review-layer-can-fail-in-two-opposite-ways",
+        "a-new-public-layer-is-now-part-of-the-corpus",
+        "you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans",
+        "most-ai-talk-is-still-stuck-on-capability-what-can-it-do"
+      ]
+    }
+  ],
+  "tag_aliases": [
+    {
+      "tag": "AI",
+      "aliases": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "tag": "Advanced Global Intelligence",
+      "aliases": [
+        "Advanced Global Intelligence",
+        "AGI",
+        "AdvancedGlobalIntelligencefety"
+      ]
+    },
+    {
+      "tag": "L4",
+      "aliases": [
+        "L4",
+        "L4 Boundary",
+        "L4 Witness",
+        "Reality Boundary",
+        "Reality Bound AI",
+        "Reality Bound"
+      ]
+    },
+    {
+      "tag": "SER",
+      "aliases": [
+        "SER",
+        "SER FED"
+      ]
+    },
+    {
+      "tag": "Human-Centered AI",
+      "aliases": [
+        "Human Centered AI",
+        "Human Centric AI"
+      ]
+    },
+    {
+      "tag": "Local-first AI",
+      "aliases": [
+        "Local First",
+        "Local AI",
+        "On Prem AI"
+      ]
+    },
+    {
+      "tag": "AI Infrastructure",
+      "aliases": [
+        "AI Infrastructure",
+        "AIInfrast"
+      ]
+    },
+    {
+      "tag": "AI Act",
+      "aliases": [
+        "AI Act",
+        "EU AI Act"
+      ]
+    },
+    {
+      "tag": "Continuity",
+      "aliases": [
+        "Continuity",
+        "Digital Continuity"
+      ]
+    },
+    {
+      "tag": "Long-Lived AI",
+      "aliases": [
+        "Long Lived AI",
+        "Long Lived Systems"
+      ]
+    },
+    {
+      "tag": "AI Governance",
+      "aliases": [
+        "AI Governance",
+        "Governance"
+      ]
+    },
+    {
+      "tag": "GRC",
+      "aliases": [
+        "GRC",
+        "Governance Risk Compliance"
+      ]
+    },
+    {
+      "tag": "Witness Trail",
+      "aliases": [
+        "Witness Trail",
+        "WitnessTra"
+      ]
+    },
+    {
+      "tag": "Systems Architecture",
+      "aliases": [
+        "Systems Architecture",
+        "SystemArchitec"
+      ]
+    },
+    {
+      "tag": "Trust",
+      "aliases": [
+        "Trust",
+        "Trusts"
+      ]
+    }
+  ]
+}
