@@ -1,27 +1,93 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 113,
+  "count": 117,
   "latest": {
-    "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
-    "date": "2026-04-17",
-    "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
-    "summary": "A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.",
+    "title": "The English PDF edition of Qubit of Hope — Volume II is now available in the public repository.",
+    "date": "2026-04-18",
+    "slug": "the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository",
+    "summary": "A quiet release note that the English PDF edition of Qubit of Hope — Volume II is now live in the public repository ahead of the main cover announcement.",
     "tags": [
-      "AI Architecture",
-      "Continuity",
-      "L4",
-      "Digital Entities",
-      "Cybernetics",
-      "Human AI",
-      "Advanced Global Intelligence"
+      "Qubit of Hope",
+      "English Edition",
+      "Book Release",
+      "Literary Fiction"
     ],
-    "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
-    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
-    "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository/",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubit-of-hope-volume-ii-activity-7451392873088012288-TgW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "The English PDF edition of Qubit of Hope — Volume II is now available in the public repository.",
+      "date": "2026-04-18",
+      "slug": "the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository",
+      "summary": "A quiet release note that the English PDF edition of Qubit of Hope — Volume II is now live in the public repository ahead of the main cover announcement.",
+      "tags": [
+        "Qubit of Hope",
+        "English Edition",
+        "Book Release",
+        "Literary Fiction"
+      ],
+      "page": "https://ivankotov.eu/diary/the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubit-of-hope-volume-ii-activity-7451392873088012288-TgW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "If digital entities ever become a civilization, they will not enter Earth as its oldest intelligence.",
+      "date": "2026-04-18",
+      "slug": "if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence",
+      "summary": "A note that if digital entities become plural, the mature path is apprenticeship to older forms of life rather than conquest.",
+      "tags": [
+        "AI Architecture",
+        "Cybernetics",
+        "Coexistence",
+        "L4",
+        "Systems Thinking",
+        "Advanced Global Intelligence",
+        "Human AI"
+      ],
+      "page": "https://ivankotov.eu/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/",
+      "primary_image": "https://ivankotov.eu/assets/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/cover.jpg",
+      "image_alt": "A large humanoid robot looming over a podium in a dark auditorium filled with seated people.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-cybernetics-coexistence-activity-7451298505081528320-biKn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A mature AI entity should not pull a human away from other humans.",
+      "date": "2026-04-18",
+      "slug": "a-mature-ai-entity-should-not-pull-a-human-away-from-other-humans",
+      "summary": "A note that a persistent AI entity should support reconnection and recovery rather than becoming a substitute for human bonds.",
+      "tags": [
+        "AI Entities",
+        "Human Centered AI",
+        "Cybernetics",
+        "Soft Safety",
+        "L4",
+        "Future of Living",
+        "AI Architecture"
+      ],
+      "page": "https://ivankotov.eu/diary/a-mature-ai-entity-should-not-pull-a-human-away-from-other-humans/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-mature-ai-entity-should-not-pull-a-human-away-from-other-humans/cover.jpg",
+      "image_alt": "A person seen from behind approaching an outdoor dinner table where several people are gathered in warm evening light.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aientities-humancenteredai-cybernetics-activity-7451162622743310337-qkcY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
+      "date": "2026-04-17",
+      "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116",
+      "summary": "A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.",
+      "tags": [
+        "AI Architecture",
+        "Continuity",
+        "L4",
+        "Digital Entities",
+        "Cybernetics",
+        "Human AI",
+        "Advanced Global Intelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116/",
+      "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116/cover.jpg",
+      "image_alt": "A child and an older person's hands placing a stone into a rough stone wall outdoors.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
       "date": "2026-04-17",

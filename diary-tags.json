@@ -23,7 +23,7 @@
     {
       "name": "Advanced Global Intelligence",
       "slug": "advanced-global-intelligence",
-      "count": 51,
+      "count": 53,
       "page": "https://ivankotov.eu/diary/tags/advanced-global-intelligence/"
     },
     {
@@ -119,7 +119,7 @@
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 65,
+      "count": 68,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -167,7 +167,7 @@
     {
       "name": "AI Entities",
       "slug": "ai-entities",
-      "count": 9,
+      "count": 10,
       "page": "https://ivankotov.eu/diary/tags/ai-entities/"
     },
     {
@@ -353,7 +353,7 @@
     {
       "name": "Book Release",
       "slug": "book-release",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/book-release/"
     },
     {
@@ -389,7 +389,7 @@
     {
       "name": "Coexistence",
       "slug": "coexistence",
-      "count": 3,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/coexistence/"
     },
     {
@@ -479,7 +479,7 @@
     {
       "name": "Continuity",
       "slug": "continuity",
-      "count": 9,
+      "count": 10,
       "page": "https://ivankotov.eu/diary/tags/continuity/"
     },
     {
@@ -515,7 +515,7 @@
     {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 77,
+      "count": 80,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -599,7 +599,7 @@
     {
       "name": "Digital Entities",
       "slug": "digital-entities",
-      "count": 10,
+      "count": 11,
       "page": "https://ivankotov.eu/diary/tags/digital-entities/"
     },
     {
@@ -705,6 +705,12 @@
       "page": "https://ivankotov.eu/diary/tags/engineering-discipline/"
     },
     {
+      "name": "English Edition",
+      "slug": "english-edition",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/english-edition/"
+    },
+    {
       "name": "Error Handling",
       "slug": "error-handling",
       "count": 4,
@@ -785,7 +791,7 @@
     {
       "name": "Future of Living",
       "slug": "future-of-living",
-      "count": 3,
+      "count": 4,
       "page": "https://ivankotov.eu/diary/tags/future-of-living/"
     },
     {
@@ -887,7 +893,7 @@
     {
       "name": "Human AI",
       "slug": "human-ai",
-      "count": 11,
+      "count": 13,
       "page": "https://ivankotov.eu/diary/tags/human-ai/"
     },
     {
@@ -905,7 +911,7 @@
     {
       "name": "Human Centered AI",
       "slug": "human-centered-ai",
-      "count": 17,
+      "count": 18,
       "page": "https://ivankotov.eu/diary/tags/human-centered-ai/"
     },
     {
@@ -1001,7 +1007,7 @@
     {
       "name": "L4",
       "slug": "l4",
-      "count": 66,
+      "count": 69,
       "page": "https://ivankotov.eu/diary/tags/l4/"
     },
     {
@@ -1025,7 +1031,7 @@
     {
       "name": "Literary Fiction",
       "slug": "literary-fiction",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/literary-fiction/"
     },
     {
@@ -1325,7 +1331,7 @@
     {
       "name": "Qubit of Hope",
       "slug": "qubit-of-hope",
-      "count": 1,
+      "count": 2,
       "page": "https://ivankotov.eu/diary/tags/qubit-of-hope/"
     },
     {
@@ -1511,7 +1517,7 @@
     {
       "name": "Soft Safety",
       "slug": "soft-safety",
-      "count": 2,
+      "count": 3,
       "page": "https://ivankotov.eu/diary/tags/soft-safety/"
     },
     {
@@ -1601,7 +1607,7 @@
     {
       "name": "Systems Thinking",
       "slug": "systems-thinking",
-      "count": 30,
+      "count": 31,
       "page": "https://ivankotov.eu/diary/tags/systems-thinking/"
     },
     {
