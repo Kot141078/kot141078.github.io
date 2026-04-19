@@ -2,24 +2,22 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "The quiet upgrade in ARQ v0.2 is model discipline.",
-    "date": "2026-04-16",
-    "slug": "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
-    "summary": "A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.",
+    "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
+    "date": "2026-04-17",
+    "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+    "summary": "A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.",
     "tags": [
-      "AI",
       "AI Architecture",
-      "Systems Thinking",
-      "Cybernetics",
+      "Continuity",
       "L4",
-      "Protocol Design",
-      "Long Lived AI",
-      "AdvancedGlobalIntelligencefety",
-      "Structural Honesty"
+      "Digital Entities",
+      "Cybernetics",
+      "Human AI",
+      "Advanced Global Intelligence"
     ],
-    "page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
-    "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
-    "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
+    "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

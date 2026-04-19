@@ -5,13 +5,48 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 00:56:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 01:17:29 +0000</lastBuildDate>
+    <item>
+      <title>There is a difference between &quot;digital immortality&quot; and what I would call post-anchor continuity.</title>
+      <link>https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/</link>
+      <guid>https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/</guid>
+      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.</description>
+    </item>
+    <item>
+      <title>In the end, I do not think the future of AI will be decided only by model size, orchestration patterns, or benchmark performance.</title>
+      <link>https://ivankotov.eu/diary/in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance/</link>
+      <guid>https://ivankotov.eu/diary/in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance/</guid>
+      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that livability and tact, not just capability, will decide whether long-lived intelligence can remain near human life without making it structurally noisier.</description>
+    </item>
+    <item>
+      <title>A new public layer is now part of the corpus.</title>
+      <link>https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/</link>
+      <guid>https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/</guid>
+      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that AGL formalizes grounding as a fail-closed precondition before review, reliance, or action can proceed.</description>
+    </item>
     <item>
       <title>The quiet upgrade in ARQ v0.2 is model discipline.</title>
       <link>https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/</link>
       <guid>https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/</guid>
       <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
       <description>A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.</description>
+    </item>
+    <item>
+      <title>Most AI economy talk is still pricing the wrong thing.</title>
+      <link>https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/</link>
+      <guid>https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/</guid>
+      <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that value moves away from cheap generation toward bounded, auditable experience artifacts that still hold after reality takes its cut.</description>
+    </item>
+    <item>
+      <title>I watched the interview with Roman Yampolskiy.</title>
+      <link>https://ivankotov.eu/diary/i-watched-the-interview-with-roman-yampolskiy/</link>
+      <guid>https://ivankotov.eu/diary/i-watched-the-interview-with-roman-yampolskiy/</guid>
+      <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+      <description>A note that legacy AI safety discourse keeps calling systems tools even after quietly assembling the preconditions for operational agency.</description>
     </item>
     <item>
       <title>Not every anomaly deserves memory.</title>

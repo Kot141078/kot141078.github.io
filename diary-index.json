@@ -1,29 +1,86 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 108,
+  "count": 113,
   "latest": {
-    "title": "The quiet upgrade in ARQ v0.2 is model discipline.",
-    "date": "2026-04-16",
-    "slug": "the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
-    "summary": "A note that ARQ v0.2 grows stronger by naming model scope explicitly instead of letting one theorem pretend to govern every substrate at once.",
+    "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
+    "date": "2026-04-17",
+    "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+    "summary": "A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.",
     "tags": [
-      "AI",
       "AI Architecture",
-      "Systems Thinking",
-      "Cybernetics",
+      "Continuity",
       "L4",
-      "Protocol Design",
-      "Long Lived AI",
-      "AdvancedGlobalIntelligencefety",
-      "Structural Honesty"
+      "Digital Entities",
+      "Cybernetics",
+      "Human AI",
+      "Advanced Global Intelligence"
     ],
-    "page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
-    "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
-    "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
+    "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
+      "date": "2026-04-17",
+      "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+      "summary": "A note that post-anchor continuity is not human immortality but the question of what kind of continuity-bearing subject remains after the original human anchor is gone.",
+      "tags": [
+        "AI Architecture",
+        "Continuity",
+        "L4",
+        "Digital Entities",
+        "Cybernetics",
+        "Human AI",
+        "Advanced Global Intelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+      "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
+      "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "In the end, I do not think the future of AI will be decided only by model size, orchestration patterns, or benchmark performance.",
+      "date": "2026-04-17",
+      "slug": "in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance",
+      "summary": "A note that livability and tact, not just capability, will decide whether long-lived intelligence can remain near human life without making it structurally noisier.",
+      "tags": [
+        "AI",
+        "Advanced Global Intelligence",
+        "Human Centered AI",
+        "Cybernetics",
+        "L4",
+        "Domestic Infrastructure",
+        "Long Lived AI",
+        "AI Architecture"
+      ],
+      "page": "https://ivankotov.eu/diary/in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance/",
+      "primary_image": "https://ivankotov.eu/assets/diary/in-the-end-i-do-not-think-the-future-of-ai-will-be-decided-only-by-model-size-orchestration-patterns-or-benchmark-performance/cover.jpg",
+      "image_alt": "A warm home interior with a steaming mug on a table and a softly lit sofa in the background.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-advancedglobalintelligence-humancenteredai-activity-7450936122806923264-7VJm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A new public layer is now part of the corpus.",
+      "date": "2026-04-17",
+      "slug": "a-new-public-layer-is-now-part-of-the-corpus-0112",
+      "summary": "A note that AGL formalizes grounding as a fail-closed precondition before review, reliance, or action can proceed.",
+      "tags": [
+        "AI",
+        "AI Safety",
+        "AI Architecture",
+        "Cybernetics",
+        "L4",
+        "Advanced Global Intelligence",
+        "Systems Thinking",
+        "Audit Trail"
+      ],
+      "page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-new-public-layer-is-now-part-of-the-corpus-0112/cover.jpg",
+      "image_alt": "A person under a desk lamp reaching toward two glass dishes on a table in a dim room.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aisafety-aiarchitecture-activity-7450841759619805185-jxQY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "The quiet upgrade in ARQ v0.2 is model discipline.",
       "date": "2026-04-16",
@@ -44,6 +101,54 @@
       "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
       "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Most AI economy talk is still pricing the wrong thing.",
+      "date": "2026-04-16",
+      "slug": "most-ai-economy-talk-is-still-pricing-the-wrong-thing",
+      "summary": "A note that value moves away from cheap generation toward bounded, auditable experience artifacts that still hold after reality takes its cut.",
+      "tags": [
+        "AI",
+        "AI Economy",
+        "Experience Artifacts",
+        "Verification",
+        "Provenance",
+        "Trust",
+        "AI Architecture",
+        "Systems Engineering",
+        "Auditability",
+        "Traceability",
+        "Operational AI",
+        "Risk Management",
+        "Cost Of Error",
+        "Signal Vs Noise",
+        "Information Economy",
+        "Constraint Driven",
+        "Reality Bound",
+        "L4",
+        "Advanced Global Intelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/",
+      "primary_image": "https://ivankotov.eu/assets/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/cover.jpg",
+      "image_alt": "An industrial paper-processing machine with a conveyor full of paper and compressed paper bundles on a platform nearby.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aieconomy-experienceartifacts-activity-7450573735725522944-g-fR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "I watched the interview with Roman Yampolskiy.",
+      "date": "2026-04-16",
+      "slug": "i-watched-the-interview-with-roman-yampolskiy",
+      "summary": "A note that legacy AI safety discourse keeps calling systems tools even after quietly assembling the preconditions for operational agency.",
+      "tags": [
+        "AI",
+        "AI Safety",
+        "AGI",
+        "Advanced Global Intelligence",
+        "SystemArchitec"
+      ],
+      "page": "https://ivankotov.eu/diary/i-watched-the-interview-with-roman-yampolskiy/",
+      "primary_image": "https://ivankotov.eu/assets/diary/i-watched-the-interview-with-roman-yampolskiy/cover.jpg",
+      "image_alt": "A large humanoid robot looming over a podium in a dark auditorium filled with seated people.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aisafety-agi-activity-7450627503708082176-ScI6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
       "title": "Not every anomaly deserves memory.",
