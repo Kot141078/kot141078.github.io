@@ -23,7 +23,7 @@
     {
       "name": "Advanced Global Intelligence",
       "slug": "advanced-global-intelligence",
-      "count": 42,
+      "count": 44,
       "page": "https://ivankotov.eu/diary/tags/advanced-global-intelligence/"
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "AI",
       "slug": "ai",
-      "count": 22,
+      "count": 25,
       "page": "https://ivankotov.eu/diary/tags/ai/"
     },
     {
@@ -99,6 +99,12 @@
       "page": "https://ivankotov.eu/diary/tags/ai-alignment/"
     },
     {
+      "name": "AI and Humanity",
+      "slug": "ai-and-humanity",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ai-and-humanity/"
+    },
+    {
       "name": "AI and Nature",
       "slug": "ai-and-nature",
       "count": 1,
@@ -107,7 +113,7 @@
     {
       "name": "AI Architecture",
       "slug": "ai-architecture",
-      "count": 54,
+      "count": 57,
       "page": "https://ivankotov.eu/diary/tags/ai-architecture/"
     },
     {
@@ -203,7 +209,7 @@
     {
       "name": "AI Safety",
       "slug": "ai-safety",
-      "count": 44,
+      "count": 47,
       "page": "https://ivankotov.eu/diary/tags/ai-safety/"
     },
     {
@@ -231,6 +237,18 @@
       "page": "https://ivankotov.eu/diary/tags/aiinfrast/"
     },
     {
+      "name": "Am Writing",
+      "slug": "am-writing",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/am-writing/"
+    },
+    {
+      "name": "Amsterdam",
+      "slug": "amsterdam",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/amsterdam/"
+    },
+    {
       "name": "Applied Cybernetics",
       "slug": "applied-cybernetics",
       "count": 1,
@@ -251,7 +269,7 @@
     {
       "name": "Artificial Intelligence",
       "slug": "artificial-intelligence",
-      "count": 9,
+      "count": 10,
       "page": "https://ivankotov.eu/diary/tags/artificial-intelligence/"
     },
     {
@@ -321,6 +339,18 @@
       "page": "https://ivankotov.eu/diary/tags/big-tech/"
     },
     {
+      "name": "Book Community",
+      "slug": "book-community",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/book-community/"
+    },
+    {
+      "name": "Book Release",
+      "slug": "book-release",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/book-release/"
+    },
+    {
       "name": "c = a + b",
       "slug": "c-a-b",
       "count": 2,
@@ -375,6 +405,12 @@
       "page": "https://ivankotov.eu/diary/tags/cognitive-science/"
     },
     {
+      "name": "Cold Wake",
+      "slug": "cold-wake",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/cold-wake/"
+    },
+    {
       "name": "Complex Systems",
       "slug": "complex-systems",
       "count": 6,
@@ -405,6 +441,12 @@
       "page": "https://ivankotov.eu/diary/tags/confidential-ai/"
     },
     {
+      "name": "Contemporary Fiction",
+      "slug": "contemporary-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/contemporary-fiction/"
+    },
+    {
       "name": "Context Engineering",
       "slug": "context-engineering",
       "count": 1,
@@ -421,6 +463,12 @@
       "slug": "continuity",
       "count": 8,
       "page": "https://ivankotov.eu/diary/tags/continuity/"
+    },
+    {
+      "name": "Continuity Bundle",
+      "slug": "continuity-bundle",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/continuity-bundle/"
     },
     {
       "name": "Cryptographic Integrity",
@@ -443,7 +491,7 @@
     {
       "name": "Cybernetics",
       "slug": "cybernetics",
-      "count": 66,
+      "count": 69,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/"
     },
     {
@@ -521,13 +569,13 @@
     {
       "name": "Digital Continuity",
       "slug": "digital-continuity",
-      "count": 6,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/tags/digital-continuity/"
     },
     {
       "name": "Digital Entities",
       "slug": "digital-entities",
-      "count": 7,
+      "count": 8,
       "page": "https://ivankotov.eu/diary/tags/digital-entities/"
     },
     {
@@ -867,6 +915,12 @@
       "page": "https://ivankotov.eu/diary/tags/identity/"
     },
     {
+      "name": "Indie Author",
+      "slug": "indie-author",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/indie-author/"
+    },
+    {
       "name": "Inference",
       "slug": "inference",
       "count": 1,
@@ -905,7 +959,7 @@
     {
       "name": "L4",
       "slug": "l4",
-      "count": 54,
+      "count": 57,
       "page": "https://ivankotov.eu/diary/tags/l4/"
     },
     {
@@ -925,6 +979,12 @@
       "slug": "least-privilege",
       "count": 5,
       "page": "https://ivankotov.eu/diary/tags/least-privilege/"
+    },
+    {
+      "name": "Literary Fiction",
+      "slug": "literary-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/literary-fiction/"
     },
     {
       "name": "Liya",
@@ -953,7 +1013,7 @@
     {
       "name": "Long Lived AI",
       "slug": "long-lived-ai",
-      "count": 12,
+      "count": 14,
       "page": "https://ivankotov.eu/diary/tags/long-lived-ai/"
     },
     {
@@ -1015,6 +1075,18 @@
       "slug": "multi-intelligence-systems",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/multi-intelligence-systems/"
+    },
+    {
+      "name": "Near Future Fiction",
+      "slug": "near-future-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/near-future-fiction/"
+    },
+    {
+      "name": "Novel",
+      "slug": "novel",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/novel/"
     },
     {
       "name": "NVIDIA",
@@ -1099,6 +1171,12 @@
       "slug": "personal-ai",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/personal-ai/"
+    },
+    {
+      "name": "Philosophical Fiction",
+      "slug": "philosophical-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/philosophical-fiction/"
     },
     {
       "name": "Philosophy",
@@ -1195,6 +1273,18 @@
       "slug": "quantum-computing",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/quantum-computing/"
+    },
+    {
+      "name": "Qubit of Hope",
+      "slug": "qubit-of-hope",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/qubit-of-hope/"
+    },
+    {
+      "name": "Readers of LinkedIn",
+      "slug": "readers-of-linkedin",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/readers-of-linkedin/"
     },
     {
       "name": "Real World AI",
@@ -1299,6 +1389,12 @@
       "page": "https://ivankotov.eu/diary/tags/safety-engineering/"
     },
     {
+      "name": "Science Fiction",
+      "slug": "science-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/science-fiction/"
+    },
+    {
       "name": "Secure by Design",
       "slug": "secure-by-design",
       "count": 3,
@@ -1325,7 +1421,7 @@
     {
       "name": "SER",
       "slug": "ser",
-      "count": 10,
+      "count": 11,
       "page": "https://ivankotov.eu/diary/tags/ser/"
     },
     {
@@ -1367,7 +1463,7 @@
     {
       "name": "Sovereign AI",
       "slug": "sovereign-ai",
-      "count": 13,
+      "count": 14,
       "page": "https://ivankotov.eu/diary/tags/sovereign-ai/"
     },
     {
@@ -1375,6 +1471,12 @@
       "slug": "sovereign-entities",
       "count": 1,
       "page": "https://ivankotov.eu/diary/tags/sovereign-entities/"
+    },
+    {
+      "name": "Speculative Fiction",
+      "slug": "speculative-fiction",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/speculative-fiction/"
     },
     {
       "name": "State Machines",
@@ -1385,7 +1487,7 @@
     {
       "name": "Structural Honesty",
       "slug": "structural-honesty",
-      "count": 4,
+      "count": 5,
       "page": "https://ivankotov.eu/diary/tags/structural-honesty/"
     },
     {
@@ -1427,7 +1529,7 @@
     {
       "name": "Systems Thinking",
       "slug": "systems-thinking",
-      "count": 25,
+      "count": 27,
       "page": "https://ivankotov.eu/diary/tags/systems-thinking/"
     },
     {
@@ -1531,6 +1633,12 @@
       "slug": "witness-trail",
       "count": 4,
       "page": "https://ivankotov.eu/diary/tags/witness-trail/"
+    },
+    {
+      "name": "Writers of LinkedIn",
+      "slug": "writers-of-linkedin",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/writers-of-linkedin/"
     },
     {
       "name": "Zero Trust",

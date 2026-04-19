@@ -2,23 +2,23 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "What interests me here is larger than one stack.",
-    "date": "2026-04-10",
-    "slug": "what-interests-me-here-is-larger-than-one-stack",
-    "summary": "A note that long-lived AI should be judged less by eloquence than by explicit handling of interruption, irreversibility, and unresolved state.",
+    "title": "One of the most harmful habits in current AI systems is this:",
+    "date": "2026-04-13",
+    "slug": "one-of-the-most-harmful-habits-in-current-ai-systems-is-this",
+    "summary": "A note that ARL matters because a serious system should stop at real boundaries instead of laundering unresolved state back into action through fluent continuation.",
     "tags": [
       "AI",
-      "Advanced Global Intelligence",
-      "AI Safety",
-      "Cybernetics",
-      "Long Lived AI",
-      "Software Architecture",
       "AI Architecture",
-      "L4"
+      "AI Safety",
+      "Systems Thinking",
+      "L4",
+      "Structural Honesty",
+      "Long Lived AI",
+      "Cybernetics"
     ],
-    "page": "https://ivankotov.eu/diary/what-interests-me-here-is-larger-than-one-stack/",
-    "primary_image": "https://ivankotov.eu/assets/diary/what-interests-me-here-is-larger-than-one-stack/cover.jpg",
-    "image_alt": "A multilane highway toward a city skyline with translucent overlay routes labeled quarantined research, disputed path, and unresolved route.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-advancedglobalintelligence-aisafety-activity-7448263525371895809-RivN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/one-of-the-most-harmful-habits-in-current-ai-systems-is-this/",
+    "primary_image": "https://ivankotov.eu/assets/diary/one-of-the-most-harmful-habits-in-current-ai-systems-is-this/cover.jpg",
+    "image_alt": "A group viewing a transparent display labeled Paused and Frozen Branch with a stop point between an active path and a frozen branch.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7449486580525891584-LqH1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
