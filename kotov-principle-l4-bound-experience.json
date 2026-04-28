@@ -1,0 +1,37 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+  "title": "Kotov Principle of L4-Bound Experience v0.1.1",
+  "tag": "kotov-principle-l4-bound-experience-v0.1.1",
+  "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/kotov-principle-l4-bound-experience-v0.1.1",
+  "published_at": "2026-04-28T18:09:59Z",
+  "summary": "Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems and L4-bound temporal continuity.",
+  "doi": "https://doi.org/10.5281/zenodo.19862969",
+  "zenodo_record": "https://zenodo.org/records/19862969",
+  "assets": [
+    {
+      "name": "KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md",
+      "type": "application/octet-stream"
+    },
+    {
+      "name": "KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf",
+      "type": "application/pdf"
+    },
+    {
+      "name": "KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256",
+      "type": "application/octet-stream"
+    }
+  ],
+  "related_pages": [
+    "https://ivankotov.eu/advanced-global-intelligence/",
+    "https://ivankotov.eu/l4/",
+    "https://ivankotov.eu/publications/",
+    "https://ivankotov.eu/releases/",
+    "https://ivankotov.eu/evidence/",
+    "https://ivankotov.eu/library/",
+    "https://ivankotov.eu/downloads/"
+  ]
+}

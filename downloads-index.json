@@ -18,6 +18,29 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
+      "object": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "surface": "GitHub release asset",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md",
+      "note": "Confirmed release asset; not mirrored in the site repository."
+    },
+    {
+      "object": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "surface": "GitHub release asset",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf",
+      "note": "Confirmed release asset; not mirrored in the site repository."
+    },
+    {
+      "object": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "surface": "GitHub release asset",
+      "format": "sha256 manifest",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/kotov-principle-l4-bound-experience-v0.1.1/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256",
+      "note": "Confirmed integrity manifest asset for the Markdown and PDF release files."
+    },
+    {
       "object": "Sovereign Entity Recursion (SER)",
       "surface": "GitHub release ecosystem-v0.2-2026-02-24",
       "format": "release page",

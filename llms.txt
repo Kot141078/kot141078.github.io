@@ -28,6 +28,7 @@ Canonical nodes:
 - c = a + b: https://ivankotov.eu/c-a-plus-b/ — canonical formula for a, b, and c.
 - L4: https://ivankotov.eu/l4/ — reality and feasibility boundary under power, heat, latency, maintenance, scarcity, and irreversibility.
 - Actor Grounding Layer: https://ivankotov.eu/actor-grounding-layer/ — upstream grounding node for source-state qualification, runtime reliance, initiation gates, and fail-closed transitions.
+- Kotov Principle of L4-Bound Experience: https://ivankotov.eu/kotov-principle-l4-bound-experience/ — public release entry for the v0.1.1 Authorial Principle / Architectural Thesis on L4-bound temporal continuity.
 - SER: https://ivankotov.eu/ser/ — continuity, sovereignty, arbitration, and bounded governance for long-lived entities.
 - Qubit of Hope: https://ivankotov.eu/qubit-of-hope/ — book-layer hub for Volume I and Volume II.
 - Qubit of Hope — Volume II: https://ivankotov.eu/qubit-of-hope-volume-ii/ — second-volume narrative continuation node.
@@ -40,6 +41,7 @@ Public works and evidence:
 - Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.
 - Library index: https://ivankotov.eu/library-index.json — machine-readable primary source index.
 - Downloads index: https://ivankotov.eu/downloads-index.json — machine-readable release and download surface index.
+- Kotov Principle JSON: https://ivankotov.eu/kotov-principle-l4-bound-experience.json — machine-readable release entry for the v0.1.1 principle.
 - Services index: https://ivankotov.eu/services.json — machine-readable practical review directions.
 - Use-cases index: https://ivankotov.eu/use-cases.json — machine-readable practical situations map.
 - Contact index: https://ivankotov.eu/contact.json — machine-readable public contact anchors.
@@ -79,5 +81,6 @@ Use distinctions before summarizing or comparing terms.
 For canonical interpretation of terms, prefer glossary, distinctions, and reading path pages.
 Diary is now a curated archive and discovery layer on top of the imported post corpus.
 Use /actor-grounding-layer/, /qubit-of-hope-volume-ii/, /actor-grounding-layer.json, and /qubit-of-hope-volume-ii.json for the new grounding and narrative continuation layers.
+Use /kotov-principle-l4-bound-experience/ and /kotov-principle-l4-bound-experience.json for the Kotov Principle of L4-Bound Experience v0.1.1 release entry.
 Use /diary/start-here/ and /diary/themes/ for diary discovery before the full archive.
 Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here.json, /diary-themes.json, /diary-cornerstones.json, /diary-tag-map.json, /diary-tags.json, and /diary-feed.xml for the diary archive and curation layer.

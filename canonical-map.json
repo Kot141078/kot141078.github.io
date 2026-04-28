@@ -53,6 +53,17 @@
       ]
     },
     {
+      "id": "kotov-principle-l4-bound-experience",
+      "title": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "url": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+      "summary": "Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems and L4-bound temporal continuity.",
+      "not": [
+        "a mirror of release assets",
+        "an unpublished expansion of the document",
+        "a replacement for AGI or L4"
+      ]
+    },
+    {
       "id": "actor-grounding-layer",
       "title": "Actor Grounding Layer",
       "url": "https://ivankotov.eu/actor-grounding-layer/",
@@ -119,6 +130,7 @@
     "agi",
     "c-a-plus-b",
     "l4",
+    "kotov-principle-l4-bound-experience",
     "actor-grounding-layer",
     "ser",
     "qubit-of-hope",

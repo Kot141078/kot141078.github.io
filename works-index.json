@@ -23,6 +23,17 @@
       "version": "v1.1"
     },
     {
+      "id": "kotov-principle-l4-bound-experience",
+      "title": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "type": "document",
+      "role": "principle / L4-bound experience",
+      "primary_url": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/kotov-principle-l4-bound-experience-v0.1.1",
+      "date": "2026-04-28",
+      "version": "v0.1.1",
+      "doi": "https://doi.org/10.5281/zenodo.19862969"
+    },
+    {
       "id": "ser",
       "title": "Sovereign Entity Recursion (SER)",
       "type": "repo",
