@@ -159,4 +159,34 @@ Local validation passed:
 
 ## 12. Post-Deploy Result
 
-Pending until after the integration commit is pushed and the public site updates.
+Verified live after push.
+
+- Integration commit checked: `69112951e8ecba29ba9deab9923eaab6672dbf2f`
+- GitHub Pages build id: `976779486`
+- GitHub Pages build status: `built`
+- New page URL: `https://ivankotov.eu/kotov-principle-l4-bound-experience/`
+- Post-deploy artifact: `artifacts/kotov-principle-v44/POST_DEPLOY_CHECK.md`
+
+Live checks passed for:
+
+- `/`
+- `/kotov-principle-l4-bound-experience/`
+- `/publications/`
+- `/releases/`
+- `/evidence/`
+- `/library/`
+- `/downloads/`
+- `/l4/`
+- `/advanced-global-intelligence/`
+- `/kotov-principle-l4-bound-experience.json`
+- `/llms.txt`
+- `/sitemap.xml`
+
+External release links passed for:
+
+- GitHub release page
+- Markdown asset
+- PDF asset
+- SHA-256 manifest asset
+
+Verdict: `PASS`
