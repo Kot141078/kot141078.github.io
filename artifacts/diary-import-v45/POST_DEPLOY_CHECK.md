@@ -1,31 +1,43 @@
-# POST_DEPLOY_CHECK
+# POST_DEPLOY_CHECK V45
 
-## Deployment
+## Implementation
 
-- Implementation commit pushed: `28590a6f05a4fef7010aeeb812b3dfc2a340656c`
-- First new-entry probe: `404`
-- Deployment convergence: attempt `2`
-- New-entry readiness URL: `https://ivankotov.eu/diary/volume-ii-of-qubit-of-hope-is-now-public/`
+- Implementation commit: `a845aae7bcb04af71166ed2542a9b798efd181a1`
+- Push target: `origin/main`
+- Deploy readiness check: pass
+- Readiness URL: `https://ivankotov.eu/diary/there-is-a-point-where-fluent-output-stops-being-impressive-and-responsibility-begins/`
 
-## Remote Checks
+## Live Validation
 
-- `https://ivankotov.eu/`: `200`, latest post checked
-- `https://ivankotov.eu/diary/`: `200`, both V45 entries checked
-- `https://ivankotov.eu/diary/archive/`: `200`, both V45 entries checked
-- `https://ivankotov.eu/diary/tags/`: `200`, affected tag links checked
-- `https://ivankotov.eu/diary/volume-ii-of-qubit-of-hope-is-now-public/`: `200`, title and image-less rendering checked
-- `https://ivankotov.eu/diary/one-of-the-easiest-mistakes-in-ai-discourse-is-to-imagine-a-digital-entity-as-a-faster-human/`: `200`, title and image-less rendering checked
-- `https://ivankotov.eu/diary-index.json`: `200`, `count=119`, `latest=volume-ii-of-qubit-of-hope-is-now-public`
-- `https://ivankotov.eu/diary-tags.json`: `200`
-- `https://ivankotov.eu/diary-latest.json`: `200`, `latest=volume-ii-of-qubit-of-hope-is-now-public`
-- `https://ivankotov.eu/diary-feed.xml`: `200`, both new slugs present
-- `https://ivankotov.eu/sitemap.xml`: `200`, both new slugs present
-- Affected canonical tag pages checked: `27`
-- Total remote URL checks passed after readiness: `38`
+- `https://ivankotov.eu/`: pass
+- `https://ivankotov.eu/diary/`: pass
+- `https://ivankotov.eu/diary/archive/`: pass
+- `https://ivankotov.eu/diary/tags/`: pass
+- V45 entry pages returning `200`: `6`
+- V45 cover assets returning `200` with image content type: `6`
+- Affected canonical tag pages returning `200`: `36`
+- `https://ivankotov.eu/diary-index.json`: pass, `count=135`
+- Latest post: `there-is-a-point-where-fluent-output-stops-being-impressive-and-responsibility-begins`
+- `https://ivankotov.eu/diary-latest.json`: pass
+- `https://ivankotov.eu/diary-feed.xml`: pass
+- `https://ivankotov.eu/sitemap.xml`: pass
+- Same-date ordering for `2026-04-30`: `0130` before `0129`
+- Same-date ordering for `2026-05-01`: `0131` before `0132`
+- POST 0130 duplicate `Continuity`: deduped to one raw/canonical tag
+- POST 0131 link rendering: pass
+- POST 0132 multi-line hashtag parsing: pass
+- V23 date-only rendering: pass
+- V28 latest preview count: `5`
 
-## Baseline Checks
+## V45 Entry URLs
 
-- Live V23 date-only meta on `/`: pass
-- Live V23 date-only meta on `/diary/`: pass
-- Live V23 date-only meta on `/diary/archive/`: pass
-- Live V28 `/diary/` latest preview count: `5`
+- `https://ivankotov.eu/diary/one-of-the-strangest-habits-of-our-time-is-the-assumption-that-silence-means-absence/`
+- `https://ivankotov.eu/diary/there-is-a-childish-version-of-future-thinking-that-assumes-if-something-survives-longer-it-has-somehow-escaped-time/`
+- `https://ivankotov.eu/diary/when-people-hear-the-word-aging-they-usually-imagine-biology/`
+- `https://ivankotov.eu/diary/one-of-the-quiet-shifts-in-ai-is-not-about-larger-models/`
+- `https://ivankotov.eu/diary/one-of-the-missing-dimensions-in-most-ai-systems-is-not-intelligence/`
+- `https://ivankotov.eu/diary/there-is-a-point-where-fluent-output-stops-being-impressive-and-responsibility-begins/`
+
+## Manual Remainder
+
+- Send URLs from `SEARCH_CONSOLE_SUBMISSION_PLAN_V45.md` to Search Console.
