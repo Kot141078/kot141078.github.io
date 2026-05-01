@@ -1,29 +1,53 @@
 # SEARCH_CONSOLE_SUBMISSION_PLAN_V43
 
-## Submit Now
+## Priority 1
 
+- `https://ivankotov.eu/`
 - `https://ivankotov.eu/diary/`
-- `https://ivankotov.eu/diary/start-here/`
-- `https://ivankotov.eu/diary/themes/`
-- `https://ivankotov.eu/diary/themes/agi-c-a-plus-b/`
-- `https://ivankotov.eu/diary/themes/l4-ser-governance/`
-- `https://ivankotov.eu/diary/themes/local-first-infrastructure/`
-- `https://ivankotov.eu/diary/themes/book-layer/`
-- `https://ivankotov.eu/diary/themes/practical-architecture/`
-- `https://ivankotov.eu/diary/themes/oversight-evidence/`
-
-## Optional Resubmits
-
 - `https://ivankotov.eu/diary/archive/`
 - `https://ivankotov.eu/diary/tags/`
+- `https://ivankotov.eu/diary/human-in-the-loop-is-not-oversight/`
+- `https://ivankotov.eu/diary/one-of-the-reasons-i-take-arbitration-seriously-is-simple/`
+- `https://ivankotov.eu/diary/what-exactly-is-being-priced-in-an-experience-economy/`
+- `https://ivankotov.eu/diary/a-serious-ai-future-should-not-make-human-experience-socially-disposable/`
+- `https://ivankotov.eu/diary/not-every-continuity-deserves-to-be-called-a-subject/`
 
-## Do Not Bulk-Resubmit
+## Priority 2
 
-- Do not manually bulk-resubmit all older diary post pages by default.
-- Even though many post pages materially changed through normalized tag display and related-post blocks, the new discovery surfaces, sitemap updates, and internal links are enough to expose those changes.
-- Only manually resubmit older individual post pages if you want to accelerate recrawl for a specific high-value post.
+- `https://ivankotov.eu/diary/tags/accountability/`
+- `https://ivankotov.eu/diary/tags/advanced-global-intelligence/`
+- `https://ivankotov.eu/diary/tags/ai/`
+- `https://ivankotov.eu/diary/tags/ai-architecture/`
+- `https://ivankotov.eu/diary/tags/ai-economy/`
+- `https://ivankotov.eu/diary/tags/ai-governance/`
+- `https://ivankotov.eu/diary/tags/ai-safety/`
+- `https://ivankotov.eu/diary/tags/architectural-safety/`
+- `https://ivankotov.eu/diary/tags/continuity/`
+- `https://ivankotov.eu/diary/tags/cybernetics/`
+- `https://ivankotov.eu/diary/tags/decentralized-ai/`
+- `https://ivankotov.eu/diary/tags/digital-entities/`
+- `https://ivankotov.eu/diary/tags/experience-artifacts/`
+- `https://ivankotov.eu/diary/tags/future-of-ai/`
+- `https://ivankotov.eu/diary/tags/futureofwor/`
+- `https://ivankotov.eu/diary/tags/home-ai/`
+- `https://ivankotov.eu/diary/tags/human-ai/`
+- `https://ivankotov.eu/diary/tags/human-centered-ai/`
+- `https://ivankotov.eu/diary/tags/human-in-the-loop/`
+- `https://ivankotov.eu/diary/tags/human-judgment/`
+- `https://ivankotov.eu/diary/tags/identity/`
+- `https://ivankotov.eu/diary/tags/knowledge-transfer/`
+- `https://ivankotov.eu/diary/tags/l4/`
+- `https://ivankotov.eu/diary/tags/long-lived-ai/`
+- `https://ivankotov.eu/diary/tags/memory/`
+- `https://ivankotov.eu/diary/tags/ontology/`
+- `https://ivankotov.eu/diary/tags/provenance/`
+- `https://ivankotov.eu/diary/tags/sovereign-ai/`
+- `https://ivankotov.eu/diary/tags/systems-thinking/`
+- `https://ivankotov.eu/diary/tags/trust/`
+- `https://ivankotov.eu/diary/tags/verification/`
 
 ## Notes
 
-- This V43 pass materially changed diary discovery and curation surfaces, so the pages above are the highest-value manual submissions.
-- Do not resubmit older pages without material change.
+- `Priority 1` is the minimum useful submission set for the batch.
+- `Priority 2` contains only tag pages affected by V43 imported posts.
+- `sitemap.xml` is live with the five new entry URLs and the new tag URLs `human-judgment`, `knowledge-transfer`, and `futureofwor`.
