@@ -62,7 +62,7 @@
       "role": "narrative",
       "primary_page": "https://ivankotov.eu/qubit-of-hope/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
-      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
       "type": "book"
     },
     {
@@ -71,7 +71,16 @@
       "role": "narrative continuation",
       "primary_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
-      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+      "type": "book"
+    },
+    {
+      "id": "qubit-of-hope-volume-iii",
+      "title": "Qubit of Hope — Volume III",
+      "role": "narrative continuation",
+      "primary_page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
       "type": "book"
     }
   ]

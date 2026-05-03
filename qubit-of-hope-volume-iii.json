@@ -1,0 +1,32 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+  "title": "Qubit of Hope — Volume III",
+  "summary": "Third volume of Qubit of Hope as a narrative continuation node in the public trilogy.",
+  "source_repo": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
+  "downloads": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/DOWNLOADS.md",
+  "related_pages": [
+    "https://ivankotov.eu/qubit-of-hope/",
+    "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+    "https://ivankotov.eu/library/",
+    "https://ivankotov.eu/downloads/",
+    "https://ivankotov.eu/reading-path/"
+  ],
+  "languages": [
+    "ru",
+    "fr",
+    "es",
+    "de",
+    "en",
+    "nl",
+    "zh-CN"
+  ],
+  "formats": [
+    "md",
+    "pdf",
+    "epub",
+    "fb2"
+  ],
+  "rights_note": "All rights reserved. Public reading and personal local download are allowed; redistribution, mirroring, derivative works, and commercial reuse require prior written permission where stated in the repository rights files."
+}

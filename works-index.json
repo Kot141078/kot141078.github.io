@@ -78,8 +78,10 @@
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
-      "date": "2026-04-11",
-      "version": "first-publication"
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
+      "date": "2026-05-03",
+      "version": "v1.0.1",
+      "first_publication_date": "2026-04-11"
     },
     {
       "id": "qubit-of-hope-volume-ii",
@@ -87,9 +89,21 @@
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
-      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
-      "date": "2026-04-17",
-      "version": "v1.0.0"
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+      "date": "2026-05-03",
+      "version": "v1.0.1",
+      "first_publication_date": "2026-04-17",
+      "first_release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0"
+    },
+    {
+      "id": "qubit-of-hope-volume-iii",
+      "title": "Qubit of Hope — Volume III",
+      "type": "book",
+      "role": "narrative",
+      "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
+      "date": "2026-05-03",
+      "version": "v1.0.1"
     },
     {
       "id": "github-profile",

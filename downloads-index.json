@@ -91,6 +91,14 @@
     },
     {
       "object": "Qubit of Hope — Volume I",
+      "surface": "GitHub release v1.0.1",
+      "format": "release page",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
+      "note": "Current public release indexed for the trilogy website layer."
+    },
+    {
+      "object": "Qubit of Hope — Volume I",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -99,11 +107,11 @@
     },
     {
       "object": "Qubit of Hope — Volume II",
-      "surface": "GitHub release v1.0.0",
+      "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
-      "note": "Tagged public release confirmed on 2026-04-17."
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+      "note": "Current public release; v1.0.0 remains the first release from 2026-04-17."
     },
     {
       "object": "Qubit of Hope — Volume II",
@@ -112,6 +120,22 @@
       "language": "multilingual",
       "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/DOWNLOADS.md",
       "note": "Confirmed repository download matrix for seven language bundles."
+    },
+    {
+      "object": "Qubit of Hope — Volume III",
+      "surface": "GitHub release v1.0.1",
+      "format": "release page",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
+      "note": "Current public release for the third-volume continuation."
+    },
+    {
+      "object": "Qubit of Hope — Volume III",
+      "surface": "Downloads page",
+      "format": "md + pdf + epub + fb2",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/DOWNLOADS.md",
+      "note": "Repository download matrix for the Volume III public reading bundles."
     },
     {
       "object": "Qubit of Hope — Volume I",

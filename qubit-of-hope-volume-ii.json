@@ -2,10 +2,13 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
   "title": "Qubit of Hope — Volume II",
-  "summary": "Second volume of Qubit of Hope as a narrative continuation into the world of c and the broader public corpus.",
+  "summary": "Second volume of Qubit of Hope as a narrative continuation into the world of c and the broader public trilogy.",
   "source_repo": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+  "first_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
   "related_pages": [
     "https://ivankotov.eu/qubit-of-hope/",
+    "https://ivankotov.eu/qubit-of-hope-volume-iii/",
     "https://ivankotov.eu/library/",
     "https://ivankotov.eu/downloads/",
     "https://ivankotov.eu/reading-path/"

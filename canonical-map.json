@@ -89,7 +89,7 @@
       "id": "qubit-of-hope",
       "title": "Qubit of Hope",
       "url": "https://ivankotov.eu/qubit-of-hope/",
-      "summary": "Book-layer hub for Volume I and Volume II as the narrative/public entry surface complementary to AGI, L4, and SER.",
+      "summary": "Book-layer hub for Volumes I, II, and III as the narrative/public trilogy surface complementary to AGI, L4, and SER.",
       "not": [
         "a substitute for the protocol layer",
         "the canonical home of AGI, L4, or SER definitions"
@@ -100,6 +100,16 @@
       "title": "Qubit of Hope — Volume II",
       "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
       "summary": "Narrative continuation node for the second volume of Qubit of Hope.",
+      "not": [
+        "a detached standalone theory layer",
+        "a substitute for the protocol layer"
+      ]
+    },
+    {
+      "id": "qubit-of-hope-volume-iii",
+      "title": "Qubit of Hope — Volume III",
+      "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "summary": "Narrative continuation node for the third volume of Qubit of Hope.",
       "not": [
         "a detached standalone theory layer",
         "a substitute for the protocol layer"
@@ -134,6 +144,7 @@
     "actor-grounding-layer",
     "ser",
     "qubit-of-hope",
-    "qubit-of-hope-volume-ii"
+    "qubit-of-hope-volume-ii",
+    "qubit-of-hope-volume-iii"
   ]
 }
