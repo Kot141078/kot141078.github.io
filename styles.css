@@ -294,6 +294,41 @@ h3 {
   color: var(--muted);
 }
 
+.volume-card-grid {
+  grid-template-columns: 1fr;
+}
+
+.volume-card-with-cover {
+  display: grid;
+  grid-template-columns: minmax(112px, 140px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.volume-cover {
+  width: min(140px, 100%);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  padding: 0.45rem;
+}
+
+.volume-cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.volume-card-body {
+  min-width: 0;
+}
+
+.volume-actions {
+  margin-top: 0.75rem;
+}
+
 .timeline {
   display: grid;
   gap: 0.9rem;
@@ -540,6 +575,14 @@ h3 {
 
   .media-split {
     grid-template-columns: 1fr;
+  }
+
+  .volume-card-with-cover {
+    grid-template-columns: 1fr;
+  }
+
+  .volume-cover {
+    width: min(150px, 100%);
   }
 
   .site-nav {
