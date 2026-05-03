@@ -17,7 +17,7 @@ The local Volume II repository exists and is materially real:
   - `MANIFEST.json`
   - `RELEASE_STATUS.md`
   - `covers/Qubit of Hope vol II Cover.png`
-- confirmed structure: 7 language bundles, 4 formats per bundle, shared cover asset, tagged public release `v1.0.0`
+- confirmed structure at audit time: 7 language bundles, 4 formats per bundle, shared cover asset, then-current first release `v1.0.0`; current trilogy routing uses `v1.0.1` release surfaces
 
 However the site repo shows no Volume II integration signal:
 
