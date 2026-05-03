@@ -299,33 +299,40 @@ h3 {
 }
 
 .volume-card-with-cover {
-  display: grid;
-  grid-template-columns: minmax(112px, 140px) minmax(0, 1fr);
-  gap: 1rem;
-  align-items: start;
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
 }
 
-.volume-cover {
-  width: min(140px, 100%);
+.volume-cover-wrap {
+  flex: 0 0 136px;
+  width: 136px;
+  margin: 0;
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 12px;
   background: color-mix(in srgb, var(--bg-panel) 92%, white);
   padding: 0.45rem;
+  box-shadow: 0 10px 24px rgba(49, 41, 32, 0.12);
 }
 
-.volume-cover img {
+.volume-cover-thumb {
   display: block;
   width: 100%;
-  aspect-ratio: 2 / 3;
-  object-fit: contain;
-  border-radius: 10px;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 9px;
 }
 
-.volume-card-body {
+.volume-card-content {
+  flex: 1 1 auto;
   min-width: 0;
 }
 
 .volume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   margin-top: 0.75rem;
 }
 
@@ -578,11 +585,16 @@ h3 {
   }
 
   .volume-card-with-cover {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
-  .volume-cover {
-    width: min(150px, 100%);
+  .volume-cover-wrap {
+    flex-basis: auto;
+    width: 126px;
+  }
+
+  .volume-cover-thumb {
+    max-height: 165px;
   }
 
   .site-nav {
