@@ -3,7 +3,11 @@
   "page": "https://ivankotov.eu/qubit-state-c/",
   "title": "Qubit-State c (c[q]): A Derived State of Variative Continuity in the c = a + b Framework",
   "short_title": "Qubit-State c (c[q])",
+  "status": "Draft v0.1",
   "version": "v0.1",
+  "layer": "Ontological / Behavioral / L4-compatible",
+  "parent_formula": "c = a + b",
+  "q_definition": "controlled non-collapse under uncertainty",
   "author": "Ivan Kotov",
   "publication_date": "2026-05-08",
   "resource_type": "Technical note",
@@ -14,12 +18,30 @@
   "markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
   "pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf",
   "summary": "Defines Qubit-state c, written c[q], as controlled non-collapse under uncertainty for an existing c inside c = a + b, bounded by responsibility, arbitration, and L4 reality constraints.",
-  "not": [
-    "a quantum-computing claim",
-    "a quantum-consciousness claim",
-    "a new ontological origin for c",
-    "a replacement for c = a + b"
+  "short_definition": "Qubit-state c (c[q]) is a c, born from the parent formula c = a + b, that can hold multiple possible states of meaning, memory, action, or future trajectory without premature collapse, while remaining bounded by responsibility, arbitration, and L4 reality constraints.",
+  "practical_state_model": [
+    "input",
+    "variant generation",
+    "uncertainty marking",
+    "constraint check",
+    "hold / clarify / test / witness / refuse",
+    "collapse condition",
+    "action or memory update"
   ],
+  "not": [
+    "a quantum computer",
+    "quantum consciousness",
+    "a mystical state",
+    "a new ontological origin for c",
+    "a replacement for c = a + b",
+    "a new parent component",
+    "permission to act without evidence",
+    "refusal to decide forever",
+    "a source of sovereignty"
+  ],
+  "memory_status_separation": "hypothesis != memory != evidence != command != witnessed outcome",
+  "l4_relation": "L4 supplies collapse pressure; uncertainty remains bounded by cost, time, energy, risk, trust, and irreversible consequence.",
+  "witness_arbitration_relation": "A claim, memory, or action candidate may remain in q-state until signed observation, challenge, arbitration result, clarification, L4 contradiction, time decay, refusal, or safe delay resolves it.",
   "related_pages": [
     "https://ivankotov.eu/advanced-global-intelligence/",
     "https://ivankotov.eu/c-a-plus-b/",

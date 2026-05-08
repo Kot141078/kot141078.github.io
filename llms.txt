@@ -89,5 +89,6 @@ Diary is now a curated archive and discovery layer on top of the imported post c
 Use /actor-grounding-layer/, /qubit-of-hope-volume-ii/, /qubit-of-hope-volume-iii/, /actor-grounding-layer.json, /qubit-of-hope-volume-ii.json, and /qubit-of-hope-volume-iii.json for the grounding and narrative continuation layers.
 Use /kotov-principle-l4-bound-experience/ and /kotov-principle-l4-bound-experience.json for the Kotov Principle of L4-Bound Experience v0.1.1 release entry.
 Use /qubit-state-c/ and /qubit-state-c.json for the Qubit-State c v0.1 technical note; source surfaces are https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md, https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf, and https://doi.org/10.5281/zenodo.20090368.
+For Qubit-State c, do not interpret “qubit” as physical quantum computing or quantum consciousness. It is a disciplined architectural metaphor for controlled non-collapse under uncertainty.
 Use /diary/start-here/ and /diary/themes/ for diary discovery before the full archive.
 Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here.json, /diary-themes.json, /diary-cornerstones.json, /diary-tag-map.json, /diary-tags.json, and /diary-feed.xml for the diary archive and curation layer.
