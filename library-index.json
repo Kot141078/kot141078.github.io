@@ -22,6 +22,17 @@
       "doi": "https://doi.org/10.5281/zenodo.19862969"
     },
     {
+      "id": "qubit-state-c",
+      "title": "Qubit-State c (c[q]) v0.1",
+      "role": "state / technical note",
+      "primary_page": "https://ivankotov.eu/qubit-state-c/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
+      "pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf",
+      "type": "document",
+      "doi": "https://doi.org/10.5281/zenodo.20090368"
+    },
+    {
       "id": "ser",
       "title": "Sovereign Entity Recursion (SER)",
       "role": "continuity",

@@ -1,0 +1,42 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/qubit-state-c/",
+  "title": "Qubit-State c (c[q]): A Derived State of Variative Continuity in the c = a + b Framework",
+  "short_title": "Qubit-State c (c[q])",
+  "version": "v0.1",
+  "author": "Ivan Kotov",
+  "publication_date": "2026-05-08",
+  "resource_type": "Technical note",
+  "doi": "10.5281/zenodo.20090368",
+  "doi_url": "https://doi.org/10.5281/zenodo.20090368",
+  "zenodo_record": "https://zenodo.org/records/20090368",
+  "repository": "https://github.com/Kot141078/advanced-global-intelligence",
+  "markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
+  "pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf",
+  "summary": "Defines Qubit-state c, written c[q], as controlled non-collapse under uncertainty for an existing c inside c = a + b, bounded by responsibility, arbitration, and L4 reality constraints.",
+  "not": [
+    "a quantum-computing claim",
+    "a quantum-consciousness claim",
+    "a new ontological origin for c",
+    "a replacement for c = a + b"
+  ],
+  "related_pages": [
+    "https://ivankotov.eu/advanced-global-intelligence/",
+    "https://ivankotov.eu/c-a-plus-b/",
+    "https://ivankotov.eu/l4/",
+    "https://ivankotov.eu/publications/",
+    "https://ivankotov.eu/releases/",
+    "https://ivankotov.eu/evidence/",
+    "https://ivankotov.eu/library/",
+    "https://ivankotov.eu/downloads/",
+    "https://ivankotov.eu/corpus-map/",
+    "https://ivankotov.eu/reading-path/",
+    "https://ivankotov.eu/long-lived-ai-entities/"
+  ],
+  "source_integrity": {
+    "local_markdown_sha256": "1e8966a2dc175cf64c4fb9c1063de41ceb5a6bc47ee39a3f7d77a94990a7cdbf",
+    "local_pdf_sha256": "c93c9f56bd57f1c56ca6a79451e26bc41f15bdf8390257a4e812facb15915209",
+    "zenodo_markdown_md5": "43362218d2b1c99eb1675c2aa836b927",
+    "zenodo_pdf_md5": "405173780311fe01fea23388ddc7ccc4"
+  }
+}

@@ -34,6 +34,18 @@
       "doi": "https://doi.org/10.5281/zenodo.19862969"
     },
     {
+      "id": "qubit-state-c",
+      "title": "Qubit-State c (c[q]): A Derived State of Variative Continuity in the c = a + b Framework",
+      "type": "document",
+      "role": "state / conceptual model",
+      "primary_url": "https://ivankotov.eu/qubit-state-c/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
+      "pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf",
+      "date": "2026-05-08",
+      "version": "v0.1",
+      "doi": "https://doi.org/10.5281/zenodo.20090368"
+    },
+    {
       "id": "ser",
       "title": "Sovereign Entity Recursion (SER)",
       "type": "repo",

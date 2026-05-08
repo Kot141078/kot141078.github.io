@@ -41,6 +41,30 @@
       "note": "Confirmed integrity manifest asset for the Markdown and PDF release files."
     },
     {
+      "object": "Qubit-State c (c[q]) v0.1",
+      "surface": "GitHub Markdown source",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
+      "note": "Confirmed public source; local file and raw GitHub content match."
+    },
+    {
+      "object": "Qubit-State c (c[q]) v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf",
+      "note": "Confirmed public PDF path; not mirrored in the site repository."
+    },
+    {
+      "object": "Qubit-State c (c[q]) v0.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20090368",
+      "note": "Zenodo metadata is readable; resource type is Technical note."
+    },
+    {
       "object": "Sovereign Entity Recursion (SER)",
       "surface": "GitHub release ecosystem-v0.2-2026-02-24",
       "format": "release page",

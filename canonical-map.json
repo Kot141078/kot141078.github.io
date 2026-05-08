@@ -18,6 +18,7 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "distinctions_url": "https://ivankotov.eu/distinctions/",
   "misreadings_url": "https://ivankotov.eu/misreadings/",
+  "qubit_state_c_url": "https://ivankotov.eu/qubit-state-c/",
   "nodes": [
     {
       "id": "agi",
@@ -39,6 +40,18 @@
         "school algebra",
         "a chatbot slogan",
         "a swarm by default"
+      ]
+    },
+    {
+      "id": "qubit-state-c",
+      "title": "Qubit-State c (c[q])",
+      "url": "https://ivankotov.eu/qubit-state-c/",
+      "summary": "Derived state of c for controlled non-collapse under uncertainty inside c = a + b, bounded by responsibility, arbitration, and L4 constraints.",
+      "not": [
+        "a quantum-computing claim",
+        "a quantum-consciousness claim",
+        "a new ontological origin",
+        "a replacement for c = a + b"
       ]
     },
     {
