@@ -5,7 +5,7 @@
     {
       "tag": "L4",
       "slug": "l4",
-      "count": 107,
+      "count": 110,
       "page": "https://ivankotov.eu/diary/tags/l4/",
       "aliases": [
         "L4",
@@ -19,7 +19,7 @@
     {
       "tag": "Cybernetics",
       "slug": "cybernetics",
-      "count": 98,
+      "count": 99,
       "page": "https://ivankotov.eu/diary/tags/cybernetics/",
       "aliases": [
         "Cybernetics"
@@ -57,7 +57,7 @@
     {
       "tag": "AI",
       "slug": "ai",
-      "count": 55,
+      "count": 57,
       "page": "https://ivankotov.eu/diary/tags/ai/",
       "aliases": [
         "AI",
@@ -94,6 +94,16 @@
       ]
     },
     {
+      "tag": "Continuity",
+      "slug": "continuity",
+      "count": 28,
+      "page": "https://ivankotov.eu/diary/tags/continuity/",
+      "aliases": [
+        "Continuity",
+        "Digital Continuity"
+      ]
+    },
+    {
       "tag": "AI Governance",
       "slug": "ai-governance",
       "count": 27,
@@ -101,16 +111,6 @@
       "aliases": [
         "AI Governance",
         "Governance"
-      ]
-    },
-    {
-      "tag": "Continuity",
-      "slug": "continuity",
-      "count": 27,
-      "page": "https://ivankotov.eu/diary/tags/continuity/",
-      "aliases": [
-        "Continuity",
-        "Digital Continuity"
       ]
     },
     {
@@ -181,10 +181,38 @@
     {
       "tag": "Identity",
       "slug": "identity",
-      "count": 16,
+      "count": 17,
       "page": "https://ivankotov.eu/diary/tags/identity/",
       "aliases": [
         "Identity"
+      ]
+    },
+    {
+      "tag": "Trust",
+      "slug": "trust",
+      "count": 16,
+      "page": "https://ivankotov.eu/diary/tags/trust/",
+      "aliases": [
+        "Trust",
+        "Trusts"
+      ]
+    },
+    {
+      "tag": "Accountability",
+      "slug": "accountability",
+      "count": 15,
+      "page": "https://ivankotov.eu/diary/tags/accountability/",
+      "aliases": [
+        "Accountability"
+      ]
+    },
+    {
+      "tag": "Memory",
+      "slug": "memory",
+      "count": 15,
+      "page": "https://ivankotov.eu/diary/tags/memory/",
+      "aliases": [
+        "Memory"
       ]
     },
     {
@@ -198,37 +226,9 @@
       ]
     },
     {
-      "tag": "Trust",
-      "slug": "trust",
-      "count": 15,
-      "page": "https://ivankotov.eu/diary/tags/trust/",
-      "aliases": [
-        "Trust",
-        "Trusts"
-      ]
-    },
-    {
-      "tag": "Accountability",
-      "slug": "accountability",
-      "count": 14,
-      "page": "https://ivankotov.eu/diary/tags/accountability/",
-      "aliases": [
-        "Accountability"
-      ]
-    },
-    {
-      "tag": "Memory",
-      "slug": "memory",
-      "count": 14,
-      "page": "https://ivankotov.eu/diary/tags/memory/",
-      "aliases": [
-        "Memory"
-      ]
-    },
-    {
       "tag": "Ontology",
       "slug": "ontology",
-      "count": 12,
+      "count": 13,
       "page": "https://ivankotov.eu/diary/tags/ontology/",
       "aliases": [
         "Ontology"
@@ -336,6 +336,15 @@
       ]
     },
     {
+      "tag": "AISafety",
+      "slug": "aisafety",
+      "count": 8,
+      "page": "https://ivankotov.eu/diary/tags/aisafety/",
+      "aliases": [
+        "AISafety"
+      ]
+    },
+    {
       "tag": "Auditability",
       "slug": "auditability",
       "count": 8,
@@ -387,6 +396,15 @@
       "page": "https://ivankotov.eu/diary/tags/verification/",
       "aliases": [
         "Verification"
+      ]
+    },
+    {
+      "tag": "AIArchitecture",
+      "slug": "aiarchitecture",
+      "count": 6,
+      "page": "https://ivankotov.eu/diary/tags/aiarchitecture/",
+      "aliases": [
+        "AIArchitecture"
       ]
     },
     {
@@ -482,6 +500,15 @@
       ]
     },
     {
+      "tag": "ArtificialIntelligence",
+      "slug": "artificialintelligence",
+      "count": 5,
+      "page": "https://ivankotov.eu/diary/tags/artificialintelligence/",
+      "aliases": [
+        "ArtificialIntelligence"
+      ]
+    },
+    {
       "tag": "Human In The Loop",
       "slug": "human-in-the-loop",
       "count": 5,
@@ -489,6 +516,15 @@
       "aliases": [
         "Human in the Loop",
         "Human In The Loop"
+      ]
+    },
+    {
+      "tag": "Infrastructure",
+      "slug": "infrastructure",
+      "count": 5,
+      "page": "https://ivankotov.eu/diary/tags/infrastructure/",
+      "aliases": [
+        "Infrastructure"
       ]
     },
     {
@@ -528,12 +564,12 @@
       ]
     },
     {
-      "tag": "AISafety",
-      "slug": "aisafety",
+      "tag": "AIGovernance",
+      "slug": "aigovernance",
       "count": 4,
-      "page": "https://ivankotov.eu/diary/tags/aisafety/",
+      "page": "https://ivankotov.eu/diary/tags/aigovernance/",
       "aliases": [
-        "AISafety"
+        "AIGovernance"
       ]
     },
     {
@@ -582,6 +618,15 @@
       ]
     },
     {
+      "tag": "DigitalEntities",
+      "slug": "digitalentities",
+      "count": 4,
+      "page": "https://ivankotov.eu/diary/tags/digitalentities/",
+      "aliases": [
+        "DigitalEntities"
+      ]
+    },
+    {
       "tag": "Engineering Discipline",
       "slug": "engineering-discipline",
       "count": 4,
@@ -627,21 +672,21 @@
       ]
     },
     {
-      "tag": "Infrastructure",
-      "slug": "infrastructure",
-      "count": 4,
-      "page": "https://ivankotov.eu/diary/tags/infrastructure/",
-      "aliases": [
-        "Infrastructure"
-      ]
-    },
-    {
       "tag": "Privacy by Design",
       "slug": "privacy-by-design",
       "count": 4,
       "page": "https://ivankotov.eu/diary/tags/privacy-by-design/",
       "aliases": [
         "Privacy by Design"
+      ]
+    },
+    {
+      "tag": "RealityBoundary",
+      "slug": "realityboundary",
+      "count": 4,
+      "page": "https://ivankotov.eu/diary/tags/realityboundary/",
+      "aliases": [
+        "RealityBoundary"
       ]
     },
     {
@@ -699,6 +744,15 @@
       ]
     },
     {
+      "tag": "AdvancedGlobalIntelligence",
+      "slug": "advancedglobalintelligence",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/advancedglobalintelligence/",
+      "aliases": [
+        "AdvancedGlobalIntelligence"
+      ]
+    },
+    {
       "tag": "AI Assurance",
       "slug": "ai-assurance",
       "count": 3,
@@ -714,24 +768,6 @@
       "page": "https://ivankotov.eu/diary/tags/ai-ethics/",
       "aliases": [
         "AI Ethics"
-      ]
-    },
-    {
-      "tag": "AIArchitecture",
-      "slug": "aiarchitecture",
-      "count": 3,
-      "page": "https://ivankotov.eu/diary/tags/aiarchitecture/",
-      "aliases": [
-        "AIArchitecture"
-      ]
-    },
-    {
-      "tag": "ArtificialIntelligence",
-      "slug": "artificialintelligence",
-      "count": 3,
-      "page": "https://ivankotov.eu/diary/tags/artificialintelligence/",
-      "aliases": [
-        "ArtificialIntelligence"
       ]
     },
     {
@@ -814,6 +850,24 @@
       "page": "https://ivankotov.eu/diary/tags/human-systems/",
       "aliases": [
         "Human Systems"
+      ]
+    },
+    {
+      "tag": "HumanAI",
+      "slug": "humanai",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/humanai/",
+      "aliases": [
+        "HumanAI"
+      ]
+    },
+    {
+      "tag": "HumanCenteredAI",
+      "slug": "humancenteredai",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/humancenteredai/",
+      "aliases": [
+        "HumanCenteredAI"
       ]
     },
     {
@@ -907,6 +961,15 @@
       ]
     },
     {
+      "tag": "SystemsThinking",
+      "slug": "systemsthinking",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/systemsthinking/",
+      "aliases": [
+        "SystemsThinking"
+      ]
+    },
+    {
       "tag": "Traceability",
       "slug": "traceability",
       "count": 3,
@@ -940,6 +1003,15 @@
       "page": "https://ivankotov.eu/diary/tags/affective-systems/",
       "aliases": [
         "Affective Systems"
+      ]
+    },
+    {
+      "tag": "AgenticAI",
+      "slug": "agenticai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/agenticai/",
+      "aliases": [
+        "AgenticAI"
       ]
     },
     {
@@ -988,12 +1060,12 @@
       ]
     },
     {
-      "tag": "AIGovernance",
-      "slug": "aigovernance",
+      "tag": "AIInfrastructure",
+      "slug": "aiinfrastructure",
       "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/aigovernance/",
+      "page": "https://ivankotov.eu/diary/tags/aiinfrastructure/",
       "aliases": [
-        "AIGovernance"
+        "AIInfrastructure"
       ]
     },
     {
@@ -1012,6 +1084,15 @@
       "page": "https://ivankotov.eu/diary/tags/appsec/",
       "aliases": [
         "AppSec"
+      ]
+    },
+    {
+      "tag": "ArchitecturalSafety",
+      "slug": "architecturalsafety",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/architecturalsafety/",
+      "aliases": [
+        "ArchitecturalSafety"
       ]
     },
     {
@@ -1060,21 +1141,21 @@
       ]
     },
     {
+      "tag": "DecentralizedAI",
+      "slug": "decentralizedai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/decentralizedai/",
+      "aliases": [
+        "DecentralizedAI"
+      ]
+    },
+    {
       "tag": "DevSecOps",
       "slug": "devsecops",
       "count": 2,
       "page": "https://ivankotov.eu/diary/tags/devsecops/",
       "aliases": [
         "DevSecOps"
-      ]
-    },
-    {
-      "tag": "DigitalEntities",
-      "slug": "digitalentities",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/digitalentities/",
-      "aliases": [
-        "DigitalEntities"
       ]
     },
     {
@@ -1141,6 +1222,15 @@
       ]
     },
     {
+      "tag": "FutureOfAI",
+      "slug": "futureofai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/futureofai/",
+      "aliases": [
+        "FutureOfAI"
+      ]
+    },
+    {
       "tag": "Governance by Design",
       "slug": "governance-by-design",
       "count": 2,
@@ -1177,15 +1267,6 @@
       ]
     },
     {
-      "tag": "HumanAI",
-      "slug": "humanai",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/humanai/",
-      "aliases": [
-        "HumanAI"
-      ]
-    },
-    {
       "tag": "Information Theory",
       "slug": "information-theory",
       "count": 2,
@@ -1201,6 +1282,15 @@
       "page": "https://ivankotov.eu/diary/tags/knowledge-systems/",
       "aliases": [
         "Knowledge Systems"
+      ]
+    },
+    {
+      "tag": "LongLivedAI",
+      "slug": "longlivedai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/longlivedai/",
+      "aliases": [
+        "LongLivedAI"
       ]
     },
     {
@@ -1285,15 +1375,6 @@
       ]
     },
     {
-      "tag": "RealityBoundary",
-      "slug": "realityboundary",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/realityboundary/",
-      "aliases": [
-        "RealityBoundary"
-      ]
-    },
-    {
       "tag": "RegTech",
       "slug": "regtech",
       "count": 2,
@@ -1321,6 +1402,15 @@
       ]
     },
     {
+      "tag": "SovereignAI",
+      "slug": "sovereignai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/sovereignai/",
+      "aliases": [
+        "SovereignAI"
+      ]
+    },
+    {
       "tag": "Speculative Fiction",
       "slug": "speculative-fiction",
       "count": 2,
@@ -1336,15 +1426,6 @@
       "page": "https://ivankotov.eu/diary/tags/supply-chain-security/",
       "aliases": [
         "Supply Chain Security"
-      ]
-    },
-    {
-      "tag": "SystemsThinking",
-      "slug": "systemsthinking",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/systemsthinking/",
-      "aliases": [
-        "SystemsThinking"
       ]
     },
     {
@@ -1393,15 +1474,6 @@
       ]
     },
     {
-      "tag": "AdvancedGlobalIntelligence",
-      "slug": "advancedglobalintelligence",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/advancedglobalintelligence/",
-      "aliases": [
-        "AdvancedGlobalIntelligence"
-      ]
-    },
-    {
       "tag": "Age Tech",
       "slug": "age-tech",
       "count": 1,
@@ -1417,15 +1489,6 @@
       "page": "https://ivankotov.eu/diary/tags/agentic-workflows/",
       "aliases": [
         "Agentic Workflows"
-      ]
-    },
-    {
-      "tag": "AgenticAI",
-      "slug": "agenticai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/agenticai/",
-      "aliases": [
-        "AgenticAI"
       ]
     },
     {
@@ -1537,15 +1600,6 @@
       ]
     },
     {
-      "tag": "AIInfrastructure",
-      "slug": "aiinfrastructure",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/aiinfrastructure/",
-      "aliases": [
-        "AIInfrastructure"
-      ]
-    },
-    {
       "tag": "Am Writing",
       "slug": "am-writing",
       "count": 1,
@@ -1561,15 +1615,6 @@
       "page": "https://ivankotov.eu/diary/tags/applied-cybernetics/",
       "aliases": [
         "Applied Cybernetics"
-      ]
-    },
-    {
-      "tag": "ArchitecturalSafety",
-      "slug": "architecturalsafety",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/architecturalsafety/",
-      "aliases": [
-        "ArchitecturalSafety"
       ]
     },
     {
@@ -1834,15 +1879,6 @@
       ]
     },
     {
-      "tag": "DecentralizedAI",
-      "slug": "decentralizedai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/decentralizedai/",
-      "aliases": [
-        "DecentralizedAI"
-      ]
-    },
-    {
       "tag": "Decision Making",
       "slug": "decision-making",
       "count": 1,
@@ -2068,15 +2104,6 @@
       ]
     },
     {
-      "tag": "FutureOfAI",
-      "slug": "futureofai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/futureofai/",
-      "aliases": [
-        "FutureOfAI"
-      ]
-    },
-    {
       "tag": "FutureOfScience",
       "slug": "futureofscience",
       "count": 1,
@@ -2203,15 +2230,6 @@
       ]
     },
     {
-      "tag": "HumanCenteredAI",
-      "slug": "humancenteredai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/humancenteredai/",
-      "aliases": [
-        "HumanCenteredAI"
-      ]
-    },
-    {
       "tag": "HumanMachine",
       "slug": "humanmachine",
       "count": 1,
@@ -2320,6 +2338,15 @@
       ]
     },
     {
+      "tag": "L4RealityBoundary",
+      "slug": "l4realityboundary",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/l4realityboundary/",
+      "aliases": [
+        "L4RealityBoundary"
+      ]
+    },
+    {
       "tag": "Literature",
       "slug": "literature",
       "count": 1,
@@ -2344,15 +2371,6 @@
       "page": "https://ivankotov.eu/diary/tags/longevity/",
       "aliases": [
         "Longevity"
-      ]
-    },
-    {
-      "tag": "LongLivedAI",
-      "slug": "longlivedai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/longlivedai/",
-      "aliases": [
-        "LongLivedAI"
       ]
     },
     {
@@ -2482,6 +2500,15 @@
       ]
     },
     {
+      "tag": "Pause",
+      "slug": "pause",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/pause/",
+      "aliases": [
+        "Pause"
+      ]
+    },
+    {
       "tag": "Perception Router",
       "slug": "perception-router",
       "count": 1,
@@ -2590,6 +2617,15 @@
       ]
     },
     {
+      "tag": "PostQuantumCryptography",
+      "slug": "postquantumcryptography",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/postquantumcryptography/",
+      "aliases": [
+        "PostQuantumCryptography"
+      ]
+    },
+    {
       "tag": "PrivacyByDesign",
       "slug": "privacybydesign",
       "count": 1,
@@ -2608,6 +2644,15 @@
       ]
     },
     {
+      "tag": "PublicTrust",
+      "slug": "publictrust",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/publictrust/",
+      "aliases": [
+        "PublicTrust"
+      ]
+    },
+    {
       "tag": "Python",
       "slug": "python",
       "count": 1,
@@ -2623,6 +2668,24 @@
       "page": "https://ivankotov.eu/diary/tags/quantum-computing/",
       "aliases": [
         "Quantum Computing"
+      ]
+    },
+    {
+      "tag": "QuantumComputing",
+      "slug": "quantumcomputing",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/quantumcomputing/",
+      "aliases": [
+        "QuantumComputing"
+      ]
+    },
+    {
+      "tag": "QubitStateC",
+      "slug": "qubitstatec",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/qubitstatec/",
+      "aliases": [
+        "QubitStateC"
       ]
     },
     {
@@ -2668,6 +2731,15 @@
       "page": "https://ivankotov.eu/diary/tags/responsibility/",
       "aliases": [
         "Responsibility"
+      ]
+    },
+    {
+      "tag": "ResponsibleAI",
+      "slug": "responsibleai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/responsibleai/",
+      "aliases": [
+        "ResponsibleAI"
       ]
     },
     {
@@ -2806,15 +2878,6 @@
       ]
     },
     {
-      "tag": "SovereignAI",
-      "slug": "sovereignai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/sovereignai/",
-      "aliases": [
-        "SovereignAI"
-      ]
-    },
-    {
       "tag": "Systems Over Myths",
       "slug": "systems-over-myths",
       "count": 1,
@@ -2902,6 +2965,15 @@
       "page": "https://ivankotov.eu/diary/tags/trustworthy-ai/",
       "aliases": [
         "Trustworthy AI"
+      ]
+    },
+    {
+      "tag": "Unresolved",
+      "slug": "unresolved",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/unresolved/",
+      "aliases": [
+        "Unresolved"
       ]
     },
     {

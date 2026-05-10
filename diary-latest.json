@@ -2,41 +2,31 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "The next AI risk may not look like rebellion.",
-    "date": "2026-05-09",
-    "slug": "the-next-ai-risk-may-not-look-like-rebellion",
-    "summary": "A note that the next AI safety boundary may be controlled reproduction, inheritance, forks, permissions, and deployment ecology.",
+    "title": "AI is leaving the text box.",
+    "date": "2026-05-11",
+    "slug": "ai-is-leaving-the-text-box",
+    "summary": "A note that agentic AI work is moving from text into operational cognition bounded by memory, permissions, audit trails, cost, and L4 reality.",
     "tags": [
-      "AISafety",
+      "AI",
       "AgenticAI",
+      "AISafety",
       "AIArchitecture",
-      "AIGovernance",
-      "DigitalEvolution",
-      "EvolvableAI",
-      "L4",
       "RealityBoundary",
-      "SER",
-      "Cybernetics",
-      "SystemsThinking",
-      "AIInfrastructure"
+      "L4",
+      "AdvancedGlobalIntelligence"
     ],
     "raw_tags": [
-      "AISafety",
+      "AI",
       "AgenticAI",
+      "AISafety",
       "AIArchitecture",
-      "AIGovernance",
-      "DigitalEvolution",
-      "EvolvableAI",
-      "L4",
       "RealityBoundary",
-      "SER",
-      "Cybernetics",
-      "SystemsThinking",
-      "AIInfrastructure"
+      "L4",
+      "AdvancedGlobalIntelligence"
     ],
-    "page": "https://ivankotov.eu/diary/the-next-ai-risk-may-not-look-like-rebellion/",
-    "primary_image": "https://ivankotov.eu/assets/diary/the-next-ai-risk-may-not-look-like-rebellion/cover.jpg",
-    "image_alt": "A room containing a transparent illuminated cube, opening into a vast network of connected glass cubes beyond a broken wall.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-agenticai-aiarchitecture-activity-7457685778077278208-uhgv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/ai-is-leaving-the-text-box/",
+    "primary_image": "https://ivankotov.eu/assets/diary/ai-is-leaving-the-text-box/cover.jpg",
+    "image_alt": "A cork board with pinned photos and blank papers above a desk with a clock and calendar.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agenticai-aisafety-activity-7459135140057890816-ZrWO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
