@@ -1,0 +1,55 @@
+{
+  "id": "arq-cq-integration-addendum-v0.1",
+  "title": "ARQ c[q] Integration Addendum v0.1",
+  "type": "technical_note",
+  "status": "published",
+  "publication_date": "2026-05-10",
+  "language": "en",
+  "license": "CC-BY-4.0",
+  "doi": "10.5281/zenodo.20112537",
+  "doi_url": "https://doi.org/10.5281/zenodo.20112537",
+  "concept_doi": "10.5281/zenodo.20112536",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.20112536",
+  "canonical_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
+  "summary": "Additive integration addendum for ARQ v0.2. Integrates Qubit-State c (`c[q]`) as a behavioral non-collapse overlay under uncertainty.",
+  "semantic_boundary": {
+    "behavioral_non_collapse_overlay": true,
+    "physical_quantum_computing_claim": false,
+    "quantum_consciousness_claim": false,
+    "model_m5": false,
+    "replaces_arq_v0_2_normative_core": false
+  },
+  "repositories": {
+    "ser": {
+      "repo": "Kot141078/sovereign-entity-recursion",
+      "tag": "arq-cq-integration-addendum-v0.1-2026-05-10",
+      "payload_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+      "doi_backfill_commit": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "release_url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10",
+      "markdown_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+      "pdf_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf"
+    },
+    "agi": {
+      "repo": "Kot141078/advanced-global-intelligence",
+      "doi_pointer_commit": "bf0cbe1dbe2896b9f2e9acad79ab3427a3ee8597"
+    }
+  },
+  "hashes": {
+    "markdown_sha256": "DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D",
+    "pdf_sha256": "EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247",
+    "zip_sha256": "4B8B43645C4EEB4ADFDEAAC042885877C9D8D3300C2A66B57B1FE4F3176F2002"
+  },
+  "keywords": [
+    "ARQ",
+    "c[q]",
+    "Qubit-State c",
+    "c=a+b",
+    "L4 Reality Boundary",
+    "behavioral non-collapse",
+    "uncertainty",
+    "witness-bound collapse",
+    "Sovereign Entity Recursion",
+    "AI safety",
+    "digital entities"
+  ]
+}

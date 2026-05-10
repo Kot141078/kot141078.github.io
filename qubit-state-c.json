@@ -51,10 +51,25 @@
     "https://ivankotov.eu/evidence/",
     "https://ivankotov.eu/library/",
     "https://ivankotov.eu/downloads/",
+    "https://ivankotov.eu/arq-cq-integration-addendum/",
     "https://ivankotov.eu/corpus-map/",
     "https://ivankotov.eu/reading-path/",
     "https://ivankotov.eu/long-lived-ai-entities/"
   ],
+  "arq_integration": {
+    "title": "ARQ c[q] Integration Addendum v0.1",
+    "doi": "10.5281/zenodo.20112537",
+    "doi_url": "https://doi.org/10.5281/zenodo.20112537",
+    "landing_page": "https://ivankotov.eu/arq-cq-integration-addendum/",
+    "github_release": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10",
+    "semantic_boundary": {
+      "behavioral_non_collapse_overlay": true,
+      "physical_quantum_computing_claim": false,
+      "quantum_consciousness_claim": false,
+      "model_m5": false,
+      "replaces_arq_v0_2_normative_core": false
+    }
+  },
   "source_integrity": {
     "local_markdown_sha256": "1e8966a2dc175cf64c4fb9c1063de41ceb5a6bc47ee39a3f7d77a94990a7cdbf",
     "local_pdf_sha256": "c93c9f56bd57f1c56ca6a79451e26bc41f15bdf8390257a4e812facb15915209",

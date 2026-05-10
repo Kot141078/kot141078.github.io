@@ -19,6 +19,7 @@
   "distinctions_url": "https://ivankotov.eu/distinctions/",
   "misreadings_url": "https://ivankotov.eu/misreadings/",
   "qubit_state_c_url": "https://ivankotov.eu/qubit-state-c/",
+  "arq_cq_integration_addendum_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
   "nodes": [
     {
       "id": "agi",
@@ -52,6 +53,19 @@
         "a quantum-consciousness claim",
         "a new ontological origin",
         "a replacement for c = a + b"
+      ]
+    },
+    {
+      "id": "arq-cq-integration-addendum",
+      "title": "ARQ c[q] Integration Addendum v0.1",
+      "url": "https://ivankotov.eu/arq-cq-integration-addendum/",
+      "summary": "Published SER-hosted ARQ v0.2 addendum integrating Qubit-State c (c[q]) as a behavioral non-collapse overlay under uncertainty.",
+      "doi": "https://doi.org/10.5281/zenodo.20112537",
+      "not": [
+        "not a physical quantum-computing claim",
+        "not a quantum-consciousness claim",
+        "not ARQ Model M5",
+        "not a replacement for ARQ_v0.2_Normative_Core.md"
       ]
     },
     {
@@ -154,6 +168,7 @@
     "c-a-plus-b",
     "l4",
     "kotov-principle-l4-bound-experience",
+    "arq-cq-integration-addendum",
     "actor-grounding-layer",
     "ser",
     "qubit-of-hope",

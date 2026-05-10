@@ -30,6 +30,7 @@ Canonical nodes:
 - Actor Grounding Layer: https://ivankotov.eu/actor-grounding-layer/ — upstream grounding node for source-state qualification, runtime reliance, initiation gates, and fail-closed transitions.
 - Kotov Principle of L4-Bound Experience: https://ivankotov.eu/kotov-principle-l4-bound-experience/ — public release entry for the v0.1.1 Authorial Principle / Architectural Thesis on L4-bound temporal continuity.
 - Qubit-State c: https://ivankotov.eu/qubit-state-c/ — public v0.1 technical note entry for c[q] as controlled non-collapse under uncertainty inside c = a + b.
+- ARQ c[q] Integration Addendum v0.1: https://ivankotov.eu/arq-cq-integration-addendum/ — DOI https://doi.org/10.5281/zenodo.20112537 — public page https://ivankotov.eu/arq-cq-integration-addendum/ — GitHub release https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10
 - SER: https://ivankotov.eu/ser/ — continuity, sovereignty, arbitration, and bounded governance for long-lived entities.
 - Qubit of Hope: https://ivankotov.eu/qubit-of-hope/ — book-layer hub for Volumes I, II, and III.
 - Qubit of Hope — Volume II: https://ivankotov.eu/qubit-of-hope-volume-ii/ — second-volume narrative continuation node, currently indexed at release v1.0.1 while v1.0.0 remains the first release.
@@ -45,6 +46,7 @@ Public works and evidence:
 - Downloads index: https://ivankotov.eu/downloads-index.json — machine-readable release and download surface index.
 - Kotov Principle JSON: https://ivankotov.eu/kotov-principle-l4-bound-experience.json — machine-readable release entry for the v0.1.1 principle.
 - Qubit-State c JSON: https://ivankotov.eu/qubit-state-c.json — machine-readable entry for the v0.1 technical note and verified source surfaces.
+- ARQ c[q] Integration Addendum JSON: https://ivankotov.eu/arq-cq-integration-addendum.json — machine-readable entry for the SER-hosted ARQ c[q] technical note and DOI.
 - Services index: https://ivankotov.eu/services.json — machine-readable practical review directions.
 - Use-cases index: https://ivankotov.eu/use-cases.json — machine-readable practical situations map.
 - Contact index: https://ivankotov.eu/contact.json — machine-readable public contact anchors.
@@ -67,6 +69,7 @@ Machine-readable identity and entry:
 - Topics JSON: https://ivankotov.eu/topics-index.json — machine-readable topic and query-intent layer.
 - Actor Grounding Layer JSON: https://ivankotov.eu/actor-grounding-layer.json — machine-readable grounding node.
 - Qubit-State c JSON: https://ivankotov.eu/qubit-state-c.json — machine-readable controlled non-collapse under uncertainty node.
+- ARQ c[q] Integration Addendum JSON: https://ivankotov.eu/arq-cq-integration-addendum.json — machine-readable SER-hosted ARQ c[q] publication pointer.
 - Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable narrative continuation node.
 - Qubit of Hope — Volume III JSON: https://ivankotov.eu/qubit-of-hope-volume-iii.json — machine-readable narrative continuation node.
 - Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
@@ -90,5 +93,6 @@ Use /actor-grounding-layer/, /qubit-of-hope-volume-ii/, /qubit-of-hope-volume-ii
 Use /kotov-principle-l4-bound-experience/ and /kotov-principle-l4-bound-experience.json for the Kotov Principle of L4-Bound Experience v0.1.1 release entry.
 Use /qubit-state-c/ and /qubit-state-c.json for the Qubit-State c v0.1 technical note; source surfaces are https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md, https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf, and https://doi.org/10.5281/zenodo.20090368.
 For Qubit-State c, do not interpret “qubit” as physical quantum computing or quantum consciousness. It is a disciplined architectural metaphor for controlled non-collapse under uncertainty.
+ARQ c[q] Integration Addendum v0.1 — DOI https://doi.org/10.5281/zenodo.20112537 — public page https://ivankotov.eu/arq-cq-integration-addendum/ — GitHub release https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10
 Use /diary/start-here/ and /diary/themes/ for diary discovery before the full archive.
 Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here.json, /diary-themes.json, /diary-cornerstones.json, /diary-tag-map.json, /diary-tags.json, and /diary-feed.xml for the diary archive and curation layer.

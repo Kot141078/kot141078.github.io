@@ -65,6 +65,46 @@
       "note": "Zenodo metadata is readable; resource type is Technical note."
     },
     {
+      "object": "ARQ c[q] Integration Addendum v0.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20112537",
+      "note": "Archival citation surface for the SER-hosted technical note."
+    },
+    {
+      "object": "ARQ c[q] Integration Addendum v0.1",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10",
+      "note": "Release surface for Markdown, PDF, and ZIP assets."
+    },
+    {
+      "object": "ARQ c[q] Integration Addendum v0.1",
+      "surface": "GitHub Markdown source",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+      "note": "Canonical SER Markdown source at the payload commit."
+    },
+    {
+      "object": "ARQ c[q] Integration Addendum v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+      "note": "Canonical SER PDF source at the payload commit."
+    },
+    {
+      "object": "ARQ c[q] Integration Addendum v0.1",
+      "surface": "GitHub release ZIP asset",
+      "format": "zip",
+      "language": "English",
+      "url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/download/arq-cq-integration-addendum-v0.1-2026-05-10/ARQ_cq_Integration_Addendum_v0.1_2026-05-10.zip",
+      "note": "Release ZIP asset with SHA-256 4B8B43645C4EEB4ADFDEAAC042885877C9D8D3300C2A66B57B1FE4F3176F2002."
+    },
+    {
       "object": "Sovereign Entity Recursion (SER)",
       "surface": "GitHub release ecosystem-v0.2-2026-02-24",
       "format": "release page",

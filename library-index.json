@@ -33,6 +33,18 @@
       "doi": "https://doi.org/10.5281/zenodo.20090368"
     },
     {
+      "id": "arq-cq-integration-addendum",
+      "title": "ARQ c[q] Integration Addendum v0.1",
+      "role": "protocol addendum / technical note",
+      "primary_page": "https://ivankotov.eu/arq-cq-integration-addendum/",
+      "repo_url": "https://github.com/Kot141078/sovereign-entity-recursion",
+      "release_url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10",
+      "markdown_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+      "pdf_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+      "type": "document",
+      "doi": "https://doi.org/10.5281/zenodo.20112537"
+    },
+    {
       "id": "ser",
       "title": "Sovereign Entity Recursion (SER)",
       "role": "continuity",
