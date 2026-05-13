@@ -72,8 +72,11 @@
       "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/README.md",
       "package_index_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_INDEX_C_NODE_BOUNDARY_DOCS_v0.1.1.md",
       "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_MANIFEST_C_NODE_BOUNDARY_DOCS_v0.1.1.json",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/c-node-boundary-docs-v0.1.1",
+      "release_type": "github_pre_release",
+      "release_tag": "c-node-boundary-docs-v0.1.1",
       "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt",
-      "note": "Draft package facade for the four v0.1 boundary/profile documents; no release, tag, Zenodo DOI, or package ZIP is claimed."
+      "note": "GitHub pre-release exists for the package facade with SHA-only assets; no Zenodo DOI, package ZIP, or document-level v0.1.1 revisions are claimed."
     },
     {
       "object": "Anchor Class Boundaries v0.1",
