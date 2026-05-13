@@ -46,6 +46,20 @@
       "doi": "https://doi.org/10.5281/zenodo.20090368"
     },
     {
+      "id": "c-node-boundary-docs-package-facade",
+      "title": "C-Node Boundary Documents v0.1.1",
+      "type": "package-facade",
+      "role": "C-node boundary extension package facade",
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/README.md",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_INDEX_C_NODE_BOUNDARY_DOCS_v0.1.1.md",
+      "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_MANIFEST_C_NODE_BOUNDARY_DOCS_v0.1.1.json",
+      "release_notes_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/RELEASE_NOTES_C_NODE_BOUNDARY_DOCS_v0.1.1.md",
+      "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt",
+      "date": "2026-05-13",
+      "version": "v0.1.1",
+      "constituent_document_version": "v0.1"
+    },
+    {
       "id": "anchor-class-boundaries",
       "title": "Anchor Class Boundaries v0.1",
       "type": "document",
