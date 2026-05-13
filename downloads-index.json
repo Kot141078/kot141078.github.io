@@ -65,6 +65,38 @@
       "note": "Zenodo metadata is readable; resource type is Technical note."
     },
     {
+      "object": "Anchor Class Boundaries v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/Anchor_Class_Boundaries_v0.1_academic.pdf",
+      "note": "Boundary draft PDF; GitHub blob link, not mirrored in the site repository."
+    },
+    {
+      "object": "Raw Locality and Experience Refinery Profile v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf",
+      "note": "Extension profile PDF; GitHub blob link, not mirrored in the site repository."
+    },
+    {
+      "object": "Third-Party Sensor Boundary v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf",
+      "note": "Boundary draft PDF; GitHub blob link, not mirrored in the site repository."
+    },
+    {
+      "object": "Minimum C-Node Profile v0.1",
+      "surface": "GitHub PDF source",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/pdf/Minimum_C-Node_Profile_v0.1_academic.pdf",
+      "note": "Local profile draft PDF; GitHub blob link, not mirrored in the site repository."
+    },
+    {
       "object": "ARQ c[q] Integration Addendum v0.1",
       "surface": "Zenodo DOI",
       "format": "DOI landing page",

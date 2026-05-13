@@ -46,6 +46,50 @@
       "doi": "https://doi.org/10.5281/zenodo.20090368"
     },
     {
+      "id": "anchor-class-boundaries",
+      "title": "Anchor Class Boundaries v0.1",
+      "type": "document",
+      "role": "anchor taxonomy / boundary draft",
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/Anchor_Class_Boundaries_v0.1_academic.pdf",
+      "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt",
+      "date": "2026-05-13",
+      "version": "v0.1"
+    },
+    {
+      "id": "raw-locality-experience-refinery-profile",
+      "title": "Raw Locality and Experience Refinery Profile v0.1",
+      "type": "document",
+      "role": "economic layer extension / profile draft",
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf",
+      "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt",
+      "date": "2026-05-13",
+      "version": "v0.1"
+    },
+    {
+      "id": "third-party-sensor-boundary",
+      "title": "Third-Party Sensor Boundary v0.1",
+      "type": "document",
+      "role": "sensor boundary / boundary draft",
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf",
+      "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt",
+      "date": "2026-05-13",
+      "version": "v0.1"
+    },
+    {
+      "id": "minimum-c-node-profile",
+      "title": "Minimum C-Node Profile v0.1",
+      "type": "document",
+      "role": "local profile draft",
+      "primary_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+      "secondary_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/pdf/Minimum_C-Node_Profile_v0.1_academic.pdf",
+      "sha256_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/hashes/SHA256SUMS_cnode_profile_v0.1_2026-05-13.txt",
+      "date": "2026-05-13",
+      "version": "v0.1"
+    },
+    {
       "id": "ser",
       "title": "Sovereign Entity Recursion (SER)",
       "type": "repo",
