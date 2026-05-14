@@ -63,6 +63,42 @@
       "constituent_document_version": "v0.1"
     },
     {
+      "id": "ccdp-v0-1",
+      "title": "CCDP v0.1 - Child-c Development Protocol",
+      "role": "draft research protocol pack / child-facing persistent AI entity protocol",
+      "primary_page": "https://ivankotov.eu/advanced-global-intelligence/#ccdp-v0-1",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/README.md",
+      "root_protocol_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CCDP_v0_1_R_Corpus_Aligned.md",
+      "root_protocol_pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_v0_1_R_Corpus_Aligned.pdf",
+      "package_index_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CCDP_Package_Index_and_Reading_Order_v0_1.md",
+      "package_index_pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_Package_Index_and_Reading_Order_v0_1.pdf",
+      "package_manifest": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "citation": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
+      "sha_manifest": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+      "public_subset_urls": [
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/README.md",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CCDP_v0_1_R_Corpus_Aligned.md",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_v0_1_R_Corpus_Aligned.pdf",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CCDP_Package_Index_and_Reading_Order_v0_1.md",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_Package_Index_and_Reading_Order_v0_1.pdf",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/RELEASE_NOTES.md",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CANONICAL_READING_ORDER.md"
+      ],
+      "machine_metadata_urls": [
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
+        "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json"
+      ],
+      "release_url": null,
+      "zenodo": null,
+      "public_subset": true,
+      "sensitive_controlled_present": true,
+      "type": "package",
+      "status": "draft research protocol pack",
+      "version": "v0.1 + v0.1.1 hygiene guidance"
+    },
+    {
       "id": "anchor-class-boundaries",
       "title": "Anchor Class Boundaries v0.1",
       "role": "anchor taxonomy / boundary draft",

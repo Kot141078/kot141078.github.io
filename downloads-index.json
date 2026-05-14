@@ -302,6 +302,66 @@
       "language": "Simplified Chinese",
       "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md#zh-cn",
       "note": "Status: provisional."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub public package PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_v0_1_R_Corpus_Aligned.pdf",
+      "note": "Root protocol PDF for the draft research protocol pack; not legal advice, clinical guidance, product certification, or implementation approval."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub public package PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_Package_Index_and_Reading_Order_v0_1.pdf",
+      "note": "Package index and reading order PDF; sensitive-controlled files are not listed as public download rows."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub public package PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_v0_1_1_Hygiene_Patch.pdf",
+      "note": "v0.1.1 hygiene guidance PDF for the v0.1 package."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub public review PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/pdf/CCDP_Developmental_Psychology_Review_Notes_v0_1.pdf",
+      "note": "Developmental psychology review notes PDF; review material, not clinical guidance."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub public package integrity",
+      "format": "sha256 manifest",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+      "note": "Package-scoped checksum manifest for files under docs/ccdp/."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub machine metadata",
+      "format": "json",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "note": "Package manifest JSON for public, technical, and sensitive-controlled split metadata."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub machine metadata",
+      "format": "CITATION.cff",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
+      "note": "Package-scoped citation metadata without DOI, release, or Zenodo claim."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub machine metadata",
+      "format": "json schema",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
+      "note": "Machine-readable Memory Map schema extracted from the CCDP technical source."
     }
   ]
 }

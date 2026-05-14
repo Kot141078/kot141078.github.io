@@ -63,6 +63,26 @@
       "constituent_document_version": "v0.1"
     },
     {
+      "id": "ccdp-v0-1",
+      "title": "CCDP v0.1 - Child-c Development Protocol",
+      "type": "package",
+      "role": "draft research protocol pack / child-facing persistent AI entity protocol",
+      "primary_url": "https://ivankotov.eu/advanced-global-intelligence/#ccdp-v0-1",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/README.md",
+      "repo": "advanced-global-intelligence",
+      "root_path": "docs/ccdp/",
+      "package_manifest": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "citation": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
+      "sha_manifest": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+      "release_url": null,
+      "zenodo": null,
+      "public_subset": true,
+      "sensitive_controlled_present": true,
+      "status": "draft research protocol pack",
+      "version": "v0.1 + v0.1.1 hygiene guidance",
+      "date": "2026-05-14"
+    },
+    {
       "id": "anchor-class-boundaries",
       "title": "Anchor Class Boundaries v0.1",
       "type": "document",
