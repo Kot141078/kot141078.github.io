@@ -305,6 +305,17 @@
     },
     {
       "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "GitHub pre-release",
+      "format": "release page / SHA manifest + package manifest + CITATION assets",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "release_type": "github_pre_release",
+      "release_tag": "ccdp-v0.1",
+      "note": "Release-level entry point; assets are limited to SHA manifest, package manifest JSON, and package CITATION.cff. No Zenodo DOI, package ZIP, or sensitive-controlled public download is claimed."
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
       "surface": "GitHub public package PDF",
       "format": "pdf",
       "language": "English",

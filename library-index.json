@@ -90,7 +90,9 @@
         "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
         "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json"
       ],
-      "release_url": null,
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "release_type": "github_pre_release",
+      "release_tag": "ccdp-v0.1",
       "zenodo": null,
       "public_subset": true,
       "sensitive_controlled_present": true,
