@@ -312,7 +312,20 @@
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
       "release_type": "github_pre_release",
       "release_tag": "ccdp-v0.1",
-      "note": "Release-level entry point; assets are limited to SHA manifest, package manifest JSON, and package CITATION.cff. No Zenodo DOI, package ZIP, or sensitive-controlled public download is claimed."
+      "note": "Release-level entry point; assets are limited to SHA manifest, package manifest JSON, and package CITATION.cff. Zenodo DOI is live for the public-surface archive; no sensitive-controlled public download is mirrored here.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "zenodo_status": "published_public_surface_deposit"
+    },
+    {
+      "object": "CCDP v0.1 - Child-c Development Protocol",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20190648",
+      "doi": "10.5281/zenodo.20190648",
+      "zenodo_record_url": "https://zenodo.org/records/20190648",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "note": "Published Zenodo public-surface archive; sensitive-controlled technical artifacts are excluded from the Zenodo package."
     },
     {
       "object": "CCDP v0.1 - Child-c Development Protocol",
@@ -365,7 +378,7 @@
       "surface": "GitHub machine metadata",
       "format": "CITATION.cff",
       "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/CITATION.cff",
-      "note": "Package-scoped citation metadata without DOI, release, or Zenodo claim."
+      "note": "Package-scoped citation metadata with the CCDP Zenodo DOI backfilled."
     },
     {
       "object": "CCDP v0.1 - Child-c Development Protocol",

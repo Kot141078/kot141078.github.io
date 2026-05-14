@@ -77,12 +77,21 @@
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
       "release_type": "github_pre_release",
       "release_tag": "ccdp-v0.1",
-      "zenodo": null,
+      "zenodo": {
+        "status": "published",
+        "doi": "10.5281/zenodo.20190648",
+        "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+        "record_url": "https://zenodo.org/records/20190648",
+        "deposit_scope": "public-surface archive only",
+        "sensitive_controlled_included": false
+      },
       "public_subset": true,
       "sensitive_controlled_present": true,
       "status": "draft research protocol pack",
       "version": "v0.1 + v0.1.1 hygiene guidance",
-      "date": "2026-05-14"
+      "date": "2026-05-14",
+      "doi": "https://doi.org/10.5281/zenodo.20190648",
+      "doi_value": "10.5281/zenodo.20190648"
     },
     {
       "id": "anchor-class-boundaries",
