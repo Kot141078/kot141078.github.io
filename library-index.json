@@ -107,7 +107,30 @@
       "status": "draft research protocol pack",
       "version": "v0.1 + v0.1.1 hygiene guidance",
       "doi": "https://doi.org/10.5281/zenodo.20190648",
-      "doi_value": "10.5281/zenodo.20190648"
+      "doi_value": "10.5281/zenodo.20190648",
+      "doi_layers": {
+        "public_surface": {
+          "doi": "10.5281/zenodo.20190648",
+          "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+          "record_url": "https://zenodo.org/records/20190648",
+          "sensitive_controlled_included": false
+        },
+        "full_technical_corpus": {
+          "doi": "10.5281/zenodo.20196219",
+          "doi_url": "https://doi.org/10.5281/zenodo.20196219",
+          "record_url": "https://zenodo.org/records/20196219",
+          "concept_doi": "10.5281/zenodo.20196218",
+          "concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+          "sensitive_controlled_included": true,
+          "zenodo_status": "published"
+        }
+      },
+      "full_technical_corpus_doi": "10.5281/zenodo.20196219",
+      "full_technical_corpus_doi_url": "https://doi.org/10.5281/zenodo.20196219",
+      "full_technical_corpus_record_url": "https://zenodo.org/records/20196219",
+      "full_technical_corpus_concept_doi": "10.5281/zenodo.20196218",
+      "full_technical_corpus_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+      "full_technical_corpus_note": "This DOI archives the complete technical CCDP corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review. It is not public UX guidance, legal advice, clinical guidance, product certification, or deployment approval."
     },
     {
       "id": "anchor-class-boundaries",

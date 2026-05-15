@@ -312,20 +312,68 @@
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
       "release_type": "github_pre_release",
       "release_tag": "ccdp-v0.1",
-      "note": "Release-level entry point; assets are limited to SHA manifest, package manifest JSON, and package CITATION.cff. Zenodo DOI is live for the public-surface archive; no sensitive-controlled public download is mirrored here.",
+      "note": "Release-level entry point; assets are limited to SHA manifest, package manifest JSON, and package CITATION.cff. Public-surface DOI is live, and the full technical corpus DOI is available as a specialist archive; no sensitive-controlled public download is mirrored here.",
       "doi_url": "https://doi.org/10.5281/zenodo.20190648",
-      "zenodo_status": "published_public_surface_deposit"
+      "zenodo_status": "published_public_surface_deposit",
+      "doi_layers": {
+        "public_surface": {
+          "doi": "10.5281/zenodo.20190648",
+          "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+          "record_url": "https://zenodo.org/records/20190648",
+          "sensitive_controlled_included": false
+        },
+        "full_technical_corpus": {
+          "doi": "10.5281/zenodo.20196219",
+          "doi_url": "https://doi.org/10.5281/zenodo.20196219",
+          "record_url": "https://zenodo.org/records/20196219",
+          "concept_doi": "10.5281/zenodo.20196218",
+          "concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+          "sensitive_controlled_included": true,
+          "zenodo_status": "published"
+        }
+      },
+      "full_technical_corpus_doi_url": "https://doi.org/10.5281/zenodo.20196219"
     },
     {
       "object": "CCDP v0.1 - Child-c Development Protocol",
-      "surface": "Zenodo DOI",
+      "surface": "Zenodo public-surface DOI",
       "format": "DOI landing page",
       "language": "English",
       "url": "https://doi.org/10.5281/zenodo.20190648",
       "doi": "10.5281/zenodo.20190648",
       "zenodo_record_url": "https://zenodo.org/records/20190648",
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
-      "note": "Published Zenodo public-surface archive; sensitive-controlled technical artifacts are excluded from the Zenodo package."
+      "note": "Published public-surface archive; sensitive-controlled technical artifacts are excluded from this public-surface package.",
+      "doi_layers": {
+        "public_surface": {
+          "doi": "10.5281/zenodo.20190648",
+          "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+          "record_url": "https://zenodo.org/records/20190648",
+          "sensitive_controlled_included": false
+        },
+        "full_technical_corpus": {
+          "doi": "10.5281/zenodo.20196219",
+          "doi_url": "https://doi.org/10.5281/zenodo.20196219",
+          "record_url": "https://zenodo.org/records/20196219",
+          "concept_doi": "10.5281/zenodo.20196218",
+          "concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+          "sensitive_controlled_included": true,
+          "zenodo_status": "published"
+        }
+      }
+    },
+    {
+      "object": "CCDP full technical corpus DOI",
+      "surface": "Zenodo full technical corpus DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20196219",
+      "doi": "10.5281/zenodo.20196219",
+      "zenodo_record_url": "https://zenodo.org/records/20196219",
+      "concept_doi": "10.5281/zenodo.20196218",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "note": "Archives the complete technical CCDP corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review. It is not public UX guidance, legal advice, clinical guidance, product certification, or deployment approval."
     },
     {
       "object": "CCDP v0.1 - Child-c Development Protocol",
