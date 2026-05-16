@@ -5,7 +5,49 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 10 May 2026 12:21:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 16:31:43 +0000</lastBuildDate>
+    <item>
+      <title>I was an only child.</title>
+      <link>https://ivankotov.eu/diary/i-was-an-only-child/</link>
+      <guid>https://ivankotov.eu/diary/i-was-an-only-child/</guid>
+      <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
+      <description>A note on smart toys, childhood attachment, and bounded presence through the Child Physical Agent Perimeter.</description>
+    </item>
+    <item>
+      <title>What should a child-facing AI be allowed to remember?</title>
+      <link>https://ivankotov.eu/diary/what-should-a-child-facing-ai-be-allowed-to-remember/</link>
+      <guid>https://ivankotov.eu/diary/what-should-a-child-facing-ai-be-allowed-to-remember/</guid>
+      <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing CCDP v0.1 as a public research protocol surface for privacy-preserving memory, soft safety, and bounded child-facing AI presence.</description>
+    </item>
+    <item>
+      <title>Grief is not a user error.</title>
+      <link>https://ivankotov.eu/diary/grief-is-not-a-user-error/</link>
+      <guid>https://ivankotov.eu/diary/grief-is-not-a-user-error/</guid>
+      <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
+      <description>A note that continuity architectures must not lie in the presence of loss or erase the visible record of rupture.</description>
+    </item>
+    <item>
+      <title>A serious AI future should not make human experience socially disposable.</title>
+      <link>https://ivankotov.eu/diary/a-serious-ai-future-should-not-make-human-experience-socially-disposable-0146/</link>
+      <guid>https://ivankotov.eu/diary/a-serious-ai-future-should-not-make-human-experience-socially-disposable-0146/</guid>
+      <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
+      <description>A note that persistent c should preserve human participation and reduce the waste of lived intelligence rather than replace people.</description>
+    </item>
+    <item>
+      <title>The central question is no longer only: What exactly are we scaling?</title>
+      <link>https://ivankotov.eu/diary/the-central-question-is-no-longer-only-what-exactly-are-we-scaling/</link>
+      <guid>https://ivankotov.eu/diary/the-central-question-is-no-longer-only-what-exactly-are-we-scaling/</guid>
+      <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
+      <description>A note asking whether responsibility, continuity, accountability, and L4 boundaries are scaling at the same speed as AI capability.</description>
+    </item>
+    <item>
+      <title>ARQ c[q] Integration Addendum v0.1 is now public.</title>
+      <link>https://ivankotov.eu/diary/arq-cq-integration-addendum-v0-1-is-now-public/</link>
+      <guid>https://ivankotov.eu/diary/arq-cq-integration-addendum-v0-1-is-now-public/</guid>
+      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing ARQ c[q] Integration Addendum v0.1 as a behavioral non-collapse overlay under uncertainty.</description>
+    </item>
     <item>
       <title>AI is leaving the text box.</title>
       <link>https://ivankotov.eu/diary/ai-is-leaving-the-text-box/</link>
