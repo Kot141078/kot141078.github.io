@@ -1,0 +1,54 @@
+{
+  "summary": "Added the Publications header navigation link across required static public pages.",
+  "header_structure": "duplicated_static_nav_blocks",
+  "files_changed": [
+    "index.html",
+    "publications/index.html",
+    "publications/c-governed-cli-agent-mesh/index.html",
+    "publications/c-governed-cli-agent-mesh/files/index.html",
+    "library/index.html",
+    "diary/index.html",
+    "topics/index.html",
+    "services/index.html",
+    "about/index.html",
+    "contact/index.html",
+    "reports/PUBLICATIONS_NAV_PATCH_REPORT.md",
+    "reports/PUBLICATIONS_NAV_PATCH_REPORT.json"
+  ],
+  "pages_checked": [
+    "/",
+    "/publications/",
+    "/publications/c-governed-cli-agent-mesh/",
+    "/publications/c-governed-cli-agent-mesh/files/",
+    "/library/",
+    "/diary/",
+    "/topics/",
+    "/services/",
+    "/about/",
+    "/contact/"
+  ],
+  "nav_link_status": {
+    "label": "Publications",
+    "href": "/publications/",
+    "placement": "after Start here and before Diary",
+    "duplicate_header_links_found": false,
+    "cyrillic_label_substitution_found": false,
+    "publications_page_current_marker": true
+  },
+  "responsive_layout_notes": "Existing site navigation already allows wrapping and has mobile behavior; no CSS change was required.",
+  "scan_results": {
+    "changed_public_files_local_path_scan": "passed",
+    "changed_public_files_secret_marker_scan": "passed",
+    "added_diff_restricted_claim_scan": "passed",
+    "book_content_diff_check": "passed",
+    "external_cgam_repository_status_check": "clean",
+    "html_nav_parse_check": "passed",
+    "whitespace_diff_check": "passed"
+  },
+  "warnings": [
+    "Git emitted line-ending conversion warnings for touched HTML files under the current Windows configuration; no whitespace errors were reported.",
+    "GitHub Pages publication may take time after push."
+  ],
+  "blockers": [],
+  "recommendation": "Wait for GitHub Pages to deploy, then verify the live site header on the home page and CGAM publication page."
+}
