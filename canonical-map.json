@@ -72,6 +72,7 @@
       "id": "c-governed-cli-agent-mesh-v0-1-1",
       "title": "C-Governed CLI Agent Mesh v0.1.1",
       "url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "files_url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/files/",
       "summary": "Draft technical protocol package for governing executable CLI/cloud agents under persistent c governance.",
       "doi": "https://doi.org/10.5281/zenodo.20257232",
       "not": [

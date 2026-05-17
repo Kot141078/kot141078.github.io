@@ -137,6 +137,7 @@
       "title": "C-Governed CLI Agent Mesh v0.1.1",
       "role": "technical protocol package / executable CLI-cloud agent governance",
       "primary_page": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "files_page": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/files/",
       "repo_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh",
       "release_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh/releases/tag/cgam-v0.1.1",
       "zenodo_record": "https://zenodo.org/records/20257232",
