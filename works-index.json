@@ -117,6 +117,38 @@
       "full_technical_corpus_note": "This DOI archives the complete technical CCDP corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review. It is not public UX guidance, legal advice, clinical guidance, product certification, or deployment approval."
     },
     {
+      "id": "c-governed-cli-agent-mesh-v0-1-1",
+      "title": "C-Governed CLI Agent Mesh v0.1.1",
+      "type": "technical protocol package",
+      "role": "executable CLI/cloud agent governance protocol",
+      "primary_url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "github": "https://github.com/Kot141078/c-governed-cli-agent-mesh",
+      "release": "https://github.com/Kot141078/c-governed-cli-agent-mesh/releases/tag/cgam-v0.1.1",
+      "zenodo_record": "https://zenodo.org/records/20257232",
+      "doi": "10.5281/zenodo.20257232",
+      "doi_url": "https://doi.org/10.5281/zenodo.20257232",
+      "concept_doi": "10.5281/zenodo.20257231",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20257231",
+      "status": "draft technical protocol package",
+      "version": "0.1.1",
+      "date": "2026-05-17",
+      "license_docs": "CC BY 4.0",
+      "license_machine": "MIT",
+      "keywords": [
+        "c=a+b",
+        "L4",
+        "SER",
+        "CGAM",
+        "CLI agents",
+        "executable worker governance",
+        "witness",
+        "memory gate",
+        "AI safety",
+        "semantic validation",
+        "conformance testing"
+      ]
+    },
+    {
       "id": "anchor-class-boundaries",
       "title": "Anchor Class Boundaries v0.1",
       "type": "document",

@@ -69,6 +69,19 @@
       ]
     },
     {
+      "id": "c-governed-cli-agent-mesh-v0-1-1",
+      "title": "C-Governed CLI Agent Mesh v0.1.1",
+      "url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "summary": "Draft technical protocol package for governing executable CLI/cloud agents under persistent c governance.",
+      "doi": "https://doi.org/10.5281/zenodo.20257232",
+      "not": [
+        "legal advice",
+        "product certification",
+        "deployment-ready",
+        "conformance-supported status"
+      ]
+    },
+    {
       "id": "l4",
       "title": "L4",
       "url": "https://ivankotov.eu/l4/",
