@@ -83,8 +83,41 @@
   }
   </script>
   <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .article50-page .hero {
+      padding-top: clamp(1.6rem, 4vw, 2.3rem);
+      padding-bottom: clamp(1.6rem, 4vw, 2.3rem);
+    }
+
+    .article50-page .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 4.05rem);
+      line-height: 1.02;
+      overflow-wrap: anywhere;
+    }
+
+    .article50-page .chain-path {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0.9rem 1rem;
+      background: color-mix(in srgb, var(--bg-panel) 92%, white);
+      font-family: "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      overflow-wrap: anywhere;
+    }
+
+    .article50-page .chain-path span:not(:last-child)::after {
+      content: "->";
+      margin-left: 0.55rem;
+      color: var(--muted);
+    }
+  </style>
 </head>
-<body>
+<body class="article50-page">
   <div class="site-shell">
         <header class="site-header">
       <a class="brand" href="../../">
@@ -128,7 +161,15 @@
           <p class="section-label">Core mapping chain</p>
           <h2>Evidence path</h2>
         </div>
-        <pre><code>system -&gt; role -&gt; obligation trigger -&gt; disclosure / marking control -&gt; evidence artifact -&gt; responsible actor -&gt; legal review path</code></pre>
+        <div class="chain-path" aria-label="system -> role -> obligation trigger -> disclosure / marking control -> evidence artifact -> responsible actor -> legal review path">
+          <span>system</span>
+          <span>role</span>
+          <span>obligation trigger</span>
+          <span>disclosure / marking control</span>
+          <span>evidence artifact</span>
+          <span>responsible actor</span>
+          <span>legal review path</span>
+        </div>
       </section>
 
       <section class="section">
