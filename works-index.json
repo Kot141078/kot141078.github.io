@@ -292,6 +292,26 @@
       "type": "anchor",
       "role": "profile/identity anchor",
       "primary_url": "https://hal.science/hal-05529115"
+    },
+    {
+      "id": "article50-transparency-submission-v0-1",
+      "title": "Article 50 Transparency Submission Pack v0.1",
+      "type": "publication",
+      "role": "technical note / AI Act transparency implementation",
+      "primary_url": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1",
+      "date": "2026-05-20",
+      "version": "v0.1",
+      "doi": "https://doi.org/10.5281/zenodo.20315439",
+      "tags": [
+        "EU AI Act",
+        "Article 50",
+        "AI transparency",
+        "Provenance",
+        "L4 Witness",
+        "AI governance"
+      ]
     }
   ]
 }

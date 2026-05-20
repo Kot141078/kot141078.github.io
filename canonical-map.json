@@ -175,6 +175,21 @@
         "random navigation",
         "a substitute for the primary pages"
       ]
+    },
+    {
+      "id": "article50-transparency-submission-v0-1",
+      "title": "Article 50 Transparency Submission Pack v0.1",
+      "url": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "summary": "Technical evidence-chain contribution for AI Act Article 50 transparency implementation.",
+      "doi": "https://doi.org/10.5281/zenodo.20315439",
+      "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1",
+      "not": [
+        "legal advice",
+        "certification",
+        "conformity assessment",
+        "legal sufficiency for a concrete deployed system"
+      ]
     }
   ],
   "reading_path": [

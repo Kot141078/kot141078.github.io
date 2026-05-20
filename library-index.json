@@ -274,6 +274,25 @@
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
       "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
       "type": "book"
+    },
+    {
+      "id": "article50-transparency-submission-v0-1",
+      "title": "Article 50 Transparency Submission Pack v0.1",
+      "role": "technical note / AI Act transparency implementation",
+      "primary_page": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "package_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "type": "publication",
+      "doi": "https://doi.org/10.5281/zenodo.20315439",
+      "tags": [
+        "EU AI Act",
+        "Article 50",
+        "AI transparency",
+        "Provenance",
+        "L4 Witness",
+        "AI governance"
+      ]
     }
   ]
 }

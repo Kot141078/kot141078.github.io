@@ -434,6 +434,26 @@
       "format": "json schema",
       "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
       "note": "Machine-readable Memory Map schema extracted from the CCDP technical source."
+    },
+    {
+      "object": "Article 50 Transparency Submission Pack v0.1",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "note": "Public release surface for the Article 50 transparency evidence-chain package; private administrative records are not linked or mirrored here.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1"
+    },
+    {
+      "object": "Article 50 Transparency Submission Pack v0.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Persistent public archive identifier for the Article 50 transparency evidence-chain package.",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1"
     }
   ]
 }

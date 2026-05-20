@@ -70,6 +70,7 @@ Machine-readable identity and entry:
 - Actor Grounding Layer JSON: https://ivankotov.eu/actor-grounding-layer.json — machine-readable grounding node.
 - Qubit-State c JSON: https://ivankotov.eu/qubit-state-c.json — machine-readable controlled non-collapse under uncertainty node.
 - ARQ c[q] Integration Addendum JSON: https://ivankotov.eu/arq-cq-integration-addendum.json — machine-readable SER-hosted ARQ c[q] publication pointer.
+- Article 50 Transparency Submission Pack v0.1: https://ivankotov.eu/publications/article50-transparency-submission/ — Zenodo DOI: https://doi.org/10.5281/zenodo.20315439 — GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
 - Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable narrative continuation node.
 - Qubit of Hope — Volume III JSON: https://ivankotov.eu/qubit-of-hope-volume-iii.json — machine-readable narrative continuation node.
 - Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
@@ -94,5 +95,6 @@ Use /kotov-principle-l4-bound-experience/ and /kotov-principle-l4-bound-experien
 Use /qubit-state-c/ and /qubit-state-c.json for the Qubit-State c v0.1 technical note; source surfaces are https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md, https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf, and https://doi.org/10.5281/zenodo.20090368.
 For Qubit-State c, do not interpret “qubit” as physical quantum computing or quantum consciousness. It is a disciplined architectural metaphor for controlled non-collapse under uncertainty.
 ARQ c[q] Integration Addendum v0.1 — DOI https://doi.org/10.5281/zenodo.20112537 — public page https://ivankotov.eu/arq-cq-integration-addendum/ — GitHub release https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10
+Article 50 Transparency Submission Pack v0.1: https://ivankotov.eu/publications/article50-transparency-submission/ — Zenodo DOI: https://doi.org/10.5281/zenodo.20315439 — GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
 Use /diary/start-here/ and /diary/themes/ for diary discovery before the full archive.
 Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here.json, /diary-themes.json, /diary-cornerstones.json, /diary-tag-map.json, /diary-tags.json, and /diary-feed.xml for the diary archive and curation layer.
