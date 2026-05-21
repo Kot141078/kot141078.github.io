@@ -20,6 +20,7 @@
   "misreadings_url": "https://ivankotov.eu/misreadings/",
   "qubit_state_c_url": "https://ivankotov.eu/qubit-state-c/",
   "arq_cq_integration_addendum_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
+  "instrumental_c_public_portfolio_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
   "nodes": [
     {
       "id": "agi",
@@ -189,6 +190,21 @@
         "certification",
         "conformity assessment",
         "legal sufficiency for a concrete deployed system"
+      ]
+    },
+    {
+      "id": "instrumental-c-public-portfolio-v0-1",
+      "title": "Instrumental-c / Enterprise Work-Bound c",
+      "url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+      "summary": "Public-safe concept portfolio for instrumental-c, enterprise-c, and work-bound-c in the c = a + b corpus.",
+      "github_repository": "https://github.com/Kot141078/instrumental-c-public-portfolio",
+      "not": [
+        "an implementation kit",
+        "a client deployment package",
+        "legal advice",
+        "a commercial implementation grant",
+        "a deployment grant",
+        "a certification grant"
       ]
     }
   ],

@@ -312,6 +312,30 @@
         "L4 Witness",
         "AI governance"
       ]
+    },
+    {
+      "id": "instrumental-c-public-portfolio-v0-1",
+      "title": "Instrumental-c / Enterprise Work-Bound c",
+      "type": "publication",
+      "role": "public concept portfolio / enterprise c governance",
+      "primary_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+      "secondary_url": "https://github.com/Kot141078/instrumental-c-public-portfolio",
+      "concept_note_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/blob/main/Instrumental_c_Public_Concept_Note_v0_1.md",
+      "portfolio_brief_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/blob/main/Enterprise_Work_Bound_c_Public_Portfolio_Brief_v0_1.md",
+      "agent_os_note_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/blob/main/Agent_OS_c_for_Enterprise_Agents_Public_Note_v0_1.md",
+      "commercial_notice_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/blob/main/COMMERCIAL_USE_NOTICE_v0_1.md",
+      "ester_boundary_note_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/blob/main/Ester_Chantier_Public_Boundary_Note_v0_1.md",
+      "date": "2026-05-21",
+      "version": "v0.1",
+      "status": "public-safe concept portfolio",
+      "tags": [
+        "instrumental-c",
+        "enterprise-c",
+        "work-bound-c",
+        "c = a + b",
+        "agent governance",
+        "AI governance"
+      ]
     }
   ]
 }
