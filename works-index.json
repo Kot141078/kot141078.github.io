@@ -336,6 +336,31 @@
         "agent governance",
         "AI governance"
       ]
+    },
+    {
+      "id": "c-hardening-pack-v0-1",
+      "title": "c Hardening Pack v0.1",
+      "type": "publication",
+      "role": "public research / technical hardening package",
+      "primary_url": "https://ivankotov.eu/publications/c-hardening-pack/",
+      "secondary_url": "https://github.com/Kot141078/c-hardening-pack",
+      "release_url": "https://github.com/Kot141078/c-hardening-pack/releases/tag/c-hardening-pack-v0.1",
+      "zenodo_record": "https://zenodo.org/records/20348436",
+      "doi": "https://doi.org/10.5281/zenodo.20348436",
+      "version_doi": "10.5281/zenodo.20348436",
+      "concept_doi": "10.5281/zenodo.20348435",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20348435",
+      "date": "2026-05-22",
+      "version": "v0.1",
+      "status": "public research and technical hardening package",
+      "tags": [
+        "c = a + b",
+        "L4 runtime enforcement",
+        "memory continuity",
+        "semantic drift control",
+        "witness anchoring",
+        "AI governance"
+      ]
     }
   ]
 }

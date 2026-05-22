@@ -21,6 +21,7 @@
   "qubit_state_c_url": "https://ivankotov.eu/qubit-state-c/",
   "arq_cq_integration_addendum_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
   "instrumental_c_public_portfolio_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+  "c_hardening_pack_url": "https://ivankotov.eu/publications/c-hardening-pack/",
   "nodes": [
     {
       "id": "agi",
@@ -81,6 +82,27 @@
         "product certification",
         "deployment-ready",
         "conformance-supported status"
+      ]
+    },
+    {
+      "id": "c-hardening-pack-v0-1",
+      "title": "c Hardening Pack v0.1",
+      "url": "https://ivankotov.eu/publications/c-hardening-pack/",
+      "summary": "Public research and technical hardening package for the c = a + b corpus.",
+      "doi": "https://doi.org/10.5281/zenodo.20348436",
+      "concept_doi": "https://doi.org/10.5281/zenodo.20348435",
+      "zenodo_record": "https://zenodo.org/records/20348436",
+      "github_release": "https://github.com/Kot141078/c-hardening-pack/releases/tag/c-hardening-pack-v0.1",
+      "github_repository": "https://github.com/Kot141078/c-hardening-pack",
+      "not": [
+        "implementation-ready",
+        "deployment-ready",
+        "legal advice",
+        "product certification",
+        "conformance-supported status",
+        "patent or patent-pending claim",
+        "GDPR compliance claim",
+        "AI Act compliance claim"
       ]
     },
     {
