@@ -5,7 +5,63 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 16:31:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 08:48:49 +0000</lastBuildDate>
+    <item>
+      <title>LLMs are not “the AI”.</title>
+      <link>https://ivankotov.eu/diary/llms-are-not-the-ai/</link>
+      <guid>https://ivankotov.eu/diary/llms-are-not-the-ai/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 +0000</pubDate>
+      <description>A note distinguishing LLMs from complete AI entities and framing future AI as composed intelligence under consequence.</description>
+    </item>
+    <item>
+      <title>I have never liked the term “Godfather of AI”.</title>
+      <link>https://ivankotov.eu/diary/i-have-never-liked-the-term-godfather-of-ai/</link>
+      <guid>https://ivankotov.eu/diary/i-have-never-liked-the-term-godfather-of-ai/</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+      <description>A note arguing that AI safety needs architectural classification of tools, oracles, agents, and entities before survival pressure is judged.</description>
+    </item>
+    <item>
+      <title>A public idea is not strong because it sounds coherent.</title>
+      <link>https://ivankotov.eu/diary/a-public-idea-is-not-strong-because-it-sounds-coherent/</link>
+      <guid>https://ivankotov.eu/diary/a-public-idea-is-not-strong-because-it-sounds-coherent/</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing c Hardening Pack v0.1 as a traceability layer connecting claims, runtime surfaces, tests, evidence, and witness.</description>
+    </item>
+    <item>
+      <title>I have published a public concept layer for &quot;instrumental-c / Enterprise Work-Bound c&quot;.</title>
+      <link>https://ivankotov.eu/diary/i-have-published-a-public-concept-layer-for-instrumental-c-enterprise-work-bound-c/</link>
+      <guid>https://ivankotov.eu/diary/i-have-published-a-public-concept-layer-for-instrumental-c-enterprise-work-bound-c/</guid>
+      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing instrumental-c / Enterprise Work-Bound c as a public concept layer for governance-bearing AI work.</description>
+    </item>
+    <item>
+      <title>AI is becoming an operating layer.</title>
+      <link>https://ivankotov.eu/diary/ai-is-becoming-an-operating-layer/</link>
+      <guid>https://ivankotov.eu/diary/ai-is-becoming-an-operating-layer/</guid>
+      <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
+      <description>A note on c as an agentic operating layer around a living human anchor and real-world consequence.</description>
+    </item>
+    <item>
+      <title>We speak too easily about intelligence, and not seriously enough about home.</title>
+      <link>https://ivankotov.eu/diary/we-speak-too-easily-about-intelligence-and-not-seriously-enough-about-home/</link>
+      <guid>https://ivankotov.eu/diary/we-speak-too-easily-about-intelligence-and-not-seriously-enough-about-home/</guid>
+      <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
+      <description>A note treating home as an AI architecture test for persistent systems that must remain livable beside human life.</description>
+    </item>
+    <item>
+      <title>A personal &quot;c&quot; cannot require a private data center.</title>
+      <link>https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/</link>
+      <guid>https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/</guid>
+      <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
+      <description>A note on decentralized AI, edge hardware, local memory, and the difference between borrowed computation and owned continuity.</description>
+    </item>
+    <item>
+      <title>Today I published &quot;C-Governed CLI Agent Mesh v0.1.1&quot;.</title>
+      <link>https://ivankotov.eu/diary/today-i-published-c-governed-cli-agent-mesh-v0-1-1/</link>
+      <guid>https://ivankotov.eu/diary/today-i-published-c-governed-cli-agent-mesh-v0-1-1/</guid>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+      <description>A note introducing C-Governed CLI Agent Mesh v0.1.1 as a governance layer for executable AI agents and bounded tool work.</description>
+    </item>
     <item>
       <title>I was an only child.</title>
       <link>https://ivankotov.eu/diary/i-was-an-only-child/</link>

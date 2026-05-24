@@ -167,6 +167,7 @@ def nav_markup(prefix: str, current: str) -> str:
     items = [
         ("Home", f"{prefix}"),
         ("Start here", f"{prefix}start-here/"),
+        ("Publications", "/publications/"),
         ("Diary", f"{prefix}diary/"),
         ("Topics", f"{prefix}topics/"),
         ("Library", f"{prefix}library/"),
@@ -1276,16 +1277,15 @@ def render_tags_index(tags: list[TagInfo]) -> str:
 
 
 def render_tag_page(tag: TagInfo) -> str:
-    alias_note = ""
+    alias_note_html = ""
     if len(tag.aliases) > 1:
-        alias_note = f'<p class="diary-note">This canonical tag currently absorbs {len(tag.aliases)} raw source labels.</p>'
+        alias_note_html = f'        <p class="diary-note">This canonical tag currently absorbs {len(tag.aliases)} raw source labels.</p>\n'
     body_html = f"""      <section class="hero">
         <p class="eyebrow">Diary tag</p>
         <h1>{html.escape(tag.name)}</h1>
         <p class="lead page-lead">Canonical diary tag page generated from normalized source tags.</p>
         <p class="diary-note">{tag.count} linked entr{'y' if tag.count == 1 else 'ies'} currently in the archive.</p>
-        {alias_note}
-      </section>
+{alias_note_html}      </section>
 
       <section class="section">
         <div class="section-head">

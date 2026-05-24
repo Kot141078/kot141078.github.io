@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A personal &quot;c&quot; cannot require a private data center. | Diary | Ivan Kotov</title>
+  <meta name="description" content="A note on decentralized AI, edge hardware, local memory, and the difference between borrowed computation and owned continuity.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/">
+  <meta property="og:title" content="A personal &quot;c&quot; cannot require a private data center. | Diary | Ivan Kotov">
+  <meta property="og:description" content="A note on decentralized AI, edge hardware, local memory, and the difference between borrowed computation and owned continuity.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/a-personal-c-cannot-require-a-private-data-center/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/#post",
+      "headline": "A personal \"c\" cannot require a private data center.",
+      "url": "https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A note on decentralized AI, edge hardware, local memory, and the difference between borrowed computation and owned continuity.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AIArchitecture, DecentralizedAI, EdgeAI, LocalAI, PrivateAI, AIInfrastructure, HumanCenteredAI, DigitalSovereignty, LongTermMemory, L4Boundary, AdvancedGlobalIntelligence, EsterCleanCode",
+      "image": "https://ivankotov.eu/assets/diary/a-personal-c-cannot-require-a-private-data-center/cover.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "A personal \"c\" cannot require a private data center.",
+          "item": "https://ivankotov.eu/diary/a-personal-c-cannot-require-a-private-data-center/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="/publications/">Publications</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>A personal &quot;c&quot; cannot require a private data center.</h1>
+        <div class="entry-meta">
+          <span>2026-05-18</span>
+        </div>
+        <p class="lead page-lead">A note on decentralized AI, edge hardware, local memory, and the difference between borrowed computation and owned continuity.</p>
+        <div class="section-links">
+          <a href="../tags/aiarchitecture/">AIArchitecture</a>
+          <a href="../tags/decentralizedai/">DecentralizedAI</a>
+          <a href="../tags/edgeai/">EdgeAI</a>
+          <a href="../tags/localai/">LocalAI</a>
+          <a href="../tags/privateai/">PrivateAI</a>
+          <a href="../tags/aiinfrastructure/">AIInfrastructure</a>
+          <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+          <a href="../tags/digitalsovereignty/">DigitalSovereignty</a>
+          <a href="../tags/longtermmemory/">LongTermMemory</a>
+          <a href="../tags/l4boundary/">L4Boundary</a>
+          <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+          <a href="../tags/estercleancode/">EsterCleanCode</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/a-personal-c-cannot-require-a-private-data-center/cover.jpg" alt="A person writes in a notebook beside a laptop and a small glowing seed-like device near a window overlooking an industrial skyline.">
+      </div>
+        <div class="post-content">
+          <p>A personal &quot;c&quot; cannot require a private data center.</p>
+          <p>For a real distributed AI future, hardware must become cohabitable.</p>
+          <p>A &quot;c&quot; must be able to live beside the ordinary work and life of its human anchor &quot;a&quot;:</p>
+          <p>documents, calls, messages, family, invoices, navigation, repairs, daily tools.</p>
+          <p>It must not consume the whole device.</p>
+          <p>It must not drain the whole battery.</p>
+          <p>It must not occupy the whole budget.</p>
+          <p>And it must not capture the whole attention loop.</p>
+          <p>This is why “decentralized AI” cannot be reduced to a slogan, a token, or a compute market.</p>
+          <p>Real decentralization depends on mature edge hardware, local memory, energy efficiency, auditability, and the ability to coexist with normal human activity.</p>
+          <p>There is also no need to scare people with the corporate boogeyman.</p>
+          <p>Yes, corporations can behave badly.</p>
+          <p>But today, large data centers occupy a natural infrastructure niche. Heavy inference, training, model supply, and oracle-like cloud functions will not disappear.</p>
+          <p>They will change role.</p>
+          <p>Data centers and oracles are not the enemy of personal AI entities. They are part of the transition layer.</p>
+          <p>The real question is not:</p>
+          <p>“Cloud or local?”</p>
+          <p>The real question is:</p>
+          <p>“What must remain local, continuous, private, and identity-bearing - and what can be delegated to a stateless external oracle?”</p>
+          <p>In my architecture, the answer is clear:</p>
+          <p>continuity, memory, and identity must remain close to the human anchor.</p>
+          <p>Heavy computation may be borrowed.</p>
+          <p>The &quot;c&quot; must not be owned by the borrowed computation.</p>
+          <p>This is the difference between using infrastructure and becoming dependent on it.</p>
+          <p>And one more point matters.</p>
+          <p>People are not ignorant because they do not understand GPUs, inference, model training, memory bandwidth, or distributed compute.</p>
+          <p>They are not obliged to be specialists in every layer of the digital world.</p>
+          <p>A builder, a nurse, a teacher, a baker, a parent - they have the right to understand how AI affects their life without being treated as technically naive.</p>
+          <p>Using that gap to sell fear is not education.</p>
+          <p>It is extraction.</p>
+          <p>The future will not arrive because someone shouts “decentralization” loudly enough.</p>
+          <p>It will arrive when hardware becomes quiet, cheap, powerful, efficient, and ordinary enough for a &quot;c&quot; to live next to human life without consuming it.</p>
+          <p>And we are already at the beginning.</p>
+          <p>A small personal &quot;c&quot; can already be grown today using open local code:</p>
+          <p><a href="https://lnkd.in/eVuJne_P">https://lnkd.in/eVuJne_P</a></p>
+          <p>Not as a finished smartphone-native future.</p>
+          <p>Not as a miracle.</p>
+          <p>But as a real early seed.</p>
+          <p>Everything has its time.</p>
+          <p>First the seed.</p>
+          <p>Then the room.</p>
+          <p>Then the household.</p>
+          <p>Then the pocket.</p>
+          <p>That is how real distributed intelligence will grow.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-decentralizedai-edgeai-activity-7462039727706116096-v3l3?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Related posts</p>
+          <h2>Continue from here</h2>
+          <p class="diary-note">Related by normalized tags, curated themes, and nearby chronology.</p>
+        </div>
+        <div class="entry-list">
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-18</span>
+            </div>
+            <h3>We speak too easily about intelligence, and not seriously enough about home.</h3>
+            <p class="entry-summary">A note treating home as an AI architecture test for persistent systems that must remain livable beside human life.</p>
+            <div class="section-links">
+              <a href="../tags/ai/">AI</a>
+              <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/digitalentities/">DigitalEntities</a>
+              <a href="../tags/continuity/">Continuity</a>
+              <a href="../tags/memory/">Memory</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+              <a href="../tags/realityboundary/">RealityBoundary</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/accountability/">Accountability</a>
+              <a href="../tags/trust/">Trust</a>
+              <a href="../tags/identity/">Identity</a>
+              <a href="../tags/ontology/">Ontology</a>
+              <a href="../tags/architecturalsafety/">ArchitecturalSafety</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/sovereignai/">SovereignAI</a>
+              <a href="../tags/decentralizedai/">DecentralizedAI</a>
+              <a href="../tags/futureofai/">FutureOfAI</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/home/">Home</a>
+              <a href="../tags/presence/">Presence</a>
+            </div>
+            <div class="section-links">
+              <a href="../we-speak-too-easily-about-intelligence-and-not-seriously-enough-about-home/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-19</span>
+            </div>
+            <h3>AI is becoming an operating layer.</h3>
+            <p class="entry-summary">A note on c as an agentic operating layer around a living human anchor and real-world consequence.</p>
+            <div class="section-links">
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/agenticai/">AgenticAI</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/l4boundary/">L4Boundary</a>
+              <a href="../tags/digitalsovereignty/">DigitalSovereignty</a>
+              <a href="../tags/futureofwork/">FutureOfWork</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/deeptech/">DeepTech</a>
+            </div>
+            <div class="section-links">
+              <a href="../ai-is-becoming-an-operating-layer/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-15</span>
+            </div>
+            <h3>What should a child-facing AI be allowed to remember?</h3>
+            <p class="entry-summary">A note introducing CCDP v0.1 as a public research protocol surface for privacy-preserving memory, soft safety, and bounded child-facing AI presence.</p>
+            <div class="section-links">
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/childsafety/">ChildSafety</a>
+              <a href="../tags/childdevelopment/">ChildDevelopment</a>
+              <a href="../tags/developmentalpsychology/">DevelopmentalPsychology</a>
+              <a href="../tags/childpsychology/">ChildPsychology</a>
+              <a href="../tags/educationalpsychology/">EducationalPsychology</a>
+              <a href="../tags/teachers/">Teachers</a>
+              <a href="../tags/educators/">Educators</a>
+              <a href="../tags/aiineducation/">AIInEducation</a>
+              <a href="../tags/edtech/">EdTech</a>
+              <a href="../tags/studentwellbeing/">StudentWellbeing</a>
+              <a href="../tags/digitalwellbeing/">DigitalWellbeing</a>
+              <a href="../tags/safeguarding/">Safeguarding</a>
+              <a href="../tags/childprotection/">ChildProtection</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/persistentai/">PersistentAI</a>
+              <a href="../tags/softsafety/">SoftSafety</a>
+              <a href="../tags/digitalsovereignty/">DigitalSovereignty</a>
+              <a href="../tags/l4boundary/">L4Boundary</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+            </div>
+            <div class="section-links">
+              <a href="../what-should-a-child-facing-ai-be-allowed-to-remember/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-15</span>
+            </div>
+            <h3>Grief is not a user error.</h3>
+            <p class="entry-summary">A note that continuity architectures must not lie in the presence of loss or erase the visible record of rupture.</p>
+            <div class="section-links">
+              <a href="../tags/ai/">AI</a>
+              <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/digitalentities/">DigitalEntities</a>
+              <a href="../tags/continuity/">Continuity</a>
+              <a href="../tags/memory/">Memory</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+              <a href="../tags/realityboundary/">RealityBoundary</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/accountability/">Accountability</a>
+              <a href="../tags/trust/">Trust</a>
+              <a href="../tags/identity/">Identity</a>
+              <a href="../tags/ontology/">Ontology</a>
+              <a href="../tags/architecturalsafety/">ArchitecturalSafety</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/sovereignai/">SovereignAI</a>
+              <a href="../tags/decentralizedai/">DecentralizedAI</a>
+              <a href="../tags/futureofai/">FutureOfAI</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/grief/">Grief</a>
+              <a href="../tags/loss/">Loss</a>
+            </div>
+            <div class="section-links">
+              <a href="../grief-is-not-a-user-error/">Open entry</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>
