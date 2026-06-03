@@ -95,11 +95,15 @@
       "repository_path": "hardening/c_hardening_pack_v0_1",
       "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json",
       "sha256sums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hardening/c_hardening_pack_v0_1/SHA256SUMS",
-      "commit": "ae8234d3bf6fa175eacd36eb0ed8669be2715322",
-      "doi": null,
-      "doi_status": "pending / not deposited for AGI-integrated package state",
-      "zenodo_status": "not deposited for AGI-integrated package state",
-      "release_status": "merged_to_main_no_release_yet",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/c-hardening-pack-v0.1-agi-integrated",
+      "release_tag": "c-hardening-pack-v0.1-agi-integrated",
+      "zip_sha256": "fd0b791c4e1b96ddf143bd322b31d823cda8167102450a7c672dfe12d0174099",
+      "commit": "7bb19aa6d9c2606f8e9366ba009ab74cef9fc5d5",
+      "doi": "10.5281/zenodo.20532198",
+      "doi_url": "https://doi.org/10.5281/zenodo.20532198",
+      "doi_status": "deposited / current DOI for AGI-integrated package state",
+      "zenodo_status": "deposited",
+      "release_status": "github_release_published",
       "document_count": 14,
       "pdf_count": 14,
       "older_standalone_archive": {
@@ -108,7 +112,7 @@
         "zenodo_record": "https://zenodo.org/records/20348436",
         "doi": "10.5281/zenodo.20348436",
         "doi_url": "https://doi.org/10.5281/zenodo.20348436",
-        "relation": "Earlier standalone archive / prior public archive; not AGI-integrated DOI."
+        "relation": "Earlier standalone archive / provenance; not current AGI-integrated DOI."
       },
       "not": [
         "legal personhood claim",
