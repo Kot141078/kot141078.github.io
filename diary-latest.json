@@ -2,35 +2,27 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "LLMs are not “the AI”.",
-    "date": "2026-05-24",
-    "slug": "llms-are-not-the-ai",
-    "summary": "A note distinguishing LLMs from complete AI entities and framing future AI as composed intelligence under consequence.",
+    "title": "Powerful hardware needs powerful tasks.",
+    "date": "2026-06-02",
+    "slug": "powerful-hardware-needs-powerful-tasks",
+    "summary": "A note about Temporal AI Presence, local cognitive infrastructure, and hardware as substrate for continuity-bearing AI systems.",
     "tags": [
+      "AI",
       "AIArchitecture",
-      "LLM",
-      "ArtificialIntelligence",
-      "Cybernetics",
-      "WorldModels",
-      "AISafety",
-      "SystemsThinking",
-      "L4Boundary",
-      "AdvancedGlobalIntelligence"
+      "AgenticAI",
+      "LocalAI",
+      "TemporalAIPresence"
     ],
     "raw_tags": [
+      "AI",
       "AIArchitecture",
-      "LLM",
-      "ArtificialIntelligence",
-      "Cybernetics",
-      "WorldModels",
-      "AISafety",
-      "SystemsThinking",
-      "L4Boundary",
-      "AdvancedGlobalIntelligence"
+      "AgenticAI",
+      "LocalAI",
+      "TemporalAIPresence"
     ],
-    "page": "https://ivankotov.eu/diary/llms-are-not-the-ai/",
-    "primary_image": "https://ivankotov.eu/assets/diary/llms-are-not-the-ai/cover.jpg",
-    "image_alt": "A garden table holds labeled mechanical modules for witness, memory, sensors, agents, tools, constraints, and consequence around a glowing core.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-llm-artificialintelligence-activity-7464210720855982080-UImQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/powerful-hardware-needs-powerful-tasks/",
+    "primary_image": "https://ivankotov.eu/assets/diary/powerful-hardware-needs-powerful-tasks/cover.jpg",
+    "image_alt": "Large black local computing tower in a lab with glowing data streams, monitors, notebooks, and hardware modules.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-agenticai-activity-7467461628553494528-Cy0M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
