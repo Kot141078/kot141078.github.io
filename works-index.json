@@ -385,6 +385,49 @@
         "SYNAPS",
         "AI governance"
       ]
+    },
+    {
+      "id": "personality_formation_time_shaped_continuity_v0_1",
+      "title": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "type": "publication",
+      "role": "draft conceptual / normative profile",
+      "author": "Kotov Ivan",
+      "location_year": "Bruxelles, 2026",
+      "primary_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+      "website_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+      "github_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+      "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json",
+      "sha256sums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/personality-formation-time-shaped-continuity-v0.1",
+      "release_tag": "personality-formation-time-shaped-continuity-v0.1",
+      "doi": "10.5281/zenodo.20648731",
+      "doi_url": "https://doi.org/10.5281/zenodo.20648731",
+      "concept_doi": "10.5281/zenodo.20648730",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20648730",
+      "zenodo_record": "https://zenodo.org/records/20648731",
+      "zenodo_status": "published",
+      "release_status": "github_release_published",
+      "version": "v0.1",
+      "date": "2026-06-11",
+      "status": "Draft conceptual / normative profile",
+      "summary": "This draft conceptual / normative profile defines personality formation as time-shaped continuity rather than a metaphysical substance or biological privilege. It frames personality as formed through memory, constraint, relation, consequence, and irreversible duration, and applies this criteria-based view to biological and synthetic intelligent life within the c = a + b / Temporal AI Presence corpus.",
+      "core_rule": "Capability can be installed. Personality must be formed.",
+      "notes": "Does not claim proof of consciousness, legal personhood, automatic authority, biological imitation, mature personality at activation, or continuity transfer certified by functional viability alone.",
+      "tags": [
+        "c = a + b",
+        "Temporal AI Presence",
+        "AI continuity",
+        "personality formation",
+        "synthetic intelligent life",
+        "identity",
+        "memory",
+        "L4",
+        "AI safety",
+        "Advanced Global Intelligence"
+      ]
     }
   ]
 }

@@ -454,6 +454,69 @@
       "note": "Persistent public archive identifier for the Article 50 transparency evidence-chain package.",
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
       "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1"
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/personality-formation-time-shaped-continuity-v0.1",
+      "note": "Public release surface for the draft conceptual / normative personality formation profile; release assets are not mirrored in the site repository.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20648731",
+      "zenodo_record_url": "https://zenodo.org/records/20648731",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1"
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20648731",
+      "doi": "10.5281/zenodo.20648731",
+      "concept_doi": "10.5281/zenodo.20648730",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20648730",
+      "zenodo_record_url": "https://zenodo.org/records/20648731",
+      "note": "Persistent public archive identifier for the draft conceptual / normative profile.",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/personality-formation-time-shaped-continuity-v0.1",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1"
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release asset",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf",
+      "note": "Release asset URL; not mirrored in the site repository."
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release asset",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+      "note": "Release asset URL; not mirrored in the site repository."
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release asset",
+      "format": "zip archive",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1_Zenodo_Package.zip",
+      "note": "Release asset URL; not mirrored in the site repository."
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release asset",
+      "format": "sha256 manifest",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/SHA256SUMS",
+      "note": "Release asset URL; not mirrored in the site repository."
+    },
+    {
+      "object": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "surface": "GitHub release asset",
+      "format": "json manifest",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/personality_formation_time_shaped_continuity_v0_1.manifest.json",
+      "note": "Release asset URL; not mirrored in the site repository."
     }
   ]
 }

@@ -22,6 +22,7 @@
   "arq_cq_integration_addendum_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
   "instrumental_c_public_portfolio_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
   "c_hardening_pack_url": "https://ivankotov.eu/publications/c-hardening-pack/",
+  "personality_formation_time_shaped_continuity_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
   "nodes": [
     {
       "id": "agi",
@@ -124,6 +125,34 @@
         "hardware sovereignty",
         "public experiment proof of personhood or model capability",
         "replacement for law, institutions, medicine, courts, or human responsibility"
+      ]
+    },
+    {
+      "id": "personality_formation_time_shaped_continuity_v0_1",
+      "title": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "canonical_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "summary": "Draft conceptual / normative profile defining personality formation as time-shaped continuity through memory, constraint, relation, consequence, and irreversible duration.",
+      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+      "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json",
+      "sha256sums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/personality-formation-time-shaped-continuity-v0.1",
+      "release_tag": "personality-formation-time-shaped-continuity-v0.1",
+      "doi": "10.5281/zenodo.20648731",
+      "doi_url": "https://doi.org/10.5281/zenodo.20648731",
+      "concept_doi": "10.5281/zenodo.20648730",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20648730",
+      "zenodo_record": "https://zenodo.org/records/20648731",
+      "core_rule": "Capability can be installed. Personality must be formed.",
+      "not": [
+        "proof of consciousness",
+        "legal personhood claim",
+        "automatic authority",
+        "biological imitation requirement",
+        "mature personality at activation",
+        "continuity transfer certified by functional viability alone"
       ]
     },
     {
