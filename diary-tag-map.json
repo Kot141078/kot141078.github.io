@@ -5,7 +5,7 @@
     {
       "tag": "L4",
       "slug": "l4",
-      "count": 118,
+      "count": 119,
       "page": "https://ivankotov.eu/diary/tags/l4/",
       "aliases": [
         "L4",
@@ -262,21 +262,21 @@
       ]
     },
     {
+      "tag": "AdvancedGlobalIntelligence",
+      "slug": "advancedglobalintelligence",
+      "count": 13,
+      "page": "https://ivankotov.eu/diary/tags/advancedglobalintelligence/",
+      "aliases": [
+        "AdvancedGlobalIntelligence"
+      ]
+    },
+    {
       "tag": "ArtificialIntelligence",
       "slug": "artificialintelligence",
       "count": 13,
       "page": "https://ivankotov.eu/diary/tags/artificialintelligence/",
       "aliases": [
         "ArtificialIntelligence"
-      ]
-    },
-    {
-      "tag": "AdvancedGlobalIntelligence",
-      "slug": "advancedglobalintelligence",
-      "count": 12,
-      "page": "https://ivankotov.eu/diary/tags/advancedglobalintelligence/",
-      "aliases": [
-        "AdvancedGlobalIntelligence"
       ]
     },
     {
@@ -933,6 +933,15 @@
       ]
     },
     {
+      "tag": "ChildSafety",
+      "slug": "childsafety",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/childsafety/",
+      "aliases": [
+        "ChildSafety"
+      ]
+    },
+    {
       "tag": "Clean Architecture",
       "slug": "clean-architecture",
       "count": 3,
@@ -1213,21 +1222,22 @@
       ]
     },
     {
+      "tag": "CEqualsAPlusB",
+      "slug": "cequalsaplusb",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/cequalsaplusb/",
+      "aliases": [
+        "CEqualsAPlusB",
+        "cEqualsAPlusB"
+      ]
+    },
+    {
       "tag": "ChildDevelopment",
       "slug": "childdevelopment",
       "count": 2,
       "page": "https://ivankotov.eu/diary/tags/childdevelopment/",
       "aliases": [
         "ChildDevelopment"
-      ]
-    },
-    {
-      "tag": "ChildSafety",
-      "slug": "childsafety",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/childsafety/",
-      "aliases": [
-        "ChildSafety"
       ]
     },
     {
@@ -1888,12 +1898,12 @@
       ]
     },
     {
-      "tag": "cEqualsAPlusB",
-      "slug": "cequalsaplusb",
+      "tag": "CCDP",
+      "slug": "ccdp",
       "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/cequalsaplusb/",
+      "page": "https://ivankotov.eu/diary/tags/ccdp/",
       "aliases": [
-        "cEqualsAPlusB"
+        "CCDP"
       ]
     },
     {
@@ -3235,6 +3245,15 @@
       "page": "https://ivankotov.eu/diary/tags/recognition/",
       "aliases": [
         "Recognition"
+      ]
+    },
+    {
+      "tag": "ReleaseHygiene",
+      "slug": "releasehygiene",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/releasehygiene/",
+      "aliases": [
+        "ReleaseHygiene"
       ]
     },
     {

@@ -906,12 +906,11 @@ def render_tag_grid(tags: list[TagInfo], *, link_prefix: str) -> str:
     for tag in featured:
         alias_note = ""
         if len(tag.aliases) > 1:
-            alias_note = f"<p>Normalized from {len(tag.aliases)} raw source labels.</p>"
+            alias_note = f"\n            <p>Normalized from {len(tag.aliases)} raw source labels.</p>"
         cards.append(
             f"""          <article class="surface-group">
             <h3>{html.escape(tag.name)}</h3>
-            <p>{tag.count} linked entr{'y' if tag.count == 1 else 'ies'} in the archive.</p>
-            {alias_note}
+            <p>{tag.count} linked entr{'y' if tag.count == 1 else 'ies'} in the archive.</p>{alias_note}
             <div class="surface-links">
               <a href="{html.escape(link_prefix + tag.slug + "/")}">Open tag page</a>
             </div>

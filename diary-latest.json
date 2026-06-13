@@ -2,27 +2,26 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Powerful hardware needs powerful tasks.",
-    "date": "2026-06-02",
-    "slug": "powerful-hardware-needs-powerful-tasks",
-    "summary": "A note about Temporal AI Presence, local cognitive infrastructure, and hardware as substrate for continuity-bearing AI systems.",
+    "title": "CCDP v0.1.1 Hygiene Addendum published",
+    "date": "2026-06-13",
+    "slug": "ccdp-v0-1-1-hygiene-addendum-published",
+    "summary": "Published CCDP v0.1.1 Hygiene Addendum as a Mode A DOI-safe patch pack for the Child-c Development Protocol corpus.",
     "tags": [
-      "AI",
-      "AIArchitecture",
-      "AgenticAI",
-      "LocalAI",
-      "TemporalAIPresence"
+      "CCDP",
+      "ChildSafety",
+      "ReleaseHygiene",
+      "AdvancedGlobalIntelligence",
+      "L4",
+      "CEqualsAPlusB"
     ],
     "raw_tags": [
-      "AI",
-      "AIArchitecture",
-      "AgenticAI",
-      "LocalAI",
-      "TemporalAIPresence"
+      "CCDP",
+      "ChildSafety",
+      "ReleaseHygiene",
+      "AdvancedGlobalIntelligence",
+      "L4",
+      "CEqualsAPlusB"
     ],
-    "page": "https://ivankotov.eu/diary/powerful-hardware-needs-powerful-tasks/",
-    "primary_image": "https://ivankotov.eu/assets/diary/powerful-hardware-needs-powerful-tasks/cover.jpg",
-    "image_alt": "Large black local computing tower in a lab with glowing data streams, monitors, notebooks, and hardware modules.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-agenticai-activity-7467461628553494528-Cy0M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/ccdp-v0-1-1-hygiene-addendum-published/"
   }
 }
