@@ -517,6 +517,79 @@
       "format": "json manifest",
       "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/personality-formation-time-shaped-continuity-v0.1/personality_formation_time_shaped_continuity_v0_1.manifest.json",
       "note": "Release asset URL; not mirrored in the site repository."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+      "note": "Public release surface for the DOI-bound working paper package; repository files are not mirrored in the site repository.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20679718",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20679717",
+      "zenodo_record_url": "https://zenodo.org/records/20679718",
+      "repository": "https://github.com/Kot141078/ester-theoretical-core"
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20679718",
+      "doi": "10.5281/zenodo.20679718",
+      "concept_doi": "10.5281/zenodo.20679717",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20679717",
+      "zenodo_record_url": "https://zenodo.org/records/20679718",
+      "note": "Persistent public archive identifier for the DOI-bound v0.1 working paper.",
+      "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+      "repository": "https://github.com/Kot141078/ester-theoretical-core"
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.pdf",
+      "note": "DOI-bound PDF linked from the public repository; not mirrored in the site repository."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.md",
+      "note": "DOI-bound Markdown source linked from the public repository; not mirrored in the site repository."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "docx",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.docx",
+      "note": "DOI-bound DOCX copy linked from the public repository; not mirrored in the site repository."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "CITATION.cff",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/CITATION.cff",
+      "note": "Citation metadata for the DOI-bound v0.1 working paper package."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "json",
+      "language": "English",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/.zenodo.json",
+      "note": "Zenodo metadata for the published v0.1 package."
+    },
+    {
+      "object": "Theoretical Core of Project Ester v0.1",
+      "surface": "GitHub repository file",
+      "format": "sha256 manifest",
+      "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/SHA256SUMS.txt",
+      "note": "Repository checksum manifest for the DOI-bound package files."
     }
   ]
 }

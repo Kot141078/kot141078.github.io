@@ -398,6 +398,51 @@
         "AI safety",
         "Advanced Global Intelligence"
       ]
+    },
+    {
+      "id": "ester_theoretical_core_v0_1",
+      "title": "Theoretical Core of Project Ester v0.1",
+      "role": "publication / working paper",
+      "primary_page": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "repo_url": "https://github.com/Kot141078/ester-theoretical-core",
+      "repository": "ester-theoretical-core",
+      "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+      "readme_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/README.md",
+      "pdf_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.pdf",
+      "markdown_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.md",
+      "docx_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/docs/Ester_Theoretical_Core_v0_1.docx",
+      "citation_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/CITATION.cff",
+      "zenodo_json_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/.zenodo.json",
+      "sha256sums_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/SHA256SUMS.txt",
+      "type": "publication",
+      "doi": "10.5281/zenodo.20679718",
+      "doi_url": "https://doi.org/10.5281/zenodo.20679718",
+      "concept_doi": "10.5281/zenodo.20679717",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20679717",
+      "zenodo_record": "https://zenodo.org/records/20679718",
+      "zenodo_status": "published",
+      "release_status": "github_release_published",
+      "github_release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+      "release_tag": "v0.1",
+      "version": "v0.1",
+      "date": "2026-06-13",
+      "status": "DOI-bound working paper",
+      "license": "CC BY 4.0",
+      "summary": "DOI-bound working paper defining the theoretical core of Project Ester and the c = a + b formation model.",
+      "notes": "The website links Zenodo and GitHub as public source surfaces; DOI-bound files are not mirrored locally.",
+      "tags": [
+        "artificial intelligence",
+        "cognitive architecture",
+        "Project Ester",
+        "c=a+b",
+        "artificial cognitive entity",
+        "LLM procedures",
+        "long-term memory",
+        "local AI",
+        "decentralized AI",
+        "AI alignment",
+        "Judge synthesis"
+      ]
     }
   ]
 }

@@ -23,6 +23,7 @@
   "instrumental_c_public_portfolio_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
   "c_hardening_pack_url": "https://ivankotov.eu/publications/c-hardening-pack/",
   "personality_formation_time_shaped_continuity_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+  "ester_theoretical_core_v0_1_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
   "nodes": [
     {
       "id": "agi",
@@ -153,6 +154,30 @@
         "biological imitation requirement",
         "mature personality at activation",
         "continuity transfer certified by functional viability alone"
+      ]
+    },
+    {
+      "id": "ester_theoretical_core_v0_1",
+      "title": "Theoretical Core of Project Ester v0.1",
+      "url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "canonical_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "summary": "DOI-bound working paper defining the theoretical core of Project Ester through the c = a + b formation model.",
+      "repository_url": "https://github.com/Kot141078/ester-theoretical-core",
+      "github_release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+      "release_tag": "v0.1",
+      "doi": "10.5281/zenodo.20679718",
+      "doi_url": "https://doi.org/10.5281/zenodo.20679718",
+      "concept_doi": "10.5281/zenodo.20679717",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20679717",
+      "zenodo_record": "https://zenodo.org/records/20679718",
+      "license": "CC BY 4.0",
+      "not": [
+        "proof of human-like consciousness",
+        "a standalone LLM claim",
+        "a RAG system claim",
+        "an autonomous agent claim",
+        "a digital twin claim",
+        "a local file mirror"
       ]
     },
     {
