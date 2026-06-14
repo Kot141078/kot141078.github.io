@@ -510,6 +510,47 @@
         "AI alignment",
         "Judge synthesis"
       ]
+    },
+    {
+      "id": "personality_formation_evidence_package_v0_1",
+      "title": "Personality Formation Evidence Package v0.1",
+      "role": "evidence-admissibility companion package",
+      "primary_page": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "repo_url": "https://github.com/Kot141078/ester-theoretical-core",
+      "repository": "ester-theoretical-core",
+      "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1",
+      "github_package": "https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/personality-formation/pf-evidence-package-v0.1",
+      "type": "publication",
+      "subtype": "working-paper",
+      "doi": "10.5281/zenodo.20692453",
+      "doi_url": "https://doi.org/10.5281/zenodo.20692453",
+      "zenodo_record": "https://zenodo.org/records/20692453",
+      "parent_document": "Theoretical Core of Project Ester v0.1",
+      "parent_doi": "10.5281/zenodo.20679718",
+      "parent_doi_url": "https://doi.org/10.5281/zenodo.20679718",
+      "zenodo_status": "published",
+      "release_status": "github_release_published",
+      "github_release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1",
+      "release_tag": "pf-evidence-package-v0.1",
+      "version": "0.1",
+      "date": "2026-06-14",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium - 2026",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "sha256": "3fb424a5f5fdbc0eb0eae1a1dac26ad8da743242618c288bced2303366a39faf",
+      "summary": "Evidence-admissibility framework for bounded personality-formation claims in Project Ester.",
+      "notes": "The website links Zenodo and GitHub as public source surfaces; package files are not mirrored locally.",
+      "tags": [
+        "Project Ester",
+        "personality formation",
+        "evidence admissibility",
+        "witness events",
+        "migration tests",
+        "continuity admissibility",
+        "c = a + b",
+        "AI safety"
+      ]
     }
   ]
 }

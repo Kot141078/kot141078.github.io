@@ -24,6 +24,7 @@
   "c_hardening_pack_url": "https://ivankotov.eu/publications/c-hardening-pack/",
   "personality_formation_time_shaped_continuity_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
   "ester_theoretical_core_v0_1_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+  "personality_formation_evidence_package_v0_1_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "nodes": [
     {
       "id": "agi",
@@ -224,6 +225,31 @@
       ]
     },
     {
+      "id": "personality_formation_evidence_package_v0_1",
+      "title": "Personality Formation Evidence Package v0.1",
+      "url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "canonical_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "summary": "Evidence-admissibility framework for bounded personality-formation claims in Project Ester.",
+      "doi": "10.5281/zenodo.20692453",
+      "doi_url": "https://doi.org/10.5281/zenodo.20692453",
+      "zenodo_record": "https://zenodo.org/records/20692453",
+      "github_release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1",
+      "github_package": "https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/personality-formation/pf-evidence-package-v0.1",
+      "parent_doi": "10.5281/zenodo.20679718",
+      "parent_doi_url": "https://doi.org/10.5281/zenodo.20679718",
+      "license": "CC-BY-4.0",
+      "sha256": "3fb424a5f5fdbc0eb0eae1a1dac26ad8da743242618c288bced2303366a39faf",
+      "not": [
+        "a consciousness test",
+        "a biological life claim",
+        "a soul claim",
+        "legal personhood",
+        "product certification",
+        "deployment approval",
+        "completed AGI"
+      ]
+    },
+    {
       "id": "l4",
       "title": "L4",
       "url": "https://ivankotov.eu/l4/",
@@ -360,5 +386,6 @@
     "qubit-of-hope-volume-ii",
     "qubit-of-hope-volume-iii"
   ],
-  "ccdp_amdr_pamdc_addendum_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/"
+  "ccdp_amdr_pamdc_addendum_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+  "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/"
 }
