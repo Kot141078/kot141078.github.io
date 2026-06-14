@@ -183,6 +183,23 @@
       ]
     },
     {
+      "id": "ccdp_amdr_pamdc_addendum_v0_1_1",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+      "canonical_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+      "summary": "Published CCDP addendum for active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.",
+      "doi": "10.5281/zenodo.20691716",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "zenodo_record": "https://zenodo.org/records/20691716",
+      "github_source": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc",
+      "not": [
+        "a replacement for CCDP v0.1",
+        "a replacement for the CCDP v0.1.1 Hygiene Addendum",
+        "a Zenodo mutation",
+        "a website-local package mirror"
+      ]
+    },
+    {
       "id": "ester_theoretical_core_v0_1",
       "title": "Theoretical Core of Project Ester v0.1",
       "url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
@@ -342,5 +359,6 @@
     "qubit-of-hope",
     "qubit-of-hope-volume-ii",
     "qubit-of-hope-volume-iii"
-  ]
+  ],
+  "ccdp_amdr_pamdc_addendum_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/"
 }

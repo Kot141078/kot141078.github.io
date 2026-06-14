@@ -568,6 +568,38 @@
       "zip_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff"
     },
     {
+      "object": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20691716",
+      "doi": "10.5281/zenodo.20691716",
+      "zenodo_record_url": "https://zenodo.org/records/20691716",
+      "repository_source": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc",
+      "note": "Persistent public archive identifier for the AMDR/PAMDC addendum-only CCDP delta."
+    },
+    {
+      "object": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "surface": "Zenodo record",
+      "format": "record page",
+      "language": "English",
+      "url": "https://zenodo.org/records/20691716",
+      "doi": "10.5281/zenodo.20691716",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "repository_source": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc",
+      "note": "Published addendum record; DOI-bound files are not mirrored in the site repository."
+    },
+    {
+      "object": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "surface": "GitHub source path",
+      "format": "repository tree",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "zenodo_record_url": "https://zenodo.org/records/20691716",
+      "note": "Main-branch source path for the expanded addendum files and package-control metadata; no local website ZIP/PDF mirror."
+    },
+    {
       "object": "Theoretical Core of Project Ester v0.1",
       "surface": "GitHub release",
       "format": "release page",
