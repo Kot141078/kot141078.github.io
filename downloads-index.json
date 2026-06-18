@@ -726,6 +726,127 @@
       "format": "sha256 manifest",
       "url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/SHA256SUMS.txt",
       "note": "Repository checksum manifest for the DOI-bound package files."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Public website entry for the A6 composition layer and its linked public source surfaces."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20752182",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Persistent public archive identifier for the A6 composition layer package.",
+      "doi": "10.5281/zenodo.20752182"
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "Zenodo record",
+      "format": "record page",
+      "language": "English",
+      "url": "https://zenodo.org/records/20752182",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Published Zenodo record for the v0.1.1 A6 composition layer package."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Public GitHub release surface for the PDFs, ZIP package, SHA256 sidecar, and citation metadata."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "GitHub source package",
+      "format": "repository tree",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Main-branch source path for the A6 composition layer package."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "A6 academic PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/raw/main/protocols/a6-composition-layer/v0.1.1/pdf/A6_Composition_Layer_v0.1.1_academic.pdf",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Academic PDF for the A6 composition layer profile."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "Anchor Class Boundaries academic PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/raw/main/protocols/a6-composition-layer/v0.1.1/pdf/ANCHOR_CLASS_BOUNDARIES_v0.2.1_academic.pdf",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Anchor Class Boundaries v0.2.1 academic PDF included with the A6 package."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "Full release ZIP",
+      "format": "zip",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/raw/main/protocols/a6-composition-layer/v0.1.1/release-assets/ester-a6-composition-layer-v0.1.1-doi-github-academic.zip",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Complete release package mirrored by the GitHub release and Zenodo deposit."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "ZIP SHA256",
+      "format": "SHA-256 sidecar",
+      "language": "n/a",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/raw/main/protocols/a6-composition-layer/v0.1.1/release-assets/ester-a6-composition-layer-v0.1.1-doi-github-academic.zip.sha256",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Checksum sidecar for the full release ZIP."
+    },
+    {
+      "object": "A6 Composition Layer v0.1.1",
+      "surface": "CITATION.cff",
+      "format": "citation metadata",
+      "language": "n/a",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/a6-composition-layer/v0.1.1/CITATION.cff",
+      "doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record_url": "https://zenodo.org/records/20752182",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "note": "Package-scoped citation metadata for the A6 composition layer release."
     }
   ]
 }

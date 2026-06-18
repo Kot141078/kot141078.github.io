@@ -372,6 +372,22 @@
         "a deployment grant",
         "a certification grant"
       ]
+    },
+    {
+      "id": "a6_composition_layer_v0_1_1",
+      "title": "A6 Composition Layer v0.1.1",
+      "url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "summary": "Hybrid / Federated Anchor Composition Profile for A6 in c = a + b. A6 is a mapped composition over A0-A5, with A6-EXIT as revoke-and-continue and A6-SPLIT as freeze-and-escalate.",
+      "doi": "https://doi.org/10.5281/zenodo.20752182",
+      "zenodo_record": "https://zenodo.org/records/20752182",
+      "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+      "not": [
+        "a merged super-anchor",
+        "merged standing, memory, identity, or authority",
+        "a replacement for A0-A5",
+        "automatic authority or deployment approval"
+      ]
     }
   ],
   "reading_path": [
@@ -387,5 +403,6 @@
     "qubit-of-hope-volume-iii"
   ],
   "ccdp_amdr_pamdc_addendum_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
-  "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/"
+  "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+  "a6_composition_layer_v0_1_1_url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/"
 }
