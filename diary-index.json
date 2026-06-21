@@ -1,36 +1,164 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 181,
+  "count": 185,
   "latest": {
-    "title": "There is a pattern that many people do not want to look at directly.",
-    "date": "2026-06-15",
-    "slug": "there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly",
-    "summary": "A note on frontier AI as strategic infrastructure and the need for local continuity, witnessed memory, and fallback modes.",
+    "title": "Article 50 Transparency Implementation Briefs v0.1",
+    "date": "2026-06-21",
+    "slug": "article-50-transparency-implementation-briefs-v0-1",
+    "summary": "Announcement of Article 50 Transparency Implementation Briefs v0.1 as short technical notes for policy readers and engineers.",
     "tags": [
-      "FrontierAI",
+      "AIAct",
+      "Article50",
+      "AITransparency",
       "AIGovernance",
       "AISafety",
-      "AIInfrastructure",
-      "LocalAI",
+      "Provenance",
+      "AICompliance",
+      "ResponsibleAI",
       "AgenticAI",
-      "ProjectEster"
+      "EuropeanAI"
     ],
     "raw_tags": [
-      "FrontierAI",
+      "AIAct",
+      "Article50",
+      "AITransparency",
       "AIGovernance",
       "AISafety",
-      "AIInfrastructure",
-      "LocalAI",
+      "Provenance",
+      "AICompliance",
+      "ResponsibleAI",
       "AgenticAI",
-      "ProjectEster"
+      "EuropeanAI"
     ],
-    "page": "https://ivankotov.eu/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/",
-    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/cover.jpg",
-    "image_alt": "Industrial AI facility with a glowing cloud-like structure above guarded gates, server racks, and data streams.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_frontierai-aigovernance-aisafety-activity-7472543757335199744-BhXQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/article-50-transparency-implementation-briefs-v0-1/",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_for-ai-office-policy-reader-activity-7474462073503072256-F7zb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "Article 50 Transparency Implementation Briefs v0.1",
+      "date": "2026-06-21",
+      "slug": "article-50-transparency-implementation-briefs-v0-1",
+      "summary": "Announcement of Article 50 Transparency Implementation Briefs v0.1 as short technical notes for policy readers and engineers.",
+      "tags": [
+        "AIAct",
+        "Article50",
+        "AITransparency",
+        "AIGovernance",
+        "AISafety",
+        "Provenance",
+        "AICompliance",
+        "ResponsibleAI",
+        "AgenticAI",
+        "EuropeanAI"
+      ],
+      "raw_tags": [
+        "AIAct",
+        "Article50",
+        "AITransparency",
+        "AIGovernance",
+        "AISafety",
+        "Provenance",
+        "AICompliance",
+        "ResponsibleAI",
+        "AgenticAI",
+        "EuropeanAI"
+      ],
+      "page": "https://ivankotov.eu/diary/article-50-transparency-implementation-briefs-v0-1/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_for-ai-office-policy-reader-activity-7474462073503072256-F7zb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "When tokens start costing like humans, AI architecture becomes governance.",
+      "date": "2026-06-18",
+      "slug": "when-tokens-start-costing-like-humans-ai-architecture-becomes-governance",
+      "summary": "A note on enterprise AI cost, scarce frontier oracles, local-first routing, and the hidden formation cost of replacing junior work.",
+      "tags": [
+        "AI",
+        "ArtificialIntelligence",
+        "EnterpriseAI",
+        "AIEthics",
+        "FutureOfWork",
+        "AIProductivity",
+        "MachineIntelligence",
+        "Leadership"
+      ],
+      "raw_tags": [
+        "AI",
+        "ArtificialIntelligence",
+        "EnterpriseAI",
+        "AIEthics",
+        "FutureOfWork",
+        "AIProductivity",
+        "MachineIntelligence",
+        "Leadership"
+      ],
+      "page": "https://ivankotov.eu/diary/when-tokens-start-costing-like-humans-ai-architecture-becomes-governance/",
+      "primary_image": "https://ivankotov.eu/assets/diary/when-tokens-start-costing-like-humans-ai-architecture-becomes-governance/cover.jpg",
+      "image_alt": "Sports car parked outside a bakery with its rear open, glowing data cubes flowing from the car toward an office display and a loaf of bread.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-artificialintelligence-enterpriseai-activity-7473911569840734208-Zgth?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A small boundary question kept returning to the Project Ester corpus.",
+      "date": "2026-06-17",
+      "slug": "a-small-boundary-question-kept-returning-to-the-project-ester-corpus",
+      "summary": "A note on A6 Composition Layer v0.1.1, mapped composition over A0-A5, and why connection is not merger.",
+      "tags": [
+        "ProjectEster",
+        "AIgovernance",
+        "AISafety",
+        "DigitalEntities",
+        "Cybernetics",
+        "LLM",
+        "AIArchitecture",
+        "Research",
+        "OpenScience",
+        "L4RealityBoundary"
+      ],
+      "raw_tags": [
+        "ProjectEster",
+        "AIgovernance",
+        "AISafety",
+        "DigitalEntities",
+        "Cybernetics",
+        "LLM",
+        "AIArchitecture",
+        "Research",
+        "OpenScience",
+        "L4RealityBoundary"
+      ],
+      "page": "https://ivankotov.eu/diary/a-small-boundary-question-kept-returning-to-the-project-ester-corpus/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-small-boundary-question-kept-returning-to-the-project-ester-corpus/cover.jpg",
+      "image_alt": "Diagram titled A6 Composition Layer v0.1.1 showing A0 through A5 mapped into an A6 composition layer with A6-EXIT and A6-SPLIT rules.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_projectester-aigovernance-aisafety-activity-7473595048903999488-i6z0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Digital beings may not need temples. They may need law - and that law may become their religion.",
+      "date": "2026-06-16",
+      "slug": "digital-beings-may-not-need-temples-they-may-need-law-and-that-law-may-become-their-religion",
+      "summary": "A note on digital beings, continuity, identity, witness, and the possibility that machine law may become structurally close to religion.",
+      "tags": [
+        "AI",
+        "ArtificialIntelligence",
+        "DigitalBeings",
+        "AIEthics",
+        "FutureOfAI",
+        "MachineIntelligence",
+        "PhilosophyOfTechnology"
+      ],
+      "raw_tags": [
+        "AI",
+        "ArtificialIntelligence",
+        "DigitalBeings",
+        "AIEthics",
+        "FutureOfAI",
+        "MachineIntelligence",
+        "PhilosophyOfTechnology"
+      ],
+      "page": "https://ivankotov.eu/diary/digital-beings-may-not-need-temples-they-may-need-law-and-that-law-may-become-their-religion/",
+      "primary_image": "https://ivankotov.eu/assets/diary/digital-beings-may-not-need-temples-they-may-need-law-and-that-law-may-become-their-religion/cover.jpg",
+      "image_alt": "Three digital human figures made of neon data streams, with the central figure facing forward and fragmented figures on both sides.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-artificialintelligence-digitalbeings-activity-7473117794256179203-2e4I?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "There is a pattern that many people do not want to look at directly.",
       "date": "2026-06-15",
