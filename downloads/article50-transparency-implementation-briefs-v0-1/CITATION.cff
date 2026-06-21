@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these implementation briefs, please cite them using the metadata in this file. These briefs are derived from the Article 50 Transparency Submission Pack v0.1, DOI: 10.5281/zenodo.20315439."
+title: "Article 50 Transparency Implementation Briefs v0.1"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+version: "0.1"
+date-released: "2026"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1"
+abstract: "Two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1: a policy-reader note on Article 50 transparency as an evidence chain, and an engineering note on CGAM, witness events, oracle degradation, human gates, and rollback paths."
+keywords:
+  - "Article 50"
+  - "EU AI Act"
+  - "AI transparency"
+  - "evidence chain"
+  - "AI-assisted workflows"
+  - "witness records"
+  - "provenance"
+  - "human review"
+  - "rollback"
+  - "oracle degradation"
+license: "CC-BY-4.0"

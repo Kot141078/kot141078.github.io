@@ -847,6 +847,94 @@
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
       "note": "Package-scoped citation metadata for the A6 composition layer release."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Public website entry for the supporting implementation briefs."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "Policy-reader Markdown",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/01_For_AI_Office_Policy_Reader.md",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Short policy-reader brief on Article 50 transparency as an evidence chain."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "Policy-reader PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/01_For_AI_Office_Policy_Reader.pdf",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Academic PDF version of the policy-reader brief."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "Engineering Markdown",
+      "format": "markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/02_For_Engineers_CGAM_Witness_Oracle_Degradation.md",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Engineering brief on CGAM, witness events, oracle degradation, human gates, and rollback paths."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "Engineering PDF",
+      "format": "pdf",
+      "language": "English",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/02_For_Engineers_CGAM_Witness_Oracle_Degradation.pdf",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Academic PDF version of the engineering brief."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "SHA256SUMS",
+      "format": "sha256 manifest",
+      "language": "n/a",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/SHA256SUMS",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Checksum manifest for website download copies."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "PACKAGE_MANIFEST.json",
+      "format": "json",
+      "language": "n/a",
+      "url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/PACKAGE_MANIFEST.json",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Machine-readable package manifest."
+    },
+    {
+      "object": "Article 50 Transparency Implementation Briefs v0.1",
+      "surface": "GitHub package path",
+      "format": "repository tree",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+      "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
+      "note": "Source package path in advanced-global-intelligence."
     }
   ]
 }

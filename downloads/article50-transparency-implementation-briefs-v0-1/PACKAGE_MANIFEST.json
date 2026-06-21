@@ -1,0 +1,40 @@
+{
+  "package_id": "article50-transparency-implementation-briefs-v0.1",
+  "title": "Article 50 Transparency Implementation Briefs v0.1",
+  "author": "Kotov Ivan",
+  "location": "Bruxelles, Belgique",
+  "year": 2026,
+  "status": "supporting implementation briefs / technical notes",
+  "non_claim_boundary": [
+    "not legal advice",
+    "not certification",
+    "not a conformity assessment",
+    "not a formal Article 50 compliance claim",
+    "formal compliance remains deployment-specific and subject to legal review"
+  ],
+  "derived_from": {
+    "title": "Article 50 Transparency Submission Pack v0.1",
+    "doi": "10.5281/zenodo.20315439",
+    "url": "https://doi.org/10.5281/zenodo.20315439"
+  },
+  "files": [
+    {
+      "path": "01_For_AI_Office_Policy_Reader.md",
+      "role": "policy-reader markdown brief"
+    },
+    {
+      "path": "01_For_AI_Office_Policy_Reader.pdf",
+      "role": "policy-reader academic PDF"
+    },
+    {
+      "path": "02_For_Engineers_CGAM_Witness_Oracle_Degradation.md",
+      "role": "engineering markdown brief"
+    },
+    {
+      "path": "02_For_Engineers_CGAM_Witness_Oracle_Degradation.pdf",
+      "role": "engineering academic PDF"
+    }
+  ],
+  "core_policy_pattern": "system boundary -> actor role -> obligation trigger -> disclosure or marking control -> evidence artifact -> responsible actor -> correction or review route",
+  "core_engineering_pattern": "AI-assisted workflow -> task contract -> permission scope -> sandbox/worktree boundary -> witness event -> provenance sidecar -> human review -> human gate -> release/rejection -> rollback/correction route"
+}
