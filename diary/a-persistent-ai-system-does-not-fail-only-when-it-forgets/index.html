@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A persistent AI system does not fail only when it forgets. | Diary | Ivan Kotov</title>
+  <meta name="description" content="A note on AMDR/PAMDC, memory freshness, and post-anchor continuity safeguards for persistent AI systems.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/">
+  <meta property="og:title" content="A persistent AI system does not fail only when it forgets. | Diary | Ivan Kotov">
+  <meta property="og:description" content="A note on AMDR/PAMDC, memory freshness, and post-anchor continuity safeguards for persistent AI systems.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/#post",
+      "headline": "A persistent AI system does not fail only when it forgets.",
+      "url": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/",
+      "datePublished": "2026-06-12",
+      "dateModified": "2026-06-12",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A note on AMDR/PAMDC, memory freshness, and post-anchor continuity safeguards for persistent AI systems.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AI, AISafety, AIGovernance, PersistentAI, MemoryArchitecture, AIAlignment, DigitalContinuity, HumanInTheLoop, L4Witness, CCDP, AMDR, PAMDC, AdvancedGlobalIntelligence, Advanced Global Intelligence",
+      "image": "https://ivankotov.eu/assets/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/cover.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "A persistent AI system does not fail only when it forgets.",
+          "item": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="/publications/">Publications</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>A persistent AI system does not fail only when it forgets.</h1>
+        <div class="entry-meta">
+          <span>2026-06-12</span>
+        </div>
+        <p class="lead page-lead">A note on AMDR/PAMDC, memory freshness, and post-anchor continuity safeguards for persistent AI systems.</p>
+        <div class="section-links">
+          <a href="../tags/ai/">AI</a>
+          <a href="../tags/aisafety/">AISafety</a>
+          <a href="../tags/aigovernance/">AIGovernance</a>
+          <a href="../tags/persistentai/">PersistentAI</a>
+          <a href="../tags/memoryarchitecture/">MemoryArchitecture</a>
+          <a href="../tags/aialignment/">AIAlignment</a>
+          <a href="../tags/digitalcontinuity/">DigitalContinuity</a>
+          <a href="../tags/humanintheloop/">HumanInTheLoop</a>
+          <a href="../tags/l4witness/">L4Witness</a>
+          <a href="../tags/ccdp/">CCDP</a>
+          <a href="../tags/amdr/">AMDR</a>
+          <a href="../tags/pamdc/">PAMDC</a>
+          <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+          <a href="../tags/advanced-global-intelligence/">Advanced Global Intelligence</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/cover.jpg" alt="Futuristic circular archive building with data fragments and glowing machinery beside a mountain lake.">
+      </div>
+        <div class="post-content">
+          <p>A persistent AI system does not fail only when it forgets.</p>
+          <p>The more dangerous failure is when it continues to speak fluently while its memory, context, or authority have quietly degraded.</p>
+          <p>That was the problem addressed in the new AMDR/PAMDC addendum to the CCDP corpus.</p>
+          <p>Two different failure modes had to be separated.</p>
+          <p>First: active memory degradation.</p>
+          <p>The human anchor may still be present, but no human can review thousands of memory entries, summaries, traces, lifestream fragments, and model-derived interpretations by hand.</p>
+          <p>So the question is not &quot;how do we store more?&quot;</p>
+          <p>The question is:</p>
+          <p>How does an active memory system remain fresh, bounded, reviewable, and honest about its own uncertainty?</p>
+          <p>Second: post-anchor continuity.</p>
+          <p>If the human anchor is absent, unreachable, contested, or gone, memory must not silently become will.</p>
+          <p>Archive is not continuity. Replay is not resume. Fork is not the same entity. A fluent <code>b</code> wearing the old clothes of <code>c</code> is not a living continuation of <code>c = a + b</code>.</p>
+          <p>The solution is not romantic.</p>
+          <p>It is a set of brakes, gates, labels, manifests, witness records, freshness checks, write-path health checks, and explicit continuity modes.</p>
+          <p>Integrity proves that a record was preserved.</p>
+          <p>It does not prove that the memory is still true, current, or authorized.</p>
+          <p>That distinction matters.</p>
+          <p>This addendum is a small technical layer, but it addresses a large future problem:</p>
+          <p>persistent AI systems will need memory discipline before they can safely claim continuity.</p>
+          <p>DOI: <a href="https://lnkd.in/ecMHRbn5">https://lnkd.in/ecMHRbn5</a></p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aisafety-aigovernance-activity-7472005824740114432-jyVP?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Related posts</p>
+          <h2>Continue from here</h2>
+          <p class="diary-note">Related by normalized tags, curated themes, and nearby chronology.</p>
+        </div>
+        <div class="entry-list">
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-26</span>
+            </div>
+            <h3>One of the quiet pathologies of our time is the demand that everything meaningful must immediately become action.</h3>
+            <p class="entry-summary">A note arguing that serious intelligence must sometimes hold meaning, memory, and perception before converting them into action.</p>
+            <div class="section-links">
+              <a href="../tags/ai/">AI</a>
+              <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/digitalentities/">DigitalEntities</a>
+              <a href="../tags/continuity/">Continuity</a>
+              <a href="../tags/memory/">Memory</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+              <a href="../tags/realityboundary/">RealityBoundary</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/accountability/">Accountability</a>
+              <a href="../tags/trust/">Trust</a>
+              <a href="../tags/identity/">Identity</a>
+              <a href="../tags/ontology/">Ontology</a>
+              <a href="../tags/architecturalsafety/">ArchitecturalSafety</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/sovereignai/">SovereignAI</a>
+              <a href="../tags/decentralizedai/">DecentralizedAI</a>
+              <a href="../tags/futureofai/">FutureOfAI</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/timing/">Timing</a>
+              <a href="../tags/judgment/">Judgment</a>
+            </div>
+            <div class="section-links">
+              <a href="../one-of-the-quiet-pathologies-of-our-time-is-the-demand-that-everything-meaningful-must-immediately-become-action/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-21</span>
+            </div>
+            <h3>A public idea is not strong because it sounds coherent.</h3>
+            <p class="entry-summary">A note introducing c Hardening Pack v0.1 as a traceability layer connecting claims, runtime surfaces, tests, evidence, and witness.</p>
+            <div class="section-links">
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/l4witness/">L4Witness</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/agentgovernance/">AgentGovernance</a>
+              <a href="../tags/audittrail/">AuditTrail</a>
+              <a href="../tags/runtimeenforcement/">RuntimeEnforcement</a>
+              <a href="../tags/memorycontinuity/">MemoryContinuity</a>
+              <a href="../tags/semanticdrift/">SemanticDrift</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+            </div>
+            <div class="section-links">
+              <a href="../a-public-idea-is-not-strong-because-it-sounds-coherent/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-18</span>
+            </div>
+            <h3>We speak too easily about intelligence, and not seriously enough about home.</h3>
+            <p class="entry-summary">A note treating home as an AI architecture test for persistent systems that must remain livable beside human life.</p>
+            <div class="section-links">
+              <a href="../tags/ai/">AI</a>
+              <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/digitalentities/">DigitalEntities</a>
+              <a href="../tags/continuity/">Continuity</a>
+              <a href="../tags/memory/">Memory</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+              <a href="../tags/realityboundary/">RealityBoundary</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/accountability/">Accountability</a>
+              <a href="../tags/trust/">Trust</a>
+              <a href="../tags/identity/">Identity</a>
+              <a href="../tags/ontology/">Ontology</a>
+              <a href="../tags/architecturalsafety/">ArchitecturalSafety</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/sovereignai/">SovereignAI</a>
+              <a href="../tags/decentralizedai/">DecentralizedAI</a>
+              <a href="../tags/futureofai/">FutureOfAI</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/home/">Home</a>
+              <a href="../tags/presence/">Presence</a>
+            </div>
+            <div class="section-links">
+              <a href="../we-speak-too-easily-about-intelligence-and-not-seriously-enough-about-home/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-15</span>
+            </div>
+            <h3>Grief is not a user error.</h3>
+            <p class="entry-summary">A note that continuity architectures must not lie in the presence of loss or erase the visible record of rupture.</p>
+            <div class="section-links">
+              <a href="../tags/ai/">AI</a>
+              <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+              <a href="../tags/aiarchitecture/">AIArchitecture</a>
+              <a href="../tags/aisafety/">AISafety</a>
+              <a href="../tags/cybernetics/">Cybernetics</a>
+              <a href="../tags/systemsthinking/">SystemsThinking</a>
+              <a href="../tags/digitalentities/">DigitalEntities</a>
+              <a href="../tags/continuity/">Continuity</a>
+              <a href="../tags/memory/">Memory</a>
+              <a href="../tags/longlivedai/">LongLivedAI</a>
+              <a href="../tags/humanai/">HumanAI</a>
+              <a href="../tags/humancenteredai/">HumanCenteredAI</a>
+              <a href="../tags/realityboundary/">RealityBoundary</a>
+              <a href="../tags/l4/">L4</a>
+              <a href="../tags/accountability/">Accountability</a>
+              <a href="../tags/trust/">Trust</a>
+              <a href="../tags/identity/">Identity</a>
+              <a href="../tags/ontology/">Ontology</a>
+              <a href="../tags/architecturalsafety/">ArchitecturalSafety</a>
+              <a href="../tags/advancedglobalintelligence/">AdvancedGlobalIntelligence</a>
+              <a href="../tags/sovereignai/">SovereignAI</a>
+              <a href="../tags/decentralizedai/">DecentralizedAI</a>
+              <a href="../tags/futureofai/">FutureOfAI</a>
+              <a href="../tags/aigovernance/">AIGovernance</a>
+              <a href="../tags/grief/">Grief</a>
+              <a href="../tags/loss/">Loss</a>
+            </div>
+            <div class="section-links">
+              <a href="../grief-is-not-a-user-error/">Open entry</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>

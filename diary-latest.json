@@ -2,26 +2,31 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "CCDP v0.1.1 Hygiene Addendum published",
-    "date": "2026-06-13",
-    "slug": "ccdp-v0-1-1-hygiene-addendum-published",
-    "summary": "Published CCDP v0.1.1 Hygiene Addendum as a Mode A DOI-safe patch pack for the Child-c Development Protocol corpus.",
+    "title": "There is a pattern that many people do not want to look at directly.",
+    "date": "2026-06-15",
+    "slug": "there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly",
+    "summary": "A note on frontier AI as strategic infrastructure and the need for local continuity, witnessed memory, and fallback modes.",
     "tags": [
-      "CCDP",
-      "ChildSafety",
-      "ReleaseHygiene",
-      "AdvancedGlobalIntelligence",
-      "L4",
-      "CEqualsAPlusB"
+      "FrontierAI",
+      "AIGovernance",
+      "AISafety",
+      "AIInfrastructure",
+      "LocalAI",
+      "AgenticAI",
+      "ProjectEster"
     ],
     "raw_tags": [
-      "CCDP",
-      "ChildSafety",
-      "ReleaseHygiene",
-      "AdvancedGlobalIntelligence",
-      "L4",
-      "CEqualsAPlusB"
+      "FrontierAI",
+      "AIGovernance",
+      "AISafety",
+      "AIInfrastructure",
+      "LocalAI",
+      "AgenticAI",
+      "ProjectEster"
     ],
-    "page": "https://ivankotov.eu/diary/ccdp-v0-1-1-hygiene-addendum-published/"
+    "page": "https://ivankotov.eu/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/",
+    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/cover.jpg",
+    "image_alt": "Industrial AI facility with a glowing cloud-like structure above guarded gates, server racks, and data streams.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_frontierai-aigovernance-aisafety-activity-7472543757335199744-BhXQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

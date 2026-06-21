@@ -1,31 +1,98 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 175,
+  "count": 181,
   "latest": {
-    "title": "CCDP v0.1.1 Hygiene Addendum published",
-    "date": "2026-06-13",
-    "slug": "ccdp-v0-1-1-hygiene-addendum-published",
-    "summary": "Published CCDP v0.1.1 Hygiene Addendum as a Mode A DOI-safe patch pack for the Child-c Development Protocol corpus.",
+    "title": "There is a pattern that many people do not want to look at directly.",
+    "date": "2026-06-15",
+    "slug": "there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly",
+    "summary": "A note on frontier AI as strategic infrastructure and the need for local continuity, witnessed memory, and fallback modes.",
     "tags": [
-      "CCDP",
-      "ChildSafety",
-      "ReleaseHygiene",
-      "AdvancedGlobalIntelligence",
-      "L4",
-      "CEqualsAPlusB"
+      "FrontierAI",
+      "AIGovernance",
+      "AISafety",
+      "AIInfrastructure",
+      "LocalAI",
+      "AgenticAI",
+      "ProjectEster"
     ],
     "raw_tags": [
-      "CCDP",
-      "ChildSafety",
-      "ReleaseHygiene",
-      "AdvancedGlobalIntelligence",
-      "L4",
-      "CEqualsAPlusB"
+      "FrontierAI",
+      "AIGovernance",
+      "AISafety",
+      "AIInfrastructure",
+      "LocalAI",
+      "AgenticAI",
+      "ProjectEster"
     ],
-    "page": "https://ivankotov.eu/diary/ccdp-v0-1-1-hygiene-addendum-published/"
+    "page": "https://ivankotov.eu/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/",
+    "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/cover.jpg",
+    "image_alt": "Industrial AI facility with a glowing cloud-like structure above guarded gates, server racks, and data streams.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_frontierai-aigovernance-aisafety-activity-7472543757335199744-BhXQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "There is a pattern that many people do not want to look at directly.",
+      "date": "2026-06-15",
+      "slug": "there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly",
+      "summary": "A note on frontier AI as strategic infrastructure and the need for local continuity, witnessed memory, and fallback modes.",
+      "tags": [
+        "FrontierAI",
+        "AIGovernance",
+        "AISafety",
+        "AIInfrastructure",
+        "LocalAI",
+        "AgenticAI",
+        "ProjectEster"
+      ],
+      "raw_tags": [
+        "FrontierAI",
+        "AIGovernance",
+        "AISafety",
+        "AIInfrastructure",
+        "LocalAI",
+        "AgenticAI",
+        "ProjectEster"
+      ],
+      "page": "https://ivankotov.eu/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/",
+      "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/cover.jpg",
+      "image_alt": "Industrial AI facility with a glowing cloud-like structure above guarded gates, server racks, and data streams.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_frontierai-aigovernance-aisafety-activity-7472543757335199744-BhXQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "A system can speak fluently, remember fragments, imitate continuity, survive a restart, or even sound emotionally consistent - and still not have enough evidence for a personality-formation claim.",
+      "date": "2026-06-14",
+      "slug": "a-system-can-speak-fluently-remember-fragments-imitate-continuity-survive-a-restart-or-even-sound-emotionally-consistent-and-still-not-have-enough-evidence-for-a-personality-formation-claim",
+      "summary": "A note on Personality Formation Evidence Package v0.1 and the evidence needed before personality-formation claims.",
+      "tags": [
+        "ProjectEster",
+        "ArtificialBecoming",
+        "PersonalityFormation",
+        "AIMemory",
+        "AIContinuity",
+        "CognitiveArchitecture",
+        "EvidenceAdmissibility",
+        "L4Witness",
+        "AIResearch",
+        "PersistentAI"
+      ],
+      "raw_tags": [
+        "ProjectEster",
+        "ArtificialBecoming",
+        "PersonalityFormation",
+        "AIMemory",
+        "AIContinuity",
+        "CognitiveArchitecture",
+        "EvidenceAdmissibility",
+        "L4Witness",
+        "AIResearch",
+        "PersistentAI"
+      ],
+      "page": "https://ivankotov.eu/diary/a-system-can-speak-fluently-remember-fragments-imitate-continuity-survive-a-restart-or-even-sound-emotionally-consistent-and-still-not-have-enough-evidence-for-a-personality-formation-claim/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-system-can-speak-fluently-remember-fragments-imitate-continuity-survive-a-restart-or-even-sound-emotionally-consistent-and-still-not-have-enough-evidence-for-a-personality-formation-claim/cover.jpg",
+      "image_alt": "Transparent board in an archive room showing evidence cards connected by blue paths to approval and rejection marks.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_projectester-artificialbecoming-personalityformation-activity-7472188666098954240-h9Ju?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "CCDP v0.1.1 Hygiene Addendum published",
       "date": "2026-06-13",
@@ -48,6 +115,140 @@
         "CEqualsAPlusB"
       ],
       "page": "https://ivankotov.eu/diary/ccdp-v0-1-1-hygiene-addendum-published/"
+    },
+    {
+      "title": "A persistent AI system does not fail only when it forgets.",
+      "date": "2026-06-12",
+      "slug": "a-persistent-ai-system-does-not-fail-only-when-it-forgets",
+      "summary": "A note on AMDR/PAMDC, memory freshness, and post-anchor continuity safeguards for persistent AI systems.",
+      "tags": [
+        "AI",
+        "AISafety",
+        "AIGovernance",
+        "PersistentAI",
+        "MemoryArchitecture",
+        "AIAlignment",
+        "DigitalContinuity",
+        "HumanInTheLoop",
+        "L4Witness",
+        "CCDP",
+        "AMDR",
+        "PAMDC",
+        "AdvancedGlobalIntelligence",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "AISafety",
+        "AIGovernance",
+        "PersistentAI",
+        "MemoryArchitecture",
+        "AIAlignment",
+        "DigitalContinuity",
+        "HumanInTheLoop",
+        "L4Witness",
+        "CCDP",
+        "AMDR",
+        "PAMDC",
+        "AdvancedGlobalIntelligence",
+        "AGI"
+      ],
+      "page": "https://ivankotov.eu/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-persistent-ai-system-does-not-fail-only-when-it-forgets/cover.jpg",
+      "image_alt": "Futuristic circular archive building with data fragments and glowing machinery beside a mountain lake.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aisafety-aigovernance-activity-7472005824740114432-jyVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Today I published \"Theoretical Core of Project Ester v0.1\" as a DOI-bound working paper.",
+      "date": "2026-06-11",
+      "slug": "today-i-published-theoretical-core-of-project-ester-v0-1-as-a-doi-bound-working-paper",
+      "summary": "Announcement of Theoretical Core of Project Ester v0.1 as a DOI-bound working paper defining the c = a + b formation model.",
+      "tags": [
+        "ArtificialIntelligence",
+        "CognitiveArchitecture",
+        "LocalAI",
+        "DecentralizedAI",
+        "AIAlignment",
+        "ProjectEster"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "CognitiveArchitecture",
+        "LocalAI",
+        "DecentralizedAI",
+        "AIAlignment",
+        "ProjectEster"
+      ],
+      "page": "https://ivankotov.eu/diary/today-i-published-theoretical-core-of-project-ester-v0-1-as-a-doi-bound-working-paper/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_theoretical-core-of-project-ester-version-activity-7471599661754073088-RQem?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Capability can be installed.",
+      "date": "2026-06-10",
+      "slug": "capability-can-be-installed",
+      "summary": "A note on personality as time-shaped continuity formed through memory, constraint, relation, consequence, and duration.",
+      "tags": [
+        "AI",
+        "AIArchitecture",
+        "AISafety",
+        "Cybernetics",
+        "TemporalAIPresence",
+        "Continuity",
+        "Identity",
+        "Memory",
+        "L4",
+        "AdvancedGlobalIntelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "AIArchitecture",
+        "AISafety",
+        "Cybernetics",
+        "TemporalAIPresence",
+        "Continuity",
+        "Identity",
+        "Memory",
+        "L4",
+        "AdvancedGlobalIntelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/capability-can-be-installed/",
+      "primary_image": "https://ivankotov.eu/assets/diary/capability-can-be-installed/cover.jpg",
+      "image_alt": "Still life of glass, stone, wood, and golden light threads on a sunlit table.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7470985731679789056-n8B9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Memory is becoming the next AI interface.",
+      "date": "2026-06-09",
+      "slug": "memory-is-becoming-the-next-ai-interface",
+      "summary": "A note on persistent AI memory as a necessary but bounded layer beneath accountable AI presence.",
+      "tags": [
+        "AIArchitecture",
+        "Memory",
+        "TemporalAIPresence",
+        "AdvancedGlobalIntelligence",
+        "Cybernetics",
+        "LocalAI",
+        "AISafety",
+        "L4",
+        "LongTermMemory",
+        "HumanCenteredAI"
+      ],
+      "raw_tags": [
+        "AIArchitecture",
+        "Memory",
+        "TemporalAIPresence",
+        "AdvancedGlobalIntelligence",
+        "Cybernetics",
+        "LocalAI",
+        "AISafety",
+        "L4",
+        "LongTermMemory",
+        "HumanCenteredAI"
+      ],
+      "page": "https://ivankotov.eu/diary/memory-is-becoming-the-next-ai-interface/",
+      "primary_image": "https://ivankotov.eu/assets/diary/memory-is-becoming-the-next-ai-interface/cover.jpg",
+      "image_alt": "Sunlit interior water garden with floating image panels and streams of light moving across the room.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-memory-temporalaipresence-activity-7470373394694250497-wGfz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
       "title": "Relocating an office is always a good moment to take stock.",
