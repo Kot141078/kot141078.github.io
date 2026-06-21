@@ -36,5 +36,10 @@
     }
   ],
   "core_policy_pattern": "system boundary -> actor role -> obligation trigger -> disclosure or marking control -> evidence artifact -> responsible actor -> correction or review route",
-  "core_engineering_pattern": "AI-assisted workflow -> task contract -> permission scope -> sandbox/worktree boundary -> witness event -> provenance sidecar -> human review -> human gate -> release/rejection -> rollback/correction route"
+  "core_engineering_pattern": "AI-assisted workflow -> task contract -> permission scope -> sandbox/worktree boundary -> witness event -> provenance sidecar -> human review -> human gate -> release/rejection -> rollback/correction route",
+  "doi": {
+    "identifier": "10.5281/zenodo.20784845",
+    "url": "https://doi.org/10.5281/zenodo.20784845",
+    "status": "published"
+  }
 }

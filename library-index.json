@@ -305,7 +305,7 @@
       "download_url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/",
       "type": "publication",
       "subtype": "supporting-technical-note",
-      "package_doi_status": "pending / not yet archived on Zenodo",
+      "package_doi_status": "published",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
       "version": "v0.1",
       "date": "2026-06-21",
@@ -325,7 +325,9 @@
         "human review",
         "rollback",
         "oracle degradation"
-      ]
+      ],
+      "doi": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "id": "instrumental-c-public-portfolio-v0-1",

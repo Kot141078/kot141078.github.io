@@ -6,6 +6,16 @@
 **Status:** Supporting implementation briefs / technical notes  
 **Boundary:** Not legal advice. Not certification. Not a conformity assessment. Not a formal Article 50 compliance claim. Formal compliance remains deployment-specific and subject to legal review.
 
+## DOI
+
+Zenodo DOI for this package:
+
+<https://doi.org/10.5281/zenodo.20784845>
+
+This package is derived from the Article 50 Transparency Submission Pack v0.1:
+
+<https://doi.org/10.5281/zenodo.20315439>
+
 ## Purpose
 
 This package contains two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1.

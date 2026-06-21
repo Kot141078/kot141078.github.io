@@ -5,9 +5,10 @@ authors:
   - family-names: "Kotov"
     given-names: "Ivan"
 version: "0.1"
-date-released: "2026"
+date-released: "2026-06-21"
+doi: "10.5281/zenodo.20784845"
 repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
-url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1"
+url: "https://doi.org/10.5281/zenodo.20784845"
 abstract: "Two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1: a policy-reader note on Article 50 transparency as an evidence chain, and an engineering note on CGAM, witness events, oracle degradation, human gates, and rollback paths."
 keywords:
   - "Article 50"

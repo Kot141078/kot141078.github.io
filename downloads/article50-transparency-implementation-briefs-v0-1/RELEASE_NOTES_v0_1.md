@@ -14,6 +14,16 @@ This package adds two short implementation briefs derived from the Article 50 Tr
 
 The package provides compact policy and engineering entry points for evidence-chain AI transparency and AI-assisted workflow control.
 
+## DOI
+
+Zenodo DOI:
+
+<https://doi.org/10.5281/zenodo.20784845>
+
+Derived from the Article 50 Transparency Submission Pack v0.1:
+
+<https://doi.org/10.5281/zenodo.20315439>
+
 ## Scope
 
 This package covers:

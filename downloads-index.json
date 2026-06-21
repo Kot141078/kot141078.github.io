@@ -857,7 +857,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Public website entry for the supporting implementation briefs."
+      "note": "Public website entry for the supporting implementation briefs.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -868,7 +870,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Short policy-reader brief on Article 50 transparency as an evidence chain."
+      "note": "Short policy-reader brief on Article 50 transparency as an evidence chain.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -879,7 +883,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Academic PDF version of the policy-reader brief."
+      "note": "Academic PDF version of the policy-reader brief.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -890,7 +896,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Engineering brief on CGAM, witness events, oracle degradation, human gates, and rollback paths."
+      "note": "Engineering brief on CGAM, witness events, oracle degradation, human gates, and rollback paths.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -901,7 +909,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Academic PDF version of the engineering brief."
+      "note": "Academic PDF version of the engineering brief.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -912,7 +922,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Checksum manifest for website download copies."
+      "note": "Checksum manifest for website download copies.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -923,7 +935,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Machine-readable package manifest."
+      "note": "Machine-readable package manifest.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "object": "Article 50 Transparency Implementation Briefs v0.1",
@@ -934,7 +948,9 @@
       "page_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
       "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
       "derived_from_doi_url": "https://doi.org/10.5281/zenodo.20315439",
-      "note": "Source package path in advanced-global-intelligence."
+      "note": "Source package path in advanced-global-intelligence.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     }
   ]
 }

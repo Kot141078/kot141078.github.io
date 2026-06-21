@@ -327,9 +327,9 @@
       "repository": "advanced-global-intelligence",
       "repository_path": "official/article50-transparency-implementation-briefs/v0_1/",
       "github_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
-      "source_commit": "ad414c06fa1f93920b457d1071f56a473b03101e",
+      "source_commit": "354e16d1c311ba694af950eea169f487b60b5386",
       "download_url": "https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/",
-      "package_doi_status": "pending / not yet archived on Zenodo",
+      "package_doi_status": "published",
       "derived_from": {
         "title": "Article 50 Transparency Submission Pack v0.1",
         "doi": "10.5281/zenodo.20315439",
@@ -366,7 +366,9 @@
         "human review",
         "rollback",
         "oracle degradation"
-      ]
+      ],
+      "doi": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845"
     },
     {
       "id": "instrumental-c-public-portfolio-v0-1",

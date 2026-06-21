@@ -6,7 +6,7 @@
       "affiliation": "Independent researcher, Brussels, Belgium"
     }
   ],
-  "description": "Two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1. The first brief provides a policy-reader entry point for Article 50 transparency as an evidence chain: system boundary, actor role, obligation trigger, disclosure or marking control, evidence artifact, responsible actor, and correction or review route. The second brief provides an engineering entry point for CGAM, witness events, provenance sidecars, oracle degradation, human gates, release manifests, and rollback paths. This package is not legal advice, not certification, not a conformity assessment, and not a formal Article 50 compliance claim.",
+  "description": "Two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1. The first brief provides a policy-reader entry point for Article 50 transparency as an evidence chain: system boundary, actor role, obligation trigger, disclosure or marking control, evidence artifact, responsible actor, and correction or review route. The second brief provides an engineering entry point for CGAM, witness events, provenance sidecars, oracle degradation, human gates, release manifests, and rollback paths. This package is not legal advice, not certification, not a conformity assessment, and not a formal Article 50 compliance claim. Zenodo DOI for this implementation briefs package: https://doi.org/10.5281/zenodo.20784845.",
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "access_right": "open",

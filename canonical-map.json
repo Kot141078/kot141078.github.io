@@ -403,7 +403,10 @@
         "a conformity assessment",
         "a formal Article 50 compliance claim",
         "a replacement for the original Article 50 submission"
-      ]
+      ],
+      "doi": "https://doi.org/10.5281/zenodo.20784845",
+      "doi_identifier": "10.5281/zenodo.20784845",
+      "source_commit": "354e16d1c311ba694af950eea169f487b60b5386"
     }
   ],
   "reading_path": [
