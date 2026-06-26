@@ -951,6 +951,55 @@
       "note": "Source package path in advanced-global-intelligence.",
       "doi_url": "https://doi.org/10.5281/zenodo.20784845",
       "doi_identifier": "10.5281/zenodo.20784845"
+    },
+    {
+      "object": "Self-Evo Document Package v0.1.1",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.20938909",
+      "page_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "zenodo_record_url": "https://zenodo.org/records/20938909",
+      "note": "External archival package; the website does not mirror the full PDF or Markdown corpus locally.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "doi_identifier": "10.5281/zenodo.20938909"
+    },
+    {
+      "object": "Self-Evo Document Package v0.1.1",
+      "surface": "Zenodo record",
+      "format": "record page",
+      "language": "English",
+      "url": "https://zenodo.org/records/20938909",
+      "page_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "note": "External Zenodo record for the DOI-backed package.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "doi_identifier": "10.5281/zenodo.20938909"
+    },
+    {
+      "object": "Self-Evo Document Package v0.1.1",
+      "surface": "GitHub package root",
+      "format": "repository tree",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "page_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "note": "Source package path in advanced-global-intelligence.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "doi_identifier": "10.5281/zenodo.20938909"
+    },
+    {
+      "object": "Self-Evo Document Package v0.1.1",
+      "surface": "Package manifest",
+      "format": "json",
+      "language": "n/a",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/official/self-evo/v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json",
+      "page_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "note": "External machine-readable package manifest.",
+      "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "doi_identifier": "10.5281/zenodo.20938909"
     }
   ]
 }

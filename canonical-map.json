@@ -407,6 +407,28 @@
       "doi": "https://doi.org/10.5281/zenodo.20784845",
       "doi_identifier": "10.5281/zenodo.20784845",
       "source_commit": "354e16d1c311ba694af950eea169f487b60b5386"
+    },
+    {
+      "id": "self_evo_document_package_v0_1_1",
+      "title": "Self-Evo Document Package v0.1.1",
+      "url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "canonical_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "summary": "Document-level governance corpus for bounded self-evolution of c = a + b systems.",
+      "doi": "10.5281/zenodo.20938909",
+      "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "zenodo_record": "https://zenodo.org/records/20938909",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "official/self-evo/v0.1.1",
+      "not": [
+        "conformance certificate",
+        "deployment authorization",
+        "safety proof",
+        "public-release certification",
+        "personhood or consciousness claim",
+        "live self-evolution permission",
+        "autonomous resource-acquisition permission"
+      ]
     }
   ],
   "reading_path": [
@@ -424,5 +446,6 @@
   "ccdp_amdr_pamdc_addendum_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
   "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "a6_composition_layer_v0_1_1_url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
-  "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/"
+  "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+  "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/"
 }
