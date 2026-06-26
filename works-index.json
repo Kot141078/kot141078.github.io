@@ -384,6 +384,8 @@
       "repository": "advanced-global-intelligence",
       "repository_path": "official/self-evo/v0.1.1/",
       "github_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/self-evo-v0.1.1",
+      "release_tag": "self-evo-v0.1.1",
       "source_commit": "fefbca4a0c62595215c947a5d5ef90c5ac74aef9",
       "package_doi_status": "published",
       "version": "0.1.1-safe-layout",

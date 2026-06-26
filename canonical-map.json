@@ -420,6 +420,8 @@
       "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
       "repository": "advanced-global-intelligence",
       "repository_path": "official/self-evo/v0.1.1",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/self-evo-v0.1.1",
+      "release_tag": "self-evo-v0.1.1",
       "not": [
         "conformance certificate",
         "deployment authorization",
