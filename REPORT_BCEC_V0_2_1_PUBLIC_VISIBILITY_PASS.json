@@ -1,0 +1,324 @@
+{
+  "schema_version": "bcec-public-visibility-pass-0.2.1",
+  "artifact": "BCEC v0.2.1-final",
+  "doi": "10.5281/zenodo.20953796",
+  "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+  "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+  "website_page": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+  "checked_at_utc": "2026-06-27T06:31:13Z",
+  "repo_baselines": {
+    "advanced-global-intelligence": "c2ad80495ec36c9ff49f671041e847990ddc3907",
+    "kot141078.github.io": "8306c72ee191eb2239f92c5e61eb45a6d4b13d8c"
+  },
+  "canonical_hashes": {
+    "markdown": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f",
+    "pdf": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c",
+    "zenodo_zip": "764b45d9eee01e3a6096663be8e49962bd24574041dce8dc59ffc04333d7bbfe"
+  },
+  "url_results": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.20953796",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 85514,
+      "final_url": "https://zenodo.org/records/20953796",
+      "elapsed_ms": 651,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 212320,
+      "final_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "elapsed_ms": 541,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 294025,
+      "final_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "elapsed_ms": 623,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 12724,
+      "final_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "elapsed_ms": 52,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/works-index.json",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 43999,
+      "final_url": "https://ivankotov.eu/works-index.json",
+      "elapsed_ms": 58,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/library-index.json",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 42573,
+      "final_url": "https://ivankotov.eu/library-index.json",
+      "elapsed_ms": 47,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/downloads-index.json",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 63359,
+      "final_url": "https://ivankotov.eu/downloads-index.json",
+      "elapsed_ms": 45,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/canonical-map.json",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 24581,
+      "final_url": "https://ivankotov.eu/canonical-map.json",
+      "elapsed_ms": 42,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/llms.txt",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "length": 22370,
+      "final_url": "https://ivankotov.eu/llms.txt",
+      "elapsed_ms": 58,
+      "error": ""
+    },
+    {
+      "url": "https://ivankotov.eu/sitemap.xml",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/xml",
+      "length": 63679,
+      "final_url": "https://ivankotov.eu/sitemap.xml",
+      "elapsed_ms": 59,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 156158,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/961e1b27-b296-4c69-a8ce-011eff6be33b?<redacted-temporary-query>",
+      "elapsed_ms": 306,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan.zip",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 193046,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/269c2b59-cd88-4c99-a360-c77c2584fe38?<redacted-temporary-query>",
+      "elapsed_ms": 288,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/SHA256SUMS.txt",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 1430,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/1b7a8bc3-706e-44c4-a105-0fa778c2d5e5?<redacted-temporary-query>",
+      "elapsed_ms": 291,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "ok": true,
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 734848,
+      "final_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "elapsed_ms": 664,
+      "error": ""
+    }
+  ],
+  "content_assertions": [
+    {
+      "label": "doi_resolves_to_zenodo_record",
+      "url": "https://doi.org/10.5281/zenodo.20953796",
+      "status": "pass",
+      "missing": []
+    },
+    {
+      "label": "github_release_notes_html",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "status": "pass",
+      "missing": []
+    },
+    {
+      "label": "github_repo_tree",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "status": "pass",
+      "missing": []
+    },
+    {
+      "label": "website_page",
+      "url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "status": "pass",
+      "missing": []
+    }
+  ],
+  "download_checks": [
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "status": "pass",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 156158,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/961e1b27-b296-4c69-a8ce-011eff6be33b?<redacted-temporary-query>"
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan.zip",
+      "status": "pass",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 193046,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/269c2b59-cd88-4c99-a360-c77c2584fe38?<redacted-temporary-query>"
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/SHA256SUMS.txt",
+      "status": "pass",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "length": 1430,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126519534/1b7a8bc3-706e-44c4-a105-0fa778c2d5e5?<redacted-temporary-query>"
+    },
+    {
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "status": "pass",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "length": 734848,
+      "final_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md"
+    }
+  ],
+  "machine_index_checks": [
+    {
+      "label": "works-index.json",
+      "url": "https://ivankotov.eu/works-index.json",
+      "status": "pass"
+    },
+    {
+      "label": "library-index.json",
+      "url": "https://ivankotov.eu/library-index.json",
+      "status": "pass"
+    },
+    {
+      "label": "downloads-index.json",
+      "url": "https://ivankotov.eu/downloads-index.json",
+      "status": "pass"
+    },
+    {
+      "label": "canonical-map.json",
+      "url": "https://ivankotov.eu/canonical-map.json",
+      "status": "pass"
+    },
+    {
+      "label": "llms.txt",
+      "url": "https://ivankotov.eu/llms.txt",
+      "status": "pass"
+    },
+    {
+      "label": "sitemap.xml",
+      "url": "https://ivankotov.eu/sitemap.xml",
+      "status": "pass"
+    }
+  ],
+  "github_release_metadata": {
+    "status": "pass",
+    "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+    "tag": "bcec-v0.2.1",
+    "target_commitish": "release/bcec-v0.2.1",
+    "is_draft": false,
+    "is_prerelease": false,
+    "uploaded_assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/advanced-global-intelligence/releases/assets/459287121",
+        "contentType": "application/pdf",
+        "createdAt": "2026-06-27T06:09:27Z",
+        "digest": "sha256:afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c",
+        "downloadCount": 0,
+        "id": "RA_kwDOQyVS7s4bYCpR",
+        "label": "",
+        "name": "BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+        "size": 156158,
+        "state": "uploaded",
+        "updatedAt": "2026-06-27T06:09:27Z",
+        "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/advanced-global-intelligence/releases/assets/459287119",
+        "contentType": "application/zip",
+        "createdAt": "2026-06-27T06:09:27Z",
+        "digest": "sha256:764b45d9eee01e3a6096663be8e49962bd24574041dce8dc59ffc04333d7bbfe",
+        "downloadCount": 0,
+        "id": "RA_kwDOQyVS7s4bYCpP",
+        "label": "",
+        "name": "BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan.zip",
+        "size": 193046,
+        "state": "uploaded",
+        "updatedAt": "2026-06-27T06:09:27Z",
+        "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan.zip"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/advanced-global-intelligence/releases/assets/459287120",
+        "contentType": "text/plain; charset=utf-8",
+        "createdAt": "2026-06-27T06:09:27Z",
+        "digest": "sha256:161dc9db502302b656260bbca28c8e89d02471d8dda43afb8a797c7a306f8683",
+        "downloadCount": 0,
+        "id": "RA_kwDOQyVS7s4bYCpQ",
+        "label": "",
+        "name": "SHA256SUMS.txt",
+        "size": 1430,
+        "state": "uploaded",
+        "updatedAt": "2026-06-27T06:09:27Z",
+        "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/SHA256SUMS.txt"
+      }
+    ],
+    "asset_note": "3 uploaded assets plus GitHub-generated source archives on the release page."
+  },
+  "checks": {
+    "doi_resolves": "pass",
+    "github_release_visible": "pass",
+    "website_page_visible": "pass",
+    "machine_indexes_visible": "pass",
+    "sitemap_contains_page": "pass",
+    "llms_contains_entry": "pass",
+    "download_urls_visible": "pass",
+    "overclaim_scan": "pass",
+    "canonical_content_unchanged": "pass",
+    "local_json_and_sitemap_validation": "pass",
+    "bridge_visibility": "pass"
+  },
+  "repairs_made": [],
+  "manual_steps": [
+    "Submit https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/ in Google Search Console URL Inspection.",
+    "Resubmit https://ivankotov.eu/sitemap.xml in Google Search Console if needed."
+  ],
+  "verdict": "PASS"
+}
