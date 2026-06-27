@@ -25,6 +25,7 @@
   "personality_formation_time_shaped_continuity_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
   "ester_theoretical_core_v0_1_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
   "personality_formation_evidence_package_v0_1_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+  "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "nodes": [
     {
       "id": "agi",
@@ -433,6 +434,32 @@
       ]
     },
     {
+      "id": "self_evo_wdc_v0_1_2",
+      "title": "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Package",
+      "url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+      "canonical_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+      "summary": "Witness Dependency Capture release-candidate documentation package / package-control artifact for bounded self-evolution governance in c = a + b systems.",
+      "doi": "10.5281/zenodo.20975581",
+      "doi_url": "https://doi.org/10.5281/zenodo.20975581",
+      "zenodo_record": "https://zenodo.org/records/20975581",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.2/",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "official/self-evo/v0.1.2/",
+      "github_tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/self-evo-wdc-v0.1.2",
+      "release_tag": "self-evo-wdc-v0.1.2",
+      "final_package_commit": "81b1ad0397e57ff0a67e7c8b6962bbe9689c0d9a",
+      "parent_doi": "10.5281/zenodo.20938909",
+      "parent_doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "not": [
+        "conformance certificate",
+        "deployment authorization",
+        "witness-independence certification",
+        "checker implementation certification",
+        "fixture-runner execution",
+        "live self-evolution permission"
+      ]
+    },
+    {
       "id": "bcec_v0_2_1",
       "title": "Bounded Capability Extraction Clause v0.2.1-final",
       "url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
@@ -473,6 +500,7 @@
   "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "a6_composition_layer_v0_1_1_url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
   "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+  "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
   "bcec_v0_2_1_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/"
 }
