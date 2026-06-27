@@ -205,7 +205,7 @@
     },
     {
       "id": "erb-l4",
-      "title": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "title": "Reality-Bound AI (L4) \u2014 Notes, Protocol, and Posts",
       "type": "repo",
       "role": "architecture",
       "primary_url": "https://github.com/Kot141078/ester-reality-bound",
@@ -234,7 +234,7 @@
     },
     {
       "id": "qubit-of-hope-volume-i",
-      "title": "Qubit of Hope — Volume I",
+      "title": "Qubit of Hope \u2014 Volume I",
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
@@ -245,7 +245,7 @@
     },
     {
       "id": "qubit-of-hope-volume-ii",
-      "title": "Qubit of Hope — Volume II",
+      "title": "Qubit of Hope \u2014 Volume II",
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
@@ -257,7 +257,7 @@
     },
     {
       "id": "qubit-of-hope-volume-iii",
-      "title": "Qubit of Hope — Volume III",
+      "title": "Qubit of Hope \u2014 Volume III",
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
@@ -539,7 +539,7 @@
     },
     {
       "id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
-      "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "title": "CCDP v0.1.1 Hygiene Addendum \u2014 Mode A DOI-Safe Patch Pack",
       "type": "publication",
       "role": "technical note / hygiene addendum",
       "author": "Kotov Ivan",
@@ -576,7 +576,7 @@
     },
     {
       "id": "ccdp_amdr_pamdc_addendum_v0_1_1",
-      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 \u2014 Active Memory Degradation and Post-Anchor Continuity Profiles",
       "type": "publication",
       "role": "technical note / CCDP addendum",
       "author": "Kotov Ivan",
@@ -758,6 +758,67 @@
         "continuity admissibility",
         "c = a + b",
         "AI safety"
+      ]
+    },
+    {
+      "id": "bcec_v0_2_1",
+      "title": "Bounded Capability Extraction Clause v0.2.1-final",
+      "type": "publication",
+      "subtype": "technical clause / capability egress",
+      "role": "bounded capability extraction and anti-distillation clause",
+      "author": "Kotov Ivan",
+      "location_year": "Bruxelles, Belgium - 2026",
+      "primary_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "website_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "docs/capability-egress/bcec/v0_2_1/",
+      "github_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "release_tag": "bcec-v0.2.1",
+      "canonical_markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "academic_pdf_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "review_record_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/reviews/BCEC_v0_2_1_final_WITNESS_REVIEW_b_layer.md",
+      "publication_record_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/metadata/PUBLICATION_RECORD.json",
+      "sha256_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/SHA256SUMS.txt",
+      "doi": "10.5281/zenodo.20953796",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "zenodo_record": "https://zenodo.org/records/20953796",
+      "version": "v0.2.1-final",
+      "date": "2026-06-27",
+      "package_date": "2026-06-26",
+      "status": "final textual clause / b-layer PASS reviewed draft; not sealed integration",
+      "license": "CC-BY-4.0",
+      "sha256": {
+        "canonical_markdown": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f",
+        "academic_pdf": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c"
+      },
+      "summary": "Final textual clause and b-layer PASS reviewed draft for extraction metering, source-class discipline, and anti-distillation handling in c-class capability extraction from external oracles.",
+      "notes": "Not sealed integration, not legal certification, not product certification, not conformance acceptance, and not an authority, personhood, or capability-status upgrade.",
+      "bridge": [
+        "A6 Composition Layer",
+        "Synthetic Laundering",
+        "EA Value",
+        "ARQ",
+        "L4 Witness",
+        "ARL / Conflict Class",
+        "Beacon",
+        "CGAM / CLI Agent Mesh"
+      ],
+      "tags": [
+        "BCEC",
+        "bounded capability extraction",
+        "anti-distillation",
+        "external oracle",
+        "A6 Composition Layer",
+        "Synthetic Laundering",
+        "EA Value",
+        "ARQ",
+        "L4 Witness",
+        "ARL",
+        "Beacon",
+        "CGAM",
+        "AI governance"
       ]
     }
   ]

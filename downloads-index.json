@@ -165,14 +165,14 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
-      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "object": "Reality-Bound AI (L4) \u2014 Notes, Protocol, and Posts",
       "surface": "GitHub release l4-snapshot-2026-02-24",
       "format": "release page",
       "url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
       "note": "Confirmed public release surface; no attached assets confirmed."
     },
     {
-      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "object": "Reality-Bound AI (L4) \u2014 Notes, Protocol, and Posts",
       "surface": "Stable source snapshot",
       "format": "zip source archive",
       "url": "https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip",
@@ -200,7 +200,7 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -208,7 +208,7 @@
       "note": "Current public release indexed for the trilogy website layer."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -216,7 +216,7 @@
       "note": "Confirmed repository download matrix for the public reading bundles."
     },
     {
-      "object": "Qubit of Hope — Volume II",
+      "object": "Qubit of Hope \u2014 Volume II",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -224,7 +224,7 @@
       "note": "Current public release; v1.0.0 remains the first release from 2026-04-17."
     },
     {
-      "object": "Qubit of Hope — Volume II",
+      "object": "Qubit of Hope \u2014 Volume II",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -232,7 +232,7 @@
       "note": "Confirmed repository download matrix for seven language bundles."
     },
     {
-      "object": "Qubit of Hope — Volume III",
+      "object": "Qubit of Hope \u2014 Volume III",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -240,7 +240,7 @@
       "note": "Current public release for the third-volume continuation."
     },
     {
-      "object": "Qubit of Hope — Volume III",
+      "object": "Qubit of Hope \u2014 Volume III",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -248,7 +248,7 @@
       "note": "Repository download matrix for the Volume III public reading bundles."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Russian",
@@ -256,7 +256,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "French",
@@ -264,7 +264,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Spanish",
@@ -272,7 +272,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "German",
@@ -280,7 +280,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "English",
@@ -288,7 +288,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Dutch",
@@ -296,7 +296,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope — Volume I",
+      "object": "Qubit of Hope \u2014 Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Simplified Chinese",
@@ -1015,6 +1015,127 @@
       "note": "External machine-readable package manifest.",
       "doi_url": "https://doi.org/10.5281/zenodo.20938909",
       "doi_identifier": "10.5281/zenodo.20938909"
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "Zenodo DOI",
+      "format": "DOI landing page",
+      "url": "https://doi.org/10.5281/zenodo.20953796",
+      "note": "Persistent public archive identifier for the BCEC v0.2.1-final package."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "Zenodo record",
+      "format": "record page",
+      "url": "https://zenodo.org/records/20953796",
+      "note": "External Zenodo record for the DOI-backed package."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "GitHub release",
+      "format": "release page",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "note": "GitHub release/discovery surface for the package and attached public assets.",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "release_tag": "bcec-v0.2.1"
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "GitHub package root",
+      "format": "repository tree",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "note": "Main-branch package mirror in advanced-global-intelligence."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "Canonical Markdown",
+      "format": "markdown",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "note": "Canonical Markdown source linked from the public repository."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "Academic PDF",
+      "format": "pdf",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "note": "Academic PDF rendering linked from the public repository."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "Publication record",
+      "format": "json",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/metadata/PUBLICATION_RECORD.json",
+      "note": "Machine-readable publication record for DOI, path, hash, bridge, and R3 gate metadata."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "SHA256SUMS",
+      "format": "text",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/SHA256SUMS.txt",
+      "note": "Repository checksum manifest for the package files."
+    },
+    {
+      "object": "Bounded Capability Extraction Clause v0.2.1-final",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "doi_identifier": "10.5281/zenodo.20953796",
+      "zenodo_record_url": "https://zenodo.org/records/20953796",
+      "surface": "GitHub release ZIP",
+      "format": "zip",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/bcec-v0.2.1/BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan.zip",
+      "note": "GitHub release ZIP asset for the public package; packaging hash is reported separately from canonical Markdown/PDF hashes.",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "release_tag": "bcec-v0.2.1"
     }
   ]
 }

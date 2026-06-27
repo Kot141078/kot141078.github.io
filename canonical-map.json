@@ -1,5 +1,5 @@
 {
-  "site": "Ivan Kotov — Advanced Global Intelligence, c = a + b, L4, SER",
+  "site": "Ivan Kotov \u2014 Advanced Global Intelligence, c = a + b, L4, SER",
   "person": "Ivan Kotov",
   "primary_domain": "https://ivankotov.eu/",
   "start_here_url": "https://ivankotov.eu/start-here/",
@@ -159,7 +159,7 @@
     },
     {
       "id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
-      "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "title": "CCDP v0.1.1 Hygiene Addendum \u2014 Mode A DOI-Safe Patch Pack",
       "url": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
       "canonical_url": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
       "summary": "Technical note and Mode A addendum-only hygiene patch pack for reading the CCDP v0.1 baseline together with v0.1.1 release-control corrections.",
@@ -305,7 +305,7 @@
     },
     {
       "id": "qubit-of-hope-volume-ii",
-      "title": "Qubit of Hope — Volume II",
+      "title": "Qubit of Hope \u2014 Volume II",
       "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
       "summary": "Narrative continuation node for the second volume of Qubit of Hope.",
       "not": [
@@ -315,7 +315,7 @@
     },
     {
       "id": "qubit-of-hope-volume-iii",
-      "title": "Qubit of Hope — Volume III",
+      "title": "Qubit of Hope \u2014 Volume III",
       "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
       "summary": "Narrative continuation node for the third volume of Qubit of Hope.",
       "not": [
@@ -431,6 +431,30 @@
         "live self-evolution permission",
         "autonomous resource-acquisition permission"
       ]
+    },
+    {
+      "id": "bcec_v0_2_1",
+      "title": "Bounded Capability Extraction Clause v0.2.1-final",
+      "url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "canonical_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "summary": "Final textual clause and b-layer PASS reviewed draft for extraction metering, source-class discipline, and anti-distillation handling in c-class capability extraction from external oracles.",
+      "doi": "10.5281/zenodo.20953796",
+      "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+      "zenodo_record": "https://zenodo.org/records/20953796",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "docs/capability-egress/bcec/v0_2_1",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+      "release_tag": "bcec-v0.2.1",
+      "not": [
+        "sealed integration",
+        "legal certification",
+        "product certification",
+        "conformance acceptance",
+        "authority upgrade",
+        "personhood claim",
+        "memory write"
+      ]
     }
   ],
   "reading_path": [
@@ -449,5 +473,6 @@
   "personality_formation_evidence_package_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "a6_composition_layer_v0_1_1_url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
   "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
-  "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/"
+  "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+  "bcec_v0_2_1_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/"
 }
