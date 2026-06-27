@@ -1,0 +1,40 @@
+{
+  "schema_version": "bcec-citation-registry-sync-report-0.2.1",
+  "artifact": "BCEC v0.2.1-final",
+  "checked_at_utc": "2026-06-27T06:52:17Z",
+  "doi": "10.5281/zenodo.20953796",
+  "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+  "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+  "website_page": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+  "orcid": "0009-0009-6002-9845",
+  "orcid_url": "https://orcid.org/0009-0009-6002-9845",
+  "checks": {
+    "doi_consistency": "pass",
+    "github_release_consistency": "pass",
+    "website_citation_consistency": "pass",
+    "cff_parse": "pass",
+    "cff_doi_note": "source package CFF preserved; current DOI recorded in registry record",
+    "zenodo_json_parse": "pass",
+    "publication_record": "pass",
+    "orcid_public_status": "absent",
+    "zenodo_update_note_created": "pass",
+    "author_identity_consistency": "pass",
+    "license_consistency": "pass",
+    "date_role_consistency": "pass",
+    "canonical_hash_invariants": "pass",
+    "overclaim_scan": "pass",
+    "secret_scan": "pass"
+  },
+  "files_added": [
+    "REPORT_BCEC_V0_2_1_CITATION_REGISTRY_SYNC.md",
+    "REPORT_BCEC_V0_2_1_CITATION_REGISTRY_SYNC.json",
+    "ORCID_UPDATE_NOTE_BCEC_V0_2_1.md",
+    "ZENODO_RELATED_IDENTIFIER_UPDATE_NOTE_BCEC_V0_2_1.md"
+  ],
+  "manual_remaining_steps": [
+    "Optionally add BCEC v0.2.1 to ORCID manually; do not create duplicate ORCID work if Zenodo auto-import later appears.",
+    "Optionally add GitHub release, website page, and corpus path as Zenodo related identifiers through the Zenodo UI without modifying uploaded files.",
+    "Search Console submission remains manual for the publication URL and sitemap."
+  ],
+  "verdict": "PASS"
+}
