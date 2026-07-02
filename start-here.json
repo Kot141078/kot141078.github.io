@@ -8,6 +8,11 @@
       "role": "public author/profile surface"
     },
     {
+      "title": "What is running",
+      "url": "https://ivankotov.eu/what-is-running/",
+      "role": "public-safe description of the live operating context behind the corpus"
+    },
+    {
       "title": "Advanced Global Intelligence",
       "url": "https://ivankotov.eu/advanced-global-intelligence/",
       "role": "architecture and corpus frame"

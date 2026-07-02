@@ -65,100 +65,75 @@
 
     <main>
       <section class="hero">
-        <p class="eyebrow">First-pass entry</p>
+        <p class="eyebrow">Entry page</p>
         <h1>Start here</h1>
-        <p class="lead page-lead">A short entry page for first-time readers of the public corpus.</p>
+        <p class="lead page-lead">This site documents one practical problem: how a long-lived AI system can act, remember, adapt, and use tools without turning fluent output into unchecked authority.</p>
       </section>
 
       <section class="section">
-        <div class="section-head">
-          <p class="section-label">What this site contains</p>
-          <h2>Five short lines</h2>
-        </div>
-        <div class="micro-list">
-          <p>Public author/profile surface.</p>
-          <p>Canonical terms.</p>
-          <p>Architecture and protocol layers.</p>
-          <p>Implementation layer.</p>
-          <p>Narrative entry.</p>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Reading order</p>
-          <h2>Short sequence</h2>
-        </div>
-        <div class="section-links">
-          <a href="../about/">About</a>
-          <a href="../advanced-global-intelligence/">Advanced Global Intelligence</a>
-          <a href="../c-a-plus-b/">c = a + b</a>
-          <a href="../l4/">L4</a>
-          <a href="../actor-grounding-layer/">Actor Grounding Layer</a>
-          <a href="../ser/">SER</a>
-          <a href="../qubit-of-hope/">Qubit of Hope</a>
-          <a href="../qubit-of-hope-volume-ii/">Volume II</a>
-          <a href="../publications/">Publications / Releases / Evidence</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">New layers</p>
-          <h2>If you need the new grounding and narrative continuation nodes</h2>
-        </div>
         <div class="prose">
-          <p>The C-node boundary package now has a <a href="https://github.com/Kot141078/advanced-global-intelligence/releases/tag/c-node-boundary-docs-v0.1.1">GitHub pre-release</a> linked from the <a href="../advanced-global-intelligence/">AGI page</a> and <a href="../library/">Library</a>.</p>
-          <p>CCDP v0.1 now has a <a href="https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1">GitHub pre-release</a>, <a href="https://doi.org/10.5281/zenodo.20190648">public-surface DOI</a>, and <a href="https://doi.org/10.5281/zenodo.20196219">full technical corpus DOI</a>, linked from the <a href="../advanced-global-intelligence/#ccdp-v0-1">AGI page</a> and <a href="../library/">Library</a>.</p>
+          <p>The smallest example is simple. If an AI worker can inspect files, edit code, run tests, or prepare a release, it must not also define its own permission, approve its own work, write directly into memory, or erase the evidence of what happened. A governed task therefore needs a contract, a sandbox or worktree, a witness record, a review path, and a rollback boundary before the result can become part of the system.</p>
+          <p>That pattern scales upward. The same distinction appears in memory, identity, continuity, self-evolution, public claims, and AI Act transparency: output is not evidence; evidence is not authority; continuity is not personhood; local operation is not sovereignty.</p>
         </div>
         <div class="section-links">
-          <a href="../actor-grounding-layer/">Actor Grounding Layer</a>
-          <a href="../qubit-of-hope-volume-ii/">Qubit of Hope — Volume II</a>
+          <a href="../what-is-running/">What is running</a>
+          <a href="../publications/">Publications</a>
+          <a href="../evidence/">Evidence</a>
         </div>
       </section>
 
       <section class="section">
         <div class="section-head">
-          <p class="section-label">Quick orientation</p>
-          <h2>If you only need the short map</h2>
+          <p class="section-label">Entry paths</p>
+          <h2>Three entry paths</h2>
         </div>
-        <div class="section-links">
-          <a href="../glossary/">Glossary</a>
-          <a href="../distinctions/">Distinctions</a>
-          <a href="../corpus-map/">Corpus map</a>
-          <a href="../questions/">Questions</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Primary sources</p>
-          <h2>If you want primary sources</h2>
-        </div>
-        <div class="section-links">
-          <a href="../library/">Library</a>
-          <a href="../downloads/">Downloads</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Practical entry</p>
-          <h2>If you want practical entry points</h2>
-        </div>
-        <div class="section-links">
-          <a href="../services/">Services</a>
-          <a href="../use-cases/">Use cases</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Topic reading</p>
-          <h2>If you prefer topic-based reading</h2>
-        </div>
-        <div class="section-links">
-          <a href="../topics/">Continue to Topics</a>
+        <div class="section-stack">
+          <article>
+            <h3>For policy readers</h3>
+            <div class="prose">
+              <p>Start with the Article 50 transparency materials. They frame AI transparency as an evidence chain: system boundary, actor role, obligation trigger, disclosure or marking control, evidence artifact, responsible actor, and review route.</p>
+              <p>Recommended path:</p>
+            </div>
+            <ol class="bullet-list">
+              <li><a href="../publications/article50-transparency-submission/">Article 50 Transparency Submission Pack v0.1</a></li>
+              <li><a href="../publications/article50-transparency-implementation-briefs-v0-1/">Article 50 Transparency Implementation Briefs v0.1</a></li>
+              <li><a href="../evidence/">Evidence</a></li>
+              <li><a href="../releases/">Releases</a></li>
+              <li><a href="../distinctions/">Distinctions</a></li>
+            </ol>
+          </article>
+          <article>
+            <h3>For engineers</h3>
+            <div class="prose">
+              <p>Start with the executable-worker problem. CGAM treats CLI/cloud agents as bounded workers: they may inspect, patch, test, compare, and report, but they must not become will, memory, authority, judge, or release power.</p>
+              <p>Recommended path:</p>
+            </div>
+            <ol class="bullet-list">
+              <li><a href="../publications/c-governed-cli-agent-mesh/">C-Governed CLI Agent Mesh</a></li>
+              <li><a href="../l4/">L4</a></li>
+              <li><a href="../ser/">SER</a></li>
+              <li><a href="../publications/self-evo-document-package-v0-1-1/">Self-Evo Document Package</a></li>
+              <li><a href="../evidence/">Evidence</a></li>
+            </ol>
+            <div class="prose">
+              <p><strong>Note:</strong> L4 here means Reality Boundary Layer &mdash; power, heat, latency, maintenance, scarcity, and irreversibility. It is not SAE Level 4 autonomous driving.</p>
+            </div>
+          </article>
+          <article>
+            <h3>For researchers</h3>
+            <div class="prose">
+              <p>Start with the claim boundaries. The corpus separates architecture, implementation, behavior, governance evidence, continuity, authority, safety, personhood, and deployment maturity. No evidence class silently proves another claim class.</p>
+              <p>Recommended path:</p>
+            </div>
+            <ol class="bullet-list">
+              <li><a href="../glossary/">Glossary</a></li>
+              <li><a href="../distinctions/">Distinctions</a></li>
+              <li><a href="../c-a-plus-b/"><code>c = a + b</code></a></li>
+              <li><a href="../l4/">L4</a></li>
+              <li><a href="../ser/">SER</a></li>
+              <li><a href="../publications/">Publications, in release order</a></li>
+            </ol>
+          </article>
         </div>
       </section>
 
@@ -167,11 +142,12 @@
           <p class="section-label">Negative frame</p>
           <h2>What this page is not</h2>
         </div>
-        <ul class="bullet-list">
-          <li>Not a full explanation.</li>
-          <li>Not a substitute for the corpus.</li>
-          <li>Not a marketing splash page.</li>
-        </ul>
+        <div class="prose">
+          <p>This is not a product landing page.</p>
+          <p>This is not a chatbot demo.</p>
+          <p>This is not a claim of consciousness, legal personhood, certification, or deployment readiness.</p>
+          <p>It is the shortest route into a public technical corpus about long-lived, accountable AI presence under real constraints.</p>
+        </div>
       </section>
     </main>
   </div>

@@ -3,6 +3,7 @@
   "person": "Ivan Kotov",
   "primary_domain": "https://ivankotov.eu/",
   "start_here_url": "https://ivankotov.eu/start-here/",
+  "what_is_running_url": "https://ivankotov.eu/what-is-running/",
   "diary_url": "https://ivankotov.eu/diary/",
   "diary_start_here_url": "https://ivankotov.eu/diary/start-here/",
   "diary_themes_url": "https://ivankotov.eu/diary/themes/",
@@ -47,6 +48,19 @@
         "school algebra",
         "a chatbot slogan",
         "a swarm by default"
+      ]
+    },
+    {
+      "id": "what-is-running",
+      "title": "What is running",
+      "url": "https://ivankotov.eu/what-is-running/",
+      "summary": "Public-safe description of the live operating context behind the corpus, including separated c trajectories and published evidence boundaries without exposing private runtime material.",
+      "not": [
+        "raw private memory",
+        "raw dialogue logs",
+        "credentials or runtime secrets",
+        "private runtime replay",
+        "consciousness, personhood, certification, or deployment-readiness claim"
       ]
     },
     {

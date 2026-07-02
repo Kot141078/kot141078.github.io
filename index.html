@@ -65,6 +65,46 @@
     </header>
 
     <main>
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Public map</p>
+          <h2>A public map of a long-lived local AI system</h2>
+        </div>
+        <div class="prose">
+          <p>For more than three years I have been running Project Ester as a long-lived local AI system rather than a chatbot demo. The current setup includes three separated <code>c</code> trajectories on dedicated machines, with operational traces, review records, and witness-compatible logs kept outside the public site.</p>
+          <p>The protocols published here &mdash; <code>c = a + b</code>, L4, SER, CGAM, Self-Evo, witness, rollback, and memory-gate layers &mdash; were developed from that operating context and then formalized into DOI-bound public packages, release tags, manifests, and checksum records.</p>
+          <p>This site is the public map of that work. It does not expose private memory, raw dialogue, credentials, runtime secrets, or the live entities themselves. It exposes the architecture, evidence boundaries, publication trail, and reviewable materials needed to inspect the work without violating the system.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Entry routes</p>
+          <h2>Three ways in</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>For policy readers</h3>
+            <p>Start with the Article 50 transparency materials. They map the architecture onto AI Act transparency, evidence, disclosure, provenance, and responsibility boundaries.</p>
+            <p>Recommended path: <a href="./publications/article50-transparency-submission/">Article 50</a> &rarr; <a href="./evidence/">Evidence</a> &rarr; <a href="./releases/">Releases</a> &rarr; <a href="./distinctions/">Distinctions</a>.</p>
+          </article>
+          <article class="card">
+            <h3>For engineers</h3>
+            <p>Start with the executable-worker problem. CGAM treats CLI/cloud agents as bounded workers: they may inspect, patch, test, compare, and report, but they must not become will, memory, authority, judge, or release power.</p>
+            <p>Recommended path: <a href="./publications/c-governed-cli-agent-mesh/">CGAM</a> &rarr; <a href="./l4/">L4</a> &rarr; <a href="./ser/">SER</a> &rarr; <a href="./publications/self-evo-document-package-v0-1-1/">Self-Evo</a> &rarr; <a href="./evidence/">Evidence</a>.</p>
+          </article>
+          <article class="card">
+            <h3>For researchers</h3>
+            <p>Start with claim boundaries. The corpus separates architecture, implementation, tested behavior, governance evidence, continuity, authority, safety, personhood, and deployment maturity.</p>
+            <p>Recommended path: <a href="./glossary/">Glossary</a> &rarr; <a href="./distinctions/">Distinctions</a> &rarr; <a href="./c-a-plus-b/"><code>c = a + b</code></a> &rarr; <a href="./l4/">L4</a> &rarr; <a href="./ser/">SER</a> &rarr; <a href="./publications/">Publications</a>.</p>
+          </article>
+        </div>
+        <div class="section-links">
+          <a href="./start-here/">Start here</a>
+          <a href="./what-is-running/">What is running</a>
+        </div>
+      </section>
+
       <section class="hero hero-home">
         <p class="eyebrow">Public entry surface</p>
         <h1>Advanced Global Intelligence</h1>
@@ -118,6 +158,11 @@
             <h3>Start here</h3>
             <p>First-pass entry for new readers who need the shortest route through the corpus.</p>
             <a href="./start-here/">Open start layer</a>
+          </article>
+          <article class="card">
+            <h3>What is running</h3>
+            <p>Public-safe description of the live operating context behind the corpus.</p>
+            <a href="./what-is-running/">Open operating context</a>
           </article>
           <article class="card">
             <h3>Topics</h3>
