@@ -1,10 +1,10 @@
 {
   "schema": "ivankotov.install_c.v1",
   "url": "https://ivankotov.eu/install-c/",
-  "title": "Install a Local c-node",
+  "title": "How to install c",
   "status": "public installation entry",
   "updated": "2026-07-03",
-  "summary": "Practical local-first installation path for a local c-node candidate from ester-clean-code on GitHub.",
+  "summary": "How to install c: a practical local-first installation path for a local c-node candidate from ester-clean-code on GitHub.",
   "repo": "https://github.com/Kot141078/ester-clean-code",
   "stable_release": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.7",
   "minimum_profile": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
