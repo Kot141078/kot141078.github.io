@@ -14,7 +14,7 @@ This repository serves a minimal public entry page for:
 It also includes canonical, identity, authority/evidence, distinctions, and entry layers through:
 
 - `start-here`
-- `install-c`
+- `install-c` / `How to install c`
 - `diary`
 - `diary archive`
 - `diary tags`
@@ -81,7 +81,7 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 
 - `index.html`
 - `start-here/index.html`
-- `install-c/index.html`
+- `install-c/index.html` — How to install c
 - `diary/index.html`
 - `diary/archive/index.html`
 - `diary/tags/index.html`
@@ -115,7 +115,7 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 ## Machine-readable layer
 
 - `llms.txt` — compact machine-facing site guide
-- `install-c.json` — machine-readable local c-node installation entry
+- `install-c.json` — machine-readable How to install c entry
 - `diary-index.json` — machine-readable diary archive index
 - `diary-latest.json` — machine-readable latest diary slot state
 - `diary-tags.json` — machine-readable diary tag index
