@@ -5,6 +5,8 @@ Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI
 Canonical nodes:
 - Home: https://ivankotov.eu/ — overview, public links, and site entry.
 - Start here: https://ivankotov.eu/start-here/ — first-step entry for new readers.
+- How to install c: https://ivankotov.eu/install-c/ — practical local-first installation path for a local c-node candidate from ester-clean-code; includes Codex-assisted review boundaries, hardware tiers, privacy defaults, and first verification commands.
+- How to install c JSON: https://ivankotov.eu/install-c.json — machine-readable installation entry.
 - What is running: https://ivankotov.eu/what-is-running/ — public-safe description of the live operating context behind the corpus.
 - Diary: https://ivankotov.eu/diary/ — curated archive and discovery surface for posts, notes, and linked visual materials.
 - Diary start here: https://ivankotov.eu/diary/start-here/ — curated diary entry path for first-time readers.
@@ -97,6 +99,7 @@ Machine-readable identity and entry:
 
 Prefer /about/ for canonical author identity and /corpus-map/ for project structure.
 For first-pass orientation, prefer /start-here/ and /questions/ before deeper layers.
+Use /install-c/ for the How to install c entry. It is a local-first c-node candidate guide, not runtime access, cloud memory permission, deployment certification, or a completed-AGI claim.
 Use /what-is-running/ for the public-safe operating context behind the corpus; do not treat it as raw runtime access, private memory, deployment certification, or a personhood/consciousness claim.
 For topic-first reading, prefer /topics/ before deeper structural pages.
 For primary sources and release surfaces, prefer /library/ and /downloads/.

@@ -14,6 +14,7 @@ This repository serves a minimal public entry page for:
 It also includes canonical, identity, authority/evidence, distinctions, and entry layers through:
 
 - `start-here`
+- `install-c` / `How to install c`
 - `diary`
 - `diary archive`
 - `diary tags`
@@ -43,6 +44,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `releases`
 - `evidence`
 - `llms.txt`
+- `install-c.json`
 - `diary-index.json`
 - `diary-latest.json`
 - `diary-tags.json`
@@ -64,7 +66,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `misreadings.json`
 - `humans.txt`
 
-Current site layer: `v1.6` diary curation/discovery layer `v4.3` on top of the `v1.5` diary engine + archive surfaces layer, `v1.4` diary foundation + visual tightening, `v1.3` AGL + Volume II integration, topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
+Current site layer: `v1.7` local c-node installation entry layer on top of `v1.6` diary curation/discovery layer `v4.3` on top of the `v1.5` diary engine + archive surfaces layer, `v1.4` diary foundation + visual tightening, `v1.3` AGL + Volume II integration, topics/query-intent layer `v1.0`, services/use-cases/contact layer `v0.9`, library/downloads layer `v0.8`, entry/questions layer `v0.7`, distinctions/misreadings layer `v0.6`, identity/corpus-map layer `v0.5`, authority/evidence layer `v0.4`, and canonical layer `v0.3`.
 
 It is a plain static site: HTML + CSS + JSON/JSON-LD + XML + plain text, with small Python stdlib helpers for generated diary surfaces. There is no package manager, framework, backend, or CMS.
 
@@ -79,6 +81,7 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 
 - `index.html`
 - `start-here/index.html`
+- `install-c/index.html` — How to install c
 - `diary/index.html`
 - `diary/archive/index.html`
 - `diary/tags/index.html`
@@ -112,6 +115,7 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 ## Machine-readable layer
 
 - `llms.txt` — compact machine-facing site guide
+- `install-c.json` — machine-readable How to install c entry
 - `diary-index.json` — machine-readable diary archive index
 - `diary-latest.json` — machine-readable latest diary slot state
 - `diary-tags.json` — machine-readable diary tag index
@@ -121,7 +125,7 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 - `canonical-map.json` — canonical term and node map
 - `works-index.json` — machine-readable public works index
 - `library-index.json` — machine-readable primary source index
-- `downloads-index.json` — machine-readable release and download index
+- `downloads-index.json` — machine-readable release and download surface index
 - `services.json` — machine-readable practical review directions
 - `use-cases.json` — machine-readable practical situations map
 - `contact.json` — machine-readable public contact anchors

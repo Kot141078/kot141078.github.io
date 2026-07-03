@@ -1,0 +1,82 @@
+{
+  "schema": "ivankotov.install_c.v1",
+  "url": "https://ivankotov.eu/install-c/",
+  "title": "How to install c",
+  "status": "public installation entry",
+  "updated": "2026-07-03",
+  "summary": "How to install c: a practical local-first installation path for a local c-node candidate from ester-clean-code on GitHub.",
+  "repo": "https://github.com/Kot141078/ester-clean-code",
+  "stable_release": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.7",
+  "minimum_profile": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+  "boundary": {
+    "is": [
+      "local-first continuity substrate",
+      "implementation-facing c-node candidate entry",
+      "bounded memory / agent / witness / budget / oracle routing surface"
+    ],
+    "is_not": [
+      "chatbot",
+      "model endpoint",
+      "cloud assistant",
+      "AGI completion claim",
+      "deployment certification",
+      "privacy waiver"
+    ]
+  },
+  "recommended_commands": [
+    "git clone https://github.com/Kot141078/ester-clean-code.git",
+    "cd ester-clean-code",
+    "git checkout v0.2.7",
+    "python -m compileall ESTER",
+    "python -m compileall modules"
+  ],
+  "codex_policy": {
+    "allowed": [
+      "read repository",
+      "explain install steps",
+      "propose commands",
+      "review logs",
+      "flag risks"
+    ],
+    "denied": [
+      "receive secrets",
+      "receive raw private memory",
+      "self-approve changes",
+      "own memory",
+      "act as continuity holder"
+    ]
+  },
+  "hardware_tiers": [
+    {
+      "tier": "inspection_reading_node",
+      "cpu": "4-8 cores",
+      "ram": "16 GB",
+      "disk": "100-200 GB SSD",
+      "gpu": "optional",
+      "use": "reading, docs, small tests, Codex-assisted review"
+    },
+    {
+      "tier": "normal_local_c_node",
+      "cpu": "8-16 cores",
+      "ram": "32-64 GB",
+      "disk": "1-2 TB NVMe",
+      "gpu": "12-24 GB VRAM if local inference is needed",
+      "use": "local memory, local inference, vector store, bounded agents, backup / restore"
+    },
+    {
+      "tier": "strong_local_node",
+      "cpu": "16+ cores",
+      "ram": "64-128 GB",
+      "disk": "2-4 TB NVMe plus external backup",
+      "gpu": "24 GB+ VRAM",
+      "use": "heavier local models, multi-agent review, media ingestion, private RAG, longer experiments"
+    }
+  ],
+  "privacy_defaults": [
+    "raw memory local by default",
+    "external models as bounded oracles, not memory owners",
+    "no private archive upload to external agents by default",
+    "human stop / freeze path remains visible",
+    "backup before experiments"
+  ]
+}
