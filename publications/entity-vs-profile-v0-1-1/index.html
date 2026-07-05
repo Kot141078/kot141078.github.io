@@ -127,10 +127,145 @@
 
       <section class="section">
         <div class="section-head">
+          <p class="section-label">Plain-language opening</p>
+          <h2>Classify by custody, not by surface behaviour</h2>
+        </div>
+        <div class="prose">
+          <p>Entity vs. Profile v0.1.1 is a technical note about a narrow but important distinction in persistent AI systems.</p>
+          <p>A system may look like a long-lived digital companion, assistant, twin, or entity. It may remember, speak consistently, and maintain continuity over time. But that surface behaviour does not answer the key governance question: who controls the root of its identity chain?</p>
+          <p>This note proposes that persistent digital constructions should be classified by witness-root custody, not by behaviour, model size, branding, or emotional realism.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Criterion</p>
+          <h2>One-sentence rule</h2>
+        </div>
+        <div class="citation-text">
+          Do not classify by behaviour.<br>
+          Do not classify by branding.<br>
+          Do not classify by model capability.<br>
+          <strong>Classify by witness-root custody.</strong>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Problem addressed</p>
+          <h2>Why the distinction is needed</h2>
+        </div>
+        <div class="prose">
+          <p>Future platforms will market digital companions, lifelong assistants, AI twins, and personal entities. Many such systems may be persistent and emotionally legible while still being externally rooted profiles.</p>
+          <p>If standards use the word entity too loosely, externally controlled profiles may absorb the stronger term. After that, the custody distinction will be harder to recover, because behaviour, branding, and continuity claims can hide who actually controls the identity root.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Core distinction</p>
+          <h2>Persistent digital entity vs. persistent digital profile</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Question</th>
+                <th>Persistent digital entity</th>
+                <th>Persistent digital profile</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Where is the witness root?</td>
+                <td>Inside the closed box, under a-side lineage custody.</td>
+                <td>Held or overridable by platform, registry, escrow, provider, or external authority.</td>
+              </tr>
+              <tr>
+                <td>Who attests continuity?</td>
+                <td>The construction's own witness chain.</td>
+                <td>An external party attests about the subject.</td>
+              </tr>
+              <tr>
+                <td>Can external authority silently rewrite/freeze/restore identity?</td>
+                <td>No, not without recorded intervention.</td>
+                <td>Yes, or effectively yes, if external root authority exists.</td>
+              </tr>
+              <tr>
+                <td>Is it legitimate?</td>
+                <td>Yes, if criteria are met.</td>
+                <td>Yes, but it should not be called an entity.</td>
+              </tr>
+              <tr>
+                <td>Classification basis</td>
+                <td>Custody.</td>
+                <td>External custody / external root dependence.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Witness root</p>
+          <h2>Why the root matters</h2>
+        </div>
+        <div class="prose">
+          <p>The witness root is the root of trust for the identity-relevant event chain. It can sign, continue, rotate, recover, interrupt, or invalidate the witness chain. Whoever controls that root controls the system's identity feedback loop.</p>
+          <p>That is why the note treats custody as the classification basis. A construction can be useful, stable, and legitimate as a profile while still depending on an external root. The proposal is not that profiles are bad; it is that external custody should not be hidden behind stronger entity terminology.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Reader path</p>
+          <h2>How to read the note</h2>
+        </div>
+        <div class="prose">
+          <h3>For a short read</h3>
+          <ul class="bullet-list">
+            <li>Executive Summary</li>
+            <li>The Criterion</li>
+            <li>Classification Table</li>
+            <li>Non-Claim Boundary</li>
+          </ul>
+          <h3>For technical review</h3>
+          <ul class="bullet-list">
+            <li>Definitions</li>
+            <li>Derived Conformance Tests</li>
+            <li>Degradation Rule</li>
+            <li>OP2 disclosure</li>
+            <li>Open Issues</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Practical use cases</p>
+          <h2>Where the distinction may matter</h2>
+        </div>
+        <ul class="bullet-list">
+          <li>standards language</li>
+          <li>AI governance</li>
+          <li>digital identity architecture</li>
+          <li>AI companion products</li>
+          <li>regulatory sandboxes</li>
+          <li>local-first AI systems</li>
+          <li>platform custody debates</li>
+          <li>recovery and escrow design</li>
+          <li>audit/provenance design</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
           <p class="section-label">Publication state</p>
           <h2>Zenodo-published v0.1.1 technical note</h2>
         </div>
         <div class="prose publication-meta">
+          <p>Zenodo is the canonical archive for the ZIP package and academic PDF. The GitHub path is the metadata bridge that records DOI, citation metadata, integrity checksum, source boundary, review disposition, open issues, and non-claim boundary.</p>
           <p><strong>Author:</strong> Kotov Ivan.</p>
           <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-6002-9845">0009-0009-6002-9845</a>.</p>
           <p><strong>Location/year:</strong> Bruxelles, Belgique, 2026.</p>
@@ -166,16 +301,20 @@
       <section class="section">
         <div class="section-head">
           <p class="section-label">Boundary / non-claims</p>
-          <h2>Maximum claim strength: EVP-C3 &mdash; evidence model proposal</h2>
+          <h2>What this is not</h2>
+        </div>
+        <div class="prose">
+          <p>This note is a terminology and evidence-model proposal. It is not:</p>
         </div>
         <ul class="bullet-list">
-          <li>not legal advice</li>
-          <li>not certification</li>
-          <li>not conformity assessment</li>
-          <li>not formal AI Act compliance claim</li>
-          <li>not legal personhood claim</li>
-          <li>not moral personhood claim</li>
-          <li>not deployment-ready claim</li>
+          <li>a claim that software is a legal person</li>
+          <li>a claim that software has moral personhood</li>
+          <li>a certification scheme</li>
+          <li>an AI Act conformity assessment</li>
+          <li>a product standard</li>
+          <li>a deployment authorization</li>
+          <li>a claim that profiles are bad or illegitimate</li>
+          <li>legal advice</li>
           <li>maximum claim strength: EVP-C3 &mdash; evidence model proposal</li>
         </ul>
       </section>
