@@ -974,6 +974,35 @@
         "CGAM",
         "AI governance"
       ]
+    },
+    {
+      "id": "ccalc-full-stack-v0-1",
+      "title": "C-Calculus / Governed Binding Stack v0.1",
+      "type": "publication",
+      "role": "governed binding stack / operational algebra for c = a + b",
+      "primary_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "secondary_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/ccalc-full-stack-v0-1",
+      "doi": "https://doi.org/10.5281/zenodo.21205427",
+      "zenodo_record": "https://zenodo.org/records/21205427",
+      "repo": "advanced-global-intelligence",
+      "root_path": "publications/ccalc-full-stack-v0-1/",
+      "sha256": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+      "date": "2026-07-05",
+      "version": "v0.1",
+      "summary": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
+      "not": [
+        "Not legal advice.",
+        "Not privacy-law certification.",
+        "Not safety certification.",
+        "Not deployment authorization.",
+        "Not standards compliance certification.",
+        "Not regulated approval.",
+        "Not C-A1 ratification.",
+        "Not personhood proof.",
+        "Not consciousness proof.",
+        "Not live-substrate truth.",
+        "Not proof of completeness."
+      ]
     }
   ]
 }

@@ -550,6 +550,47 @@
         "personhood claim",
         "memory write"
       ]
+    },
+    {
+      "id": "ccalc_full_stack_v0_1",
+      "title": "C-Calculus / Governed Binding Stack v0.1",
+      "url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "canonical_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "summary": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
+      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/ccalc-full-stack-v0-1",
+      "repository": "advanced-global-intelligence",
+      "repository_path": "publications/ccalc-full-stack-v0-1",
+      "doi": "10.5281/zenodo.21205427",
+      "doi_url": "https://doi.org/10.5281/zenodo.21205427",
+      "zenodo_record": "https://zenodo.org/records/21205427",
+      "zip_sha256": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+      "merge_commit": "65caac755fce37f884dd1684e26ed2bf740ce100",
+      "plus_boundary": "+ is not what computes c; + is what prevents c from being reduced to b.",
+      "read_order": [
+        "01 typed governed operational algebra",
+        "02 governed binding operator profile",
+        "03 c-state and transition semantics",
+        "04 continuity / equivalence / fork / replay / archive",
+        "05 self-evolution / bounded growth",
+        "06 runtime authority / multi-contour deployment",
+        "07 public evidence / redaction / release custody",
+        "08 interoperability / external review / reproduction",
+        "09 deployment / regulated release boundary",
+        "10 plus operator / protected incompleteness"
+      ],
+      "not": [
+        "Not legal advice.",
+        "Not privacy-law certification.",
+        "Not safety certification.",
+        "Not deployment authorization.",
+        "Not standards compliance certification.",
+        "Not regulated approval.",
+        "Not C-A1 ratification.",
+        "Not personhood proof.",
+        "Not consciousness proof.",
+        "Not live-substrate truth.",
+        "Not proof of completeness."
+      ]
     }
   ],
   "reading_path": [
@@ -570,5 +611,6 @@
   "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
   "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
   "bcec_v0_2_1_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
-  "adult_owner_dependency_d4_detection_v0_1_1_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/"
+  "adult_owner_dependency_d4_detection_v0_1_1_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+  "ccalc_full_stack_v0_1_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/"
 }
