@@ -106,23 +106,71 @@
       background: color-mix(in srgb, var(--bg-panel) 90%, #fff1f1);
     }
 
+    .source-folder-link {
+      align-self: start;
+      display: inline-flex;
+      width: fit-content;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0.28rem 0.55rem;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .source-folder-link:hover,
+    .source-folder-link:focus-visible {
+      border-color: var(--accent);
+    }
+
     .read-order {
-      counter-reset: read-order;
       list-style: none;
       padding-left: 0;
     }
 
     .read-order li {
-      counter-increment: read-order;
       border-bottom: 1px solid var(--line);
-      padding: 0.45rem 0;
     }
 
-    .read-order li::before {
-      content: counter(read-order, decimal-leading-zero) " ";
+    .read-order-link {
+      display: grid;
+      grid-template-columns: 3rem minmax(0, 1fr) auto;
+      gap: 0.85rem;
+      align-items: center;
+      padding: 0.58rem 0;
+      text-decoration: none;
+    }
+
+    .read-order-link:hover .read-order-title,
+    .read-order-link:focus-visible .read-order-title {
+      text-decoration: underline;
+    }
+
+    .read-order-num {
       color: var(--accent);
       font-family: "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
       font-weight: 700;
+    }
+
+    .read-order-title {
+      color: var(--text);
+    }
+
+    .read-order-cue {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 620px) {
+      .read-order-link {
+        grid-template-columns: 2.5rem minmax(0, 1fr);
+      }
+
+      .read-order-cue {
+        grid-column: 2;
+      }
     }
   </style>
   <link rel="stylesheet" href="../../styles.css">
@@ -241,18 +289,19 @@
         <div class="section-head">
           <p class="section-label">Read order: 01-10</p>
           <h2>Start from algebra and end at the protected plus boundary</h2>
+          <a class="source-folder-link" href="https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/ccalc-full-stack-v0-1/sources" target="_blank" rel="noopener">Open 01-10 source folder</a>
         </div>
         <ol class="read-order">
-          <li>typed governed operational algebra</li>
-          <li>governed binding operator profile</li>
-          <li>c-state and transition semantics</li>
-          <li>continuity / equivalence / fork / replay / archive</li>
-          <li>self-evolution / bounded growth</li>
-          <li>runtime authority / multi-contour deployment</li>
-          <li>public evidence / redaction / release custody</li>
-          <li>interoperability / external review / reproduction</li>
-          <li>deployment / regulated release boundary</li>
-          <li>plus operator / protected incompleteness</li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/01_TYPED_GOVERNED_OPERATIONAL_ALGEBRA_FOR_C_v0_1_7.md" target="_blank" rel="noopener"><span class="read-order-num">01</span><span class="read-order-title">typed governed operational algebra</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/02_GOVERNED_BINDING_OPERATOR_PROFILE_v0_1_5.md" target="_blank" rel="noopener"><span class="read-order-num">02</span><span class="read-order-title">governed binding operator profile</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/03_C_STATE_AND_TRANSITION_SEMANTICS_v0_1_2.md" target="_blank" rel="noopener"><span class="read-order-num">03</span><span class="read-order-title">c-state and transition semantics</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2.md" target="_blank" rel="noopener"><span class="read-order-num">04</span><span class="read-order-title">continuity / equivalence / fork / replay / archive</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/05_C_SELF_EVOLUTION_GATE_AND_BOUNDED_GROWTH_SEMANTICS_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">05</span><span class="read-order-title">self-evolution / bounded growth</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/06_C_RUNTIME_AUTHORITY_AND_MULTI_CONTOUR_DEPLOYMENT_BOUNDARY_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">06</span><span class="read-order-title">runtime authority / multi-contour deployment</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/07_C_PUBLIC_EVIDENCE_DISCLOSURE_AND_REDACTION_BOUNDARY_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">07</span><span class="read-order-title">public evidence / redaction / release custody</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/08_C_INTEROPERABILITY_PROFILE_AND_EXTERNAL_REVIEW_INTAKE_BOUNDARY_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">08</span><span class="read-order-title">interoperability / external review / reproduction</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/09_C_DEPLOYMENT_PROFILE_AND_REGULATED_RELEASE_BOUNDARY_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">09</span><span class="read-order-title">deployment / regulated release boundary</span><span class="read-order-cue">Open source</span></a></li>
+          <li><a class="read-order-link" href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/10_THE_PLUS_OPERATOR_BOUNDARY_AND_PROTECTED_INCOMPLETENESS_v0_1.md" target="_blank" rel="noopener"><span class="read-order-num">10</span><span class="read-order-title">plus operator / protected incompleteness</span><span class="read-order-cue">Open source</span></a></li>
         </ol>
       </section>
 
@@ -277,6 +326,10 @@
         <div class="prose">
           <p>In this package, <code>+</code> is treated as a governed non-collapsing binding boundary. It is not a model call, not a merge operator, not a publication event, not a checker pass, not a DOI, not a deployment approval, not an external review, and not a standards mapping. Those things can support the perimeter. They do not replace the binding boundary.</p>
           <p>The protected boundary is the part of the architecture that prevents <code>c</code> from being reduced to the <code>b</code> layer. It is what keeps model output, tool success, evidence bundles, public records, and procedural conformance from being mistaken for the whole relation.</p>
+        </div>
+        <div class="section-links">
+          <a href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/sources/10_THE_PLUS_OPERATOR_BOUNDARY_AND_PROTECTED_INCOMPLETENESS_v0_1.md" target="_blank" rel="noopener">Open document 10</a>
+          <a href="https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/ccalc-full-stack-v0-1/PLUS_BOUNDARY_NOTE.md" target="_blank" rel="noopener">Open PLUS_BOUNDARY_NOTE</a>
         </div>
         <ul class="bullet-list">
           <li>Publication does not compute <code>+</code>.</li>
