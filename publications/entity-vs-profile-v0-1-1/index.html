@@ -4,91 +4,217 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Entity vs. Profile v0.1.1 | Ivan Kotov</title>
-  <meta name="description" content="Technical note defining witness-root custody as the classification criterion for persistent digital entities and profiles.">
-  <meta name="keywords" content="c=a+b, witness root, closed box, AI governance, digital identity, provenance, Article 50, standards">
+  <meta name="description" content="Entity vs. Profile: a witness-root custody criterion for distinguishing persistent digital entities from persistent digital profiles.">
+  <meta name="keywords" content="persistent digital entity, persistent digital profile, witness root, custody, closed box, AI governance, Article 50, Zenodo, DOI, Kotov Ivan">
   <link rel="canonical" href="https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/">
   <meta property="og:title" content="Entity vs. Profile v0.1.1 | Ivan Kotov">
-  <meta property="og:description" content="Witness-root custody criterion for persistent digital entities and profiles.">
+  <meta property="og:description" content="Witness-root custody criterion for persistent digital entities and persistent digital profiles.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Entity vs. Profile v0.1.1 | Ivan Kotov">
+  <meta name="twitter:description" content="DOI-backed technical note on witness-root custody as an entity/profile boundary.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
-    "author": {
-      "@type": "Person",
-      "name": "Kotov Ivan",
-      "identifier": "https://orcid.org/0009-0009-6002-9845"
-    },
-    "datePublished": "2026-07-05",
-    "version": "v0.1.1",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "identifier": "https://doi.org/10.5281/zenodo.21204415",
-    "sameAs": [
-      "https://zenodo.org/records/21204415",
-      "https://doi.org/10.5281/zenodo.21204415",
-      "https://doi.org/10.5281/zenodo.21204414",
-      "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1"
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/#page",
+        "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+        "name": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+        "description": "DOI-backed site page for the Entity vs. Profile v0.1.1 technical note.",
+        "mainEntity": {
+          "@id": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/#work"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ivankotov.eu/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Publications",
+            "item": "https://ivankotov.eu/publications/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Entity vs. Profile v0.1.1",
+            "item": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/"
+          }
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/#work",
+        "name": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+        "headline": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+        "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+        "description": "This technical note defines witness-root custody as the custodial criterion for distinguishing persistent digital entities from persistent digital profiles.",
+        "author": {
+          "@type": "Person",
+          "name": "Kotov Ivan",
+          "identifier": "https://orcid.org/0009-0009-6002-9845",
+          "url": "https://ivankotov.eu/about/"
+        },
+        "datePublished": "2026-07-05",
+        "version": "v0.1.1",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "identifier": "https://doi.org/10.5281/zenodo.21204415",
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.21204415",
+          "https://doi.org/10.5281/zenodo.21204414",
+          "https://zenodo.org/records/21204415",
+          "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1"
+        ],
+        "keywords": [
+          "persistent digital entity",
+          "persistent digital profile",
+          "witness root",
+          "custody",
+          "closed box",
+          "AI governance",
+          "Article 50"
+        ]
+      }
     ]
   }
   </script>
   <style>
-    :root { color-scheme: light dark; --fg:#111827; --muted:#4b5563; --bg:#ffffff; --card:#f9fafb; --line:#e5e7eb; --accent:#1d4ed8; }
-    @media (prefers-color-scheme: dark) { :root { --fg:#e5e7eb; --muted:#a1a1aa; --bg:#0b1020; --card:#111827; --line:#263244; --accent:#93c5fd; } }
-    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--fg); background:var(--bg); }
-    main { max-width:980px; margin:0 auto; padding:42px 20px 64px; }
-    h1 { line-height:1.15; font-size:clamp(2rem,4vw,3.2rem); margin:0 0 12px; }
-    h2 { margin-top:32px; }
-    .meta, .muted { color:var(--muted); }
-    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; margin:20px 0; }
-    a { color:var(--accent); }
-    code, pre { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-    pre { overflow:auto; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
-    table { border-collapse:collapse; width:100%; }
-    td, th { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
-    .links a { display:inline-block; margin:4px 12px 4px 0; }
+    .publication-meta,
+    .publication-meta a,
+    .citation-text {
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
   </style>
+  <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-<main>
-  <p class="meta"><a href="/publications/">Publications</a> / Technical note</p>
-  <h1>Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities</h1>
-  <p class="meta">Kotov Ivan · Bruxelles, Belgique · v0.1.1 · Published July 5, 2026</p>
+  <div class="site-shell">
+        <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="/publications/" aria-current="page">Publications</a>
+        <a href="../../diary/">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
 
-  <section class="card">
-    <p>This technical note defines one narrow custodial distinction:</p>
-    <pre>persistent digital entity != persistent digital profile</pre>
-    <p>The criterion is witness-root custody. A construction may be classified as an entity only when its witness root is generated and held inside its closed-box boundary under a-side lineage custody. External custody, escrow, registry authority, platform root, or override capability classifies the construction as a profile.</p>
-  </section>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">DOI-backed technical note</p>
+        <h1>Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities</h1>
+        <p class="lead page-lead">Witness-root custody as the custodial criterion for distinguishing persistent digital entities from persistent digital profiles.</p>
+      </section>
 
-  <section class="card links">
-    <h2>Canonical records</h2>
-    <p><strong>Version DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21204415">10.5281/zenodo.21204415</a></p>
-    <p><strong>Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21204414">10.5281/zenodo.21204414</a></p>
-    <p><strong>Zenodo record:</strong> <a href="https://zenodo.org/records/21204415">https://zenodo.org/records/21204415</a></p>
-    <p><strong>GitHub metadata bridge:</strong> <a href="https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1">official/entity-vs-profile/v0_1_1</a></p>
-  </section>
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Publication state</p>
+          <h2>Zenodo-published v0.1.1 technical note</h2>
+        </div>
+        <div class="prose publication-meta">
+          <p><strong>Author:</strong> Kotov Ivan.</p>
+          <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-6002-9845">0009-0009-6002-9845</a>.</p>
+          <p><strong>Location/year:</strong> Bruxelles, Belgique, 2026.</p>
+          <p><strong>Version:</strong> <code>v0.1.1</code>.</p>
+          <p><strong>Publication date:</strong> <code>2026-07-05</code>.</p>
+          <p><strong>Version DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21204415">https://doi.org/10.5281/zenodo.21204415</a>.</p>
+          <p><strong>Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21204414">https://doi.org/10.5281/zenodo.21204414</a>.</p>
+          <p><strong>Zenodo record:</strong> <a href="https://zenodo.org/records/21204415">https://zenodo.org/records/21204415</a>.</p>
+          <p><strong>GitHub metadata bridge:</strong> <a href="https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1">advanced-global-intelligence / official/entity-vs-profile/v0_1_1</a>.</p>
+          <p><strong>License:</strong> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+          <p><strong>Canonical archive:</strong> <code>ENTITY_VS_PROFILE_WITNESS_ROOT_CUSTODY_v0_1_1_ZENODO_PACKAGE_DOI_READY.zip</code>.</p>
+          <p><strong>ZIP SHA-256:</strong> <code>9c04044a449f0ead874860f807222b5eccb9ff1591e2cd456e89f9b2d5113817</code>.</p>
+        </div>
+        <div class="section-links">
+          <a href="https://doi.org/10.5281/zenodo.21204415">Version DOI</a>
+          <a href="https://doi.org/10.5281/zenodo.21204414">Concept DOI</a>
+          <a href="https://zenodo.org/records/21204415">Zenodo record</a>
+          <a href="https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1">GitHub metadata bridge</a>
+        </div>
+      </section>
 
-  <section>
-    <h2>Non-claim boundary</h2>
-    <p>This publication is a technical note and evidence model proposal. It is not legal advice, not certification, not conformity assessment, not formal AI Act compliance, and not a deployment-ready claim.</p>
-    <p>Maximum claim strength: <strong>EVP-C3 — evidence model proposal</strong>.</p>
-  </section>
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Summary</p>
+          <h2>Witness-root custody criterion</h2>
+        </div>
+        <div class="prose">
+          <p>This technical note defines witness-root custody as the custodial criterion for distinguishing persistent digital entities from persistent digital profiles.</p>
+          <p>A construction may be classified as an entity only when its witness root is generated and held inside its closed-box boundary under a-side lineage custody. External custody, escrow, registry authority, platform root, or override capability classifies the construction as a profile.</p>
+        </div>
+      </section>
 
-  <section>
-    <h2>Citation</h2>
-    <pre>Kotov, I. (2026). Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.21204415</pre>
-  </section>
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Boundary / non-claims</p>
+          <h2>Maximum claim strength: EVP-C3 &mdash; evidence model proposal</h2>
+        </div>
+        <ul class="bullet-list">
+          <li>not legal advice</li>
+          <li>not certification</li>
+          <li>not conformity assessment</li>
+          <li>not formal AI Act compliance claim</li>
+          <li>not legal personhood claim</li>
+          <li>not moral personhood claim</li>
+          <li>not deployment-ready claim</li>
+          <li>maximum claim strength: EVP-C3 &mdash; evidence model proposal</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>Integrity</h2>
-    <table>
-      <tr><th>Canonical archive</th><td>ENTITY_VS_PROFILE_WITNESS_ROOT_CUSTODY_v0_1_1_ZENODO_PACKAGE_DOI_READY.zip</td></tr>
-      <tr><th>SHA-256</th><td><code>9c04044a449f0ead874860f807222b5eccb9ff1591e2cd456e89f9b2d5113817</code></td></tr>
-      <tr><th>License</th><td>CC BY 4.0</td></tr>
-    </table>
-  </section>
-</main>
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Canonical archive contents</p>
+          <h2>Reviewable package surfaces</h2>
+        </div>
+        <ul class="bullet-list">
+          <li><code>ENTITY_VS_PROFILE_WITNESS_ROOT_CUSTODY_v0_1_1.md</code> - canonical Markdown source.</li>
+          <li><code>ENTITY_VS_PROFILE_WITNESS_ROOT_CUSTODY_v0_1_1_ACADEMIC.pdf</code> - academic PDF rendering.</li>
+          <li><code>ENTITY_VS_PROFILE_REVIEW_DISPOSITION_v0_1_1.md</code> - supplementary review disposition record.</li>
+          <li><code>PUBLICATION_RECORD.json</code>, <code>CITATION.cff</code>, <code>.zenodo.json</code>, manifest, license, release notes, and SHA-256 checksum files.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Citation</p>
+          <h2>Suggested citation</h2>
+        </div>
+        <p class="citation-text">Kotov, Ivan. <em>Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities</em>. Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.21204415">https://doi.org/10.5281/zenodo.21204415</a></p>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Links</p>
+          <h2>Canonical public surfaces</h2>
+        </div>
+        <div class="section-links">
+          <a href="https://doi.org/10.5281/zenodo.21204415">Version DOI</a>
+          <a href="https://doi.org/10.5281/zenodo.21204414">Concept DOI</a>
+          <a href="https://zenodo.org/records/21204415">Zenodo record</a>
+          <a href="https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1">GitHub metadata bridge</a>
+          <a href="../">Publications index</a>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>

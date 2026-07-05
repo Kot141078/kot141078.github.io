@@ -27,6 +27,7 @@
   "ester_theoretical_core_v0_1_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
   "personality_formation_evidence_package_v0_1_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+  "entity_vs_profile_v0_1_1_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
   "nodes": [
     {
       "id": "agi",
@@ -405,6 +406,25 @@
       ]
     },
     {
+      "id": "entity_vs_profile_v0_1_1",
+      "title": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+      "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+      "summary": "Witness-root custody criterion for distinguishing persistent digital entities from persistent digital profiles.",
+      "doi": "https://doi.org/10.5281/zenodo.21204415",
+      "concept_doi": "https://doi.org/10.5281/zenodo.21204414",
+      "zenodo_record": "https://zenodo.org/records/21204415",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1",
+      "not": [
+        "legal advice",
+        "certification",
+        "conformity assessment",
+        "formal AI Act compliance claim",
+        "legal personhood claim",
+        "moral personhood claim",
+        "deployment-ready claim"
+      ]
+    },
+    {
       "id": "article50-transparency-implementation-briefs-v0-1",
       "title": "Article 50 Transparency Implementation Briefs v0.1",
       "url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
@@ -516,5 +536,6 @@
   "article50_transparency_implementation_briefs_v0_1_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
   "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+  "entity_vs_profile_v0_1_1_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
   "bcec_v0_2_1_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/"
 }
