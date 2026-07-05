@@ -165,14 +165,14 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
-      "object": "Reality-Bound AI (L4) \u2014 Notes, Protocol, and Posts",
+      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
       "surface": "GitHub release l4-snapshot-2026-02-24",
       "format": "release page",
       "url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
       "note": "Confirmed public release surface; no attached assets confirmed."
     },
     {
-      "object": "Reality-Bound AI (L4) \u2014 Notes, Protocol, and Posts",
+      "object": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
       "surface": "Stable source snapshot",
       "format": "zip source archive",
       "url": "https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip",
@@ -200,7 +200,7 @@
       "note": "Confirmed in the local README; TAR.GZ is also listed there."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -208,7 +208,7 @@
       "note": "Current public release indexed for the trilogy website layer."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -216,7 +216,7 @@
       "note": "Confirmed repository download matrix for the public reading bundles."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume II",
+      "object": "Qubit of Hope — Volume II",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -224,7 +224,7 @@
       "note": "Current public release; v1.0.0 remains the first release from 2026-04-17."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume II",
+      "object": "Qubit of Hope — Volume II",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -232,7 +232,7 @@
       "note": "Confirmed repository download matrix for seven language bundles."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume III",
+      "object": "Qubit of Hope — Volume III",
       "surface": "GitHub release v1.0.1",
       "format": "release page",
       "language": "multilingual",
@@ -240,7 +240,7 @@
       "note": "Current public release for the third-volume continuation."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume III",
+      "object": "Qubit of Hope — Volume III",
       "surface": "Downloads page",
       "format": "md + pdf + epub + fb2",
       "language": "multilingual",
@@ -248,7 +248,7 @@
       "note": "Repository download matrix for the Volume III public reading bundles."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Russian",
@@ -256,7 +256,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "French",
@@ -264,7 +264,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Spanish",
@@ -272,7 +272,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "German",
@@ -280,7 +280,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "English",
@@ -288,7 +288,7 @@
       "note": "Status: provisional."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Dutch",
@@ -296,7 +296,7 @@
       "note": "Status: aligned."
     },
     {
-      "object": "Qubit of Hope \u2014 Volume I",
+      "object": "Qubit of Hope — Volume I",
       "surface": "Language bundle",
       "format": "md + pdf + epub + fb2",
       "language": "Simplified Chinese",
@@ -1215,6 +1215,139 @@
       "note": "GitHub release ZIP asset for the public package; packaging hash is reported separately from canonical Markdown/PDF hashes.",
       "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
       "release_tag": "bcec-v0.2.1"
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "Website publication page",
+      "format": "website page",
+      "url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "note": "Public website entry for the adult-owner dependency and D4 detection boundary packet."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "Zenodo package ZIP",
+      "format": "zip",
+      "url": "https://zenodo.org/records/21207504/files/ADULT_OWNER_DEPENDENCY_AND_D4_DETECTION_ZENODO_PACKAGE_v0_1_1.zip?download=1",
+      "note": "Direct Zenodo package download; package SHA-256 is recorded in this index."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "Version DOI",
+      "format": "DOI landing page",
+      "url": "https://doi.org/10.5281/zenodo.21207504",
+      "note": "Version DOI for the Zenodo-published v0.1.1 package."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "Concept DOI",
+      "format": "DOI landing page",
+      "url": "https://doi.org/10.5281/zenodo.21207503",
+      "note": "Concept DOI for the Adult-Owner Dependency and D4 Detection record family."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "Zenodo record",
+      "format": "record landing page",
+      "url": "https://zenodo.org/records/21207504",
+      "note": "Published Zenodo record for the canonical package."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "GitHub release",
+      "format": "release page",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "note": "GitHub release with final ZIP and master PDF assets."
+    },
+    {
+      "object": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "language": "English",
+      "page_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "doi_identifier": "10.5281/zenodo.21207504",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "concept_doi_identifier": "10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_bridge_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "surface": "GitHub publication bridge",
+      "format": "repository path",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+      "note": "Public publication bridge path; package files are not mirrored into the website repository."
     },
     {
       "object": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
