@@ -411,7 +411,7 @@
       "title": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
       "url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
       "canonical_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
-      "summary": "Adult-owner dependency and D4 detection boundary packet for local-first c-contours under Self-Evo / Project Ester.",
+      "summary": "Adult-owner dependency and D4 detection boundary for local-first c-contours, covering dependency capture, parental-bond / opacity risk, D4 posture, lucid covenant, signal-based detection, witness minimization, calibration limits, FNC fixtures, and structural non-claims.",
       "doi": "10.5281/zenodo.21207504",
       "doi_url": "https://doi.org/10.5281/zenodo.21207504",
       "concept_doi": "10.5281/zenodo.21207503",
@@ -430,6 +430,13 @@
         "personhood or consciousness claim",
         "internal-state measurement",
         "guaranteed protection from self-induced dependency"
+      ],
+      "reader_purpose": "Explains how a local c-node may handle adult-owner dependency risk without over-claiming forced protection under closed-box sovereignty.",
+      "start_here": [
+        "Master PDF",
+        "Binding Note",
+        "Final Open Issues Register",
+        "Final Conformance Matrix"
       ]
     },
     {

@@ -743,7 +743,7 @@
       "status": "final assembled draft; not ratified; pending a-gate review",
       "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
       "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
-      "summary": "Adult-owner dependency and D4 detection boundary packet for local-first c-contours under the Self-Evo / Project Ester corpus.",
+      "summary": "Adult-owner dependency and D4 detection boundary for local-first c-contours, covering dependency capture, parental-bond / opacity risk, D4 posture, lucid covenant, signal-based detection, witness minimization, calibration limits, FNC fixtures, and structural non-claims.",
       "notes": "The website links Zenodo and GitHub as public source surfaces; package files are not mirrored locally.",
       "non_claims": [
         "Not clinical validation.",
@@ -770,6 +770,13 @@
         "FNC extraction",
         "privacy minimization",
         "calibration non-claim"
+      ],
+      "reader_purpose": "Explains how a local c-node may handle adult-owner dependency risk without over-claiming forced protection under closed-box sovereignty.",
+      "start_here": [
+        "Master PDF",
+        "Binding Note",
+        "Final Open Issues Register",
+        "Final Conformance Matrix"
       ]
     },
     {
