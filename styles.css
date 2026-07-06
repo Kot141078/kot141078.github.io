@@ -62,6 +62,34 @@ code {
   word-break: break-word;
 }
 
+.long-text-block {
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  padding: 0.9rem 1rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.long-text-block code,
+.hash-record code {
+  max-width: 100%;
+  white-space: inherit;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.hash-record {
+  min-width: 0;
+}
+
+.hash-record code {
+  white-space: normal;
+}
+
 .site-shell {
   width: min(calc(100% - 2rem), var(--max-width));
   margin: 0 auto;
