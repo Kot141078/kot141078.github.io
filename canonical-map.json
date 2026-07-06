@@ -406,6 +406,33 @@
       ]
     },
     {
+      "id": "a6_ctp_v0_1_4",
+      "title": "A6 Composition Transition Predicate Addendum v0.1.4",
+      "url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
+      "canonical_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
+      "summary": "Bounded addendum to A6 Composition Layer v0.1.1 defining EXIT / SPLIT / HOLD / DISSOLVE classification by unique lawful successor, successor-claim incompatibility, HOLD/FREEZE discipline, and witnessed successor-space exhaustion.",
+      "doi": "10.5281/zenodo.21227129",
+      "doi_url": "https://doi.org/10.5281/zenodo.21227129",
+      "concept_doi": "10.5281/zenodo.21227128",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21227128",
+      "zenodo_record": "https://zenodo.org/records/21227129",
+      "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-ctp-v0.1.4",
+      "repository_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/a6-ctp/v0.1.4",
+      "parent_doi": "10.5281/zenodo.20752182",
+      "parent_doi_url": "https://doi.org/10.5281/zenodo.20752182",
+      "parent_page": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "not": [
+        "legal advice",
+        "product certification",
+        "deployment-ready",
+        "conformance claim",
+        "personhood claim",
+        "safety proof",
+        "replacement for the parent A6 DOI artifact",
+        "silent amendment of reviewed artifacts"
+      ]
+    },
+    {
       "id": "adult-owner-dependency-d4-detection-v0-1-1",
       "slug": "adult-owner-dependency-d4-detection-v0-1-1",
       "title": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
@@ -612,5 +639,6 @@
   "self_evo_document_package_v0_1_1_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
   "bcec_v0_2_1_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
   "adult_owner_dependency_d4_detection_v0_1_1_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
-  "ccalc_full_stack_v0_1_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/"
+  "ccalc_full_stack_v0_1_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+  "a6_ctp_v0_1_4_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/"
 }
