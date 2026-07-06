@@ -46,12 +46,14 @@ code {
 }
 
 .citation-text {
+  display: block;
   max-width: 100%;
   margin: 0;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: color-mix(in srgb, var(--bg-panel) 92%, white);
   padding: 0.9rem 1rem;
+  line-height: 1.55;
   overflow-wrap: anywhere;
   word-break: break-word;
   white-space: normal;
@@ -69,13 +71,18 @@ code {
   border-radius: 14px;
   background: color-mix(in srgb, var(--bg-panel) 92%, white);
   padding: 0.9rem 1rem;
-  white-space: pre-wrap;
+  white-space: normal;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
 
+pre.long-text-block {
+  white-space: pre-wrap;
+}
+
 .long-text-block code,
-.hash-record code {
+.hash-record code,
+.hash-record .long-text-block {
   max-width: 100%;
   white-space: inherit;
   overflow-wrap: anywhere;
