@@ -1,40 +1,178 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 185,
+  "count": 190,
   "latest": {
-    "title": "Article 50 Transparency Implementation Briefs v0.1",
-    "date": "2026-06-21",
-    "slug": "article-50-transparency-implementation-briefs-v0-1",
-    "summary": "Announcement of Article 50 Transparency Implementation Briefs v0.1 as short technical notes for policy readers and engineers.",
+    "title": "A small external comment turned into a useful control-layer correction.",
+    "date": "2026-06-30",
+    "slug": "a-small-external-comment-turned-into-a-useful-control-layer-correction",
+    "summary": "Announcement of the Self-Evo WDC v0.1.2 release-candidate package on Witness Dependency Capture and the survivability of independent witnesses.",
     "tags": [
-      "AIAct",
-      "Article50",
-      "AITransparency",
       "AIGovernance",
-      "AISafety",
-      "Provenance",
-      "AICompliance",
-      "ResponsibleAI",
-      "AgenticAI",
-      "EuropeanAI"
+      "AITransparency",
+      "SelfEvolution",
+      "WitnessDependencyCapture",
+      "HumanOversight",
+      "ControlSystems",
+      "ResponsibleAI"
     ],
     "raw_tags": [
-      "AIAct",
-      "Article50",
-      "AITransparency",
       "AIGovernance",
-      "AISafety",
-      "Provenance",
-      "AICompliance",
-      "ResponsibleAI",
-      "AgenticAI",
-      "EuropeanAI"
+      "AITransparency",
+      "SelfEvolution",
+      "WitnessDependencyCapture",
+      "HumanOversight",
+      "ControlSystems",
+      "ResponsibleAI"
     ],
-    "page": "https://ivankotov.eu/diary/article-50-transparency-implementation-briefs-v0-1/",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_for-ai-office-policy-reader-activity-7474462073503072256-F7zb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/",
+    "primary_image": "https://ivankotov.eu/assets/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/cover.jpg",
+    "image_alt": "Title card for Self-Evo WDC v0.1.2 Witness Dependency Capture Release-Candidate Package.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aigovernance-aitransparency-selfevolution-activity-7478342174053482496-_69S?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "A small external comment turned into a useful control-layer correction.",
+      "date": "2026-06-30",
+      "slug": "a-small-external-comment-turned-into-a-useful-control-layer-correction",
+      "summary": "Announcement of the Self-Evo WDC v0.1.2 release-candidate package on Witness Dependency Capture and the survivability of independent witnesses.",
+      "tags": [
+        "AIGovernance",
+        "AITransparency",
+        "SelfEvolution",
+        "WitnessDependencyCapture",
+        "HumanOversight",
+        "ControlSystems",
+        "ResponsibleAI"
+      ],
+      "raw_tags": [
+        "AIGovernance",
+        "AITransparency",
+        "SelfEvolution",
+        "WitnessDependencyCapture",
+        "HumanOversight",
+        "ControlSystems",
+        "ResponsibleAI"
+      ],
+      "page": "https://ivankotov.eu/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/",
+      "primary_image": "https://ivankotov.eu/assets/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/cover.jpg",
+      "image_alt": "Title card for Self-Evo WDC v0.1.2 Witness Dependency Capture Release-Candidate Package.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aigovernance-aitransparency-selfevolution-activity-7478342174053482496-_69S?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Bounded Capability Extraction Clause v0.2.1",
+      "date": "2026-06-29",
+      "slug": "bounded-capability-extraction-clause-v0-2-1",
+      "summary": "Announcement of Bounded Capability Extraction Clause v0.2.1 and its controls for bounded use of external oracle capability.",
+      "tags": [
+        "AIgovernance",
+        "AItransparency",
+        "provenance",
+        "AIsafety",
+        "AgentGovernance",
+        "LLM",
+        "ExternalOracles",
+        "DigitalInfrastructure",
+        "SelfEvo"
+      ],
+      "raw_tags": [
+        "AIgovernance",
+        "AItransparency",
+        "provenance",
+        "AIsafety",
+        "AgentGovernance",
+        "LLM",
+        "ExternalOracles",
+        "DigitalInfrastructure",
+        "SelfEvo"
+      ],
+      "page": "https://ivankotov.eu/diary/bounded-capability-extraction-clause-v0-2-1/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_bounded-capability-extraction-clause-v021-activity-7477262116912148480-0w8i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The industry is building a staircase to nowhere, while true intelligence requires a foundation.",
+      "date": "2026-06-28",
+      "slug": "the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation",
+      "summary": "A critique of agent-centric AI architecture and an argument for c = a + b foundations built around Memory Gate, witness dependency, and resource accountability.",
+      "tags": [
+        "AI",
+        "Architecture",
+        "Advanced Global Intelligence",
+        "SystemDesign",
+        "Innovation",
+        "Intelligence",
+        "Protocols",
+        "TechLeadership",
+        "EngineeringFoundations"
+      ],
+      "raw_tags": [
+        "AI",
+        "Architecture",
+        "AGI",
+        "SystemDesign",
+        "Innovation",
+        "Intelligence",
+        "Protocols",
+        "TechLeadership",
+        "EngineeringFoundations"
+      ],
+      "page": "https://ivankotov.eu/diary/the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation/",
+      "primary_image": "https://ivankotov.eu/assets/diary/the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation/cover.jpg",
+      "image_alt": "Luminous glass staircase rising above a black foundation marked c = a + b.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-architecture-agi-activity-7476892299663220736-8ac5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Pavel Durov's original speech (English), Oslo Freedom Forum, June 2026",
+      "date": "2026-06-27",
+      "slug": "pavel-durovs-original-speech-english-oslo-freedom-forum-june-2026",
+      "summary": "A reaction to Pavel Durov's Oslo Freedom Forum speech on state power, privacy, inspectable control, and capability-limiting architecture for future AI.",
+      "tags": [
+        "AIGovernance",
+        "DigitalRights",
+        "Privacy",
+        "EUAIAct",
+        "Encryption"
+      ],
+      "raw_tags": [
+        "AIGovernance",
+        "DigitalRights",
+        "Privacy",
+        "EUAIAct",
+        "Encryption"
+      ],
+      "page": "https://ivankotov.eu/diary/pavel-durovs-original-speech-english-oslo-freedom-forum-june-2026/",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ive-seen-how-governments-suppress-freedom-activity-7476551543060766720-HghM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Self-Evo Document Package v0.1.1",
+      "date": "2026-06-26",
+      "slug": "self-evo-document-package-v0-1-1",
+      "summary": "Announcement of Self-Evo Document Package v0.1.1 as a document-level governance corpus for bounded self-evolution of c = a + b systems.",
+      "tags": [
+        "AIGovernance",
+        "AISafety",
+        "AgentGovernance",
+        "AIAccountability",
+        "AITransparency",
+        "HumanInTheLoop",
+        "SelfEvolution",
+        "CEqualsAPlusB"
+      ],
+      "raw_tags": [
+        "AIGovernance",
+        "AISafety",
+        "AgentGovernance",
+        "AIAccountability",
+        "AITransparency",
+        "HumanInTheLoop",
+        "SelfEvolution",
+        "CEqualsAPlusB"
+      ],
+      "page": "https://ivankotov.eu/diary/self-evo-document-package-v0-1-1/",
+      "primary_image": "https://ivankotov.eu/assets/diary/self-evo-document-package-v0-1-1/cover.jpg",
+      "image_alt": "Governance workflow diagram above a desk with a prohibited self-certification loop highlighted in red.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aigovernance-aisafety-agentgovernance-activity-7476401019426619392-o9_L?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "Article 50 Transparency Implementation Briefs v0.1",
       "date": "2026-06-21",

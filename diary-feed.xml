@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 17:18:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 17:37:49 +0000</lastBuildDate>
+    <item>
+      <title>A small external comment turned into a useful control-layer correction.</title>
+      <link>https://ivankotov.eu/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/</link>
+      <guid>https://ivankotov.eu/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/</guid>
+      <pubDate>Tue, 30 Jun 2026 12:00:00 +0000</pubDate>
+      <description>Announcement of the Self-Evo WDC v0.1.2 release-candidate package on Witness Dependency Capture and the survivability of independent witnesses.</description>
+    </item>
+    <item>
+      <title>Bounded Capability Extraction Clause v0.2.1</title>
+      <link>https://ivankotov.eu/diary/bounded-capability-extraction-clause-v0-2-1/</link>
+      <guid>https://ivankotov.eu/diary/bounded-capability-extraction-clause-v0-2-1/</guid>
+      <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+      <description>Announcement of Bounded Capability Extraction Clause v0.2.1 and its controls for bounded use of external oracle capability.</description>
+    </item>
+    <item>
+      <title>The industry is building a staircase to nowhere, while true intelligence requires a foundation.</title>
+      <link>https://ivankotov.eu/diary/the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation/</link>
+      <guid>https://ivankotov.eu/diary/the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation/</guid>
+      <pubDate>Sun, 28 Jun 2026 12:00:00 +0000</pubDate>
+      <description>A critique of agent-centric AI architecture and an argument for c = a + b foundations built around Memory Gate, witness dependency, and resource accountability.</description>
+    </item>
+    <item>
+      <title>Pavel Durov&#x27;s original speech (English), Oslo Freedom Forum, June 2026</title>
+      <link>https://ivankotov.eu/diary/pavel-durovs-original-speech-english-oslo-freedom-forum-june-2026/</link>
+      <guid>https://ivankotov.eu/diary/pavel-durovs-original-speech-english-oslo-freedom-forum-june-2026/</guid>
+      <pubDate>Sat, 27 Jun 2026 12:00:00 +0000</pubDate>
+      <description>A reaction to Pavel Durov&#x27;s Oslo Freedom Forum speech on state power, privacy, inspectable control, and capability-limiting architecture for future AI.</description>
+    </item>
+    <item>
+      <title>Self-Evo Document Package v0.1.1</title>
+      <link>https://ivankotov.eu/diary/self-evo-document-package-v0-1-1/</link>
+      <guid>https://ivankotov.eu/diary/self-evo-document-package-v0-1-1/</guid>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
+      <description>Announcement of Self-Evo Document Package v0.1.1 as a document-level governance corpus for bounded self-evolution of c = a + b systems.</description>
+    </item>
     <item>
       <title>Article 50 Transparency Implementation Briefs v0.1</title>
       <link>https://ivankotov.eu/diary/article-50-transparency-implementation-briefs-v0-1/</link>
