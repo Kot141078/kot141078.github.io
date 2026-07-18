@@ -53,6 +53,236 @@
   word-break: break-word;
 }
 
+.section-links a:focus-visible,
+.archive-chip:focus-visible,
+.diary-search input:focus-visible,
+.diary-search-results a:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 72%, #111);
+  outline-offset: 3px;
+}
+
+.diary-landing {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.diary-landing .hero,
+.diary-landing .section {
+  padding: 1.35rem;
+}
+
+.diary-landing-hero {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.diary-landing-hero .page-lead {
+  max-width: 56rem;
+}
+
+.diary-archive-stat {
+  margin: 0;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.diary-hero-actions {
+  margin-top: 0.25rem;
+}
+
+.secondary-action {
+  background: color-mix(in srgb, var(--bg-panel) 82%, white) !important;
+}
+
+.diary-latest-grid,
+.diary-start-grid,
+.diary-compact-card-grid {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.diary-latest-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.diary-latest-grid .landing-entry-card:first-child {
+  grid-column: span 2;
+}
+
+.diary-start-grid,
+.diary-compact-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.landing-entry-card {
+  min-width: 0;
+  padding: 0.9rem;
+  border-radius: 12px;
+}
+
+.landing-entry-card h3 {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  font-size: clamp(1.05rem, 1.4vw, 1.32rem);
+  line-height: 1.22;
+  overflow-wrap: anywhere;
+}
+
+.landing-entry-card .entry-summary {
+  margin-top: 0.45rem;
+  font-size: 0.94rem;
+  line-height: 1.48;
+}
+
+.landing-card-body {
+  min-width: 0;
+}
+
+.landing-card-media {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+
+.landing-card-media img {
+  width: 100%;
+  height: 100%;
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.diary-start-grid .landing-card-media,
+.diary-start-grid .landing-card-media img {
+  max-height: 160px;
+}
+
+.route-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-bottom: 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.landing-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-top: 0.7rem;
+}
+
+.landing-tag-chip,
+.landing-tag-more {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.32rem 0.56rem;
+  background: color-mix(in srgb, var(--accent-soft) 62%, var(--bg-panel));
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.landing-tag-more {
+  background: var(--bg-panel);
+}
+
+.landing-card-actions {
+  margin-top: 0.75rem;
+}
+
+.diary-browse-search {
+  break-inside: avoid;
+}
+
+.diary-browse-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.diary-browse-links {
+  margin-top: 0;
+}
+
+.diary-search {
+  display: grid;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
+.diary-search label {
+  font-weight: 700;
+}
+
+.diary-search input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--bg-panel) 90%, white);
+  color: var(--text);
+  padding: 0.75rem 0.85rem;
+  font: inherit;
+}
+
+.diary-search-status {
+  min-height: 1.35rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.diary-search-results {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.diary-search-results a {
+  display: grid;
+  gap: 0.18rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  color: var(--text);
+}
+
+.diary-search-results a.is-active {
+  border-color: color-mix(in srgb, var(--accent) 70%, var(--line));
+  background: var(--accent-soft);
+}
+
+.diary-search-results span,
+.diary-search-results em {
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.88rem;
+}
+
+.diary-themes-section .surface-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.diary-themes-section .surface-group {
+  padding: 0.95rem;
+  border-radius: 12px;
+}
+
+.landing-top-tag-list {
+  margin-top: 0;
+}
+
 @media (max-width: 820px) {
   .card {
     padding: 1.05rem;
@@ -74,5 +304,98 @@
 
   .section-links a {
     padding: 0.5rem 0.75rem;
+  }
+
+  .diary-latest-grid,
+  .diary-start-grid,
+  .diary-compact-card-grid,
+  .diary-themes-section .surface-grid,
+  .diary-browse-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .diary-latest-grid .landing-entry-card:first-child {
+    grid-column: auto;
+  }
+
+  .diary-landing .hero,
+  .diary-landing .section {
+    padding: 1rem;
+  }
+
+  .landing-card-media img {
+    max-height: 220px;
+  }
+
+  .diary-start-grid .landing-card-media,
+  .diary-start-grid .landing-card-media img {
+    max-height: 160px;
+  }
+}
+
+@media print {
+  .diary-landing {
+    gap: 0.55rem;
+  }
+
+  .diary-landing .hero,
+  .diary-landing .section,
+  .landing-entry-card,
+  .surface-group {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .diary-landing .hero,
+  .diary-landing .section {
+    padding: 0.72rem;
+  }
+
+  .diary-search,
+  .diary-search-status,
+  .diary-search-results {
+    display: none !important;
+  }
+
+  .diary-browse-grid,
+  .diary-latest-grid,
+  .diary-start-grid,
+  .diary-compact-card-grid,
+  .diary-themes-section .surface-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .diary-latest-grid .landing-entry-card:first-child {
+    grid-column: span 2;
+  }
+
+  .landing-card-media img {
+    max-height: 160px;
+  }
+
+  .diary-start-grid .landing-card-media,
+  .diary-start-grid .landing-card-media img,
+  .diary-compact-card-grid .landing-card-media,
+  .diary-compact-card-grid .landing-card-media img {
+    max-height: 120px;
+  }
+
+  .landing-entry-card h3 {
+    font-size: 1rem;
+  }
+
+  .landing-tag-list,
+  .section-links,
+  .archive-chip-list {
+    gap: 0.25rem;
+  }
+
+  .landing-tag-chip,
+  .landing-tag-more,
+  .section-links a,
+  .archive-chip {
+    padding: 0.22rem 0.42rem;
+    font-size: 0.78rem;
   }
 }

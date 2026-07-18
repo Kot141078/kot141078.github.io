@@ -121,6 +121,14 @@ class TagAlias:
 
 
 @dataclass(frozen=True)
+class DisplayTagInfo:
+    name: str
+    slug: str
+    count: int
+    aliases: list[str]
+
+
+@dataclass(frozen=True)
 class ThemeConfig:
     slug: str
     title: str
@@ -285,6 +293,131 @@ def split_csv(value: str) -> list[str]:
 def normalize_tag_slug(value: str) -> str:
     normalized = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return normalized
+
+
+DISPLAY_TAG_FAMILIES: tuple[tuple[str, str, tuple[str, ...]], ...] = (
+    ("AI Safety", "ai-safety", ("AI Safety", "AISafety", "AIsafety")),
+    ("AI Architecture", "ai-architecture", ("AI Architecture", "AIArchitecture")),
+    (
+        "Advanced Global Intelligence",
+        "advanced-global-intelligence",
+        ("Advanced Global Intelligence", "AdvancedGlobalIntelligence", "AGI"),
+    ),
+    ("Systems Thinking", "systems-thinking", ("Systems Thinking", "SystemsThinking")),
+    (
+        "Human-Centered AI",
+        "human-centered-ai",
+        ("HumanCenteredAI", "Human Centered AI", "Human-Centered AI", "Human Centric AI"),
+    ),
+    ("Long-Lived AI", "long-lived-ai", ("LongLivedAI", "Long Lived AI", "Long-Lived AI")),
+    ("AI Governance", "ai-governance", ("AIGovernance", "AIgovernance", "AI Governance")),
+    ("Digital Entities", "digital-entities", ("DigitalEntities", "Digital Entities")),
+    ("Digital Sovereignty", "digital-sovereignty", ("DigitalSovereignty", "Digital Sovereignty")),
+    ("AI Infrastructure", "ai-infrastructure", ("AIInfrastructure", "AI Infrastructure")),
+    ("Human AI", "human-ai", ("HumanAI", "Human AI")),
+    ("Future of AI", "future-of-ai", ("FutureOfAI", "Future of AI")),
+)
+
+DISPLAY_CONNECTOR_WORDS = {"and", "as", "by", "for", "from", "in", "of", "on", "or", "the", "to", "vs", "with"}
+DISPLAY_ACRONYMS = {"ai", "agi", "api", "eu", "gpai", "grc", "json", "l4", "llm", "mcp", "pdf", "ser", "sql", "ui", "ux"}
+
+
+def display_tag_family_lookup() -> dict[str, tuple[str, str]]:
+    lookup: dict[str, tuple[str, str]] = {}
+    for display_name, preferred_slug, aliases in DISPLAY_TAG_FAMILIES:
+        lookup[normalize_tag_slug(display_name)] = (display_name, preferred_slug)
+        for alias in aliases:
+            lookup[normalize_tag_slug(alias)] = (display_name, preferred_slug)
+    return lookup
+
+
+def humanize_tag_name(value: str) -> str:
+    family = display_tag_family_lookup().get(normalize_tag_slug(value))
+    if family:
+        return family[0]
+
+    cleaned = value.replace("_", " ").replace("-", " ").strip()
+    if " " in cleaned:
+        parts = [part for part in cleaned.split() if part]
+    else:
+        parts = re.findall(r"[A-Z]+(?=[A-Z][a-z]|\d|$)|[A-Z]?[a-z]+|\d+", cleaned) or [cleaned]
+
+    words: list[str] = []
+    for index, part in enumerate(parts):
+        raw = part.strip()
+        lower = raw.lower()
+        if lower in DISPLAY_ACRONYMS:
+            words.append(lower.upper())
+        elif lower in DISPLAY_CONNECTOR_WORDS and 0 < index < len(parts) - 1:
+            words.append(lower)
+        else:
+            words.append(raw[:1].upper() + raw[1:].lower())
+    return " ".join(words)
+
+
+def choose_display_tag_slug(display_name: str, candidate_slug: str, tag_slug_lookup: dict[str, TagInfo]) -> str:
+    family = display_tag_family_lookup().get(normalize_tag_slug(display_name))
+    if family and family[1] in tag_slug_lookup:
+        return family[1]
+    if candidate_slug in tag_slug_lookup:
+        return candidate_slug
+    display_slug = normalize_tag_slug(display_name)
+    if display_slug in tag_slug_lookup:
+        return display_slug
+    return candidate_slug or display_slug
+
+
+def display_tags_for_entry(entry: Entry, tag_slug_lookup: dict[str, TagInfo]) -> list[DisplayTagInfo]:
+    tags: list[DisplayTagInfo] = []
+    seen: set[str] = set()
+    for tag in entry.tags:
+        display_name = humanize_tag_name(tag.name)
+        display_key = normalize_tag_slug(display_name)
+        if not display_key or display_key in seen:
+            continue
+        seen.add(display_key)
+        tags.append(
+            DisplayTagInfo(
+                name=display_name,
+                slug=choose_display_tag_slug(display_name, tag.slug, tag_slug_lookup),
+                count=1,
+                aliases=[tag.name],
+            )
+        )
+    return tags
+
+
+def build_landing_display_tags(entries: list[Entry], tags: list[TagInfo]) -> list[DisplayTagInfo]:
+    tag_slug_lookup = {tag.slug: tag for tag in tags}
+    counts: dict[str, set[str]] = defaultdict(set)
+    aliases: dict[str, set[str]] = defaultdict(set)
+    names: dict[str, str] = {}
+    slugs: dict[str, str] = {}
+
+    for entry in entries:
+        per_entry_seen: set[str] = set()
+        for tag in [*entry.tags, *entry.raw_tags]:
+            display_name = humanize_tag_name(tag.name)
+            display_key = normalize_tag_slug(display_name)
+            if not display_key or display_key in per_entry_seen:
+                continue
+            per_entry_seen.add(display_key)
+            names.setdefault(display_key, display_name)
+            slugs.setdefault(display_key, choose_display_tag_slug(display_name, tag.slug, tag_slug_lookup))
+            counts[display_key].add(entry.slug)
+            aliases[display_key].add(tag.name)
+
+    display_tags = [
+        DisplayTagInfo(
+            name=names[key],
+            slug=slugs[key],
+            count=len(entry_slugs),
+            aliases=sorted(aliases[key], key=str.lower),
+        )
+        for key, entry_slugs in counts.items()
+    ]
+    display_tags.sort(key=lambda tag: (-tag.count, tag.name.lower(), tag.slug))
+    return display_tags
 
 
 def parse_tags(raw_tags: str, path: Path) -> list[TagRef]:
@@ -766,40 +899,158 @@ def render_entry_collection(
     return f"        <div class=\"{wrapper_class}\">\n" + "\n".join(cards) + "\n        </div>\n"
 
 
-def render_latest_entries(entries: list[Entry]) -> str:
+def format_display_date(value: date) -> str:
+    return f"{value.day} {value.strftime('%B %Y')}"
+
+
+def archive_stats_text(entries: list[Entry]) -> str:
+    if not entries:
+        return "0 entries"
+    oldest = min(entry.entry_date for entry in entries)
+    newest = max(entry.entry_date for entry in entries)
+    return f"{len(entries)} entries · {format_display_date(oldest)}–{format_display_date(newest)}"
+
+
+def render_landing_tag_chips(entry: Entry, tag_slug_lookup: dict[str, TagInfo], *, tag_prefix: str, limit: int = 6) -> str:
+    display_tags = display_tags_for_entry(entry, tag_slug_lookup)
+    if not display_tags:
+        return ""
+    selected = display_tags[:limit]
+    chips = [
+        f'              <a class="landing-tag-chip" href="{html.escape(tag_prefix + tag.slug + "/")}">{html.escape(tag.name)}</a>'
+        for tag in selected
+    ]
+    extra_count = len(display_tags) - len(selected)
+    if extra_count > 0:
+        chips.append(f'              <span class="landing-tag-more" aria-label="{extra_count} additional tags">+{extra_count} more</span>')
+    return "            <div class=\"landing-tag-list\" aria-label=\"Display tags\">\n" + "\n".join(chips) + "\n            </div>\n"
+
+
+def render_landing_entry_card(
+    entry: Entry,
+    *,
+    asset_prefix: str,
+    entry_href: str,
+    tag_prefix: str,
+    tag_slug_lookup: dict[str, TagInfo],
+    include_image: bool,
+    eager_image: bool = False,
+    step_number: int | None = None,
+    compact: bool = False,
+) -> str:
+    image_html = ""
+    if include_image and entry.primary_image:
+        loading = "eager" if eager_image else "lazy"
+        image_html = f"""
+            <div class="entry-cover landing-card-media">
+              <img src="{html.escape(asset_prefix + entry.primary_image)}" alt="{html.escape(entry.image_alt or entry.title)}" loading="{loading}" decoding="async">
+            </div>
+"""
+    step_html = ""
+    if step_number is not None:
+        step_html = f'            <span class="route-step" aria-label="Editorial route step {step_number:02d}">{step_number:02d}</span>\n'
+    tag_links = render_landing_tag_chips(entry, tag_slug_lookup, tag_prefix=tag_prefix, limit=6)
+    classes = "entry-card landing-entry-card"
+    if compact:
+        classes += " landing-entry-card-compact"
+    return f"""          <article class="{classes}">
+{image_html}            <div class="landing-card-body">
+{step_html}              <div class="entry-meta">
+                <span>{entry.date_iso}</span>
+              </div>
+              <h3>{html.escape(entry.title)}</h3>
+              <p class="entry-summary">{html.escape(entry.summary)}</p>
+{tag_links}              <div class="section-links landing-card-actions">
+                <a href="{html.escape(entry_href)}">Open entry</a>
+              </div>
+            </div>
+          </article>"""
+
+
+def render_landing_entry_collection(
+    entries: list[Entry],
+    *,
+    asset_prefix: str,
+    entry_prefix: str,
+    tag_prefix: str,
+    tag_slug_lookup: dict[str, TagInfo],
+    include_image: bool,
+    limit: int | None,
+    wrapper_class: str,
+    numbered: bool = False,
+    compact: bool = False,
+) -> str:
+    selected = entries if limit is None else entries[:limit]
+    cards = [
+        render_landing_entry_card(
+            entry,
+            asset_prefix=asset_prefix,
+            entry_href=f"{entry_prefix}{entry.slug}/",
+            tag_prefix=tag_prefix,
+            tag_slug_lookup=tag_slug_lookup,
+            include_image=include_image,
+            eager_image=index == 0,
+            step_number=index + 1 if numbered else None,
+            compact=compact,
+        )
+        for index, entry in enumerate(selected)
+    ]
+    return f"        <div class=\"{wrapper_class}\">\n" + "\n".join(cards) + "\n        </div>\n"
+
+
+def render_latest_entries(entries: list[Entry], tag_slug_lookup: dict[str, TagInfo]) -> str:
     if not entries:
         return render_empty_state(
             "No diary entries are published yet.",
             "The latest-entries slot is ready for future batch imports, but this pass intentionally keeps the archive empty until real source materials are provided.",
         )
-    return render_entry_collection(
-        entries,
+    return render_landing_entry_collection(
+        entries[:5],
         asset_prefix="../",
         entry_prefix="./",
         tag_prefix="./tags/",
-        include_image=False,
+        tag_slug_lookup=tag_slug_lookup,
+        include_image=True,
         limit=5,
-        wrapper_class="entry-list",
+        wrapper_class="diary-latest-grid",
+        compact=True,
     )
 
 
-def render_cornerstones(entries: list[Entry]) -> str:
+def render_cornerstones(entries: list[Entry], tag_slug_lookup: dict[str, TagInfo]) -> str:
     if not entries:
         return render_empty_state("No cornerstone entries were configured.", "Cornerstones appear only when the curation config selects real diary entries.")
-    return render_entry_collection(
+    return render_landing_entry_collection(
         entries,
         asset_prefix="../",
         entry_prefix="./",
         tag_prefix="./tags/",
+        tag_slug_lookup=tag_slug_lookup,
         include_image=False,
         limit=None,
-        wrapper_class="entry-list",
+        wrapper_class="diary-compact-card-grid",
+        compact=True,
     )
 
 
-def render_start_here_cards(entries: list[Entry], *, asset_prefix: str, entry_prefix: str, tag_prefix: str) -> str:
+def render_start_here_cards(
+    entries: list[Entry], *, asset_prefix: str, entry_prefix: str, tag_prefix: str, tag_slug_lookup: dict[str, TagInfo] | None = None
+) -> str:
     if not entries:
         return render_empty_state("No start-here entries were configured.", "The start-here surface appears only after curated entry slugs are selected.")
+    if tag_slug_lookup is not None:
+        return render_landing_entry_collection(
+            entries,
+            asset_prefix=asset_prefix,
+            entry_prefix=entry_prefix,
+            tag_prefix=tag_prefix,
+            tag_slug_lookup=tag_slug_lookup,
+            include_image=True,
+            limit=None,
+            wrapper_class="diary-start-grid",
+            numbered=True,
+            compact=True,
+        )
     return render_entry_collection(
         entries,
         asset_prefix=asset_prefix,
@@ -847,6 +1098,162 @@ def render_tag_preview(tags: list[TagInfo]) -> str:
             "Tags will only be shown after imported entries bring confirmed labels.",
         )
     return render_tag_chips(tags[:12], link_prefix="./tags/")
+
+
+def render_landing_tag_preview(display_tags: list[DisplayTagInfo]) -> str:
+    if not display_tags:
+        return render_empty_state(
+            "Tag surface is waiting for real entries.",
+            "Tags will only be shown after imported entries bring confirmed labels.",
+        )
+    selected = display_tags[:16]
+    chips = [
+        f'<a class="archive-chip landing-tag-chip" href="./tags/{html.escape(tag.slug)}/">{html.escape(tag.name)} ({tag.count})</a>'
+        for tag in selected
+    ]
+    return "        <div class=\"archive-chip-list landing-top-tag-list\">\n          " + "\n          ".join(chips) + "\n        </div>\n"
+
+
+def render_browse_search() -> str:
+    return """      <section class="section diary-browse-search" id="browse-search" data-diary-section="browse-search">
+        <div class="section-head">
+          <p class="section-label">Browse and search</p>
+          <h2>Find a route into the archive</h2>
+          <p class="diary-note">Search stays local to this public archive index and uses no external service, analytics, or tracking.</p>
+        </div>
+        <div class="diary-browse-grid">
+          <div class="section-links diary-browse-links" aria-label="Browse Diary routes">
+            <a href="./archive/">Browse full archive</a>
+            <a href="./themes/">Browse by theme</a>
+            <a href="./tags/">Browse tags</a>
+          </div>
+          <form class="diary-search" role="search" action="./archive/" data-diary-search-form>
+            <label for="diary-search-input">Search the Diary</label>
+            <div class="diary-search-row">
+              <input id="diary-search-input" name="q" type="search" autocomplete="off" placeholder="Search title, summary, date, or tag" aria-controls="diary-search-results" aria-expanded="false" data-diary-search-input>
+            </div>
+            <p class="diary-search-status" id="diary-search-status" role="status" aria-live="polite" data-diary-search-status></p>
+            <div class="diary-search-results" id="diary-search-results" role="listbox" hidden data-diary-search-results></div>
+            <noscript>
+              <p class="diary-note">Search requires JavaScript. Archive, theme, and tag links remain available.</p>
+            </noscript>
+          </form>
+        </div>
+      </section>
+"""
+
+
+def render_diary_search_script() -> str:
+    return """      <script>
+        (() => {
+          const form = document.querySelector("[data-diary-search-form]");
+          const input = document.querySelector("[data-diary-search-input]");
+          const results = document.querySelector("[data-diary-search-results]");
+          const status = document.querySelector("[data-diary-search-status]");
+          if (!form || !input || !results || !status) return;
+
+          let entries = [];
+          let activeIndex = -1;
+          let debounceTimer = 0;
+          const maxResults = 10;
+
+          const escapeHTML = (value) => String(value || "").replace(/[&<>"']/g, (char) => ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;"
+          })[char]);
+
+          const clearResults = () => {
+            activeIndex = -1;
+            results.hidden = true;
+            results.innerHTML = "";
+            input.setAttribute("aria-expanded", "false");
+            status.textContent = "";
+          };
+
+          const setActive = (index) => {
+            const links = Array.from(results.querySelectorAll("a"));
+            links.forEach((link) => link.classList.remove("is-active"));
+            if (!links.length) {
+              activeIndex = -1;
+              return;
+            }
+            activeIndex = Math.max(0, Math.min(index, links.length - 1));
+            links[activeIndex].classList.add("is-active");
+            links[activeIndex].scrollIntoView({ block: "nearest" });
+          };
+
+          const searchableText = (item) => [
+            item.title,
+            item.summary,
+            item.date,
+            ...(Array.isArray(item.tags) ? item.tags : []),
+            ...(Array.isArray(item.raw_tags) ? item.raw_tags : [])
+          ].filter(Boolean).join(" ").toLocaleLowerCase();
+
+          const render = () => {
+            const query = input.value.trim().toLocaleLowerCase();
+            if (!query) {
+              clearResults();
+              return;
+            }
+            const matches = entries
+              .filter((item) => searchableText(item).includes(query))
+              .slice(0, maxResults);
+            results.innerHTML = matches.map((item, index) => `
+              <a href="${escapeHTML(item.page)}" role="option" data-result-index="${index}">
+                <span>${escapeHTML(item.date)}</span>
+                <strong>${escapeHTML(item.title || "Untitled entry")}</strong>
+                ${item.summary ? `<em>${escapeHTML(item.summary)}</em>` : ""}
+              </a>
+            `).join("");
+            results.hidden = matches.length === 0;
+            input.setAttribute("aria-expanded", matches.length ? "true" : "false");
+            status.textContent = matches.length ? `${matches.length} result${matches.length === 1 ? "" : "s"}` : "No results";
+            activeIndex = -1;
+          };
+
+          form.addEventListener("submit", (event) => event.preventDefault());
+          input.addEventListener("input", () => {
+            window.clearTimeout(debounceTimer);
+            debounceTimer = window.setTimeout(render, 140);
+          });
+          input.addEventListener("keydown", (event) => {
+            const links = Array.from(results.querySelectorAll("a"));
+            if (event.key === "Escape") {
+              input.value = "";
+              clearResults();
+              return;
+            }
+            if (event.key === "ArrowDown" && links.length) {
+              event.preventDefault();
+              setActive(activeIndex < 0 ? 0 : activeIndex + 1);
+              return;
+            }
+            if (event.key === "ArrowUp" && links.length) {
+              event.preventDefault();
+              setActive(activeIndex < 0 ? links.length - 1 : activeIndex - 1);
+              return;
+            }
+            if (event.key === "Enter" && activeIndex >= 0 && links[activeIndex]) {
+              event.preventDefault();
+              links[activeIndex].click();
+            }
+          });
+          results.addEventListener("mousemove", (event) => {
+            const link = event.target.closest("a[data-result-index]");
+            if (link) setActive(Number(link.dataset.resultIndex));
+          });
+
+          fetch("../diary-index.json", { cache: "no-store" })
+            .then((response) => response.ok ? response.json() : Promise.reject(new Error("Diary index unavailable")))
+            .then((payload) => { entries = Array.isArray(payload.items) ? payload.items : []; })
+            .catch(() => { status.textContent = "Search index unavailable"; });
+        })();
+      </script>
+"""
 
 
 def group_entries_by_month(entries: list[Entry]) -> list[tuple[str, list[Entry]]]:
@@ -1092,6 +1499,9 @@ def render_diary_index(
     cornerstone_entries: list[Entry],
     themes: list[ThemeInfo],
 ) -> str:
+    tag_slug_lookup = {tag.slug: tag for tag in tags}
+    display_tags = build_landing_display_tags(entries, tags)
+    stats = archive_stats_text(entries)
     empty_state = ""
     if not entries:
         empty_state = f"""
@@ -1104,21 +1514,41 @@ def render_diary_index(
       </section>
 """
 
-    body_html = f"""      <section class="hero">
+    body_html = f"""      <div class="diary-landing">
+      <section class="hero diary-landing-hero" data-diary-section="hero">
         <p class="eyebrow">Curated archive surface</p>
         <h1>Diary</h1>
-        <p class="lead page-lead">Public archive of posts, notes, and linked visual surfaces, now with curated entry paths for first-time readers.</p>
-        <p class="diary-note">Use Start here and Themes before dropping into the full archive if you want the shortest route into the corpus.</p>
+        <p class="lead page-lead">Public archive of posts, notes, and linked visual surfaces, with latest posts first and curated routes available when a structured reading path helps.</p>
+        <p class="diary-archive-stat">{html.escape(stats)}</p>
+        <div class="section-links diary-hero-actions" aria-label="Primary Diary actions">
+          <a href="./archive/">Browse full archive</a>
+          <a href="./themes/">Browse by theme</a>
+          <a href="./tags/">Browse tags</a>
+          <a href="./start-here/" class="secondary-action">Start here</a>
+        </div>
       </section>
 
 {empty_state}
-      <section class="section">
+      <section class="section diary-latest-section" data-diary-section="latest">
+        <div class="section-head">
+          <p class="section-label">Latest entries</p>
+          <h2>Latest from the Diary</h2>
+        </div>
+{render_latest_entries(entries, tag_slug_lookup)}
+        <div class="section-links">
+          <a href="./archive/">Open archive</a>
+          <a href="./start-here/">Open Start here</a>
+        </div>
+      </section>
+
+{render_browse_search()}
+      <section class="section diary-start-section" data-diary-section="start-here">
         <div class="section-head">
           <p class="section-label">Curated entry path</p>
           <h2>Start here</h2>
-          <p class="diary-note">These are not “best posts”, but a practical path into the archive.</p>
+          <p class="diary-note">These are not the newest posts and not a ranking. They form an editorial reading path through the archive.</p>
         </div>
-{render_start_here_cards(start_here_entries, asset_prefix='../', entry_prefix='./', tag_prefix='./tags/')}
+{render_start_here_cards(start_here_entries, asset_prefix='../', entry_prefix='./', tag_prefix='./tags/', tag_slug_lookup=tag_slug_lookup)}
         <div class="section-links">
           <a href="./start-here/">Open Start here</a>
           <a href="./themes/">Open themes</a>
@@ -1126,7 +1556,7 @@ def render_diary_index(
         </div>
       </section>
 
-      <section class="section">
+      <section class="section diary-themes-section" data-diary-section="themes">
         <div class="section-head">
           <p class="section-label">Themes</p>
           <h2>Topic-based reading paths</h2>
@@ -1137,43 +1567,33 @@ def render_diary_index(
         </div>
       </section>
 
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Latest entries</p>
-          <h2>Recent archive movement</h2>
-        </div>
-{render_latest_entries(entries)}
-        <div class="section-links">
-          <a href="./archive/">Open archive</a>
-          <a href="./start-here/">Open Start here</a>
-        </div>
-      </section>
-
-      <section class="section">
+      <section class="section diary-cornerstones-section" data-diary-section="cornerstones">
         <div class="section-head">
           <p class="section-label">Cornerstones</p>
           <h2>Posts that carry the structure</h2>
           <p class="diary-note">A wider set of anchor posts across releases, architecture, infrastructure, continuity, and the book layer.</p>
         </div>
-{render_cornerstones(cornerstone_entries)}
+{render_cornerstones(cornerstone_entries, tag_slug_lookup)}
         <div class="section-links">
           <a href="./archive/">Browse full archive</a>
           <a href="./themes/">Browse by theme</a>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section diary-tags-section" data-diary-section="tags">
         <div class="section-head">
           <p class="section-label">Tags</p>
           <h2>Normalized tag surface</h2>
-          <p class="diary-note">Canonical display tags reduce alias clutter while preserving the historical raw labels in the source corpus.</p>
+          <p class="diary-note">Canonical display tags reduce alias clutter on this landing page while preserving historical raw labels and existing tag URLs in the source corpus.</p>
         </div>
-{render_tag_preview(tags)}
+{render_landing_tag_preview(display_tags)}
         <div class="section-links">
           <a href="./tags/">Open tag index</a>
           <a href="./archive/">Open archive</a>
         </div>
       </section>
+{render_diary_search_script()}
+      </div>
 """
 
     return render_document(
