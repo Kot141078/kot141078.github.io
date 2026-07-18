@@ -319,7 +319,31 @@ DISPLAY_TAG_FAMILIES: tuple[tuple[str, str, tuple[str, ...]], ...] = (
 )
 
 DISPLAY_CONNECTOR_WORDS = {"and", "as", "by", "for", "from", "in", "of", "on", "or", "the", "to", "vs", "with"}
-DISPLAY_ACRONYMS = {"ai", "agi", "api", "eu", "gpai", "grc", "json", "l4", "llm", "mcp", "pdf", "ser", "sql", "ui", "ux"}
+PROTECTED_DISPLAY_TOKENS = {
+    "a6": "A6",
+    "ai": "AI",
+    "agi": "AGI",
+    "amdr": "AMDR",
+    "arq": "ARQ",
+    "bcec": "BCEC",
+    "ccdp": "CCDP",
+    "cgam": "CGAM",
+    "cpap": "CPAP",
+    "d4": "D4",
+    "ea": "EA",
+    "eu": "EU",
+    "l4": "L4",
+    "la": "LA",
+    "llm": "LLM",
+    "pamdc": "PAMDC",
+    "pf": "PF",
+    "ser": "SER",
+    "srlm": "SRLM",
+    "vxcx": "VXCX",
+    "wbgt": "WBGT",
+    "wdc": "WDC",
+}
+DISPLAY_ACRONYMS = {"api", "gpai", "grc", "json", "mcp", "pdf", "sql", "ui", "ux", *PROTECTED_DISPLAY_TOKENS}
 
 
 def display_tag_family_lookup() -> dict[str, tuple[str, str]]:
@@ -331,10 +355,22 @@ def display_tag_family_lookup() -> dict[str, tuple[str, str]]:
     return lookup
 
 
+def protected_display_token(value: str) -> str | None:
+    cleaned = value.replace("_", " ").replace("-", " ").strip()
+    compact = re.sub(r"\s+", "", cleaned)
+    if compact and re.fullmatch(r"[A-Za-z0-9]+", compact):
+        return PROTECTED_DISPLAY_TOKENS.get(compact.lower())
+    return None
+
+
 def humanize_tag_name(value: str) -> str:
     family = display_tag_family_lookup().get(normalize_tag_slug(value))
     if family:
         return family[0]
+
+    protected = protected_display_token(value)
+    if protected:
+        return protected
 
     cleaned = value.replace("_", " ").replace("-", " ").strip()
     if " " in cleaned:
@@ -979,6 +1015,7 @@ def render_landing_entry_collection(
     wrapper_class: str,
     numbered: bool = False,
     compact: bool = False,
+    eager_image_count: int = 1,
 ) -> str:
     selected = entries if limit is None else entries[:limit]
     cards = [
@@ -989,7 +1026,7 @@ def render_landing_entry_collection(
             tag_prefix=tag_prefix,
             tag_slug_lookup=tag_slug_lookup,
             include_image=include_image,
-            eager_image=index == 0,
+            eager_image=index < eager_image_count,
             step_number=index + 1 if numbered else None,
             compact=compact,
         )
@@ -1014,6 +1051,7 @@ def render_latest_entries(entries: list[Entry], tag_slug_lookup: dict[str, TagIn
         limit=5,
         wrapper_class="diary-latest-grid",
         compact=True,
+        eager_image_count=5,
     )
 
 

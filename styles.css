@@ -140,15 +140,18 @@
 
 .landing-card-media {
   aspect-ratio: 16 / 9;
+  max-height: 320px;
   margin-bottom: 0.75rem;
   overflow: hidden;
 }
 
 .landing-card-media img {
+  display: block;
   width: 100%;
   height: 100%;
   max-height: 320px;
   object-fit: cover;
+  object-position: center top;
 }
 
 .diary-start-grid .landing-card-media,
@@ -323,6 +326,7 @@
     padding: 1rem;
   }
 
+  .landing-card-media,
   .landing-card-media img {
     max-height: 220px;
   }
@@ -334,12 +338,25 @@
 }
 
 @media print {
-  .diary-landing {
-    gap: 0.55rem;
+  .site-shell {
+    padding-top: 0;
   }
 
-  .diary-landing .hero,
-  .diary-landing .section,
+  .site-header {
+    display: block;
+    margin-bottom: 0.35rem;
+    padding: 0.45rem 0.65rem;
+    box-shadow: none;
+  }
+
+  .site-nav {
+    display: none !important;
+  }
+
+  .diary-landing {
+    gap: 0.35rem;
+  }
+
   .landing-entry-card,
   .surface-group {
     break-inside: avoid;
@@ -348,16 +365,47 @@
 
   .diary-landing .hero,
   .diary-landing .section {
-    padding: 0.72rem;
+    box-shadow: none;
+    break-inside: auto;
   }
 
+  .diary-landing .hero,
+  .diary-landing .section {
+    padding: 0.5rem 0.62rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .diary-landing-hero {
+    gap: 0.28rem;
+  }
+
+  .diary-landing-hero h1,
+  .diary-landing-hero .page-lead,
+  .diary-archive-stat {
+    margin-top: 0;
+    margin-bottom: 0.18rem;
+  }
+
+  .diary-hero-actions {
+    gap: 0.18rem;
+    margin-top: 0.2rem;
+  }
+
+  .diary-hero-actions a {
+    border: 0;
+    background: transparent !important;
+    padding: 0;
+    font-size: 0.75rem;
+    text-decoration: underline;
+  }
+
+  .diary-browse-search,
   .diary-search,
   .diary-search-status,
   .diary-search-results {
     display: none !important;
   }
 
-  .diary-browse-grid,
   .diary-latest-grid,
   .diary-start-grid,
   .diary-compact-card-grid,
@@ -370,7 +418,13 @@
     grid-column: span 2;
   }
 
-  .landing-card-media img {
+  .diary-latest-grid .landing-card-media,
+  .diary-latest-grid .landing-card-media img {
+    max-height: 120px;
+  }
+
+  .diary-latest-grid .landing-entry-card:first-child .landing-card-media,
+  .diary-latest-grid .landing-entry-card:first-child .landing-card-media img {
     max-height: 160px;
   }
 
