@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 17:37:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 18:49:35 +0000</lastBuildDate>
+    <item>
+      <title>Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities v0.1.1</title>
+      <link>https://ivankotov.eu/diary/entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1/</link>
+      <guid>https://ivankotov.eu/diary/entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1/</guid>
+      <pubDate>Sun, 05 Jul 2026 12:00:00 +0000</pubDate>
+      <description>A technical note proposing witness-root custody as the criterion distinguishing persistent digital entities from externally rooted profiles.</description>
+    </item>
+    <item>
+      <title>How to install c</title>
+      <link>https://ivankotov.eu/diary/how-to-install-c/</link>
+      <guid>https://ivankotov.eu/diary/how-to-install-c/</guid>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+      <description>A practical local-first installation path toward a governed local c-node candidate with local memory, bounded agents, oracle routing, witness logs, and human-controlled stop and freeze paths.</description>
+    </item>
+    <item>
+      <title>VARFLOOR Package B v0.1</title>
+      <link>https://ivankotov.eu/diary/varfloor-package-b-v0-1/</link>
+      <guid>https://ivankotov.eu/diary/varfloor-package-b-v0-1/</guid>
+      <pubDate>Fri, 03 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Announcement of VARFLOOR Package B v0.1, the Pure Validator External Bench software evidence package with explicit license and non-claim boundaries.</description>
+    </item>
+    <item>
+      <title>VARFLOOR Package A v0.1</title>
+      <link>https://ivankotov.eu/diary/varfloor-package-a-v0-1/</link>
+      <guid>https://ivankotov.eu/diary/varfloor-package-a-v0-1/</guid>
+      <pubDate>Thu, 02 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Announcement of VARFLOOR Package A v0.1, a public theory and methodology archive for monitoring collapse below a usable variety floor.</description>
+    </item>
+    <item>
+      <title>I think we are misnaming what is happening in AI.</title>
+      <link>https://ivankotov.eu/diary/i-think-we-are-misnaming-what-is-happening-in-ai/</link>
+      <guid>https://ivankotov.eu/diary/i-think-we-are-misnaming-what-is-happening-in-ai/</guid>
+      <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
+      <description>An argument that AI&#x27;s bubble phase will leave behind local, private, governed infrastructure of continuity rather than model-centric AGI.</description>
+    </item>
     <item>
       <title>A small external comment turned into a useful control-layer correction.</title>
       <link>https://ivankotov.eu/diary/a-small-external-comment-turned-into-a-useful-control-layer-correction/</link>
