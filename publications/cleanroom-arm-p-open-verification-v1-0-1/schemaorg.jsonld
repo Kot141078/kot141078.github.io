@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#page",
+      "url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "name": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+      "description": "A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.",
+      "inLanguage": "en",
+      "datePublished": "2026-07-17",
+      "dateModified": "2026-07-18",
+      "breadcrumb": {
+        "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#software"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Publications",
+          "item": "https://ivankotov.eu/publications/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+          "item": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#software",
+      "name": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+      "description": "A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.",
+      "url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "codeRepository": "https://github.com/Kot141078/cleanroom-arm-p-open-verification",
+      "version": "1.0.1",
+      "programmingLanguage": "Python",
+      "author": {
+        "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#author"
+      },
+      "datePublished": "2026-07-17",
+      "dateModified": "2026-07-18",
+      "identifier": "https://doi.org/10.5281/zenodo.21401893",
+      "license": [
+        "https://www.apache.org/licenses/LICENSE-2.0",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "keywords": [
+        "ARM-P",
+        "open verification",
+        "deterministic evidence export",
+        "tamper-evident custody",
+        "SQLite recovery",
+        "reproducible software release"
+      ],
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.21401893",
+        "https://doi.org/10.5281/zenodo.21401892",
+        "https://zenodo.org/records/21401893",
+        "https://github.com/Kot141078/cleanroom-arm-p-open-verification",
+        "https://github.com/Kot141078/cleanroom-arm-p-open-verification/releases/tag/v1.0.1",
+        "https://github.com/Kot141078/cleanroom-arm-p-open-verification/tree/v1.0.1"
+      ],
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#component-specification",
+          "name": "Specification and Protocol",
+          "url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/README.md",
+          "identifier": "https://doi.org/10.5281/zenodo.21401893"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#component-implementation",
+          "name": "Reference Implementation and Reproduction Kit",
+          "url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/implementation/README.md",
+          "identifier": "https://doi.org/10.5281/zenodo.21401893"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#component-evidence",
+          "name": "Evidence and Independent Audit Archive",
+          "url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/README.md",
+          "identifier": "https://doi.org/10.5281/zenodo.21401893"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#component-release",
+          "name": "Open Verification Release",
+          "url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/README.md",
+          "identifier": "https://doi.org/10.5281/zenodo.21401893"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#author",
+      "name": "Ivan Kotov",
+      "givenName": "Ivan",
+      "familyName": "Kotov",
+      "url": "https://ivankotov.eu/about/",
+      "sameAs": "https://orcid.org/0009-0009-6002-9845",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Independent Researcher, Brussels, Belgium"
+      }
+    }
+  ]
+}

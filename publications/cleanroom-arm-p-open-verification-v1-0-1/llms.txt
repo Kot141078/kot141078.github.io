@@ -1,0 +1,25 @@
+# Cleanroom ARM-P: Open Verification Release v1.0.1
+
+A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.
+
+- Canonical page: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/
+- Version DOI: https://doi.org/10.5281/zenodo.21401893
+- Concept DOI: https://doi.org/10.5281/zenodo.21401892
+- Zenodo record: https://zenodo.org/records/21401893
+- Repository: https://github.com/Kot141078/cleanroom-arm-p-open-verification
+- Signed source tag: https://github.com/Kot141078/cleanroom-arm-p-open-verification/tree/v1.0.1
+- GitHub Release: https://github.com/Kot141078/cleanroom-arm-p-open-verification/releases/tag/v1.0.1
+- Release source commit: fa837780c32e1d5735a281290e4520f3f10b2896
+- Reader/machine commit: 4fc6c29753d039eb0d3ec4decbc1deb258b53751
+- Claims: bounded deterministic fixture-plane reference implementation, reproducible evidence/export/custody checks, schema and transaction validation, and public reader/machine navigation.
+- Nonclaims: not production-ready, not a complete operational ARM-P runtime, not an operational Judge, SRLM, real L4, AGI, consciousness, sentience, personhood, life, or certification.
+
+## Documents and machine files
+
+- All 27 document pairs: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/#documents
+- Document index: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/documents.json
+- Publication metadata: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/index.json
+- Citation: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/citation.csl.json
+- Schema.org: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/schemaorg.jsonld
+- Full synopsis: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/llms-full.txt
+- Checksums: https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/checksums.json

@@ -1,0 +1,30 @@
+{
+  "DOI": "10.5281/zenodo.21401893",
+  "URL": "https://github.com/Kot141078/cleanroom-arm-p-open-verification",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0009-6002-9845",
+      "family": "Kotov",
+      "given": "Ivan"
+    }
+  ],
+  "id": "https://doi.org/10.5281/zenodo.21401893",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        17
+      ]
+    ]
+  },
+  "language": "en",
+  "license": [
+    "Apache-2.0",
+    "CC-BY-4.0"
+  ],
+  "publisher": "Zenodo",
+  "title": "Cleanroom ARM-P: Open Verification Release",
+  "type": "software",
+  "version": "1.0.1"
+}

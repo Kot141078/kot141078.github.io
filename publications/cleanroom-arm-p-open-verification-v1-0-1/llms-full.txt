@@ -1,0 +1,202 @@
+# Cleanroom ARM-P: Open Verification Release v1.0.1 — full synopsis
+
+## Overview
+
+A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.
+
+The release binds source, schemas, deterministic fixtures, evidence exports, custody records, transaction and recovery controls, human documents, and machine indexes into signed and hashed publication surfaces. It is a bounded reference implementation, not an autonomous AI system or production runtime.
+
+## Verified scope
+
+- 21 mirrored Zenodo/GitHub Release files, 34,029,295 bytes.
+- Four coordinated package ZIPs.
+- 27 Markdown/PDF pairs and 117 rendered PDF pages.
+- Release source commit: fa837780c32e1d5735a281290e4520f3f10b2896.
+- Reader/machine commit: 4fc6c29753d039eb0d3ec4decbc1deb258b53751.
+- Release publication matrix: 160/160 PASS.
+- Post-release publication surface: 108/108 PASS; full suite 197 PASS plus 6 inherited Windows symlink skips.
+
+## Nonclaims
+
+No production readiness, operational Judge, SRLM integration, real L4 capability, matched profile-control, differential witness, complete operational ARM-P runtime, consciousness, sentience, personhood, life, AGI, or legal/safety/standards/conformity certification is claimed.
+
+## Four components
+
+1. Specification and Protocol — normative architecture, provenance, schema, transaction, threat, and claim-boundary documents.
+2. Reference Implementation and Reproduction Kit — bounded Python implementation and reproduction guide.
+3. Evidence and Independent Audit Archive — evidence maps, verification guidance, and audit records.
+4. Open Verification Release — release navigation, citation, nonclaims, portability, and publication records.
+
+## Reproduction route
+
+git clone https://github.com/Kot141078/cleanroom-arm-p-open-verification.git
+cd cleanroom-arm-p-open-verification
+git verify-tag v1.0.1
+git checkout v1.0.1
+py -m venv .venv
+.\.venv\Scripts\python -m pip install -e .
+.\.venv\Scripts\python -m pytest
+
+## Persistent identifiers
+
+- Version DOI: https://doi.org/10.5281/zenodo.21401893
+- Concept DOI: https://doi.org/10.5281/zenodo.21401892
+- Zenodo: https://zenodo.org/records/21401893
+- Repository: https://github.com/Kot141078/cleanroom-arm-p-open-verification
+- Release: https://github.com/Kot141078/cleanroom-arm-p-open-verification/releases/tag/v1.0.1
+- Signed tag: https://github.com/Kot141078/cleanroom-arm-p-open-verification/tree/v1.0.1
+
+## All 27 documents
+
+1. Architecture and Data Flow
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/ARCHITECTURE_AND_DATA_FLOW.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/ARCHITECTURE_AND_DATA_FLOW.pdf
+2. Cleanroom ARM-P Specification and Protocol v1.0.1
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/ARM_P_SPECIFICATION_AND_PROTOCOL_V1_0.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/ARM_P_SPECIFICATION_AND_PROTOCOL_V1_0.pdf
+3. Canonical Commit and Version Map
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/CANONICAL_COMMIT_AND_VERSION_MAP.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/CANONICAL_COMMIT_AND_VERSION_MAP.pdf
+4. Claim Boundary and Nonclaims
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/CLAIM_BOUNDARY_AND_NONCLAIMS.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/CLAIM_BOUNDARY_AND_NONCLAIMS.pdf
+5. Provenance and Source Map
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/PROVENANCE_AND_SOURCE_MAP.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/PROVENANCE_AND_SOURCE_MAP.pdf
+6. Cleanroom ARM-P Specification and Protocol v1.0.1
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/README.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/README.pdf
+7. Schema and Transaction Map
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/SCHEMA_AND_TRANSACTION_MAP.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/SCHEMA_AND_TRANSACTION_MAP.pdf
+8. Threat Model and Failure Semantics
+   Component: Specification and Protocol
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/THREAT_MODEL_AND_FAILURE_SEMANTICS.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/specification/THREAT_MODEL_AND_FAILURE_SEMANTICS.pdf
+9. Cleanroom ARM-P Reference Implementation and Reproduction Guide
+   Component: Reference Implementation and Reproduction Kit
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/implementation/ARM_P_REFERENCE_IMPLEMENTATION_AND_REPRODUCTION_GUIDE_V1_0.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/implementation/ARM_P_REFERENCE_IMPLEMENTATION_AND_REPRODUCTION_GUIDE_V1_0.pdf
+10. Cleanroom ARM-P Reference Implementation and Reproduction Kit
+   Component: Reference Implementation and Reproduction Kit
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/implementation/README.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/implementation/README.pdf
+11. Accepted versus Partial Iterations
+   Component: Evidence and Independent Audit Archive
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/ACCEPTED_VS_PARTIAL_ITERATIONS.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/ACCEPTED_VS_PARTIAL_ITERATIONS.pdf
+12. ARM-P Evidence and Audit Index v1.0.1
+   Component: Evidence and Independent Audit Archive
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/ARM_P_EVIDENCE_AND_AUDIT_INDEX_V1_0.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/ARM_P_EVIDENCE_AND_AUDIT_INDEX_V1_0.pdf
+13. Claim Class and Evidence Map
+   Component: Evidence and Independent Audit Archive
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/CLAIM_CLASS_AND_EVIDENCE_MAP.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/CLAIM_CLASS_AND_EVIDENCE_MAP.pdf
+14. GPG and SHA-256 Verification Guide
+   Component: Evidence and Independent Audit Archive
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/GPG_AND_SHA256_VERIFICATION_GUIDE.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/GPG_AND_SHA256_VERIFICATION_GUIDE.pdf
+15. Cleanroom ARM-P Evidence and Independent Audit Archive v1.0.1
+   Component: Evidence and Independent Audit Archive
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/README.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/evidence/README.pdf
+16. Citation and Verification
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/CITATION_AND_VERIFICATION.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/CITATION_AND_VERIFICATION.pdf
+17. Claim Class Ledger
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/CLAIM_CLASS_LEDGER.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/CLAIM_CLASS_LEDGER.pdf
+18. Cleanroom ARM-P Open Verification Release v1.0.1
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/GITHUB_RELEASE_BODY.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/GITHUB_RELEASE_BODY.pdf
+19. GitHub Repository Placement Plan
+   Component: Open Verification Release
+   Status: frozen_historical_publication_planning_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/GITHUB_REPOSITORY_PLACEMENT_PLAN.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/GITHUB_REPOSITORY_PLACEMENT_PLAN.pdf
+20. Nonclaims
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/NONCLAIMS.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/NONCLAIMS.pdf
+21. Open Verification Release Index
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/OPEN_VERIFICATION_RELEASE_INDEX.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/OPEN_VERIFICATION_RELEASE_INDEX.pdf
+22. Publication and DOI Plan
+   Component: Open Verification Release
+   Status: frozen_historical_publication_planning_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/PUBLICATION_AND_DOI_PLAN.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/PUBLICATION_AND_DOI_PLAN.pdf
+23. Cleanroom ARM-P Open Verification Release v1.0.1
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/README.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/README.pdf
+24. Release Notes v1.0.1
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/RELEASE_NOTES_V1_0.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/RELEASE_NOTES_V1_0.pdf
+25. Reproduction Quickstart
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/REPRODUCTION_QUICKSTART.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/REPRODUCTION_QUICKSTART.pdf
+26. Transport Supersession and Windows Portability
+   Component: Open Verification Release
+   Status: frozen_release_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/TRANSPORT_SUPERSESSION_AND_WINDOWS_PORTABILITY.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/TRANSPORT_SUPERSESSION_AND_WINDOWS_PORTABILITY.pdf
+27. Zenodo Single-Record Deposit Plan
+   Component: Open Verification Release
+   Status: frozen_historical_publication_planning_document
+   Markdown: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/ZENODO_DEPOSIT_ORDER.md
+   PDF: https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/release/ZENODO_DEPOSIT_ORDER.pdf
+
+## Machine endpoints
+
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/index.json
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/documents.json
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/citation.csl.json
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/schemaorg.jsonld
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/llms.txt
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/llms-full.txt
+- https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/checksums.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/CITATION.cff
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/.zenodo.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/codemeta.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/PUBLICATION.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/DOCUMENT_INDEX.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/MACHINE_INDEX.json
+- https://github.com/Kot141078/cleanroom-arm-p-open-verification/blob/4fc6c29753d039eb0d3ec4decbc1deb258b53751/publication/v1.0.1/CHECKSUMS.sha256

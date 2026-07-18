@@ -1,0 +1,45 @@
+{
+  "schema": "ivankotov.site.cleanroom_arm_p_page_checksums.v1",
+  "scope": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+  "self_path": "checksums.json",
+  "self_exclusion": true,
+  "self_exclusion_rule": "checksums.json is excluded because including its own digest would be recursive.",
+  "entry_count": 7,
+  "entries": [
+    {
+      "path": "citation.csl.json",
+      "bytes": 596,
+      "sha256": "4edf275cc476281c905b4bb965b017fd012c1f33d5104e97d3910d89d08279af"
+    },
+    {
+      "path": "documents.json",
+      "bytes": 47074,
+      "sha256": "4ae4d9bd93313666acccdfcb9a4719faced9423c94c7c7eaf57d257da90cadd7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 80463,
+      "sha256": "304bb27c386c68e76b8c8e985c4a4ad8f8667da61bb24f4a64c3e40ee48fde34"
+    },
+    {
+      "path": "index.json",
+      "bytes": 7975,
+      "sha256": "0c10b58c79357f55fe72164e68f4c9b4ff29d75e79a6f64a19323e6156abaac0"
+    },
+    {
+      "path": "llms-full.txt",
+      "bytes": 17159,
+      "sha256": "c34ea58d2e1f31c37a730d2e009af38ed3a1c86ba31c85be7a9e475585fb25a3"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 2149,
+      "sha256": "d4b81bd6c042a78e4799189a8d63f7c69a2ce92199959538daa7cc4845cb66ba"
+    },
+    {
+      "path": "schemaorg.jsonld",
+      "bytes": 5896,
+      "sha256": "cdd215ab5acc6da1eb47ab70dccac35dda04ed68cb88fa564114079be9615403"
+    }
+  ]
+}
