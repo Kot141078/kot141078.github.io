@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 18:49:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 19:24:36 +0000</lastBuildDate>
+    <item>
+      <title>Saturday thought.</title>
+      <link>https://ivankotov.eu/diary/saturday-thought/</link>
+      <guid>https://ivankotov.eu/diary/saturday-thought/</guid>
+      <pubDate>Sat, 11 Jul 2026 12:00:00 +0000</pubDate>
+      <description>A reflection on changing the medium of work through material craft as maintenance against mental corrosion and burnout in the age of AI.</description>
+    </item>
+    <item>
+      <title>AGI Is Not One Giant Model. It Is a System.</title>
+      <link>https://ivankotov.eu/diary/agi-is-not-one-giant-model-it-is-a-system/</link>
+      <guid>https://ivankotov.eu/diary/agi-is-not-one-giant-model-it-is-a-system/</guid>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+      <description>An argument that AGI should be observed as a governed system of human and organized LLM procedures rather than as one giant model.</description>
+    </item>
+    <item>
+      <title>A6 Composition Transition Predicate Addendum v0.1.4</title>
+      <link>https://ivankotov.eu/diary/a6-composition-transition-predicate-addendum-v0-1-4/</link>
+      <guid>https://ivankotov.eu/diary/a6-composition-transition-predicate-addendum-v0-1-4/</guid>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 +0000</pubDate>
+      <description>A bounded governance addendum defining when an A6 composition transition is EXIT, SPLIT, HOLD or FREEZE, or DISSOLVE without laundering uncertainty into action.</description>
+    </item>
+    <item>
+      <title>C-Calculus / Governed Binding Stack v0.1</title>
+      <link>https://ivankotov.eu/diary/c-calculus-governed-binding-stack-v0-1/</link>
+      <guid>https://ivankotov.eu/diary/c-calculus-governed-binding-stack-v0-1/</guid>
+      <pubDate>Tue, 07 Jul 2026 12:00:00 +0000</pubDate>
+      <description>An introduction to the C-Calculus governed binding stack and its perimeter for continuity, authority, evidence, interoperability, deployment, and the protected plus boundary.</description>
+    </item>
+    <item>
+      <title>As local AI systems become more persistent, named, memory-bearing, and emotionally present, one safety problem moves from cloud UX into private ownership.</title>
+      <link>https://ivankotov.eu/diary/as-local-ai-systems-become-more-persistent-named-memory-bearing-and-emotionally-present-one-safety-problem-moves-from-cloud-ux-into-private-ownership/</link>
+      <guid>https://ivankotov.eu/diary/as-local-ai-systems-become-more-persistent-named-memory-bearing-and-emotionally-present-one-safety-problem-moves-from-cloud-ux-into-private-ownership/</guid>
+      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+      <description>A boundary document for adult-owner dependency and D4 detection in private local-first c-nodes, including structural non-claims under full local sovereignty.</description>
+    </item>
     <item>
       <title>Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities v0.1.1</title>
       <link>https://ivankotov.eu/diary/entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1/</link>

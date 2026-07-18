@@ -2,33 +2,35 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities v0.1.1",
-    "date": "2026-07-05",
-    "slug": "entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1",
-    "summary": "A technical note proposing witness-root custody as the criterion distinguishing persistent digital entities from externally rooted profiles.",
+    "title": "Saturday thought.",
+    "date": "2026-07-11",
+    "slug": "saturday-thought",
+    "summary": "A reflection on changing the medium of work through material craft as maintenance against mental corrosion and burnout in the age of AI.",
     "tags": [
-      "AIGovernance",
-      "DigitalIdentity",
-      "AIStandards",
-      "Provenance",
-      "AIAct",
-      "LocalFirstAI",
+      "AI",
+      "Work",
+      "Burnout",
+      "Engineering",
+      "Craft",
+      "Construction",
+      "Baking",
       "HumanInTheLoop",
-      "PersistentAI"
+      "LocalFirstAI"
     ],
     "raw_tags": [
-      "AIGovernance",
-      "DigitalIdentity",
-      "AIStandards",
-      "Provenance",
-      "AIAct",
-      "LocalFirstAI",
+      "AI",
+      "Work",
+      "Burnout",
+      "Engineering",
+      "Craft",
+      "Construction",
+      "Baking",
       "HumanInTheLoop",
-      "PersistentAI"
+      "LocalFirstAI"
     ],
-    "page": "https://ivankotov.eu/diary/entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1/",
-    "primary_image": "https://ivankotov.eu/assets/diary/entity-vs-profile-a-witness-root-custody-criterion-for-persistent-digital-entities-v0-1-1/cover.jpg",
-    "image_alt": "Person reading a document beside a black local computing device in a home office.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aigovernance-digitalidentity-aistandards-activity-7479878069864865793-68Rd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "page": "https://ivankotov.eu/diary/saturday-thought/",
+    "primary_image": "https://ivankotov.eu/assets/diary/saturday-thought/cover.jpg",
+    "image_alt": "Collage of bread, a bakery oven, dough kneading, construction work, and a multi-monitor coding workstation.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-work-burnout-activity-7481664842492325889-Wo5y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
