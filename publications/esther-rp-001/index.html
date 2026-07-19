@@ -10,23 +10,190 @@
   <meta property="og:description" content="English working paper, bounded executable evidence, published DOI, GitHub release, and public review call.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://ivankotov.eu/publications/esther-rp-001/">
+  <link rel="stylesheet" href="../../styles.css">
   <style>
-    :root { color-scheme: light dark; --bg:#f5f6f8; --fg:#17191d; --muted:#5e6570; --panel:#fff; --line:#d8dde5; --accent:#2057a6; }
-    @media (prefers-color-scheme: dark) { :root { --bg:#101216; --fg:#edf0f5; --muted:#aab1bc; --panel:#171a20; --line:#343a45; --accent:#79aaff; } }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.62 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-    main { max-width:980px; margin:auto; padding:48px 24px 80px; }
-    h1 { font-size:clamp(2rem,5vw,4rem); line-height:1.04; margin:.2em 0; letter-spacing:-.035em; }
-    h2 { margin-top:2.2em; }
-    .kicker { color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
-    .lead { font-size:1.25rem; max-width:820px; }
-    .panel { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:24px; margin:24px 0; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
-    a { color:var(--accent); }
-    code,pre { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
-    pre { overflow:auto; padding:16px; border:1px solid var(--line); border-radius:12px; background:var(--bg); }
-    .status { display:inline-block; padding:.25em .65em; border-radius:999px; border:1px solid var(--line); margin:.25em .3em .25em 0; }
-    footer { margin-top:60px; color:var(--muted); font-size:.92rem; }
+    .esther-rp001 .publication-context {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.8rem 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .esther-rp001 .publication-breadcrumb {
+      min-width: 0;
+      margin: 0;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    .esther-rp001 .publication-breadcrumb a {
+      color: var(--accent);
+    }
+
+    .esther-rp001 .publication-author,
+    .esther-rp001 .publication-release {
+      margin: 0.85rem 0 0;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    .esther-rp001 .status-chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin: 1.1rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .esther-rp001 .status-chip-list li {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--accent-soft);
+      padding: 0.48rem 0.78rem;
+      color: var(--text);
+      font-size: 0.94rem;
+      overflow-wrap: anywhere;
+    }
+
+    .esther-rp001 .status-chip-list a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .esther-rp001 .read-test-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: stretch;
+    }
+
+    .esther-rp001 .read-test-grid .card {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .esther-rp001 .read-test-grid .section-links {
+      margin-top: auto;
+    }
+
+    .esther-rp001 .archive-card {
+      min-width: 0;
+      margin-bottom: 1rem;
+    }
+
+    .esther-rp001 .archive-fields,
+    .esther-rp001 .identifier-fields {
+      display: grid;
+      gap: 0.75rem;
+      margin: 0;
+    }
+
+    .esther-rp001 .archive-fields div,
+    .esther-rp001 .identifier-fields div {
+      display: grid;
+      grid-template-columns: minmax(8rem, 0.28fr) minmax(0, 1fr);
+      gap: 0.4rem 1rem;
+      align-items: baseline;
+      min-width: 0;
+    }
+
+    .esther-rp001 dt {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .esther-rp001 dd {
+      min-width: 0;
+      margin: 0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .esther-rp001 code {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .esther-rp001 .evidence-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .esther-rp001 .evidence-card {
+      min-width: 0;
+      padding: 1rem;
+    }
+
+    .esther-rp001 .evidence-card strong {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.3rem;
+      overflow-wrap: anywhere;
+    }
+
+    .esther-rp001 .evidence-card span {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .esther-rp001 .boundary-card {
+      border-left: 4px solid var(--accent);
+    }
+
+    .esther-rp001 .esther-footer {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .esther-rp001 .esther-footer p {
+      margin: 0;
+    }
+
+    .esther-rp001 .esther-footer .section-links {
+      margin-top: 0;
+    }
+
+    @media (max-width: 980px) {
+      .esther-rp001 .read-test-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 680px) {
+      .esther-rp001 .publication-context,
+      .esther-rp001 .read-test-grid,
+      .esther-rp001 .archive-fields div,
+      .esther-rp001 .identifier-fields div {
+        grid-template-columns: 1fr;
+      }
+
+      .esther-rp001 .publication-context {
+        display: grid;
+      }
+    }
+
+    @media print {
+      .esther-rp001 .hero,
+      .esther-rp001 .section,
+      .esther-rp001 .site-footer,
+      .esther-rp001 .card {
+        box-shadow: none;
+      }
+
+      .esther-rp001 .archive-card,
+      .esther-rp001 .evidence-card,
+      .esther-rp001 .read-test-grid .card,
+      .esther-rp001 .boundary-card {
+        break-inside: avoid;
+      }
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -50,63 +217,167 @@
   }
   </script>
 </head>
-<body><main>
-  <p class="kicker">English-only public research release · v0.8.1</p>
-  <h1>Centered Agency Under Persistent Uncertainty</h1>
-  <p class="lead">A public working paper, bounded executable research package, and open external-review target by Ivan Kotov.</p>
-  <p><a href="https://orcid.org/0009-0009-6002-9845">ORCID 0009-0009-6002-9845</a> · Independent Researcher, Brussels, Belgium</p>
+<body class="esther-rp001">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="/publications/" aria-current="page">Publications</a>
+        <a href="../../diary/">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
 
-  <div class="panel">
-    <span class="status">Windows reproduction: PASS</span>
-    <span class="status">Sixth blind review: no candidate blockers</span>
-    <span class="status">Human review: open</span>
-    <span class="status">DOI published: 10.5281/zenodo.21443105</span>
+    <main>
+      <nav class="section publication-context" aria-label="Publication context">
+        <p class="publication-breadcrumb"><a href="/publications/">Publications</a> / ESTHER-RP-001 v0.8.1</p>
+        <div class="section-links" aria-label="Publication actions">
+          <a href="/publications/">Back to Publications</a>
+          <a href="https://doi.org/10.5281/zenodo.21443105">Open DOI archive</a>
+          <a href="https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1">Open GitHub release</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">ENGLISH-ONLY PUBLIC RESEARCH RELEASE · V0.8.1</p>
+        <h1>Centered Agency Under Persistent Uncertainty</h1>
+        <p class="lead page-lead">A public working paper, bounded executable research package, and open external-review target by Ivan Kotov.</p>
+        <p class="publication-author">Ivan Kotov · <a href="https://orcid.org/0009-0009-6002-9845">ORCID 0009-0009-6002-9845</a> · Independent Researcher, Brussels, Belgium</p>
+        <p class="publication-release">Release identifier: <code>ESTHER-RP-001 v0.8.1</code></p>
+        <ul class="status-chip-list" aria-label="Publication status">
+          <li>Windows reproduction: PASS</li>
+          <li>Sixth blind review: no candidate blockers</li>
+          <li>Human review: open</li>
+          <li><a href="https://doi.org/10.5281/zenodo.21443105">DOI published: 10.5281/zenodo.21443105</a></li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">Question</p><h2>The question</h2></div>
+        <div class="prose">
+          <p>What must a persistent system preserve in order to maintain unresolved models of the world, commit to a concrete action, revise itself without rewriting its history, and remain accountable for authority, obligations, and physical consequences?</p>
+          <p>The work separates physical quantum coherence, classical probabilistic uncertainty, and semantic model plurality. It proposes <strong>Selective Operational Commitment</strong>: a local action may be binary without declaring one complete world-model finally true.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">Review entry points</p><h2>Read and test</h2></div>
+        <div class="card-grid read-test-grid">
+          <article class="card">
+            <h3>English public package</h3>
+            <p>Canonical English paper, five normative specifications, review protocol, citation metadata, and bounded reproducibility surface.</p>
+            <div class="section-links"><a href="https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/centered-agency/esther-rp-001-v0.8.1">Open the public package</a></div>
+          </article>
+          <article class="card">
+            <h3>GitHub release</h3>
+            <p>Release notes, deterministic assets, machine-readable metadata, and the DOI-bound Zenodo archive import.</p>
+            <div class="section-links"><a href="https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1">Open the release</a></div>
+          </article>
+          <article class="card">
+            <h3>External review</h3>
+            <p>Formal methods, belief revision, experimental methodology, quantum information, photonics, reproduction, and endpoint-rater participation.</p>
+            <div class="section-links"><a href="https://github.com/Kot141078/ester-theoretical-core/issues/1">Join the external review</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">DOI archive</p><h2>Canonical English DOI archive</h2></div>
+        <article class="card archive-card">
+          <dl class="archive-fields">
+            <div>
+              <dt>Archive</dt>
+              <dd><code>ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip</code></dd>
+            </div>
+            <div>
+              <dt>SHA-256</dt>
+              <dd><code>83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7</code></dd>
+            </div>
+            <div>
+              <dt>Members</dt>
+              <dd><code>116</code></dd>
+            </div>
+            <div>
+              <dt>CRC</dt>
+              <dd><code>PASS</code></dd>
+            </div>
+          </dl>
+        </article>
+        <p class="prose">The exact packet used for the sixth blind model review remains separately identified by SHA-256. The English public package is a publication derivative and is not presented as byte-identical to the Russian-language blind-review input.</p>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">Bounded evidence</p><h2>Bounded evidence</h2></div>
+        <div class="evidence-grid">
+          <article class="card evidence-card"><strong>190/190</strong><span>current tests</span></article>
+          <article class="card evidence-card"><strong>177/177</strong><span>legacy tests</span></article>
+          <article class="card evidence-card"><strong>100</strong><span>thread rounds</span></article>
+          <article class="card evidence-card"><strong>20</strong><span>process rounds</span></article>
+          <article class="card evidence-card"><strong>16/16</strong><span>source mutants killed</span></article>
+          <article class="card evidence-card"><strong>6/6</strong><span>cross-analysis fixtures matched</span></article>
+          <article class="card evidence-card"><strong>Rejected</strong><span>false-PASS negative control rejected</span></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">Reviewer protocol</p><h2>What reviewers should test</h2></div>
+        <ul class="bullet-list">
+          <li>formal consistency of authority, prefix, lifecycle, and succession semantics;</li>
+          <li>bypass paths in obligations, evidence status, requests, nonces, effects, and receipts;</li>
+          <li>construct validity and endpoint gaming in SRR, OCA, PAR, and RCS/RCG;</li>
+          <li>information parity with a strong matched persistent-profile control;</li>
+          <li>physical claim boundaries for quantum and photonic substrates;</li>
+          <li>clean reproducibility on independent environments.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><p class="section-label">Persistent identifiers</p><h2>Persistent identifiers</h2></div>
+        <dl class="identifier-fields">
+          <div>
+            <dt>Published version DOI</dt>
+            <dd><a href="https://doi.org/10.5281/zenodo.21443105">10.5281/zenodo.21443105</a></dd>
+          </div>
+          <div>
+            <dt>Concept DOI</dt>
+            <dd><a href="https://doi.org/10.5281/zenodo.21443104">10.5281/zenodo.21443104</a></dd>
+          </div>
+          <div>
+            <dt>Zenodo record</dt>
+            <dd><a href="https://zenodo.org/records/21443105">zenodo.org/records/21443105</a></dd>
+          </div>
+          <div>
+            <dt>Previous DOI-backed release</dt>
+            <dd><a href="https://doi.org/10.5281/zenodo.20679718">10.5281/zenodo.20679718</a></dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section boundary-card">
+        <div class="section-head"><p class="section-label">Scope boundary</p><h2>Claim boundary</h2></div>
+        <p>This release does not establish consciousness, subjective experience, life, personhood, AGI, entity status, empirical continuity, production security, unbounded mathematical correctness, or quantum/photonic necessity.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer esther-footer">
+      <p>Ivan Kotov · 2026 · Documentation CC BY 4.0 · Code MIT</p>
+      <div class="section-links" aria-label="Public links">
+        <a href="https://github.com/Kot141078">GitHub</a>
+        <a href="https://www.linkedin.com/in/ivan-kotov-57627b210">LinkedIn</a>
+        <a href="https://orcid.org/0009-0009-6002-9845">ORCID</a>
+        <a href="https://hal.science/hal-05529115">HAL</a>
+        <a href="https://ivankotov.eu/">ivankotov.eu</a>
+      </div>
+    </footer>
   </div>
-
-  <h2>The question</h2>
-  <p>What must a persistent system preserve in order to maintain unresolved models of the world, commit to a concrete action, revise itself without rewriting its history, and remain accountable for authority, obligations, and physical consequences?</p>
-  <p>The work separates physical quantum coherence, classical probabilistic uncertainty, and semantic model plurality. It proposes <strong>Selective Operational Commitment</strong>: a local action may be binary without declaring one complete world-model finally true.</p>
-
-  <h2>Read and test</h2>
-  <div class="grid">
-    <div class="panel"><h3>English public package</h3><p>Canonical English paper, five normative specifications, review protocol, citation metadata, and bounded reproducibility surface.</p><p><a href="https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/centered-agency/esther-rp-001-v0.8.1">Open the public package</a></p></div>
-    <div class="panel"><h3>GitHub release</h3><p>Release notes, deterministic assets, machine-readable metadata, and the DOI-bound Zenodo archive import.</p><p><a href="https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1">Open the release</a></p></div>
-    <div class="panel"><h3>External review</h3><p>Formal methods, belief revision, experimental methodology, quantum information, photonics, reproduction, and endpoint-rater participation.</p><p><a href="https://github.com/Kot141078/ester-theoretical-core/issues/1">Join the external review</a></p></div>
-  </div>
-
-  <h2>Canonical English DOI archive</h2>
-  <pre>ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip
-SHA-256: 83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7
-Members: 116 · CRC: PASS</pre>
-  <p>The exact packet used for the sixth blind model review remains separately identified by SHA-256. The English public package is a publication derivative and is not presented as byte-identical to the Russian-language blind-review input.</p>
-
-  <h2>Bounded evidence</h2>
-  <pre>190/190 current tests
-177/177 legacy tests
-100 thread rounds
-20 process rounds
-16/16 source mutants killed
-6/6 cross-analysis fixtures matched
-false-PASS negative control rejected</pre>
-
-  <h2>What reviewers should test</h2>
-  <ul>
-    <li>formal consistency of authority, prefix, lifecycle, and succession semantics;</li>
-    <li>bypass paths in obligations, evidence status, requests, nonces, effects, and receipts;</li>
-    <li>construct validity and endpoint gaming in SRR, OCA, PAR, and RCS/RCG;</li>
-    <li>information parity with a strong matched persistent-profile control;</li>
-    <li>physical claim boundaries for quantum and photonic substrates;</li>
-    <li>clean reproducibility on independent environments.</li>
-  </ul>
-
-  <h2>Persistent identifiers</h2>
-  <p><strong>Published version DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21443105">10.5281/zenodo.21443105</a></p>
-  <p><strong>Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21443104">10.5281/zenodo.21443104</a></p>
-  <p><strong>Zenodo record:</strong> <a href="https://zenodo.org/records/21443105">zenodo.org/records/21443105</a></p>
-  <p><strong>Previous DOI-backed release:</strong> <a href="https://doi.org/10.5281/zenodo.20679718">10.5281/zenodo.20679718</a></p>
-
-  <h2>Claim boundary</h2>
-  <p>This release does not establish consciousness, subjective experience, life, personhood, AGI, entity status, empirical continuity, production security, unbounded mathematical correctness, or quantum/photonic necessity.</p>
-
-  <footer>Ivan Kotov · 2026 · Documentation CC BY 4.0 · Code MIT</footer>
-</main></body></html>
+</body>
+</html>
