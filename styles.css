@@ -61,6 +61,154 @@
   outline-offset: 3px;
 }
 
+.home-hero {
+  padding-top: 1.85rem;
+  padding-bottom: 1.85rem;
+}
+
+.home-hero h1 {
+  max-width: 14ch;
+}
+
+.home-hero .lead {
+  margin-top: 0.55rem;
+}
+
+.home-hero-copy {
+  margin-top: 0.9rem;
+  max-width: 60rem;
+}
+
+.home-hero-actions {
+  margin-top: 1rem;
+}
+
+.home-three-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-featured-grid,
+.home-explore-grid {
+  align-items: stretch;
+}
+
+.home-explore-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.route-card,
+.concept-card,
+.publication-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.route-card .section-links,
+.concept-card .section-links,
+.publication-card .section-links {
+  margin-top: auto;
+}
+
+.home-install-section {
+  padding: 1rem;
+}
+
+.home-install-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.home-install-card h2 {
+  margin-top: 0.2rem;
+}
+
+.home-install-body {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.home-install-body p,
+.home-book-copy p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.home-latest-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.25fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.home-latest-card .entry-meta,
+.home-latest-card h3,
+.home-latest-card .entry-summary,
+.home-latest-card .section-links {
+  grid-column: 2;
+}
+
+.home-latest-cover {
+  grid-row: span 4;
+  aspect-ratio: 16 / 9;
+  max-height: 320px;
+}
+
+.home-latest-cover img {
+  width: 100%;
+  height: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.home-book-card {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
+  gap: 1.1rem;
+  align-items: start;
+}
+
+.home-book-cover {
+  width: min(100%, 220px);
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  padding: 0.45rem;
+  box-shadow: 0 10px 24px rgba(49, 41, 32, 0.12);
+}
+
+.home-book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.home-book-copy {
+  display: grid;
+  gap: 0.65rem;
+  min-width: 0;
+}
+
+.rights-note {
+  font-size: 0.95rem;
+}
+
+.compact-link-list {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.compact-link-list a {
+  padding: 0.68rem 0.78rem;
+  text-align: center;
+}
+
 .diary-landing {
   display: grid;
   gap: 1.1rem;
@@ -309,6 +457,38 @@
     padding: 0.5rem 0.75rem;
   }
 
+  .home-three-grid,
+  .home-explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-install-card,
+  .home-latest-card,
+  .home-book-card {
+    grid-template-columns: 1fr;
+  }
+
+  .home-latest-card .entry-meta,
+  .home-latest-card h3,
+  .home-latest-card .entry-summary,
+  .home-latest-card .section-links {
+    grid-column: auto;
+  }
+
+  .home-latest-cover {
+    grid-row: auto;
+    max-height: 240px;
+  }
+
+  .home-book-cover {
+    justify-self: center;
+    max-width: 220px;
+  }
+
+  .compact-link-list {
+    grid-template-columns: 1fr;
+  }
+
   .diary-latest-grid,
   .diary-start-grid,
   .diary-compact-card-grid,
@@ -334,6 +514,56 @@
   .diary-start-grid .landing-card-media,
   .diary-start-grid .landing-card-media img {
     max-height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-shell {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .site-header,
+  .hero,
+  .section,
+  .site-footer {
+    max-width: 100%;
+  }
+
+  .brand {
+    min-width: 0;
+  }
+
+  .site-nav {
+    width: 100%;
+    gap: 0.45rem;
+  }
+
+  .site-nav a,
+  .section-links a,
+  .surface-links a {
+    flex: 1 1 calc(50% - 0.45rem);
+    justify-content: center;
+    min-width: 0;
+    padding: 0.48rem 0.62rem;
+    font-size: 0.92rem;
+  }
+
+  .hero,
+  .section {
+    padding: 1.15rem;
+  }
+
+  .home-hero h1 {
+    max-width: 100%;
+    font-size: 2.35rem;
+  }
+
+  .home-hero-copy,
+  .home-install-body,
+  .home-book-copy {
+    overflow-wrap: anywhere;
   }
 }
 

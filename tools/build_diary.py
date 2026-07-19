@@ -2227,16 +2227,16 @@ def render_home_slot_from_state(latest_item: dict[str, object] | None) -> str:
     if isinstance(primary_image, str) and primary_image.startswith(SITE_URL):
         image_alt = str(latest_item.get("image_alt", "")).strip() or str(latest_item.get("title", "Latest diary entry"))
         image_html = f"""
-          <div class="entry-cover">
-            <img src="./{html.escape(primary_image.removeprefix(SITE_URL))}" alt="{html.escape(image_alt)}">
+          <div class="entry-cover home-latest-cover">
+            <img src="./{html.escape(primary_image.removeprefix(SITE_URL))}" alt="{html.escape(image_alt)}" loading="eager" decoding="async">
           </div>
 """
-    return f"""      <section class="section">
+    return f"""      <section class="section home-latest-section">
         <div class="section-head">
-          <p class="section-label">Diary</p>
+          <p class="section-label">Latest post</p>
           <h2>Latest post</h2>
         </div>
-        <article class="entry-card">
+        <article class="entry-card home-latest-card">
 {image_html}          <div class="entry-meta">
             <span>{html.escape(str(latest_item.get('date', '')))}</span>
           </div>
@@ -2245,7 +2245,7 @@ def render_home_slot_from_state(latest_item: dict[str, object] | None) -> str:
           <div class="section-links">
             <a href="./diary/{html.escape(str(latest_item.get('slug', '')))}/">Open latest post</a>
             <a href="./diary/">Open Diary</a>
-            <a href="./diary/start-here/">Start here</a>
+            <a href="./diary/archive/">Browse Diary archive</a>
           </div>
         </article>
       </section>"""
