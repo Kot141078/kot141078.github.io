@@ -1,0 +1,48 @@
+# ESTHER-RP-001 v0.8.1
+
+Title: Centered Agency Under Persistent Uncertainty
+Author: Ivan Kotov
+ORCID: https://orcid.org/0009-0009-6002-9845
+Language: English
+Publication date: 2026-07-19
+Version DOI: https://doi.org/10.5281/zenodo.21443105
+Concept DOI: https://doi.org/10.5281/zenodo.21443104
+Zenodo record: https://zenodo.org/records/21443105
+Project page: https://ivankotov.eu/publications/esther-rp-001/
+Machine-readable entry: https://ivankotov.eu/esther-rp-001.json
+Publication status: https://ivankotov.eu/publications/esther-rp-001/PUBLICATION_STATUS.json
+GitHub repository: https://github.com/Kot141078/ester-theoretical-core
+GitHub release: https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1
+Browsable DOI package: https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/centered-agency/esther-rp-001-v0.8.1/DOI_RELEASE
+External review issue: https://github.com/Kot141078/ester-theoretical-core/issues/1
+
+Canonical archive:
+- File: ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip
+- SHA-256: 83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7
+- Size: 454012 bytes
+- Members: 116
+- CRC: PASS
+
+Bounded reviewed status:
+- Independent Windows reproduction: PASS
+- Current tests: 190/190
+- Legacy tests: 177/177
+- Thread/process rounds: 100/20
+- Source mutants: 16/16 killed
+- Cross-analysis fixtures: 6/6
+- False-PASS negative control: rejected
+- Sixth blind conceptual review: NO_CANDIDATE_BLOCKERS_FOUND
+
+Open gates:
+- external human conceptual review
+- independent endpoint-rater pilot
+- updated power analysis
+- preregistration
+- matched-control main study
+
+Claim boundary:
+This release does not establish consciousness, subjective experience, sentience, life, personhood, AGI, entity status, empirical continuity, production security, unbounded correctness, or quantum/photonic necessity.
+
+Licenses:
+- Articles, specifications, review calls, and documentation: CC BY 4.0
+- Code and executable reference surfaces: MIT
