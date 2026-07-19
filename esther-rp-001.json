@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "id": "esther-rp-001-v0.8.1",
+  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "date": "2026-07-19",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "page": "https://ivankotov.eu/publications/esther-rp-001/",
+  "github": "https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/centered-agency/esther-rp-001-v0.8.1",
+  "review_issue": "https://github.com/Kot141078/ester-theoretical-core/issues/1",
+  "doi": null,
+  "doi_status": "pending_zenodo_publication",
+  "parent_doi": "10.5281/zenodo.20679718",
+  "frozen_artifact": {
+    "filename": "ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip",
+    "sha256": "38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6"
+  },
+  "bounded_evidence": {
+    "current_tests": "190/190",
+    "legacy_tests": "177/177",
+    "thread_rounds": 100,
+    "process_rounds": 20,
+    "source_mutants": "16/16",
+    "cross_analysis": "6/6",
+    "blind_review": "NO_CANDIDATE_BLOCKERS_FOUND"
+  },
+  "open_gates": [
+    "external human conceptual review",
+    "external endpoint-rater pilot",
+    "updated power analysis",
+    "preregistration",
+    "matched-control main study"
+  ],
+  "non_claims": [
+    "consciousness",
+    "life",
+    "personhood",
+    "AGI",
+    "entity status",
+    "empirical continuity",
+    "production security",
+    "unbounded correctness",
+    "quantum necessity",
+    "photonic necessity"
+  ]
+}
