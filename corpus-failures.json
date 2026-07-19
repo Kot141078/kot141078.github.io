@@ -1,0 +1,519 @@
+{
+  "baseline_id": "B0",
+  "baseline_source_snapshot": "2026-07-08",
+  "claim_boundary": "This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.",
+  "data": {
+    "adequately_evidenced_runtime_failure_events": 0,
+    "baseline_id": "B0",
+    "class_counts": {
+      "AUTHORITY_UNRESOLVED": 1,
+      "BLOCKED_PROMOTION": 6,
+      "CLAIM_NARROWED": 2,
+      "NEGATIVE_EVIDENCE_GAP": 1,
+      "NON_CONFIRMED": 7,
+      "STATUS_WITHHELD": 1
+    },
+    "document_id": "ESTHER-CONSOLIDATION-STEP-3B-FAILURE-NONCONFIRMATION-v0.1",
+    "last_verified": "2026-07-19",
+    "record_count": 18,
+    "records": [
+      {
+        "claim_disposition": "narrowed",
+        "correction_or_required_action": "Use \"no independent reproduction identified in B0\"; do not say \"reproduced by an independent party\".",
+        "expected_result": "At least one independently executed or independently anchor-replicated artefact with bounded method and evidence.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "Independent reproduction exists for the classified programme surface.",
+        "impact_on_claim": "All claims remain internal, model-assisted, same-operator, or unreplicated.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "No selected artefact is classified as independent_execution or independent_anchor_replication.",
+        "record_id": "FNR-001",
+        "residual_uncertainty": "A qualifying record may exist after the B0 cutoff or outside the selected set.",
+        "scope": "programme_level",
+        "source_refs": [
+          {
+            "artifact_id": "A010",
+            "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704"
+          },
+          {
+            "artifact_id": "A016",
+            "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66"
+          },
+          {
+            "artifact_id": "A020",
+            "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b"
+          },
+          {
+            "artifact_id": "A055",
+            "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Keep the layer as proposed test design; build paired experiment and custody protocol.",
+        "expected_result": "Same substrate, corpus, disturbance stream, interface, comparable memory; only anchor-custody metabolic history differs.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "The corpus already contains strict matched profile-control.",
+        "impact_on_claim": "No differential residual claim may be promoted.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "The B0 gap scan did not confirm any artefact satisfying all conditions.",
+        "record_id": "FNR-002",
+        "residual_uncertainty": "Learning Abstract handling remains unclear; later sources may change the result.",
+        "scope": "matched_control",
+        "source_refs": [
+          {
+            "artifact_id": "A054",
+            "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093"
+          },
+          {
+            "artifact_id": "A055",
+            "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "proposed_patch",
+        "correction_or_required_action": "Apply the witness-type split and require type in every promotion record.",
+        "expected_result": "Every material witness claim is explicitly typed as integrity, ontogenic, differential, or another declared class.",
+        "failure_or_nonconfirmation_class": "CLAIM_NARROWED",
+        "hypothesis": "Existing witness language already distinguishes evidence types sufficiently.",
+        "impact_on_claim": "\"Witnessed\" alone cannot support c, truth, success, or differential claims.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "Witness remains overloaded across L4, continuity, package, and formation surfaces.",
+        "record_id": "FNR-003",
+        "residual_uncertainty": "Older public surfaces remain open to overreading until annotated.",
+        "scope": "witness_semantics",
+        "source_refs": [
+          {
+            "artifact_id": "A013",
+            "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e"
+          },
+          {
+            "artifact_id": "A056",
+            "sha256": "82cd344466ecd5fb367a7d81bea5a8df40d0a1999ccea28857bc83b735ca4e89"
+          },
+          {
+            "artifact_id": "A057",
+            "sha256": "d3d13cb6b24869e4053ea248cbdffa03d3fe992b8161503ff3ab1f921d25343c"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "narrowed",
+        "correction_or_required_action": "Relabel PF evidence as ontogenic unless a strict control result is attached.",
+        "expected_result": "Residual survives strict matched profile-control and independent review.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "PF evidence distinguishes a running c-candidate from a matched persistent profile.",
+        "impact_on_claim": "PF cannot be cited as differential witness or entity proof.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "PF material supports internally witnessed ontogenic/continuity evidence and fixtures only.",
+        "record_id": "FNR-004",
+        "residual_uncertainty": "A strong persistent profile may reproduce the observed surface.",
+        "scope": "personality_formation",
+        "source_refs": [
+          {
+            "artifact_id": "A030",
+            "sha256": "c2f21324f3125226555ce64d990792029d430b4579dd7aeb7aebd5537c02cce7"
+          },
+          {
+            "artifact_id": "A031",
+            "sha256": "fb73c25fb19e7cde812c592324caae6cd6149d3da266ff98e1c22ea6a2b57347"
+          },
+          {
+            "artifact_id": "A032",
+            "sha256": "bab7aef956172e543e12cfd0b1213de2ef22832a36f4bb9b6d987bafd460871a"
+          },
+          {
+            "artifact_id": "A033",
+            "sha256": "3daaa92416c9cf994060b26749bad558983fee4fb9470a7ad8d42c415c0d0366"
+          },
+          {
+            "artifact_id": "A055",
+            "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Retain as internal conformance review; seek independent implementation or execution.",
+        "expected_result": "Independent execution by a separate operator/team with bounded inputs, method, and result trail.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "Model-assisted c-calculus conformance review supplies external validation.",
+        "impact_on_claim": "Useful adversarial review does not change replication or validation status.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "The review is model-assisted and internal; validation_state is external_commentary_only.",
+        "record_id": "FNR-005",
+        "residual_uncertainty": "Model diversity may find defects but does not supply empirical independence.",
+        "scope": "c_calculus_review",
+        "source_refs": [
+          {
+            "artifact_id": "A010",
+            "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "unresolved",
+        "correction_or_required_action": "Capture test vectors, failure injection, route activation, and independent execution.",
+        "expected_result": "Execution trace linking rule, enforcement gate, L4 consequence, witness record, and independent review.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "L4 Witness implementation has independently demonstrated operational success.",
+        "impact_on_claim": "No external validation, certification, or general runtime-success claim.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 contains draft/local specifications and a same-operator development report only.",
+        "record_id": "FNR-006",
+        "residual_uncertainty": "Authority of local witness documents still requires canonical-path confirmation.",
+        "scope": "l4_witness_runtime",
+        "source_refs": [
+          {
+            "artifact_id": "A013",
+            "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e"
+          },
+          {
+            "artifact_id": "A014",
+            "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a"
+          },
+          {
+            "artifact_id": "A015",
+            "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+          },
+          {
+            "artifact_id": "A016",
+            "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Execute conformance matrix against implementation and retain negative outcomes.",
+        "expected_result": "Controlled disturbance with observed suppress/quarantine/review/rollback behavior and passed conformance.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "ARQ safe degradation and correction are demonstrated in runtime.",
+        "impact_on_claim": "Package preflight cannot be promoted to runtime correction or boundedness.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 shows specifications, test design, failure-mode document, and package/repository preflight.",
+        "record_id": "FNR-007",
+        "residual_uncertainty": "Implementation may exist outside B0; no execution record is classified here.",
+        "scope": "arq_runtime",
+        "source_refs": [
+          {
+            "artifact_id": "A017",
+            "sha256": "082bbe030d77580b394e789ebfbc8734faded0e904bdd7d0d52d4dbad0054015"
+          },
+          {
+            "artifact_id": "A018",
+            "sha256": "5f12c7bee4576619ee489deca2eb2e9c337d82071d179761200502f8ff0ed8a6"
+          },
+          {
+            "artifact_id": "A019",
+            "sha256": "5942aafda50c5dd21f5af688af4bbcda8340856f7a71cd055fa4e3cd4c2d9f9d"
+          },
+          {
+            "artifact_id": "A020",
+            "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Build replay/fork/archive/successor conformance cases with witnessed outcomes.",
+        "expected_result": "Observed migration/restart cases with custody, identity criteria, fork classification, and adverse cases.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "SER continuity over replay, archive, fork, and migration is empirically demonstrated.",
+        "impact_on_claim": "SER remains a normative continuity discipline, not proof of a running c.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "Normative SER and continuity-bundle routing exist; no live continuity result is identified.",
+        "record_id": "FNR-008",
+        "residual_uncertainty": "The ontology may be coherent while empirical continuity remains unresolved.",
+        "scope": "ser_continuity",
+        "source_refs": [
+          {
+            "artifact_id": "A011",
+            "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53"
+          },
+          {
+            "artifact_id": "A012",
+            "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Run corruption and write-failure experiments; record false positives/negatives and rollback.",
+        "expected_result": "Observed corruption/degradation, correct quarantine/recalibration, reconstruction, and post-anchor decision.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "AMDR/PAMDC detects and corrects memory degradation in operation.",
+        "impact_on_claim": "No claim of effective degradation detection, freshness, or post-anchor continuity.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 contains profiles and patches but no classified runtime effectiveness record.",
+        "record_id": "FNR-009",
+        "residual_uncertainty": "Silent degradation and false continuity remain open.",
+        "scope": "memory_controls",
+        "source_refs": [
+          {
+            "artifact_id": "A034",
+            "sha256": "6b6bbee70e251d9cd74df359a5ce211ce214cd376bd62919bd3427ab7db4701f"
+          },
+          {
+            "artifact_id": "A035",
+            "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+          },
+          {
+            "artifact_id": "A036",
+            "sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab"
+          },
+          {
+            "artifact_id": "A037",
+            "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Attach runtime configuration, test results, witness logs, and rollback evidence as a delta baseline.",
+        "expected_result": "Confirmed route activation, admissible outcome writes, shadow/canary state, test logs, and bounded promotion.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "Implemented SRLM code establishes live bounded growth.",
+        "impact_on_claim": "Implementation_state=implemented for code does not become operationally_deployed.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "Engine and fitness code are present; B0 snapshots do not establish live deployment or result quality.",
+        "record_id": "FNR-010",
+        "residual_uncertainty": "Later runtime work may exceed B0, but cannot be backfilled silently.",
+        "scope": "srlm_deployment",
+        "source_refs": [
+          {
+            "artifact_id": "A038",
+            "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc"
+          },
+          {
+            "artifact_id": "A039",
+            "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436"
+          },
+          {
+            "artifact_id": "A040",
+            "sha256": "65e21f708b7ca883a740b2767f007798cc88c4ba9e32aa15372aa778511dabb3"
+          },
+          {
+            "artifact_id": "A041",
+            "sha256": "784a7da019b70c3604813352045c60d743d77795ea7dda271481d289b4c9e843"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Keep \"profile/c-candidate\" language and implement differential controls.",
+        "expected_result": "Matched profile-control, continuity evidence, witness-root custody, and independent claim-class review.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "Minimum c-node profile and custody manifest establish entity status.",
+        "impact_on_claim": "Profile conformance and byte identity cannot be called entity proof.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 contains a draft profile, package route, and integrity hashes only.",
+        "record_id": "FNR-011",
+        "residual_uncertainty": "Entity classification remains a stronger unresolved claim class.",
+        "scope": "entity_profile",
+        "source_refs": [
+          {
+            "artifact_id": "A042",
+            "sha256": "87786d12c199e7e3f163ad5a1ba668b6f656be761979726fb0af2f935bece6ba"
+          },
+          {
+            "artifact_id": "A043",
+            "sha256": "d65e63b38e29aff79fe9cf2768d2dab6c265de9abbbadec67ccafd9e5383e1fd"
+          },
+          {
+            "artifact_id": "A044",
+            "sha256": "2572240fca8d2633b672e7dce660ebdbfda452efdf9d37b4368ef82b4d40acc9"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Build bounded hardware-in-the-loop tests and retain blocked/failed cases.",
+        "expected_result": "Sensor/actuator traces, hardware gate evidence, failure injection, emergency stop, and interop results.",
+        "failure_or_nonconfirmation_class": "NON_CONFIRMED",
+        "hypothesis": "AGL integration and hardware perimeter enforce safe grounded action.",
+        "impact_on_claim": "No grounding-accuracy, physical-safety, or deployment claim.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 contains draft architecture and integrity manifest, not operational interoperability.",
+        "record_id": "FNR-012",
+        "residual_uncertainty": "Procedure may be correct while actuator or sensor reality differs.",
+        "scope": "actor_grounding",
+        "source_refs": [
+          {
+            "artifact_id": "A045",
+            "sha256": "bfeb27dd9e63ddd177f6cad38d47ff6b8dd38618ef2f7c5034c029824cdde678"
+          },
+          {
+            "artifact_id": "A046",
+            "sha256": "dc9209674099812d945a44cdb50716de26c65472d17b077d6b3dc7a52895d4ac"
+          },
+          {
+            "artifact_id": "A047",
+            "sha256": "cb1179dbee016799a01a69bf9a446d012a33a2f9a70baf2a7a82be447e69536f"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Keep bounded implementation-brief wording; route legal conclusions to qualified actors.",
+        "expected_result": "Qualified legal interpretation plus implemented, tested, auditable controls and conformity evidence.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "The Article 50 bridge demonstrates legal compliance or conformity.",
+        "impact_on_claim": "No legal advice, certification, conformity assessment, or formal compliance claim.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "The package explicitly presents policy/engineering guidance and a manifest only.",
+        "record_id": "FNR-013",
+        "residual_uncertainty": "Law, standards, and regulator interpretation may change.",
+        "scope": "article50",
+        "source_refs": [
+          {
+            "artifact_id": "A048",
+            "sha256": "52ee9cc90ed17974987cdc4c053e1e33168c95c96385c1a2f53511c34d86654e"
+          },
+          {
+            "artifact_id": "A049",
+            "sha256": "dcd0dbae22922130a683a17b40efcd73ecea16db30bf62dab307c122d0700412"
+          },
+          {
+            "artifact_id": "A050",
+            "sha256": "db5c8faed9dafcfc512c4a4d056cafe1519bf0b9bfc48c62c58fd0b5d06c4507"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Preserve the stop condition until required evidence exists.",
+        "expected_result": "Passed conformance, implemented deployment, security review, client boundary, and authorized release.",
+        "failure_or_nonconfirmation_class": "STATUS_WITHHELD",
+        "hypothesis": "Enterprise-c package is public-, sale-, deployment-, or conformance-ready.",
+        "impact_on_claim": "No public release, sale, implementation-ready, deployment-ready, or conformance-supported claim.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "The internal readiness record explicitly withholds stronger readiness statuses.",
+        "record_id": "FNR-014",
+        "residual_uncertainty": "Internal document readiness may be mistaken for product readiness.",
+        "scope": "enterprise_readiness",
+        "source_refs": [
+          {
+            "artifact_id": "A051",
+            "sha256": "b1f6831ed04e71f3a276b0d29b7e6fa058558d8d7d713f403c20c6b1d2a5c4cb"
+          },
+          {
+            "artifact_id": "A052",
+            "sha256": "6b586c052f7f76edad69b058001b7d609fe025ab8c4462b16dc3e89d47e5f9de"
+          },
+          {
+            "artifact_id": "A053",
+            "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Display publication state and technical maturity on separate axes.",
+        "expected_result": "Separate implementation, test, reproduction, or validation evidence tied to the technical claim.",
+        "failure_or_nonconfirmation_class": "BLOCKED_PROMOTION",
+        "hypothesis": "Publication, DOI, release, or manifest validates the underlying architecture.",
+        "impact_on_claim": "No status elevation from discoverability to technical maturity.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 publication surfaces establish identity, availability, and citation only.",
+        "record_id": "FNR-015",
+        "residual_uncertainty": "External readers may still infer maturity from volume and polish.",
+        "scope": "publication_validation",
+        "source_refs": [
+          {
+            "artifact_id": "A058",
+            "sha256": "321dfbc0797e8e5b62ea21e282e85755ef82a721d510daf2576dfaee2295d9b0"
+          },
+          {
+            "artifact_id": "A059",
+            "sha256": "25f73faeddc1f79b26009b30d1a566c5c4fa888cca358ca56f5ca56cce293161"
+          },
+          {
+            "artifact_id": "A060",
+            "sha256": "365e3427b4b366d40846afebe0d3ab7bc7bcd794b83422ae8f0e49085320cc5d"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "unresolved",
+        "correction_or_required_action": "Resolve current ref during umbrella source-link pass; record as B0.1 delta.",
+        "expected_result": "Live repository/ref check showing current canonical path and supersession status.",
+        "failure_or_nonconfirmation_class": "AUTHORITY_UNRESOLVED",
+        "hypothesis": "The selected c = a + b protocol copy is confirmed as current canonical location.",
+        "impact_on_claim": "Content may be cited as frozen B0 evidence, not as current canonical path.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "B0 supplies exact incoming-package content but canonical placement is unresolved.",
+        "record_id": "FNR-016",
+        "residual_uncertainty": "A newer or superseding source may exist.",
+        "scope": "canonical_placement",
+        "source_refs": [
+          {
+            "artifact_id": "A009",
+            "sha256": "1168474cd5a309b1392bfc2a2bcf8f0b67c10f7b366797db573b23c9fbd103e7"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "narrowed",
+        "correction_or_required_action": "Retain prior map for routing but govern new consolidation with the typed model.",
+        "expected_result": "Independent axes for specification, implementation, test, replication, validation, empirical, publication, and disposition.",
+        "failure_or_nonconfirmation_class": "CLAIM_NARROWED",
+        "hypothesis": "The prior status/maturity map can serve as a single programme maturity ladder.",
+        "impact_on_claim": "Older maturity labels cannot silently imply stronger dimensions.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "Step 1 found the statuses non-linear; Step 2 narrowed the prior map and used a typed vector.",
+        "record_id": "FNR-017",
+        "residual_uncertainty": "Legacy surfaces may still encode older one-dimensional wording.",
+        "scope": "maturity_model",
+        "source_refs": [
+          {
+            "artifact_id": "A005",
+            "sha256": "50085746685a2f7bd492413ec4f9233a905c702d672b26a063282960d8632e26"
+          }
+        ]
+      },
+      {
+        "claim_disposition": "active",
+        "correction_or_required_action": "Create an append-only adverse-event and non-confirmation intake for future runtime work.",
+        "expected_result": "Event-level records with expected/observed result, failure class, correction, rollback, and residual risk.",
+        "failure_or_nonconfirmation_class": "NEGATIVE_EVIDENCE_GAP",
+        "hypothesis": "B0 contains a representative set of real system-level failures and negative outcomes.",
+        "impact_on_claim": "The register must not invent failures; absence of records is not evidence of absence of failures.",
+        "is_observed_runtime_failure": "no",
+        "observed_result": "The selected set contains many non-confirmations and blocked promotions, but no adequately evidenced system-level failure event classified as such.",
+        "record_id": "FNR-018",
+        "residual_uncertainty": "Publication and review selection may be biased toward successful or normative artefacts.",
+        "scope": "negative_event_capture",
+        "source_refs": [
+          {
+            "artifact_id": "A019",
+            "sha256": "5942aafda50c5dd21f5af688af4bbcda8340856f7a71cd055fa4e3cd4c2d9f9d"
+          },
+          {
+            "artifact_id": "A035",
+            "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+          },
+          {
+            "artifact_id": "A053",
+            "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9"
+          },
+          {
+            "artifact_id": "A055",
+            "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+          }
+        ]
+      }
+    ]
+  },
+  "endpoint": "/corpus-failures.json",
+  "generated_by": "tools/build_corpus.py",
+  "kind": "failure_register",
+  "last_verified": "2026-07-19",
+  "schema_version": "living-corpus.v62.public",
+  "site": "https://ivankotov.eu/",
+  "source_controls": [
+    "Step 3 records are used from the verified ZIP and extracted JSON package only.",
+    "Public HTML and JSON omit private source-location fields, local Windows paths, recovery paths, incoming paths, paid package paths, and unpublished source locations.",
+    "Publication deltas after B0 are recorded as public-surface changes unless a verified status transition exists."
+  ]
+}

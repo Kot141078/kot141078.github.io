@@ -1,0 +1,88 @@
+{
+  "baseline_id": "B0",
+  "baseline_source_snapshot": "2026-07-08",
+  "claim_boundary": "This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.",
+  "data": {
+    "counts": {
+      "adequately_evidenced_runtime_failure_events": 0,
+      "artifacts": 60,
+      "failure_nonconfirmation_records": 18,
+      "open_problems": 24,
+      "protocol_families": 17
+    },
+    "document_id": "living-corpus-public-index-v62",
+    "endpoints": [
+      {
+        "title": "Index",
+        "url": "/corpus-index.json"
+      },
+      {
+        "title": "Current state",
+        "url": "/corpus-current.json"
+      },
+      {
+        "title": "Protocol map",
+        "url": "/corpus-protocol-map.json"
+      },
+      {
+        "title": "Open problems",
+        "url": "/corpus-open-problems.json"
+      },
+      {
+        "title": "Failures",
+        "url": "/corpus-failures.json"
+      },
+      {
+        "title": "Changes",
+        "url": "/corpus-changes.json"
+      },
+      {
+        "title": "Canonical sources",
+        "url": "/corpus-canonical-sources.json"
+      }
+    ],
+    "routes": [
+      {
+        "description": "Architecture, current status, source controls, and claim boundary.",
+        "title": "Overview",
+        "url": "/corpus/"
+      },
+      {
+        "description": "Seventeen protocol-family transitions and the risks each blocks.",
+        "title": "Protocol map",
+        "url": "/corpus/protocol-map/"
+      },
+      {
+        "description": "B0 status matrix, counts, implementation surfaces, and publication deltas.",
+        "title": "Current state",
+        "url": "/corpus/current-state/"
+      },
+      {
+        "description": "Twenty-four unresolved questions, priorities, drafting effects, and next evidence needs.",
+        "title": "Open problems",
+        "url": "/corpus/open-problems/"
+      },
+      {
+        "description": "Eighteen failure or non-confirmation records, with no invented runtime failures.",
+        "title": "Failures",
+        "url": "/corpus/failures/"
+      },
+      {
+        "description": "Public-surface changes since B0, without status elevation.",
+        "title": "Changes",
+        "url": "/corpus/changes/"
+      }
+    ]
+  },
+  "endpoint": "/corpus-index.json",
+  "generated_by": "tools/build_corpus.py",
+  "kind": "index",
+  "last_verified": "2026-07-19",
+  "schema_version": "living-corpus.v62.public",
+  "site": "https://ivankotov.eu/",
+  "source_controls": [
+    "Step 3 records are used from the verified ZIP and extracted JSON package only.",
+    "Public HTML and JSON omit private source-location fields, local Windows paths, recovery paths, incoming paths, paid package paths, and unpublished source locations.",
+    "Publication deltas after B0 are recorded as public-surface changes unless a verified status transition exists."
+  ]
+}

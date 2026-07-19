@@ -1,0 +1,49 @@
+{
+  "baseline_id": "B0",
+  "baseline_source_snapshot": "2026-07-08",
+  "claim_boundary": "This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.",
+  "data": {
+    "baseline_id": "B0",
+    "change_policy": "Only verified status transitions change the B0 status matrix. Public releases after B0 are listed as publication-surface or editorial-projection deltas unless the verified registers support a stronger transition.",
+    "changes": [
+      {
+        "change_id": "D-2026-07-17-CLEANROOM-ARM-P-V1-0-1",
+        "claim_effect": "No B0 status elevation. Independent reproduction and external validation remain not identified in the living corpus status map.",
+        "date": "2026-07-17",
+        "public_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+        "status_effect": "publication_surface_only",
+        "title": "Cleanroom ARM-P open verification release v1.0.1 surfaced publicly"
+      },
+      {
+        "change_id": "D-2026-07-19-ESTHER-RP-001-V0-8-1",
+        "claim_effect": "No scientific or validation status is raised by the publication page. The release remains bounded by its own reproducibility package and review call.",
+        "date": "2026-07-19",
+        "public_url": "https://ivankotov.eu/publications/esther-rp-001/",
+        "status_effect": "publication_surface_only",
+        "title": "ESTHER-RP-001 v0.8.1 publication surface added"
+      },
+      {
+        "change_id": "D-2026-07-19-LIVING-CORPUS-V62",
+        "claim_effect": "Adds public navigation, status projection, and JSON receipts. It does not alter the frozen B0 classification or any source protocol.",
+        "date": "2026-07-19",
+        "public_url": "https://ivankotov.eu/corpus/",
+        "status_effect": "editorial_projection_only",
+        "title": "Living Corpus Entry Layer v62 added to the website"
+      }
+    ],
+    "deltas_applied_through": "2026-07-19",
+    "document_id": "living-corpus-change-log-v62",
+    "last_verified": "2026-07-19"
+  },
+  "endpoint": "/corpus-changes.json",
+  "generated_by": "tools/build_corpus.py",
+  "kind": "change_log",
+  "last_verified": "2026-07-19",
+  "schema_version": "living-corpus.v62.public",
+  "site": "https://ivankotov.eu/",
+  "source_controls": [
+    "Step 3 records are used from the verified ZIP and extracted JSON package only.",
+    "Public HTML and JSON omit private source-location fields, local Windows paths, recovery paths, incoming paths, paid package paths, and unpublished source locations.",
+    "Publication deltas after B0 are recorded as public-surface changes unless a verified status transition exists."
+  ]
+}

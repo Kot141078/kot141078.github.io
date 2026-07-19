@@ -1,0 +1,2569 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "A001",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Corpus control and canonical routing",
+      "family_id": "F01",
+      "forbidden_status_elevation": "Does not validate any downstream protocol, implementation, runtime, or entity claim.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines the canonical reading path and corpus-entry role represented in B0.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "33300d930dec65220ec738634ca3a0610d3d53e12db7e81fb638effa6ce128d0",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A002",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Corpus control and canonical routing",
+      "family_id": "F01",
+      "forbidden_status_elevation": "Repository routing is not evidence that routed artefacts are implemented or validated.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Routes a reader to repositories and major corpus surfaces represented in B0.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "7a31910509625e4a0c005a6559c250a39c0ab951ec516bb4f4d7336c85aa086b",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A003",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Corpus control and canonical routing",
+      "family_id": "F01",
+      "forbidden_status_elevation": "Ownership does not grant evidential truth, runtime success, or independent authority.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines claim-scoped ownership and boundary routing inside the corpus.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "d4a4bbdfacf7c74b8cf63fe127dcb8e8739b147cd543c5d5896a8c1184f0a84a",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A004",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Claims, maturity, and non-claims control",
+      "family_id": "F02",
+      "forbidden_status_elevation": "A source map does not itself prove the mapped claim.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Maps selected corpus claims to their intended canonical and supporting sources.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "af9fe633961b3d4b101e66248a34241b268d4d2db575011fa92fa7a22dc6f9ba",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A005",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "narrowed",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Claims, maturity, and non-claims control",
+      "family_id": "F02",
+      "forbidden_status_elevation": "Its categories shall not be read as a single maturity ladder after the typed Step-1 model.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "Retained as canonical prior control, but narrowed by the multi-axis model.",
+      "permitted_wording": "Provides the prior corpus maturity and reading-weight control surface.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "50085746685a2f7bd492413ec4f9233a905c702d672b26a063282960d8632e26",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A006",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Claims, maturity, and non-claims control",
+      "family_id": "F02",
+      "forbidden_status_elevation": "A strong assertion class is not implementation, reproduction, or validation evidence.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines bounded vocabulary for claim force and reading limits.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "ef512d1006d1af79ce2722c95246033b31e4def0164abae0d05a9aac14e4c309",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A007",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "non_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Claims, maturity, and non-claims control",
+      "family_id": "F02",
+      "forbidden_status_elevation": "An open-question register shall not be cited as evidence that the open question has been solved.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Records territories that remain open and statements the programme explicitly does not claim.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "f864298ba3cb514dc6707f97568dd68c131db1711bc4027deac83fef3ebe9f2c",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A008",
+      "artifact_role": "architecture",
+      "authority_state": "supporting",
+      "claim_class": "definition",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "c = a + b, theoretical core, and c-calculus",
+      "family_id": "F03",
+      "forbidden_status_elevation": "The theoretical core is not entity proof, runtime proof, or external validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Collector marks publication surface; current canonical precedence still requires a live-ref check.",
+      "permitted_wording": "Defines the published theoretical-core framing of c = a + b and related architecture.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "0bb291957d3fea22f21f8bb7670683bd0eb3cfbf8c22463a74c218c365a81aaf",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A009",
+      "artifact_role": "normative_specification",
+      "authority_state": "supporting",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "c = a + b, theoretical core, and c-calculus",
+      "family_id": "F03",
+      "forbidden_status_elevation": "The incoming-package location shall not be treated as the current canonical protocol location without a ref check.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Frozen content evidence; canonical placement unresolved in B0.",
+      "permitted_wording": "B0 contains a bounded c = a + b / L4 protocol text with an exact content hash.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "1168474cd5a309b1392bfc2a2bcf8f0b67c10f7b366797db573b23c9fbd103e7",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A010",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "c = a + b, theoretical core, and c-calculus",
+      "family_id": "F03",
+      "forbidden_status_elevation": "It is not independent execution, independent anchor replication, or external validation.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "The reviewer is a model layer; useful for adversarial review, not empirical independence.",
+      "permitted_wording": "Records a bounded, model-assisted internal conformance review of a c-calculus checker lineage.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "external_commentary_only"
+    },
+    {
+      "artifact_id": "A011",
+      "artifact_role": "normative_specification",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SER continuity and sovereign recursion",
+      "family_id": "F04",
+      "forbidden_status_elevation": "SER specification does not prove a running continuity-bearing entity or successful migration.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines the English SER v1.3 normative surface represented in B0.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A012",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SER continuity and sovereign recursion",
+      "family_id": "F04",
+      "forbidden_status_elevation": "Bundle routing does not establish continuation over replay, archive, or fork in a live system.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines the SER continuity-bundle entry and routing surface.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A013",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "L4 Witness and claim ceilings",
+      "family_id": "F05",
+      "forbidden_status_elevation": "Draft witness language shall not be promoted to runtime success, differential witness, certification, or validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Witness type remains overloaded unless explicitly split.",
+      "permitted_wording": "Specifies a draft outcome-traceability and evidence-envelope discipline.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A014",
+      "artifact_role": "normative_specification",
+      "authority_state": "unknown",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "L4 Witness and claim ceilings",
+      "family_id": "F05",
+      "forbidden_status_elevation": "Presence of the specification does not prove the transition gate executed or the record is truthful.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Authority state requires canonical-path confirmation.",
+      "permitted_wording": "Defines a local transition-witness specification in the clean-code repository.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A015",
+      "artifact_role": "normative_specification",
+      "authority_state": "unknown",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "L4 Witness and claim ceilings",
+      "family_id": "F05",
+      "forbidden_status_elevation": "A declared claim ceiling is not evidence that lower claims were actually observed.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Authority state requires canonical-path confirmation.",
+      "permitted_wording": "Defines bounded evidence levels and claim ceilings for the local L4-witness surface.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A016",
+      "artifact_role": "test_report",
+      "authority_state": "unknown",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "L4 Witness and claim ceilings",
+      "family_id": "F05",
+      "forbidden_status_elevation": "It does not establish independent execution, external validation, or general operational success.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "Same-operator development evidence only.",
+      "permitted_wording": "Records bounded development and internal-check evidence for a local C/L4 witness implementation.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A017",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "The normative core does not prove runtime correction, safe degradation, or boundedness in deployment.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies the ARQ v0.2 draft normative core for bounded deviation handling.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "082bbe030d77580b394e789ebfbc8734faded0e904bdd7d0d52d4dbad0054015",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A018",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "A conformance matrix is a test design, not a passed test result or reproduction record.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a draft ARQ test, audit, and conformance matrix.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "5f12c7bee4576619ee489deca2eb2e9c337d82071d179761200502f8ff0ed8a6",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A019",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "Specified degradation behaviour does not prove fail-closed runtime enforcement.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines draft ARQ failure-mode and safe-degradation requirements.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "5942aafda50c5dd21f5af688af4bbcda8340856f7a71cd055fa4e3cd4c2d9f9d",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A020",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "Preflight success is not ARQ runtime proof, independent reproduction, or external validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Admissible for package/repository state within its recorded scope.",
+      "permitted_wording": "Records a same-operator ARQ/c[q] package and repository preflight.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A021",
+      "artifact_role": "normative_specification",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "CGAM governed agent execution",
+      "family_id": "F07",
+      "forbidden_status_elevation": "Protocol completeness does not prove an reproduced by an independent party agent mesh.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the CGAM root protocol in the B0 export package.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "a28308f90afe53563c9c93e234a87384a979c3ee7a48737c8c679dc6df3172fe",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A022",
+      "artifact_role": "normative_specification",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "CGAM governed agent execution",
+      "family_id": "F07",
+      "forbidden_status_elevation": "Declared permission gates do not prove enforcement in a live runtime.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines task, permission, and admission requirements for CGAM.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "6cd37034b2039396d63469830668b45120a22a41250318eba59109c0de54f729",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A023",
+      "artifact_role": "normative_specification",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "CGAM governed agent execution",
+      "family_id": "F07",
+      "forbidden_status_elevation": "The document does not prove rollback execution, memory correctness, or outcome success.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines CGAM execution, witness, memory, and rollback obligations.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A024",
+      "artifact_role": "test_fixture",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "CGAM governed agent execution",
+      "family_id": "F07",
+      "forbidden_status_elevation": "This is not a conformance result, independent implementation, or external validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines CGAM review, checker, and conformance expectations.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "ebcb30538cd0631c29bc4e8feaa66b21f21f1912691eeee5ba2bc80dda326e02",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A025",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "CCDP child-c development",
+      "family_id": "F08",
+      "forbidden_status_elevation": "It is not a clinical, legal, product, or validated by an external party standard.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies the CCDP v0.1 draft research protocol within the parent corpus.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "1fdcba4c7b23ee8415286469e19a8586617b85ec3cae7f3467cfdd376b7b54fb",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A026",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "CCDP child-c development",
+      "family_id": "F08",
+      "forbidden_status_elevation": "The matrix is not evidence that the protocol passed the tests.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a CCDP conformance-test matrix.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "ffceeddfecb0a327a6ec540c07d8ea7f5ebf2cb8335042c6640c167b99f325b2",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A027",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "CCDP child-c development",
+      "family_id": "F08",
+      "forbidden_status_elevation": "A schema does not establish event truth, developmental outcome, or differential witness.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a draft CCDP witness-event record schema.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "e7ec9bd70368989021ffa95b6682a864b438d4d4939bd407714e1f4b7875eaa7",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A028",
+      "artifact_role": "commentary_or_argument",
+      "authority_state": "draft",
+      "claim_class": "interpretation",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "CCDP child-c development",
+      "family_id": "F08",
+      "forbidden_status_elevation": "It is not clinical validation, consensus, or evidence of successful child-c development.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides bounded developmental-psychology review notes and specialist handoff context.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "3cc23a8c0f71994afc05b129e1f7acfb89845183b72fffe27596fec088331a55",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A029",
+      "artifact_role": "corpus_control",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "Package organization is not evidence of personality formation or c-differential status.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the PF evidence-package contents and reading route.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "298a9446911d42c6f09faef797c478f081c4265340d0296dc72417ea0f00510c",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A030",
+      "artifact_role": "empirical_observation",
+      "authority_state": "draft",
+      "claim_class": "observation",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "It does not establish matched profile-control, independent replication, or entity proof.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Classified as ontogenic evidence only.",
+      "permitted_wording": "Organizes internally witnessed PF evidence under the package claim boundary.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "c2f21324f3125226555ce64d990792029d430b4579dd7aeb7aebd5537c02cce7",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A031",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "PF witness records shall not be relabeled as differential witness without matched control.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the PF witness-event profile used to structure formation and continuity records.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "fb73c25fb19e7cde812c592324caae6cd6149d3da266ff98e1c22ea6a2b57347",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A032",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "Admissible continuity evidence is not automatically evidence against a matched persistent profile.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a draft admissibility map for PF continuity evidence.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "bab7aef956172e543e12cfd0b1213de2ef22832a36f4bb9b6d987bafd460871a",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A033",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "Fixtures do not prove successful migration, continuation, or independent reproduction.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides PF migration test fixtures and expected evaluation surfaces.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "3daaa92416c9cf994060b26749bad558983fee4fb9470a7ad8d42c415c0d0366",
+      "specification_state": "specified",
+      "test_state": "fixtures_present",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A034",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "AMDR / PAMDC memory degradation",
+      "family_id": "F10",
+      "forbidden_status_elevation": "The profile does not prove that degradation is detected or corrected in runtime.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies active-memory degradation and recalibration risks and controls.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "6b6bbee70e251d9cd74df359a5ce211ce214cd376bd62919bd3427ab7db4701f",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A035",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "AMDR / PAMDC memory degradation",
+      "family_id": "F10",
+      "forbidden_status_elevation": "A patch specification does not prove the failure path is implemented or exercised.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies a bounded AMDR patch for lifestream, Judge, and write-failure handling.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A036",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "AMDR / PAMDC memory degradation",
+      "family_id": "F10",
+      "forbidden_status_elevation": "The profile does not prove post-anchor continuity or valid re-anchoring.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies post-anchor memory-degradation and continuity risks.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A037",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "AMDR / PAMDC memory degradation",
+      "family_id": "F10",
+      "forbidden_status_elevation": "Declared freshness constraints do not prove memory freshness in operation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies PAMDC scope, bootstrap, and freshness constraints.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A038",
+      "artifact_role": "code",
+      "authority_state": "unknown",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "A code snapshot does not prove live integration, persistent state, or successful outcomes.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Captures a bounded SRLM code snapshot present in B0.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A039",
+      "artifact_role": "test_fixture",
+      "authority_state": "unknown",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "unknown",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "The snapshot does not by itself prove that tests passed in the live runtime.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Captures SRLM tools and test surfaces present in B0.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436",
+      "specification_state": "absent",
+      "test_state": "fixtures_present",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A040",
+      "artifact_role": "code",
+      "authority_state": "supporting",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "Code presence does not prove route activation, runtime deployment, or result quality.",
+      "implementation_state": "implemented",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Shows implemented bounded-growth engine code at the cited path and hash.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "65e21f708b7ca883a740b2767f007798cc88c4ba9e32aa15372aa778511dabb3",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A041",
+      "artifact_role": "code",
+      "authority_state": "supporting",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "The file does not prove that only admissible L4 outcomes reached the live fitness store.",
+      "implementation_state": "implemented",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Shows implemented fitness-handling code at the cited path and hash.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "784a7da019b70c3604813352045c60d743d77795ea7dda271481d289b4c9e843",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A042",
+      "artifact_role": "implementation_profile",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "C-node boundary and entity/profile separation",
+      "family_id": "F12",
+      "forbidden_status_elevation": "Meeting a profile does not establish entity status, continuity, or differential residual.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies a minimum local c-node profile and its declared boundaries.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "87786d12c199e7e3f163ad5a1ba668b6f656be761979726fb0af2f935bece6ba",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A043",
+      "artifact_role": "corpus_control",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "C-node boundary and entity/profile separation",
+      "family_id": "F12",
+      "forbidden_status_elevation": "A package facade does not resolve entity-versus-profile classification.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the c-node boundary-documents package route represented in B0.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "d65e63b38e29aff79fe9cf2768d2dab6c265de9abbbadec67ccafd9e5383e1fd",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A044",
+      "artifact_role": "corpus_control",
+      "authority_state": "canonical",
+      "claim_class": "non_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "C-node boundary and entity/profile separation",
+      "family_id": "F12",
+      "forbidden_status_elevation": "Hash integrity proves byte identity only; it does not prove semantic truth or entity status.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Binds the listed c-node boundary package bytes to exact hashes.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "2572240fca8d2633b672e7dce660ebdbfda452efdf9d37b4368ef82b4d40acc9",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A045",
+      "artifact_role": "normative_specification",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Actor Grounding Layer",
+      "family_id": "F13",
+      "forbidden_status_elevation": "The draft does not prove grounding accuracy, safe action, or hardware enforcement.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Specifies the draft Actor Grounding Layer represented in B0.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "bfeb27dd9e63ddd177f6cad38d47ff6b8dd38618ef2f7c5034c029824cdde678",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A046",
+      "artifact_role": "architecture",
+      "authority_state": "draft",
+      "claim_class": "interpretation",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Actor Grounding Layer",
+      "family_id": "F13",
+      "forbidden_status_elevation": "An integration map does not prove that the components interoperate in deployment.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the intended relationship between AGL, ARL, L4 Witness, and hardware perimeter.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "dc9209674099812d945a44cdb50716de26c65472d17b077d6b3dc7a52895d4ac",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A047",
+      "artifact_role": "corpus_control",
+      "authority_state": "unknown",
+      "claim_class": "non_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Actor Grounding Layer",
+      "family_id": "F13",
+      "forbidden_status_elevation": "Integrity evidence is not grounding, safety, or validation evidence.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Binds the listed Actor Grounding Layer package bytes to exact hashes.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "cb1179dbee016799a01a69bf9a446d012a33a2f9a70baf2a7a82be447e69536f",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A048",
+      "artifact_role": "commentary_or_argument",
+      "authority_state": "supporting",
+      "claim_class": "interpretation",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Article 50 policy-engineering bridge",
+      "family_id": "F14",
+      "forbidden_status_elevation": "It is not legal advice, certification, conformity assessment, or validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides a bounded policy-reader transparency implementation brief.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "52ee9cc90ed17974987cdc4c053e1e33168c95c96385c1a2f53511c34d86654e",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A049",
+      "artifact_role": "implementation_profile",
+      "authority_state": "supporting",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Article 50 policy-engineering bridge",
+      "family_id": "F14",
+      "forbidden_status_elevation": "Guidance does not prove implementation, Article 50 compliance, or conformity.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides an engineering entry point for CGAM, witness, oracle degradation, human gate, and rollback.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "dcd0dbae22922130a683a17b40efcd73ecea16db30bf62dab307c122d0700412",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A050",
+      "artifact_role": "corpus_control",
+      "authority_state": "supporting",
+      "claim_class": "non_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Article 50 policy-engineering bridge",
+      "family_id": "F14",
+      "forbidden_status_elevation": "A package manifest does not establish legal adequacy or technical effectiveness.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Identifies the contents and roles of the Article 50 implementation-brief package.",
+      "publication_state": "internal_only",
+      "replication_state": "unknown",
+      "sha256": "db5c8faed9dafcfc512c4a4d056cafe1519bf0b9bfc48c62c58fd0b5d06c4507",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A051",
+      "artifact_role": "normative_specification",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Enterprise-c profiles",
+      "family_id": "F15",
+      "forbidden_status_elevation": "Canonical content status does not establish public release, deployment readiness, or conformance.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the internal Enterprise Work-Bound c protocol surface in the selected mirror.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "b1f6831ed04e71f3a276b0d29b7e6fa058558d8d7d713f403c20c6b1d2a5c4cb",
+      "specification_state": "stable_specification",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A052",
+      "artifact_role": "test_fixture",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Enterprise-c profiles",
+      "family_id": "F15",
+      "forbidden_status_elevation": "The matrix is not a passed conformance result or client-ready certification.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines an internal enterprise-c conformance-test matrix.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "6b586c052f7f76edad69b058001b7d609fe025ab8c4462b16dc3e89d47e5f9de",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A053",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Enterprise-c profiles",
+      "family_id": "F15",
+      "forbidden_status_elevation": "It does not authorize public release, sale, implementation-ready, deployment-ready, or conformance-supported status.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "The source itself explicitly limits stronger status claims.",
+      "permitted_wording": "Records internal-review PDF readiness under its declared limits.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A054",
+      "artifact_role": "commentary_or_argument",
+      "authority_state": "generated_routing_only",
+      "claim_class": "hypothesis",
+      "disposition": "unresolved",
+      "empirical_state": "hypothesis",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "The proposed layer does not establish that a differential residual exists.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the proposed matched profile-control and non-substrate residual test target.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093",
+      "specification_state": "proposed",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A055",
+      "artifact_role": "test_report",
+      "authority_state": "generated_routing_only",
+      "claim_class": "observation",
+      "disposition": "active",
+      "empirical_state": "non_confirmed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "The scan cannot prove that no qualifying artefact exists outside B0 or in later repository state.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Records that the first-pass B0 scan did not confirm a strict matched profile-control artefact.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A056",
+      "artifact_role": "corpus_control",
+      "authority_state": "generated_routing_only",
+      "claim_class": "interpretation",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "A classification note does not transform any source into differential evidence.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Separates integrity, ontogenic, ambiguous, and candidate differential witness uses for review.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "82cd344466ecd5fb367a7d81bea5a8df40d0a1999ccea28857bc83b735ca4e89",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A057",
+      "artifact_role": "corpus_control",
+      "authority_state": "generated_routing_only",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "A proposed patch ledger does not mean the patches are implemented or accepted.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Records the proposed witness, profile-control, PF, corpus/entity, and runtime-evidence patches.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "d3d13cb6b24869e4053ea248cbdffa03d3fe992b8161503ff3ab1f921d25343c",
+      "specification_state": "proposed",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A058",
+      "artifact_role": "corpus_control",
+      "authority_state": "supporting",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Publication, citation, and DOI-facing surfaces",
+      "family_id": "F17",
+      "forbidden_status_elevation": "Citation or DOI identity does not elevate implementation, reproduction, or validation status.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Defines public-object, snapshot, hash-manifest, and citation distinctions for the corpus.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "321dfbc0797e8e5b62ea21e282e85755ef82a721d510daf2576dfaee2295d9b0",
+      "specification_state": "specified",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A059",
+      "artifact_role": "publication_surface",
+      "authority_state": "supporting",
+      "claim_class": "interpretation",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Publication, citation, and DOI-facing surfaces",
+      "family_id": "F17",
+      "forbidden_status_elevation": "Publication does not establish implementation, independent reproduction, or operational compliance.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides a public-facing L4 Witness paper surface and prior-art/citation context.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "25f73faeddc1f79b26009b30d1a566c5c4fa888cca358ca56f5ca56cce293161",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A060",
+      "artifact_role": "corpus_control",
+      "authority_state": "supporting",
+      "claim_class": "non_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "Publication, citation, and DOI-facing surfaces",
+      "family_id": "F17",
+      "forbidden_status_elevation": "The manifest proves package identity and routing only, not memory-control effectiveness.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [
+        "implementation",
+        "test",
+        "replication",
+        "validation",
+        "empirical"
+      ],
+      "open_note": "",
+      "permitted_wording": "Identifies AMDR/PAMDC package contents and package-control metadata.",
+      "publication_state": "repository_visible",
+      "replication_state": "unknown",
+      "sha256": "365e3427b4b366d40846afebe0d3ab7bc7bcd794b83422ae8f0e49085320cc5d",
+      "specification_state": "defined",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    }
+  ],
+  "baseline_id": "B0",
+  "deltas_applied_through": "2026-07-19",
+  "document_id": "living-corpus-current-state-v62",
+  "families": [
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A001",
+        "A002",
+        "A003"
+      ],
+      "claim_ceiling": "A reader can identify the intended entry path and claim owner, but no technical status is elevated.",
+      "controlled_transition": "Unrouted or duplicated source -> claim-scoped canonical reading route and ownership boundary.",
+      "current_limitation": "Routing and ownership are defined; they do not certify downstream artefacts.",
+      "family_id": "F01",
+      "laundering_risk_blocked": "Path count, repository location, or ownership -> truth, implementation, or validation.",
+      "public_anchor": "https://ivankotov.eu/start-here/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 3
+        },
+        "disposition": {
+          "active": 3
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "unknown": 3
+        },
+        "specification_state": {
+          "stable_specification": 3
+        },
+        "test_state": {
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "Corpus control and canonical routing"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A004",
+        "A005",
+        "A006",
+        "A007"
+      ],
+      "claim_ceiling": "Controls wording and interpretation; it cannot prove the claims it classifies.",
+      "controlled_transition": "Unbounded statement -> typed claim class, maturity vector, explicit non-claim, or narrowed disposition.",
+      "current_limitation": "Prior one-dimensional maturity language is narrowed by the Step-1 multi-axis model.",
+      "family_id": "F02",
+      "laundering_risk_blocked": "Strong wording or prior maturity label -> implementation, reproduction, validation, or causal support.",
+      "public_anchor": "https://ivankotov.eu/distinctions/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 4
+        },
+        "disposition": {
+          "active": 3,
+          "narrowed": 1
+        },
+        "empirical_state": {
+          "no_empirical_claim": 4
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "unknown": 4
+        },
+        "specification_state": {
+          "stable_specification": 4
+        },
+        "test_state": {
+          "unknown": 4
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "Claims, maturity, and non-claims control"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A008",
+        "A009",
+        "A010"
+      ],
+      "claim_ceiling": "Supports architecture and bounded conformance review only.",
+      "controlled_transition": "Human anchor plus procedural substrate -> bounded governed-binding or c-candidate architecture claim.",
+      "current_limitation": "Theoretical and protocol surfaces exist; checker review is model-assisted and internal; canonical placement of one protocol copy remains unresolved.",
+      "family_id": "F03",
+      "laundering_risk_blocked": "Formula, theoretical coherence, or checker review -> entity proof, runtime proof, or external validation.",
+      "public_anchor": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 1,
+          "supporting": 2
+        },
+        "disposition": {
+          "active": 2,
+          "unresolved": 1
+        },
+        "empirical_state": {
+          "internally_witnessed": 1,
+          "no_empirical_claim": 2
+        },
+        "implementation_state": {
+          "none_identified": 2,
+          "partial": 1
+        },
+        "replication_state": {
+          "none_identified": 3
+        },
+        "specification_state": {
+          "absent": 1,
+          "defined": 1,
+          "specified": 1
+        },
+        "test_state": {
+          "internally_tested": 1,
+          "unknown": 2
+        },
+        "validation_state": {
+          "external_commentary_only": 1,
+          "none_identified": 2
+        }
+      },
+      "title": "c = a + b, theoretical core, and c-calculus"
+    },
+    {
+      "artifact_count": 2,
+      "artifact_ids": [
+        "A011",
+        "A012"
+      ],
+      "claim_ceiling": "Defines distinctions but does not establish a live entity or successful migration.",
+      "controlled_transition": "Stored state or transition history -> bounded classification as continuation, replay, archive, fork, or successor.",
+      "current_limitation": "Normative continuity surfaces exist; live continuation over replay/archive/fork is not demonstrated.",
+      "family_id": "F04",
+      "laundering_risk_blocked": "Narrative similarity, model persistence, replay, or archive -> same continuity-bearing c.",
+      "public_anchor": "https://ivankotov.eu/ser/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 2
+        },
+        "disposition": {
+          "active": 2
+        },
+        "empirical_state": {
+          "no_empirical_claim": 2
+        },
+        "implementation_state": {
+          "none_identified": 2
+        },
+        "replication_state": {
+          "none_identified": 2
+        },
+        "specification_state": {
+          "specified": 1,
+          "stable_specification": 1
+        },
+        "test_state": {
+          "unknown": 2
+        },
+        "validation_state": {
+          "none_identified": 2
+        }
+      },
+      "title": "SER continuity and sovereign recursion"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A013",
+        "A014",
+        "A015",
+        "A016"
+      ],
+      "claim_ceiling": "Internal transition evidence only; witness meaning must be explicitly split.",
+      "controlled_transition": "Event, transition, or outcome -> typed witness record, evidence level, and bounded claim ceiling.",
+      "current_limitation": "Draft/local specifications exist and one same-operator development report exists; authority and independence remain bounded.",
+      "family_id": "F05",
+      "laundering_risk_blocked": "Log, signature, provenance, or outcome trace -> truth, success, compliance, differential witness, or certification.",
+      "public_anchor": "https://ivankotov.eu/l4/",
+      "status_counts": {
+        "authority_state": {
+          "draft": 1,
+          "unknown": 3
+        },
+        "disposition": {
+          "active": 1,
+          "unresolved": 3
+        },
+        "empirical_state": {
+          "internally_witnessed": 1,
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3,
+          "partial": 1
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "absent": 1,
+          "specified": 3
+        },
+        "test_state": {
+          "internally_tested": 1,
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "L4 Witness and claim ceilings"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A017",
+        "A018",
+        "A019",
+        "A020"
+      ],
+      "claim_ceiling": "ARQ is specified and package-checked, not operationally validated.",
+      "controlled_transition": "Deviation or anomaly -> suppress, quarantine, review, retain, recalibrate, or safely degrade under declared rules.",
+      "current_limitation": "Normative/test-design surfaces and package preflight exist; runtime correction and fail-closed enforcement are not shown.",
+      "family_id": "F06",
+      "laundering_risk_blocked": "Anomaly detection or package preflight -> corrected memory, safe degradation, boundedness, or deployment success.",
+      "public_anchor": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 1,
+          "draft": 3
+        },
+        "disposition": {
+          "active": 1,
+          "unresolved": 3
+        },
+        "empirical_state": {
+          "internally_witnessed": 1,
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "absent": 1,
+          "specified": 3
+        },
+        "test_state": {
+          "internally_tested": 1,
+          "test_design_only": 1,
+          "unknown": 2
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "ARQ bounded adaptation"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A021",
+        "A022",
+        "A023",
+        "A024"
+      ],
+      "claim_ceiling": "Defines governance obligations; does not prove runtime obedience or outcome quality.",
+      "controlled_transition": "Task proposal -> scoped permission -> bounded execution -> witness/review -> rollback or release.",
+      "current_limitation": "Canonical protocol and checker/conformance requirements exist; no passed external execution evidence is identified.",
+      "family_id": "F07",
+      "laundering_risk_blocked": "Agent action -> authorization, successful outcome, acceptable memory write, or safe release.",
+      "public_anchor": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 4
+        },
+        "disposition": {
+          "active": 4
+        },
+        "empirical_state": {
+          "no_empirical_claim": 4
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "specified": 1,
+          "stable_specification": 3
+        },
+        "test_state": {
+          "test_design_only": 1,
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "CGAM governed agent execution"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A025",
+        "A026",
+        "A027",
+        "A028"
+      ],
+      "claim_ceiling": "Research protocol only; not a legal, clinical, or product standard.",
+      "controlled_transition": "Child-facing persistent interaction -> bounded developmental, guardian, witness, and escalation status.",
+      "current_limitation": "Draft protocol, witness schema, conformance design, and review notes exist; no clinical or external validation.",
+      "family_id": "F08",
+      "laundering_risk_blocked": "Developmental protocol, witness schema, or psychology notes -> safe development, clinical validity, or mature c.",
+      "public_anchor": "https://ivankotov.eu/corpus/open-problems/",
+      "status_counts": {
+        "authority_state": {
+          "draft": 4
+        },
+        "disposition": {
+          "unresolved": 4
+        },
+        "empirical_state": {
+          "no_empirical_claim": 4
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "defined": 1,
+          "specified": 3
+        },
+        "test_state": {
+          "test_design_only": 1,
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "CCDP child-c development"
+    },
+    {
+      "artifact_count": 5,
+      "artifact_ids": [
+        "A029",
+        "A030",
+        "A031",
+        "A032",
+        "A033"
+      ],
+      "claim_ceiling": "Supports formation/continuity evidence only.",
+      "controlled_transition": "Formation/continuity observation -> ontogenic evidence record with bounded admissibility.",
+      "current_limitation": "Internally witnessed ontogenic evidence and fixtures exist; matched profile-control is absent.",
+      "family_id": "F09",
+      "laundering_risk_blocked": "Personality formation or continuity evidence -> matched differential, entity proof, or independent replication.",
+      "public_anchor": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "status_counts": {
+        "authority_state": {
+          "draft": 5
+        },
+        "disposition": {
+          "active": 1,
+          "unresolved": 4
+        },
+        "empirical_state": {
+          "internally_witnessed": 1,
+          "no_empirical_claim": 4
+        },
+        "implementation_state": {
+          "none_identified": 5
+        },
+        "replication_state": {
+          "none_identified": 5
+        },
+        "specification_state": {
+          "defined": 2,
+          "specified": 3
+        },
+        "test_state": {
+          "fixtures_present": 1,
+          "unknown": 4
+        },
+        "validation_state": {
+          "none_identified": 5
+        }
+      },
+      "title": "Personality Formation evidence"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A034",
+        "A035",
+        "A036",
+        "A037"
+      ],
+      "claim_ceiling": "Defines failure controls; no operational effectiveness claim.",
+      "controlled_transition": "Memory candidate or degradation event -> admit, quarantine, decay, revoke, recalibrate, or post-anchor continuity decision.",
+      "current_limitation": "Profiles and patches are specified; runtime detection, correction, and post-anchor continuity are not demonstrated.",
+      "family_id": "F10",
+      "laundering_risk_blocked": "Retrieval, repetition, old memory, or declared freshness -> admitted memory, current truth, or valid continuity.",
+      "public_anchor": "https://ivankotov.eu/corpus/failures/",
+      "status_counts": {
+        "authority_state": {
+          "draft": 4
+        },
+        "disposition": {
+          "unresolved": 4
+        },
+        "empirical_state": {
+          "no_empirical_claim": 4
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "specified": 4
+        },
+        "test_state": {
+          "unknown": 4
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "AMDR / PAMDC memory degradation"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A038",
+        "A039",
+        "A040",
+        "A041"
+      ],
+      "claim_ceiling": "Code presence and bounded design only; operational deployment remains unconfirmed in this baseline.",
+      "controlled_transition": "Generated candidate or outcome -> bounded fitness admission, rejection, promotion, or retained shadow state.",
+      "current_limitation": "Implemented engine/fitness code and test surfaces exist; live route activation and result quality are not established by B0.",
+      "family_id": "F11",
+      "laundering_risk_blocked": "Generated output, self-score, source code, or fixtures -> accepted learning, live deployment, or successful growth.",
+      "public_anchor": "https://github.com/Kot141078/ester-clean-code",
+      "status_counts": {
+        "authority_state": {
+          "supporting": 2,
+          "unknown": 2
+        },
+        "disposition": {
+          "active": 4
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3,
+          "unknown": 1
+        },
+        "implementation_state": {
+          "implemented": 2,
+          "partial": 2
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "absent": 4
+        },
+        "test_state": {
+          "fixtures_present": 1,
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "SRLM bounded growth runtime"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A042",
+        "A043",
+        "A044"
+      ],
+      "claim_ceiling": "May classify a profile surface, not prove an entity.",
+      "controlled_transition": "Profile conformance and custody evidence -> bounded c-node/profile classification.",
+      "current_limitation": "Draft profile/package and integrity manifest exist; entity-versus-profile classification is unresolved.",
+      "family_id": "F12",
+      "laundering_risk_blocked": "Profile match, package facade, or hash integrity -> entity status, continuity, or differential residual.",
+      "public_anchor": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 1,
+          "draft": 2
+        },
+        "disposition": {
+          "active": 1,
+          "unresolved": 2
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "none_identified": 2,
+          "unknown": 1
+        },
+        "specification_state": {
+          "absent": 1,
+          "defined": 1,
+          "specified": 1
+        },
+        "test_state": {
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "C-node boundary and entity/profile separation"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A045",
+        "A046",
+        "A047"
+      ],
+      "claim_ceiling": "Architecture only; no grounding-accuracy or deployment-safety claim.",
+      "controlled_transition": "Declared actor intent or task -> grounded action bounded by L4, ARL, witness, and hardware perimeter.",
+      "current_limitation": "Draft specification and relationship map exist; interoperability and physical enforcement are not demonstrated.",
+      "family_id": "F13",
+      "laundering_risk_blocked": "Procedural permission or integration diagram -> physical safety, correct action, or hardware enforcement.",
+      "public_anchor": "https://ivankotov.eu/actor-grounding-layer/",
+      "status_counts": {
+        "authority_state": {
+          "draft": 2,
+          "unknown": 1
+        },
+        "disposition": {
+          "active": 1,
+          "unresolved": 2
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "none_identified": 2,
+          "unknown": 1
+        },
+        "specification_state": {
+          "absent": 1,
+          "defined": 1,
+          "specified": 1
+        },
+        "test_state": {
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "Actor Grounding Layer"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A048",
+        "A049",
+        "A050"
+      ],
+      "claim_ceiling": "Implementation guidance only.",
+      "controlled_transition": "AI-generated or assisted output/workflow -> disclosure, provenance, responsible actor, correction, and rollback route.",
+      "current_limitation": "Supporting policy and engineering briefs exist; no legal adequacy or conformity assessment is claimed.",
+      "family_id": "F14",
+      "laundering_risk_blocked": "Engineering guidance, package manifest, or transparency record -> legal compliance, certification, or conformity.",
+      "public_anchor": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "status_counts": {
+        "authority_state": {
+          "supporting": 3
+        },
+        "disposition": {
+          "active": 3
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "none_identified": 2,
+          "unknown": 1
+        },
+        "specification_state": {
+          "defined": 3
+        },
+        "test_state": {
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "Article 50 policy-engineering bridge"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A051",
+        "A052",
+        "A053"
+      ],
+      "claim_ceiling": "Internal review surface only.",
+      "controlled_transition": "Internal enterprise workflow/profile -> bounded work authority, conformance target, and release-readiness state.",
+      "current_limitation": "Canonical internal protocol/test matrix and internal PDF-readiness record exist; stronger readiness is explicitly withheld.",
+      "family_id": "F15",
+      "laundering_risk_blocked": "Canonical internal specification or readiness review -> deployable, client-ready, sale-ready, or certification-grade system.",
+      "public_anchor": "https://ivankotov.eu/corpus/current-state/",
+      "status_counts": {
+        "authority_state": {
+          "canonical": 3
+        },
+        "disposition": {
+          "active": 3
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "none_identified": 3
+        },
+        "specification_state": {
+          "absent": 1,
+          "specified": 1,
+          "stable_specification": 1
+        },
+        "test_state": {
+          "internally_tested": 1,
+          "test_design_only": 1,
+          "unknown": 1
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "Enterprise-c profiles"
+    },
+    {
+      "artifact_count": 4,
+      "artifact_ids": [
+        "A054",
+        "A055",
+        "A056",
+        "A057"
+      ],
+      "claim_ceiling": "Hypothesis and test design only; no differential residual established.",
+      "controlled_transition": "Ontogenic/continuity observation -> testable differential residual only after strict matched profile-control.",
+      "current_limitation": "The layer is proposed; first-pass B0 scan did not confirm a strict matched control; witness split and patches remain review controls.",
+      "family_id": "F16",
+      "laundering_risk_blocked": "Witness, formation, continuity, or profile difference -> non-substrate residual, c proof, consciousness, or entity proof.",
+      "public_anchor": "https://ivankotov.eu/corpus/open-problems/",
+      "status_counts": {
+        "authority_state": {
+          "generated_routing_only": 4
+        },
+        "disposition": {
+          "active": 2,
+          "unresolved": 2
+        },
+        "empirical_state": {
+          "hypothesis": 1,
+          "no_empirical_claim": 2,
+          "non_confirmed": 1
+        },
+        "implementation_state": {
+          "none_identified": 4
+        },
+        "replication_state": {
+          "none_identified": 4
+        },
+        "specification_state": {
+          "absent": 1,
+          "defined": 1,
+          "proposed": 2
+        },
+        "test_state": {
+          "internally_tested": 1,
+          "test_design_only": 1,
+          "unknown": 2
+        },
+        "validation_state": {
+          "none_identified": 4
+        }
+      },
+      "title": "Differential observables and matched profile-control"
+    },
+    {
+      "artifact_count": 3,
+      "artifact_ids": [
+        "A058",
+        "A059",
+        "A060"
+      ],
+      "claim_ceiling": "Publication status is orthogonal to technical maturity.",
+      "controlled_transition": "Moving artefact -> identifiable repository object, frozen snapshot, manifest, release, citation, or DOI surface.",
+      "current_limitation": "Citation/publication/package-control surfaces exist; they prove identity and discoverability only.",
+      "family_id": "F17",
+      "laundering_risk_blocked": "Public visibility, citation, DOI, release, or manifest -> implementation, adoption, reproduction, validation, or truth.",
+      "public_anchor": "https://ivankotov.eu/publications/",
+      "status_counts": {
+        "authority_state": {
+          "supporting": 3
+        },
+        "disposition": {
+          "active": 3
+        },
+        "empirical_state": {
+          "no_empirical_claim": 3
+        },
+        "implementation_state": {
+          "none_identified": 3
+        },
+        "replication_state": {
+          "none_identified": 1,
+          "unknown": 2
+        },
+        "specification_state": {
+          "defined": 2,
+          "specified": 1
+        },
+        "test_state": {
+          "unknown": 3
+        },
+        "validation_state": {
+          "none_identified": 3
+        }
+      },
+      "title": "Publication, citation, and DOI-facing surfaces"
+    }
+  ],
+  "implementation_surfaces": [
+    {
+      "artifact_id": "A010",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "c = a + b, theoretical core, and c-calculus",
+      "family_id": "F03",
+      "forbidden_status_elevation": "It is not independent execution, independent anchor replication, or external validation.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "The reviewer is a model layer; useful for adversarial review, not empirical independence.",
+      "permitted_wording": "Records a bounded, model-assisted internal conformance review of a c-calculus checker lineage.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "external_commentary_only"
+    },
+    {
+      "artifact_id": "A016",
+      "artifact_role": "test_report",
+      "authority_state": "unknown",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "L4 Witness and claim ceilings",
+      "family_id": "F05",
+      "forbidden_status_elevation": "It does not establish independent execution, external validation, or general operational success.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "Same-operator development evidence only.",
+      "permitted_wording": "Records bounded development and internal-check evidence for a local C/L4 witness implementation.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A018",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "A conformance matrix is a test design, not a passed test result or reproduction record.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a draft ARQ test, audit, and conformance matrix.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "5f12c7bee4576619ee489deca2eb2e9c337d82071d179761200502f8ff0ed8a6",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A020",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "internally_witnessed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "ARQ bounded adaptation",
+      "family_id": "F06",
+      "forbidden_status_elevation": "Preflight success is not ARQ runtime proof, independent reproduction, or external validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "Admissible for package/repository state within its recorded scope.",
+      "permitted_wording": "Records a same-operator ARQ/c[q] package and repository preflight.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A024",
+      "artifact_role": "test_fixture",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "CGAM governed agent execution",
+      "family_id": "F07",
+      "forbidden_status_elevation": "This is not a conformance result, independent implementation, or external validation.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines CGAM review, checker, and conformance expectations.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "ebcb30538cd0631c29bc4e8feaa66b21f21f1912691eeee5ba2bc80dda326e02",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A026",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "CCDP child-c development",
+      "family_id": "F08",
+      "forbidden_status_elevation": "The matrix is not evidence that the protocol passed the tests.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines a CCDP conformance-test matrix.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "ffceeddfecb0a327a6ec540c07d8ea7f5ebf2cb8335042c6640c167b99f325b2",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A033",
+      "artifact_role": "test_fixture",
+      "authority_state": "draft",
+      "claim_class": "normative_requirement",
+      "disposition": "unresolved",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Personality Formation evidence",
+      "family_id": "F09",
+      "forbidden_status_elevation": "Fixtures do not prove successful migration, continuation, or independent reproduction.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Provides PF migration test fixtures and expected evaluation surfaces.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "3daaa92416c9cf994060b26749bad558983fee4fb9470a7ad8d42c415c0d0366",
+      "specification_state": "specified",
+      "test_state": "fixtures_present",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A038",
+      "artifact_role": "code",
+      "authority_state": "unknown",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "A code snapshot does not prove live integration, persistent state, or successful outcomes.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Captures a bounded SRLM code snapshot present in B0.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A039",
+      "artifact_role": "test_fixture",
+      "authority_state": "unknown",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "unknown",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "The snapshot does not by itself prove that tests passed in the live runtime.",
+      "implementation_state": "partial",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Captures SRLM tools and test surfaces present in B0.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436",
+      "specification_state": "absent",
+      "test_state": "fixtures_present",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A040",
+      "artifact_role": "code",
+      "authority_state": "supporting",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "Code presence does not prove route activation, runtime deployment, or result quality.",
+      "implementation_state": "implemented",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Shows implemented bounded-growth engine code at the cited path and hash.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "65e21f708b7ca883a740b2767f007798cc88c4ba9e32aa15372aa778511dabb3",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A041",
+      "artifact_role": "code",
+      "authority_state": "supporting",
+      "claim_class": "implementation_claim",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_for_declared_claim",
+      "family": "SRLM bounded growth runtime",
+      "family_id": "F11",
+      "forbidden_status_elevation": "The file does not prove that only admissible L4 outcomes reached the live fitness store.",
+      "implementation_state": "implemented",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Shows implemented fitness-handling code at the cited path and hash.",
+      "publication_state": "repository_visible",
+      "replication_state": "none_identified",
+      "sha256": "784a7da019b70c3604813352045c60d743d77795ea7dda271481d289b4c9e843",
+      "specification_state": "absent",
+      "test_state": "unknown",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A052",
+      "artifact_role": "test_fixture",
+      "authority_state": "canonical",
+      "claim_class": "normative_requirement",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Enterprise-c profiles",
+      "family_id": "F15",
+      "forbidden_status_elevation": "The matrix is not a passed conformance result or client-ready certification.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines an internal enterprise-c conformance-test matrix.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "6b586c052f7f76edad69b058001b7d609fe025ab8c4462b16dc3e89d47e5f9de",
+      "specification_state": "specified",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A053",
+      "artifact_role": "test_report",
+      "authority_state": "canonical",
+      "claim_class": "test_result",
+      "disposition": "active",
+      "empirical_state": "no_empirical_claim",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Enterprise-c profiles",
+      "family_id": "F15",
+      "forbidden_status_elevation": "It does not authorize public release, sale, implementation-ready, deployment-ready, or conformance-supported status.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "The source itself explicitly limits stronger status claims.",
+      "permitted_wording": "Records internal-review PDF readiness under its declared limits.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A054",
+      "artifact_role": "commentary_or_argument",
+      "authority_state": "generated_routing_only",
+      "claim_class": "hypothesis",
+      "disposition": "unresolved",
+      "empirical_state": "hypothesis",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "The proposed layer does not establish that a differential residual exists.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Defines the proposed matched profile-control and non-substrate residual test target.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093",
+      "specification_state": "proposed",
+      "test_state": "test_design_only",
+      "validation_state": "none_identified"
+    },
+    {
+      "artifact_id": "A055",
+      "artifact_role": "test_report",
+      "authority_state": "generated_routing_only",
+      "claim_class": "observation",
+      "disposition": "active",
+      "empirical_state": "non_confirmed",
+      "evidence_admissibility": "admissible_with_limitations",
+      "family": "Differential observables and matched profile-control",
+      "family_id": "F16",
+      "forbidden_status_elevation": "The scan cannot prove that no qualifying artefact exists outside B0 or in later repository state.",
+      "implementation_state": "none_identified",
+      "not_applicable_axes": [],
+      "open_note": "",
+      "permitted_wording": "Records that the first-pass B0 scan did not confirm a strict matched profile-control artefact.",
+      "publication_state": "internal_only",
+      "replication_state": "none_identified",
+      "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89",
+      "specification_state": "absent",
+      "test_state": "internally_tested",
+      "validation_state": "none_identified"
+    }
+  ],
+  "last_verified": "2026-07-19",
+  "status_counts": {
+    "authority_state": {
+      "canonical": 19,
+      "draft": 21,
+      "generated_routing_only": 4,
+      "supporting": 10,
+      "unknown": 6
+    },
+    "disposition": {
+      "active": 34,
+      "narrowed": 1,
+      "unresolved": 25
+    },
+    "empirical_state": {
+      "hypothesis": 1,
+      "internally_witnessed": 4,
+      "no_empirical_claim": 53,
+      "non_confirmed": 1,
+      "unknown": 1
+    },
+    "implementation_state": {
+      "implemented": 2,
+      "none_identified": 54,
+      "partial": 4
+    },
+    "publication_state": {
+      "internal_only": 22,
+      "repository_visible": 38
+    },
+    "replication_state": {
+      "none_identified": 48,
+      "unknown": 12
+    },
+    "specification_state": {
+      "absent": 11,
+      "defined": 12,
+      "proposed": 2,
+      "specified": 23,
+      "stable_specification": 12
+    },
+    "test_state": {
+      "fixtures_present": 2,
+      "internally_tested": 5,
+      "test_design_only": 5,
+      "unknown": 48
+    },
+    "validation_state": {
+      "external_commentary_only": 1,
+      "none_identified": 59
+    }
+  },
+  "summary": {
+    "adequately_evidenced_runtime_failure_events": 0,
+    "artifact_count": 60,
+    "external_validation": "not_identified",
+    "family_count": 17,
+    "independent_reproduction": "not_identified",
+    "strict_matched_profile_control": "not_identified"
+  }
+}

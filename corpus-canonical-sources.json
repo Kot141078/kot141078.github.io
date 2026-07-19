@@ -1,0 +1,161 @@
+{
+  "baseline_id": "B0",
+  "baseline_source_snapshot": "2026-07-08",
+  "claim_boundary": "This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.",
+  "data": {
+    "baseline_id": "B0",
+    "document_id": "living-corpus-canonical-sources-v62",
+    "input_hashes": [
+      {
+        "sha256": "75981e3b732f945fe7bb06d1f7c54113c0ff1d52c9bca755a06a8d6a76192083",
+        "source_id": "brief",
+        "title": "Consolidation brief no status elevation"
+      },
+      {
+        "sha256": "5f05653da88a55e9c0e3b2c5230cee6622e0c1fa2df84ea7bb067f0971fcbeb3",
+        "source_id": "step1",
+        "title": "Step 1 baseline and status model v0.1"
+      },
+      {
+        "sha256": "f97f69d188e85a741fd5d9bf471faffa85e6823292ccdf6a9f5ad565900bcbd4",
+        "source_id": "step2_json",
+        "title": "Step 2 load-bearing artifact classification v0.1 JSON"
+      },
+      {
+        "sha256": "1cb6d492501b98bfd778b058787c54b2e232b1ddce942be28e80c547ffff8784",
+        "source_id": "step3_zip",
+        "title": "Step 3 registers package v0.1 ZIP"
+      },
+      {
+        "sha256": "97b95b73e6d3f969eeacb1e40d8f24600422673794b90ddc0a9fd9358d9b8987",
+        "source_id": "step3_protocol_map_json",
+        "title": "Step 3 protocol map v0.1 JSON"
+      },
+      {
+        "sha256": "cf4cfa291b9b8a10e1488669128fc312629e42f31f98717a2ad989e75d5b4c2d",
+        "source_id": "step3_failures_json",
+        "title": "Step 3 failure/non-confirmation register v0.1 JSON"
+      },
+      {
+        "sha256": "c68333cfc652b01f32f4b09aeadb2a9e1a2eb33cfa017bb68f1bc332db9fd958",
+        "source_id": "step3_open_problems_json",
+        "title": "Step 3 open problems register v0.1 JSON"
+      },
+      {
+        "sha256": "4e022d1ce334152f4b5838356ed581c3588ad8345b1bcde719a063f9729a1f16",
+        "source_id": "full_source_archive",
+        "title": "B0 full source archive"
+      },
+      {
+        "sha256": "54013a3143cdc07879a9b0ce6fd24fbe7f16970661213b663a1cbc08bbffdaf1",
+        "source_id": "source_manifest",
+        "title": "B0 source manifest"
+      }
+    ],
+    "last_verified": "2026-07-19",
+    "source_policy": "The public layer links to public routes and hash receipts only. It does not publish non-public source locations from the verified consolidation registers.",
+    "sources": [
+      {
+        "public_url": "https://ivankotov.eu/start-here/",
+        "role": "Reader entry and architecture overview",
+        "source_id": "start_here",
+        "title": "Start here"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+        "role": "c = a + b theoretical-core surface",
+        "source_id": "theoretical_core",
+        "title": "Theoretical Core of Project Ester v0.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/c-a-plus-b/",
+        "role": "Core governing-binding formula",
+        "source_id": "c_a_plus_b",
+        "title": "c = a + b"
+      },
+      {
+        "public_url": "https://ivankotov.eu/l4/",
+        "role": "Reality boundary layer",
+        "source_id": "l4",
+        "title": "L4"
+      },
+      {
+        "public_url": "https://ivankotov.eu/ser/",
+        "role": "Continuity and recursion surface",
+        "source_id": "ser",
+        "title": "SER"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+        "role": "Governed agent execution surface",
+        "source_id": "cgam",
+        "title": "C-Governed CLI Agent Mesh"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/article50-transparency-submission/",
+        "role": "Policy-engineering bridge",
+        "source_id": "article50_submission",
+        "title": "Article 50 Transparency Submission Pack v0.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+        "role": "Implementation-reader bridge",
+        "source_id": "article50_briefs",
+        "title": "Article 50 Transparency Implementation Briefs v0.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+        "role": "Bounded self-evolution governance corpus",
+        "source_id": "self_evo",
+        "title": "Self-Evo Document Package v0.1.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+        "role": "Public reproducible fixture-plane release surface",
+        "source_id": "cleanroom_arm_p",
+        "title": "Cleanroom ARM-P open verification release v1.0.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/esther-rp-001/",
+        "role": "Research-package publication surface",
+        "source_id": "esther_rp_001",
+        "title": "ESTHER-RP-001 v0.8.1"
+      },
+      {
+        "public_url": "https://ivankotov.eu/evidence/",
+        "role": "Evidence entry route",
+        "source_id": "evidence",
+        "title": "Evidence"
+      },
+      {
+        "public_url": "https://ivankotov.eu/publications/",
+        "role": "Publication chronology and public works",
+        "source_id": "publications",
+        "title": "Publications"
+      },
+      {
+        "public_url": "https://ivankotov.eu/glossary/",
+        "role": "Term definitions",
+        "source_id": "glossary",
+        "title": "Glossary"
+      },
+      {
+        "public_url": "https://github.com/Kot141078/ester-clean-code",
+        "role": "Public code and profile anchor for selected implementation records",
+        "source_id": "ester_clean_code",
+        "title": "ester-clean-code public repository"
+      }
+    ]
+  },
+  "endpoint": "/corpus-canonical-sources.json",
+  "generated_by": "tools/build_corpus.py",
+  "kind": "canonical_sources",
+  "last_verified": "2026-07-19",
+  "schema_version": "living-corpus.v62.public",
+  "site": "https://ivankotov.eu/",
+  "source_controls": [
+    "Step 3 records are used from the verified ZIP and extracted JSON package only.",
+    "Public HTML and JSON omit private source-location fields, local Windows paths, recovery paths, incoming paths, paid package paths, and unpublished source locations.",
+    "Publication deltas after B0 are recorded as public-surface changes unless a verified status transition exists."
+  ]
+}

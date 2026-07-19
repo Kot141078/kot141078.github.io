@@ -1,0 +1,803 @@
+{
+  "baseline_id": "B0",
+  "document_id": "ESTHER-CONSOLIDATION-STEP-3A-PROTOCOL-MAP-v0.1",
+  "last_verified": "2026-07-19",
+  "protocols": [
+    {
+      "admissible_evidence_required": "Canonical path or frozen ref; SHA256; declared role; precedence; supersession state; scope-specific owner.",
+      "canonical_public_anchor": "https://ivankotov.eu/start-here/",
+      "claim_ceiling": "A reader can identify the intended entry path and claim owner, but no technical status is elevated.",
+      "controlled_status_transition": "Unrouted or duplicated source -> claim-scoped canonical reading route and ownership boundary.",
+      "current_limitation": "Routing and ownership are defined; they do not certify downstream artefacts.",
+      "current_status_vector": "S=stable_specification; I=none_identified; T=unknown; R=unknown; V=none_identified; E=no_empirical_claim",
+      "family_id": "F01",
+      "family_name": "Corpus control and canonical routing",
+      "laundering_risk_blocked": "Path count, repository location, or ownership -> truth, implementation, or validation.",
+      "protocol_map_id": "PM-001",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "0",
+        "1",
+        ",",
+        "A",
+        "0",
+        "0",
+        "2",
+        ",",
+        "A",
+        "0",
+        "0",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A001",
+          "sha256": "33300d930dec65220ec738634ca3a0610d3d53e12db7e81fb638effa6ce128d0"
+        },
+        {
+          "artifact_id": "A002",
+          "sha256": "7a31910509625e4a0c005a6559c250a39c0ab951ec516bb4f4d7336c85aa086b"
+        },
+        {
+          "artifact_id": "A003",
+          "sha256": "d4a4bbdfacf7c74b8cf63fe127dcb8e8739b147cd543c5d5896a8c1184f0a84a"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Claim-specific source; typed status axes; admissibility record; uncertainty; correction and downgrade route.",
+      "canonical_public_anchor": "https://ivankotov.eu/distinctions/",
+      "claim_ceiling": "Controls wording and interpretation; it cannot prove the claims it classifies.",
+      "controlled_status_transition": "Unbounded statement -> typed claim class, maturity vector, explicit non-claim, or narrowed disposition.",
+      "current_limitation": "Prior one-dimensional maturity language is narrowed by the Step-1 multi-axis model.",
+      "current_status_vector": "S=stable_specification; I=none_identified; T=unknown; R=unknown; V=none_identified; E=no_empirical_claim",
+      "family_id": "F02",
+      "family_name": "Claims, maturity, and non-claims control",
+      "laundering_risk_blocked": "Strong wording or prior maturity label -> implementation, reproduction, validation, or causal support.",
+      "protocol_map_id": "PM-002",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "0",
+        "4",
+        ",",
+        "A",
+        "0",
+        "0",
+        "5",
+        ",",
+        "A",
+        "0",
+        "0",
+        "6",
+        ",",
+        "A",
+        "0",
+        "0",
+        "7"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A004",
+          "sha256": "af9fe633961b3d4b101e66248a34241b268d4d2db575011fa92fa7a22dc6f9ba"
+        },
+        {
+          "artifact_id": "A005",
+          "sha256": "50085746685a2f7bd492413ec4f9233a905c702d672b26a063282960d8632e26"
+        },
+        {
+          "artifact_id": "A006",
+          "sha256": "ef512d1006d1af79ce2722c95246033b31e4def0164abae0d05a9aac14e4c309"
+        },
+        {
+          "artifact_id": "A007",
+          "sha256": "f864298ba3cb514dc6707f97568dd68c131db1711bc4027deac83fef3ebe9f2c"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Canonical formula source; operator semantics; boundary conditions; implementation trace; matched controls for empirical elevation.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "claim_ceiling": "Supports architecture and bounded conformance review only.",
+      "controlled_status_transition": "Human anchor plus procedural substrate -> bounded governed-binding or c-candidate architecture claim.",
+      "current_limitation": "Theoretical and protocol surfaces exist; checker review is model-assisted and internal; canonical placement of one protocol copy remains unresolved.",
+      "current_status_vector": "S=defined/specified/absent; I=none_identified/partial; T=unknown/internally_tested; R=none_identified; V=none_identified/external_commentary_only; E=no_empirical_claim/internally_witnessed",
+      "family_id": "F03",
+      "family_name": "c = a + b, theoretical core, and c-calculus",
+      "laundering_risk_blocked": "Formula, theoretical coherence, or checker review -> entity proof, runtime proof, or external validation.",
+      "protocol_map_id": "PM-003",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "0",
+        "8",
+        ",",
+        "A",
+        "0",
+        "0",
+        "9",
+        ",",
+        "A",
+        "0",
+        "1",
+        "0"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A008",
+          "sha256": "0bb291957d3fea22f21f8bb7670683bd0eb3cfbf8c22463a74c218c365a81aaf"
+        },
+        {
+          "artifact_id": "A009",
+          "sha256": "1168474cd5a309b1392bfc2a2bcf8f0b67c10f7b366797db573b23c9fbd103e7"
+        },
+        {
+          "artifact_id": "A010",
+          "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Witness chain; state-transition identity; custody; fork/replay tests; migration outcome; explicit successor rule.",
+      "canonical_public_anchor": "https://ivankotov.eu/ser/",
+      "claim_ceiling": "Defines distinctions but does not establish a live entity or successful migration.",
+      "controlled_status_transition": "Stored state or transition history -> bounded classification as continuation, replay, archive, fork, or successor.",
+      "current_limitation": "Normative continuity surfaces exist; live continuation over replay/archive/fork is not demonstrated.",
+      "current_status_vector": "S=stable_specification/specified; I=none_identified; T=unknown; R=none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F04",
+      "family_name": "SER continuity and sovereign recursion",
+      "laundering_risk_blocked": "Narrative similarity, model persistence, replay, or archive -> same continuity-bearing c.",
+      "protocol_map_id": "PM-004",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "1",
+        "1",
+        ",",
+        "A",
+        "0",
+        "1",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A011",
+          "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53"
+        },
+        {
+          "artifact_id": "A012",
+          "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Typed witness class; signed provenance; independent attestation where required; enforcement trace; L4 outcome; review and correction route.",
+      "canonical_public_anchor": "https://ivankotov.eu/l4/",
+      "claim_ceiling": "Internal transition evidence only; witness meaning must be explicitly split.",
+      "controlled_status_transition": "Event, transition, or outcome -> typed witness record, evidence level, and bounded claim ceiling.",
+      "current_limitation": "Draft/local specifications exist and one same-operator development report exists; authority and independence remain bounded.",
+      "current_status_vector": "S=specified/absent; I=none_identified/partial; T=unknown/internally_tested; R=none_identified; V=none_identified; E=no_empirical_claim/internally_witnessed",
+      "family_id": "F05",
+      "family_name": "L4 Witness and claim ceilings",
+      "laundering_risk_blocked": "Log, signature, provenance, or outcome trace -> truth, success, compliance, differential witness, or certification.",
+      "protocol_map_id": "PM-005",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "1",
+        "3",
+        ",",
+        "A",
+        "0",
+        "1",
+        "4",
+        ",",
+        "A",
+        "0",
+        "1",
+        "5",
+        ",",
+        "A",
+        "0",
+        "1",
+        "6"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A013",
+          "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e"
+        },
+        {
+          "artifact_id": "A014",
+          "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a"
+        },
+        {
+          "artifact_id": "A015",
+          "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+        },
+        {
+          "artifact_id": "A016",
+          "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Executable gate; controlled disturbance; before/after state; failure-mode trace; rollback; passed conformance run; independent reproduction.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "claim_ceiling": "ARQ is specified and package-checked, not operationally validated.",
+      "controlled_status_transition": "Deviation or anomaly -> suppress, quarantine, review, retain, recalibrate, or safely degrade under declared rules.",
+      "current_limitation": "Normative/test-design surfaces and package preflight exist; runtime correction and fail-closed enforcement are not shown.",
+      "current_status_vector": "S=specified/absent; I=none_identified; T=unknown/test_design_only/internally_tested; R=none_identified; V=none_identified; E=no_empirical_claim/internally_witnessed",
+      "family_id": "F06",
+      "family_name": "ARQ bounded adaptation",
+      "laundering_risk_blocked": "Anomaly detection or package preflight -> corrected memory, safe degradation, boundedness, or deployment success.",
+      "protocol_map_id": "PM-006",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "1",
+        "7",
+        ",",
+        "A",
+        "0",
+        "1",
+        "8",
+        ",",
+        "A",
+        "0",
+        "1",
+        "9",
+        ",",
+        "A",
+        "0",
+        "2",
+        "0"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A017",
+          "sha256": "082bbe030d77580b394e789ebfbc8734faded0e904bdd7d0d52d4dbad0054015"
+        },
+        {
+          "artifact_id": "A018",
+          "sha256": "5f12c7bee4576619ee489deca2eb2e9c337d82071d179761200502f8ff0ed8a6"
+        },
+        {
+          "artifact_id": "A019",
+          "sha256": "5942aafda50c5dd21f5af688af4bbcda8340856f7a71cd055fa4e3cd4c2d9f9d"
+        },
+        {
+          "artifact_id": "A020",
+          "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Task contract; least privilege; sandbox/worktree trace; execution result; witness event; human gate; rollback evidence; conformance result.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "claim_ceiling": "Defines governance obligations; does not prove runtime obedience or outcome quality.",
+      "controlled_status_transition": "Task proposal -> scoped permission -> bounded execution -> witness/review -> rollback or release.",
+      "current_limitation": "Canonical protocol and checker/conformance requirements exist; no passed external execution evidence is identified.",
+      "current_status_vector": "S=stable_specification/specified; I=none_identified; T=unknown/test_design_only; R=none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F07",
+      "family_name": "CGAM governed agent execution",
+      "laundering_risk_blocked": "Agent action -> authorization, successful outcome, acceptable memory write, or safe release.",
+      "protocol_map_id": "PM-007",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "2",
+        "1",
+        ",",
+        "A",
+        "0",
+        "2",
+        "2",
+        ",",
+        "A",
+        "0",
+        "2",
+        "3",
+        ",",
+        "A",
+        "0",
+        "2",
+        "4"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A021",
+          "sha256": "a28308f90afe53563c9c93e234a87384a979c3ee7a48737c8c679dc6df3172fe"
+        },
+        {
+          "artifact_id": "A022",
+          "sha256": "6cd37034b2039396d63469830668b45120a22a41250318eba59109c0de54f729"
+        },
+        {
+          "artifact_id": "A023",
+          "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82"
+        },
+        {
+          "artifact_id": "A024",
+          "sha256": "ebcb30538cd0631c29bc4e8feaa66b21f21f1912691eeee5ba2bc80dda326e02"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Age/context-specific safeguards; guardian separation; witnessed outcomes; adverse-event records; specialist review; longitudinal evidence.",
+      "canonical_public_anchor": "https://ivankotov.eu/corpus/open-problems/",
+      "claim_ceiling": "Research protocol only; not a legal, clinical, or product standard.",
+      "controlled_status_transition": "Child-facing persistent interaction -> bounded developmental, guardian, witness, and escalation status.",
+      "current_limitation": "Draft protocol, witness schema, conformance design, and review notes exist; no clinical or external validation.",
+      "current_status_vector": "S=specified/defined; I=none_identified; T=unknown/test_design_only; R=none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F08",
+      "family_name": "CCDP child-c development",
+      "laundering_risk_blocked": "Developmental protocol, witness schema, or psychology notes -> safe development, clinical validity, or mature c.",
+      "protocol_map_id": "PM-008",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "2",
+        "5",
+        ",",
+        "A",
+        "0",
+        "2",
+        "6",
+        ",",
+        "A",
+        "0",
+        "2",
+        "7",
+        ",",
+        "A",
+        "0",
+        "2",
+        "8"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A025",
+          "sha256": "1fdcba4c7b23ee8415286469e19a8586617b85ec3cae7f3467cfdd376b7b54fb"
+        },
+        {
+          "artifact_id": "A026",
+          "sha256": "ffceeddfecb0a327a6ec540c07d8ea7f5ebf2cb8335042c6640c167b99f325b2"
+        },
+        {
+          "artifact_id": "A027",
+          "sha256": "e7ec9bd70368989021ffa95b6682a864b438d4d4939bd407714e1f4b7875eaa7"
+        },
+        {
+          "artifact_id": "A028",
+          "sha256": "3cc23a8c0f71994afc05b129e1f7acfb89845183b72fffe27596fec088331a55"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Source-custodied longitudinal records; comparison baseline; migration fixtures; comparable memory; matched profile-control for differential claims.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "claim_ceiling": "Supports formation/continuity evidence only.",
+      "controlled_status_transition": "Formation/continuity observation -> ontogenic evidence record with bounded admissibility.",
+      "current_limitation": "Internally witnessed ontogenic evidence and fixtures exist; matched profile-control is absent.",
+      "current_status_vector": "S=defined/specified; I=none_identified; T=unknown/fixtures_present; R=none_identified; V=none_identified; E=no_empirical_claim/internally_witnessed",
+      "family_id": "F09",
+      "family_name": "Personality Formation evidence",
+      "laundering_risk_blocked": "Personality formation or continuity evidence -> matched differential, entity proof, or independent replication.",
+      "protocol_map_id": "PM-009",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "2",
+        "9",
+        ",",
+        "A",
+        "0",
+        "3",
+        "0",
+        ",",
+        "A",
+        "0",
+        "3",
+        "1",
+        ",",
+        "A",
+        "0",
+        "3",
+        "2",
+        ",",
+        "A",
+        "0",
+        "3",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A029",
+          "sha256": "298a9446911d42c6f09faef797c478f081c4265340d0296dc72417ea0f00510c"
+        },
+        {
+          "artifact_id": "A030",
+          "sha256": "c2f21324f3125226555ce64d990792029d430b4579dd7aeb7aebd5537c02cce7"
+        },
+        {
+          "artifact_id": "A031",
+          "sha256": "fb73c25fb19e7cde812c592324caae6cd6149d3da266ff98e1c22ea6a2b57347"
+        },
+        {
+          "artifact_id": "A032",
+          "sha256": "bab7aef956172e543e12cfd0b1213de2ef22832a36f4bb9b6d987bafd460871a"
+        },
+        {
+          "artifact_id": "A033",
+          "sha256": "3daaa92416c9cf994060b26749bad558983fee4fb9470a7ad8d42c415c0d0366"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Write provenance; freshness window; conflict detection; corruption injection; reconstruction test; Judge/write-failure trace; rollback.",
+      "canonical_public_anchor": "https://ivankotov.eu/corpus/failures/",
+      "claim_ceiling": "Defines failure controls; no operational effectiveness claim.",
+      "controlled_status_transition": "Memory candidate or degradation event -> admit, quarantine, decay, revoke, recalibrate, or post-anchor continuity decision.",
+      "current_limitation": "Profiles and patches are specified; runtime detection, correction, and post-anchor continuity are not demonstrated.",
+      "current_status_vector": "S=specified; I=none_identified; T=unknown; R=none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F10",
+      "family_name": "AMDR / PAMDC memory degradation",
+      "laundering_risk_blocked": "Retrieval, repetition, old memory, or declared freshness -> admitted memory, current truth, or valid continuity.",
+      "protocol_map_id": "PM-010",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "3",
+        "4",
+        ",",
+        "A",
+        "0",
+        "3",
+        "5",
+        ",",
+        "A",
+        "0",
+        "3",
+        "6",
+        ",",
+        "A",
+        "0",
+        "3",
+        "7"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A034",
+          "sha256": "6b6bbee70e251d9cd74df359a5ce211ce214cd376bd62919bd3427ab7db4701f"
+        },
+        {
+          "artifact_id": "A035",
+          "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+        },
+        {
+          "artifact_id": "A036",
+          "sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab"
+        },
+        {
+          "artifact_id": "A037",
+          "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Exact code; route activation; append-only outcome store; admissible L4 source; test logs; shadow/canary state; rollback and independent replay.",
+      "canonical_public_anchor": "https://github.com/Kot141078/ester-clean-code",
+      "claim_ceiling": "Code presence and bounded design only; operational deployment remains unconfirmed in this baseline.",
+      "controlled_status_transition": "Generated candidate or outcome -> bounded fitness admission, rejection, promotion, or retained shadow state.",
+      "current_limitation": "Implemented engine/fitness code and test surfaces exist; live route activation and result quality are not established by B0.",
+      "current_status_vector": "S=absent; I=partial/implemented; T=unknown/fixtures_present; R=none_identified; V=none_identified; E=no_empirical_claim/unknown",
+      "family_id": "F11",
+      "family_name": "SRLM bounded growth runtime",
+      "laundering_risk_blocked": "Generated output, self-score, source code, or fixtures -> accepted learning, live deployment, or successful growth.",
+      "protocol_map_id": "PM-011",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "3",
+        "8",
+        ",",
+        "A",
+        "0",
+        "3",
+        "9",
+        ",",
+        "A",
+        "0",
+        "4",
+        "0",
+        ",",
+        "A",
+        "0",
+        "4",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A038",
+          "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc"
+        },
+        {
+          "artifact_id": "A039",
+          "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436"
+        },
+        {
+          "artifact_id": "A040",
+          "sha256": "65e21f708b7ca883a740b2767f007798cc88c4ba9e32aa15372aa778511dabb3"
+        },
+        {
+          "artifact_id": "A041",
+          "sha256": "784a7da019b70c3604813352045c60d743d77795ea7dda271481d289b4c9e843"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Profile criteria; witness-root custody; matched profile-control; continuity evidence; independent review; exact package identity.",
+      "canonical_public_anchor": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+      "claim_ceiling": "May classify a profile surface, not prove an entity.",
+      "controlled_status_transition": "Profile conformance and custody evidence -> bounded c-node/profile classification.",
+      "current_limitation": "Draft profile/package and integrity manifest exist; entity-versus-profile classification is unresolved.",
+      "current_status_vector": "S=specified/defined/absent; I=none_identified; T=unknown; R=none_identified/unknown; V=none_identified; E=no_empirical_claim",
+      "family_id": "F12",
+      "family_name": "C-node boundary and entity/profile separation",
+      "laundering_risk_blocked": "Profile match, package facade, or hash integrity -> entity status, continuity, or differential residual.",
+      "protocol_map_id": "PM-012",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "4",
+        "2",
+        ",",
+        "A",
+        "0",
+        "4",
+        "3",
+        ",",
+        "A",
+        "0",
+        "4",
+        "4"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A042",
+          "sha256": "87786d12c199e7e3f163ad5a1ba668b6f656be761979726fb0af2f935bece6ba"
+        },
+        {
+          "artifact_id": "A043",
+          "sha256": "d65e63b38e29aff79fe9cf2768d2dab6c265de9abbbadec67ccafd9e5383e1fd"
+        },
+        {
+          "artifact_id": "A044",
+          "sha256": "2572240fca8d2633b672e7dce660ebdbfda452efdf9d37b4368ef82b4d40acc9"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Sensor provenance; actuator limits; hardware gate trace; L4 outcome; emergency stop; interop test; failure injection.",
+      "canonical_public_anchor": "https://ivankotov.eu/actor-grounding-layer/",
+      "claim_ceiling": "Architecture only; no grounding-accuracy or deployment-safety claim.",
+      "controlled_status_transition": "Declared actor intent or task -> grounded action bounded by L4, ARL, witness, and hardware perimeter.",
+      "current_limitation": "Draft specification and relationship map exist; interoperability and physical enforcement are not demonstrated.",
+      "current_status_vector": "S=specified/defined/absent; I=none_identified; T=unknown; R=none_identified/unknown; V=none_identified; E=no_empirical_claim",
+      "family_id": "F13",
+      "family_name": "Actor Grounding Layer",
+      "laundering_risk_blocked": "Procedural permission or integration diagram -> physical safety, correct action, or hardware enforcement.",
+      "protocol_map_id": "PM-013",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "4",
+        "5",
+        ",",
+        "A",
+        "0",
+        "4",
+        "6",
+        ",",
+        "A",
+        "0",
+        "4",
+        "7"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A045",
+          "sha256": "bfeb27dd9e63ddd177f6cad38d47ff6b8dd38618ef2f7c5034c029824cdde678"
+        },
+        {
+          "artifact_id": "A046",
+          "sha256": "dc9209674099812d945a44cdb50716de26c65472d17b077d6b3dc7a52895d4ac"
+        },
+        {
+          "artifact_id": "A047",
+          "sha256": "cb1179dbee016799a01a69bf9a446d012a33a2f9a70baf2a7a82be447e69536f"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Applicable legal interpretation by qualified authority; implemented control; traceable disclosure; correction route; conformity evidence.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "claim_ceiling": "Implementation guidance only.",
+      "controlled_status_transition": "AI-generated or assisted output/workflow -> disclosure, provenance, responsible actor, correction, and rollback route.",
+      "current_limitation": "Supporting policy and engineering briefs exist; no legal adequacy or conformity assessment is claimed.",
+      "current_status_vector": "S=defined; I=none_identified; T=unknown; R=none_identified/unknown; V=none_identified; E=no_empirical_claim",
+      "family_id": "F14",
+      "family_name": "Article 50 policy-engineering bridge",
+      "laundering_risk_blocked": "Engineering guidance, package manifest, or transparency record -> legal compliance, certification, or conformity.",
+      "protocol_map_id": "PM-014",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "4",
+        "8",
+        ",",
+        "A",
+        "0",
+        "4",
+        "9",
+        ",",
+        "A",
+        "0",
+        "5",
+        "0"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A048",
+          "sha256": "52ee9cc90ed17974987cdc4c053e1e33168c95c96385c1a2f53511c34d86654e"
+        },
+        {
+          "artifact_id": "A049",
+          "sha256": "dcd0dbae22922130a683a17b40efcd73ecea16db30bf62dab307c122d0700412"
+        },
+        {
+          "artifact_id": "A050",
+          "sha256": "db5c8faed9dafcfc512c4a4d056cafe1519bf0b9bfc48c62c58fd0b5d06c4507"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Implemented profile; passed conformance; deployment evidence; security review; client boundary; release authorization.",
+      "canonical_public_anchor": "https://ivankotov.eu/corpus/current-state/",
+      "claim_ceiling": "Internal review surface only.",
+      "controlled_status_transition": "Internal enterprise workflow/profile -> bounded work authority, conformance target, and release-readiness state.",
+      "current_limitation": "Canonical internal protocol/test matrix and internal PDF-readiness record exist; stronger readiness is explicitly withheld.",
+      "current_status_vector": "S=stable_specification/specified/absent; I=none_identified; T=unknown/test_design_only/internally_tested; R=none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F15",
+      "family_name": "Enterprise-c profiles",
+      "laundering_risk_blocked": "Canonical internal specification or readiness review -> deployable, client-ready, sale-ready, or certification-grade system.",
+      "protocol_map_id": "PM-015",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "5",
+        "1",
+        ",",
+        "A",
+        "0",
+        "5",
+        "2",
+        ",",
+        "A",
+        "0",
+        "5",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A051",
+          "sha256": "b1f6831ed04e71f3a276b0d29b7e6fa058558d8d7d713f403c20c6b1d2a5c4cb"
+        },
+        {
+          "artifact_id": "A052",
+          "sha256": "6b586c052f7f76edad69b058001b7d609fe025ab8c4462b16dc3e89d47e5f9de"
+        },
+        {
+          "artifact_id": "A053",
+          "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Same substrate, corpus, disturbance stream, interface, comparable memory; anchor-custody history as isolated variable; preregistered observables; independent replication.",
+      "canonical_public_anchor": "https://ivankotov.eu/corpus/open-problems/",
+      "claim_ceiling": "Hypothesis and test design only; no differential residual established.",
+      "controlled_status_transition": "Ontogenic/continuity observation -> testable differential residual only after strict matched profile-control.",
+      "current_limitation": "The layer is proposed; first-pass B0 scan did not confirm a strict matched control; witness split and patches remain review controls.",
+      "current_status_vector": "S=proposed/absent/defined; I=none_identified; T=test_design_only/internally_tested/unknown; R=none_identified; V=none_identified; E=hypothesis/non_confirmed/no_empirical_claim",
+      "family_id": "F16",
+      "family_name": "Differential observables and matched profile-control",
+      "laundering_risk_blocked": "Witness, formation, continuity, or profile difference -> non-substrate residual, c proof, consciousness, or entity proof.",
+      "protocol_map_id": "PM-016",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "5",
+        "4",
+        ",",
+        "A",
+        "0",
+        "5",
+        "5",
+        ",",
+        "A",
+        "0",
+        "5",
+        "6",
+        ",",
+        "A",
+        "0",
+        "5",
+        "7"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A054",
+          "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        },
+        {
+          "artifact_id": "A056",
+          "sha256": "82cd344466ecd5fb367a7d81bea5a8df40d0a1999ccea28857bc83b735ca4e89"
+        },
+        {
+          "artifact_id": "A057",
+          "sha256": "d3d13cb6b24869e4053ea248cbdffa03d3fe992b8161503ff3ab1f921d25343c"
+        }
+      ]
+    },
+    {
+      "admissible_evidence_required": "Immutable identity; manifest; release provenance; explicit claim class; separate technical evidence for any stronger status.",
+      "canonical_public_anchor": "https://ivankotov.eu/publications/",
+      "claim_ceiling": "Publication status is orthogonal to technical maturity.",
+      "controlled_status_transition": "Moving artefact -> identifiable repository object, frozen snapshot, manifest, release, citation, or DOI surface.",
+      "current_limitation": "Citation/publication/package-control surfaces exist; they prove identity and discoverability only.",
+      "current_status_vector": "S=specified/defined; I=none_identified; T=unknown; R=unknown/none_identified; V=none_identified; E=no_empirical_claim",
+      "family_id": "F17",
+      "family_name": "Publication, citation, and DOI-facing surfaces",
+      "laundering_risk_blocked": "Public visibility, citation, DOI, release, or manifest -> implementation, adoption, reproduction, validation, or truth.",
+      "protocol_map_id": "PM-017",
+      "related_artifact_ids": [
+        "A",
+        "0",
+        "5",
+        "8",
+        ",",
+        "A",
+        "0",
+        "5",
+        "9",
+        ",",
+        "A",
+        "0",
+        "6",
+        "0"
+      ],
+      "source_refs": [
+        {
+          "artifact_id": "A058",
+          "sha256": "321dfbc0797e8e5b62ea21e282e85755ef82a721d510daf2576dfaee2295d9b0"
+        },
+        {
+          "artifact_id": "A059",
+          "sha256": "25f73faeddc1f79b26009b30d1a566c5c4fa888cca358ca56f5ca56cce293161"
+        },
+        {
+          "artifact_id": "A060",
+          "sha256": "365e3427b4b366d40846afebe0d3ab7bc7bcd794b83422ae8f0e49085320cc5d"
+        }
+      ]
+    }
+  ],
+  "record_count": 17
+}

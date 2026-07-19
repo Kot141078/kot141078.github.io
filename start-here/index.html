@@ -3,153 +3,379 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Start here — first entry into the corpus | Ivan Kotov</title>
-  <meta name="description" content="A short first-step entry into the public corpus: AGI, c = a + b, L4, SER, Qubit of Hope, and public works.">
+  <title>Start here - Living Corpus Entry Layer | Ivan Kotov</title>
+  <meta name="description" content="A first public route into the living corpus: governing principle, architecture, verified status, protocol map, open problems, failures, sources, and explicit non-claims.">
   <link rel="canonical" href="https://ivankotov.eu/start-here/">
-  <meta property="og:title" content="Start here — first entry into the corpus | Ivan Kotov">
-  <meta property="og:description" content="A short first-step entry into the public corpus: AGI, c = a + b, L4, SER, Qubit of Hope, and public works.">
+  <meta property="og:title" content="Start here - Living Corpus Entry Layer | Ivan Kotov">
+  <meta property="og:description" content="A first public route into the living corpus: governing principle, architecture, verified status, protocol map, open problems, failures, sources, and explicit non-claims.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ivankotov.eu/start-here/">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": "https://ivankotov.eu/start-here/#page",
-        "url": "https://ivankotov.eu/start-here/",
-        "name": "Start here — first entry into the corpus | Ivan Kotov",
-        "description": "A short first-step entry into the public corpus: AGI, c = a + b, L4, SER, Qubit of Hope, and public works."
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://ivankotov.eu/start-here/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://ivankotov.eu/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Start here",
-            "item": "https://ivankotov.eu/start-here/"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://ivankotov.eu/start-here/#page",
+      "url": "https://ivankotov.eu/start-here/",
+      "name": "Start here - Living Corpus Entry Layer | Ivan Kotov"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/start-here/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Start here",
+          "item": "https://ivankotov.eu/start-here/"
+        }
+      ]
+    }
+  ]
+}
   </script>
   <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
+<body class="corpus-layer">
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="site-shell">
-        <header class="site-header">
-      <a class="brand" href="../">
+    <header class="site-header">
+      <a class="brand" href="/">
         <span class="brand-name">Ivan Kotov</span>
         <span class="brand-role">AI Systems Architect</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
-        <a href="../">Home</a>
-        <a href="../start-here/" aria-current="page">Start here</a>
-        <a href="../diary/">Diary</a>
-        <a href="../topics/">Topics</a>
-        <a href="../library/">Library</a>
-        <a href="../services/">Services</a>
-        <a href="../about/">About</a>
-        <a href="../contact/">Contact</a>
+        <a href="/">Home</a>
+        <a href="/start-here/" aria-current="page">Start here</a>
+        <a href="/diary/">Diary</a>
+        <a href="/topics/">Topics</a>
+        <a href="/library/">Library</a>
+        <a href="/services/">Services</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <p class="eyebrow">Entry page</p>
+    <main id="main" tabindex="-1">
+      <section class="hero corpus-hero">
+        <p class="eyebrow">Living corpus entry</p>
         <h1>Start here</h1>
-        <p class="lead page-lead">This site documents one practical problem: how a long-lived AI system can act, remember, adapt, and use tools without turning fluent output into unchecked authority.</p>
+        <p class="lead page-lead">This page is the shortest route into the public corpus. It starts from one rule - no status elevation without admissible evidence - and shows how the programme separates definition, implementation, testing, reproduction, validation, authority, continuity, and public claims.</p>
+        <ul class="corpus-chip-list">
+          <li><span>Baseline</span><strong>B0</strong></li>
+          <li><span>Last verified</span><strong>2026-07-19</strong></li>
+          <li><span>Deltas through</span><strong>2026-07-19</strong></li>
+        </ul>
+        <nav class="corpus-local-nav" aria-label="Living corpus">
+        <a href="/corpus/">Overview</a>
+        <a href="/corpus/#architecture">Architecture</a>
+        <a href="/corpus/protocol-map/">Protocol map</a>
+        <a href="/corpus/current-state/">Current state</a>
+        <a href="/corpus/open-problems/">Open problems</a>
+        <a href="/corpus/failures/">Failures</a>
+        <a href="/evidence/">Evidence</a>
+        <a href="/corpus/changes/">Changes</a>
+        <a href="/glossary/">Glossary</a>
+      </nav>
       </section>
 
-      <section class="section">
-        <div class="prose">
-          <p>The smallest example is simple. If an AI worker can inspect files, edit code, run tests, or prepare a release, it must not also define its own permission, approve its own work, write directly into memory, or erase the evidence of what happened. A governed task therefore needs a contract, a sandbox or worktree, a witness record, a review path, and a rollback boundary before the result can become part of the system.</p>
-          <p>That pattern scales upward. The same distinction appears in memory, identity, continuity, self-evolution, public claims, and AI Act transparency: output is not evidence; evidence is not authority; continuity is not personhood; local operation is not sovereignty.</p>
-        </div>
-        <div class="section-links">
-          <a href="../what-is-running/">What is running</a>
-          <a href="../publications/">Publications</a>
-          <a href="../evidence/">Evidence</a>
-        </div>
-      </section>
-
-      <section class="section">
+      <section class="section" id="architecture-in-90-seconds">
         <div class="section-head">
-          <p class="section-label">Entry paths</p>
-          <h2>Three entry paths</h2>
-        </div>
-        <div class="section-stack">
-          <article>
-            <h3>For policy readers</h3>
-            <div class="prose">
-              <p>Start with the Article 50 transparency materials. They frame AI transparency as an evidence chain: system boundary, actor role, obligation trigger, disclosure or marking control, evidence artifact, responsible actor, and review route.</p>
-              <p>Recommended path:</p>
-            </div>
-            <ol class="bullet-list">
-              <li><a href="../publications/article50-transparency-submission/">Article 50 Transparency Submission Pack v0.1</a></li>
-              <li><a href="../publications/article50-transparency-implementation-briefs-v0-1/">Article 50 Transparency Implementation Briefs v0.1</a></li>
-              <li><a href="../evidence/">Evidence</a></li>
-              <li><a href="../releases/">Releases</a></li>
-              <li><a href="../distinctions/">Distinctions</a></li>
-            </ol>
-          </article>
-          <article>
-            <h3>For engineers</h3>
-            <div class="prose">
-              <p>Start with the executable-worker problem. CGAM treats CLI/cloud agents as bounded workers: they may inspect, patch, test, compare, and report, but they must not become will, memory, authority, judge, or release power.</p>
-              <p>Recommended path:</p>
-            </div>
-            <ol class="bullet-list">
-              <li><a href="../publications/c-governed-cli-agent-mesh/">C-Governed CLI Agent Mesh</a></li>
-              <li><a href="../l4/">L4</a></li>
-              <li><a href="../ser/">SER</a></li>
-              <li><a href="../publications/self-evo-document-package-v0-1-1/">Self-Evo Document Package</a></li>
-              <li><a href="../evidence/">Evidence</a></li>
-            </ol>
-            <div class="prose">
-              <p><strong>Note:</strong> L4 here means Reality Boundary Layer &mdash; power, heat, latency, maintenance, scarcity, and irreversibility. It is not SAE Level 4 autonomous driving.</p>
-            </div>
-          </article>
-          <article>
-            <h3>For researchers</h3>
-            <div class="prose">
-              <p>Start with the claim boundaries. The corpus separates architecture, implementation, behavior, governance evidence, continuity, authority, safety, personhood, and deployment maturity. No evidence class silently proves another claim class.</p>
-              <p>Recommended path:</p>
-            </div>
-            <ol class="bullet-list">
-              <li><a href="../glossary/">Glossary</a></li>
-              <li><a href="../distinctions/">Distinctions</a></li>
-              <li><a href="../c-a-plus-b/"><code>c = a + b</code></a></li>
-              <li><a href="../l4/">L4</a></li>
-              <li><a href="../ser/">SER</a></li>
-              <li><a href="../publications/">Publications, in release order</a></li>
-            </ol>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head">
-          <p class="section-label">Negative frame</p>
-          <h2>What this page is not</h2>
+          <p class="section-label">Architecture</p>
+          <h2>Architecture in 90 seconds</h2>
         </div>
         <div class="prose">
-          <p>This is not a product landing page.</p>
-          <p>This is not a chatbot demo.</p>
-          <p>This is not a claim of consciousness, legal personhood, certification, or deployment readiness.</p>
-          <p>It is the shortest route into a public technical corpus about long-lived, accountable AI presence under real constraints.</p>
+          <p>The corpus is easiest to read as a control system rather than as a publication timeline. The central rule is that a weaker state must not be described or used as a stronger one until evidence supports the transition. A definition does not become an implementation; an implementation does not become a tested system; a test by the same operator does not become independent reproduction; a public page does not become external validation.</p>
+          <p>In `c = a + b`, `c` names the governed candidate entity layer, `a` names the accountable human anchor, and `b` names bounded procedures, memory, models, tools, routes, witnesses, and execution surfaces. The `+` is not arithmetic addition. It is a governed binding: a rule for when human authority, procedural substrate, evidence, and witness records may be combined without laundering one status into another.</p>
+          <p>L3 and L4 are the bridge between rules and consequence. L3 contains classifications, permissions, procedures, review conditions, and admissibility rules. L4 is the physical and operational boundary: time, energy, cost, latency, hardware, custody, irreversible outcomes, and failure. A witness record connects the two by saying what was attempted, under which authority, with which evidence, and what happened.</p>
+          <p>The current B0 projection is intentionally conservative. It identifies 60 load-bearing artifacts across 17 families, maps 17 protocol families, records 24 open problems, and lists 18 failure or non-confirmation records. It reports zero adequately evidenced runtime failure events in the selected B0 set, and it keeps independent reproduction, external validation, and strict matched profile-control as not identified.</p>
+          <details class="corpus-definition">
+            <summary>Term boundary</summary>
+            <p><strong>L3</strong> means rules, classifications, permission paths, and admissibility controls. <strong>L4</strong> means physical, temporal, energetic, operational, and irreversible consequence. <strong>Witness</strong> means the record that connects an L3 decision to an L4 result.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" id="architecture-diagram">
+        <div class="section-head">
+          <p class="section-label">Diagram</p>
+          <h2>Architecture diagram</h2>
+        </div>
+        <figure class="corpus-diagram">
+          <svg role="img" aria-labelledby="corpus-diagram-title corpus-diagram-desc" viewBox="0 0 920 500" preserveAspectRatio="xMidYMid meet">
+            <title id="corpus-diagram-title">Living corpus architecture from rule to consequence</title>
+            <desc id="corpus-diagram-desc">A diagram showing c = a + b, L3 procedure, witness record, L4 consequence, and claim boundary.</desc>
+            <rect x="24" y="24" width="872" height="452" rx="18" class="diagram-bg" />
+            <text x="460" y="64" text-anchor="middle" class="diagram-title">No status elevation without admissible evidence</text>
+            <rect x="58" y="104" width="210" height="110" rx="14" class="diagram-box" />
+            <text x="163" y="138" text-anchor="middle" class="diagram-label">a</text>
+            <text x="163" y="166" text-anchor="middle" class="diagram-copy">accountable human anchor</text>
+            <text x="163" y="190" text-anchor="middle" class="diagram-copy">permission and responsibility</text>
+            <rect x="355" y="104" width="210" height="110" rx="14" class="diagram-box" />
+            <text x="460" y="138" text-anchor="middle" class="diagram-label">b</text>
+            <text x="460" y="166" text-anchor="middle" class="diagram-copy">bounded substrate</text>
+            <text x="460" y="190" text-anchor="middle" class="diagram-copy">models, tools, memory, routes</text>
+            <text x="312" y="166" text-anchor="middle" class="diagram-plus">+</text>
+            <rect x="652" y="104" width="210" height="110" rx="14" class="diagram-box diagram-box-strong" />
+            <text x="757" y="138" text-anchor="middle" class="diagram-label">c</text>
+            <text x="757" y="166" text-anchor="middle" class="diagram-copy">governed candidate layer</text>
+            <text x="757" y="190" text-anchor="middle" class="diagram-copy">never promoted by narration alone</text>
+            <path d="M163 230 L163 278 L300 278" class="diagram-line" />
+            <path d="M460 230 L460 278" class="diagram-line" />
+            <path d="M757 230 L757 278 L620 278" class="diagram-line" />
+            <rect x="84" y="302" width="210" height="96" rx="14" class="diagram-box diagram-muted" />
+            <text x="189" y="334" text-anchor="middle" class="diagram-label">L3</text>
+            <text x="189" y="360" text-anchor="middle" class="diagram-copy">rules and admissibility</text>
+            <rect x="355" y="302" width="210" height="96" rx="14" class="diagram-box diagram-muted" />
+            <text x="460" y="334" text-anchor="middle" class="diagram-label">Witness</text>
+            <text x="460" y="360" text-anchor="middle" class="diagram-copy">record of transition</text>
+            <rect x="626" y="302" width="210" height="96" rx="14" class="diagram-box diagram-muted" />
+            <text x="731" y="334" text-anchor="middle" class="diagram-label">L4</text>
+            <text x="731" y="360" text-anchor="middle" class="diagram-copy">real consequence boundary</text>
+            <path d="M294 350 L355 350" class="diagram-line" />
+            <path d="M565 350 L626 350" class="diagram-line" />
+            <text x="460" y="444" text-anchor="middle" class="diagram-foot">Status changes only through evidence, transition conditions, and reviewable records.</text>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="section" id="rule-to-consequence">
+        <div class="section-head">
+          <p class="section-label">Bridge</p>
+          <h2>From rule to consequence</h2>
+          <p class="section-intro">The corpus treats governance as a transition chain, not as a slogan.</p>
+        </div>
+        <div class="card-grid corpus-card-grid">
+          <article class="card"><h3>Rule</h3><p>A status claim starts as a bounded statement with a declared class and evidence requirement.</p></article>
+          <article class="card"><h3>Witness</h3><p>A transition needs a reviewable record of authority, scope, action, result, and limitation.</p></article>
+          <article class="card"><h3>Consequence</h3><p>The result must survive physical, operational, and custody constraints before stronger wording is allowed.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="current-programme-state">
+        <div class="section-head">
+          <p class="section-label">Status</p>
+          <h2>Current programme state</h2>
+        </div>
+<div class="corpus-metric-grid">
+          <article class="corpus-metric">
+            <strong>60</strong>
+            <span>B0 artifact rows</span>
+            <p>Verified Step 2 classification.</p>
+          </article>
+          <article class="corpus-metric">
+            <strong>17</strong>
+            <span>Protocol families</span>
+            <p>Verified Step 3 protocol map.</p>
+          </article>
+          <article class="corpus-metric">
+            <strong>24</strong>
+            <span>Open problems</span>
+            <p>Critical, High, and Medium records.</p>
+          </article>
+          <article class="corpus-metric">
+            <strong>0</strong>
+            <span>Runtime failure events</span>
+            <p>Adequately evidenced events in the selected B0 set.</p>
+          </article>
+        </div>
+        <div class="prose">
+          <p>Independent reproduction, external validation, and strict matched profile-control are recorded as not identified. That boundary is part of the status, not a footnote.</p>
+        </div>
+      </section>
+
+      <section class="section" id="choose-depth">
+        <div class="section-head">
+          <p class="section-label">Depth</p>
+          <h2>Choose your depth</h2>
+        </div>
+<div class="card-grid corpus-card-grid">
+          <article class="card corpus-route-card">
+            <h3>Overview</h3>
+            <p>Architecture, current status, source controls, and claim boundary.</p>
+            <div class="section-links"><a href="/corpus/">Open</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Protocol map</h3>
+            <p>Seventeen protocol-family transitions and the risks each blocks.</p>
+            <div class="section-links"><a href="/corpus/protocol-map/">Open</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Current state</h3>
+            <p>B0 status matrix, counts, implementation surfaces, and publication deltas.</p>
+            <div class="section-links"><a href="/corpus/current-state/">Open</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Open problems</h3>
+            <p>Twenty-four unresolved questions, priorities, drafting effects, and next evidence needs.</p>
+            <div class="section-links"><a href="/corpus/open-problems/">Open</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Failures</h3>
+            <p>Eighteen failure or non-confirmation records, with no invented runtime failures.</p>
+            <div class="section-links"><a href="/corpus/failures/">Open</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Changes</h3>
+            <p>Public-surface changes since B0, without status elevation.</p>
+            <div class="section-links"><a href="/corpus/changes/">Open</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="choose-route">
+        <div class="section-head">
+          <p class="section-label">Audience</p>
+          <h2>Choose your route</h2>
+        </div>
+<div class="card-grid corpus-card-grid">
+          <article class="card corpus-route-card">
+            <h3>Policy readers</h3>
+            <p>Article 50 transparency -&gt; Evidence -&gt; Open problems</p>
+            <div class="section-links"><a href="/publications/article50-transparency-submission/">Start</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Engineers</h3>
+            <p>CGAM -&gt; L4 -&gt; SER -&gt; Current state</p>
+            <div class="section-links"><a href="/publications/c-governed-cli-agent-mesh/">Start</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Researchers</h3>
+            <p>Glossary -&gt; Distinctions -&gt; Protocol map -&gt; Failures</p>
+            <div class="section-links"><a href="/glossary/">Start</a></div>
+          </article>
+          <article class="card corpus-route-card">
+            <h3>Independent reviewers</h3>
+            <p>Current state -&gt; JSON endpoints -&gt; Open problems</p>
+            <div class="section-links"><a href="/corpus/current-state/">Start</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="protocol-map-preview">
+        <div class="section-head">
+          <p class="section-label">Protocols</p>
+          <h2>Protocol-map preview</h2>
+          <p class="section-intro">Six examples from the 17 verified protocol-family records.</p>
+        </div>
+        <div class="card-grid corpus-card-grid">
+          <article class="card corpus-mini-card">
+            <h3>PM-001 - Corpus control and canonical routing</h3>
+            <p>Unrouted or duplicated source -&gt; claim-scoped canonical reading route and ownership boundary.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>PM-002 - Claims, maturity, and non-claims control</h3>
+            <p>Unbounded statement -&gt; typed claim class, maturity vector, explicit non-claim, or narrowed disposition.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>PM-003 - c = a + b, theoretical core, and c-calculus</h3>
+            <p>Human anchor plus procedural substrate -&gt; bounded governed-binding or c-candidate architecture claim.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>PM-004 - SER continuity and sovereign recursion</h3>
+            <p>Stored state or transition history -&gt; bounded classification as continuation, replay, archive, fork, or successor.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>PM-005 - L4 Witness and claim ceilings</h3>
+            <p>Event, transition, or outcome -&gt; typed witness record, evidence level, and bounded claim ceiling.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>PM-006 - ARQ bounded adaptation</h3>
+            <p>Deviation or anomaly -&gt; suppress, quarantine, review, retain, recalibrate, or safely degrade under declared rules.</p>
+          </article>
+        </div>
+        <div class="section-links"><a href="/corpus/protocol-map/">Open the full protocol map</a></div>
+      </section>
+
+      <section class="section" id="changes-since-b0">
+        <div class="section-head">
+          <p class="section-label">Deltas</p>
+          <h2>Changes since B0</h2>
+        </div>
+        <div class="card-grid corpus-card-grid">
+          <article class="card corpus-mini-card">
+            <h3>2026-07-17 - Cleanroom ARM-P open verification release v1.0.1 surfaced publicly</h3>
+            <p>No B0 status elevation. Independent reproduction and external validation remain not identified in the living corpus status map.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>2026-07-19 - ESTHER-RP-001 v0.8.1 publication surface added</h3>
+            <p>No scientific or validation status is raised by the publication page. The release remains bounded by its own reproducibility package and review call.</p>
+          </article>
+          <article class="card corpus-mini-card">
+            <h3>2026-07-19 - Living Corpus Entry Layer v62 added to the website</h3>
+            <p>Adds public navigation, status projection, and JSON receipts. It does not alter the frozen B0 classification or any source protocol.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="unresolved">
+        <div class="section-head">
+          <p class="section-label">Problems</p>
+          <h2>What remains unresolved</h2>
+        </div>
+        <ul class="corpus-problem-list">
+          <li><a href="/corpus/open-problems/#op-001">OP-001: Matched profile-control design</a> <span>Critical</span></li>
+          <li><a href="/corpus/open-problems/#op-002">OP-002: Differential witness threshold</a> <span>Critical</span></li>
+          <li><a href="/corpus/open-problems/#op-003">OP-003: Witness regress boundary</a> <span>High</span></li>
+          <li><a href="/corpus/open-problems/#op-004">OP-004: Witness-type migration across old surfaces</a> <span>High</span></li>
+          <li><a href="/corpus/open-problems/#op-005">OP-005: Anchor capture</a> <span>Critical</span></li>
+          <li><a href="/corpus/open-problems/#op-006">OP-006: Malicious, compromised, coerced, or absent anchor</a> <span>Critical</span></li>
+          <li><a href="/corpus/open-problems/#op-007">OP-007: Contested intent</a> <span>High</span></li>
+          <li><a href="/corpus/open-problems/#op-008">OP-008: Authorization vs attestation separation</a> <span>High</span></li>
+        </ul>
+        <div class="section-links"><a href="/corpus/open-problems/">Open all 24 open problems</a></div>
+      </section>
+
+      <section class="section" id="canonical-sources">
+        <div class="section-head">
+          <p class="section-label">Sources</p>
+          <h2>Canonical sources</h2>
+        </div>
+        <ul class="bullet-list corpus-source-list">
+          <li><a href="https://ivankotov.eu/start-here/">Start here</a> - Reader entry and architecture overview</li>
+          <li><a href="https://ivankotov.eu/publications/ester-theoretical-core-v0-1/">Theoretical Core of Project Ester v0.1</a> - c = a + b theoretical-core surface</li>
+          <li><a href="https://ivankotov.eu/c-a-plus-b/">c = a + b</a> - Core governing-binding formula</li>
+          <li><a href="https://ivankotov.eu/l4/">L4</a> - Reality boundary layer</li>
+          <li><a href="https://ivankotov.eu/ser/">SER</a> - Continuity and recursion surface</li>
+          <li><a href="https://ivankotov.eu/publications/c-governed-cli-agent-mesh/">C-Governed CLI Agent Mesh</a> - Governed agent execution surface</li>
+          <li><a href="https://ivankotov.eu/publications/article50-transparency-submission/">Article 50 Transparency Submission Pack v0.1</a> - Policy-engineering bridge</li>
+          <li><a href="https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/">Article 50 Transparency Implementation Briefs v0.1</a> - Implementation-reader bridge</li>
+          <li><a href="https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/">Self-Evo Document Package v0.1.1</a> - Bounded self-evolution governance corpus</li>
+          <li><a href="https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/">Cleanroom ARM-P open verification release v1.0.1</a> - Public reproducible fixture-plane release surface</li>
+        </ul>
+        <details class="corpus-definition" id="self-check">
+          <summary>Optional self-check</summary>
+          <ol class="bullet-list">
+            <li>What is the central rule?</li>
+            <li>Which evidence would be needed before a definition becomes an implementation claim?</li>
+            <li>Which page lists the 24 unresolved problems?</li>
+            <li>What is explicitly not being claimed?</li>
+          </ol>
+        </details>
+      </section>
+
+      <section class="section corpus-boundary" id="claim-boundary">
+        <div class="section-head">
+          <p class="section-label">Boundary</p>
+          <h2>Claim boundary</h2>
+        </div>
+        <div class="prose">
+          <p>This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.</p>
+          <p>It is a public navigation and status-control layer over verified B0 consolidation registers. It does not modify the frozen source packages or the reference extraction.</p>
         </div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
   </div>
 </body>
 </html>

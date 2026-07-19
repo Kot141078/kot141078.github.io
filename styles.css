@@ -200,6 +200,420 @@
   font-size: 0.95rem;
 }
 
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 0.75rem;
+  z-index: 20;
+  transform: translateY(-180%);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  background: var(--bg-panel);
+  padding: 0.55rem 0.8rem;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.corpus-layer main:focus {
+  outline: none;
+}
+
+.corpus-hero {
+  display: grid;
+  gap: 0.95rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.corpus-hero h1,
+.corpus-hero .page-lead {
+  max-width: 64rem;
+}
+
+.corpus-local-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.25rem;
+}
+
+.corpus-local-nav a,
+.corpus-pill,
+.corpus-chip-list li {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-soft) 74%, white);
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.corpus-local-nav a {
+  padding: 0.48rem 0.78rem;
+  font-size: 0.92rem;
+}
+
+.corpus-local-nav a[aria-current="page"] {
+  border-color: color-mix(in srgb, var(--accent) 52%, var(--line));
+  background: color-mix(in srgb, #dbe9dd 62%, var(--accent-soft));
+  font-weight: 700;
+}
+
+.corpus-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.corpus-chip-list li {
+  display: inline-grid;
+  gap: 0.1rem;
+  min-width: min(13rem, 100%);
+  padding: 0.55rem 0.75rem;
+}
+
+.corpus-chip-list span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.corpus-chip-list strong {
+  font-size: 1rem;
+}
+
+.section-intro {
+  max-width: 58rem;
+  color: var(--muted);
+}
+
+.corpus-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.corpus-metric {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-left: 5px solid color-mix(in srgb, #426b54 70%, var(--accent));
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 92%, white);
+  padding: 0.9rem;
+}
+
+.corpus-metric strong,
+.corpus-metric span {
+  display: block;
+}
+
+.corpus-metric strong {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.85rem;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.corpus-metric span {
+  margin-top: 0.25rem;
+  font-weight: 700;
+}
+
+.corpus-metric p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.corpus-card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.corpus-route-card,
+.corpus-mini-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpus-route-card .section-links,
+.corpus-mini-card .section-links {
+  margin-top: auto;
+}
+
+.corpus-definition,
+.corpus-detail-card,
+.corpus-record-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--bg-panel) 94%, white);
+  padding: 0.95rem;
+}
+
+.corpus-definition {
+  margin-top: 1rem;
+}
+
+.corpus-definition summary,
+.corpus-detail-card summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.corpus-definition p,
+.corpus-detail-card p,
+.corpus-record-card p {
+  overflow-wrap: anywhere;
+}
+
+.corpus-diagram {
+  margin: 0;
+  overflow-x: auto;
+}
+
+.corpus-diagram svg {
+  display: block;
+  width: 100%;
+  min-width: 680px;
+  height: auto;
+}
+
+.diagram-bg {
+  fill: color-mix(in srgb, var(--accent-soft) 34%, var(--bg-panel));
+  stroke: var(--line);
+}
+
+.diagram-box {
+  fill: color-mix(in srgb, var(--bg-panel) 86%, white);
+  stroke: color-mix(in srgb, var(--accent) 40%, var(--line));
+  stroke-width: 2;
+}
+
+.diagram-box-strong {
+  fill: color-mix(in srgb, #dbe9dd 72%, var(--bg-panel));
+}
+
+.diagram-muted {
+  fill: color-mix(in srgb, #efe7d2 64%, var(--bg-panel));
+}
+
+.diagram-line {
+  fill: none;
+  stroke: color-mix(in srgb, var(--accent) 70%, #426b54);
+  stroke-linecap: round;
+  stroke-width: 3;
+}
+
+.diagram-title,
+.diagram-label {
+  fill: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+}
+
+.diagram-title {
+  font-size: 24px;
+}
+
+.diagram-label {
+  font-size: 21px;
+}
+
+.diagram-copy,
+.diagram-foot,
+.diagram-plus {
+  fill: var(--muted);
+  font-family: "Segoe UI", "Trebuchet MS", system-ui, sans-serif;
+}
+
+.diagram-copy {
+  font-size: 14px;
+}
+
+.diagram-foot {
+  font-size: 15px;
+}
+
+.diagram-plus {
+  fill: var(--accent);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.corpus-problem-list,
+.corpus-source-list {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.corpus-source-list li {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.corpus-source-list code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.corpus-problem-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.65rem;
+  align-items: baseline;
+}
+
+.corpus-problem-list span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.corpus-endpoint-links {
+  align-items: stretch;
+}
+
+.corpus-endpoint-links a {
+  flex: 1 1 12rem;
+  justify-content: center;
+}
+
+.corpus-filter-bar {
+  display: grid;
+  grid-template-columns: minmax(14rem, 1.4fr) repeat(3, minmax(10rem, 0.8fr));
+  gap: 0.75rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.corpus-filter-bar label {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.corpus-filter-bar span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.corpus-filter-bar input,
+.corpus-filter-bar select {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg-panel);
+  padding: 0.55rem 0.65rem;
+  color: var(--text);
+  font: inherit;
+}
+
+.corpus-filter-count,
+.corpus-filter-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.corpus-record-list,
+.corpus-detail-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.corpus-record-head {
+  display: grid;
+  gap: 0.15rem;
+  margin-bottom: 0.75rem;
+}
+
+.corpus-record-head h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.corpus-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.corpus-record-grid div {
+  min-width: 0;
+  border-top: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+  padding-top: 0.55rem;
+}
+
+.corpus-record-grid dt {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.corpus-record-grid dd {
+  min-width: 0;
+  margin: 0.18rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.corpus-pill {
+  display: inline-flex;
+  margin: 0.12rem 0.12rem 0.12rem 0;
+  padding: 0.25rem 0.48rem;
+  font-size: 0.86rem;
+}
+
+.corpus-boundary {
+  border-left: 5px solid color-mix(in srgb, #7b4f3b 58%, var(--accent));
+}
+
+@media (max-width: 980px) {
+  .corpus-metric-grid,
+  .corpus-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .corpus-filter-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .corpus-hero {
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+  }
+
+  .corpus-metric-grid,
+  .corpus-card-grid,
+  .corpus-filter-bar,
+  .corpus-record-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .corpus-local-nav a,
+  .corpus-endpoint-links a {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .corpus-diagram svg {
+    min-width: 560px;
+  }
+}
+
 .compact-link-list {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }

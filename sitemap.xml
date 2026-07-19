@@ -2417,4 +2417,28 @@
   <url>
     <loc>https://ivankotov.eu/diary/tags/tokeneconomics/</loc>
   </url>
-<url><loc>https://ivankotov.eu/publications/esther-rp-001/</loc><lastmod>2026-07-19</lastmod></url></urlset>
+<url><loc>https://ivankotov.eu/publications/esther-rp-001/</loc><lastmod>2026-07-19</lastmod></url>  <url>
+    <loc>https://ivankotov.eu/corpus/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ivankotov.eu/corpus/protocol-map/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ivankotov.eu/corpus/current-state/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ivankotov.eu/corpus/open-problems/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ivankotov.eu/corpus/failures/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ivankotov.eu/corpus/changes/</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+</urlset>

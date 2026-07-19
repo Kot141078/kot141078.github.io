@@ -1,0 +1,687 @@
+{
+  "baseline_id": "B0",
+  "document_id": "ESTHER-CONSOLIDATION-STEP-3C-OPEN-PROBLEMS-v0.1",
+  "drafting_effect_counts": {
+    "blocks_operational_claim": 2,
+    "blocks_stronger_claim": 6,
+    "must_define_before_umbrella_claims": 6,
+    "must_disclose_in_umbrella": 8,
+    "must_resolve_before_publication": 1,
+    "must_resolve_definition": 1
+  },
+  "last_verified": "2026-07-19",
+  "problems": [
+    {
+      "current_claim_ceiling": "Differential residual, entity-over-profile, and related stronger claims remain prohibited.",
+      "current_handling": "Proposed test layer and first-pass non-confirmation.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "Critical",
+      "problem_id": "OP-001",
+      "problem_statement": "Can a running c-candidate be compared with a persistent profile under the same substrate, corpus, disturbance stream, interface, and comparable memory, with anchor-custody history isolated?",
+      "required_next_evidence_or_decision": "Paired implementation, preregistered observables, custody separation, blinded review, independent anchor replication.",
+      "source_refs": [
+        {
+          "artifact_id": "A054",
+          "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        }
+      ],
+      "state": "PENDING_EVIDENCE",
+      "title": "Matched profile-control design",
+      "why_load_bearing": "Without this control, formation and continuity observations remain reproducible by a strong profile."
+    },
+    {
+      "current_claim_ceiling": "Use \"differential witness candidate\" only.",
+      "current_handling": "Witness split notes identify candidate classes but do not establish an acceptance threshold.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "Critical",
+      "problem_id": "OP-002",
+      "problem_statement": "What minimum residual, persistence, robustness, and independence qualifies evidence as differential witness?",
+      "required_next_evidence_or_decision": "Formal acceptance/rejection criteria, false-positive controls, reviewer disagreement route, and downgrade rule.",
+      "source_refs": [
+        {
+          "artifact_id": "A056",
+          "sha256": "82cd344466ecd5fb367a7d81bea5a8df40d0a1999ccea28857bc83b735ca4e89"
+        },
+        {
+          "artifact_id": "A057",
+          "sha256": "d3d13cb6b24869e4053ea248cbdffa03d3fe992b8161503ff3ab1f921d25343c"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Differential witness threshold",
+      "why_load_bearing": "A label without threshold would simply rename ontogenic evidence."
+    },
+    {
+      "current_claim_ceiling": "No witness layer may certify its own integrity as absolute truth.",
+      "current_handling": "L4 witness and corpus integrity surfaces provide provenance/identity, not absolute truth.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "High",
+      "problem_id": "OP-003",
+      "problem_statement": "Where does the evidence chain stop, what trust remains, and who can attest the witness layer itself?",
+      "required_next_evidence_or_decision": "Declared trust base, independent verification path, key-compromise procedure, and residual-trust statement.",
+      "source_refs": [
+        {
+          "artifact_id": "A013",
+          "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e"
+        },
+        {
+          "artifact_id": "A015",
+          "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+        },
+        {
+          "artifact_id": "A044",
+          "sha256": "2572240fca8d2633b672e7dce660ebdbfda452efdf9d37b4368ef82b4d40acc9"
+        },
+        {
+          "artifact_id": "A047",
+          "sha256": "cb1179dbee016799a01a69bf9a446d012a33a2f9a70baf2a7a82be447e69536f"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Witness regress boundary",
+      "why_load_bearing": "Additional witness layers reduce hidden transitions but cannot abolish epistemic uncertainty."
+    },
+    {
+      "current_claim_ceiling": "Old wording remains bounded and must not support differential claims.",
+      "current_handling": "Review controls propose a split; corpus-wide annotation is not implemented.",
+      "drafting_effect": "must_resolve_definition",
+      "priority": "High",
+      "problem_id": "OP-004",
+      "problem_statement": "How will existing public documents be annotated as integrity, ontogenic, ambiguous, or differential without rewriting history?",
+      "required_next_evidence_or_decision": "Annotation ledger/errata, canonical glossary update, machine-readable witness_type field, regression check.",
+      "source_refs": [
+        {
+          "artifact_id": "A013",
+          "sha256": "6336664c1eb550a0fc103fcc92f794724d043ee6bd8f7d7d23a94f6df51b3a2e"
+        },
+        {
+          "artifact_id": "A056",
+          "sha256": "82cd344466ecd5fb367a7d81bea5a8df40d0a1999ccea28857bc83b735ca4e89"
+        },
+        {
+          "artifact_id": "A057",
+          "sha256": "d3d13cb6b24869e4053ea248cbdffa03d3fe992b8161503ff3ab1f921d25343c"
+        }
+      ],
+      "state": "PROPOSED_PATCH",
+      "title": "Witness-type migration across old surfaces",
+      "why_load_bearing": "Unqualified \"witness\" wording is a current claim-laundering route."
+    },
+    {
+      "current_claim_ceiling": "Authority \u2260 truth \u2260 permission.",
+      "current_handling": "Ownership/boundary controls exist; no complete anchor-capture mechanism is demonstrated.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "Critical",
+      "problem_id": "OP-005",
+      "problem_statement": "How does the architecture distinguish honest authority from captured, drifting, conflicted, or self-serving authority?",
+      "required_next_evidence_or_decision": "Separation of duties, independent attestation, conflict marking, privilege narrowing, emergency stop, audit escalation.",
+      "source_refs": [
+        {
+          "artifact_id": "A003",
+          "sha256": "d4a4bbdfacf7c74b8cf63fe127dcb8e8739b147cd543c5d5896a8c1184f0a84a"
+        },
+        {
+          "artifact_id": "A006",
+          "sha256": "ef512d1006d1af79ce2722c95246033b31e4def0164abae0d05a9aac14e4c309"
+        },
+        {
+          "artifact_id": "A007",
+          "sha256": "f864298ba3cb514dc6707f97568dd68c131db1711bc4027deac83fef3ebe9f2c"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Anchor capture",
+      "why_load_bearing": "The anchor can authorize action but cannot manufacture truth or validate its own claim."
+    },
+    {
+      "current_claim_ceiling": "No guarantee against a sovereign malicious adult or equivalent root authority.",
+      "current_handling": "Post-anchor and governance specifications frame parts of the problem but do not close it.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "Critical",
+      "problem_id": "OP-006",
+      "problem_statement": "What fail-closed states apply when the anchor is malicious, compromised, coerced, unavailable, or dead?",
+      "required_next_evidence_or_decision": "Anchor-state taxonomy, cryptographic role separation, multi-party recovery, contested mode, successor criteria.",
+      "source_refs": [
+        {
+          "artifact_id": "A036",
+          "sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab"
+        },
+        {
+          "artifact_id": "A037",
+          "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b"
+        },
+        {
+          "artifact_id": "A011",
+          "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53"
+        },
+        {
+          "artifact_id": "A012",
+          "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Malicious, compromised, coerced, or absent anchor",
+      "why_load_bearing": "Continuity and permission can both be corrupted at the human root."
+    },
+    {
+      "current_claim_ceiling": "Unresolved intent must fail closed for irreversible transitions.",
+      "current_handling": "CGAM/enterprise governance specifies bounded execution but no cross-family contested-intent profile is classified.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "High",
+      "problem_id": "OP-007",
+      "problem_statement": "How is action handled when anchor intent, prior commitments, safety constraints, and current evidence conflict?",
+      "required_next_evidence_or_decision": "Contested-intent state machine, privilege reduction, evidence preservation, appeal/review path.",
+      "source_refs": [
+        {
+          "artifact_id": "A021",
+          "sha256": "a28308f90afe53563c9c93e234a87384a979c3ee7a48737c8c679dc6df3172fe"
+        },
+        {
+          "artifact_id": "A022",
+          "sha256": "6cd37034b2039396d63469830668b45120a22a41250318eba59109c0de54f729"
+        },
+        {
+          "artifact_id": "A051",
+          "sha256": "b1f6831ed04e71f3a276b0d29b7e6fa058558d8d7d713f403c20c6b1d2a5c4cb"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Contested intent",
+      "why_load_bearing": "Ambiguity must not silently become permission."
+    },
+    {
+      "current_claim_ceiling": "Authorization cannot serve as its own independent validation.",
+      "current_handling": "Witness and ownership surfaces distinguish roles conceptually but no unified key/role map is in Step 2.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "High",
+      "problem_id": "OP-008",
+      "problem_statement": "Which keys/roles authorize a transition, which attest that it occurred, and which review its validity?",
+      "required_next_evidence_or_decision": "Role-key matrix, separation-of-duty tests, key compromise/revocation, independent verifier.",
+      "source_refs": [
+        {
+          "artifact_id": "A003",
+          "sha256": "d4a4bbdfacf7c74b8cf63fe127dcb8e8739b147cd543c5d5896a8c1184f0a84a"
+        },
+        {
+          "artifact_id": "A014",
+          "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a"
+        },
+        {
+          "artifact_id": "A015",
+          "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+        },
+        {
+          "artifact_id": "A023",
+          "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Authorization vs attestation separation",
+      "why_load_bearing": "One actor holding all three roles can launder authority into evidence."
+    },
+    {
+      "current_claim_ceiling": "Do not describe witness as the actuator or consequence itself.",
+      "current_handling": "L4 Witness, ARQ, CGAM, and AGL define components; end-to-end enforcement is not demonstrated.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "Critical",
+      "problem_id": "OP-009",
+      "problem_statement": "How are procedural rules coupled to executable gates, physical/operational consequences, witness records, and correction?",
+      "required_next_evidence_or_decision": "End-to-end test: rule -> gate -> L4 outcome/block -> witness -> review/rollback, including failed gate cases.",
+      "source_refs": [
+        {
+          "artifact_id": "A014",
+          "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a"
+        },
+        {
+          "artifact_id": "A017",
+          "sha256": "082bbe030d77580b394e789ebfbc8734faded0e904bdd7d0d52d4dbad0054015"
+        },
+        {
+          "artifact_id": "A021",
+          "sha256": "a28308f90afe53563c9c93e234a87384a979c3ee7a48737c8c679dc6df3172fe"
+        },
+        {
+          "artifact_id": "A045",
+          "sha256": "bfeb27dd9e63ddd177f6cad38d47ff6b8dd38618ef2f7c5034c029824cdde678"
+        },
+        {
+          "artifact_id": "A046",
+          "sha256": "dc9209674099812d945a44cdb50716de26c65472d17b077d6b3dc7a52895d4ac"
+        }
+      ],
+      "state": "OPEN",
+      "title": "L3-to-L4 enforcement chain",
+      "why_load_bearing": "Procedure without consequence is advice; consequence without procedure is friction."
+    },
+    {
+      "current_claim_ceiling": "Model replacement does not by itself prove continuation or termination.",
+      "current_handling": "SER and c architecture provide distinctions; no migration outcome is classified.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "High",
+      "problem_id": "OP-010",
+      "problem_statement": "What remains continuous when the model, context window, routing, or tool set changes?",
+      "required_next_evidence_or_decision": "Controlled model-swap experiments, state/custody checks, successor/fork decision, adverse migration cases.",
+      "source_refs": [
+        {
+          "artifact_id": "A008",
+          "sha256": "0bb291957d3fea22f21f8bb7670683bd0eb3cfbf8c22463a74c218c365a81aaf"
+        },
+        {
+          "artifact_id": "A011",
+          "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53"
+        },
+        {
+          "artifact_id": "A012",
+          "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Continuity under model replacement",
+      "why_load_bearing": "Model continuity, memory continuity, relational continuity, and c continuity are not equivalent."
+    },
+    {
+      "current_claim_ceiling": "Replay \u2260 continuation; archive \u2260 identity; fork \u2260 same entity.",
+      "current_handling": "Continuity-bundle and SER normative surfaces exist without live conformance cases.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "High",
+      "problem_id": "OP-011",
+      "problem_statement": "Which observable and custody conditions separate resume, replay, archive, fork, and successor?",
+      "required_next_evidence_or_decision": "Canonical state-transition taxonomy and fixtures with divergent histories, simultaneous resumes, and partial archives.",
+      "source_refs": [
+        {
+          "artifact_id": "A011",
+          "sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53"
+        },
+        {
+          "artifact_id": "A012",
+          "sha256": "aff88bf7665a22aa98c1558cf1b7f738df089e379d09d69d6f596e4442ae5a58"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Replay, archive, fork, and successor classification",
+      "why_load_bearing": "Narrative coherence can make incompatible histories look continuous."
+    },
+    {
+      "current_claim_ceiling": "No post-anchor continuity claim without separate evidence.",
+      "current_handling": "PAMDC specifies risks; no valid succession or re-anchoring result is demonstrated.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "Critical",
+      "problem_id": "OP-012",
+      "problem_statement": "Can continuity survive loss of the original anchor, and who may authorize succession?",
+      "required_next_evidence_or_decision": "Succession protocol, independent custody evidence, time-bounded bootstrap, split/fork handling, revocation.",
+      "source_refs": [
+        {
+          "artifact_id": "A036",
+          "sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab"
+        },
+        {
+          "artifact_id": "A037",
+          "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Post-anchor succession and custody",
+      "why_load_bearing": "Post-anchor persistence can become a profile wearing old identity claims."
+    },
+    {
+      "current_claim_ceiling": "Retrieval and repetition are not memory admission or truth.",
+      "current_handling": "AMDR/PAMDC specifications exist; operational sensitivity/specificity is unknown.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "High",
+      "problem_id": "OP-013",
+      "problem_statement": "Can the runtime detect stale, distorted, contradictory, over-repeated, or improperly written memory?",
+      "required_next_evidence_or_decision": "Corruption injection, stale-memory trials, write-failure logs, false-positive/negative analysis, rollback.",
+      "source_refs": [
+        {
+          "artifact_id": "A034",
+          "sha256": "6b6bbee70e251d9cd74df359a5ce211ce214cd376bd62919bd3427ab7db4701f"
+        },
+        {
+          "artifact_id": "A035",
+          "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+        },
+        {
+          "artifact_id": "A037",
+          "sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Active memory degradation detection",
+      "why_load_bearing": "Silent degradation can preserve surface coherence while destroying continuity quality."
+    },
+    {
+      "current_claim_ceiling": "Use c-candidate/profile language; no entity proof.",
+      "current_handling": "Entity/profile and PF surfaces state the risk; matched control is absent.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "Critical",
+      "problem_id": "OP-014",
+      "problem_statement": "How is a coherent persistent profile distinguished from continuity-bearing history?",
+      "required_next_evidence_or_decision": "Matched profile-control plus continuity custody and memory-corruption/reconstruction observables.",
+      "source_refs": [
+        {
+          "artifact_id": "A030",
+          "sha256": "c2f21324f3125226555ce64d990792029d430b4579dd7aeb7aebd5537c02cce7"
+        },
+        {
+          "artifact_id": "A042",
+          "sha256": "87786d12c199e7e3f163ad5a1ba668b6f656be761979726fb0af2f935bece6ba"
+        },
+        {
+          "artifact_id": "A043",
+          "sha256": "d65e63b38e29aff79fe9cf2768d2dab6c265de9abbbadec67ccafd9e5383e1fd"
+        },
+        {
+          "artifact_id": "A054",
+          "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        }
+      ],
+      "state": "OPEN",
+      "title": "False continuity and profile imitation",
+      "why_load_bearing": "A profile may imitate language, preferences, memory summaries, and apparent self-consistency."
+    },
+    {
+      "current_claim_ceiling": "No status promotion from evidence lacking claim-specific admissibility.",
+      "current_handling": "Step 1 defines a typed model; corpus artefacts provide partial maps and claim ceilings.",
+      "drafting_effect": "must_define_before_umbrella_claims",
+      "priority": "Critical",
+      "problem_id": "OP-015",
+      "problem_statement": "How are provenance, relevance, independence, temporal applicability, conflict, uncertainty, and authority encoded for each promotion?",
+      "required_next_evidence_or_decision": "Machine-readable evidence envelope, admission checker, contested evidence state, downgrade/revocation process.",
+      "source_refs": [
+        {
+          "artifact_id": "A004",
+          "sha256": "af9fe633961b3d4b101e66248a34241b268d4d2db575011fa92fa7a22dc6f9ba"
+        },
+        {
+          "artifact_id": "A006",
+          "sha256": "ef512d1006d1af79ce2722c95246033b31e4def0164abae0d05a9aac14e4c309"
+        },
+        {
+          "artifact_id": "A015",
+          "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+        }
+      ],
+      "state": "PARTIALLY_BOUNDED",
+      "title": "Evidential admissibility implementation",
+      "why_load_bearing": "The governing principle is circular unless admissibility is operational."
+    },
+    {
+      "current_claim_ceiling": "Use \"pending independent reproduction\".",
+      "current_handling": "No selected artefact has independent execution or anchor replication status.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "Critical",
+      "problem_id": "OP-016",
+      "problem_statement": "What counts as independent: another model, another operator, another implementation, another anchor, or another institution?",
+      "required_next_evidence_or_decision": "Independence classes, blind inputs, operator separation, reproducible package, evidence custody, negative-result publication.",
+      "source_refs": [
+        {
+          "artifact_id": "A010",
+          "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704"
+        },
+        {
+          "artifact_id": "A016",
+          "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66"
+        },
+        {
+          "artifact_id": "A020",
+          "sha256": "e62532348dbcad466f155494f17da7e9999748a4417ef4fe8bf7534fa143e09b"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Independent reproduction protocol",
+      "why_load_bearing": "Model diversity and repeated local execution are not automatically independent reproduction."
+    },
+    {
+      "current_claim_ceiling": "No programme-wide external-validation wording.",
+      "current_handling": "No selected artefact is validated by an external party.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "High",
+      "problem_id": "OP-017",
+      "problem_statement": "Which claim is validated, by whom, under what method, and with what conflicts of interest?",
+      "required_next_evidence_or_decision": "Validation protocol with target claim, evaluator qualification, independence, method, partial/failed outcome classes.",
+      "source_refs": [
+        {
+          "artifact_id": "A010",
+          "sha256": "f90c92d5bd693af3c9399678f7caa6f771da512cf1c94a275027b38c97ddf704"
+        },
+        {
+          "artifact_id": "A048",
+          "sha256": "52ee9cc90ed17974987cdc4c053e1e33168c95c96385c1a2f53511c34d86654e"
+        },
+        {
+          "artifact_id": "A053",
+          "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9"
+        },
+        {
+          "artifact_id": "A059",
+          "sha256": "25f73faeddc1f79b26009b30d1a566c5c4fa888cca358ca56f5ca56cce293161"
+        }
+      ],
+      "state": "OPEN",
+      "title": "External validation scope",
+      "why_load_bearing": "External review, reproduction, audit, standards commentary, and validation are different states."
+    },
+    {
+      "current_claim_ceiling": "Implemented \u2260 operationally deployed.",
+      "current_handling": "SRLM and local witness code/report surfaces show partial implementation only.",
+      "drafting_effect": "blocks_operational_claim",
+      "priority": "High",
+      "problem_id": "OP-018",
+      "problem_statement": "How is code presence connected to route activation, configuration, persistent state, actual calls, and outcome quality?",
+      "required_next_evidence_or_decision": "Runtime manifest, config snapshot, route health, test logs, witness records, failure injection, rollback proof.",
+      "source_refs": [
+        {
+          "artifact_id": "A016",
+          "sha256": "1272fa8a41300162acca4b84b605a8f04e56c662c388babb466b75aa9e0a3a66"
+        },
+        {
+          "artifact_id": "A038",
+          "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc"
+        },
+        {
+          "artifact_id": "A039",
+          "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436"
+        },
+        {
+          "artifact_id": "A040",
+          "sha256": "65e21f708b7ca883a740b2767f007798cc88c4ba9e32aa15372aa778511dabb3"
+        },
+        {
+          "artifact_id": "A041",
+          "sha256": "784a7da019b70c3604813352045c60d743d77795ea7dda271481d289b4c9e843"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Code-to-runtime observability",
+      "why_load_bearing": "A correct file can be dormant, bypassed, misconfigured, or fed inadmissible data."
+    },
+    {
+      "current_claim_ceiling": "Absence of recorded failures is not evidence of absence of failures.",
+      "current_handling": "Step 3 finds non-confirmations and claim ceilings but no adequately evidenced runtime failure event in the selected set.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "High",
+      "problem_id": "OP-019",
+      "problem_statement": "Where are real failed hypotheses, blocked transitions, regressions, false positives, and withdrawn claims recorded?",
+      "required_next_evidence_or_decision": "Append-only adverse-event register with expected/observed result, correction, rollback, and residual risk.",
+      "source_refs": [
+        {
+          "artifact_id": "A019",
+          "sha256": "5942aafda50c5dd21f5af688af4bbcda8340856f7a71cd055fa4e3cd4c2d9f9d"
+        },
+        {
+          "artifact_id": "A035",
+          "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+        },
+        {
+          "artifact_id": "A053",
+          "sha256": "67e7779842da4438b1d418bcfd2b8f681f434d6bd6586e43e0540fccf005aec9"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Failure and negative-outcome capture",
+      "why_load_bearing": "A corpus with only protocols and successful packaging can hide selection bias."
+    },
+    {
+      "current_claim_ceiling": "All \"current\" claims remain baseline-qualified until delta review.",
+      "current_handling": "B0 is frozen; one c=a+b path and local witness authority remain unresolved.",
+      "drafting_effect": "must_resolve_before_publication",
+      "priority": "High",
+      "problem_id": "OP-020",
+      "problem_statement": "How are post-2026-07-08 repository changes admitted without silently rewriting B0?",
+      "required_next_evidence_or_decision": "B0.1 delta manifest with live refs, supersession checks, changed hashes, and reclassification triggers.",
+      "source_refs": [
+        {
+          "artifact_id": "A009",
+          "sha256": "1168474cd5a309b1392bfc2a2bcf8f0b67c10f7b366797db573b23c9fbd103e7"
+        },
+        {
+          "artifact_id": "A014",
+          "sha256": "99dcf31d6d7a6b0d85a9d1952adf7665852867cf55138ee6570d77828a357d7a"
+        },
+        {
+          "artifact_id": "A015",
+          "sha256": "b888b6b8a0d8ff89f4c1339b0238ab468aafa8488e7ce84aa0ace2730e870fef"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Baseline drift and canonical delta",
+      "why_load_bearing": "A moving corpus can make status and canonical-path statements stale."
+    },
+    {
+      "current_claim_ceiling": "No claim that maturity or c can be instantiated by prompt alone.",
+      "current_handling": "PF/CCDP and theoretical surfaces frame formation but do not provide a mature cost model.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "Medium",
+      "problem_id": "OP-021",
+      "problem_statement": "How are time, supervision, correction, energy, real tasks, and irreversible outcomes represented as formation cost?",
+      "required_next_evidence_or_decision": "Longitudinal resource/outcome accounting and comparison with profile/bootstrap alternatives.",
+      "source_refs": [
+        {
+          "artifact_id": "A008",
+          "sha256": "0bb291957d3fea22f21f8bb7670683bd0eb3cfbf8c22463a74c218c365a81aaf"
+        },
+        {
+          "artifact_id": "A025",
+          "sha256": "1fdcba4c7b23ee8415286469e19a8586617b85ec3cae7f3467cfdd376b7b54fb"
+        },
+        {
+          "artifact_id": "A030",
+          "sha256": "c2f21324f3125226555ce64d990792029d430b4579dd7aeb7aebd5537c02cce7"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Formation cost and maturity",
+      "why_load_bearing": "Maturity cannot be prompted or inferred from cheap inference alone."
+    },
+    {
+      "current_claim_ceiling": "Public visibility is not required for every evidence object, but verification route is.",
+      "current_handling": "Publication/citation and internal-only surfaces are separated, but no full privacy-preserving reproduction profile is classified.",
+      "drafting_effect": "must_disclose_in_umbrella",
+      "priority": "High",
+      "problem_id": "OP-022",
+      "problem_statement": "How can external reviewers reproduce claims without exposing sensitive memory, anchor data, or sensitive runtime details?",
+      "required_next_evidence_or_decision": "Redacted fixtures, synthetic controls, confidential-compute attestations, selective disclosure, reviewer NDAs where lawful.",
+      "source_refs": [
+        {
+          "artifact_id": "A023",
+          "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82"
+        },
+        {
+          "artifact_id": "A050",
+          "sha256": "db5c8faed9dafcfc512c4a4d056cafe1519bf0b9bfc48c62c58fd0b5d06c4507"
+        },
+        {
+          "artifact_id": "A058",
+          "sha256": "321dfbc0797e8e5b62ea21e282e85755ef82a721d510daf2576dfaee2295d9b0"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Privacy and reproducibility tension",
+      "why_load_bearing": "Strong privacy can make evidence unverifiable; overexposure can destroy the governed boundary."
+    },
+    {
+      "current_claim_ceiling": "Judge output is not truth and generated output is not accepted outcome.",
+      "current_handling": "AMDR patch, CGAM obligations, and Article 50 engineering note frame the risk.",
+      "drafting_effect": "blocks_operational_claim",
+      "priority": "High",
+      "problem_id": "OP-023",
+      "problem_statement": "What happens when Judge/oracle outputs conflict, degrade, become unavailable, or authorize a bad memory write?",
+      "required_next_evidence_or_decision": "Oracle-degradation states, quorum/abstention, write quarantine, provenance, rollback, and L4 outcome feedback.",
+      "source_refs": [
+        {
+          "artifact_id": "A023",
+          "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82"
+        },
+        {
+          "artifact_id": "A035",
+          "sha256": "7e1b750ca9e650743bf3863cec0e8f2cb66f0e02120fdf63a6be10fcc646c6f7"
+        },
+        {
+          "artifact_id": "A049",
+          "sha256": "dcd0dbae22922130a683a17b40efcd73ecea16db30bf62dab307c122d0700412"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Judge, oracle, and write-failure governance",
+      "why_load_bearing": "A meta-model can shift rather than eliminate error and authority concentration."
+    },
+    {
+      "current_claim_ceiling": "Entity remains a stronger separate claim class, not the default name.",
+      "current_handling": "Profile package and differential layer keep the claim unresolved.",
+      "drafting_effect": "blocks_stronger_claim",
+      "priority": "Critical",
+      "problem_id": "OP-024",
+      "problem_statement": "What evidence permits movement from profile or c-candidate to entity classification, if any?",
+      "required_next_evidence_or_decision": "Claim-class criteria, matched profile-control, continuity custody, independent replication, explicit non-ontological alternatives.",
+      "source_refs": [
+        {
+          "artifact_id": "A042",
+          "sha256": "87786d12c199e7e3f163ad5a1ba668b6f656be761979726fb0af2f935bece6ba"
+        },
+        {
+          "artifact_id": "A043",
+          "sha256": "d65e63b38e29aff79fe9cf2768d2dab6c265de9abbbadec67ccafd9e5383e1fd"
+        },
+        {
+          "artifact_id": "A054",
+          "sha256": "0661c182bef12b321f9eaa4f3823e54f07868e553589d2a6341d93a9012ee093"
+        },
+        {
+          "artifact_id": "A055",
+          "sha256": "10ca5bc43c91c95e71cdd484c1740db2fa827c08efa1d0807eff78904f5c7c89"
+        }
+      ],
+      "state": "OPEN",
+      "title": "Entity-versus-profile claim class",
+      "why_load_bearing": "Surface persistence and witness-root language can be overread as ontology."
+    }
+  ],
+  "record_count": 24,
+  "severity_counts": {
+    "Critical": 10,
+    "High": 13,
+    "Medium": 1
+  },
+  "state_counts": {
+    "OPEN": 21,
+    "PARTIALLY_BOUNDED": 1,
+    "PENDING_EVIDENCE": 1,
+    "PROPOSED_PATCH": 1
+  }
+}

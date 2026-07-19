@@ -1,0 +1,75 @@
+{
+  "audience_routes": [
+    {
+      "audience": "Policy readers",
+      "route": "Article 50 transparency -> Evidence -> Open problems",
+      "url": "/publications/article50-transparency-submission/"
+    },
+    {
+      "audience": "Engineers",
+      "route": "CGAM -> L4 -> SER -> Current state",
+      "url": "/publications/c-governed-cli-agent-mesh/"
+    },
+    {
+      "audience": "Researchers",
+      "route": "Glossary -> Distinctions -> Protocol map -> Failures",
+      "url": "/glossary/"
+    },
+    {
+      "audience": "Independent reviewers",
+      "route": "Current state -> JSON endpoints -> Open problems",
+      "url": "/corpus/current-state/"
+    }
+  ],
+  "baseline_id": "B0",
+  "document_id": "living-corpus-entry-copy-v62",
+  "hero_eyebrow": "Living corpus entry",
+  "hero_lead": "This page is the shortest route into the public corpus. It starts from one rule - no status elevation without admissible evidence - and shows how the programme separates definition, implementation, testing, reproduction, validation, authority, continuity, and public claims.",
+  "last_verified": "2026-07-19",
+  "overview_paragraphs": [
+    "The corpus is easiest to read as a control system rather than as a publication timeline. The central rule is that a weaker state must not be described or used as a stronger one until evidence supports the transition. A definition does not become an implementation; an implementation does not become a tested system; a test by the same operator does not become independent reproduction; a public page does not become external validation.",
+    "In `c = a + b`, `c` names the governed candidate entity layer, `a` names the accountable human anchor, and `b` names bounded procedures, memory, models, tools, routes, witnesses, and execution surfaces. The `+` is not arithmetic addition. It is a governed binding: a rule for when human authority, procedural substrate, evidence, and witness records may be combined without laundering one status into another.",
+    "L3 and L4 are the bridge between rules and consequence. L3 contains classifications, permissions, procedures, review conditions, and admissibility rules. L4 is the physical and operational boundary: time, energy, cost, latency, hardware, custody, irreversible outcomes, and failure. A witness record connects the two by saying what was attempted, under which authority, with which evidence, and what happened.",
+    "The current B0 projection is intentionally conservative. It identifies 60 load-bearing artifacts across 17 families, maps 17 protocol families, records 24 open problems, and lists 18 failure or non-confirmation records. It reports zero adequately evidenced runtime failure events in the selected B0 set, and it keeps independent reproduction, external validation, and strict matched profile-control as not identified."
+  ],
+  "routes": [
+    {
+      "description": "Architecture, current status, source controls, and claim boundary.",
+      "title": "Overview",
+      "url": "/corpus/"
+    },
+    {
+      "description": "Seventeen protocol-family transitions and the risks each blocks.",
+      "title": "Protocol map",
+      "url": "/corpus/protocol-map/"
+    },
+    {
+      "description": "B0 status matrix, counts, implementation surfaces, and publication deltas.",
+      "title": "Current state",
+      "url": "/corpus/current-state/"
+    },
+    {
+      "description": "Twenty-four unresolved questions, priorities, drafting effects, and next evidence needs.",
+      "title": "Open problems",
+      "url": "/corpus/open-problems/"
+    },
+    {
+      "description": "Eighteen failure or non-confirmation records, with no invented runtime failures.",
+      "title": "Failures",
+      "url": "/corpus/failures/"
+    },
+    {
+      "description": "Public-surface changes since B0, without status elevation.",
+      "title": "Changes",
+      "url": "/corpus/changes/"
+    }
+  ],
+  "self_check": [
+    "What is the central rule?",
+    "Which evidence would be needed before a definition becomes an implementation claim?",
+    "Which page lists the 24 unresolved problems?",
+    "What is explicitly not being claimed?"
+  ],
+  "start_here_description": "A first public route into the living corpus: governing principle, architecture, verified status, protocol map, open problems, failures, sources, and explicit non-claims.",
+  "start_here_title": "Start here"
+}
