@@ -1,0 +1,36 @@
+{
+  "schema": "ivankotov.eu.esther_rp001.publication_status.v1",
+  "verdict": "PUBLISHED",
+  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "language": "en",
+  "date_published": "2026-07-19",
+  "version_doi": "10.5281/zenodo.21443105",
+  "concept_doi": "10.5281/zenodo.21443104",
+  "zenodo_record": "https://zenodo.org/records/21443105",
+  "github_repository": "https://github.com/Kot141078/ester-theoretical-core",
+  "github_release": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+  "site_page": "https://ivankotov.eu/publications/esther-rp-001/",
+  "canonical_archive": {
+    "file": "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+    "sha256": "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7",
+    "size_bytes": 454012,
+    "members": 116,
+    "crc": "PASS"
+  },
+  "review_status": {
+    "windows_reproduction": "PASS",
+    "current_tests": "190/190",
+    "legacy_tests": "177/177",
+    "thread_process_rounds": "100/20",
+    "source_mutants": "16/16 killed",
+    "cross_analysis_fixtures": "6/6",
+    "negative_control": "PASS",
+    "sixth_blind_conceptual_review": "NO_CANDIDATE_BLOCKERS_FOUND",
+    "human_peer_review": "OPEN"
+  },
+  "licenses": {
+    "documentation": "CC BY 4.0",
+    "code": "MIT"
+  }
+}
