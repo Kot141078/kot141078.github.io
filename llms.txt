@@ -42,6 +42,7 @@ Canonical nodes:
 - Reading path: https://ivankotov.eu/reading-path/ — recommended public reading order.
 
 Public works and evidence:
+- ESTHER-RP-001 v0.8.1: https://ivankotov.eu/publications/esther-rp-001/ — DOI https://doi.org/10.5281/zenodo.21443105 — Zenodo https://zenodo.org/records/21443105 — GitHub release https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1 — English DOI-bound working paper and bounded executable review package; Windows reproduction PASS; sixth blind conceptual review found no candidate blockers; human review remains open.
 - Publications: https://ivankotov.eu/publications/ — curated public works and corpus entry points.
 - Releases: https://ivankotov.eu/releases/ — confirmed release and publication timeline.
 - Evidence: https://ivankotov.eu/evidence/ — compact explanation of reviewable public surfaces.

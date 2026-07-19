@@ -13,6 +13,28 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "esther-rp-001-v0-8-1",
+      "title": "ESTHER-RP-001 v0.8.1: Centered Agency Under Persistent Uncertainty",
+      "type": "working paper and bounded executable research package",
+      "role": "causal memory / selective operational commitment / open external review",
+      "primary_url": "https://ivankotov.eu/publications/esther-rp-001/",
+      "doi": "10.5281/zenodo.21443105",
+      "doi_url": "https://doi.org/10.5281/zenodo.21443105",
+      "concept_doi": "10.5281/zenodo.21443104",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21443104",
+      "zenodo_record": "https://zenodo.org/records/21443105",
+      "github": "https://github.com/Kot141078/ester-theoretical-core",
+      "release": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+      "date": "2026-07-19",
+      "version": "0.8.1",
+      "language": "en",
+      "archive": "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+      "archive_sha256": "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7",
+      "status": "published; human conceptual review and endpoint-rater pilot open",
+      "license_docs": "CC BY 4.0",
+      "license_code": "MIT"
+    },
+    {
       "id": "agi",
       "title": "Advanced Global Intelligence (AGI)",
       "type": "repo",
