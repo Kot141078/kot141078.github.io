@@ -1,4 +1,0 @@
-Finalize ESTHER-RP-001 v0.8.1 public indexes
-Version DOI: 10.5281/zenodo.21443105
-Concept DOI: 10.5281/zenodo.21443104
-Published: 2026-07-19
