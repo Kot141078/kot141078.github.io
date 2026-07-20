@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Vision — The Future I Am Building Toward",
+  "description": "A personal view of temporal AI presence, human development, digital sovereignty, robotics, verified experience, and Advanced Global Intelligence.",
+  "author": {
+    "@type": "Person",
+    "name": "Ivan Kotov",
+    "url": "https://ivankotov.eu/about/",
+    "sameAs": [
+      "https://orcid.org/0009-0009-6002-9845",
+      "https://github.com/Kot141078"
+    ]
+  },
+  "mainEntityOfPage": "https://ivankotov.eu/vision/",
+  "inLanguage": "en",
+  "dateModified": "2026-07-20",
+  "version": "0.1",
+  "keywords": [
+    "Temporal AI Presence",
+    "Advanced Global Intelligence",
+    "c = a + b",
+    "L4",
+    "digital sovereignty",
+    "long-lived AI",
+    "Experience Artifacts",
+    "robotics",
+    "digital passport"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Ivan Kotov — Advanced Global Intelligence",
+    "url": "https://ivankotov.eu/"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Temporal AI presence"
+    },
+    {
+      "@type": "Thing",
+      "name": "Advanced Global Intelligence"
+    },
+    {
+      "@type": "Thing",
+      "name": "Digital sovereignty"
+    },
+    {
+      "@type": "Thing",
+      "name": "Long-lived AI systems"
+    }
+  ]
+}

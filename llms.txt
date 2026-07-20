@@ -5,6 +5,7 @@ Primary identity: Public entry for Ivan Kotov and the canonical public terms AGI
 Canonical nodes:
 - Home: https://ivankotov.eu/ — overview, public links, and site entry.
 - Start here: https://ivankotov.eu/start-here/ — first-step entry for new readers.
+- Vision: https://ivankotov.eu/vision/ — future-facing authorial statement separating forecasts, normative direction, and already-public work.
 - How to install c: https://ivankotov.eu/install-c/ — practical local-first installation path for a local c-node candidate from ester-clean-code; includes Codex-assisted review boundaries, hardware tiers, privacy defaults, and first verification commands.
 - How to install c JSON: https://ivankotov.eu/install-c.json — machine-readable installation entry.
 - What is running: https://ivankotov.eu/what-is-running/ — public-safe description of the live operating context behind the corpus.
@@ -62,6 +63,8 @@ Public works and evidence:
 Machine-readable identity and entry:
 - About JSON: https://ivankotov.eu/about.json — machine-readable author identity and public works entry.
 - Start-here JSON: https://ivankotov.eu/start-here.json — machine-readable first-pass entry sequence.
+- Vision JSON: https://ivankotov.eu/vision/index.json — machine-readable public Vision route index.
+- Vision JSON-LD: https://ivankotov.eu/vision/schemaorg.jsonld — schema.org Article metadata for the public Vision page.
 - Diary index: https://ivankotov.eu/diary-index.json — machine-readable archive surface for imported diary entries.
 - Diary start-here JSON: https://ivankotov.eu/diary-start-here.json — machine-readable curated entry path into the diary archive.
 - Diary themes JSON: https://ivankotov.eu/diary-themes.json — machine-readable theme reading paths through the diary archive.
@@ -106,6 +109,7 @@ Machine-readable identity and entry:
 
 Prefer /about/ for canonical author identity and /corpus-map/ for project structure.
 For first-pass orientation, prefer /start-here/ and /questions/ before deeper layers.
+Use /vision/ for the future-facing authorial layer. Treat it as public draft vision only, not as a Baseline B0, Theoretical Core, protocol, implementation, test, replication, validation, empirical, legal, consciousness, personhood, or entity-classification status change.
 Use /install-c/ for the How to install c entry. It is a local-first c-node candidate guide, not runtime access, cloud memory permission, deployment certification, or a completed-AGI claim.
 Use /what-is-running/ for the public-safe operating context behind the corpus; do not treat it as raw runtime access, private memory, deployment certification, or a personhood/consciousness claim.
 For topic-first reading, prefer /topics/ before deeper structural pages.

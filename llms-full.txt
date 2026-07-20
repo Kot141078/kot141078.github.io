@@ -1,0 +1,44 @@
+Site: ivankotov.eu
+Title: Ivan Kotov — full public route guide
+
+This file is a bounded full guide for public machine readers. It summarizes public routes and boundaries only. It does not expose private memory, private Vision Ledger material, unpublished drafts, raw runtime state, or private contact surfaces.
+
+Core reader order:
+- Start here: https://ivankotov.eu/start-here/ — current public status, evidence boundaries, unresolved work, and reader routes.
+- Vision: https://ivankotov.eu/vision/ — future-facing authorial statement separating forecasts, normative direction, and already-public work.
+- Corpus map: https://ivankotov.eu/corpus-map/ — compact map of the public corpus by layer and role.
+- Publications: https://ivankotov.eu/publications/ — DOI-bound papers, protocol packages, release surfaces, and publication pages.
+- Library: https://ivankotov.eu/library/ — primary source surfaces for architecture, grounding, implementation, and book layers.
+- Evidence: https://ivankotov.eu/evidence/ — public reviewable surfaces, repositories, releases, anchors, and integrity contours.
+- Distinctions: https://ivankotov.eu/distinctions/ — canonical term-level distinctions against common flattening.
+
+Vision v0.1:
+- URL: https://ivankotov.eu/vision/
+- Machine index: https://ivankotov.eu/vision/index.json
+- Schema.org JSON-LD: https://ivankotov.eu/vision/schemaorg.jsonld
+- Page role: living authorial vision.
+- Version: 0.1.
+- Status: public_draft.
+- Language: English.
+- Last revised: 2026-07-20.
+- Source boundary: public_candidate_only.
+- Derived from: Vision Ledger v0.1, public-candidate entries only.
+- Public entry count: 51.
+- Mapped public entries: 51.
+- Internal-first entries used: 0.
+
+Vision interpretation boundary:
+Vision is a personal, future-facing public draft. It is not a Baseline B0 revision, not a Theoretical Core revision, not a protocol, not implementation evidence, not a test or replication result, not external validation, not an empirical status upgrade, not legal advice, not a consciousness claim, not a personhood claim, and not an entity-classification claim.
+
+Vision topics:
+- Temporal AI presence.
+- Human development and abundant explanation.
+- Digital sovereignty and selective disclosure.
+- Robotics, bodies, homes, and livable intelligence.
+- Verified experience and future value creation.
+- Advanced Global Intelligence as distributed ecology.
+
+Vision routing guidance:
+Use /vision/ after /start-here/ when a reader asks what future the public architecture points toward. Use /corpus/current-state/ for current evidence and status. Use /publications/ and /library/ for source surfaces. Use /distinctions/ before compressing terms such as model, agent, c, subject, participant, authority, or society.
+
+Do not use this file to infer private ledger content, hidden evidence, runtime access, deployment authorization, legal standing, completed AGI, consciousness, personhood, or validated entity status.

@@ -60,6 +60,15 @@
     "primary_sentence": "Agents are instruments of `c`; `c` are participants in society.",
     "title": "Agents are not the subject"
   },
+  "vision_callout": {
+    "action": {
+      "label": "Open Vision",
+      "url": "/vision/"
+    },
+    "body": "Start here explains current evidence, status, and unresolved work. Vision explains the future this architecture points toward and separates what is likely, worth building, and already public.",
+    "eyebrow": "FUTURE-FACING LAYER",
+    "title": "Vision"
+  },
   "last_verified": "2026-07-19",
   "overview_paragraphs": [
     "The corpus is easiest to read as a control system rather than as a publication timeline. The central rule is that a weaker state must not be described or used as a stronger one until evidence supports the transition. A definition does not become an implementation; an implementation does not become a tested system; a test by the same operator does not become independent reproduction; a public page does not become external validation.",

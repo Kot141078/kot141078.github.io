@@ -175,6 +175,7 @@ def nav_markup(prefix: str, current: str) -> str:
     items = [
         ("Home", f"{prefix}"),
         ("Start here", f"{prefix}start-here/"),
+        ("Vision", f"{prefix}vision/"),
         ("Publications", "/publications/"),
         ("Diary", f"{prefix}diary/"),
         ("Topics", f"{prefix}topics/"),
@@ -2047,29 +2048,83 @@ def make_themes_payload(themes: list[ThemeInfo]) -> dict[str, object]:
 
 
 def make_tag_map_payload(tags: list[TagInfo]) -> dict[str, object]:
+    previous = previous_alias_orders()
     return {
         "site": SITE_URL,
         "page": DIARY_TAGS_URL,
         "canonical_tags": [
-            {"tag": tag.name, "slug": tag.slug, "count": tag.count, "page": tag.url, "aliases": tag.aliases}
+            {
+                "tag": tag.name,
+                "slug": tag.slug,
+                "count": tag.count,
+                "page": tag.url,
+                "aliases": preserve_alias_order(tag.slug, tag.aliases, previous),
+            }
             for tag in tags
         ],
     }
 
 
 def make_tags_payload(tags: list[TagInfo]) -> dict[str, object]:
+    previous = previous_alias_orders()
     return {
         "site": SITE_URL,
         "page": DIARY_TAGS_URL,
         "tags": [
-            {"name": tag.name, "slug": tag.slug, "count": tag.count, "page": tag.url, "aliases": tag.aliases}
+            {
+                "name": tag.name,
+                "slug": tag.slug,
+                "count": tag.count,
+                "page": tag.url,
+                "aliases": preserve_alias_order(tag.slug, tag.aliases, previous),
+            }
             for tag in tags
         ],
     }
 
 
+def previous_alias_orders() -> dict[str, list[str]]:
+    if not DIARY_TAGS_JSON.exists():
+        return {}
+    try:
+        payload = json.loads(DIARY_TAGS_JSON.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    orders: dict[str, list[str]] = {}
+    for item in payload.get("tags", []):
+        slug = item.get("slug")
+        aliases = item.get("aliases")
+        if isinstance(slug, str) and isinstance(aliases, list):
+            orders[slug] = [alias for alias in aliases if isinstance(alias, str)]
+    return orders
+
+
+def preserve_alias_order(slug: str, aliases: list[str], previous: dict[str, list[str]]) -> list[str]:
+    current = set(aliases)
+    ordered = [alias for alias in previous.get(slug, []) if alias in current]
+    remaining = [alias for alias in aliases if alias not in set(ordered)]
+    return ordered + sorted(remaining, key=lambda value: (value.lower(), value))
+
+
+def existing_feed_header() -> tuple[str, str] | None:
+    if not DIARY_FEED_XML.exists():
+        return None
+    text = DIARY_FEED_XML.read_text(encoding="utf-8", errors="ignore")
+    build_match = re.search(r"<lastBuildDate>([^<]+)</lastBuildDate>", text)
+    guid_match = re.search(r"<guid>([^<]+)</guid>", text)
+    if build_match and guid_match:
+        return build_match.group(1), guid_match.group(1)
+    return None
+
+
 def write_feed(entries: list[Entry]) -> None:
-    build_date = format_datetime(datetime.now(timezone.utc))
+    previous = existing_feed_header()
+    if previous and entries and previous[1] == entries[0].url:
+        build_date = previous[0]
+    elif entries:
+        build_date = entries[0].feed_date
+    else:
+        build_date = format_datetime(datetime(1970, 1, 1, tzinfo=timezone.utc))
     items = []
     for entry in entries:
         items.append(

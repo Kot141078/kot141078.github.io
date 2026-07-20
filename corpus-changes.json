@@ -76,10 +76,55 @@
         "status_effect": "editorial_only",
         "summary": "The Living Corpus now states explicitly that agents are bounded execution instruments inside b, while c is the continuity-bearing participant locus across agents, models, memory, commitments, witness, and consequence.",
         "title": "Agent instrument / c participant distinction"
+      },
+      {
+        "affected_status_axes": [],
+        "affected_surfaces": [
+          "Vision (/vision/)",
+          "Vision route index (/vision/index.json)",
+          "Vision schema.org JSON-LD (/vision/schemaorg.jsonld)",
+          "Start here (/start-here/)",
+          "Corpus map (/corpus-map/)",
+          "corpus changes projection (/corpus/changes/)",
+          "corpus changes JSON (/corpus-changes.json)"
+        ],
+        "change_id": "D-2026-07-20-VISION-LIVING-AUTHORIAL-LAYER-V64",
+        "claim_effect": "Adds a living, future-facing authorial page and machine-readable route surfaces. It does not alter Baseline B0, Theoretical Core, protocol, implementation, test, replication, validation, empirical, legal, consciousness, personhood, or entity-classification status.",
+        "date": "2026-07-20",
+        "event_class": "editorial_layer",
+        "evidence_refs": [
+          {
+            "type": "source_file",
+            "value": "content/vision/v0.1/VISION_PAGE_COPY_EN_v0_1.md"
+          },
+          {
+            "type": "source_file",
+            "value": "content/vision/v0.1/VISION_PAGE_DATA_v0_1.json"
+          },
+          {
+            "type": "source_file",
+            "value": "content/vision/v0.1/VISION_PAGE_SCHEMAORG_v0_1.jsonld"
+          },
+          {
+            "type": "source_file",
+            "value": "content/vision/v0.1/VISION_PAGE_SECTION_MAP_v0_1.csv"
+          },
+          {
+            "type": "builder",
+            "value": "tools/build_vision.py"
+          }
+        ],
+        "new_status": "Unchanged",
+        "note": "No change to Baseline B0, Theoretical Core, protocol, implementation, test, replication, validation, empirical, legal, consciousness, personhood, or entity-classification status.",
+        "previous_status": "Unchanged",
+        "public_url": "https://ivankotov.eu/vision/",
+        "status_effect": "editorial_only",
+        "summary": "Vision v0.1 is published as a public-draft, future-facing authorial layer with explicit claim boundaries and public-candidate-only source provenance.",
+        "title": "Vision living authorial layer v0.1 published"
       }
     ],
     "deltas_applied_through": "2026-07-20",
-    "document_id": "living-corpus-change-log-v63",
+    "document_id": "living-corpus-change-log-v64",
     "last_verified": "2026-07-20"
   },
   "endpoint": "/corpus-changes.json",

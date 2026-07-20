@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "title": "Vision — The Future I Am Building Toward",
+    "title_ru": "Vision — Будущее, к которому я строю путь",
+    "description": "A personal view of temporal AI presence, human development, digital sovereignty, robotics, verified experience, and Advanced Global Intelligence.",
+    "version": "0.1",
+    "status": "public_draft",
+    "route": "/vision/",
+    "canonical_url": "https://ivankotov.eu/vision/",
+    "author": "Ivan Kotov",
+    "language": "en",
+    "semantic_master_language": "ru",
+    "last_revised": "2026-07-20",
+    "derived_from": "Vision Ledger v0.1",
+    "source_boundary": "public_candidate_only",
+    "public_entry_count": 51
+  },
+  "hero": {
+    "eyebrow": "Living vision",
+    "title": "The Future I Am Building Toward",
+    "quote": "The future is not one intelligence above everyone. It is many forms of intelligence learning how to share reality.",
+    "ledger_ids": [
+      "V-001",
+      "V-053",
+      "V-056"
+    ]
+  },
+  "reading_lenses": [
+    {
+      "label": "Likely",
+      "text": "Intelligence becomes cheaper, more distributed, more persistent, and more physically embedded."
+    },
+    {
+      "label": "Worth building",
+      "text": "Local continuity, bounded authority, selective disclosure, repairable infrastructure, and livable intelligence."
+    },
+    {
+      "label": "Already public",
+      "text": "Architecture, code, protocols, publications, evidence boundaries, and narrative work are routed through the public corpus."
+    }
+  ],
+  "sections": [
+    {
+      "order": 0,
+      "slug": "hero",
+      "title_en": "The Future I Am Building Toward",
+      "title_ru": "Будущее, к которому я строю путь",
+      "role": "Central thesis and reading contract.",
+      "ledger_ids": [
+        "V-001",
+        "V-053",
+        "V-056"
+      ]
+    },
+    {
+      "order": 1,
+      "slug": "knowledge",
+      "title_en": "Knowledge Is Becoming Abundant",
+      "title_ru": "Знание становится изобильным",
+      "role": "Education, talent, human experience, and new entrances into science.",
+      "ledger_ids": [
+        "V-027",
+        "V-028",
+        "V-032",
+        "V-033"
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "from-agents-to-c",
+      "title_en": "From Models and Agents to c",
+      "title_ru": "От моделей и агентов к c",
+      "role": "Separate model, agent, continuity, maturity, and subjecthood.",
+      "ledger_ids": [
+        "V-001",
+        "V-004",
+        "V-005",
+        "V-006",
+        "V-007",
+        "V-009",
+        "V-010"
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "c-equals-a-plus-b",
+      "title_en": "c = a + b",
+      "title_ru": "c = a + b",
+      "role": "Explain governed binding.",
+      "ledger_ids": [
+        "V-002",
+        "V-003"
+      ]
+    },
+    {
+      "order": 4,
+      "slug": "time-memory",
+      "title_en": "Time, Memory, and the Right Not to Answer",
+      "title_ru": "Время, память и право не отвечать",
+      "role": "Temporal cognition beyond context length and storage.",
+      "ledger_ids": [
+        "V-013",
+        "V-014",
+        "V-015",
+        "V-016",
+        "V-017",
+        "V-025",
+        "V-026"
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "reality-before-rhetoric",
+      "title_en": "Reality Before Rhetoric",
+      "title_ru": "Реальность раньше риторики",
+      "role": "L4, witness, bounded authority, refusal, quarantine, and lineage.",
+      "ledger_ids": [
+        "V-018",
+        "V-019",
+        "V-020",
+        "V-021",
+        "V-022",
+        "V-023",
+        "V-024"
+      ]
+    },
+    {
+      "order": 6,
+      "slug": "children-attachment",
+      "title_en": "Children, Attachment, and Human Bonds",
+      "title_ru": "Дети, привязанность и человеческие связи",
+      "role": "Child-facing continuity, soft safety, attachment, and anti-capture.",
+      "ledger_ids": [
+        "V-028",
+        "V-029",
+        "V-030",
+        "V-031"
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "passport-sovereignty",
+      "title_en": "Identity, Sovereignty, and the Digital Passport",
+      "title_ru": "Идентичность, суверенность и цифровой паспорт",
+      "role": "Local identity, selective disclosure, repairability, and heterogeneous infrastructure.",
+      "ledger_ids": [
+        "V-035",
+        "V-036",
+        "V-038",
+        "V-039",
+        "V-040",
+        "V-041"
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "robots-bodies",
+      "title_en": "Robots, Bodies, and Livable Intelligence",
+      "title_ru": "Роботы, тела и пригодный для жизни интеллект",
+      "role": "Homes, wearables, robots, remote environments, and apprenticeship.",
+      "ledger_ids": [
+        "V-042",
+        "V-043",
+        "V-044",
+        "V-045",
+        "V-046",
+        "V-047",
+        "V-048"
+      ]
+    },
+    {
+      "order": 9,
+      "slug": "experience-economy",
+      "title_en": "From Tokens to Verified Experience",
+      "title_ru": "От токенов к проверенному опыту",
+      "role": "Learning, authority, provenance, and future model training.",
+      "ledger_ids": [
+        "V-032",
+        "V-049",
+        "V-050",
+        "V-051",
+        "V-052"
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "advanced-global-intelligence",
+      "title_en": "Advanced Global Intelligence",
+      "title_ru": "Advanced Global Intelligence",
+      "role": "Distributed ecology and social horizon.",
+      "ledger_ids": [
+        "V-053",
+        "V-054",
+        "V-055",
+        "V-056"
+      ]
+    }
+  ],
+  "deep_links": [
+    {
+      "label": "Start here",
+      "href": "/start-here/"
+    },
+    {
+      "label": "c = a + b",
+      "href": "/c-a-plus-b/"
+    },
+    {
+      "label": "L4",
+      "href": "/l4/"
+    },
+    {
+      "label": "SER",
+      "href": "/ser/"
+    },
+    {
+      "label": "What is running",
+      "href": "/what-is-running/"
+    },
+    {
+      "label": "Publications",
+      "href": "/publications/"
+    },
+    {
+      "label": "Qubit of Hope",
+      "href": "/qubit-of-hope/"
+    }
+  ],
+  "nonclaims": [
+    "Not every persistent AI system is c.",
+    "Continuity does not prove consciousness or personhood.",
+    "c does not eliminate inequality, manipulation, authoritarian politics, or technological risk.",
+    "L4 does not prove domination impossible.",
+    "Current law does not already recognise digital entities as legal subjects.",
+    "One architecture cannot predetermine all institutions of a future society."
+  ]
+}

@@ -318,6 +318,7 @@ def global_nav(route: str) -> str:
     nav = [
         ("/", "Home"),
         ("/start-here/", "Start here"),
+        ("/vision/", "Vision"),
         ("/diary/", "Diary"),
         ("/topics/", "Topics"),
         ("/library/", "Library"),
@@ -462,6 +463,18 @@ def instrument_participant_callout(callout: dict[str, Any]) -> str:
           </aside>"""
 
 
+def vision_route_callout(callout: dict[str, Any]) -> str:
+    action = callout.get("action") or {}
+    action_html = ""
+    if action.get("url") and action.get("label"):
+        action_html = f'\n          <div class="section-links"><a href="{e(action["url"])}">{e(action["label"])}</a></div>'
+    return f"""      <aside class="vision-route-callout" aria-labelledby="start-here-vision-callout-title">
+        <p class="section-label">{e(callout.get("eyebrow", "Future-facing layer"))}</p>
+        <h3 id="start-here-vision-callout-title">{e(callout.get("title", "Vision"))}</h3>
+        <p>{e(callout.get("body", ""))}</p>{action_html}
+      </aside>"""
+
+
 def self_check_items(items: list[Any]) -> str:
     rendered = []
     for item in items:
@@ -559,6 +572,7 @@ def render_start_here(data: dict[str, Any]) -> str:
         for item in sources[:10]
     )
     callout = instrument_participant_callout(copy["instrument_participant_callout"])
+    vision_callout = vision_route_callout(copy["vision_callout"])
     self_check = self_check_items(copy["self_check"])
     body = f"""      <section class="hero corpus-hero">
         <p class="eyebrow">{e(copy["hero_eyebrow"])}</p>
@@ -567,6 +581,8 @@ def render_start_here(data: dict[str, Any]) -> str:
         {status_chips([("Baseline", "B0"), ("Last verified", LAST_VERIFIED), ("Deltas through", data["changes"]["deltas_applied_through"])])}
         {local_nav("/start-here/")}
       </section>
+
+{vision_callout}
 
       <section class="section" id="architecture-in-90-seconds">
 {section_head("Architecture", "Architecture in 90 seconds")}
