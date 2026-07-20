@@ -374,6 +374,99 @@
   overflow-wrap: anywhere;
 }
 
+.instrument-callout {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-left: 5px solid color-mix(in srgb, #426b54 72%, var(--accent));
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--accent-soft) 36%, var(--bg-panel));
+  padding: 1rem;
+}
+
+.instrument-callout h3,
+.instrument-callout p {
+  margin: 0;
+}
+
+.corpus-card-note {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.self-check-hints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.self-check-hints a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.55rem;
+  background: color-mix(in srgb, var(--bg-panel) 88%, white);
+  color: var(--accent);
+  font-size: 0.86rem;
+  line-height: 1.2;
+}
+
+.distinction-comparison {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.distinction-row {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.72fr) repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--bg-panel) 94%, white);
+  padding: 0.78rem 0.88rem;
+}
+
+.distinction-row.is-head {
+  background: color-mix(in srgb, var(--accent-soft) 50%, var(--bg-panel));
+  color: var(--text);
+  font-weight: 700;
+}
+
+.distinction-cell {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.distinction-cell code,
+.instrument-callout code,
+.corpus-card-note code {
+  white-space: normal;
+}
+
+.distinction-rule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.distinction-rule {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--bg-panel) 94%, white);
+  padding: 0.85rem;
+}
+
+.distinction-rule p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
 .corpus-diagram {
   margin: 0;
   overflow-x: auto;
@@ -599,8 +692,28 @@
   .corpus-metric-grid,
   .corpus-card-grid,
   .corpus-filter-bar,
-  .corpus-record-grid {
+  .corpus-record-grid,
+  .distinction-rule-grid {
     grid-template-columns: 1fr;
+  }
+
+  .distinction-row {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .distinction-row.is-head {
+    display: none;
+  }
+
+  .distinction-cell[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 0.12rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   .corpus-local-nav a,

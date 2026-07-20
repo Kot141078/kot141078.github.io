@@ -29,16 +29,63 @@
         "public_url": "https://ivankotov.eu/corpus/",
         "status_effect": "editorial_projection_only",
         "title": "Living Corpus Entry Layer v62 added to the website"
+      },
+      {
+        "affected_status_axes": [],
+        "affected_surfaces": [
+          "Start here (/start-here/)",
+          "Distinctions (/distinctions/)",
+          "Glossary (/glossary/)",
+          "corpus changes projection (/corpus/changes/)",
+          "corpus changes JSON (/corpus-changes.json)"
+        ],
+        "change_id": "D-2026-07-20-AGENT-C-DISTINCTION-V63",
+        "claim_effect": "Clarifies the architectural separation between delegated agent work and the continuity-bearing participant role of c. No Baseline B0, Theoretical Core, protocol, implementation, reproduction, validation, empirical, legal, personhood, or entity-classification status is elevated.",
+        "date": "2026-07-20",
+        "event_class": "editorial_clarification",
+        "evidence_refs": [
+          {
+            "type": "implementation_commit",
+            "value": "self: V63 implementation commit containing this delta record"
+          },
+          {
+            "type": "source_file",
+            "value": "content/corpus/entry-copy.json"
+          },
+          {
+            "type": "source_file",
+            "value": "distinctions/index.html"
+          },
+          {
+            "type": "source_file",
+            "value": "glossary/index.html"
+          },
+          {
+            "type": "source_file",
+            "value": "distinctions.json"
+          },
+          {
+            "type": "builder",
+            "value": "tools/build_corpus.py"
+          }
+        ],
+        "new_status": "Unchanged",
+        "note": "No change to Baseline B0, Theoretical Core, implementation, test, replication, validation, empirical, legal, personhood, or entity-classification status.",
+        "previous_status": "Unchanged",
+        "public_url": "https://ivankotov.eu/distinctions/#agent-instrument-vs-c-participant",
+        "status_effect": "editorial_only",
+        "summary": "The Living Corpus now states explicitly that agents are bounded execution instruments inside b, while c is the continuity-bearing participant locus across agents, models, memory, commitments, witness, and consequence.",
+        "title": "Agent instrument / c participant distinction"
       }
     ],
-    "deltas_applied_through": "2026-07-19",
-    "document_id": "living-corpus-change-log-v62",
-    "last_verified": "2026-07-19"
+    "deltas_applied_through": "2026-07-20",
+    "document_id": "living-corpus-change-log-v63",
+    "last_verified": "2026-07-20"
   },
   "endpoint": "/corpus-changes.json",
   "generated_by": "tools/build_corpus.py",
   "kind": "change_log",
-  "last_verified": "2026-07-19",
+  "last_verified": "2026-07-20",
   "schema_version": "living-corpus.v62.public",
   "site": "https://ivankotov.eu/",
   "source_controls": [

@@ -12,6 +12,25 @@
     },
     {
       "audience": "Researchers",
+      "links": [
+        {
+          "label": "Distinctions",
+          "url": "/distinctions/#agent-instrument-vs-c-participant"
+        },
+        {
+          "label": "c = a + b",
+          "url": "/c-a-plus-b/"
+        },
+        {
+          "label": "Current state",
+          "url": "/corpus/current-state/"
+        },
+        {
+          "label": "Publications",
+          "url": "/publications/"
+        }
+      ],
+      "note": "Start by separating the execution instrument from the continuity-bearing participant: agents act under bounded delegation; `c` carries the continuing relation.",
       "route": "Glossary -> Distinctions -> Protocol map -> Failures",
       "url": "/glossary/"
     },
@@ -25,6 +44,22 @@
   "document_id": "living-corpus-entry-copy-v62",
   "hero_eyebrow": "Living corpus entry",
   "hero_lead": "This page is the shortest route into the public corpus. It starts from one rule - no status elevation without admissible evidence - and shows how the programme separates definition, implementation, testing, reproduction, validation, authority, continuity, and public claims.",
+  "instrument_participant_callout": {
+    "action": {
+      "label": "Open the full distinction",
+      "url": "/distinctions/#agent-instrument-vs-c-participant"
+    },
+    "body": [
+      "Here, \"participant\" means the continuity-bearing locus that enters relationships, commitments, permissions, exchanges, reviews, and consequences over time. An agent is a replaceable, task-scoped worker inside `b`. It may inspect, propose, execute, compare, or report under bounded authority, but it does not inherit the identity, continuity, memory authority, standing, or responsibility of `c` merely by acting for it.",
+      "This distinction does not by itself establish consciousness, personhood, legal status, social rights, or validated entity classification for any `c`-candidate.",
+      "\"Society\" here means a field of continuing relations among humans, institutions, and digital systems. It does not imply that current law already recognizes `c` as a person or legal subject.",
+      "Participation is a role in continuing relations and accountable processes. Entity classification remains a separate claim class with separate evidential requirements.",
+      "Agents execute. `c` carries continuity, commitments, governed authority boundaries, witness history, and consequence across time. This keeps capability from being mistaken for standing."
+    ],
+    "eyebrow": "Instrument and participant",
+    "primary_sentence": "Agents are instruments of `c`; `c` are participants in society.",
+    "title": "Agents are not the subject"
+  },
   "last_verified": "2026-07-19",
   "overview_paragraphs": [
     "The corpus is easiest to read as a control system rather than as a publication timeline. The central rule is that a weaker state must not be described or used as a stronger one until evidence supports the transition. A definition does not become an implementation; an implementation does not become a tested system; a test by the same operator does not become independent reproduction; a public page does not become external validation.",
@@ -68,7 +103,20 @@
     "What is the central rule?",
     "Which evidence would be needed before a definition becomes an implementation claim?",
     "Which page lists the 24 unresolved problems?",
-    "What is explicitly not being claimed?"
+    "What is explicitly not being claimed?",
+    {
+      "hint_links": [
+        {
+          "label": "Start here callout",
+          "url": "/start-here/#architecture-in-90-seconds"
+        },
+        {
+          "label": "Distinctions anchor",
+          "url": "/distinctions/#agent-instrument-vs-c-participant"
+        }
+      ],
+      "question": "What is the difference between an agent and c?"
+    }
   ],
   "start_here_description": "A first public route into the living corpus: governing principle, architecture, verified status, protocol map, open problems, failures, sources, and explicit non-claims.",
   "start_here_title": "Start here"

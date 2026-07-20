@@ -98,6 +98,11 @@ def e(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
+def inline(value: object) -> str:
+    parts = re.split(r"`([^`]+)`", str(value))
+    return "".join(f"<code>{e(part)}</code>" if index % 2 else e(part) for index, part in enumerate(parts))
+
+
 def label(value: object) -> str:
     text = str(value or "").replace("_", " ").replace("-", " ").strip()
     return text[:1].upper() + text[1:] if text else ""
@@ -226,6 +231,7 @@ def source_controls(data: dict[str, Any]) -> list[str]:
 
 
 def endpoint_envelope(kind: str, route: str, data: dict[str, Any], payload: Any) -> dict[str, Any]:
+    payload_verified = payload.get("last_verified", LAST_VERIFIED) if isinstance(payload, dict) else LAST_VERIFIED
     return {
         "schema_version": SCHEMA_VERSION,
         "endpoint": route,
@@ -233,7 +239,7 @@ def endpoint_envelope(kind: str, route: str, data: dict[str, Any], payload: Any)
         "site": SITE_URL + "/",
         "baseline_id": data["baseline"].get("baseline_id", "B0"),
         "baseline_source_snapshot": data["baseline"].get("baseline_source_snapshot", "2026-07-08"),
-        "last_verified": LAST_VERIFIED,
+        "last_verified": payload_verified,
         "kind": kind,
         "claim_boundary": data["baseline"].get("claim_boundary", ""),
         "source_controls": source_controls(data),
@@ -424,17 +430,50 @@ def route_cards(routes: list[dict[str, str]]) -> str:
     return '<div class="card-grid corpus-card-grid">\n' + "\n".join(cards) + "\n        </div>"
 
 
-def audience_cards(routes: list[dict[str, str]]) -> str:
+def audience_cards(routes: list[dict[str, Any]]) -> str:
     cards = []
     for item in routes:
+        note = f'\n            <p class="corpus-card-note">{inline(item["note"])}</p>' if item.get("note") else ""
+        links = [f'<a href="{e(item["url"])}">Start</a>']
+        for link in item.get("links", []):
+            links.append(f'<a href="{e(link["url"])}">{e(link["label"])}</a>')
+        link_html = " ".join(links)
         cards.append(
             f"""          <article class="card corpus-route-card">
             <h3>{e(item["audience"])}</h3>
-            <p>{e(item["route"])}</p>
-            <div class="section-links"><a href="{e(item["url"])}">Start</a></div>
+            <p>{e(item["route"])}</p>{note}
+            <div class="section-links">{link_html}</div>
           </article>"""
         )
     return '<div class="card-grid corpus-card-grid">\n' + "\n".join(cards) + "\n        </div>"
+
+
+def instrument_participant_callout(callout: dict[str, Any]) -> str:
+    body = "\n".join(f"              <p>{inline(paragraph)}</p>" for paragraph in callout.get("body", []))
+    action = callout.get("action") or {}
+    action_html = ""
+    if action.get("url") and action.get("label"):
+        action_html = f'\n              <div class="section-links"><a href="{e(action["url"])}">{e(action["label"])}</a></div>'
+    return f"""          <aside class="instrument-callout" aria-labelledby="agent-c-callout-title">
+            <p class="section-label">{e(callout.get("eyebrow", "Distinction"))}</p>
+            <h3 id="agent-c-callout-title">{e(callout.get("title", ""))}</h3>
+            <p><strong>{e(callout.get("primary_sentence", ""))}</strong></p>
+{body}{action_html}
+          </aside>"""
+
+
+def self_check_items(items: list[Any]) -> str:
+    rendered = []
+    for item in items:
+        if isinstance(item, dict):
+            links = " ".join(
+                f'<a href="{e(link["url"])}">{e(link["label"])}</a>' for link in item.get("hint_links", [])
+            )
+            hints = f'\n              <div class="self-check-hints">{links}</div>' if links else ""
+            rendered.append(f"            <li>{inline(item.get('question', ''))}{hints}</li>")
+        else:
+            rendered.append(f"            <li>{e(item)}</li>")
+    return "\n".join(rendered)
 
 
 def status_chips(items: list[tuple[str, str]]) -> str:
@@ -446,7 +485,7 @@ def architecture_svg() -> str:
     return """        <figure class="corpus-diagram">
           <svg role="img" aria-labelledby="corpus-diagram-title corpus-diagram-desc" viewBox="0 0 920 500" preserveAspectRatio="xMidYMid meet">
             <title id="corpus-diagram-title">Living corpus architecture from rule to consequence</title>
-            <desc id="corpus-diagram-desc">A diagram showing c = a + b, L3 procedure, witness record, L4 consequence, and claim boundary.</desc>
+            <desc id="corpus-diagram-desc">Models, agents, memory, and tools belong to the governed substrate `b`. They may be replaced or delegated. The continuing participant represented by `c` carries the history of commitments, authority boundaries, witness, and consequence under governed binding. The diagram labels `c` as a continuity-bearing participant locus.</desc>
             <rect x="24" y="24" width="872" height="452" rx="18" class="diagram-bg" />
             <text x="460" y="64" text-anchor="middle" class="diagram-title">No status elevation without admissible evidence</text>
             <rect x="58" y="104" width="210" height="110" rx="14" class="diagram-box" />
@@ -456,12 +495,14 @@ def architecture_svg() -> str:
             <rect x="355" y="104" width="210" height="110" rx="14" class="diagram-box" />
             <text x="460" y="138" text-anchor="middle" class="diagram-label">b</text>
             <text x="460" y="166" text-anchor="middle" class="diagram-copy">bounded substrate</text>
-            <text x="460" y="190" text-anchor="middle" class="diagram-copy">models, tools, memory, routes</text>
+            <text x="460" y="188" text-anchor="middle" class="diagram-copy">Agents / tools</text>
+            <text x="460" y="209" text-anchor="middle" class="diagram-copy">replaceable bounded instruments</text>
             <text x="312" y="166" text-anchor="middle" class="diagram-plus">+</text>
             <rect x="652" y="104" width="210" height="110" rx="14" class="diagram-box diagram-box-strong" />
             <text x="757" y="138" text-anchor="middle" class="diagram-label">c</text>
             <text x="757" y="166" text-anchor="middle" class="diagram-copy">governed candidate layer</text>
-            <text x="757" y="190" text-anchor="middle" class="diagram-copy">never promoted by narration alone</text>
+            <text x="757" y="188" text-anchor="middle" class="diagram-copy">continuity-bearing</text>
+            <text x="757" y="209" text-anchor="middle" class="diagram-copy">participant locus</text>
             <path d="M163 230 L163 278 L300 278" class="diagram-line" />
             <path d="M460 230 L460 278" class="diagram-line" />
             <path d="M757 230 L757 278 L620 278" class="diagram-line" />
@@ -517,7 +558,8 @@ def render_start_here(data: dict[str, Any]) -> str:
         f"""          <li><a href="{e(item["public_url"])}">{e(item["title"])}</a> - {e(item["role"])}</li>"""
         for item in sources[:10]
     )
-    self_check = "\n".join(f"            <li>{e(item)}</li>" for item in copy["self_check"])
+    callout = instrument_participant_callout(copy["instrument_participant_callout"])
+    self_check = self_check_items(copy["self_check"])
     body = f"""      <section class="hero corpus-hero">
         <p class="eyebrow">{e(copy["hero_eyebrow"])}</p>
         <h1>{e(copy["start_here_title"])}</h1>
@@ -532,8 +574,9 @@ def render_start_here(data: dict[str, Any]) -> str:
 {intro}
           <details class="corpus-definition">
             <summary>Term boundary</summary>
-            <p><strong>L3</strong> means rules, classifications, permission paths, and admissibility controls. <strong>L4</strong> means physical, temporal, energetic, operational, and irreversible consequence. <strong>Witness</strong> means the record that connects an L3 decision to an L4 result.</p>
+            <p><strong>L3</strong> means rules, classifications, permission paths, and admissibility controls. <strong>L4</strong> means physical, temporal, energetic, operational, and irreversible consequence. <strong>Witness</strong> means the record that connects an L3 decision to an L4 result. A capable model, agent harness, memory store, or cloud assistant is not automatically <code>c</code>.</p>
           </details>
+{callout}
         </div>
       </section>
 
@@ -985,21 +1028,26 @@ def render_failures(data: dict[str, Any]) -> str:
 def render_changes(data: dict[str, Any]) -> str:
     changes = data["changes"]["changes"]
     source_hashes = data["baseline"]["input_hashes"]
-    cards = "\n".join(
-        f"""          <article class="card corpus-record-card">
+    deltas_through = data["changes"]["deltas_applied_through"]
+    cards = []
+    for item in changes:
+        summary = f'\n            <p>{e(item["summary"])}</p>' if item.get("summary") else ""
+        note = f'\n            <p><strong>Note:</strong> {e(item["note"])}</p>' if item.get("note") else ""
+        cards.append(
+            f"""          <article class="card corpus-record-card">
             <p class="section-label">{e(item["change_id"])}</p>
-            <h3>{e(item["date"])} - {e(item["title"])}</h3>
+            <h3>{e(item["date"])} - {e(item["title"])}</h3>{summary}
             <p><strong>Status effect:</strong> {e(label(item["status_effect"]))}</p>
-            <p>{e(item["claim_effect"])}</p>
+            <p>{e(item["claim_effect"])}</p>{note}
             <div class="section-links"><a href="{e(item["public_url"])}">Public route</a></div>
           </article>"""
-        for item in changes
-    )
+        )
+    cards_html = "\n".join(cards)
     hashes = "\n".join(f"          <li>{e(item['source_id'])}: <code>{e(item['sha256'])}</code></li>" for item in source_hashes)
     body = f"""      <section class="hero corpus-hero">
         <p class="eyebrow">Living corpus</p>
         <h1>Changes since B0</h1>
-        <p class="lead page-lead">Public-surface and editorial-projection deltas applied through {LAST_VERIFIED}. These entries do not raise any B0 status without verified evidence.</p>
+        <p class="lead page-lead">Public-surface and editorial-projection deltas applied through {e(deltas_through)}. These entries do not raise any B0 status without verified evidence.</p>
         {local_nav("/corpus/changes/")}
       </section>
 
@@ -1011,7 +1059,7 @@ def render_changes(data: dict[str, Any]) -> str:
       <section class="section" id="delta-log">
 {section_head("Log", "Delta log")}
         <div class="corpus-record-list">
-{cards}
+{cards_html}
         </div>
       </section>
 

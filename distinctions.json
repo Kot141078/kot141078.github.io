@@ -33,6 +33,12 @@
       "primary_url": "https://ivankotov.eu/ser/"
     },
     {
+      "term": "agent instrument / c participant",
+      "not": "c as just a larger agent",
+      "why": "Delegated capability inside b is not the same as continuity-bearing participation, governed authority, witness history, or consequence.",
+      "primary_url": "https://ivankotov.eu/distinctions/#agent-instrument-vs-c-participant"
+    },
+    {
       "term": "L4",
       "not": "ethics sticker / prompt policy layer",
       "why": "It is the feasibility and reality boundary.",
