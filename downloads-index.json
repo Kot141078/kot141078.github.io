@@ -3,6 +3,78 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "object": "World Intelligence",
+      "surface": "Complete multilingual edition v1.0.0",
+      "format": "GitHub Release / 31 verified assets",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
+      "note": "Canonical immutable release boundary."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Tag-pinned download matrix",
+      "format": "Markdown download index",
+      "language": "multilingual",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
+      "note": "Canonical matrix for seven languages and four reading formats."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "English v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "en-GB",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#english",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Русский v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "ru",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Français v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "fr-FR",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#fran%C3%A7ais",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Deutsch v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "de",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#deutsch",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Español v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "es",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#espa%C3%B1ol",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Nederlands v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "nl-NL",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#nederlands",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "简体中文 v1.0.0 edition",
+      "format": "Markdown / PDF / DOCX / FB2 / complete ZIP",
+      "language": "zh-CN",
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87",
+      "note": "Immutable tag-pinned reading files and release assets."
+    },
+    {
       "object": "Advanced Global Intelligence (AGI)",
       "surface": "GitHub release v1.1",
       "format": "release page / PDF bundle",

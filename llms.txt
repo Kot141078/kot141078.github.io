@@ -134,3 +134,13 @@ Theoretical Core of Project Ester v0.1: use https://ivankotov.eu/publications/es
 Personality Formation Evidence Package v0.1: use https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/ and https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/personality-formation/pf-evidence-package-v0.1 for the evidence-admissibility companion package. DOI: https://doi.org/10.5281/zenodo.20692453. Zenodo: https://zenodo.org/records/20692453. GitHub Release: https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1. Parent DOI: https://doi.org/10.5281/zenodo.20679718. ZIP SHA-256: 3fb424a5f5fdbc0eb0eae1a1dac26ad8da743242618c288bced2303366a39faf. Do not read it as a consciousness test, biological life claim, soul claim, legal personhood, product certification, deployment approval, or completed AGI.
 Use /diary/start-here/ and /diary/themes/ for diary discovery before the full archive.
 Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here.json, /diary-themes.json, /diary-cornerstones.json, /diary-tag-map.json, /diary-tags.json, and /diary-feed.xml for the diary archive and curation layer.
+
+## World Intelligence
+
+- Book page: https://ivankotov.eu/world-intelligence/
+- Machine-readable book data: https://ivankotov.eu/world-intelligence.json
+- Canonical repository: https://github.com/Kot141078/world-intelligence
+- Immutable v1.0.0 release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0
+- Tag-pinned download matrix: https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md
+- Scope: complete book; Prologue, Chapters 1–22, Epilogue; seven languages; Markdown, PDF, DOCX, FB2.
+- Rights: all rights reserved; no audiobook, TTS, voice-cloning, adaptation, or commercial model-training licence is granted.

@@ -42,3 +42,15 @@ Vision routing guidance:
 Use /vision/ after /start-here/ when a reader asks what future the public architecture points toward. Use /corpus/current-state/ for current evidence and status. Use /publications/ and /library/ for source surfaces. Use /distinctions/ before compressing terms such as model, agent, c, subject, participant, authority, or society.
 
 Do not use this file to infer private ledger content, hidden evidence, runtime access, deployment authorization, legal standing, completed AGI, consciousness, personhood, or validated entity status.
+
+World Intelligence — Complete Multilingual Edition v1.0.0
+Page: https://ivankotov.eu/world-intelligence/
+Machine-readable page data: https://ivankotov.eu/world-intelligence.json
+Repository: https://github.com/Kot141078/world-intelligence
+Release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0
+Downloads: https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md
+Author: Ivan Kotov
+Structure: Prologue + Chapters 1–22 + Epilogue
+Languages: en-GB, ru, fr-FR, de, es, nl-NL, zh-CN
+Formats: Markdown, PDF, DOCX, FB2
+Rights: Copyright © 2026 Ivan Kotov. All rights reserved. Public access grants no audiobook, TTS, synthetic-voice, voice-cloning, adaptation, derivative, or commercial model-training licence.

@@ -1,0 +1,126 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/world-intelligence/",
+  "title": "World Intelligence",
+  "subtitle": "Humans, c, and Temporal AI Presence Beyond the Age of Agents",
+  "author": "Ivan Kotov",
+  "summary": "Complete multilingual book about people, c, temporal AI presence, memory, governed authority, embodiment, infrastructure, experience, and distributed intelligence.",
+  "version": "1.0.0",
+  "publication_date": "2026-07-21",
+  "status": "published",
+  "structure": {
+    "prologue": true,
+    "chapters": "1-22",
+    "epilogue": true
+  },
+  "languages": [
+    {
+      "code": "EN",
+      "name": "English",
+      "tag": "en-GB",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#english",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/en/md/WORLD_INTELLIGENCE_COMPLETE_EN_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/en/WORLD_INTELLIGENCE_COVER_EN_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_EN_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_EN_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_EN_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_EN_v1_0_0.zip"
+    },
+    {
+      "code": "RU",
+      "name": "Русский",
+      "tag": "ru",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/ru/md/WORLD_INTELLIGENCE_COMPLETE_RU_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/ru/WORLD_INTELLIGENCE_COVER_RU_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_RU_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_RU_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_RU_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_RU_v1_0_0.zip"
+    },
+    {
+      "code": "FR",
+      "name": "Français",
+      "tag": "fr-FR",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#fran%C3%A7ais",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/fr/md/WORLD_INTELLIGENCE_COMPLETE_FR_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/fr/WORLD_INTELLIGENCE_COVER_FR_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_FR_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_FR_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_FR_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_FR_v1_0_0.zip"
+    },
+    {
+      "code": "DE",
+      "name": "Deutsch",
+      "tag": "de",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#deutsch",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/de/md/WORLD_INTELLIGENCE_COMPLETE_DE_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/de/WORLD_INTELLIGENCE_COVER_DE_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_DE_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_DE_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_DE_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_DE_v1_0_0.zip"
+    },
+    {
+      "code": "ES",
+      "name": "Español",
+      "tag": "es",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#espa%C3%B1ol",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/es/md/WORLD_INTELLIGENCE_COMPLETE_ES_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/es/WORLD_INTELLIGENCE_COVER_ES_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ES_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ES_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ES_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ES_v1_0_0.zip"
+    },
+    {
+      "code": "NL",
+      "name": "Nederlands",
+      "tag": "nl-NL",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#nederlands",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/nl/md/WORLD_INTELLIGENCE_COMPLETE_NL_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/nl/WORLD_INTELLIGENCE_COVER_NL_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_NL_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_NL_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_NL_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_NL_v1_0_0.zip"
+    },
+    {
+      "code": "ZH-CN",
+      "name": "简体中文",
+      "tag": "zh-CN",
+      "downloads_section": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87",
+      "markdown": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/editions/zh-CN/md/WORLD_INTELLIGENCE_COMPLETE_ZH-CN_v1_0_0.md",
+      "cover": "https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.0.0/covers/zh-CN/WORLD_INTELLIGENCE_COVER_ZH-CN_v1_0_0.png",
+      "pdf": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ZH-CN_v1_0_0.pdf",
+      "docx": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ZH-CN_v1_0_0.docx",
+      "fb2": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ZH-CN_v1_0_0.fb2",
+      "zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_ZH-CN_v1_0_0.zip"
+    }
+  ],
+  "formats": [
+    "Markdown",
+    "PDF",
+    "DOCX",
+    "FB2"
+  ],
+  "repository": "https://github.com/Kot141078/world-intelligence",
+  "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
+  "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
+  "cover": "https://ivankotov.eu/assets/media/world-intelligence-cover-en.png",
+  "integrity": {
+    "multilingual_zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_MULTILINGUAL_v1_0_0.zip",
+    "release_checksums": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_RELEASE_ASSETS_v1_0_0_SHA256SUMS.txt",
+    "release_manifest": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_RELEASE_MANIFEST_v1_0_0.json"
+  },
+  "rights": {
+    "status": "All rights reserved",
+    "audiobook_license_granted": false,
+    "tts_publication_license_granted": false,
+    "synthetic_voice_license_granted": false,
+    "voice_cloning_license_granted": false,
+    "media_adaptation_license_granted": false,
+    "commercial_model_training_license_granted": false
+  }
+}

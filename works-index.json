@@ -13,6 +13,36 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "world-intelligence-v1-0-0",
+      "title": "World Intelligence — Complete Multilingual Edition",
+      "type": "book",
+      "role": "complete multilingual book / temporal AI presence / governed intelligence",
+      "primary_url": "https://ivankotov.eu/world-intelligence/",
+      "github": "https://github.com/Kot141078/world-intelligence",
+      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
+      "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
+      "date": "2026-07-21",
+      "version": "1.0.0",
+      "languages": [
+        "en-GB",
+        "ru",
+        "fr-FR",
+        "de",
+        "es",
+        "nl-NL",
+        "zh-CN"
+      ],
+      "formats": [
+        "Markdown",
+        "PDF",
+        "DOCX",
+        "FB2"
+      ],
+      "status": "published",
+      "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE",
+      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in seven languages with immutable v1.0.0 reading and package links."
+    },
+    {
       "id": "esther-rp-001-v0-8-1",
       "title": "ESTHER-RP-001 v0.8.1: Centered Agency Under Persistent Uncertainty",
       "type": "working paper and bounded executable research package",

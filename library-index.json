@@ -3,6 +3,15 @@
   "page": "https://ivankotov.eu/library/",
   "items": [
     {
+      "id": "world-intelligence-v1-0-0",
+      "title": "World Intelligence — Complete Multilingual Edition",
+      "role": "complete multilingual book / temporal AI presence / governed intelligence",
+      "primary_page": "https://ivankotov.eu/world-intelligence/",
+      "repo_url": "https://github.com/Kot141078/world-intelligence",
+      "release_url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
+      "type": "book"
+    },
+    {
       "id": "agi",
       "title": "Advanced Global Intelligence (AGI)",
       "role": "architecture",
