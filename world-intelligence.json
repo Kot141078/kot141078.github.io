@@ -8,6 +8,11 @@
   "version": "1.0.0",
   "publication_date": "2026-07-21",
   "status": "published",
+  "identifiers": {
+    "doi": "10.5281/zenodo.21497098",
+    "concept_doi": "10.5281/zenodo.21497097",
+    "zenodo_record": "https://zenodo.org/records/21497098"
+  },
   "structure": {
     "prologue": true,
     "chapters": "1-22",
@@ -108,6 +113,14 @@
   "repository": "https://github.com/Kot141078/world-intelligence",
   "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
   "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
+  "archival_surfaces": [
+    {
+      "type": "zenodo_record",
+      "name": "Zenodo v1.0.0 record",
+      "url": "https://zenodo.org/records/21497098",
+      "citation_url": "https://doi.org/10.5281/zenodo.21497098"
+    }
+  ],
   "cover": "https://ivankotov.eu/assets/media/world-intelligence-cover-en.png",
   "integrity": {
     "multilingual_zip": "https://github.com/Kot141078/world-intelligence/releases/download/v1.0.0/WORLD_INTELLIGENCE_COMPLETE_MULTILINGUAL_v1_0_0.zip",

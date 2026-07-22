@@ -4,6 +4,30 @@
   "items": [
     {
       "object": "World Intelligence",
+      "surface": "Version DOI for v1.0.0",
+      "format": "DOI / primary archival citation",
+      "language": "multilingual",
+      "url": "https://doi.org/10.5281/zenodo.21497098",
+      "note": "Primary citation DOI for the frozen complete multilingual edition v1.0.0."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Concept DOI (all versions)",
+      "format": "DOI / version-family navigation",
+      "language": "multilingual",
+      "url": "https://doi.org/10.5281/zenodo.21497097",
+      "note": "Concept DOI for the World Intelligence Zenodo version family."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Zenodo record 21497098",
+      "format": "Archival record / 31 published files",
+      "language": "multilingual",
+      "url": "https://zenodo.org/records/21497098",
+      "note": "Archival record for v1.0.0; GitHub Release remains the primary file-download surface."
+    },
+    {
+      "object": "World Intelligence",
       "surface": "Complete multilingual edition v1.0.0",
       "format": "GitHub Release / 31 verified assets",
       "language": "multilingual",

@@ -21,6 +21,11 @@
       "github": "https://github.com/Kot141078/world-intelligence",
       "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
       "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
+      "doi": "10.5281/zenodo.21497098",
+      "doi_url": "https://doi.org/10.5281/zenodo.21497098",
+      "concept_doi": "10.5281/zenodo.21497097",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21497097",
+      "zenodo_record": "https://zenodo.org/records/21497098",
       "date": "2026-07-21",
       "version": "1.0.0",
       "languages": [
