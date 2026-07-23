@@ -2,10 +2,21 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
   "title": "Qubit of Hope — Volume II",
-  "summary": "Second volume of Qubit of Hope as a narrative continuation into the world of c and the broader public trilogy.",
+  "volume": 2,
+  "series": "Qubit of Hope / Кубит надежды",
+  "series_page": "https://ivankotov.eu/qubit-of-hope/",
+  "summary": "Volume II of the separately published three-volume Qubit of Hope trilogy.",
   "source_repo": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
-  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
   "first_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
+  "version": "1.0.2",
+  "publication_date": "2026-07-23",
+  "version_doi": "10.5281/zenodo.21506200",
+  "concept_doi": "10.5281/zenodo.21506199",
+  "zenodo": "https://zenodo.org/records/21506200",
+  "downloads": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/DOWNLOADS.md",
+  "previous_page": "https://ivankotov.eu/qubit-of-hope/",
+  "next_page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
   "related_pages": [
     "https://ivankotov.eu/qubit-of-hope/",
     "https://ivankotov.eu/qubit-of-hope-volume-iii/",
@@ -16,10 +27,10 @@
   "cover": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-ii-cover.png",
   "languages": [
     "ru",
+    "en",
     "fr",
     "es",
     "de",
-    "en",
     "nl",
     "zh-CN"
   ],
@@ -28,5 +39,9 @@
     "pdf",
     "epub",
     "fb2"
-  ]
+  ],
+  "license_title": "All Rights Reserved",
+  "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/LICENSE.txt",
+  "rights_summary": "Public reading and personal local download are allowed. Redistribution, mirroring, translation, derivative works, audiobook or synthetic-voice production, media adaptation, republication under another license, and commercial reuse require prior written permission.",
+  "post_deposit_note": "Post-deposit DOI synchronization. No literary text or cover artwork changed."
 }

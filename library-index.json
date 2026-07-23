@@ -268,7 +268,10 @@
       "role": "narrative",
       "primary_page": "https://ivankotov.eu/qubit-of-hope/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
-      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21505133",
+      "concept_doi": "10.5281/zenodo.21505132",
       "type": "book"
     },
     {
@@ -277,7 +280,10 @@
       "role": "narrative continuation",
       "primary_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
-      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21506200",
+      "concept_doi": "10.5281/zenodo.21506199",
       "type": "book"
     },
     {
@@ -286,7 +292,10 @@
       "role": "narrative continuation",
       "primary_page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
       "repo_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
-      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
+      "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21507090",
+      "concept_doi": "10.5281/zenodo.21507089",
       "type": "book"
     },
     {

@@ -314,6 +314,11 @@
       "title": "Qubit of Hope",
       "url": "https://ivankotov.eu/qubit-of-hope/",
       "summary": "Book-layer hub for Volumes I, II, and III as the narrative/public trilogy surface complementary to AGI, L4, and SER.",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21505133",
+      "concept_doi": "10.5281/zenodo.21505132",
+      "repository": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+      "release": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
       "not": [
         "a substitute for the protocol layer",
         "the canonical home of AGI, L4, or SER definitions"
@@ -324,6 +329,11 @@
       "title": "Qubit of Hope — Volume II",
       "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
       "summary": "Narrative continuation node for the second volume of Qubit of Hope.",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21506200",
+      "concept_doi": "10.5281/zenodo.21506199",
+      "repository": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+      "release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
       "not": [
         "a detached standalone theory layer",
         "a substitute for the protocol layer"
@@ -334,6 +344,11 @@
       "title": "Qubit of Hope — Volume III",
       "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
       "summary": "Narrative continuation node for the third volume of Qubit of Hope.",
+      "version": "1.0.2",
+      "version_doi": "10.5281/zenodo.21507090",
+      "concept_doi": "10.5281/zenodo.21507089",
+      "repository": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+      "release": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
       "not": [
         "a detached standalone theory layer",
         "a substitute for the protocol layer"

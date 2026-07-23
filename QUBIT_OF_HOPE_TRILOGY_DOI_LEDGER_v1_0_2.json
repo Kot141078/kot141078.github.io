@@ -1,0 +1,116 @@
+{
+  "schema": "qubit-of-hope.trilogy-doi-ledger.v1",
+  "series": "Qubit of Hope / Кубит надежды",
+  "version": "1.0.2",
+  "publication_date": "2026-07-23",
+  "series_page": "https://ivankotov.eu/qubit-of-hope/",
+  "volumes": [
+    {
+      "title": "Qubit of Hope — Volume I — Complete Multilingual Edition v1.0.2",
+      "volume": 1,
+      "version": "1.0.2",
+      "publication_date": "2026-07-23",
+      "version_doi": "10.5281/zenodo.21505133",
+      "concept_doi": "10.5281/zenodo.21505132",
+      "zenodo_url": "https://zenodo.org/records/21505133",
+      "github_repository": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+      "github_release": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+      "website_page": "https://ivankotov.eu/qubit-of-hope/",
+      "license_title": "All Rights Reserved",
+      "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/LICENSE.txt",
+      "languages": [
+        "ru",
+        "en",
+        "fr",
+        "es",
+        "de",
+        "nl",
+        "zh-CN"
+      ],
+      "formats": [
+        "md",
+        "pdf",
+        "epub",
+        "fb2"
+      ],
+      "expected_deposited_file_count": 31
+    },
+    {
+      "title": "Qubit of Hope — Volume II — Complete Multilingual Edition v1.0.2",
+      "volume": 2,
+      "version": "1.0.2",
+      "publication_date": "2026-07-23",
+      "version_doi": "10.5281/zenodo.21506200",
+      "concept_doi": "10.5281/zenodo.21506199",
+      "zenodo_url": "https://zenodo.org/records/21506200",
+      "github_repository": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+      "github_release": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+      "website_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "license_title": "All Rights Reserved",
+      "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/LICENSE.txt",
+      "languages": [
+        "ru",
+        "en",
+        "fr",
+        "es",
+        "de",
+        "nl",
+        "zh-CN"
+      ],
+      "formats": [
+        "md",
+        "pdf",
+        "epub",
+        "fb2"
+      ],
+      "expected_deposited_file_count": 31
+    },
+    {
+      "title": "Qubit of Hope — Volume III — Complete Multilingual Edition v1.0.2",
+      "volume": 3,
+      "version": "1.0.2",
+      "publication_date": "2026-07-23",
+      "version_doi": "10.5281/zenodo.21507090",
+      "concept_doi": "10.5281/zenodo.21507089",
+      "zenodo_url": "https://zenodo.org/records/21507090",
+      "github_repository": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+      "github_release": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+      "website_page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "license_title": "All Rights Reserved",
+      "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/LICENSE.txt",
+      "languages": [
+        "ru",
+        "en",
+        "fr",
+        "es",
+        "de",
+        "nl",
+        "zh-CN"
+      ],
+      "formats": [
+        "md",
+        "pdf",
+        "epub",
+        "fb2"
+      ],
+      "expected_deposited_file_count": 31
+    }
+  ],
+  "totals": {
+    "book_records": 3,
+    "deposited_files": 93,
+    "literary_reading_files": 84,
+    "repository_snapshots": 3,
+    "manifests": 3,
+    "sha256sums_files": 3,
+    "languages": 7,
+    "formats": 4
+  },
+  "rights": {
+    "model": "all-rights-reserved",
+    "creative_commons": false,
+    "open_source": false,
+    "public_domain": false
+  },
+  "note": "Post-deposit DOI synchronization. No literary text or cover artwork changed."
+}

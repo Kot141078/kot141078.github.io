@@ -2,10 +2,20 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
   "title": "Qubit of Hope — Volume III",
-  "summary": "Third volume of Qubit of Hope as a narrative continuation node in the public trilogy.",
+  "volume": 3,
+  "series": "Qubit of Hope / Кубит надежды",
+  "series_page": "https://ivankotov.eu/qubit-of-hope/",
+  "summary": "Volume III of the separately published three-volume Qubit of Hope trilogy.",
   "source_repo": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
-  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
+  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+  "version": "1.0.2",
+  "publication_date": "2026-07-23",
+  "version_doi": "10.5281/zenodo.21507090",
+  "concept_doi": "10.5281/zenodo.21507089",
+  "zenodo": "https://zenodo.org/records/21507090",
   "downloads": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/DOWNLOADS.md",
+  "previous_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+  "next_page": null,
   "related_pages": [
     "https://ivankotov.eu/qubit-of-hope/",
     "https://ivankotov.eu/qubit-of-hope-volume-ii/",
@@ -15,18 +25,22 @@
   ],
   "languages": [
     "ru",
+    "en",
     "fr",
     "es",
     "de",
-    "en",
     "nl",
     "zh-CN"
   ],
+  "cover": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-iii-cover.png",
   "formats": [
     "md",
     "pdf",
     "epub",
     "fb2"
   ],
-  "rights_note": "All rights reserved. Public reading and personal local download are allowed; redistribution, mirroring, derivative works, and commercial reuse require prior written permission where stated in the repository rights files."
+  "license_title": "All Rights Reserved",
+  "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/LICENSE.txt",
+  "rights_summary": "Public reading and personal local download are allowed. Redistribution, mirroring, translation, derivative works, audiobook or synthetic-voice production, media adaptation, republication under another license, and commercial reuse require prior written permission.",
+  "post_deposit_note": "Post-deposit DOI synchronization. No literary text or cover artwork changed."
 }

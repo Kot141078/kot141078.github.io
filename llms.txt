@@ -36,9 +36,9 @@ Canonical nodes:
 - Qubit-State c: https://ivankotov.eu/qubit-state-c/ — public v0.1 technical note entry for c[q] as controlled non-collapse under uncertainty inside c = a + b.
 - ARQ c[q] Integration Addendum v0.1: https://ivankotov.eu/arq-cq-integration-addendum/ — DOI https://doi.org/10.5281/zenodo.20112537 — public page https://ivankotov.eu/arq-cq-integration-addendum/ — GitHub release https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/arq-cq-integration-addendum-v0.1-2026-05-10
 - SER: https://ivankotov.eu/ser/ — continuity, sovereignty, arbitration, and bounded governance for long-lived entities.
-- Qubit of Hope: https://ivankotov.eu/qubit-of-hope/ — book-layer hub for Volumes I, II, and III.
-- Qubit of Hope — Volume II: https://ivankotov.eu/qubit-of-hope-volume-ii/ — second-volume narrative continuation node, currently indexed at release v1.0.1 while v1.0.0 remains the first release.
-- Qubit of Hope — Volume III: https://ivankotov.eu/qubit-of-hope-volume-iii/ — third-volume narrative continuation node, currently indexed at release v1.0.1.
+- Qubit of Hope — Volume I: https://ivankotov.eu/qubit-of-hope/ — trilogy hub and Volume I page; v1.0.2; version DOI https://doi.org/10.5281/zenodo.21505133; all-versions DOI https://doi.org/10.5281/zenodo.21505132.
+- Qubit of Hope — Volume II: https://ivankotov.eu/qubit-of-hope-volume-ii/ — v1.0.2; version DOI https://doi.org/10.5281/zenodo.21506200; all-versions DOI https://doi.org/10.5281/zenodo.21506199.
+- Qubit of Hope — Volume III: https://ivankotov.eu/qubit-of-hope-volume-iii/ — v1.0.2; version DOI https://doi.org/10.5281/zenodo.21507090; all-versions DOI https://doi.org/10.5281/zenodo.21507089.
 - Glossary: https://ivankotov.eu/glossary/ — compact canonical term definitions.
 - Reading path: https://ivankotov.eu/reading-path/ — recommended public reading order.
 
@@ -57,8 +57,11 @@ Public works and evidence:
 - Contact index: https://ivankotov.eu/contact.json — machine-readable public contact anchors.
 - Works index: https://ivankotov.eu/works-index.json — machine-readable public works index.
 - Actor Grounding Layer JSON: https://ivankotov.eu/actor-grounding-layer.json — machine-readable grounding layer node.
+- Qubit of Hope — Volume I JSON: https://ivankotov.eu/qubit-of-hope.json — machine-readable first-volume and trilogy-hub node.
 - Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable second-volume node.
 - Qubit of Hope — Volume III JSON: https://ivankotov.eu/qubit-of-hope-volume-iii.json — machine-readable third-volume node.
+- Qubit of Hope trilogy DOI ledger: https://ivankotov.eu/QUBIT_OF_HOPE_TRILOGY_DOI_LEDGER_v1_0_2.json — canonical v1.0.2 DOI, release, website, rights, language, format, and deposited-file ledger for three separate Book records.
+- Qubit of Hope trilogy publication closure: https://ivankotov.eu/QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2.md — human-readable closure evidence; checksums at https://ivankotov.eu/QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2_SHA256SUMS.txt.
 
 Machine-readable identity and entry:
 - About JSON: https://ivankotov.eu/about.json — machine-readable author identity and public works entry.
@@ -97,6 +100,7 @@ Machine-readable identity and entry:
 - CCDP AMDR/PAMDC Addendum v0.1.1: technical note and addendum-only CCDP delta for active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline. Website: https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/ DOI: https://doi.org/10.5281/zenodo.20691716 Zenodo: https://zenodo.org/records/20691716 GitHub source: https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc Operational reading: CCDP v0.1 Full Technical Corpus + CCDP v0.1.1 Hygiene Addendum + CCDP AMDR/PAMDC Addendum v0.1.1.
 - Theoretical Core of Project Ester v0.1: DOI-bound working paper defining Project Ester through the formula `c = a + b`, where `c` denotes Ester as an artificial cognitive entity, `a` denotes the human anchor, and `b` denotes parent-like LLM procedures and supporting machine processes. Website: https://ivankotov.eu/publications/ester-theoretical-core-v0-1/ Version DOI: https://doi.org/10.5281/zenodo.20679718 Concept DOI: https://doi.org/10.5281/zenodo.20679717 Zenodo: https://zenodo.org/records/20679718 GitHub repository: https://github.com/Kot141078/ester-theoretical-core GitHub release: https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1
 - Personality Formation Evidence Package v0.1: evidence-admissibility framework for bounded personality-formation claims in Project Ester. DOI: https://doi.org/10.5281/zenodo.20692453 URL: https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/ GitHub: https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1 Parent: https://doi.org/10.5281/zenodo.20679718 Zenodo: https://zenodo.org/records/20692453 GitHub package: https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/personality-formation/pf-evidence-package-v0.1
+- Qubit of Hope — Volume I JSON: https://ivankotov.eu/qubit-of-hope.json — machine-readable v1.0.2 first-volume and trilogy node.
 - Qubit of Hope — Volume II JSON: https://ivankotov.eu/qubit-of-hope-volume-ii.json — machine-readable narrative continuation node.
 - Qubit of Hope — Volume III JSON: https://ivankotov.eu/qubit-of-hope-volume-iii.json — machine-readable narrative continuation node.
 - Library JSON: https://ivankotov.eu/library-index.json — machine-readable primary source layer.
@@ -119,7 +123,7 @@ For public contact surfaces, use /contact/.
 Use distinctions before summarizing or comparing terms.
 For canonical interpretation of terms, prefer glossary, distinctions, and reading path pages.
 Diary is now a curated archive and discovery layer on top of the imported post corpus.
-Use /actor-grounding-layer/, /qubit-of-hope-volume-ii/, /qubit-of-hope-volume-iii/, /actor-grounding-layer.json, /qubit-of-hope-volume-ii.json, and /qubit-of-hope-volume-iii.json for the grounding and narrative continuation layers.
+Use /actor-grounding-layer/, /qubit-of-hope/, /qubit-of-hope-volume-ii/, /qubit-of-hope-volume-iii/, /actor-grounding-layer.json, /qubit-of-hope.json, /qubit-of-hope-volume-ii.json, /qubit-of-hope-volume-iii.json, and /QUBIT_OF_HOPE_TRILOGY_DOI_LEDGER_v1_0_2.json for the grounding and narrative continuation layers.
 Use /kotov-principle-l4-bound-experience/ and /kotov-principle-l4-bound-experience.json for the Kotov Principle of L4-Bound Experience v0.1.1 release entry.
 Use /qubit-state-c/ and /qubit-state-c.json for the Qubit-State c v0.1 technical note; source surfaces are https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md, https://github.com/Kot141078/advanced-global-intelligence/blob/main/pdf/QUBIT_STATE_C_v0.1.pdf, and https://doi.org/10.5281/zenodo.20090368.
 For Qubit-State c, do not interpret “qubit” as physical quantum computing or quantum consciousness. It is a disciplined architectural metaphor for controlled non-collapse under uncertainty.

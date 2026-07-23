@@ -295,9 +295,12 @@
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
-      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
-      "date": "2026-05-03",
-      "version": "v1.0.1",
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+      "website_url": "https://ivankotov.eu/qubit-of-hope/",
+      "version_doi": "10.5281/zenodo.21505133",
+      "concept_doi": "10.5281/zenodo.21505132",
+      "date": "2026-07-23",
+      "version": "v1.0.2",
       "first_publication_date": "2026-04-11"
     },
     {
@@ -306,9 +309,12 @@
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
-      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
-      "date": "2026-05-03",
-      "version": "v1.0.1",
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+      "website_url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "version_doi": "10.5281/zenodo.21506200",
+      "concept_doi": "10.5281/zenodo.21506199",
+      "date": "2026-07-23",
+      "version": "v1.0.2",
       "first_publication_date": "2026-04-17",
       "first_release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0"
     },
@@ -318,9 +324,12 @@
       "type": "book",
       "role": "narrative",
       "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
-      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
-      "date": "2026-05-03",
-      "version": "v1.0.1"
+      "secondary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+      "website_url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "version_doi": "10.5281/zenodo.21507090",
+      "concept_doi": "10.5281/zenodo.21507089",
+      "date": "2026-07-23",
+      "version": "v1.0.2"
     },
     {
       "id": "github-profile",

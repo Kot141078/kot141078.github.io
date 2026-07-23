@@ -297,11 +297,13 @@
     },
     {
       "object": "Qubit of Hope — Volume I",
-      "surface": "GitHub release v1.0.1",
+      "surface": "GitHub release v1.0.2",
       "format": "release page",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1",
-      "note": "Current public release indexed for the trilogy website layer."
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+      "version_doi": "10.5281/zenodo.21505133",
+      "concept_doi": "10.5281/zenodo.21505132",
+      "note": "Current metadata-only public release; literary reading files are unchanged."
     },
     {
       "object": "Qubit of Hope — Volume I",
@@ -313,11 +315,13 @@
     },
     {
       "object": "Qubit of Hope — Volume II",
-      "surface": "GitHub release v1.0.1",
+      "surface": "GitHub release v1.0.2",
       "format": "release page",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1",
-      "note": "Current public release; v1.0.0 remains the first release from 2026-04-17."
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+      "version_doi": "10.5281/zenodo.21506200",
+      "concept_doi": "10.5281/zenodo.21506199",
+      "note": "Current metadata-only public release; literary reading files are unchanged."
     },
     {
       "object": "Qubit of Hope — Volume II",
@@ -329,11 +333,13 @@
     },
     {
       "object": "Qubit of Hope — Volume III",
-      "surface": "GitHub release v1.0.1",
+      "surface": "GitHub release v1.0.2",
       "format": "release page",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1",
-      "note": "Current public release for the third-volume continuation."
+      "url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+      "version_doi": "10.5281/zenodo.21507090",
+      "concept_doi": "10.5281/zenodo.21507089",
+      "note": "Current metadata-only public release; literary reading files are unchanged."
     },
     {
       "object": "Qubit of Hope — Volume III",

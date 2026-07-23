@@ -1,0 +1,39 @@
+{
+  "site": "https://ivankotov.eu/",
+  "page": "https://ivankotov.eu/qubit-of-hope/",
+  "title": "Qubit of Hope — Volume I",
+  "volume": 1,
+  "series": "Qubit of Hope / Кубит надежды",
+  "series_page": "https://ivankotov.eu/qubit-of-hope/",
+  "summary": "Volume I of the separately published three-volume Qubit of Hope trilogy.",
+  "source_repo": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+  "current_release": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+  "version": "1.0.2",
+  "publication_date": "2026-07-23",
+  "version_doi": "10.5281/zenodo.21505133",
+  "concept_doi": "10.5281/zenodo.21505132",
+  "zenodo": "https://zenodo.org/records/21505133",
+  "downloads": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md",
+  "previous_page": null,
+  "next_page": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+  "cover": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-i-cover.png",
+  "languages": [
+    "ru",
+    "en",
+    "fr",
+    "es",
+    "de",
+    "nl",
+    "zh-CN"
+  ],
+  "formats": [
+    "md",
+    "pdf",
+    "epub",
+    "fb2"
+  ],
+  "license_title": "All Rights Reserved",
+  "license_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/LICENSE.txt",
+  "rights_summary": "Public reading and personal local download are allowed. Redistribution, mirroring, translation, derivative works, audiobook or synthetic-voice production, media adaptation, republication under another license, and commercial reuse require prior written permission.",
+  "post_deposit_note": "Post-deposit DOI synchronization. No literary text or cover artwork changed."
+}

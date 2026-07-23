@@ -21,7 +21,7 @@
         "name": "Qubit of Hope — Trilogy | Ivan Kotov",
         "description": "Book-layer hub for Qubit of Hope — Volumes I, II, and III as the narrative/public trilogy entry into the world of c.",
         "mainEntity": {
-          "@id": "https://ivankotov.eu/qubit-of-hope/#volumes"
+          "@id": "https://ivankotov.eu/qubit-of-hope/#series"
         }
       },
       {
@@ -43,37 +43,210 @@
         ]
       },
       {
-        "@type": "ItemList",
-        "@id": "https://ivankotov.eu/qubit-of-hope/#volumes",
-        "itemListElement": [
+        "@type": "BookSeries",
+        "@id": "https://ivankotov.eu/qubit-of-hope/#series",
+        "name": "Qubit of Hope / Кубит надежды",
+        "url": "https://ivankotov.eu/qubit-of-hope/",
+        "author": {
+          "@type": "Person",
+          "name": "Ivan Kotov",
+          "sameAs": "https://orcid.org/0009-0009-6002-9845"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "hasPart": [
           {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@type": "Book",
-              "name": "Qubit of Hope — Volume I",
-              "url": "https://ivankotov.eu/qubit-of-hope/"
-            }
+            "@id": "https://ivankotov.eu/qubit-of-hope/#book"
           },
           {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "Book",
-              "name": "Qubit of Hope — Volume II",
-              "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/"
-            }
+            "@id": "https://ivankotov.eu/qubit-of-hope-volume-ii/#book"
           },
           {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@type": "Book",
-              "name": "Qubit of Hope — Volume III",
-              "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/"
-            }
+            "@id": "https://ivankotov.eu/qubit-of-hope-volume-iii/#book"
           }
         ]
+      },
+      {
+        "@type": "Book",
+        "@id": "https://ivankotov.eu/qubit-of-hope/#book",
+        "name": "Qubit of Hope — Volume I",
+        "url": "https://ivankotov.eu/qubit-of-hope/",
+        "version": "1.0.2",
+        "datePublished": "2026-07-23",
+        "author": {
+          "@type": "Person",
+          "name": "Ivan Kotov",
+          "sameAs": "https://orcid.org/0009-0009-6002-9845"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.21505133"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "Concept DOI",
+            "value": "10.5281/zenodo.21505132"
+          }
+        ],
+        "inLanguage": [
+          "ru",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "nl",
+          "zh-CN"
+        ],
+        "bookFormat": "https://schema.org/EBook",
+        "encodingFormat": [
+          "text/markdown",
+          "application/pdf",
+          "application/epub+zip",
+          "application/x-fictionbook+xml"
+        ],
+        "image": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-i-cover.png",
+        "isPartOf": {
+          "@id": "https://ivankotov.eu/qubit-of-hope/#series"
+        },
+        "sameAs": [
+          "https://zenodo.org/records/21505133",
+          "https://github.com/Kot141078/qubit-of-hope-volume-i",
+          "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+          "https://ivankotov.eu/qubit-of-hope/"
+        ],
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "license": "https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/LICENSE.txt"
+      },
+      {
+        "@type": "Book",
+        "@id": "https://ivankotov.eu/qubit-of-hope-volume-ii/#book",
+        "name": "Qubit of Hope — Volume II",
+        "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+        "version": "1.0.2",
+        "datePublished": "2026-07-23",
+        "author": {
+          "@type": "Person",
+          "name": "Ivan Kotov",
+          "sameAs": "https://orcid.org/0009-0009-6002-9845"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.21506200"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "Concept DOI",
+            "value": "10.5281/zenodo.21506199"
+          }
+        ],
+        "inLanguage": [
+          "ru",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "nl",
+          "zh-CN"
+        ],
+        "bookFormat": "https://schema.org/EBook",
+        "encodingFormat": [
+          "text/markdown",
+          "application/pdf",
+          "application/epub+zip",
+          "application/x-fictionbook+xml"
+        ],
+        "image": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-ii-cover.png",
+        "isPartOf": {
+          "@id": "https://ivankotov.eu/qubit-of-hope/#series"
+        },
+        "sameAs": [
+          "https://zenodo.org/records/21506200",
+          "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+          "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+          "https://ivankotov.eu/qubit-of-hope-volume-ii/"
+        ],
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "license": "https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/LICENSE.txt"
+      },
+      {
+        "@type": "Book",
+        "@id": "https://ivankotov.eu/qubit-of-hope-volume-iii/#book",
+        "name": "Qubit of Hope — Volume III",
+        "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+        "version": "1.0.2",
+        "datePublished": "2026-07-23",
+        "author": {
+          "@type": "Person",
+          "name": "Ivan Kotov",
+          "sameAs": "https://orcid.org/0009-0009-6002-9845"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.21507090"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "Concept DOI",
+            "value": "10.5281/zenodo.21507089"
+          }
+        ],
+        "inLanguage": [
+          "ru",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "nl",
+          "zh-CN"
+        ],
+        "bookFormat": "https://schema.org/EBook",
+        "encodingFormat": [
+          "text/markdown",
+          "application/pdf",
+          "application/epub+zip",
+          "application/x-fictionbook+xml"
+        ],
+        "image": "https://ivankotov.eu/assets/media/qubit-of-hope-volume-iii-cover.png",
+        "isPartOf": {
+          "@id": "https://ivankotov.eu/qubit-of-hope/#series"
+        },
+        "sameAs": [
+          "https://zenodo.org/records/21507090",
+          "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+          "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+          "https://ivankotov.eu/qubit-of-hope-volume-iii/"
+        ],
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Ivan Kotov"
+        },
+        "license": "https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/LICENSE.txt"
       }
     ]
   }
@@ -104,11 +277,14 @@
         <p class="eyebrow">QOH Trilogy hub</p>
         <h1>Qubit of Hope</h1>
         <p class="lead page-lead">This page keeps the book layer together as the narrative/public entry into the world of <code>c</code>.</p>
-        <p class="summary">Volume I remains the original narrative entry node. Volume II and Volume III continue that narrative layer without replacing the canonical architecture stack.</p>
+        <p class="summary">Three separately published <code>v1.0.2</code> Book records form the trilogy. Each volume has its own version DOI, all-versions DOI, repository, release, and rights boundary.</p>
         <div class="section-links">
           <a href="./">Book hub</a>
-          <a href="../qubit-of-hope-volume-ii/">Volume II page</a>
+          <a href="../qubit-of-hope-volume-ii/">Next: Volume II</a>
           <a href="../qubit-of-hope-volume-iii/">Volume III page</a>
+          <a href="../QUBIT_OF_HOPE_TRILOGY_DOI_LEDGER_v1_0_2.json">DOI ledger</a>
+          <a href="../QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2.md">Closure report</a>
+          <a href="../QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2_SHA256SUMS.txt">Closure checksums</a>
           <a href="../downloads/">Downloads</a>
           <a href="../publications/">Publications</a>
         </div>
@@ -156,12 +332,14 @@
             <div class="volume-card-content">
               <p class="eyebrow">volume i</p>
               <h3>Qubit of Hope — Volume I</h3>
-              <p>Original narrative/public entry node with seven language bundles and four confirmed reading formats.</p>
+              <p>Seven languages · MD, PDF, EPUB, FB2 · current version <code>v1.0.2</code>.</p>
+              <p class="status-note">All rights reserved. Public reading and personal local download are allowed; audiobook, adaptation, synthetic-voice, redistribution, and commercial-use restrictions remain in force.</p>
               <div class="section-links volume-actions">
-                <a href="./">Site hub</a>
+                <a href="./">Volume I page</a>
+                <a href="https://doi.org/10.5281/zenodo.21505133">Version DOI</a>
+                <a href="https://doi.org/10.5281/zenodo.21505132">All versions DOI</a>
                 <a href="https://github.com/Kot141078/qubit-of-hope-volume-i">Repository</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.1">Tagged release</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/DOWNLOADS.md">Downloads surface</a>
+                <a href="https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2">v1.0.2 release</a>
               </div>
             </div>
           </article>
@@ -172,12 +350,14 @@
             <div class="volume-card-content">
               <p class="eyebrow">volume ii</p>
               <h3>Qubit of Hope — Volume II</h3>
-              <p>Confirmed second-volume continuation with seven language bundles, four formats, a shared cover asset, and current tagged public release <code>v1.0.1</code>.</p>
+              <p>Seven languages · MD, PDF, EPUB, FB2 · current version <code>v1.0.2</code>.</p>
+              <p class="status-note">All rights reserved. Public reading and personal local download are allowed; audiobook, adaptation, synthetic-voice, redistribution, and commercial-use restrictions remain in force.</p>
               <div class="section-links volume-actions">
-                <a href="../qubit-of-hope-volume-ii/">Site page</a>
+                <a href="../qubit-of-hope-volume-ii/">Volume II page</a>
+                <a href="https://doi.org/10.5281/zenodo.21506200">Version DOI</a>
+                <a href="https://doi.org/10.5281/zenodo.21506199">All versions DOI</a>
                 <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii">Repository</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.1">Tagged release</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii/blob/main/DOWNLOADS.md">Downloads surface</a>
+                <a href="https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2">v1.0.2 release</a>
               </div>
             </div>
           </article>
@@ -188,15 +368,22 @@
             <div class="volume-card-content">
               <p class="eyebrow">volume iii</p>
               <h3>Qubit of Hope — Volume III</h3>
-              <p>Confirmed third-volume continuation with repository downloads and current tagged public release <code>v1.0.1</code>.</p>
+              <p>Seven languages · MD, PDF, EPUB, FB2 · current version <code>v1.0.2</code>.</p>
+              <p class="status-note">All rights reserved. Public reading and personal local download are allowed; audiobook, adaptation, synthetic-voice, redistribution, and commercial-use restrictions remain in force.</p>
               <div class="section-links volume-actions">
-                <a href="../qubit-of-hope-volume-iii/">Site page</a>
+                <a href="../qubit-of-hope-volume-iii/">Volume III page</a>
+                <a href="https://doi.org/10.5281/zenodo.21507090">Version DOI</a>
+                <a href="https://doi.org/10.5281/zenodo.21507089">All versions DOI</a>
                 <a href="https://github.com/Kot141078/qubit-of-hope-volume-iii">Repository</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.1">Tagged release</a>
-                <a href="https://github.com/Kot141078/qubit-of-hope-volume-iii/blob/main/DOWNLOADS.md">Downloads surface</a>
+                <a href="https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2">v1.0.2 release</a>
               </div>
             </div>
           </article>
+        </div>
+        <div class="section-links">
+          <a href="../QUBIT_OF_HOPE_TRILOGY_DOI_LEDGER_v1_0_2.json">Machine-readable DOI ledger</a>
+          <a href="../QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2.md">Publication closure report</a>
+          <a href="../QUBIT_OF_HOPE_TRILOGY_PUBLICATION_CLOSURE_v1_0_2_SHA256SUMS.txt">SHA256SUMS</a>
         </div>
         <p class="caption-note">Covers and reading assets remain All rights reserved. Public reading and personal local download are allowed through the linked repositories.</p>
       </section>
@@ -207,7 +394,7 @@
           <h2>Public reading, not open licensing</h2>
         </div>
         <div class="prose">
-          <p>All rights reserved. Public reading and personal local download are allowed. Redistribution, mirroring, translation, derivative works, audiobook production, corpus ingestion for third-party dataset redistribution, republication under another license, and commercial reuse require prior written permission from Ivan Kotov where stated in the repository rights files.</p>
+          <p>All rights reserved. Public reading and personal local download are allowed. Redistribution, mirroring, translation, derivative works, audiobook production, narration, text-to-speech or synthetic-voice production, media adaptation, corpus ingestion for third-party dataset redistribution, republication under another license, and commercial reuse require prior written permission from Ivan Kotov where stated in the repository rights files.</p>
           <p>This is not open source, not Creative Commons, and not public domain.</p>
         </div>
       </section>
