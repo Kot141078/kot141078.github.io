@@ -144,10 +144,11 @@ Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here
 - Book page: https://ivankotov.eu/world-intelligence/
 - Machine-readable book data: https://ivankotov.eu/world-intelligence.json
 - Canonical repository: https://github.com/Kot141078/world-intelligence
-- Immutable v1.0.0 release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0
-- Tag-pinned download matrix: https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md
-- Version DOI (primary citation for v1.0.0): https://doi.org/10.5281/zenodo.21497098
+- Immutable v1.1.0 release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0
+- Tag-pinned download matrix: https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md
 - Concept DOI (all versions): https://doi.org/10.5281/zenodo.21497097
-- Zenodo record: https://zenodo.org/records/21497098
-- Scope: complete book; Prologue, Chapters 1–22, Epilogue; seven languages; Markdown, PDF, DOCX, FB2.
-- Rights: all rights reserved; no audiobook, TTS, voice-cloning, adaptation, or commercial model-training licence is granted.
+- Previous v1.0.0 DOI: https://doi.org/10.5281/zenodo.21497098
+- Previous Zenodo record: https://zenodo.org/records/21497098
+- Version DOI status for v1.1.0: PENDING_ZENODO_NEW_VERSION.
+- Scope: complete book; Prologue, Chapters 1–22, Epilogue; eight languages; Markdown, PDF, DOCX, FB2.
+- Rights: all rights reserved; no audiobook, TTS, voice-cloning, adaptation, derivative, or commercial model-training licence is granted.

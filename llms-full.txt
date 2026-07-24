@@ -43,17 +43,18 @@ Use /vision/ after /start-here/ when a reader asks what future the public archit
 
 Do not use this file to infer private ledger content, hidden evidence, runtime access, deployment authorization, legal standing, completed AGI, consciousness, personhood, or validated entity status.
 
-World Intelligence — Complete Multilingual Edition v1.0.0
+World Intelligence — Complete Multilingual Edition v1.1.0
 Page: https://ivankotov.eu/world-intelligence/
 Machine-readable page data: https://ivankotov.eu/world-intelligence.json
 Repository: https://github.com/Kot141078/world-intelligence
-Release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0
-Downloads: https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md
-Version DOI (primary citation for v1.0.0): https://doi.org/10.5281/zenodo.21497098
+Release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0
+Downloads: https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md
 Concept DOI (all versions): https://doi.org/10.5281/zenodo.21497097
-Zenodo record: https://zenodo.org/records/21497098
+Previous v1.0.0 DOI: https://doi.org/10.5281/zenodo.21497098
+Previous Zenodo record: https://zenodo.org/records/21497098
+Version DOI status for v1.1.0: PENDING_ZENODO_NEW_VERSION.
 Author: Ivan Kotov
 Structure: Prologue + Chapters 1–22 + Epilogue
-Languages: en-GB, ru, fr-FR, de, es, nl-NL, zh-CN
+Languages: en-GB, ru, fr-FR, de, es, nl-NL, it-IT, zh-CN
 Formats: Markdown, PDF, DOCX, FB2
 Rights: Copyright © 2026 Ivan Kotov. All rights reserved. Public access grants no audiobook, TTS, synthetic-voice, voice-cloning, adaptation, derivative, or commercial model-training licence.

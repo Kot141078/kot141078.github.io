@@ -13,21 +13,18 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
-      "id": "world-intelligence-v1-0-0",
+      "id": "world-intelligence-v1-1-0",
       "title": "World Intelligence — Complete Multilingual Edition",
       "type": "book",
       "role": "complete multilingual book / temporal AI presence / governed intelligence",
       "primary_url": "https://ivankotov.eu/world-intelligence/",
       "github": "https://github.com/Kot141078/world-intelligence",
-      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.0.0",
-      "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.0.0/DOWNLOADS.md",
-      "doi": "10.5281/zenodo.21497098",
-      "doi_url": "https://doi.org/10.5281/zenodo.21497098",
+      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0",
+      "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md",
       "concept_doi": "10.5281/zenodo.21497097",
       "concept_doi_url": "https://doi.org/10.5281/zenodo.21497097",
-      "zenodo_record": "https://zenodo.org/records/21497098",
-      "date": "2026-07-21",
-      "version": "1.0.0",
+      "date": "2026-07-24",
+      "version": "1.1.0",
       "languages": [
         "en-GB",
         "ru",
@@ -35,6 +32,7 @@
         "de",
         "es",
         "nl-NL",
+        "it-IT",
         "zh-CN"
       ],
       "formats": [
@@ -45,7 +43,11 @@
       ],
       "status": "published",
       "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE",
-      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in seven languages with immutable v1.0.0 reading and package links."
+      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in eight languages with immutable v1.1.0 reading and package links.",
+      "version_doi_status": "PENDING_ZENODO_NEW_VERSION",
+      "previous_version_doi": "10.5281/zenodo.21497098",
+      "previous_version_doi_url": "https://doi.org/10.5281/zenodo.21497098",
+      "previous_zenodo_record": "https://zenodo.org/records/21497098"
     },
     {
       "id": "esther-rp-001-v0-8-1",
