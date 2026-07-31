@@ -13,6 +13,67 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "tap-sec-m4-v0-3-2",
+      "title": "TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence",
+      "type": "software",
+      "role": "local-host boundary validation / fail-closed recovery / reproducible public evidence",
+      "primary_url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/",
+      "doi": "10.5281/zenodo.21688521",
+      "doi_url": "https://doi.org/10.5281/zenodo.21688521",
+      "concept_doi": "10.5281/zenodo.21688520",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21688520",
+      "zenodo_record": "https://zenodo.org/records/21688521",
+      "github": "https://github.com/Kot141078/tap-sec-reference-implementation",
+      "release": "https://github.com/Kot141078/tap-sec-reference-implementation/releases/tag/m4-v0.3.2",
+      "tag": "m4-v0.3.2",
+      "tag_url": "https://github.com/Kot141078/tap-sec-reference-implementation/tree/m4-v0.3.2",
+      "commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+      "commit_url": "https://github.com/Kot141078/tap-sec-reference-implementation/commit/0e8850e4cde357287764f6c2dc5aec2d950954b9",
+      "date": "2026-07-29",
+      "version": "0.3.2",
+      "language": "English",
+      "archive": "TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip",
+      "archive_sha256": "6760ee89bc92b9d8fea0de6a1642399ae3b126e7fa4508ac8f4921ab3de65942",
+      "status": "M4_PARTIAL_PASS_WITH_BLOCKED_GATES",
+      "M4_LOCAL_HOST_BOUNDARY_PASS": true,
+      "M4_FULL_PASS": false,
+      "normative": false,
+      "production_ready": false,
+      "fixture_aggregate": {
+        "PASS": 16,
+        "PASS_FAIL_CLOSED": 24,
+        "BLOCKED_EXTERNAL": 2,
+        "FAIL": 0,
+        "total": 42
+      },
+      "blocked_external_gates": [
+        "G05",
+        "G06",
+        "G07",
+        "G13"
+      ],
+      "validation": {
+        "contract_bound_tests": "183/183",
+        "checksum_records": "672/672",
+        "package_manifest_records": "671/671",
+        "fixture_evidence_bindings": "40/40",
+        "clean_extractions": 2,
+        "byte_identical_zip_rebuild": true
+      },
+      "license_code": "Apache-2.0",
+      "license_docs": "CC-BY-4.0",
+      "summary": "Research software and reproducible public evidence for local-host boundary validation. Four external physical-evidence gates remain explicitly blocked.",
+      "non_claims": [
+        "Not a full M4 pass.",
+        "Not normative.",
+        "Not production-ready.",
+        "Not a production-safety certificate.",
+        "Not evidence of physical TPM/HSM custody.",
+        "Not evidence of a physically independent remote witness.",
+        "Not direct Katy-attributable Joule evidence."
+      ]
+    },
+    {
       "id": "world-intelligence-v1-1-0",
       "title": "World Intelligence — Complete Multilingual Edition",
       "type": "book",

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAP-SEC Reference Implementation M4 v0.3.2 | Ivan Kotov</title>
+  <meta name="description" content="Official publication page for TAP-SEC Reference Implementation M4 v0.3.2: a partial local-host boundary pass with four external physical-evidence gates still blocked.">
+  <meta name="keywords" content="TAP-SEC, AI security, continuity, witness, fail-closed systems, crash recovery, Linux security, cgroup v2, TLA+, memory gate, reproducible research, c=a+b, L4 Boundary">
+  <link rel="canonical" href="https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/">
+  <meta property="og:title" content="TAP-SEC Reference Implementation M4 v0.3.2 | Ivan Kotov">
+  <meta property="og:description" content="Local-host boundary validation, fail-closed recovery, continuity classification, witness-bound memory updates, formal safe/unsafe profiles, and reproducible public evidence.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TAP-SEC Reference Implementation M4 v0.3.2 | Ivan Kotov">
+  <meta name="twitter:description" content="DOI-backed research software with a truthful partial-pass boundary and immutable public evidence.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/#page",
+        "url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/",
+        "name": "TAP-SEC Reference Implementation M4 v0.3.2",
+        "description": "Official publication page for TAP-SEC Reference Implementation M4 v0.3.2, a partial local-host boundary pass with four external physical-evidence gates still blocked.",
+        "mainEntity": {
+          "@id": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/#work"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ivankotov.eu/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Publications",
+            "item": "https://ivankotov.eu/publications/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "TAP-SEC Reference Implementation M4 v0.3.2",
+            "item": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/"
+          }
+        ]
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/#work",
+        "name": "TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence",
+        "headline": "TAP-SEC Reference Implementation M4 v0.3.2",
+        "url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/",
+        "description": "Research software and reproducible public evidence for local-host boundary validation. Status: M4_PARTIAL_PASS_WITH_BLOCKED_GATES; M4_FULL_PASS=false; not normative and not production-ready.",
+        "author": {
+          "@type": "Person",
+          "name": "Ivan Kotov",
+          "identifier": "https://orcid.org/0009-0009-6002-9845",
+          "sameAs": "https://orcid.org/0009-0009-6002-9845",
+          "url": "https://ivankotov.eu/about/",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Independent Researcher, Brussels, Belgium"
+          }
+        },
+        "datePublished": "2026-07-29",
+        "version": "0.3.2",
+        "softwareVersion": "0.3.2",
+        "codeRepository": "https://github.com/Kot141078/tap-sec-reference-implementation",
+        "downloadUrl": "https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.21688521",
+          "url": "https://doi.org/10.5281/zenodo.21688521"
+        },
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.21688521",
+          "https://doi.org/10.5281/zenodo.21688520",
+          "https://zenodo.org/records/21688521",
+          "https://github.com/Kot141078/tap-sec-reference-implementation",
+          "https://github.com/Kot141078/tap-sec-reference-implementation/releases/tag/m4-v0.3.2",
+          "https://github.com/Kot141078/tap-sec-reference-implementation/tree/m4-v0.3.2",
+          "https://github.com/Kot141078/tap-sec-reference-implementation/commit/0e8850e4cde357287764f6c2dc5aec2d950954b9"
+        ],
+        "license": [
+          "https://www.apache.org/licenses/LICENSE-2.0",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "keywords": [
+          "TAP-SEC",
+          "AI security",
+          "continuity",
+          "witness",
+          "fail-closed systems",
+          "crash recovery",
+          "Linux security",
+          "cgroup v2",
+          "TLA+",
+          "memory gate",
+          "reproducible research",
+          "c = a + b",
+          "L4 Boundary"
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    .publication-meta,
+    .publication-meta a,
+    .citation-text,
+    .hash-value,
+    .status-block {
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+
+    .status-block {
+      max-width: 100%;
+      white-space: pre-wrap;
+    }
+  </style>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+        <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="/publications/" aria-current="page">Publications</a>
+        <a href="../../diary/">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Publication / research software</p>
+        <h1>TAP-SEC Reference Implementation M4 v0.3.2</h1>
+        <p class="lead page-lead">Local-host boundary validation, fail-closed recovery, continuity classification, witness-bound memory updates, formal safe/unsafe profiles, and reproducible public evidence.</p>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Publication state</p>
+          <h2>DOI-backed research software</h2>
+        </div>
+        <div class="prose publication-meta">
+          <p><strong>Full title:</strong> TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence.</p>
+          <p><strong>Author and rights holder:</strong> Ivan Kotov.</p>
+          <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-6002-9845">0009-0009-6002-9845</a>.</p>
+          <p><strong>Affiliation:</strong> Independent Researcher, Brussels, Belgium.</p>
+          <p><strong>Version:</strong> <code>0.3.2</code>.</p>
+          <p><strong>Declared publication date:</strong> <code>2026-07-29</code>.</p>
+          <p><strong>Resource type:</strong> <code>Software</code>.</p>
+          <p><strong>Version DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21688521">10.5281/zenodo.21688521</a>.</p>
+          <p><strong>Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21688520">10.5281/zenodo.21688520</a>.</p>
+        </div>
+        <div class="section-links">
+          <a href="https://doi.org/10.5281/zenodo.21688521">Version DOI</a>
+          <a href="https://doi.org/10.5281/zenodo.21688520">Concept DOI</a>
+          <a href="https://zenodo.org/records/21688521">Zenodo record</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation">GitHub repository</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/tag/m4-v0.3.2">GitHub release</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Truthful status boundary</p>
+          <h2>Partial local-host pass</h2>
+        </div>
+        <pre class="status-block"><code>M4_PARTIAL_PASS_WITH_BLOCKED_GATES
+M4_LOCAL_HOST_BOUNDARY_PASS=true
+M4_FULL_PASS=false
+NOT_NORMATIVE
+NOT_PRODUCTION_READY</code></pre>
+        <div class="prose">
+          <p>The tested local-host boundary passed. Four external physical-evidence gates remain explicitly blocked and are not counted as passes.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Evidence summary</p>
+          <h2>Fixture aggregate and validation</h2>
+        </div>
+        <pre class="status-block"><code>16 PASS
+24 PASS_FAIL_CLOSED
+2 BLOCKED_EXTERNAL
+0 FAIL
+42 total</code></pre>
+        <div class="prose">
+          <p>The final release tree passed <strong>183/183</strong> contract-bound tests, <strong>672/672</strong> checksum records, <strong>671/671</strong> package-manifest records, and <strong>40/40</strong> fixture evidence bindings.</p>
+          <p>Validation also completed two clean extractions, public-safety validation, and a byte-identical final ZIP rebuild.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Blocked external gates</p>
+          <h2>Evidence not claimed</h2>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>G05</strong> — no distinct pinned remote witness outside the same host.</li>
+          <li><strong>G06</strong> — no physically separate append-only witness failure domain.</li>
+          <li><strong>G07</strong> — no physical non-exportable TPM/HSM custody.</li>
+          <li><strong>G13</strong> — no direct Katy-attributable Joule telemetry.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Immutable artifact</p>
+          <h2>Software release identity</h2>
+        </div>
+        <div class="prose publication-meta">
+          <p><strong>Filename:</strong> <code>TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip</code>.</p>
+          <p class="hash-value"><strong>SHA-256:</strong> <code>6760ee89bc92b9d8fea0de6a1642399ae3b126e7fa4508ac8f4921ab3de65942</code>.</p>
+          <p><strong>Tag:</strong> <a href="https://github.com/Kot141078/tap-sec-reference-implementation/tree/m4-v0.3.2"><code>m4-v0.3.2</code></a>.</p>
+          <p><strong>Exact commit:</strong> <a href="https://github.com/Kot141078/tap-sec-reference-implementation/commit/0e8850e4cde357287764f6c2dc5aec2d950954b9"><code>0e8850e4cde357287764f6c2dc5aec2d950954b9</code></a>.</p>
+        </div>
+        <div class="section-links">
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip">Download software ZIP</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip.sha256">Checksum sidecar</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/tree/m4-v0.3.2">Immutable tag</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/commit/0e8850e4cde357287764f6c2dc5aec2d950954b9">Exact commit</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Academic documents</p>
+          <h2>Five approved reports</h2>
+        </div>
+        <div class="prose">
+          <p>The approved academic PDFs are linked directly from the immutable <code>m4-v0.3.2</code> GitHub release. The website does not mirror or modify them.</p>
+        </div>
+        <div class="section-links">
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_M4_v0_3_2_ACADEMIC_TECHNICAL_REPORT.pdf">Academic Technical Report</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_M4_v0_3_2_EXECUTIVE_SUMMARY.pdf">Executive Summary</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.pdf">Validation and Evidence Report</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_M4_v0_3_2_PUBLICATION_READINESS_REVIEW.pdf">Publication Readiness Review</a>
+          <a href="https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_M4_v0_3_2_LICENSE_CITATION_AND_REUSE_GUIDE.pdf">License, Citation, and Reuse Guide</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Licensing</p>
+          <h2>Software and documentation scopes</h2>
+        </div>
+        <div class="prose">
+          <p>Author-owned software and machine-executable materials are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</p>
+          <p>Author-owned documentation, academic reports, diagrams, publication metadata, and public evidence are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+          <p>Third-party and excluded materials retain their original terms.</p>
+          <p>Copyright © 2026 Ivan Kotov. All author-owned rights remain vested in Ivan Kotov.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Metadata clarification</p>
+          <h2>Authoritative release records</h2>
+        </div>
+        <div class="prose">
+          <ul>
+            <li>The reference to <code>datacite.json</code> in Section 7 of the reuse guide means <code>datacite.xml</code>.</li>
+            <li>There is no separate <code>RELEASE_CLAIMS.json</code>.</li>
+            <li>The authoritative claim records are <code>PUBLICATION_STATUS.json</code> and <code>PUBLICATION_MANIFEST.json</code>.</li>
+            <li>The repository retains <code>.zenodo.json</code>.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Recommended citation</p>
+          <h2>Cite this release</h2>
+        </div>
+        <p class="citation-text">Kotov, I. (2026). <em>TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence</em> (Version 0.3.2) [Computer software]. Zenodo. <a href="https://doi.org/10.5281/zenodo.21688521">https://doi.org/10.5281/zenodo.21688521</a></p>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Non-claims</p>
+          <h2>What this release does not establish</h2>
+        </div>
+        <div class="prose">
+          <p>This release is not a full M4 pass, normative standard, production-safety certificate, independent human peer review, or authorization for production or safety-critical deployment.</p>
+          <p>It does not claim physical TPM/HSM custody, a physically independent remote witness, a physically separate append-only witness failure domain, or direct Katy-attributable Joule evidence.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Publications index</a>
+          <a href="../../releases/">Release timeline</a>
+          <a href="../../evidence/">Evidence surface</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

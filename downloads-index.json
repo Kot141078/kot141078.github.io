@@ -3,6 +3,85 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/",
+      "note": "Reader-facing site page for the DOI-backed research software; release files are not mirrored into the website repository."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Version DOI",
+      "format": "DOI / persistent identifier",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.21688521",
+      "doi_identifier": "10.5281/zenodo.21688521",
+      "note": "Persistent identifier for version 0.3.2."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Concept DOI",
+      "format": "DOI / version-family navigation",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.21688520",
+      "concept_doi_identifier": "10.5281/zenodo.21688520",
+      "note": "Persistent identifier for the TAP-SEC record family."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Zenodo record",
+      "format": "archival record",
+      "language": "English",
+      "url": "https://zenodo.org/records/21688521",
+      "note": "Canonical Zenodo record for version 0.3.2."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "GitHub repository",
+      "format": "source repository",
+      "language": "English",
+      "url": "https://github.com/Kot141078/tap-sec-reference-implementation",
+      "note": "Canonical public source repository."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "GitHub release",
+      "format": "release page",
+      "language": "English",
+      "url": "https://github.com/Kot141078/tap-sec-reference-implementation/releases/tag/m4-v0.3.2",
+      "release_tag": "m4-v0.3.2",
+      "note": "Immutable release boundary for the software ZIP, academic documents, metadata, and checksums."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Immutable Git tag",
+      "format": "repository tree",
+      "language": "English",
+      "url": "https://github.com/Kot141078/tap-sec-reference-implementation/tree/m4-v0.3.2",
+      "release_tag": "m4-v0.3.2",
+      "note": "Tag-bound repository snapshot for version 0.3.2."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Exact source commit",
+      "format": "repository commit",
+      "language": "English",
+      "url": "https://github.com/Kot141078/tap-sec-reference-implementation/commit/0e8850e4cde357287764f6c2dc5aec2d950954b9",
+      "commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+      "note": "Exact commit referenced by the published release."
+    },
+    {
+      "object": "TAP-SEC Reference Implementation M4 v0.3.2",
+      "surface": "Reference implementation ZIP",
+      "format": "ZIP archive",
+      "language": "English",
+      "url": "https://github.com/Kot141078/tap-sec-reference-implementation/releases/download/m4-v0.3.2/TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip",
+      "filename": "TAP_SEC_REFERENCE_IMPLEMENTATION_M4_v0_3_2.zip",
+      "sha256": "6760ee89bc92b9d8fea0de6a1642399ae3b126e7fa4508ac8f4921ab3de65942",
+      "note": "Immutable GitHub Release asset; the binary is not mirrored into the website repository."
+    },
+    {
       "object": "World Intelligence",
       "surface": "Concept DOI (all versions)",
       "format": "DOI / version-family navigation",
