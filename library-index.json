@@ -3,6 +3,76 @@
   "page": "https://ivankotov.eu/library/",
   "items": [
     {
+      "id": "ai-social-role-separation-memory-custody-v1-0",
+      "title": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
+      "role": "technical note / AI social-role composition / memory and inference custody",
+      "primary_page": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "repo_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody",
+      "release_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/tag/v1.0",
+      "tag_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/tree/v1.0",
+      "commit_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/commit/f5d7263181492891032f213c7db1e0c25b701372",
+      "type": "publication",
+      "subtype": "technical_note",
+      "doi": "10.5281/zenodo.21751985",
+      "doi_url": "https://doi.org/10.5281/zenodo.21751985",
+      "concept_doi": "10.5281/zenodo.21751984",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21751984",
+      "zenodo_record": "https://doi.org/10.5281/zenodo.21751985",
+      "zenodo_status": "published",
+      "version": "1.0",
+      "date": "2026-08-02",
+      "author": "Ivan Kotov",
+      "orcid": "0009-0009-6002-9845",
+      "languages": [
+        "English",
+        "Russian"
+      ],
+      "license": "All Rights Reserved with Limited Complete Unmodified Non-Commercial Sharing",
+      "summary": "Bilingual technical note distinguishing transparent AI social-role composition from hidden role blending and defining custody boundaries for memory, inferences, versions, continuity, session work, authority, and role conflicts.",
+      "artifacts": [
+        {
+          "language": "English",
+          "format": "Markdown",
+          "filename": "AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.md",
+          "media_type": "text/markdown",
+          "sha256": "10dc6d9388c807af7d8b3b47363a625ca4d699522f47de03c5f2acf43bbceb55",
+          "url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/download/v1.0/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.md"
+        },
+        {
+          "language": "English",
+          "format": "PDF",
+          "filename": "AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.pdf",
+          "media_type": "application/pdf",
+          "sha256": "7c817b8191344608921258c1e1e615664c081f63a563043bba6d045376670cc9",
+          "url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/download/v1.0/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.pdf"
+        },
+        {
+          "language": "Russian",
+          "format": "Markdown",
+          "filename": "AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_RU.md",
+          "media_type": "text/markdown",
+          "sha256": "2adb36103c31ca25439b7427dd6990e05b274d05c0cc80403a887990fd1cdb4c",
+          "url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/download/v1.0/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_RU.md"
+        },
+        {
+          "language": "Russian",
+          "format": "PDF",
+          "filename": "AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_RU.pdf",
+          "media_type": "application/pdf",
+          "sha256": "6fbfeafd5873f391c2c30b85319f37fdff78016b8e7719411896ab789c365200",
+          "url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/download/v1.0/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_RU.pdf"
+        }
+      ],
+      "not": [
+        "peer-reviewed journal publication",
+        "empirical validation",
+        "legal standard or legal opinion",
+        "product certification",
+        "deployment authorization",
+        "proof of AI consciousness, subjecthood, or personhood"
+      ]
+    },
+    {
       "id": "tap-sec-m4-v0-3-2",
       "title": "TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence",
       "role": "research software / local-host boundary validation / fail-closed recovery",

@@ -28,6 +28,7 @@
   "personality_formation_evidence_package_v0_1_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
   "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "entity_vs_profile_v0_1_1_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+  "ai_social_role_separation_memory_custody_v1_0_url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
   "nodes": [
     {
       "id": "agi",
@@ -661,6 +662,34 @@
         "Not consciousness proof.",
         "Not live-substrate truth.",
         "Not proof of completeness."
+      ]
+    },
+    {
+      "id": "ai-social-role-separation-memory-custody-v1-0",
+      "title": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
+      "url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "canonical_url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "summary": "Bilingual technical note distinguishing transparent AI social-role composition from hidden role blending and defining custody boundaries for memory, inferences, versions, continuity, session work, authority, and role conflicts.",
+      "doi": "10.5281/zenodo.21751985",
+      "doi_url": "https://doi.org/10.5281/zenodo.21751985",
+      "concept_doi": "10.5281/zenodo.21751984",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21751984",
+      "zenodo_record": "https://doi.org/10.5281/zenodo.21751985",
+      "repository_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody",
+      "github_release_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/tag/v1.0",
+      "release_tag": "v1.0",
+      "release_commit": "f5d7263181492891032f213c7db1e0c25b701372",
+      "languages": [
+        "English",
+        "Russian"
+      ],
+      "not": [
+        "peer-reviewed journal publication",
+        "empirical validation",
+        "legal standard or legal opinion",
+        "product certification",
+        "deployment authorization",
+        "proof of AI consciousness, subjecthood, or personhood"
       ]
     }
   ],
