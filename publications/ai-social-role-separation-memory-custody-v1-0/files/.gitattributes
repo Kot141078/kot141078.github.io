@@ -1,0 +1,3 @@
+# Preserve the four frozen Zenodo v1.0 artifacts byte-for-byte.
+*.md -text
+*.pdf -text
