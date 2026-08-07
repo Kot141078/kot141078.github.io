@@ -168,6 +168,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/boundaries-of-machine-interpretation-v0-2",
+      "termCode": "boundaries-of-machine-interpretation-v0-2",
+      "name": "Boundaries of Machine Interpretation",
+      "alternateName": [],
+      "description": "A bilingual, machine-readable publication preventing technical proxies from being silently promoted into stronger epistemic, relational, normative, or phenomenal statuses. It contains six typed units, but only four are operational interpretation boundaries.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/c",
       "termCode": "c",
       "name": "c",

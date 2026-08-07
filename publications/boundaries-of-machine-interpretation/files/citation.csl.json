@@ -1,0 +1,20 @@
+{
+  "id": "https://doi.org/10.5281/zenodo.21841445",
+  "type": "report",
+  "title": "Boundaries of Machine Interpretation",
+  "author": [
+    {
+      "family": "Kotov",
+      "given": "Ivan",
+      "ORCID": "https://orcid.org/0009-0009-6002-9845"
+    }
+  ],
+  "issued": {
+    "date-parts": [[2026, 8, 7]]
+  },
+  "version": "0.2",
+  "publisher": "Zenodo",
+  "DOI": "10.5281/zenodo.21841445",
+  "URL": "https://doi.org/10.5281/zenodo.21841445",
+  "language": "en"
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "urn:ivankotov:schema:machine-publication-index:v1",
+  "publication_id": "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2",
+  "doi": "10.5281/zenodo.21841445",
+  "doi_url": "https://doi.org/10.5281/zenodo.21841445",
+  "title": "Boundaries of Machine Interpretation",
+  "version": "0.2",
+  "publication_date": "2026-08-07",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845"
+  },
+  "primary_presentation_language": "en",
+  "languages": ["en", "ru"],
+  "counts": {
+    "boundary_count": 4,
+    "authorial_definition_count": 1,
+    "process_premise_count": 1,
+    "unit_count": 6
+  },
+  "entrypoints": [
+    {
+      "path": "machine/statements.json",
+      "role": "typed statement registry and operational relations"
+    },
+    {
+      "path": "machine/work.jsonld",
+      "role": "linked-data publication graph"
+    },
+    {
+      "path": "MANIFEST.json",
+      "role": "package identity, membership, order, and file inventory"
+    },
+    {
+      "path": "CANONICAL_PRECEDENCE.md",
+      "role": "language authority and fail-closed conflict rule"
+    },
+    {
+      "path": "SHA256SUMS",
+      "role": "byte-integrity ledger"
+    }
+  ],
+  "parser_guards": [
+    "unit_count != boundary_count",
+    "hasPart does not imply same semantic type",
+    "supersedes does not delete the predecessor",
+    "a presentation rendering cannot override its controlling source",
+    "a telemetry result alone cannot settle subjective experience",
+    "a self-description alone cannot settle the soul definition"
+  ],
+  "conflict_policy": "fail-closed-to-controlling-source-file"
+}

@@ -13,6 +13,97 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "boundaries-of-machine-interpretation-v0-2",
+      "title": "Boundaries of Machine Interpretation",
+      "alternative_title": "Границы машинного толкования",
+      "type": "publication",
+      "subtype": "authorial_philosophical_architectural_publication",
+      "role": "four operational interpretation boundaries, one reflexive authorial definition, and one temporal process premise",
+      "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
+      "identifier": "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2",
+      "doi": "10.5281/zenodo.21841445",
+      "doi_url": "https://doi.org/10.5281/zenodo.21841445",
+      "concept_doi": "10.5281/zenodo.21841444",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21841444",
+      "zenodo_record": "https://zenodo.org/records/21841445",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/ba6be6ce638683435a3ab7fa9db298c5cea4f521/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
+      "commit": "ba6be6ce638683435a3ab7fa9db298c5cea4f521",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/ba6be6ce638683435a3ab7fa9db298c5cea4f521",
+      "date": "2026-08-07",
+      "version": "0.2",
+      "status": "published-doi-bound-authorial-publication",
+      "languages": ["English", "Russian"],
+      "resource_type": "Authorial philosophical-architectural publication",
+      "license": "No license granted — all rights reserved",
+      "summary": "A bilingual, machine-readable publication preventing technical proxies from being silently promoted into stronger epistemic, relational, normative, or phenomenal statuses. It contains six typed units, but only four are operational interpretation boundaries.",
+      "counts": {
+        "boundary_count": 4,
+        "authorial_definition_count": 1,
+        "process_premise_count": 1,
+        "unit_count": 6
+      },
+      "source_authority": {
+        "future_process_premise": "English controlling TXT",
+        "four_operational_boundaries": "four Russian controlling TXT files",
+        "soul_definition": "Russian controlling TXT"
+      },
+      "source_archive_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
+      "reader_pdf_sha256": "29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986",
+      "manifest_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/MANIFEST.json",
+      "checksums_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/SHA256SUMS",
+      "machine_index_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/machine/index.json",
+      "canonical_artifacts": [
+        {
+          "format": "Markdown",
+          "filename": "BOUNDARIES_OF_MACHINE_INTERPRETATION.md",
+          "media_type": "text/markdown",
+          "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/BOUNDARIES_OF_MACHINE_INTERPRETATION.md"
+        },
+        {
+          "format": "PDF",
+          "filename": "KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2_READER.pdf",
+          "media_type": "application/pdf",
+          "sha256": "29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986",
+          "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2_READER.pdf"
+        },
+        {
+          "format": "JSON-LD",
+          "filename": "machine/work.jsonld",
+          "media_type": "application/ld+json",
+          "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/machine/work.jsonld"
+        },
+        {
+          "format": "ZIP",
+          "filename": "KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip",
+          "media_type": "application/zip",
+          "sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
+          "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip"
+        }
+      ],
+      "predecessors": [
+        {
+          "id": "four-boundaries-of-machine-interpretation-v0-1",
+          "relation": "incorporated-four-controlling-files-byte-identically",
+          "status": "archival-predecessor-incorporated-unchanged",
+          "url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+        },
+        {
+          "id": "soul-as-freedom-of-self-reflection-v0-1",
+          "relation": "superseded-by-expanded-v0.2-definition",
+          "status": "archival-predecessor-superseded",
+          "url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/"
+        }
+      ],
+      "non_claims": [
+        "empirical scientific proof",
+        "consciousness, soul, or personhood test",
+        "attribution or denial of internal states to any particular entity",
+        "telemetry-to-experience inference",
+        "automatic intervention authority",
+        "historical uniqueness, certification, legal authority, or deployment authorization"
+      ]
+    },
+    {
       "id": "four-boundaries-of-machine-interpretation-v0-1",
       "title": "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set",
       "alternative_title": "Четыре границы машинного толкования",
@@ -26,7 +117,8 @@
       "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/16b70dd3d605c43fcc8b45561aeccc096ade4715",
       "date": "2026-08-07",
       "version": "0.1",
-      "status": "provisional-authorial-boundary-set",
+      "status": "archival-predecessor-incorporated-unchanged",
+      "current_publication": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
       "languages": [
         "Russian (four canonical units)",
         "English (non-canonical discovery translations)"
@@ -118,6 +210,8 @@
       "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/c02a0b964fb6e1219a8130f46e057b62551c57d5",
       "date": "2026-08-07",
       "version": "0.1",
+      "status": "archival-predecessor-superseded",
+      "current_publication": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
       "languages": [
         "Russian",
         "English (non-canonical discovery translation)"

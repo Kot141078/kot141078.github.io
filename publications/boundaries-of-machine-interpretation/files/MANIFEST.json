@@ -1,0 +1,148 @@
+{
+  "schema": "urn:ivankotov:schema:publication-package-manifest:v1",
+  "package_id": "KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2",
+  "publication_id": "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2",
+  "doi": "10.5281/zenodo.21841445",
+  "doi_url": "https://doi.org/10.5281/zenodo.21841445",
+  "title": "Boundaries of Machine Interpretation",
+  "version": "0.2",
+  "publication_date": "2026-08-07",
+  "recorded_place": "Brussels, Belgium",
+  "status": "authorial-philosophical-architectural-publication",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent researcher"
+  },
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "primary_presentation_language": "en",
+  "languages": ["en", "ru"],
+  "counts": {
+    "boundary_count": 4,
+    "authorial_definition_count": 1,
+    "process_premise_count": 1,
+    "unit_count": 6
+  },
+  "members": [
+    {
+      "order": 0,
+      "id": "urn:ivankotov:statement:future-not-event-process:v1.0",
+      "semantic_type": "temporal-process-premise",
+      "is_boundary": false,
+      "controlling_file": "statements/en/AUTHORIAL_00_FUTURE_AS_PROCESS_EN.txt",
+      "sha256": "ac8ffc77cfd71f784375d9263da7567429f01f9c1e52d761c79a03e54a95559f"
+    },
+    {
+      "order": 1,
+      "id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "is_boundary": true,
+      "controlling_file": "statements/ru/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt",
+      "sha256": "81beacfba0257e33aea6a74e71de392459d1e2e57a67d4a8665f233c3a74bf9c"
+    },
+    {
+      "order": 2,
+      "id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "is_boundary": true,
+      "controlling_file": "statements/ru/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt",
+      "sha256": "0eaf76e52f9e962d6635c896078c93d32526e4442e87121ccb7620ba59fbf1dc"
+    },
+    {
+      "order": 3,
+      "id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "is_boundary": true,
+      "controlling_file": "statements/ru/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt",
+      "sha256": "4f9accac33823beb9c2f63adbd3821f48c49fbc791e2d2ce318c87648a694b24"
+    },
+    {
+      "order": 4,
+      "id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "is_boundary": true,
+      "controlling_file": "statements/ru/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
+      "sha256": "06d3c524cc128fd25299dca1bb216bc9271bf9757481462d7d51d4caa6f11aca"
+    },
+    {
+      "order": 5,
+      "id": "urn:ivankotov:statement:soul-open-ended-self-reflection:v0.2",
+      "semantic_type": "reflexive-authorial-definition",
+      "is_boundary": false,
+      "controlling_file": "statements/ru/AUTHORIAL_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_RU.txt",
+      "sha256": "d1767122acce6f6498a3f6b6894f8bbbae9d315169f317a0d68517a307e4f4bf",
+      "supersedes": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1"
+    }
+  ],
+  "source_authority": {
+    "four_boundaries": "ru",
+    "soul_definition": "ru",
+    "future_process_premise": "en",
+    "conflict_policy": "fail-closed-to-unit-controlling-source"
+  },
+  "predecessors": [
+    {
+      "id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
+      "relation": "incorporates-four-controlling-files-without-alteration",
+      "git_commit": "16b70dd3d605c43fcc8b45561aeccc096ade4715",
+      "source_zip_sha256": "6f443de9149b983476db542ed8230b33c8c9a134596a6f5aa86e5ebd8352892f"
+    },
+    {
+      "id": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+      "relation": "superseded-by-expanded-v0.2-definition",
+      "source_zip_size": 5933,
+      "source_zip_sha256": "a6232e3beab6f70cef03dfd43c5028a224d03e45e273db03a7fa7b5880e47b4a"
+    }
+  ],
+  "rights": {
+    "status": "no-license-granted-all-rights-reserved",
+    "file": "RIGHTS.md",
+    "repository_exception_required": true
+  },
+  "file_precedence": [
+    "unit controlling TXT file",
+    "paired publication rendering TXT file",
+    "machine/statements.json and machine/work.jsonld",
+    "BOUNDARIES_OF_MACHINE_INTERPRETATION.md",
+    "KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2_READER.pdf and explanatory material"
+  ],
+  "files": [
+    {"path": "BOUNDARIES_OF_MACHINE_INTERPRETATION.md", "role": "complete-English-led-reader"},
+    {"path": "KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2_READER.pdf", "role": "derived-visual-reader"},
+    {"path": "README.md", "role": "package-guide"},
+    {"path": "MACHINE_ENTRY.md", "role": "machine-routing-guide"},
+    {"path": "CANONICAL_PRECEDENCE.md", "role": "authority-and-conflict-policy"},
+    {"path": "PROVENANCE_AND_SUPERSESSION.md", "role": "version-lineage-record"},
+    {"path": "RIGHTS.md", "role": "package-specific-rights-statement"},
+    {"path": "CITATION.cff", "role": "citation-file-format-metadata"},
+    {"path": "citation.csl.json", "role": "citation-style-language-metadata"},
+    {"path": "machine/index.json", "role": "machine-entry-index"},
+    {"path": "machine/statements.json", "role": "typed-statement-registry"},
+    {"path": "machine/work.jsonld", "role": "linked-data-publication-graph"},
+    {"path": "statements/en/AUTHORIAL_00_FUTURE_AS_PROCESS_EN.txt", "role": "controlling-authorial-source"},
+    {"path": "statements/en/PUBLICATION_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_EN.txt", "role": "authorized-primary-reader-rendering"},
+    {"path": "statements/en/PUBLICATION_02_FORGETTING_AND_DATA_LOSS_EN.txt", "role": "authorized-primary-reader-rendering"},
+    {"path": "statements/en/PUBLICATION_03_EMPATHY_AND_OPTIMIZATION_EN.txt", "role": "authorized-primary-reader-rendering"},
+    {"path": "statements/en/PUBLICATION_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_EN.txt", "role": "authorized-primary-reader-rendering"},
+    {"path": "statements/en/PUBLICATION_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_EN.txt", "role": "authorized-primary-reader-rendering"},
+    {"path": "statements/ru/PUBLICATION_00_FUTURE_AS_PROCESS_RU.txt", "role": "approved-publication-rendering"},
+    {"path": "statements/ru/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt", "role": "controlling-canonical-boundary"},
+    {"path": "statements/ru/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt", "role": "controlling-canonical-boundary"},
+    {"path": "statements/ru/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt", "role": "controlling-canonical-boundary"},
+    {"path": "statements/ru/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt", "role": "controlling-canonical-boundary"},
+    {"path": "statements/ru/AUTHORIAL_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_RU.txt", "role": "controlling-authorial-source"},
+    {"path": "provenance/FOUR_BOUNDARIES_v0_1_SOURCE_NOTE_RU.txt", "role": "predecessor-source-note"},
+    {"path": "provenance/SOUL_STATEMENT_v0_1_CANONICAL_RU.txt", "role": "superseded-canonical-provenance"},
+    {"path": "provenance/SOUL_STATEMENT_v0_1_VERBATIM_RU.txt", "role": "verbatim-conversational-provenance"},
+    {"path": "MANIFEST.json", "role": "package-manifest"},
+    {"path": "SHA256SUMS", "role": "integrity-ledger"}
+  ],
+  "build": {
+    "deterministic_zip": true,
+    "zip_timestamp_utc": "2026-08-07T00:00:00Z",
+    "file_mode": "0644",
+    "directory_mode": "0755"
+  }
+}
