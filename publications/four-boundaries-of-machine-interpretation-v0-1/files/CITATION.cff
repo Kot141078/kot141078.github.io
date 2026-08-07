@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this record when referring to the boundary set or one of its canonical statements."
+title: "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set"
+type: generic
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "0.1"
+date-released: 2026-08-07
+abstract: >-
+  A set of four canonical Russian authorial statements separating doubt from
+  numerical uncertainty, forgetting from data loss, empathy from optimization,
+  and subjective experience from telemetry.
+keywords:
+  - machine interpretation
+  - doubt
+  - uncertainty
+  - forgetting
+  - memory
+  - empathy
+  - optimization
+  - subjective experience
+  - qualia
+  - telemetry
+  - artificial intelligence

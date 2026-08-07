@@ -1,0 +1,7 @@
+# Preserve the validated publication files byte-for-byte.
+*.cff -text
+*.json -text
+*.jsonld -text
+*.md -text
+*.txt -text
+*.zip binary

@@ -1,0 +1,99 @@
+{
+  "package_id": "KOTOV_FOUR_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_1",
+  "identifier": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
+  "title": "Четыре границы машинного толкования",
+  "english_title": "Four Boundaries of Machine Interpretation",
+  "version": "0.1",
+  "recorded_date": "2026-08-07",
+  "author": "Ivan Kotov",
+  "author_orcid": "https://orcid.org/0009-0009-6002-9845",
+  "recorded_place": "Brussels, Belgium",
+  "status": "provisional-authorial-boundary-set",
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "canonical_language": "ru",
+  "canonical_unit_count": 4,
+  "canonical_units": [
+    {
+      "position": 1,
+      "identifier": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "path": "CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt",
+      "sha256": "81beacfba0257e33aea6a74e71de392459d1e2e57a67d4a8665f233c3a74bf9c",
+      "bytes": 613
+    },
+    {
+      "position": 2,
+      "identifier": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "path": "CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt",
+      "sha256": "0eaf76e52f9e962d6635c896078c93d32526e4442e87121ccb7620ba59fbf1dc",
+      "bytes": 684
+    },
+    {
+      "position": 3,
+      "identifier": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "path": "CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt",
+      "sha256": "4f9accac33823beb9c2f63adbd3821f48c49fbc791e2d2ce318c87648a694b24",
+      "bytes": 785
+    },
+    {
+      "position": 4,
+      "identifier": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "path": "CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
+      "sha256": "06d3c524cc128fd25299dca1bb216bc9271bf9757481462d7d51d4caa6f11aca",
+      "bytes": 711
+    }
+  ],
+  "precedence": {
+    "boundary_wording": "The corresponding CANONICAL_*.txt file controls.",
+    "set_membership_order_version": "MANIFEST.json controls.",
+    "machine_mapping": "statement-set.jsonld mirrors but cannot expand or override the canonical files.",
+    "interpretation": "STATEMENT_SET.md is explanatory and non-canonical.",
+    "translations": "English translations are non-canonical discovery aids.",
+    "conflict_behavior": "fail-closed"
+  },
+  "files": [
+    {
+      "path": "CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt",
+      "role": "authoritative-canonical-boundary-01"
+    },
+    {
+      "path": "CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt",
+      "role": "authoritative-canonical-boundary-02"
+    },
+    {
+      "path": "CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt",
+      "role": "authoritative-canonical-boundary-03"
+    },
+    {
+      "path": "CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
+      "role": "authoritative-canonical-boundary-04"
+    },
+    {
+      "path": "SOURCE_NOTE_RU.txt",
+      "role": "normalized-source-note-non-canonical"
+    },
+    {
+      "path": "STATEMENT_SET.md",
+      "role": "human-readable-provenance-and-interpretation-record"
+    },
+    {
+      "path": "statement-set.jsonld",
+      "role": "machine-readable-semantic-record"
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "citation-metadata"
+    },
+    {
+      "path": "README.md",
+      "role": "package-guide"
+    },
+    {
+      "path": "SHA256SUMS",
+      "role": "integrity-sidecar"
+    }
+  ],
+  "source_note_normalization": "Normalized transcription from the author's source note: UTF-8, Unicode NFC, LF; copy/paste zero-width characters removed. The source note is not canonical.",
+  "license_status": "not-specified"
+}

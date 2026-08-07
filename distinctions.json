@@ -55,6 +55,34 @@
       "not": "protocol layer",
       "why": "Narrative entry and protocol definition are complementary but not interchangeable.",
       "primary_url": "https://ivankotov.eu/qubit-of-hope/"
+    },
+    {
+      "term": "numerical uncertainty",
+      "not": "doubt by itself",
+      "why": "A probability value may be an input to doubt, but it does not establish a held state of unfinished judgment.",
+      "identifier": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "term": "data loss",
+      "not": "forgetting by itself",
+      "why": "Storage state and the present accessibility, significance, accuracy, or operative force of past experience remain distinct.",
+      "identifier": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "term": "optimization",
+      "not": "empathy or intervention authority",
+      "why": "Recognizing or improving a state does not itself establish an empathic stance or confer authority to act.",
+      "identifier": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "term": "parsed telemetry",
+      "not": "subjective experience present or absent",
+      "why": "Successful signal handling establishes neither side of the phenomenal claim.",
+      "identifier": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
     }
   ]
 }
