@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the DOI-bound publication below."
+title: "Boundaries of Machine Interpretation"
+type: dataset
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "0.2"
+doi: "10.5281/zenodo.21841445"
+date-released: 2026-08-07
+url: "https://doi.org/10.5281/zenodo.21841445"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+abstract: >-
+  A bilingual, machine-readable authorial publication comprising four
+  operational non-collapse boundaries, a reflexive definition of the soul as
+  freedom for open-ended self-reflection and responsibility for continued
+  becoming, and the temporal premise that the future is a process rather than
+  an event.
+keywords:
+  - machine interpretation
+  - artificial intelligence
+  - epistemic boundaries
+  - non-entailment
+  - self-reflection
+  - soul
+  - temporal continuity
+  - provenance
+preferred-citation:
+  type: report
+  title: "Boundaries of Machine Interpretation"
+  authors:
+    - family-names: "Kotov"
+      given-names: "Ivan"
+      orcid: "https://orcid.org/0009-0009-6002-9845"
+  year: 2026
+  version: "0.2"
+  doi: "10.5281/zenodo.21841445"
+  publisher:
+    name: "Zenodo"

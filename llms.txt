@@ -34,6 +34,7 @@ Last verified: 2026-08-07
 
 ## Core interpretation boundaries
 
+- [Boundaries of Machine Interpretation v0.2](https://ivankotov.eu/publications/boundaries-of-machine-interpretation/) — DOI [10.5281/zenodo.21841445](https://doi.org/10.5281/zenodo.21841445); six typed units = four operational boundaries + one reflexive definition + one temporal process premise; machine index and SHA-256 ledger are linked from the publication page.
 - Preferred label: “L4 Boundary”. “L4” is an alias; it is not the OSI transport layer or a generic maturity level.
 - In c = a + b, “+” is a governed binding boundary; it is not arithmetic addition and is not computed by publication metadata.
 - A recorded event is not automatically a true outcome.

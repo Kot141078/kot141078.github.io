@@ -7,11 +7,11 @@
   "preferred_label_rule": "Use preferred_label in new machine-facing records. alternate_labels are discovery aliases, not strict equivalents outside the declared scope.",
   "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
   "source_hashes": {
-    "canonical_map": "1021ccde6eda5072ed3c003868e2042c6fca2aedcb00d9a45adc3b509fd49fdb",
+    "canonical_map": "6d443717c7ac9339f8c8d2070a3ecaa769ca81ad4024f6d1d226d3ea2fb9c490",
     "core_terms": "04f2cf08186c71aea4fc53c1c7e978868589a3e68f56b1c76d825b9a67af8279",
-    "distinctions": "dc2633f59fd48161a93f2070bd8e2ab503d17e5c656c3b739837c2d7688955d3"
+    "distinctions": "3db1607ef7ebf0ad88811f4491750c2388f0f2e282e4de92123d9ef4889133db"
   },
-  "term_count": 40,
+  "term_count": 41,
   "terms": [
     {
       "local_id": "a",
@@ -273,6 +273,28 @@
         "authority upgrade",
         "personhood claim",
         "memory write"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/boundaries-of-machine-interpretation-v0-2",
+      "local_id": "boundaries-of-machine-interpretation-v0-2",
+      "preferred_label": "Boundaries of Machine Interpretation",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "A bilingual, machine-readable publication preventing technical proxies from being silently promoted into stronger epistemic, relational, normative, or phenomenal statuses. It contains six typed units, but only four are operational interpretation boundaries.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
+      "source_version": "0.2",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "empirical scientific proof",
+        "consciousness, soul, or personhood test",
+        "attribution or denial of internal states to any particular entity",
+        "telemetry-to-experience inference",
+        "automatic intervention authority",
+        "historical uniqueness, certification, legal authority, or deployment authorization"
       ],
       "related_terms": [],
       "language": "en"
@@ -962,28 +984,28 @@
       "term": "numerical uncertainty",
       "non_equivalent_to": "doubt by itself",
       "reason": "A probability value may be an input to doubt, but it does not establish a held state of unfinished judgment.",
-      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "authoritative_source": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-doubt"
     },
     {
       "boundary_id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
       "term": "data loss",
       "non_equivalent_to": "forgetting by itself",
       "reason": "Storage state and the present accessibility, significance, accuracy, or operative force of past experience remain distinct.",
-      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "authoritative_source": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-forgetting"
     },
     {
       "boundary_id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
       "term": "optimization",
       "non_equivalent_to": "empathy or intervention authority",
       "reason": "Recognizing or improving a state does not itself establish an empathic stance or confer authority to act.",
-      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "authoritative_source": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-empathy"
     },
     {
       "boundary_id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
       "term": "parsed telemetry",
       "non_equivalent_to": "subjective experience present or absent",
       "reason": "Successful signal handling establishes neither side of the phenomenal claim.",
-      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "authoritative_source": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-subjective-experience"
     }
   ]
 }

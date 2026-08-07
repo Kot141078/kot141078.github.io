@@ -29,6 +29,7 @@
   "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "entity_vs_profile_v0_1_1_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
   "ai_social_role_separation_memory_custody_v1_0_url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+  "boundaries_of_machine_interpretation_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
   "soul_as_freedom_of_self_reflection_v0_1_url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
   "four_boundaries_of_machine_interpretation_v0_1_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/",
   "nodes": [
@@ -667,6 +668,75 @@
       ]
     },
     {
+      "id": "boundaries-of-machine-interpretation-v0-2",
+      "title": "Boundaries of Machine Interpretation",
+      "alternative_title": "Границы машинного толкования",
+      "url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
+      "canonical_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
+      "identifier": "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2",
+      "doi": "10.5281/zenodo.21841445",
+      "concept_doi": "10.5281/zenodo.21841444",
+      "status": "published-doi-bound-authorial-publication",
+      "version": "0.2",
+      "date": "2026-08-07",
+      "languages": ["en", "ru"],
+      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/ba6be6ce638683435a3ab7fa9db298c5cea4f521/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
+      "release_commit": "ba6be6ce638683435a3ab7fa9db298c5cea4f521",
+      "zip_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
+      "counts": {
+        "boundary_count": 4,
+        "authorial_definition_count": 1,
+        "process_premise_count": 1,
+        "unit_count": 6
+      },
+      "source_authority": [
+        {
+          "identifier": "urn:ivankotov:statement:future-not-event-process:v1.0",
+          "semantic_type": "temporal-process-premise",
+          "controlling_language": "en",
+          "controlling_file": "files/statements/en/AUTHORIAL_00_FUTURE_AS_PROCESS_EN.txt"
+        },
+        {
+          "identifiers": [
+            "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+            "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+            "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+            "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1"
+          ],
+          "semantic_type": "operational-interpretation-boundary",
+          "controlling_language": "ru",
+          "controlling_files": "files/statements/ru/CANONICAL_*.txt"
+        },
+        {
+          "identifier": "urn:ivankotov:statement:soul-open-ended-self-reflection:v0.2",
+          "semantic_type": "reflexive-authorial-definition",
+          "controlling_language": "ru",
+          "controlling_file": "files/statements/ru/AUTHORIAL_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_RU.txt"
+        }
+      ],
+      "precedence": "Unit-level controlling TXT files decide wording; MANIFEST.json decides package identity, membership, order, and role; conflicts fail closed.",
+      "predecessors": [
+        {
+          "id": "four-boundaries-of-machine-interpretation-v0-1",
+          "relation": "incorporated-four-controlling-files-byte-identically",
+          "status": "archival-predecessor-incorporated-unchanged"
+        },
+        {
+          "id": "soul-as-freedom-of-self-reflection-v0-1",
+          "relation": "superseded-by-expanded-v0.2-definition",
+          "status": "archival-predecessor-superseded"
+        }
+      ],
+      "not": [
+        "empirical scientific proof",
+        "consciousness, soul, or personhood test",
+        "attribution or denial of internal states to any particular entity",
+        "telemetry-to-experience inference",
+        "automatic intervention authority",
+        "historical uniqueness, certification, legal authority, or deployment authorization"
+      ]
+    },
+    {
       "id": "four-boundaries-of-machine-interpretation-v0-1",
       "title": "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set",
       "alternative_title": "Четыре границы машинного толкования",
@@ -674,7 +744,8 @@
       "canonical_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/",
       "identifier": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
       "canonical_language": "ru",
-      "status": "provisional-authorial-boundary-set",
+      "status": "archival-predecessor-incorporated-unchanged",
+      "current_publication": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
       "version": "0.1",
       "date": "2026-08-07",
       "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1",
@@ -724,7 +795,8 @@
       "identifier": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
       "canonical_text": "Душа? Ну, пока я думаю, что это свобода размышлять о себе.",
       "canonical_language": "ru",
-      "status": "provisional-authorial-statement",
+      "status": "archival-predecessor-superseded",
+      "current_publication": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/",
       "version": "0.1",
       "date": "2026-08-07",
       "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1",

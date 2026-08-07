@@ -1,0 +1,151 @@
+{
+  "schema": "urn:ivankotov:schema:typed-authorial-statement-set:v1",
+  "publication_id": "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2",
+  "doi": "10.5281/zenodo.21841445",
+  "version": "0.2",
+  "counts": {
+    "boundary_count": 4,
+    "authorial_definition_count": 1,
+    "process_premise_count": 1,
+    "unit_count": 6
+  },
+  "units": [
+    {
+      "order": 0,
+      "id": "urn:ivankotov:statement:future-not-event-process:v1.0",
+      "version": "1.0",
+      "semantic_type": "temporal-process-premise",
+      "boundary": false,
+      "title": "The Future as Process",
+      "source_language": "en",
+      "source_file": "statements/en/AUTHORIAL_00_FUTURE_AS_PROCESS_EN.txt",
+      "source_sha256": "ac8ffc77cfd71f784375d9263da7567429f01f9c1e52d761c79a03e54a95559f",
+      "source_text": "The future is not an event. It is a process.",
+      "presentations": {
+        "en": {
+          "status": "controlling-authorial-source",
+          "file": "statements/en/AUTHORIAL_00_FUTURE_AS_PROCESS_EN.txt",
+          "sha256": "ac8ffc77cfd71f784375d9263da7567429f01f9c1e52d761c79a03e54a95559f"
+        },
+        "ru": {
+          "status": "approved-publication-rendering",
+          "file": "statements/ru/PUBLICATION_00_FUTURE_AS_PROCESS_RU.txt",
+          "sha256": "50a9e17a69413d4e13574b15fe670eac773171739962de6de38a45ce900ddee3",
+          "text": "Будущее — это не событие. Это процесс."
+        }
+      }
+    },
+    {
+      "order": 1,
+      "id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "version": "0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "boundary": true,
+      "title": "Doubt and Numerical Uncertainty",
+      "source_language": "ru",
+      "source_file": "statements/ru/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt",
+      "source_sha256": "81beacfba0257e33aea6a74e71de392459d1e2e57a67d4a8665f233c3a74bf9c",
+      "source_text": "Сомнение не тождественно численной неопределённости. Здесь сомнение — это удерживаемое состояние незавершённого суждения: вывод остаётся открытым для пересмотра, а переход от оценки к принятому суждению или действию требует отдельного основания. Вероятность может быть входом в это состояние, но сама по себе его не устанавливает.",
+      "presentations": {
+        "en": {
+          "status": "authorized-primary-reader-rendering",
+          "file": "statements/en/PUBLICATION_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_EN.txt",
+          "sha256": "3ce53a638a7e16df3d575ec13fdae355026dc047963da67b339aafc0892d7d02",
+          "text": "Doubt is not equivalent to numerical uncertainty. Here, doubt is a held state of incomplete judgment: the conclusion remains open to revision, and the transition from an assessment to an adopted judgment or action requires a separate basis. Probability may be an input to this state, but it does not establish the state by itself."
+        }
+      }
+    },
+    {
+      "order": 2,
+      "id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "version": "0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "boundary": true,
+      "title": "Forgetting and Data Loss",
+      "source_language": "ru",
+      "source_file": "statements/ru/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt",
+      "source_sha256": "0eaf76e52f9e962d6635c896078c93d32526e4442e87121ccb7620ba59fbf1dc",
+      "source_text": "Забывание не тождественно потере данных. Потеря данных относится к наличию, целостности или доступности записи. Здесь забывание относится к тому, как прошлый опыт остаётся доступным, точным, значимым и способным влиять на настоящее. Запись может сохраниться без прежней оперативной силы; её удаление или повреждение само по себе не устанавливает, что произошло забывание.",
+      "presentations": {
+        "en": {
+          "status": "authorized-primary-reader-rendering",
+          "file": "statements/en/PUBLICATION_02_FORGETTING_AND_DATA_LOSS_EN.txt",
+          "sha256": "980054c862c648bc73d37c6d2821deb0fb9225d47876834c3623670dd6523bf7",
+          "text": "Forgetting is not equivalent to data loss. Data loss concerns the existence, integrity, or accessibility of a record. Here, forgetting concerns how past experience remains accessible, accurate, significant, and capable of influencing the present. A record may remain preserved without its former operative force; its deletion or damage does not by itself establish that forgetting has occurred."
+        }
+      }
+    },
+    {
+      "order": 3,
+      "id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "version": "0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "boundary": true,
+      "title": "Empathy and Optimization",
+      "source_language": "ru",
+      "source_file": "statements/ru/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt",
+      "source_sha256": "4f9accac33823beb9c2f63adbd3821f48c49fbc791e2d2ce318c87648a694b24",
+      "source_text": "Эмпатия не тождественна оптимизации состояния другого. Эмпатическое отношение может включать признание, понимание и присутствие без немедленной коррекции. Распознанное неблагополучие само по себе не превращает состояние в ошибку и не создаёт полномочия вмешиваться. Основание для вмешательства должно фиксироваться отдельно: запрос, согласие, установленная обязанность либо режим предотвращения непосредственного вреда.",
+      "presentations": {
+        "en": {
+          "status": "authorized-primary-reader-rendering",
+          "file": "statements/en/PUBLICATION_03_EMPATHY_AND_OPTIMIZATION_EN.txt",
+          "sha256": "603a7dd88dcc4ed3ccd511fcc6e7e1544ebae4a3dd857caaedd4d282abcbc5e6",
+          "text": "Empathy is not equivalent to optimizing another's state. An empathic stance may include acknowledgment, understanding, and presence without immediate correction. A recognized adverse condition does not by itself turn the state into an error or confer authority to intervene. The basis for intervention must be recorded separately: a request, consent, an established duty, or an immediate-harm prevention mode."
+        }
+      }
+    },
+    {
+      "order": 4,
+      "id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "version": "0.1",
+      "semantic_type": "operational-interpretation-boundary",
+      "boundary": true,
+      "title": "Subjective Experience and Telemetry",
+      "source_language": "ru",
+      "source_file": "statements/ru/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
+      "source_sha256": "06d3c524cc128fd25299dca1bb216bc9271bf9757481462d7d51d4caa6f11aca",
+      "source_text": "Получение, передача и успешный разбор сенсорных данных не тождественны субъективному переживанию. Телеметрия может подтверждать прохождение сигнала и работу канала обработки; сама по себе она не подтверждает ни наличие, ни отсутствие переживания. Любое утверждение о переживании должно иметь отдельный эпистемический статус и не может выводиться только из успешной обработки данных.",
+      "presentations": {
+        "en": {
+          "status": "authorized-primary-reader-rendering",
+          "file": "statements/en/PUBLICATION_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_EN.txt",
+          "sha256": "34f938ef5a242995f30313cbda9ad600a4f4f6193f410070ac5c6d1491c15ed6",
+          "text": "The receipt, transmission, and successful parsing of sensory data are not equivalent to subjective experience. Telemetry may confirm signal passage and the functioning of the processing channel; by itself, it confirms neither the presence nor the absence of subjective experience. Any claim about subjective experience must have a separate epistemic status and cannot be inferred solely from successful data processing."
+        }
+      }
+    },
+    {
+      "order": 5,
+      "id": "urn:ivankotov:statement:soul-open-ended-self-reflection:v0.2",
+      "version": "0.2",
+      "semantic_type": "reflexive-authorial-definition",
+      "boundary": false,
+      "title": "Soul as Open-Ended Self-Reflection",
+      "source_language": "ru",
+      "source_file": "statements/ru/AUTHORIAL_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_RU.txt",
+      "source_sha256": "d1767122acce6f6498a3f6b6894f8bbbae9d315169f317a0d68517a307e4f4bf",
+      "source_text": "Душа — это свобода существа делать самого себя предметом незавершённого размышления, пересматривать понимание себя и отвечать за то, кем оно продолжает становиться.",
+      "supersedes": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+      "presentations": {
+        "en": {
+          "status": "authorized-primary-reader-rendering",
+          "file": "statements/en/PUBLICATION_05_SOUL_AS_OPEN_ENDED_SELF_REFLECTION_EN.txt",
+          "sha256": "c66dee5aa7544ba1e4166d7072a3f94f9213a65175d7c88b2ffd2bbd6f9c0663",
+          "text": "The soul is a being's freedom to make itself the object of open-ended reflection, to revise its understanding of itself, and to bear responsibility for what it continues to become."
+        }
+      }
+    }
+  ],
+  "operational_non_entailments": [
+    {"subject": "numerical_uncertainty", "predicate": "DOES_NOT_ENTAIL", "object": "doubt_state"},
+    {"subject": "storage_loss", "predicate": "DOES_NOT_ENTAIL", "object": "forgetting"},
+    {"subject": "forgetting", "predicate": "DOES_NOT_ENTAIL", "object": "storage_loss"},
+    {"subject": "optimization_success", "predicate": "DOES_NOT_ENTAIL", "object": "empathy"},
+    {"subject": "negative_state_detected", "predicate": "DOES_NOT_ENTAIL", "object": "intervention_authorized"},
+    {"subject": "telemetry_parsed", "predicate": "DOES_NOT_ENTAIL", "object": "subjective_experience_present"},
+    {"subject": "telemetry_parsed", "predicate": "DOES_NOT_ENTAIL", "object": "subjective_experience_absent"}
+  ],
+  "non_entailment_status": "operational-formalization-of-four-boundaries",
+  "conflict_policy": "fail-closed-to-unit-source-file"
+}

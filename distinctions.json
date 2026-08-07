@@ -61,28 +61,36 @@
       "not": "doubt by itself",
       "why": "A probability value may be an input to doubt, but it does not establish a held state of unfinished judgment.",
       "identifier": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
-      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-doubt",
+      "controlling_source_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/statements/ru/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt",
+      "archival_predecessor_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
     },
     {
       "term": "data loss",
       "not": "forgetting by itself",
       "why": "Storage state and the present accessibility, significance, accuracy, or operative force of past experience remain distinct.",
       "identifier": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
-      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-forgetting",
+      "controlling_source_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/statements/ru/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt",
+      "archival_predecessor_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
     },
     {
       "term": "optimization",
       "not": "empathy or intervention authority",
       "why": "Recognizing or improving a state does not itself establish an empathic stance or confer authority to act.",
       "identifier": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
-      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-empathy",
+      "controlling_source_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/statements/ru/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt",
+      "archival_predecessor_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
     },
     {
       "term": "parsed telemetry",
       "not": "subjective experience present or absent",
       "why": "Successful signal handling establishes neither side of the phenomenal claim.",
       "identifier": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
-      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+      "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-subjective-experience",
+      "controlling_source_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/statements/ru/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
+      "archival_predecessor_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
     }
   ]
 }
