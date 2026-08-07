@@ -680,8 +680,8 @@
       "version": "0.2",
       "date": "2026-08-07",
       "languages": ["en", "ru"],
-      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/ba6be6ce638683435a3ab7fa9db298c5cea4f521/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
-      "release_commit": "ba6be6ce638683435a3ab7fa9db298c5cea4f521",
+      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/fd131d40fc397de6944e86cc3dd84fb746f8edf2/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
+      "release_commit": "fd131d40fc397de6944e86cc3dd84fb746f8edf2",
       "zip_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
       "counts": {
         "boundary_count": 4,
