@@ -8,6 +8,7 @@ Core reader order:
 - Vision: https://ivankotov.eu/vision/ — future-facing authorial statement separating forecasts, normative direction, and already-public work.
 - Corpus map: https://ivankotov.eu/corpus-map/ — compact map of the public corpus by layer and role.
 - Publications: https://ivankotov.eu/publications/ — DOI-bound papers, protocol packages, release surfaces, and publication pages.
+- Four Boundaries of Machine Interpretation v0.1: https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/ — four separately hashed canonical Russian authorial boundaries with English discovery translations and a machine-readable statement graph.
 - Library: https://ivankotov.eu/library/ — primary source surfaces for architecture, grounding, implementation, and book layers.
 - Evidence: https://ivankotov.eu/evidence/ — public reviewable surfaces, repositories, releases, anchors, and integrity contours.
 - Distinctions: https://ivankotov.eu/distinctions/ — canonical term-level distinctions against common flattening.

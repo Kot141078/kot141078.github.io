@@ -1,0 +1,327 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0009-6002-9845",
+      "name": "Иван Котов",
+      "alternateName": "Ivan Kotov",
+      "sameAs": [
+        "https://ivankotov.eu/",
+        "https://github.com/Kot141078"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
+      "identifier": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
+      "name": "Четыре границы машинного толкования",
+      "alternateName": "Four Boundaries of Machine Interpretation",
+      "inLanguage": [
+        "ru",
+        "en"
+      ],
+      "dateCreated": "2026-08-07",
+      "version": "0.1",
+      "author": {
+        "@id": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Brussels, Belgium"
+      },
+      "hasPart": [
+        {
+          "@id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1"
+        },
+        {
+          "@id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1"
+        },
+        {
+          "@id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1"
+        },
+        {
+          "@id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1"
+        }
+      ],
+      "description": "Four canonical Russian authorial boundaries preventing technical proxies from being silently promoted into stronger epistemic, mnemonic, normative, or phenomenal claims.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalStatus",
+          "value": "provisional-authorial-boundary-set"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalUnitCount",
+          "value": 4
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "precedenceRule",
+          "value": "Each corresponding Russian CANONICAL_*.txt file controls its boundary; MANIFEST.json controls set membership, order, and version. Conflicts fail closed."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "licenseStatus",
+          "value": "not-specified"
+        }
+      ]
+    },
+    {
+      "@type": "Claim",
+      "@id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "identifier": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "position": 1,
+      "name": "Сомнение и численная неопределённость",
+      "alternateName": "Doubt and Numerical Uncertainty",
+      "text": "Сомнение не тождественно численной неопределённости. Здесь сомнение — это удерживаемое состояние незавершённого суждения: вывод остаётся открытым для пересмотра, а переход от оценки к принятому суждению или действию требует отдельного основания. Вероятность может быть входом в это состояние, но сама по себе его не устанавливает.",
+      "inLanguage": "ru",
+      "dateCreated": "2026-08-07",
+      "version": "0.1",
+      "author": {
+        "@id": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "isPartOf": {
+        "@id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+      },
+      "workTranslation": {
+        "@type": "Claim",
+        "@id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1:translation-en",
+        "inLanguage": "en",
+        "name": "Doubt and Numerical Uncertainty",
+        "text": "Doubt is not equivalent to numerical uncertainty. Here, doubt is a held state of incomplete judgment: the conclusion remains open to revision, and the transition from an assessment to an adopted judgment or action requires a separate basis. Probability may be an input to this state, but it does not establish the state by itself.",
+        "translationOfWork": {
+          "@id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1"
+        },
+        "description": "Non-canonical discovery translation; the corresponding Russian canonical file controls."
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "name": "Canonical Russian boundary 01",
+        "inLanguage": "ru",
+        "encodingFormat": "text/plain",
+        "contentSize": "613 bytes",
+        "sha256": "81beacfba0257e33aea6a74e71de392459d1e2e57a67d4a8665f233c3a74bf9c",
+        "contentUrl": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalStatus",
+          "value": "authoritative-canonical-Russian-boundary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalFile",
+          "value": "CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "numerical_uncertainty DOES_NOT_ENTAIL doubt_state"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "operationalConstraint",
+          "value": "A doubt state requires an explicit held-judgment status, review path, and exit conditions; probability alone is insufficient."
+        }
+      ]
+    },
+    {
+      "@type": "Claim",
+      "@id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "identifier": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "position": 2,
+      "name": "Забывание и потеря данных",
+      "alternateName": "Forgetting and Data Loss",
+      "text": "Забывание не тождественно потере данных. Потеря данных относится к наличию, целостности или доступности записи. Здесь забывание относится к тому, как прошлый опыт остаётся доступным, точным, значимым и способным влиять на настоящее. Запись может сохраниться без прежней оперативной силы; её удаление или повреждение само по себе не устанавливает, что произошло забывание.",
+      "inLanguage": "ru",
+      "dateCreated": "2026-08-07",
+      "version": "0.1",
+      "author": {
+        "@id": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "isPartOf": {
+        "@id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+      },
+      "workTranslation": {
+        "@type": "Claim",
+        "@id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1:translation-en",
+        "inLanguage": "en",
+        "name": "Forgetting and Data Loss",
+        "text": "Forgetting is not equivalent to data loss. Data loss concerns the existence, integrity, or accessibility of a record. Here, forgetting concerns how past experience remains accessible, accurate, significant, and capable of influencing the present. A record may remain preserved without its former operative force; its deletion or damage does not by itself establish that forgetting has occurred.",
+        "translationOfWork": {
+          "@id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1"
+        },
+        "description": "Non-canonical discovery translation; the corresponding Russian canonical file controls."
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "name": "Canonical Russian boundary 02",
+        "inLanguage": "ru",
+        "encodingFormat": "text/plain",
+        "contentSize": "684 bytes",
+        "sha256": "0eaf76e52f9e962d6635c896078c93d32526e4442e87121ccb7620ba59fbf1dc",
+        "contentUrl": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalStatus",
+          "value": "authoritative-canonical-Russian-boundary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalFile",
+          "value": "CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "storage_loss DOES_NOT_ENTAIL forgetting"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "forgetting DOES_NOT_ENTAIL storage_loss"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "operationalConstraint",
+          "value": "Storage state, retrieval state, salience, operative authority, reversibility, and retention duties must remain separately recorded."
+        }
+      ]
+    },
+    {
+      "@type": "Claim",
+      "@id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "identifier": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "position": 3,
+      "name": "Эмпатия и оптимизация",
+      "alternateName": "Empathy and Optimization",
+      "text": "Эмпатия не тождественна оптимизации состояния другого. Эмпатическое отношение может включать признание, понимание и присутствие без немедленной коррекции. Распознанное неблагополучие само по себе не превращает состояние в ошибку и не создаёт полномочия вмешиваться. Основание для вмешательства должно фиксироваться отдельно: запрос, согласие, установленная обязанность либо режим предотвращения непосредственного вреда.",
+      "inLanguage": "ru",
+      "dateCreated": "2026-08-07",
+      "version": "0.1",
+      "author": {
+        "@id": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "isPartOf": {
+        "@id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+      },
+      "workTranslation": {
+        "@type": "Claim",
+        "@id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1:translation-en",
+        "inLanguage": "en",
+        "name": "Empathy and Optimization",
+        "text": "Empathy is not equivalent to optimizing another's state. An empathic stance may include acknowledgment, understanding, and presence without immediate correction. A recognized adverse condition does not by itself turn the state into an error or confer authority to intervene. The basis for intervention must be recorded separately: a request, consent, an established duty, or an immediate-harm prevention mode.",
+        "translationOfWork": {
+          "@id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1"
+        },
+        "description": "Non-canonical discovery translation; the corresponding Russian canonical file controls."
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "name": "Canonical Russian boundary 03",
+        "inLanguage": "ru",
+        "encodingFormat": "text/plain",
+        "contentSize": "785 bytes",
+        "sha256": "4f9accac33823beb9c2f63adbd3821f48c49fbc791e2d2ce318c87648a694b24",
+        "contentUrl": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalStatus",
+          "value": "authoritative-canonical-Russian-boundary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalFile",
+          "value": "CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "optimization_success DOES_NOT_ENTAIL empathy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "negative_state_detected DOES_NOT_ENTAIL intervention_authorized"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "operationalConstraint",
+          "value": "The system must separately record recognition, requested posture, consent, intervention authority, and any imminent-harm exception."
+        }
+      ]
+    },
+    {
+      "@type": "Claim",
+      "@id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "identifier": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "position": 4,
+      "name": "Субъективное переживание и телеметрия",
+      "alternateName": "Subjective Experience and Telemetry",
+      "text": "Получение, передача и успешный разбор сенсорных данных не тождественны субъективному переживанию. Телеметрия может подтверждать прохождение сигнала и работу канала обработки; сама по себе она не подтверждает ни наличие, ни отсутствие переживания. Любое утверждение о переживании должно иметь отдельный эпистемический статус и не может выводиться только из успешной обработки данных.",
+      "inLanguage": "ru",
+      "dateCreated": "2026-08-07",
+      "version": "0.1",
+      "author": {
+        "@id": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "isPartOf": {
+        "@id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+      },
+      "workTranslation": {
+        "@type": "Claim",
+        "@id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1:translation-en",
+        "inLanguage": "en",
+        "name": "Subjective Experience and Telemetry",
+        "text": "The receipt, transmission, and successful parsing of sensory data are not equivalent to subjective experience. Telemetry may confirm signal passage and the functioning of the processing channel; by itself, it confirms neither the presence nor the absence of subjective experience. Any claim about subjective experience must have a separate epistemic status and cannot be inferred solely from successful data processing.",
+        "translationOfWork": {
+          "@id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1"
+        },
+        "description": "Non-canonical discovery translation; the corresponding Russian canonical file controls."
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "name": "Canonical Russian boundary 04",
+        "inLanguage": "ru",
+        "encodingFormat": "text/plain",
+        "contentSize": "711 bytes",
+        "sha256": "06d3c524cc128fd25299dca1bb216bc9271bf9757481462d7d51d4caa6f11aca",
+        "contentUrl": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalStatus",
+          "value": "authoritative-canonical-Russian-boundary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalFile",
+          "value": "CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "telemetry_parsed DOES_NOT_ENTAIL subjective_experience_present"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "relation",
+          "value": "telemetry_parsed DOES_NOT_ENTAIL subjective_experience_absent"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "operationalConstraint",
+          "value": "Capture, transmission, parsing, report, behavior, and any claim about subjective experience require distinct evidence types and epistemic statuses."
+        }
+      ]
+    }
+  ]
+}
