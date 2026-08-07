@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "record_id": "urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5",
+  "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+  "version": "v0.1.1-recovery.5",
+  "publication_date": "2026-08-07",
+  "language": "en",
+  "publication_type": "technical_note",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "identifiers": {
+    "version_doi": "10.5281/zenodo.21843823",
+    "concept_doi": "10.5281/zenodo.21843822"
+  },
+  "canonical_urls": {
+    "web_page": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+    "zenodo_record": "https://zenodo.org/records/21843823",
+    "github_source_commit": "https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5",
+    "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-foundation-gate-v0.1.1-recovery.5",
+    "repository_machine_index": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5/machine/index.json"
+  },
+  "claim_ceiling": {
+    "profile": "exact_negative_post_anchor_admissibility_only",
+    "does_not_establish": [
+      "succession",
+      "identity",
+      "continuity",
+      "personhood",
+      "standing",
+      "relationship",
+      "custody_authority",
+      "keyholding_authority",
+      "provider_authority",
+      "jurisdiction_authority",
+      "recovery_root",
+      "release",
+      "reactivation",
+      "runtime_authority",
+      "conformance",
+      "implementation_readiness",
+      "deployment_authorization"
+    ]
+  },
+  "gate_status": {
+    "F0_OUTCOME": "NOT_PASSED",
+    "FOUNDATION_SEMANTICS_LOCKED": false,
+    "CANONICAL_BASELINE": "OPEN_BLOCKING",
+    "PROTECTED_PROFILE_CLOSURE": "NOT_SATISFIED",
+    "FIELD_MATURATION": "NOT_SATISFIED",
+    "INDEPENDENT_HUMAN_REVIEWERS": 0,
+    "SIGNED_AUTHOR_ACCEPTANCE_OF_EXACT_RELEASE_BYTES": "NOT_INCLUDED",
+    "F1_DRAFTING": "PROHIBITED",
+    "FORMALIZATION_OR_VALIDATOR": "PROHIBITED",
+    "IMPLEMENTATION_OR_DEPLOYMENT": "PROHIBITED"
+  },
+  "decision_vocabulary": ["ADMIT", "ADMIT_REDUCED", "HOLD", "REJECT", "ERROR"],
+  "metrics": {
+    "scientific_markdown_documents": 8,
+    "json_inventories": 1,
+    "conflict_cases": 33,
+    "forbidden_inference_mappings": 48,
+    "F0_criteria_total": 44,
+    "F0_criteria_satisfied": 0,
+    "F0_criteria_partial": 38,
+    "F0_criteria_not_satisfied": 6,
+    "pinned_baseline_records": 39
+  },
+  "downloads": [
+    {
+      "name": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf",
+      "role": "primary_human_readable_report",
+      "media_type": "application/pdf",
+      "size_bytes": 1862006,
+      "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+      "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1"
+    },
+    {
+      "name": "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf",
+      "role": "canonical_inventory_human_readable_supplement",
+      "media_type": "application/pdf",
+      "size_bytes": 657443,
+      "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+      "url": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1"
+    },
+    {
+      "name": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip",
+      "role": "canonical_source_archive",
+      "media_type": "application/zip",
+      "size_bytes": 2464842,
+      "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+      "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1"
+    },
+    {
+      "name": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt",
+      "role": "external_checksum_ledger",
+      "media_type": "text/plain",
+      "size_bytes": 340,
+      "sha256": "3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc",
+      "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt?download=1"
+    }
+  ],
+  "source_of_record": {
+    "rule": "The exact UTF-8 Markdown and JSON members in the canonical ZIP control when PDF rendering, pagination, typography, line wrapping or extraction is ambiguous.",
+    "ordered_documents": [
+      "PASC_FOUNDATION_AND_SCOPE_LOCK_v0_1_1_RECOVERY_5.md",
+      "PASC_F0_EXPECTED_RESULT_CONTRACT_v0_1_1_RECOVERY_5.md",
+      "PASC_F0_THREAT_ASSUMPTION_PROFILE_v0_1_1_RECOVERY_5.md",
+      "PASC_CORPUS_DEPENDENCY_AND_CONFLICT_MAP_v0_1_1_RECOVERY_5.md",
+      "PASC_CANONICAL_BASELINE_REQUIREMENTS_v0_1_1_RECOVERY_5.md",
+      "PASC_F0_PROTECTED_PROFILE_CLOSURE_CONTRACT_v0_1_1_RECOVERY_5.md",
+      "PASC_F0_FIELD_MATURATION_CLOSURE_CONTRACT_v0_1_1_RECOVERY_5.md",
+      "PASC_F0_ACCEPTANCE_EVIDENCE_MATRIX_v0_1_1_RECOVERY_5.md",
+      "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.json"
+    ]
+  },
+  "machine_entry_order": [
+    "identify_exact_version_doi",
+    "verify_release_checksums",
+    "load_source_of_record_markdown_and_json",
+    "preserve_claim_ceiling_and_gate_status_verbatim",
+    "resolve_parent_ownership_before_interpreting_evidence",
+    "do_not_infer_positive_authority",
+    "stop_at_hold_reject_or_error_when_mandatory_closure_is_absent"
+  ],
+  "parser_guard": "Publication, DOI, checksums, manifests, receipts, profiles, registries, roles, property, access, state facts, urgency or technical capability must not be promoted into positive authority."
+}
