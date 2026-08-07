@@ -3,6 +3,92 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+      "note": "Detailed human and machine entry with reading order, status, direct downloads and source authority."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Version DOI",
+      "format": "DOI / persistent identifier",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.21843823",
+      "doi_identifier": "10.5281/zenodo.21843823",
+      "note": "Exact Recovery Build 5 publication record."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Concept DOI",
+      "format": "DOI / version-family navigation",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.21843822",
+      "concept_doi_identifier": "10.5281/zenodo.21843822",
+      "note": "Persistent identifier for all versions."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Primary PDF",
+      "format": "PDF",
+      "language": "English",
+      "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1",
+      "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+      "note": "83-page integrated report."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Inventory supplement",
+      "format": "PDF",
+      "language": "English",
+      "url": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1",
+      "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+      "note": "61-page canonical baseline inventory supplement."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Canonical source archive",
+      "format": "ZIP",
+      "language": "English",
+      "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1",
+      "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+      "note": "Source-of-record Markdown/JSON and release controls."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "GitHub source mirror",
+      "format": "human- and machine-readable repository path",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5",
+      "note": "Commit-pinned verified text/JSON mirror."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "GitHub Release mirror",
+      "format": "release assets",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-foundation-gate-v0.1.1-recovery.5",
+      "note": "SHA-256-verified mirror of the four Zenodo files."
+    },
+    {
+      "publication_id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "object": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "surface": "Machine index",
+      "format": "JSON",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/index.json",
+      "note": "Typed entry, claim ceiling, status, downloads, source order and parser guard."
+    },
+    {
       "publication_id": "ai-social-role-separation-memory-custody-v1-0",
       "object": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
       "surface": "Website publication page",

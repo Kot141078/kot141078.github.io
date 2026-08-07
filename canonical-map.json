@@ -679,7 +679,10 @@
       "status": "published-doi-bound-authorial-publication",
       "version": "0.2",
       "date": "2026-08-07",
-      "languages": ["en", "ru"],
+      "languages": [
+        "en",
+        "ru"
+      ],
       "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/fd131d40fc397de6944e86cc3dd84fb746f8edf2/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
       "release_commit": "fd131d40fc397de6944e86cc3dd84fb746f8edf2",
       "zip_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
@@ -836,6 +839,21 @@
         "deployment authorization",
         "proof of AI consciousness, subjecthood, or personhood"
       ]
+    },
+    {
+      "id": "pasc-foundation-gate-v0-1-1",
+      "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+      "version": "v0.1.1-recovery.5",
+      "summary": "Negative-only foundation gate for exact post-anchor risk reduction, preservation and revocation without manufacturing successor identity, continuity, custody, keyholding, provider/jurisdiction authority, recovery roots, release, reactivation or Runtime Authority.",
+      "not": [
+        "succession grant",
+        "identity or continuity establishment",
+        "custody transfer",
+        "implementation specification",
+        "deployment authorization",
+        "F0 passage"
+      ]
     }
   ],
   "reading_path": [
@@ -859,5 +877,6 @@
   "adult_owner_dependency_d4_detection_v0_1_1_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
   "ccalc_full_stack_v0_1_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
   "a6_ctp_v0_1_4_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
-  "cleanroom_arm_p_open_verification_v1_0_1_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/"
+  "cleanroom_arm_p_open_verification_v1_0_1_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+  "pasc_foundation_gate_v0_1_1_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/"
 }

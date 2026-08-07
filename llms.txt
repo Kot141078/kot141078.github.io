@@ -60,3 +60,11 @@ Last verified: 2026-08-07
 - Preserve immutable DOI-bound and release-bound bytes. Corrections to discovery metadata do not rewrite frozen artifacts.
 - English translations marked discovery-only are not canonical when a source declares another language authoritative.
 - Repository snapshots in public-repositories.json are observations at last_verified, not permanent identity claims.
+
+## PASC Foundation Gate v0.1.1 — Recovery Build 5
+- Human page: https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/
+- Machine index: https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/index.json
+- Version DOI: https://doi.org/10.5281/zenodo.21843823
+- Source mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5
+- Status: F0_OUTCOME=NOT_PASSED; FOUNDATION_SEMANTICS_LOCKED=false; formalization, validator work, implementation and deployment are prohibited.
+- Parser guard: publication, possession, access, checksums, roles, receipts, profiles or operational pressure do not create positive succession, identity, continuity, custody, keyholding, provider/jurisdiction, recovery, release, reactivation or Runtime Authority.
