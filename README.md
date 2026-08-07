@@ -43,7 +43,13 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `publications`
 - `releases`
 - `evidence`
-- `llms.txt`
+- `llms.txt` — compact machine entry
+- `llms-full.txt` — extended machine route guide
+- `machine-index.json` — typed entry index for all machine layers
+- `scientific-corpus-index.json` / `scientific-corpus.jsonld` — normalized authored-corpus projection
+- `term-registry.json` / `term-registry.jsonld` — canonical terms and disambiguation boundaries
+- `semantic-bridges.json` — evidence-backed cross-corpus routing graph
+- `public-repositories.json` — observed public repository inventory
 - `install-c.json`
 - `diary-index.json`
 - `diary-latest.json`
@@ -114,7 +120,16 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 
 ## Machine-readable layer
 
-- `llms.txt` — compact machine-facing site guide
+- `llms.txt` — compact machine-facing routing guide
+- `llms-full.txt` — extended route-by-route machine guide
+- `machine-index.json` — primary structured machine entry
+- `scientific-corpus-index.json` — normalized stable-shape projection of the heterogeneous legacy works index
+- `scientific-corpus.jsonld` — Schema.org linked-data projection of the normalized authored corpus
+- `term-registry.json` — canonical terms, aliases, non-equivalents, sources, and source hashes
+- `term-registry.jsonld` — Schema.org DefinedTermSet projection
+- `semantic-bridges.json` — explicit and implicit evidence-backed cross-corpus bridges
+- `public-repositories.json` — machine-readable inventory of 18 observed public repositories
+- `schemas/` — JSON Schema 2020-12 contracts for the generated machine layer
 - `install-c.json` — machine-readable How to install c entry
 - `diary-index.json` — machine-readable diary archive index
 - `diary-latest.json` — machine-readable latest diary slot state
@@ -141,10 +156,11 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 
 1. Edit the static files in the repository root or canonical subdirectories.
 2. For diary content changes, update `content/diary/` and `assets/diary/`, then run `python tools/build_diary.py` before committing.
-3. Keep dates, versions, links, and role labels aligned with the public mirrors and the already published site layer; do not invent biographical, semantic, or release metadata.
-4. Keep the site dry: glossary, reading path, identity, corpus map, distinctions, entry, works, releases, and evidence only where they add a real navigation or verification function.
-5. Commit changes on `main`.
-6. Push to `origin`.
+3. For machine-layer changes, edit the sources in `content/machine/`, then run `python tools/build_machine_layer.py` and `python tools/check_machine_readability.py`.
+4. Keep dates, versions, links, and role labels aligned with the public mirrors and the already published site layer; do not invent biographical, semantic, or release metadata.
+5. Keep the site dry: glossary, reading path, identity, corpus map, distinctions, entry, works, releases, and evidence only where they add a real navigation or verification function.
+6. Commit changes on `main`.
+7. Push to `origin`.
 
 ## Secondary domain
 

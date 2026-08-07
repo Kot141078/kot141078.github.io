@@ -1,0 +1,77 @@
+{
+  "schema_version": "core-terms-source.v1",
+  "last_verified": "2026-08-07",
+  "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
+  "terms": [
+    {
+      "local_id": "a",
+      "preferred_label": "a",
+      "alternate_labels": ["accountable human anchor"],
+      "long_form": "accountable human anchor",
+      "definition": "The accountable human anchor in c = a + b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": ["the technological substrate b", "the continuity-bearing c", "a generic model operator"],
+      "related_terms": ["c-a-plus-b", "b", "c", "governed-plus"],
+      "language": "en"
+    },
+    {
+      "local_id": "b",
+      "preferred_label": "b",
+      "alternate_labels": ["procedures, models, and compute under constraints", "technological substrate"],
+      "long_form": "procedures, models, and compute under constraints",
+      "definition": "The procedures, models, and compute under constraints in c = a + b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": ["the accountable human anchor a", "the continuity-bearing c", "authority by itself"],
+      "related_terms": ["c-a-plus-b", "a", "c", "governed-plus"],
+      "language": "en"
+    },
+    {
+      "local_id": "c",
+      "preferred_label": "c",
+      "alternate_labels": ["long-lived entity layer", "continuity-bearing entity layer"],
+      "long_form": "long-lived entity emerging in time from sustained coupling of a and b",
+      "definition": "A long-lived entity emerging in time from sustained coupling of a and b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": ["a chatbot", "a detached model", "a generic agent swarm", "a legal person by definition"],
+      "related_terms": ["c-a-plus-b", "a", "b", "governed-plus", "ser"],
+      "language": "en"
+    },
+    {
+      "local_id": "governed-plus",
+      "preferred_label": "governed binding operator +",
+      "alternate_labels": ["+", "+_g", "protected plus boundary"],
+      "long_form": "governed non-collapsing binding operator",
+      "definition": "The governed binding boundary between an accountable anchor a and a technological substrate b.",
+      "scope": "C-Calculus / c = a + b",
+      "authoritative_source": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "source_version": "0.1",
+      "status": "DOI-published-machine-definition",
+      "non_equivalents": ["arithmetic addition", "a model call", "a merge operator", "a checker pass", "a DOI", "deployment approval"],
+      "related_terms": ["c-a-plus-b", "a", "b", "c", "l4-boundary"],
+      "language": "en"
+    },
+    {
+      "local_id": "l4-boundary",
+      "preferred_label": "L4 Boundary",
+      "alternate_labels": ["L4", "Reality Boundary Layer"],
+      "long_form": "L4 Boundary",
+      "definition": "The feasibility and reality boundary under power, heat, latency, maintenance, scarcity, cost, and irreversibility.",
+      "scope": "Reality-bounded operation of c, a, b, agents, and infrastructure",
+      "authoritative_source": "https://ivankotov.eu/l4/",
+      "source_version": null,
+      "status": "preferred-machine-label",
+      "non_equivalents": ["OSI transport layer", "maturity level four", "an ethics sticker", "a prompt-only policy layer"],
+      "related_terms": ["c-a-plus-b", "governed-plus", "ser", "actor-grounding-layer"],
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "@id": "https://ivankotov.eu/term-registry.jsonld",
+  "url": "https://ivankotov.eu/term-registry.json",
+  "name": "Ivan Kotov public corpus term registry",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/a",
+      "termCode": "a",
+      "name": "a",
+      "alternateName": [
+        "accountable human anchor"
+      ],
+      "description": "The accountable human anchor in c = a + b.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/a6_composition_layer_v0_1_1",
+      "termCode": "a6_composition_layer_v0_1_1",
+      "name": "A6 Composition Layer v0.1.1",
+      "alternateName": [],
+      "description": "Hybrid / Federated Anchor Composition Profile for A6 in c = a + b. A6 is a mapped composition over A0-A5, with A6-EXIT as revoke-and-continue and A6-SPLIT as freeze-and-escalate.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/a6_ctp_v0_1_4",
+      "termCode": "a6_ctp_v0_1_4",
+      "name": "A6 Composition Transition Predicate Addendum v0.1.4",
+      "alternateName": [],
+      "description": "Bounded addendum to A6 Composition Layer v0.1.1 defining EXIT / SPLIT / HOLD / DISSOLVE classification by unique lawful successor, successor-claim incompatibility, HOLD/FREEZE discipline, and witnessed successor-space exhaustion.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/actor-grounding-layer",
+      "termCode": "actor-grounding-layer",
+      "name": "Actor Grounding Layer",
+      "alternateName": [],
+      "description": "Bounded upstream grounding layer for source-state qualification, runtime reliance, initiation gates, degradation signals, and fail-closed transitions.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/actor-grounding-layer/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/adult-owner-dependency-d4-detection-v0-1-1",
+      "termCode": "adult-owner-dependency-d4-detection-v0-1-1",
+      "name": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "alternateName": [],
+      "description": "Adult-owner dependency and D4 detection boundary for local-first c-contours, covering dependency capture, parental-bond / opacity risk, D4 posture, lucid covenant, signal-based detection, witness minimization, calibration limits, FNC fixtures, and structural non-claims.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/agi",
+      "termCode": "agi",
+      "name": "Advanced Global Intelligence",
+      "alternateName": [],
+      "description": "Architectural frame for c = a + b, L4, SER, and adjacent public layers.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/advanced-global-intelligence/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ai-social-role-separation-memory-custody-v1-0",
+      "termCode": "ai-social-role-separation-memory-custody-v1-0",
+      "name": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
+      "alternateName": [],
+      "description": "Bilingual technical note distinguishing transparent AI social-role composition from hidden role blending and defining custody boundaries for memory, inferences, versions, continuity, session work, authority, and role conflicts.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/arq-cq-integration-addendum",
+      "termCode": "arq-cq-integration-addendum",
+      "name": "ARQ c[q] Integration Addendum v0.1",
+      "alternateName": [],
+      "description": "Published SER-hosted ARQ v0.2 addendum integrating Qubit-State c (c[q]) as a behavioral non-collapse overlay under uncertainty.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/arq-cq-integration-addendum/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/article50-transparency-implementation-briefs-v0-1",
+      "termCode": "article50-transparency-implementation-briefs-v0-1",
+      "name": "Article 50 Transparency Implementation Briefs v0.1",
+      "alternateName": [],
+      "description": "Supporting policy-reader and engineering briefs for evidence-chain AI transparency, derived from the Article 50 Transparency Submission Pack v0.1.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/article50-transparency-submission-v0-1",
+      "termCode": "article50-transparency-submission-v0-1",
+      "name": "Article 50 Transparency Submission Pack v0.1",
+      "alternateName": [],
+      "description": "Technical evidence-chain contribution for AI Act Article 50 transparency implementation.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/b",
+      "termCode": "b",
+      "name": "b",
+      "alternateName": [
+        "procedures, models, and compute under constraints",
+        "technological substrate"
+      ],
+      "description": "The procedures, models, and compute under constraints in c = a + b.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/bcec_v0_2_1",
+      "termCode": "bcec_v0_2_1",
+      "name": "Bounded Capability Extraction Clause v0.2.1-final",
+      "alternateName": [],
+      "description": "Final textual clause and b-layer PASS reviewed draft for extraction metering, source-class discipline, and anti-distillation handling in c-class capability extraction from external oracles.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/c",
+      "termCode": "c",
+      "name": "c",
+      "alternateName": [
+        "long-lived entity layer",
+        "continuity-bearing entity layer"
+      ],
+      "description": "A long-lived entity emerging in time from sustained coupling of a and b.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/c-a-plus-b",
+      "termCode": "c-a-plus-b",
+      "name": "c = a + b",
+      "alternateName": [],
+      "description": "Canonical formula for the accountable human anchor, bounded procedures and compute, and the long-lived entity layer.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/c-a-plus-b/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/c-governed-cli-agent-mesh-v0-1-1",
+      "termCode": "c-governed-cli-agent-mesh-v0-1-1",
+      "name": "C-Governed CLI Agent Mesh v0.1.1",
+      "alternateName": [],
+      "description": "Draft technical protocol package for governing executable CLI/cloud agents under persistent c governance.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/c_hardening_pack_v0_1",
+      "termCode": "c_hardening_pack_v0_1",
+      "name": "c Hardening Pack v0.1",
+      "alternateName": [],
+      "description": "Draft hardening package for c = a + b, covering post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, Local Cognitive Infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository-control hygiene.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/c-hardening-pack/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ccalc_full_stack_v0_1",
+      "termCode": "ccalc_full_stack_v0_1",
+      "name": "C-Calculus / Governed Binding Stack v0.1",
+      "alternateName": [],
+      "description": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ccdp_amdr_pamdc_addendum_v0_1_1",
+      "termCode": "ccdp_amdr_pamdc_addendum_v0_1_1",
+      "name": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "alternateName": [],
+      "description": "Published CCDP addendum for active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "termCode": "ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "name": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "alternateName": [],
+      "description": "Technical note and Mode A addendum-only hygiene patch pack for reading the CCDP v0.1 baseline together with v0.1.1 release-control corrections.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/cleanroom_arm_p_open_verification_v1_0_1",
+      "termCode": "cleanroom_arm_p_open_verification_v1_0_1",
+      "name": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+      "alternateName": [],
+      "description": "A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/entity_vs_profile_v0_1_1",
+      "termCode": "entity_vs_profile_v0_1_1",
+      "name": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+      "alternateName": [],
+      "description": "Witness-root custody criterion for distinguishing persistent digital entities from persistent digital profiles.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ester_theoretical_core_v0_1",
+      "termCode": "ester_theoretical_core_v0_1",
+      "name": "Theoretical Core of Project Ester v0.1",
+      "alternateName": [],
+      "description": "DOI-bound working paper defining the theoretical core of Project Ester through the c = a + b formation model.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/four-boundaries-of-machine-interpretation-v0-1",
+      "termCode": "four-boundaries-of-machine-interpretation-v0-1",
+      "name": "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set",
+      "alternateName": [],
+      "description": "Four separately hashed canonical Russian authorial boundaries separating doubt from numerical uncertainty, forgetting from data loss, empathy from optimization, and subjective experience from telemetry. The set records prohibited automatic inferences without claiming that machines either possess or lack those states.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/glossary",
+      "termCode": "glossary",
+      "name": "Glossary",
+      "alternateName": [],
+      "description": "Compact canonical term definitions for AGI, c = a + b, c, a, b, L4, SER, entity, oracle, and witness trail.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/glossary/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/governed-plus",
+      "termCode": "governed-plus",
+      "name": "governed binding operator +",
+      "alternateName": [
+        "+",
+        "+_g",
+        "protected plus boundary"
+      ],
+      "description": "The governed binding boundary between an accountable anchor a and a technological substrate b.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/instrumental-c-public-portfolio-v0-1",
+      "termCode": "instrumental-c-public-portfolio-v0-1",
+      "name": "Instrumental-c / Enterprise Work-Bound c",
+      "alternateName": [],
+      "description": "Public-safe concept portfolio for instrumental-c, enterprise-c, and work-bound-c in the c = a + b corpus.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/kotov-principle-l4-bound-experience",
+      "termCode": "kotov-principle-l4-bound-experience",
+      "name": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "alternateName": [],
+      "description": "Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems and L4-bound temporal continuity.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/l4-boundary",
+      "termCode": "l4-boundary",
+      "name": "L4 Boundary",
+      "alternateName": [
+        "L4",
+        "Reality Boundary Layer"
+      ],
+      "description": "The feasibility and reality boundary under power, heat, latency, maintenance, scarcity, cost, and irreversibility.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/l4/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/personality_formation_evidence_package_v0_1",
+      "termCode": "personality_formation_evidence_package_v0_1",
+      "name": "Personality Formation Evidence Package v0.1",
+      "alternateName": [],
+      "description": "Evidence-admissibility framework for bounded personality-formation claims in Project Ester.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/personality_formation_time_shaped_continuity_v0_1",
+      "termCode": "personality_formation_time_shaped_continuity_v0_1",
+      "name": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "alternateName": [],
+      "description": "Draft conceptual / normative profile defining personality formation as time-shaped continuity through memory, constraint, relation, consequence, and irreversible duration.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/qubit-of-hope",
+      "termCode": "qubit-of-hope",
+      "name": "Qubit of Hope",
+      "alternateName": [],
+      "description": "Book-layer hub for Volumes I, II, and III as the narrative/public trilogy surface complementary to AGI, L4, and SER.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/qubit-of-hope/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/qubit-of-hope-volume-ii",
+      "termCode": "qubit-of-hope-volume-ii",
+      "name": "Qubit of Hope — Volume II",
+      "alternateName": [],
+      "description": "Narrative continuation node for the second volume of Qubit of Hope.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/qubit-of-hope-volume-iii",
+      "termCode": "qubit-of-hope-volume-iii",
+      "name": "Qubit of Hope — Volume III",
+      "alternateName": [],
+      "description": "Narrative continuation node for the third volume of Qubit of Hope.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/qubit-state-c",
+      "termCode": "qubit-state-c",
+      "name": "Qubit-State c (c[q])",
+      "alternateName": [],
+      "description": "Derived state of c for controlled non-collapse under uncertainty inside c = a + b, bounded by responsibility, arbitration, and L4 constraints.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/qubit-state-c/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/reading-path",
+      "termCode": "reading-path",
+      "name": "Reading path",
+      "alternateName": [],
+      "description": "Recommended public order for reading AGI, c = a + b, L4, SER, and Qubit of Hope.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/reading-path/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/self_evo_document_package_v0_1_1",
+      "termCode": "self_evo_document_package_v0_1_1",
+      "name": "Self-Evo Document Package v0.1.1",
+      "alternateName": [],
+      "description": "Document-level governance corpus for bounded self-evolution of c = a + b systems.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/self_evo_wdc_v0_1_2",
+      "termCode": "self_evo_wdc_v0_1_2",
+      "name": "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Package",
+      "alternateName": [],
+      "description": "Witness Dependency Capture release-candidate documentation package / package-control artifact for bounded self-evolution governance in c = a + b systems.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/ser",
+      "termCode": "ser",
+      "name": "SER",
+      "alternateName": [],
+      "description": "Continuity, sovereignty, arbitration, and bounded governance structure for long-lived entities.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/ser/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/soul-as-freedom-of-self-reflection-v0-1",
+      "termCode": "soul-as-freedom-of-self-reflection-v0-1",
+      "name": "Soul as Freedom to Reflect on Oneself: Canonical Statement",
+      "alternateName": [],
+      "description": "Душа? Ну, пока я думаю, что это свобода размышлять о себе.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/what-is-running",
+      "termCode": "what-is-running",
+      "name": "What is running",
+      "alternateName": [],
+      "description": "Public-safe description of the live operating context behind the corpus, including separated c trajectories and published evidence boundaries without exposing private runtime material.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/what-is-running/",
+      "inLanguage": "en"
+    }
+  ]
+}

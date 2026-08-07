@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ivankotov.eu/schemas/public-repositories-v1.schema.json",
+  "title": "Ivan Kotov public repository inventory v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schema_version", "document_id", "url", "last_verified", "owner", "scope", "claim_boundary", "source_sha256", "repository_count", "repositories"],
+  "properties": {
+    "$schema": {"const": "https://ivankotov.eu/schemas/public-repositories-v1.schema.json"},
+    "schema_version": {"const": "public-repositories.v1"},
+    "document_id": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "format": "uri"},
+    "last_verified": {"type": "string", "format": "date"},
+    "owner": {"const": "Kot141078"},
+    "scope": {"type": "string", "minLength": 1},
+    "claim_boundary": {"type": "string", "minLength": 1},
+    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "repository_count": {"type": "integer", "minimum": 1},
+    "repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "corpus_class", "discovery_role", "archived", "default_branch", "observed_head_commit", "tracked_files", "observed_presence", "repository_id", "repository_url", "observed_commit_url", "presence_scope"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+$"},
+          "corpus_class": {"enum": ["book", "legacy_navigation", "literary", "navigation", "research", "research_software", "software"]},
+          "discovery_role": {"type": "string", "minLength": 1},
+          "archived": {"type": "boolean"},
+          "default_branch": {"type": "string", "minLength": 1},
+          "observed_head_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+          "tracked_files": {"type": "integer", "minimum": 1},
+          "observed_presence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["readme", "license", "citation_cff", "codemeta", "zenodo_metadata", "ro_crate", "checksums", "manifest", "schemas"],
+            "properties": {
+              "readme": {"type": "boolean"},
+              "license": {"type": "boolean"},
+              "citation_cff": {"type": "boolean"},
+              "codemeta": {"type": "boolean"},
+              "zenodo_metadata": {"type": "boolean"},
+              "ro_crate": {"type": "boolean"},
+              "checksums": {"type": "boolean"},
+              "manifest": {"type": "boolean"},
+              "schemas": {"type": "boolean"}
+            }
+          },
+          "repository_id": {"type": "string", "pattern": "^github:Kot141078/"},
+          "repository_url": {"type": "string", "format": "uri"},
+          "observed_commit_url": {"type": "string", "format": "uri"},
+          "presence_scope": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

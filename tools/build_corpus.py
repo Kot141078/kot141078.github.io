@@ -71,6 +71,10 @@ OPEN_PRIORITIES = {"Critical", "High", "Medium"}
 OPEN_STATES = {"OPEN", "PARTIALLY_BOUNDED", "PENDING_EVIDENCE", "PROPOSED_PATCH"}
 FAILURE_RUNTIME_VALUES = {"no", "yes"}
 
+ARTIFACT_ID_RE = re.compile(r"^A\d{3}$")
+PROTOCOL_MAP_ID_RE = re.compile(r"^PM-\d{3}$")
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+
 FORBIDDEN_PUBLIC_PATTERNS = [
     r"C:\\",
     r"C:/",
@@ -201,6 +205,54 @@ def validate_data(data: dict[str, Any]) -> None:
 
     if protocols.get("record_count") != 17 or len(protocols.get("protocols", [])) != 17:
         raise BuildError("Protocol map must contain 17 records")
+
+    protocol_records = protocols["protocols"]
+    expected_protocol_ids = [f"PM-{index:03d}" for index in range(1, 18)]
+    observed_protocol_ids = [record.get("protocol_map_id") for record in protocol_records]
+    if observed_protocol_ids != expected_protocol_ids:
+        raise BuildError(f"Protocol map ids must be ordered PM-001 through PM-017: {observed_protocol_ids!r}")
+    if any(not isinstance(value, str) or not PROTOCOL_MAP_ID_RE.fullmatch(value) for value in observed_protocol_ids):
+        raise BuildError("Protocol map contains a malformed protocol_map_id")
+
+    expected_family_ids = [f"F{index:02d}" for index in range(1, 18)]
+    observed_family_ids = [record.get("family_id") for record in protocol_records]
+    if observed_family_ids != expected_family_ids:
+        raise BuildError(f"Protocol map family ids must be ordered F01 through F17: {observed_family_ids!r}")
+
+    all_related_artifact_ids: list[str] = []
+    for record in protocol_records:
+        context = record["protocol_map_id"]
+        related = record.get("related_artifact_ids")
+        source_refs = record.get("source_refs")
+        if not isinstance(related, list) or not related:
+            raise BuildError(f"{context} related_artifact_ids must be a non-empty list")
+        if any(not isinstance(value, str) or not ARTIFACT_ID_RE.fullmatch(value) for value in related):
+            raise BuildError(f"{context} contains a malformed related_artifact_id: {related!r}")
+        if len(related) != len(set(related)):
+            raise BuildError(f"{context} contains duplicate related_artifact_ids")
+        if not isinstance(source_refs, list) or not source_refs:
+            raise BuildError(f"{context} source_refs must be a non-empty list")
+        source_artifact_ids = []
+        for source_ref in source_refs:
+            if not isinstance(source_ref, dict):
+                raise BuildError(f"{context} source_refs entries must be objects")
+            artifact_id = source_ref.get("artifact_id")
+            sha256 = source_ref.get("sha256")
+            if not isinstance(artifact_id, str) or not ARTIFACT_ID_RE.fullmatch(artifact_id):
+                raise BuildError(f"{context} contains a malformed source_ref artifact_id: {artifact_id!r}")
+            if not isinstance(sha256, str) or not SHA256_RE.fullmatch(sha256):
+                raise BuildError(f"{context} contains a malformed source_ref sha256 for {artifact_id!r}")
+            source_artifact_ids.append(artifact_id)
+        if related != source_artifact_ids:
+            raise BuildError(
+                f"{context} related_artifact_ids must exactly match source_refs artifact order: "
+                f"{related!r} != {source_artifact_ids!r}"
+            )
+        all_related_artifact_ids.extend(related)
+
+    current_artifact_ids = [artifact["artifact_id"] for artifact in artifacts]
+    if Counter(all_related_artifact_ids) != Counter(current_artifact_ids):
+        raise BuildError("Protocol map must cover every current-state artifact exactly once")
 
     failure_records = failures.get("records", [])
     if failures.get("record_count") != 18 or len(failure_records) != 18:
