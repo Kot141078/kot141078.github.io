@@ -1,0 +1,45 @@
+{
+  "package_id": "KOTOV_SOUL_AS_FREEDOM_OF_SELF_REFLECTION_v0_1",
+  "identifier": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+  "version": "0.1",
+  "recorded_date": "2026-08-07",
+  "author": "Ivan Kotov",
+  "encoding": "UTF-8",
+  "canonical_language": "ru",
+  "canonical_file": "CANONICAL_STATEMENT_RU.txt",
+  "precedence": [
+    "CANONICAL_STATEMENT_RU.txt",
+    "STATEMENT.md",
+    "statement.jsonld",
+    "README.md",
+    "CITATION.cff"
+  ],
+  "files": [
+    {
+      "path": "CANONICAL_STATEMENT_RU.txt",
+      "role": "authoritative-canonical-statement"
+    },
+    {
+      "path": "STATEMENT.md",
+      "role": "human-readable-record"
+    },
+    {
+      "path": "statement.jsonld",
+      "role": "machine-readable-semantic-record"
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "citation-metadata"
+    },
+    {
+      "path": "README.md",
+      "role": "package-guide"
+    },
+    {
+      "path": "SHA256SUMS",
+      "role": "integrity-sidecar"
+    }
+  ],
+  "normative_note": "The word 'пока' is part of the canonical statement and must not be silently removed.",
+  "license_status": "not-specified"
+}
