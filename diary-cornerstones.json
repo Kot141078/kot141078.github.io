@@ -20,6 +20,9 @@
         "Decentralized AI"
       ],
       "page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+      "canonical_page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+      "identifier": "urn:ivankotov:diary:agi-public-release-v1-1",
+      "is_canonical": true,
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7412760534699245568--biu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
@@ -30,6 +33,9 @@
       "tags": [],
       "raw_tags": [],
       "page": "https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/",
+      "canonical_page": "https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/",
+      "identifier": "urn:ivankotov:diary:reality-bound-ai-l4-public-release-v1-2-0",
+      "is_canonical": true,
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v120-reality-bound-ai-l4-protocol-activity-7416792412833906688-JSix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
@@ -40,6 +46,9 @@
       "tags": [],
       "raw_tags": [],
       "page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
+      "canonical_page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
+      "identifier": "urn:ivankotov:diary:release-v1-3-0-sovereign-entity-recursion-ser",
+      "is_canonical": true,
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v130-ser-sovereign-entity-recursion-activity-7422179185089048576-mAWF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
     },
     {
@@ -72,6 +81,9 @@
         "Human Centered AI"
       ],
       "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+      "canonical_page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+      "identifier": "urn:ivankotov:diary:why-id-put-an-ai-rack-in-my-garage",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
       "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -116,6 +128,9 @@
         "L4"
       ],
       "page": "https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/",
+      "canonical_page": "https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/",
+      "identifier": "urn:ivankotov:diary:data-harvesting-is-not-inevitable-it-s-a-design-choice",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/cover.jpg",
       "image_alt": "Image of a lit home server rack and desk setup in a workshop, with a large data-center-like building visible through the rainy window.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-privacy-dataminimization-activity-7433254743470145537-V65B?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -146,6 +161,9 @@
         "Bounded Authority"
       ],
       "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+      "canonical_page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+      "identifier": "urn:ivankotov:diary:a-review-layer-can-fail-in-two-opposite-ways",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
       "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -174,6 +192,9 @@
         "Advanced Global Intelligence"
       ],
       "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+      "canonical_page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+      "identifier": "urn:ivankotov:diary:there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
       "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -225,6 +246,9 @@
         "Advanced Global Intelligence"
       ],
       "page": "https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/",
+      "canonical_page": "https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/",
+      "identifier": "urn:ivankotov:diary:most-ai-economy-talk-is-still-pricing-the-wrong-thing",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/cover.jpg",
       "image_alt": "An industrial paper-processing machine with a conveyor full of paper and compressed paper bundles on a platform nearby.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aieconomy-experienceartifacts-activity-7450573735725522944-g-fR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -271,6 +295,9 @@
         "Amsterdam"
       ],
       "page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+      "canonical_page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+      "identifier": "urn:ivankotov:diary:published-volume-i-of-qubit-of-hope",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/published-volume-i-of-qubit-of-hope/cover.jpg",
       "image_alt": "Book cover reading Qubit of Hope, Volume I, Kotov Ivan over a rainy Amsterdam square with a seated man in the foreground.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubitofhope-bookrelease-novel-activity-7448988846698016768-WaTA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"

@@ -1,0 +1,92 @@
+{
+  "schema_version": "semantic-bridges-source.v1",
+  "last_verified": "2026-08-07",
+  "status": "interpretive-machine-routing-overlay",
+  "claim_boundary": "A bridge records a bounded reading dependency or evidence route. It does not prove entity status, consciousness, operational success, causal effect, external validation, certification, or authority transfer.",
+  "bridges": [
+    {
+      "bridge_id": "BRIDGE-001",
+      "visibility": "explicit",
+      "title": "Governed binding to bounded evidence route",
+      "scope": "c = a + b, L4 Boundary, CGAM, witness, and memory-continuity controls",
+      "nodes": [
+        {"id": "c-a-plus-b", "url": "https://ivankotov.eu/c-a-plus-b/"},
+        {"id": "l4-boundary", "url": "https://ivankotov.eu/l4/"},
+        {"id": "cgam", "url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/"},
+        {"id": "evidence", "url": "https://ivankotov.eu/evidence/"},
+        {"id": "amdr-pamdc", "url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/"}
+      ],
+      "edges": [
+        {"source": "c-a-plus-b", "relation": "requiresBoundary", "target": "l4-boundary"},
+        {"source": "l4-boundary", "relation": "constrainsExecution", "target": "cgam"},
+        {"source": "cgam", "relation": "producesCandidateRecordFor", "target": "evidence"},
+        {"source": "evidence", "relation": "suppliesCandidateEvidenceTo", "target": "amdr-pamdc"}
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+        "https://ivankotov.eu/l4/",
+        "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+        "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/"
+      ],
+      "claim_ceiling": "Dependency and evidence-routing map only."
+    },
+    {
+      "bridge_id": "BRIDGE-IMPLICIT-001",
+      "visibility": "implicit",
+      "title": "Admissibility invariant across corpora",
+      "scope": "L4 Boundary, CGAM, CCDP, AMDR, and PAMDC",
+      "nodes": [
+        {"id": "recorded-event", "url": "https://ivankotov.eu/evidence/"},
+        {"id": "admitted-evidence", "url": "https://ivankotov.eu/corpus/"}
+      ],
+      "edges": [
+        {"source": "recorded-event", "relation": "doesNotEntail", "target": "admitted-evidence"}
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/distinctions/",
+        "https://ivankotov.eu/corpus/",
+        "https://ivankotov.eu/evidence/"
+      ],
+      "claim_ceiling": "Recorded event is not automatically a true outcome; authorization is not attestation; retrieval is not admitted memory; protocol is not validated safety; publication is not implementation."
+    },
+    {
+      "bridge_id": "BRIDGE-IMPLICIT-002",
+      "visibility": "implicit",
+      "title": "Custody through time",
+      "scope": "CCDP formation history, AMDR/PAMDC degradation controls, and SER continuity classification",
+      "nodes": [
+        {"id": "ccdp", "url": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/"},
+        {"id": "amdr-pamdc", "url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/"},
+        {"id": "ser", "url": "https://ivankotov.eu/ser/"}
+      ],
+      "edges": [
+        {"source": "ccdp", "relation": "suppliesLongitudinalEvidenceTo", "target": "amdr-pamdc"},
+        {"source": "amdr-pamdc", "relation": "constrainsClassificationIn", "target": "ser"}
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
+        "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+        "https://ivankotov.eu/ser/"
+      ],
+      "claim_ceiling": "Continuity-evidence route only; not proof that continuation, identity, or succession occurred."
+    },
+    {
+      "bridge_id": "BRIDGE-IMPLICIT-003",
+      "visibility": "implicit",
+      "title": "Role separation across one human actor",
+      "scope": "Anchor, author, guardian, authorizer, operator, reviewer, custodian, and publisher roles",
+      "nodes": [
+        {"id": "role-set", "url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"},
+        {"id": "accountable-human-anchor", "url": "https://ivankotov.eu/c-a-plus-b/"}
+      ],
+      "edges": [
+        {"source": "accountable-human-anchor", "relation": "mayPerformWithoutCollapsing", "target": "role-set"}
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+        "https://ivankotov.eu/c-a-plus-b/"
+      ],
+      "claim_ceiling": "One person may perform several roles, but permissions and attestations do not transfer between roles unless an explicit rule says so."
+    }
+  ]
+}

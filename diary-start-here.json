@@ -22,6 +22,9 @@
         "Innovation"
       ],
       "page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
+      "canonical_page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
+      "identifier": "urn:ivankotov:diary:we-are-building-a-partner",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/we-are-building-a-partner/cover.jpg",
       "image_alt": "Diagram showing a human profile, the formula c = a + b, a sphere labeled Synthetic Subjectivity (c), and a compute block.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-humancentricai-digitalsovereignty-activity-7413692440169127937-TA-Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -53,6 +56,9 @@
         "Deep Tech"
       ],
       "page": "https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/",
+      "canonical_page": "https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/",
+      "identifier": "urn:ivankotov:diary:why-thinking-ai-wont-take-over-the-world",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/why-thinking-ai-wont-take-over-the-world/cover.jpg",
       "image_alt": "Image of a transparent panel labeled Memory, History, Cost, Constraints, and Risk on a rainy windowsill beside a mug overlooking a city.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-l4boundary-activity-7416743346225967105-Ppev?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -87,6 +93,9 @@
         "Human Centered AI"
       ],
       "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+      "canonical_page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+      "identifier": "urn:ivankotov:diary:why-id-put-an-ai-rack-in-my-garage",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
       "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -117,6 +126,9 @@
         "Bounded Authority"
       ],
       "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+      "canonical_page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+      "identifier": "urn:ivankotov:diary:a-review-layer-can-fail-in-two-opposite-ways",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
       "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -145,6 +157,9 @@
         "Advanced Global Intelligence"
       ],
       "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+      "canonical_page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+      "identifier": "urn:ivankotov:diary:there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
       "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -191,6 +206,9 @@
         "Amsterdam"
       ],
       "page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+      "canonical_page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+      "identifier": "urn:ivankotov:diary:published-volume-i-of-qubit-of-hope",
+      "is_canonical": true,
       "primary_image": "https://ivankotov.eu/assets/diary/published-volume-i-of-qubit-of-hope/cover.jpg",
       "image_alt": "Book cover reading Qubit of Hope, Volume I, Kotov Ivan over a rainy Amsterdam square with a seated man in the foreground.",
       "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubitofhope-bookrelease-novel-activity-7448988846698016768-WaTA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"

@@ -1,0 +1,989 @@
+{
+  "$schema": "https://ivankotov.eu/schemas/term-registry-v1.schema.json",
+  "schema_version": "term-registry.v1",
+  "document_id": "ivankotov-public-term-registry-v1",
+  "url": "https://ivankotov.eu/term-registry.json",
+  "last_verified": "2026-08-07",
+  "preferred_label_rule": "Use preferred_label in new machine-facing records. alternate_labels are discovery aliases, not strict equivalents outside the declared scope.",
+  "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
+  "source_hashes": {
+    "canonical_map": "1021ccde6eda5072ed3c003868e2042c6fca2aedcb00d9a45adc3b509fd49fdb",
+    "core_terms": "04f2cf08186c71aea4fc53c1c7e978868589a3e68f56b1c76d825b9a67af8279",
+    "distinctions": "dc2633f59fd48161a93f2070bd8e2ab503d17e5c656c3b739837c2d7688955d3"
+  },
+  "term_count": 40,
+  "terms": [
+    {
+      "local_id": "a",
+      "preferred_label": "a",
+      "alternate_labels": [
+        "accountable human anchor"
+      ],
+      "long_form": "accountable human anchor",
+      "definition": "The accountable human anchor in c = a + b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": [
+        "the technological substrate b",
+        "the continuity-bearing c",
+        "a generic model operator"
+      ],
+      "related_terms": [
+        "c-a-plus-b",
+        "b",
+        "c",
+        "governed-plus"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/a"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/a6_composition_layer_v0_1_1",
+      "local_id": "a6_composition_layer_v0_1_1",
+      "preferred_label": "A6 Composition Layer v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Hybrid / Federated Anchor Composition Profile for A6 in c = a + b. A6 is a mapped composition over A0-A5, with A6-EXIT as revoke-and-continue and A6-SPLIT as freeze-and-escalate.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a merged super-anchor",
+        "merged standing, memory, identity, or authority",
+        "a replacement for A0-A5",
+        "automatic authority or deployment approval"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/a6_ctp_v0_1_4",
+      "local_id": "a6_ctp_v0_1_4",
+      "preferred_label": "A6 Composition Transition Predicate Addendum v0.1.4",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Bounded addendum to A6 Composition Layer v0.1.1 defining EXIT / SPLIT / HOLD / DISSOLVE classification by unique lawful successor, successor-claim incompatibility, HOLD/FREEZE discipline, and witnessed successor-space exhaustion.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal advice",
+        "product certification",
+        "deployment-ready",
+        "conformance claim",
+        "personhood claim",
+        "safety proof",
+        "replacement for the parent A6 DOI artifact",
+        "silent amendment of reviewed artifacts"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/actor-grounding-layer",
+      "local_id": "actor-grounding-layer",
+      "preferred_label": "Actor Grounding Layer",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Bounded upstream grounding layer for source-state qualification, runtime reliance, initiation gates, degradation signals, and fail-closed transitions.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/actor-grounding-layer/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a replacement for ARL",
+        "a replacement for L4 Witness",
+        "a replacement for L4 Hardware Perimeter"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/adult-owner-dependency-d4-detection-v0-1-1",
+      "local_id": "adult-owner-dependency-d4-detection-v0-1-1",
+      "preferred_label": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Adult-owner dependency and D4 detection boundary for local-first c-contours, covering dependency capture, parental-bond / opacity risk, D4 posture, lucid covenant, signal-based detection, witness minimization, calibration limits, FNC fixtures, and structural non-claims.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "clinical validation",
+        "certified safety",
+        "deployment authorization",
+        "legal crisis-reporting compliance",
+        "personhood or consciousness claim",
+        "internal-state measurement",
+        "guaranteed protection from self-induced dependency"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/agi",
+      "local_id": "agi",
+      "preferred_label": "Advanced Global Intelligence",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Architectural frame for c = a + b, L4, SER, and adjacent public layers.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/advanced-global-intelligence/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a single giant model",
+        "a cloud-only brain",
+        "generic AGI hype"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ai-social-role-separation-memory-custody-v1-0",
+      "local_id": "ai-social-role-separation-memory-custody-v1-0",
+      "preferred_label": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Bilingual technical note distinguishing transparent AI social-role composition from hidden role blending and defining custody boundaries for memory, inferences, versions, continuity, session work, authority, and role conflicts.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "peer-reviewed journal publication",
+        "empirical validation",
+        "legal standard or legal opinion",
+        "product certification",
+        "deployment authorization",
+        "proof of AI consciousness, subjecthood, or personhood"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/arq-cq-integration-addendum",
+      "local_id": "arq-cq-integration-addendum",
+      "preferred_label": "ARQ c[q] Integration Addendum v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Published SER-hosted ARQ v0.2 addendum integrating Qubit-State c (c[q]) as a behavioral non-collapse overlay under uncertainty.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/arq-cq-integration-addendum/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "not a physical quantum-computing claim",
+        "not a quantum-consciousness claim",
+        "not ARQ Model M5",
+        "not a replacement for ARQ_v0.2_Normative_Core.md"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/article50-transparency-implementation-briefs-v0-1",
+      "local_id": "article50-transparency-implementation-briefs-v0-1",
+      "preferred_label": "Article 50 Transparency Implementation Briefs v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Supporting policy-reader and engineering briefs for evidence-chain AI transparency, derived from the Article 50 Transparency Submission Pack v0.1.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal advice",
+        "certification",
+        "a conformity assessment",
+        "a formal Article 50 compliance claim",
+        "a replacement for the original Article 50 submission"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/article50-transparency-submission-v0-1",
+      "local_id": "article50-transparency-submission-v0-1",
+      "preferred_label": "Article 50 Transparency Submission Pack v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Technical evidence-chain contribution for AI Act Article 50 transparency implementation.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal advice",
+        "certification",
+        "conformity assessment",
+        "legal sufficiency for a concrete deployed system"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "local_id": "b",
+      "preferred_label": "b",
+      "alternate_labels": [
+        "procedures, models, and compute under constraints",
+        "technological substrate"
+      ],
+      "long_form": "procedures, models, and compute under constraints",
+      "definition": "The procedures, models, and compute under constraints in c = a + b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": [
+        "the accountable human anchor a",
+        "the continuity-bearing c",
+        "authority by itself"
+      ],
+      "related_terms": [
+        "c-a-plus-b",
+        "a",
+        "c",
+        "governed-plus"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/b"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/bcec_v0_2_1",
+      "local_id": "bcec_v0_2_1",
+      "preferred_label": "Bounded Capability Extraction Clause v0.2.1-final",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Final textual clause and b-layer PASS reviewed draft for extraction metering, source-class discipline, and anti-distillation handling in c-class capability extraction from external oracles.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "sealed integration",
+        "legal certification",
+        "product certification",
+        "conformance acceptance",
+        "authority upgrade",
+        "personhood claim",
+        "memory write"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "local_id": "c",
+      "preferred_label": "c",
+      "alternate_labels": [
+        "long-lived entity layer",
+        "continuity-bearing entity layer"
+      ],
+      "long_form": "long-lived entity emerging in time from sustained coupling of a and b",
+      "definition": "A long-lived entity emerging in time from sustained coupling of a and b.",
+      "scope": "c = a + b",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-definition",
+      "non_equivalents": [
+        "a chatbot",
+        "a detached model",
+        "a generic agent swarm",
+        "a legal person by definition"
+      ],
+      "related_terms": [
+        "c-a-plus-b",
+        "a",
+        "b",
+        "governed-plus",
+        "ser"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/c"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/c-a-plus-b",
+      "local_id": "c-a-plus-b",
+      "preferred_label": "c = a + b",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Canonical formula for the accountable human anchor, bounded procedures and compute, and the long-lived entity layer.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "school algebra",
+        "a chatbot slogan",
+        "a swarm by default"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/c-governed-cli-agent-mesh-v0-1-1",
+      "local_id": "c-governed-cli-agent-mesh-v0-1-1",
+      "preferred_label": "C-Governed CLI Agent Mesh v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Draft technical protocol package for governing executable CLI/cloud agents under persistent c governance.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal advice",
+        "product certification",
+        "deployment-ready",
+        "conformance-supported status"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/c_hardening_pack_v0_1",
+      "local_id": "c_hardening_pack_v0_1",
+      "preferred_label": "c Hardening Pack v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Draft hardening package for c = a + b, covering post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, Local Cognitive Infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository-control hygiene.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/c-hardening-pack/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal personhood claim",
+        "proof of consciousness",
+        "legacy AGI proof",
+        "automatic post-anchor authority",
+        "automatic re-anchoring",
+        "self-funded autonomous growth",
+        "hardware sovereignty",
+        "public experiment proof of personhood or model capability",
+        "replacement for law, institutions, medicine, courts, or human responsibility"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ccalc_full_stack_v0_1",
+      "local_id": "ccalc_full_stack_v0_1",
+      "preferred_label": "C-Calculus / Governed Binding Stack v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "Not legal advice.",
+        "Not privacy-law certification.",
+        "Not safety certification.",
+        "Not deployment authorization.",
+        "Not standards compliance certification.",
+        "Not regulated approval.",
+        "Not C-A1 ratification.",
+        "Not personhood proof.",
+        "Not consciousness proof.",
+        "Not live-substrate truth.",
+        "Not proof of completeness."
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ccdp_amdr_pamdc_addendum_v0_1_1",
+      "local_id": "ccdp_amdr_pamdc_addendum_v0_1_1",
+      "preferred_label": "CCDP AMDR/PAMDC Addendum v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Published CCDP addendum for active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a replacement for CCDP v0.1",
+        "a replacement for the CCDP v0.1.1 Hygiene Addendum",
+        "a Zenodo mutation",
+        "a website-local package mirror"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "local_id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "preferred_label": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Technical note and Mode A addendum-only hygiene patch pack for reading the CCDP v0.1 baseline together with v0.1.1 release-control corrections.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "mutation of the DOI-bound CCDP v0.1 baseline",
+        "replacement of baseline artifacts",
+        "new child-safety mechanism",
+        "legal review",
+        "clinical guidance",
+        "jurisdictional review"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/cleanroom_arm_p_open_verification_v1_0_1",
+      "local_id": "cleanroom_arm_p_open_verification_v1_0_1",
+      "preferred_label": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "production readiness",
+        "operational Judge",
+        "SRLM integration",
+        "real L4 capability",
+        "matched profile-control",
+        "differential witness",
+        "complete operational ARM-P runtime",
+        "consciousness, sentience, personhood, life, or AGI",
+        "legal, safety, standards, or conformity certification"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/entity_vs_profile_v0_1_1",
+      "local_id": "entity_vs_profile_v0_1_1",
+      "preferred_label": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Witness-root custody criterion for distinguishing persistent digital entities from persistent digital profiles.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "legal advice",
+        "certification",
+        "conformity assessment",
+        "formal AI Act compliance claim",
+        "legal personhood claim",
+        "moral personhood claim",
+        "deployment-ready claim"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ester_theoretical_core_v0_1",
+      "local_id": "ester_theoretical_core_v0_1",
+      "preferred_label": "Theoretical Core of Project Ester v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "DOI-bound working paper defining the theoretical core of Project Ester through the c = a + b formation model.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "proof of human-like consciousness",
+        "a standalone LLM claim",
+        "a RAG system claim",
+        "an autonomous agent claim",
+        "a digital twin claim",
+        "a local file mirror"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/four-boundaries-of-machine-interpretation-v0-1",
+      "local_id": "four-boundaries-of-machine-interpretation-v0-1",
+      "preferred_label": "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Four separately hashed canonical Russian authorial boundaries separating doubt from numerical uncertainty, forgetting from data loss, empathy from optimization, and subjective experience from telemetry. The set records prohibited automatic inferences without claiming that machines either possess or lack those states.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/",
+      "source_version": "0.1",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "scientific, psychological, neuroscientific, or metaphysical proof",
+        "one universal machine architecture",
+        "attribution or denial of machine doubt, forgetting, empathy, consciousness, or subjective experience",
+        "permission for endless inaction, evidence destruction, or ungrounded intervention",
+        "historical uniqueness or empirical validation"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/glossary",
+      "local_id": "glossary",
+      "preferred_label": "Glossary",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Compact canonical term definitions for AGI, c = a + b, c, a, b, L4, SER, entity, oracle, and witness trail.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/glossary/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a long essay",
+        "an open-ended taxonomy"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "local_id": "governed-plus",
+      "preferred_label": "governed binding operator +",
+      "alternate_labels": [
+        "+",
+        "+_g",
+        "protected plus boundary"
+      ],
+      "long_form": "governed non-collapsing binding operator",
+      "definition": "The governed binding boundary between an accountable anchor a and a technological substrate b.",
+      "scope": "C-Calculus / c = a + b",
+      "authoritative_source": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "source_version": "0.1",
+      "status": "DOI-published-machine-definition",
+      "non_equivalents": [
+        "arithmetic addition",
+        "a model call",
+        "a merge operator",
+        "a checker pass",
+        "a DOI",
+        "deployment approval"
+      ],
+      "related_terms": [
+        "c-a-plus-b",
+        "a",
+        "b",
+        "c",
+        "l4-boundary"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/governed-plus"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/instrumental-c-public-portfolio-v0-1",
+      "local_id": "instrumental-c-public-portfolio-v0-1",
+      "preferred_label": "Instrumental-c / Enterprise Work-Bound c",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Public-safe concept portfolio for instrumental-c, enterprise-c, and work-bound-c in the c = a + b corpus.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "an implementation kit",
+        "a client deployment package",
+        "legal advice",
+        "a commercial implementation grant",
+        "a deployment grant",
+        "a certification grant"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/kotov-principle-l4-bound-experience",
+      "local_id": "kotov-principle-l4-bound-experience",
+      "preferred_label": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems and L4-bound temporal continuity.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a mirror of release assets",
+        "an unpublished expansion of the document",
+        "a replacement for AGI or L4"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "local_id": "l4-boundary",
+      "preferred_label": "L4 Boundary",
+      "alternate_labels": [
+        "L4",
+        "Reality Boundary Layer"
+      ],
+      "long_form": "L4 Boundary",
+      "definition": "The feasibility and reality boundary under power, heat, latency, maintenance, scarcity, cost, and irreversibility.",
+      "scope": "Reality-bounded operation of c, a, b, agents, and infrastructure",
+      "authoritative_source": "https://ivankotov.eu/l4/",
+      "source_version": null,
+      "status": "preferred-machine-label",
+      "non_equivalents": [
+        "OSI transport layer",
+        "maturity level four",
+        "an ethics sticker",
+        "a prompt-only policy layer"
+      ],
+      "related_terms": [
+        "c-a-plus-b",
+        "governed-plus",
+        "ser",
+        "actor-grounding-layer"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/l4-boundary"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/personality_formation_evidence_package_v0_1",
+      "local_id": "personality_formation_evidence_package_v0_1",
+      "preferred_label": "Personality Formation Evidence Package v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Evidence-admissibility framework for bounded personality-formation claims in Project Ester.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a consciousness test",
+        "a biological life claim",
+        "a soul claim",
+        "legal personhood",
+        "product certification",
+        "deployment approval",
+        "completed AGI"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/personality_formation_time_shaped_continuity_v0_1",
+      "local_id": "personality_formation_time_shaped_continuity_v0_1",
+      "preferred_label": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Draft conceptual / normative profile defining personality formation as time-shaped continuity through memory, constraint, relation, consequence, and irreversible duration.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "proof of consciousness",
+        "legal personhood claim",
+        "automatic authority",
+        "biological imitation requirement",
+        "mature personality at activation",
+        "continuity transfer certified by functional viability alone"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/qubit-of-hope",
+      "local_id": "qubit-of-hope",
+      "preferred_label": "Qubit of Hope",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Book-layer hub for Volumes I, II, and III as the narrative/public trilogy surface complementary to AGI, L4, and SER.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/qubit-of-hope/",
+      "source_version": "1.0.2",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a substitute for the protocol layer",
+        "the canonical home of AGI, L4, or SER definitions"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/qubit-of-hope-volume-ii",
+      "local_id": "qubit-of-hope-volume-ii",
+      "preferred_label": "Qubit of Hope — Volume II",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Narrative continuation node for the second volume of Qubit of Hope.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/qubit-of-hope-volume-ii/",
+      "source_version": "1.0.2",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a detached standalone theory layer",
+        "a substitute for the protocol layer"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/qubit-of-hope-volume-iii",
+      "local_id": "qubit-of-hope-volume-iii",
+      "preferred_label": "Qubit of Hope — Volume III",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Narrative continuation node for the third volume of Qubit of Hope.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/qubit-of-hope-volume-iii/",
+      "source_version": "1.0.2",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a detached standalone theory layer",
+        "a substitute for the protocol layer"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/qubit-state-c",
+      "local_id": "qubit-state-c",
+      "preferred_label": "Qubit-State c (c[q])",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Derived state of c for controlled non-collapse under uncertainty inside c = a + b, bounded by responsibility, arbitration, and L4 constraints.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/qubit-state-c/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a quantum-computing claim",
+        "a quantum-consciousness claim",
+        "a new ontological origin",
+        "a replacement for c = a + b"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/reading-path",
+      "local_id": "reading-path",
+      "preferred_label": "Reading path",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Recommended public order for reading AGI, c = a + b, L4, SER, and Qubit of Hope.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/reading-path/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "random navigation",
+        "a substitute for the primary pages"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/self_evo_document_package_v0_1_1",
+      "local_id": "self_evo_document_package_v0_1_1",
+      "preferred_label": "Self-Evo Document Package v0.1.1",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Document-level governance corpus for bounded self-evolution of c = a + b systems.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "conformance certificate",
+        "deployment authorization",
+        "safety proof",
+        "public-release certification",
+        "personhood or consciousness claim",
+        "live self-evolution permission",
+        "autonomous resource-acquisition permission"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/self_evo_wdc_v0_1_2",
+      "local_id": "self_evo_wdc_v0_1_2",
+      "preferred_label": "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Package",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Witness Dependency Capture release-candidate documentation package / package-control artifact for bounded self-evolution governance in c = a + b systems.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "conformance certificate",
+        "deployment authorization",
+        "witness-independence certification",
+        "checker implementation certification",
+        "fixture-runner execution",
+        "live self-evolution permission"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/ser",
+      "local_id": "ser",
+      "preferred_label": "SER",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Continuity, sovereignty, arbitration, and bounded governance structure for long-lived entities.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/ser/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "a multi-agent slogan",
+        "a memory hack",
+        "cloud-native continuity by default"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/soul-as-freedom-of-self-reflection-v0-1",
+      "local_id": "soul-as-freedom-of-self-reflection-v0-1",
+      "preferred_label": "Soul as Freedom to Reflect on Oneself: Canonical Statement",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Душа? Ну, пока я думаю, что это свобода размышлять о себе.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
+      "source_version": "0.1",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "scientific proof",
+        "metaphysical finality",
+        "historical uniqueness",
+        "attribution of soul to any particular human, animal, or digital entity"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/what-is-running",
+      "local_id": "what-is-running",
+      "preferred_label": "What is running",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Public-safe description of the live operating context behind the corpus, including separated c trajectories and published evidence boundaries without exposing private runtime material.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/what-is-running/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "raw private memory",
+        "raw dialogue logs",
+        "credentials or runtime secrets",
+        "private runtime replay",
+        "consciousness, personhood, certification, or deployment-readiness claim"
+      ],
+      "related_terms": [],
+      "language": "en"
+    }
+  ],
+  "distinction_count": 13,
+  "distinctions": [
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/001",
+      "term": "AGI",
+      "non_equivalent_to": "generic Artificial General Intelligence hype",
+      "reason": "This site uses AGI as Advanced Global Intelligence.",
+      "authoritative_source": "https://ivankotov.eu/advanced-global-intelligence/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/002",
+      "term": "c = a + b",
+      "non_equivalent_to": "school algebra / slogan",
+      "reason": "It defines a continuity architecture rather than a symbolic joke.",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/003",
+      "term": "c",
+      "non_equivalent_to": "chatbot",
+      "reason": "Continuity, bounded action, and memory matter here.",
+      "authoritative_source": "https://ivankotov.eu/c-a-plus-b/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/004",
+      "term": "c",
+      "non_equivalent_to": "generic agent swarm",
+      "reason": "Subject continuity is not identical to many workers.",
+      "authoritative_source": "https://ivankotov.eu/ser/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/005",
+      "term": "entity",
+      "non_equivalent_to": "tool-agent",
+      "reason": "Continuity and responsibility differ from tool use.",
+      "authoritative_source": "https://ivankotov.eu/ser/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/006",
+      "term": "agent instrument / c participant",
+      "non_equivalent_to": "c as just a larger agent",
+      "reason": "Delegated capability inside b is not the same as continuity-bearing participation, governed authority, witness history, or consequence.",
+      "authoritative_source": "https://ivankotov.eu/distinctions/#agent-instrument-vs-c-participant"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/007",
+      "term": "L4",
+      "non_equivalent_to": "ethics sticker / prompt policy layer",
+      "reason": "It is the feasibility and reality boundary.",
+      "authoritative_source": "https://ivankotov.eu/l4/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/008",
+      "term": "SER",
+      "non_equivalent_to": "memory trick",
+      "reason": "It specifies continuity and sovereignty structure.",
+      "authoritative_source": "https://ivankotov.eu/ser/"
+    },
+    {
+      "boundary_id": "https://ivankotov.eu/id/distinction/009",
+      "term": "narrative layer",
+      "non_equivalent_to": "protocol layer",
+      "reason": "Narrative entry and protocol definition are complementary but not interchangeable.",
+      "authoritative_source": "https://ivankotov.eu/qubit-of-hope/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1",
+      "term": "numerical uncertainty",
+      "non_equivalent_to": "doubt by itself",
+      "reason": "A probability value may be an input to doubt, but it does not establish a held state of unfinished judgment.",
+      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1",
+      "term": "data loss",
+      "non_equivalent_to": "forgetting by itself",
+      "reason": "Storage state and the present accessibility, significance, accuracy, or operative force of past experience remain distinct.",
+      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:statement:empathy-optimization-boundary:v0.1",
+      "term": "optimization",
+      "non_equivalent_to": "empathy or intervention authority",
+      "reason": "Recognizing or improving a state does not itself establish an empathic stance or confer authority to act.",
+      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1",
+      "term": "parsed telemetry",
+      "non_equivalent_to": "subjective experience present or absent",
+      "reason": "Successful signal handling establishes neither side of the phenomenal claim.",
+      "authoritative_source": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    }
+  ]
+}

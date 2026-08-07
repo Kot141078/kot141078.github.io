@@ -1,0 +1,2854 @@
+{
+  "$schema": "https://ivankotov.eu/schemas/scientific-corpus-index-v1.schema.json",
+  "schema_version": "scientific-corpus-index.v1",
+  "document_id": "ivankotov-public-authored-corpus-index-v1",
+  "url": "https://ivankotov.eu/scientific-corpus-index.json",
+  "last_verified": "2026-08-07",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "profile": "https://ivankotov.eu/about/"
+  },
+  "scope": "Normalized discovery layer for public research, software, protocol, book, and authorial-statement records listed in works-index.json.",
+  "authority_rule": "This index is a routing projection. DOI records, signed releases, tagged repository states, and explicitly named canonical source files retain their stated authority.",
+  "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
+  "source": {
+    "url": "https://ivankotov.eu/works-index.json",
+    "sha256": "a83fed4b063aefa343ca8b730c29458502a5f362b2754aa24e2934d307613b1e",
+    "record_count": 45
+  },
+  "work_count": 45,
+  "works": [
+    {
+      "id": "four-boundaries-of-machine-interpretation-v0-1",
+      "@id": "https://ivankotov.eu/id/work/four-boundaries-of-machine-interpretation-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Four Boundaries of Machine Interpretation: Canonical Authorial Statement Set",
+      "alternative_title": "Четыре границы машинного толкования",
+      "role": "four bounded non-entailments for machine interpretation",
+      "summary": "Four separately hashed canonical Russian authorial boundaries separating doubt from numerical uncertainty, forgetting from data loss, empathy from optimization, and subjective experience from telemetry. The set records prohibited automatic inferences without claiming that machines either possess or lack those states.",
+      "primary_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/",
+      "version": "0.1",
+      "date": "2026-08-07",
+      "status": "provisional-authorial-boundary-set",
+      "languages": [],
+      "source_language_labels": [
+        "Russian (four canonical units)",
+        "English (non-canonical discovery translations)"
+      ],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": [
+          "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+        ]
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": "16b70dd3d605c43fcc8b45561aeccc096ade4715"
+      },
+      "licenses": {
+        "overall": "not specified",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "scientific, psychological, neuroscientific, or metaphysical proof",
+          "one universal machine architecture",
+          "attribution or denial of machine doubt, forgetting, empathy, consciousness, or subjective experience",
+          "permission for endless inaction, evidence destruction, or ungrounded intervention",
+          "historical uniqueness or empirical validation"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "version_doi"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/0"
+    },
+    {
+      "id": "soul-as-freedom-of-self-reflection-v0-1",
+      "@id": "https://ivankotov.eu/id/work/soul-as-freedom-of-self-reflection-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Soul as Freedom to Reflect on Oneself: Canonical Statement",
+      "alternative_title": "Душа как свобода размышлять о себе",
+      "role": "atomic provenance record / provisional philosophical statement",
+      "summary": "Atomic provenance record of Ivan Kotov's provisional statement: Душа? Ну, пока я думаю, что это свобода размышлять о себе. The Russian text controls and the qualifier пока is semantically material.",
+      "primary_url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
+      "version": "0.1",
+      "date": "2026-08-07",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [
+        "Russian",
+        "English (non-canonical discovery translation)"
+      ],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": [
+          "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1"
+        ]
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": "c02a0b964fb6e1219a8130f46e057b62551c57d5"
+      },
+      "licenses": {
+        "overall": "not specified",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "scientific proof",
+          "metaphysical finality",
+          "historical uniqueness",
+          "attribution of soul to any particular human, animal, or digital entity"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "version_doi"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/1"
+    },
+    {
+      "id": "ai-social-role-separation-memory-custody-v1-0",
+      "@id": "https://ivankotov.eu/id/work/ai-social-role-separation-memory-custody-v1-0",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
+      "alternative_title": "Разделение и композиция социальных ролей ИИ, custody памяти и интерпретаций: почему многоролевая приватная c и сервисный ИИ требуют разных границ",
+      "role": "AI social-role architecture / memory and inference custody / role continuity",
+      "summary": "Bilingual technical note distinguishing transparent AI social-role composition from hidden role blending and defining custody boundaries for memory, inferences, versions, continuity, session work, authority, and role conflicts.",
+      "primary_url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+      "version": "1.0",
+      "date": "2026-08-02",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [
+        "English",
+        "Russian"
+      ],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21751985",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21751984",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody",
+        "repository_detail_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/releases/tag/v1.0",
+        "release_tag": "v1.0",
+        "commit": "f5d7263181492891032f213c7db1e0c25b701372"
+      },
+      "licenses": {
+        "overall": "All Rights Reserved with Limited Complete Unmodified Non-Commercial Sharing",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "peer-reviewed journal publication",
+          "empirical validation",
+          "legal standard or legal opinion",
+          "product certification",
+          "deployment authorization",
+          "proof of AI consciousness, subjecthood, or personhood"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/2"
+    },
+    {
+      "id": "tap-sec-m4-v0-3-2",
+      "@id": "https://ivankotov.eu/id/work/tap-sec-m4-v0-3-2",
+      "schema_org_type": "SoftwareSourceCode",
+      "source_type": "software",
+      "title": "TAP-SEC Reference Implementation M4 v0.3.2: Local-Host Boundary Validation, Fail-Closed Recovery, and Public Evidence",
+      "alternative_title": null,
+      "role": "local-host boundary validation / fail-closed recovery / reproducible public evidence",
+      "summary": "Research software and reproducible public evidence for local-host boundary validation. Four external physical-evidence gates remain explicitly blocked.",
+      "primary_url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/",
+      "version": "0.3.2",
+      "date": "2026-07-29",
+      "status": "M4_PARTIAL_PASS_WITH_BLOCKED_GATES",
+      "languages": [],
+      "source_language_labels": [
+        "English"
+      ],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21688521",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21688520",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/tap-sec-reference-implementation",
+        "repository_detail_url": "https://github.com/Kot141078/tap-sec-reference-implementation",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/tap-sec-reference-implementation/releases/tag/m4-v0.3.2",
+        "release_tag": "m4-v0.3.2",
+        "commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      },
+      "licenses": {
+        "overall": null,
+        "software": "Apache-2.0",
+        "documentation": "CC-BY-4.0",
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "6760ee89bc92b9d8fea0de6a1642399ae3b126e7fa4508ac8f4921ab3de65942",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "Not a full M4 pass.",
+          "Not normative.",
+          "Not production-ready.",
+          "Not a production-safety certificate.",
+          "Not evidence of physical TPM/HSM custody.",
+          "Not evidence of a physically independent remote witness.",
+          "Not direct Katy-attributable Joule evidence."
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/3"
+    },
+    {
+      "id": "world-intelligence-v1-1-0",
+      "@id": "https://ivankotov.eu/id/work/world-intelligence-v1-1-0",
+      "schema_org_type": "Book",
+      "source_type": "book",
+      "title": "World Intelligence — Complete Multilingual Edition",
+      "alternative_title": null,
+      "role": "complete multilingual book / temporal AI presence / governed intelligence",
+      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in eight languages with immutable v1.1.0 reading and package links.",
+      "primary_url": "https://ivankotov.eu/world-intelligence/",
+      "version": "1.1.0",
+      "date": "2026-07-24",
+      "status": "published",
+      "languages": [
+        "en-GB",
+        "ru",
+        "fr-FR",
+        "de",
+        "es",
+        "nl-NL",
+        "it-IT",
+        "zh-CN"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": "https://doi.org/10.5281/zenodo.21497097",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/world-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/world-intelligence",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE"
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "languages",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/4"
+    },
+    {
+      "id": "esther-rp-001-v0-8-1",
+      "@id": "https://ivankotov.eu/id/work/esther-rp-001-v0-8-1",
+      "schema_org_type": "ScholarlyArticle",
+      "source_type": "working paper and bounded executable research package",
+      "title": "ESTHER-RP-001 v0.8.1: Centered Agency Under Persistent Uncertainty",
+      "alternative_title": null,
+      "role": "causal memory / selective operational commitment / open external review",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/publications/esther-rp-001/",
+      "version": "0.8.1",
+      "date": "2026-07-19",
+      "status": "published; human conceptual review and endpoint-rater pilot open",
+      "languages": [
+        "en"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21443105",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21443104",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-theoretical-core",
+        "repository_detail_url": "https://github.com/Kot141078/ester-theoretical-core",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": "MIT",
+        "documentation": "CC BY 4.0",
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/5"
+    },
+    {
+      "id": "agi",
+      "@id": "https://ivankotov.eu/id/work/agi",
+      "schema_org_type": "CreativeWork",
+      "source_type": "repo",
+      "title": "Advanced Global Intelligence (AGI)",
+      "alternative_title": null,
+      "role": "architecture",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "version": "v1.1",
+      "date": "2026-01-02",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/v1.1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/6"
+    },
+    {
+      "id": "kotov-principle-l4-bound-experience",
+      "@id": "https://ivankotov.eu/id/work/kotov-principle-l4-bound-experience",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Kotov Principle of L4-Bound Experience v0.1.1",
+      "alternative_title": null,
+      "role": "principle / L4-bound experience",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/kotov-principle-l4-bound-experience/",
+      "version": "v0.1.1",
+      "date": "2026-04-28",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.19862969",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/kotov-principle-l4-bound-experience-v0.1.1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/7"
+    },
+    {
+      "id": "qubit-state-c",
+      "@id": "https://ivankotov.eu/id/work/qubit-state-c",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Qubit-State c (c[q]): A Derived State of Variative Continuity in the c = a + b Framework",
+      "alternative_title": null,
+      "role": "state / conceptual model",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/qubit-state-c/",
+      "version": "v0.1",
+      "date": "2026-05-08",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20090368",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/concepts/QUBIT_STATE_C_v0.1.md",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/8"
+    },
+    {
+      "id": "c-node-boundary-docs-package-facade",
+      "@id": "https://ivankotov.eu/id/work/c-node-boundary-docs-package-facade",
+      "schema_org_type": "CreativeWork",
+      "source_type": "package-facade",
+      "title": "C-Node Boundary Documents v0.1.1",
+      "alternative_title": null,
+      "role": "C-node boundary extension package facade",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/README.md",
+      "version": "v0.1.1",
+      "date": "2026-05-13",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_INDEX_C_NODE_BOUNDARY_DOCS_v0.1.1.md",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/c-node-boundary-docs-v0.1.1",
+        "release_tag": "c-node-boundary-docs-v0.1.1",
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/PACKAGE_MANIFEST_C_NODE_BOUNDARY_DOCS_v0.1.1.json",
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/9"
+    },
+    {
+      "id": "ccdp-v0-1",
+      "@id": "https://ivankotov.eu/id/work/ccdp-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "package",
+      "title": "CCDP v0.1 - Child-c Development Protocol",
+      "alternative_title": null,
+      "role": "draft research protocol pack / child-facing persistent AI entity protocol",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/advanced-global-intelligence/#ccdp-v0-1",
+      "version": "v0.1 + v0.1.1 hygiene guidance",
+      "date": "2026-05-14",
+      "status": "draft research protocol pack",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20190648",
+        "concept_doi": "https://doi.org/10.5281/zenodo.20196218",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/README.md",
+        "repository_path": "docs/ccdp/",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+        "release_tag": "ccdp-v0.1",
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/10"
+    },
+    {
+      "id": "c-governed-cli-agent-mesh-v0-1-1",
+      "@id": "https://ivankotov.eu/id/work/c-governed-cli-agent-mesh-v0-1-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "technical protocol package",
+      "title": "C-Governed CLI Agent Mesh v0.1.1",
+      "alternative_title": null,
+      "role": "executable CLI/cloud agent governance protocol",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "version": "0.1.1",
+      "date": "2026-05-17",
+      "status": "draft technical protocol package",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20257232",
+        "concept_doi": "https://doi.org/10.5281/zenodo.20257231",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh",
+        "repository_detail_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh/releases/tag/cgam-v0.1.1",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": "CC BY 4.0",
+        "machine_metadata": "MIT",
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/11"
+    },
+    {
+      "id": "anchor-class-boundaries",
+      "@id": "https://ivankotov.eu/id/work/anchor-class-boundaries",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Anchor Class Boundaries v0.1",
+      "alternative_title": null,
+      "role": "anchor taxonomy / boundary draft",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md",
+      "version": "v0.1",
+      "date": "2026-05-13",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/Anchor_Class_Boundaries_v0.1_academic.pdf",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/12"
+    },
+    {
+      "id": "raw-locality-experience-refinery-profile",
+      "@id": "https://ivankotov.eu/id/work/raw-locality-experience-refinery-profile",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Raw Locality and Experience Refinery Profile v0.1",
+      "alternative_title": null,
+      "role": "economic layer extension / profile draft",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md",
+      "version": "v0.1",
+      "date": "2026-05-13",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/13"
+    },
+    {
+      "id": "third-party-sensor-boundary",
+      "@id": "https://ivankotov.eu/id/work/third-party-sensor-boundary",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Third-Party Sensor Boundary v0.1",
+      "alternative_title": null,
+      "role": "sensor boundary / boundary draft",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md",
+      "version": "v0.1",
+      "date": "2026-05-13",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/14"
+    },
+    {
+      "id": "minimum-c-node-profile",
+      "@id": "https://ivankotov.eu/id/work/minimum-c-node-profile",
+      "schema_org_type": "CreativeWork",
+      "source_type": "document",
+      "title": "Minimum C-Node Profile v0.1",
+      "alternative_title": null,
+      "role": "local profile draft",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+      "version": "v0.1",
+      "date": "2026-05-13",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-clean-code",
+        "repository_detail_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/pdf/Minimum_C-Node_Profile_v0.1_academic.pdf",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/hashes/SHA256SUMS_cnode_profile_v0.1_2026-05-13.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/15"
+    },
+    {
+      "id": "ser",
+      "@id": "https://ivankotov.eu/id/work/ser",
+      "schema_org_type": "CreativeWork",
+      "source_type": "repo",
+      "title": "Sovereign Entity Recursion (SER)",
+      "alternative_title": null,
+      "role": "architecture",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/sovereign-entity-recursion",
+      "version": "ecosystem-v0.2-2026-02-24",
+      "date": "2026-02-25",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/sovereign-entity-recursion",
+        "repository_detail_url": "https://github.com/Kot141078/sovereign-entity-recursion/releases/tag/ecosystem-v0.2-2026-02-24",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/16"
+    },
+    {
+      "id": "erb-l4",
+      "@id": "https://ivankotov.eu/id/work/erb-l4",
+      "schema_org_type": "CreativeWork",
+      "source_type": "repo",
+      "title": "Reality-Bound AI (L4) — Notes, Protocol, and Posts",
+      "alternative_title": null,
+      "role": "architecture",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/ester-reality-bound",
+      "version": "l4-snapshot-2026-02-24",
+      "date": "2026-02-25",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-reality-bound",
+        "repository_detail_url": "https://github.com/Kot141078/ester-reality-bound/releases/tag/l4-snapshot-2026-02-24",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/17"
+    },
+    {
+      "id": "actor-grounding-layer",
+      "@id": "https://ivankotov.eu/id/work/actor-grounding-layer",
+      "schema_org_type": "CreativeWork",
+      "source_type": "docs",
+      "title": "Actor Grounding Layer (AGL) v0.1",
+      "alternative_title": null,
+      "role": "grounding",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/ester-reality-bound/tree/main/docs/actor-grounding-layer",
+      "version": "v0.1",
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version"
+        ],
+        "unknown": [
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/18"
+    },
+    {
+      "id": "ester-clean-code",
+      "@id": "https://ivankotov.eu/id/work/ester-clean-code",
+      "schema_org_type": "CreativeWork",
+      "source_type": "repo",
+      "title": "Ester Clean Code",
+      "alternative_title": null,
+      "role": "implementation",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/ester-clean-code",
+      "version": "v0.2.5",
+      "date": "2026-04-11",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-clean-code",
+        "repository_detail_url": "https://github.com/Kot141078/ester-clean-code/releases/tag/v0.2.5",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/19"
+    },
+    {
+      "id": "qubit-of-hope-volume-i",
+      "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-i",
+      "schema_org_type": "Book",
+      "source_type": "book",
+      "title": "Qubit of Hope — Volume I",
+      "alternative_title": null,
+      "role": "narrative",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+      "version": "v1.0.2",
+      "date": "2026-07-23",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21505133",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21505132",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/qubit-of-hope-volume-i",
+        "repository_detail_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/releases/tag/v1.0.2",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/20"
+    },
+    {
+      "id": "qubit-of-hope-volume-ii",
+      "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-ii",
+      "schema_org_type": "Book",
+      "source_type": "book",
+      "title": "Qubit of Hope — Volume II",
+      "alternative_title": null,
+      "role": "narrative",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+      "version": "v1.0.2",
+      "date": "2026-07-23",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21506200",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21506199",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii",
+        "repository_detail_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.2",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/releases/tag/v1.0.0",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/21"
+    },
+    {
+      "id": "qubit-of-hope-volume-iii",
+      "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-iii",
+      "schema_org_type": "Book",
+      "source_type": "book",
+      "title": "Qubit of Hope — Volume III",
+      "alternative_title": null,
+      "role": "narrative",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+      "version": "v1.0.2",
+      "date": "2026-07-23",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21507090",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21507089",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii",
+        "repository_detail_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/releases/tag/v1.0.2",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/22"
+    },
+    {
+      "id": "github-profile",
+      "@id": "https://ivankotov.eu/id/work/github-profile",
+      "schema_org_type": "CreativeWork",
+      "source_type": "anchor",
+      "title": "GitHub profile",
+      "alternative_title": null,
+      "role": "profile/identity anchor",
+      "summary": null,
+      "primary_url": "https://github.com/Kot141078",
+      "version": null,
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [],
+        "unknown": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/23"
+    },
+    {
+      "id": "linkedin-profile",
+      "@id": "https://ivankotov.eu/id/work/linkedin-profile",
+      "schema_org_type": "CreativeWork",
+      "source_type": "anchor",
+      "title": "LinkedIn profile",
+      "alternative_title": null,
+      "role": "profile/identity anchor",
+      "summary": null,
+      "primary_url": "https://www.linkedin.com/in/ivan-kotov-57627b210",
+      "version": null,
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [],
+        "unknown": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/24"
+    },
+    {
+      "id": "orcid-profile",
+      "@id": "https://ivankotov.eu/id/work/orcid-profile",
+      "schema_org_type": "CreativeWork",
+      "source_type": "anchor",
+      "title": "ORCID profile",
+      "alternative_title": null,
+      "role": "profile/identity anchor",
+      "summary": null,
+      "primary_url": "https://orcid.org/0009-0009-6002-9845",
+      "version": null,
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [],
+        "unknown": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/25"
+    },
+    {
+      "id": "hal-record",
+      "@id": "https://ivankotov.eu/id/work/hal-record",
+      "schema_org_type": "CreativeWork",
+      "source_type": "anchor",
+      "title": "HAL record",
+      "alternative_title": null,
+      "role": "profile/identity anchor",
+      "summary": null,
+      "primary_url": "https://hal.science/hal-05529115",
+      "version": null,
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [],
+        "unknown": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/26"
+    },
+    {
+      "id": "article50-transparency-submission-v0-1",
+      "@id": "https://ivankotov.eu/id/work/article50-transparency-submission-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Article 50 Transparency Submission Pack v0.1",
+      "alternative_title": null,
+      "role": "technical note / AI Act transparency implementation",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/publications/article50-transparency-submission/",
+      "version": "v0.1",
+      "date": "2026-05-20",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20315439",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-submission/v0_1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/27"
+    },
+    {
+      "id": "article50_transparency_implementation_briefs_v0_1",
+      "@id": "https://ivankotov.eu/id/work/article50_transparency_implementation_briefs_v0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Article 50 Transparency Implementation Briefs v0.1",
+      "alternative_title": null,
+      "role": "supporting implementation briefs / technical notes",
+      "summary": "Two short implementation briefs derived from the Article 50 Transparency Submission Pack v0.1: a policy-reader brief on Article 50 transparency as an evidence chain, and an engineering brief on CGAM, witness events, oracle degradation, human gates, and rollback paths.",
+      "primary_url": "https://ivankotov.eu/publications/article50-transparency-implementation-briefs-v0-1/",
+      "version": "v0.1",
+      "date": "2026-06-21",
+      "status": "supporting implementation briefs / technical notes",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20784845",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/article50-transparency-implementation-briefs/v0_1",
+        "repository_path": "official/article50-transparency-implementation-briefs/v0_1/",
+        "release_url": null,
+        "release_tag": null,
+        "commit": "354e16d1c311ba694af950eea169f487b60b5386"
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/28"
+    },
+    {
+      "id": "self_evo_document_package_v0_1_1",
+      "@id": "https://ivankotov.eu/id/work/self_evo_document_package_v0_1_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Self-Evo Document Package v0.1.1",
+      "alternative_title": null,
+      "role": "bounded self-evolution governance corpus",
+      "summary": "Draft document-level governance corpus for bounded self-evolution of c = a + b systems, integrating CGAM, SRLM, TRIAD-SYNAPS, Memory Gate, EA-L4, Anti-Autarky, Resource Actor Grounding, Local Checker rules, synthetic conformance fixtures, contradiction tracking, and open-issue tracking.",
+      "primary_url": "https://ivankotov.eu/publications/self-evo-document-package-v0-1-1/",
+      "version": "0.1.1-safe-layout",
+      "date": "2026-06-26",
+      "status": "DOI-backed report / document-level governance corpus",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20938909",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.1",
+        "repository_path": "official/self-evo/v0.1.1/",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/self-evo-v0.1.1",
+        "release_tag": "self-evo-v0.1.1",
+        "commit": "fefbca4a0c62595215c947a5d5ef90c5ac74aef9"
+      },
+      "licenses": {
+        "overall": "CC BY 4.0 for documentation; MIT for machine-readable artifacts",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/29"
+    },
+    {
+      "id": "self_evo_wdc_v0_1_2",
+      "@id": "https://ivankotov.eu/id/work/self_evo_wdc_v0_1_2",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Package",
+      "alternative_title": null,
+      "role": "Witness Dependency Capture package for bounded self-evolution governance",
+      "summary": "Witness Dependency Capture release-candidate documentation package for bounded self-evolution governance in c = a + b systems, with WDC addendum, affected-document deltas, review records, gate records, package assembly records, academic PDFs, manifests, and SHA-256 checksum files.",
+      "primary_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
+      "version": "0.1.2",
+      "date": "2026-06-27",
+      "status": "release-candidate documentation package / package-control artifact",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20975581",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/self-evo/v0.1.2/",
+        "repository_path": "official/self-evo/v0.1.2/",
+        "release_url": null,
+        "release_tag": "self-evo-wdc-v0.1.2",
+        "commit": "81b1ad0397e57ff0a67e7c8b6962bbe9689c0d9a"
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/30"
+    },
+    {
+      "id": "instrumental-c-public-portfolio-v0-1",
+      "@id": "https://ivankotov.eu/id/work/instrumental-c-public-portfolio-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Instrumental-c / Enterprise Work-Bound c",
+      "alternative_title": null,
+      "role": "public concept portfolio / enterprise c governance",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+      "version": "v0.1",
+      "date": "2026-05-21",
+      "status": "public-safe concept portfolio",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/instrumental-c-public-portfolio",
+        "repository_detail_url": "https://github.com/Kot141078/instrumental-c-public-portfolio",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "repository"
+        ],
+        "unknown": [
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/31"
+    },
+    {
+      "id": "c_hardening_pack_v0_1",
+      "@id": "https://ivankotov.eu/id/work/c_hardening_pack_v0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "hardening-package",
+      "title": "c Hardening Pack v0.1",
+      "alternative_title": null,
+      "role": "draft hardening package / research protocol layer",
+      "summary": null,
+      "primary_url": "https://ivankotov.eu/publications/c-hardening-pack/",
+      "version": "v0.1",
+      "date": "2026-06-03",
+      "status": "Draft hardening package / research protocol layer",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20532198",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/hardening/c_hardening_pack_v0_1",
+        "repository_path": "hardening/c_hardening_pack_v0_1",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/c-hardening-pack-v0.1-agi-integrated",
+        "release_tag": "c-hardening-pack-v0.1-agi-integrated",
+        "commit": "7bb19aa6d9c2606f8e9366ba009ab74cef9fc5d5"
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "fd0b791c4e1b96ddf143bd322b31d823cda8167102450a7c672dfe12d0174099",
+        "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json",
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/hardening/c_hardening_pack_v0_1/SHA256SUMS"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/32"
+    },
+    {
+      "id": "personality_formation_time_shaped_continuity_v0_1",
+      "@id": "https://ivankotov.eu/id/work/personality_formation_time_shaped_continuity_v0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "alternative_title": null,
+      "role": "draft conceptual / normative profile",
+      "summary": "This draft conceptual / normative profile defines personality formation as time-shaped continuity rather than a metaphysical substance or biological privilege. It frames personality as formed through memory, constraint, relation, consequence, and irreversible duration, and applies this criteria-based view to biological and synthetic intelligent life within the c = a + b / Temporal AI Presence corpus.",
+      "primary_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "version": "v0.1",
+      "date": "2026-06-11",
+      "status": "Draft conceptual / normative profile",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20648731",
+        "concept_doi": "https://doi.org/10.5281/zenodo.20648730",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+        "repository_path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/personality-formation-time-shaped-continuity-v0.1",
+        "release_tag": "personality-formation-time-shaped-continuity-v0.1",
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json",
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "license",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/33"
+    },
+    {
+      "id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "@id": "https://ivankotov.eu/id/work/ccdp_v0_1_1_hygiene_addendum_mode_a",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "alternative_title": null,
+      "role": "technical note / hygiene addendum",
+      "summary": "Technical note releasing the CCDP v0.1.1 Hygiene Addendum as a Mode A addendum-only patch pack for reading the CCDP v0.1 baseline together with v0.1.1 release-control corrections.",
+      "primary_url": "https://ivankotov.eu/publications/ccdp-v0-1-1-hygiene-addendum/",
+      "version": "v0.1.1",
+      "date": "2026-06-13",
+      "status": "Published",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20680938",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/ccdp/v0.1.1-hygiene-addendum-mode-a",
+        "repository_path": "official/ccdp/v0.1.1-hygiene-addendum-mode-a",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1.1-hygiene-addendum-mode-a",
+        "release_tag": "ccdp-v0.1.1-hygiene-addendum-mode-a",
+        "commit": null
+      },
+      "licenses": {
+        "overall": "MIT License",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/34"
+    },
+    {
+      "id": "ccdp_amdr_pamdc_addendum_v0_1_1",
+      "@id": "https://ivankotov.eu/id/work/ccdp_amdr_pamdc_addendum_v0_1_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles",
+      "alternative_title": null,
+      "role": "technical note / CCDP addendum",
+      "summary": "Technical addendum to CCDP for active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.",
+      "primary_url": "https://ivankotov.eu/publications/ccdp-amdr-pamdc-addendum-v0-1-1/",
+      "version": "v0.1.1",
+      "date": "2026-06-14",
+      "status": "Published",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20691716",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp/addenda/amdr-pamdc",
+        "repository_path": "docs/ccdp/addenda/amdr-pamdc",
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": "MIT License",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/35"
+    },
+    {
+      "id": "a6_composition_layer_v0_1_1",
+      "@id": "https://ivankotov.eu/id/work/a6_composition_layer_v0_1_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "A6 Composition Layer v0.1.1",
+      "alternative_title": null,
+      "role": "hybrid / federated anchor composition profile",
+      "summary": "Hybrid / Federated Anchor Composition Profile for A6 in c = a + b. A6 is a mapped composition over A0-A5, not merged standing, memory, identity, or authority. A6-EXIT is revoke-and-continue; A6-SPLIT is freeze-and-escalate.",
+      "primary_url": "https://ivankotov.eu/publications/a6-composition-layer-v0-1-1/",
+      "version": "v0.1.1",
+      "date": "2026-06-18",
+      "status": "Published",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20752182",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/a6-composition-layer/v0.1.1",
+        "repository_path": "protocols/a6-composition-layer/v0.1.1/",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-composition-layer-v0.1.1",
+        "release_tag": "a6-composition-layer-v0.1.1",
+        "commit": "4a460bfd4a782f0ca538057e16d553f1f427737d"
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/raw/main/protocols/a6-composition-layer/v0.1.1/release-assets/ester-a6-composition-layer-v0.1.1-doi-github-academic.zip.sha256"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/36"
+    },
+    {
+      "id": "a6_ctp_v0_1_4",
+      "@id": "https://ivankotov.eu/id/work/a6_ctp_v0_1_4",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "A6 Composition Transition Predicate Addendum v0.1.4",
+      "alternative_title": null,
+      "role": "technical note / bounded addendum to A6 Composition Layer v0.1.1",
+      "summary": "Bounded addendum to A6 Composition Layer v0.1.1 defining EXIT / SPLIT / HOLD / DISSOLVE classification by unique lawful successor, successor-claim incompatibility, HOLD/FREEZE discipline, and witnessed successor-space exhaustion.",
+      "primary_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
+      "version": "v0.1.4",
+      "date": "2026-07-06",
+      "status": "Published technical note; predicate-review cycle closed at draft level",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21227129",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21227128",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/a6-ctp/v0.1.4",
+        "repository_path": "official/a6-ctp/v0.1.4/",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/a6-ctp-v0.1.4",
+        "release_tag": "a6-ctp-v0.1.4",
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/files/SHA256SUMS_A6_CTP_v0_1_4.txt",
+        "checksums_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/files/SHA256SUMS_A6_CTP_v0_1_4_GITHUB_PLACEMENT.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "Not legal advice.",
+          "Not product certification.",
+          "Not deployment-ready.",
+          "No conformance claim.",
+          "No personhood claim.",
+          "No safety proof.",
+          "Does not replace the parent A6 DOI artifact.",
+          "Does not silently amend the reviewed artifacts."
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "languages"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/37"
+    },
+    {
+      "id": "cleanroom_arm_p_open_verification_v1_0_1",
+      "@id": "https://ivankotov.eu/id/work/cleanroom_arm_p_open_verification_v1_0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Cleanroom ARM-P: Open Verification Release v1.0.1",
+      "alternative_title": null,
+      "role": "signed reproducible publication surface for a bounded Python fixture-plane reference implementation",
+      "summary": "A signed and reproducible publication surface for a bounded Python fixture-plane reference implementation covering deterministic evidence export, schema-governed validation, tamper-evident custody, SQLite transaction and recovery controls, and fail-closed state transitions.",
+      "primary_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
+      "version": "1.0.1",
+      "date": "2026-07-17",
+      "status": "published open verification release",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21401893",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21401892",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification",
+        "repository_detail_url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/releases/tag/v1.0.1",
+        "release_tag": "v1.0.1",
+        "commit": "4fc6c29753d039eb0d3ec4decbc1deb258b53751"
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "production readiness",
+          "operational Judge",
+          "SRLM integration",
+          "real L4 capability",
+          "matched profile-control",
+          "differential witness",
+          "complete operational ARM-P runtime",
+          "consciousness, sentience, personhood, life, or AGI",
+          "legal, safety, standards, or conformity certification"
+        ],
+        "source_field": "not",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "languages",
+          "license"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/38"
+    },
+    {
+      "id": "adult-owner-dependency-d4-detection-v0-1-1",
+      "@id": "https://ivankotov.eu/id/work/adult-owner-dependency-d4-detection-v0-1-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "alternative_title": null,
+      "role": "adult-owner dependency and D4 detection boundary",
+      "summary": "Adult-owner dependency and D4 detection boundary for local-first c-contours, covering dependency capture, parental-bond / opacity risk, D4 posture, lucid covenant, signal-based detection, witness minimization, calibration limits, FNC fixtures, and structural non-claims.",
+      "primary_url": "https://ivankotov.eu/publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "version": "v0.1.1",
+      "date": "2026-07-05",
+      "status": "final assembled draft; not ratified; pending a-gate review",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21207504",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21207503",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/adult-owner-dependency-d4-detection-v0-1-1",
+        "repository_path": "publications/adult-owner-dependency-d4-detection-v0-1-1",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+        "archive_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "Not clinical validation.",
+          "Not certified safety.",
+          "Not deployment authorization.",
+          "Not legal crisis-reporting compliance.",
+          "Not personhood or consciousness claim.",
+          "Detection is estimate over observable signals, not internal-state measurement.",
+          "Calibration improves the operating point; it does not make the estimate true.",
+          "Fully sovereign adult owner cannot be guaranteed protection from self-induced dependency inside a closed private box."
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "languages"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/39"
+    },
+    {
+      "id": "entity_vs_profile_v0_1_1",
+      "@id": "https://ivankotov.eu/id/work/entity_vs_profile_v0_1_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
+      "alternative_title": null,
+      "role": "technical note / witness-root custody criterion",
+      "summary": "This technical note defines witness-root custody as the custodial criterion for distinguishing persistent digital entities from persistent digital profiles.",
+      "primary_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+      "version": "v0.1.1",
+      "date": "2026-07-05",
+      "status": "Published technical note",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21204415",
+        "concept_doi": "https://doi.org/10.5281/zenodo.21204414",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/entity-vs-profile/v0_1_1",
+        "repository_path": "official/entity-vs-profile/v0_1_1",
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "9c04044a449f0ead874860f807222b5eccb9ff1591e2cd456e89f9b2d5113817",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/40"
+    },
+    {
+      "id": "ester_theoretical_core_v0_1",
+      "@id": "https://ivankotov.eu/id/work/ester_theoretical_core_v0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Theoretical Core of Project Ester v0.1",
+      "alternative_title": null,
+      "role": "publication / working paper",
+      "summary": "Working paper defining the theoretical core of Project Ester through the formula c = a + b, where c denotes Ester as an artificial cognitive entity, a denotes the human anchor, and b denotes parent-like LLM procedures and supporting machine processes.",
+      "primary_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "version": "v0.1",
+      "date": "2026-06-13",
+      "status": "DOI-bound working paper",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20679718",
+        "concept_doi": "https://doi.org/10.5281/zenodo.20679717",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-theoretical-core",
+        "repository_detail_url": "https://github.com/Kot141078/ester-theoretical-core",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/v0.1",
+        "release_tag": "v0.1",
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/ester-theoretical-core/blob/main/SHA256SUMS.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/41"
+    },
+    {
+      "id": "personality_formation_evidence_package_v0_1",
+      "@id": "https://ivankotov.eu/id/work/personality_formation_evidence_package_v0_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Personality Formation Evidence Package v0.1",
+      "alternative_title": null,
+      "role": "evidence-admissibility companion package",
+      "summary": "Evidence-admissibility framework for bounded personality-formation claims in Project Ester.",
+      "primary_url": "https://ivankotov.eu/publications/personality-formation-evidence-package-v0-1/",
+      "version": "0.1",
+      "date": "2026-06-14",
+      "status": "published",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20692453",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/ester-theoretical-core",
+        "repository_detail_url": "https://github.com/Kot141078/ester-theoretical-core/tree/main/docs/personality-formation/pf-evidence-package-v0.1",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/pf-evidence-package-v0.1",
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC-BY-4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": "3fb424a5f5fdbc0eb0eae1a1dac26ad8da743242618c288bced2303366a39faf",
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/42"
+    },
+    {
+      "id": "bcec_v0_2_1",
+      "@id": "https://ivankotov.eu/id/work/bcec_v0_2_1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Bounded Capability Extraction Clause v0.2.1-final",
+      "alternative_title": null,
+      "role": "bounded capability extraction and anti-distillation clause",
+      "summary": "Final textual clause and b-layer PASS reviewed draft for extraction metering, source-class discipline, and anti-distillation handling in c-class capability extraction from external oracles.",
+      "primary_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+      "version": "v0.2.1-final",
+      "date": "2026-06-27",
+      "status": "final textual clause / b-layer PASS reviewed draft; not sealed integration",
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.20953796",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1",
+        "repository_path": "docs/capability-egress/bcec/v0_2_1/",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+        "release_tag": "bcec-v0.2.1",
+        "commit": null
+      },
+      "licenses": {
+        "overall": "CC-BY-4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/docs/capability-egress/bcec/v0_2_1/SHA256SUMS.txt"
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "languages",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/43"
+    },
+    {
+      "id": "ccalc-full-stack-v0-1",
+      "@id": "https://ivankotov.eu/id/work/ccalc-full-stack-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "C-Calculus / Governed Binding Stack v0.1",
+      "alternative_title": null,
+      "role": "governed binding stack / operational algebra for c = a + b",
+      "summary": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
+      "primary_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "version": "v0.1",
+      "date": "2026-07-05",
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.21205427",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/ccalc-full-stack-v0-1",
+        "repository_path": "publications/ccalc-full-stack-v0-1/",
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "Not legal advice.",
+          "Not privacy-law certification.",
+          "Not safety certification.",
+          "Not deployment authorization.",
+          "Not standards compliance certification.",
+          "Not regulated approval.",
+          "Not C-A1 ratification.",
+          "Not personhood proof.",
+          "Not consciousness proof.",
+          "Not live-substrate truth.",
+          "Not proof of completeness."
+        ],
+        "source_field": "not",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "languages",
+          "license"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/44"
+    }
+  ]
+}

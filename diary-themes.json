@@ -29,6 +29,9 @@
             "Innovation"
           ],
           "page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
+          "canonical_page": "https://ivankotov.eu/diary/we-are-building-a-partner/",
+          "identifier": "urn:ivankotov:diary:we-are-building-a-partner",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/we-are-building-a-partner/cover.jpg",
           "image_alt": "Diagram showing a human profile, the formula c = a + b, a sphere labeled Synthetic Subjectivity (c), and a compute block.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-humancentricai-digitalsovereignty-activity-7413692440169127937-TA-Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -51,6 +54,9 @@
             "Decentralized AI"
           ],
           "page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+          "canonical_page": "https://ivankotov.eu/diary/agi-public-release-v1-1/",
+          "identifier": "urn:ivankotov:diary:agi-public-release-v1-1",
+          "is_canonical": true,
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v11-protocol-l4-safety-background-activity-7412760534699245568--biu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
@@ -80,6 +86,9 @@
             "Deep Tech"
           ],
           "page": "https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/",
+          "canonical_page": "https://ivankotov.eu/diary/why-thinking-ai-wont-take-over-the-world/",
+          "identifier": "urn:ivankotov:diary:why-thinking-ai-wont-take-over-the-world",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/why-thinking-ai-wont-take-over-the-world/cover.jpg",
           "image_alt": "Image of a transparent panel labeled Memory, History, Cost, Constraints, and Risk on a rainy windowsill beside a mug overlooking a city.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-l4boundary-activity-7416743346225967105-Ppev?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -113,6 +122,9 @@
             "AI Architecture"
           ],
           "page": "https://ivankotov.eu/diary/one-of-the-oldest-mistakes-in-ai-discourse-is-deciding-too-early-that-tool-is-already-a-sufficient-category/",
+          "canonical_page": "https://ivankotov.eu/diary/one-of-the-oldest-mistakes-in-ai-discourse-is-deciding-too-early-that-tool-is-already-a-sufficient-category/",
+          "identifier": "urn:ivankotov:diary:one-of-the-oldest-mistakes-in-ai-discourse-is-deciding-too-early-that-tool-is-already-a-sufficient-category",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/one-of-the-oldest-mistakes-in-ai-discourse-is-deciding-too-early-that-tool-is-already-a-sufficient-category/cover.jpg",
           "image_alt": "A stone hammer on a pedestal dissolving into a glowing wired brain against a dark background with geometry sketches.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7445726791408709632-prTD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -141,6 +153,9 @@
             "Advanced Global Intelligence"
           ],
           "page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+          "canonical_page": "https://ivankotov.eu/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/",
+          "identifier": "urn:ivankotov:diary:there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/cover.jpg",
           "image_alt": "Ripples crossing calm water between dark tree-lined shores under a pale sky.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-continuity-l4-activity-7450800793500413952-amAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -169,6 +184,9 @@
             "Human AI"
           ],
           "page": "https://ivankotov.eu/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/",
+          "canonical_page": "https://ivankotov.eu/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/",
+          "identifier": "urn:ivankotov:diary:if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/if-digital-entities-ever-become-a-civilization-they-will-not-enter-earth-as-its-oldest-intelligence/cover.jpg",
           "image_alt": "A large humanoid robot looming over a podium in a dark auditorium filled with seated people.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-cybernetics-coexistence-activity-7451298505081528320-biKn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -190,6 +208,9 @@
           "tags": [],
           "raw_tags": [],
           "page": "https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/",
+          "canonical_page": "https://ivankotov.eu/diary/reality-bound-ai-l4-public-release-v1-2-0/",
+          "identifier": "urn:ivankotov:diary:reality-bound-ai-l4-public-release-v1-2-0",
+          "is_canonical": true,
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v120-reality-bound-ai-l4-protocol-activity-7416792412833906688-JSix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
@@ -200,6 +221,9 @@
           "tags": [],
           "raw_tags": [],
           "page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
+          "canonical_page": "https://ivankotov.eu/diary/release-v1-3-0-sovereign-entity-recursion-ser/",
+          "identifier": "urn:ivankotov:diary:release-v1-3-0-sovereign-entity-recursion-ser",
+          "is_canonical": true,
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_release-v130-ser-sovereign-entity-recursion-activity-7422179185089048576-mAWF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
@@ -228,6 +252,9 @@
             "Bounded Authority"
           ],
           "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+          "canonical_page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+          "identifier": "urn:ivankotov:diary:a-review-layer-can-fail-in-two-opposite-ways",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
           "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -258,6 +285,9 @@
             "Runtime Discipline"
           ],
           "page": "https://ivankotov.eu/diary/a-release-is-not-serious-if-it-lives-only-in-theory/",
+          "canonical_page": "https://ivankotov.eu/diary/a-release-is-not-serious-if-it-lives-only-in-theory/",
+          "identifier": "urn:ivankotov:diary:a-release-is-not-serious-if-it-lives-only-in-theory",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-release-is-not-serious-if-it-lives-only-in-theory/cover.jpg",
           "image_alt": "A rail yard with multiple tracks, switching points, red signals, barriers, and an operator working at a control terminal near a fenced junction.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-systemsengineering-activity-7449849034682437632-A-bu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -290,6 +320,9 @@
             "Advanced Global Intelligence"
           ],
           "page": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/",
+          "canonical_page": "https://ivankotov.eu/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/",
+          "identifier": "urn:ivankotov:diary:a-protocol-is-not-serious-if-it-cannot-survive-packaging",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-protocol-is-not-serious-if-it-cannot-survive-packaging/cover.jpg",
           "image_alt": "A gloved hand resting on a binder with tabs labeled Core, Schemas, and Audit on a table in front of a blurred whiteboard.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-aisafety-activity-7450075804153139201-mAGl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -329,6 +362,9 @@
             "SER"
           ],
           "page": "https://ivankotov.eu/diary/ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack/",
+          "canonical_page": "https://ivankotov.eu/diary/ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack/",
+          "identifier": "urn:ivankotov:diary:ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/ea-l4-eatp-is-now-published-in-a-canonical-form-inside-the-public-stack/cover.jpg",
           "image_alt": "A futuristic elevated bridge with translucent data overlays running through a green city with wind turbines at sunrise.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7445364875632984064-LRdP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -372,6 +408,9 @@
             "Human Centered AI"
           ],
           "page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+          "canonical_page": "https://ivankotov.eu/diary/why-id-put-an-ai-rack-in-my-garage/",
+          "identifier": "urn:ivankotov:diary:why-id-put-an-ai-rack-in-my-garage",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/why-id-put-an-ai-rack-in-my-garage/cover.jpg",
           "image_alt": "Illustration of glowing branching light patterns rising from a stack of computer chips.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_privateai-aiinfrastructure-edgeai-activity-7416101581030666240-iL4v?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -400,6 +439,9 @@
             "Long Term Thinking"
           ],
           "page": "https://ivankotov.eu/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/",
+          "canonical_page": "https://ivankotov.eu/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/",
+          "identifier": "urn:ivankotov:diary:ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/cover.jpg",
           "image_alt": "Image of a wheeled server rack with tangled cables in a bright workshop, with a plant, tools, and a window behind it.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-decentralizedai-privateai-activity-7423991158902706176-3rDU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -434,6 +476,9 @@
             "Sovereign AI"
           ],
           "page": "https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/",
+          "canonical_page": "https://ivankotov.eu/diary/ai-isnt-expensive-its-becoming-infrastructure/",
+          "identifier": "urn:ivankotov:diary:ai-isnt-expensive-its-becoming-infrastructure",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/ai-isnt-expensive-its-becoming-infrastructure/cover.jpg",
           "image_alt": "Aerial view of a city beneath a large cloud with many glowing lines connecting the cloud to buildings below.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-l4-localfirst-activity-7434855226974580736-EDg7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -478,6 +523,9 @@
             "L4"
           ],
           "page": "https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/",
+          "canonical_page": "https://ivankotov.eu/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/",
+          "identifier": "urn:ivankotov:diary:data-harvesting-is-not-inevitable-it-s-a-design-choice",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/data-harvesting-is-not-inevitable-it-s-a-design-choice/cover.jpg",
           "image_alt": "Image of a lit home server rack and desk setup in a workshop, with a large data-center-like building visible through the rainy window.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-privacy-dataminimization-activity-7433254743470145537-V65B?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -512,6 +560,9 @@
             "L4"
           ],
           "page": "https://ivankotov.eu/diary/when-tokens-become-electricity-terms-of-use-become-physics/",
+          "canonical_page": "https://ivankotov.eu/diary/when-tokens-become-electricity-terms-of-use-become-physics/",
+          "identifier": "urn:ivankotov:diary:when-tokens-become-electricity-terms-of-use-become-physics",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/when-tokens-become-electricity-terms-of-use-become-physics/cover.jpg",
           "image_alt": "Image of a man holding papers beside wall-mounted utility meters and a display labeled AI Token Meter.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aieconomy-localfirst-aiagents-activity-7434492809258299392-NJBC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -544,6 +595,9 @@
             "Resilience"
           ],
           "page": "https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/",
+          "canonical_page": "https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/",
+          "identifier": "urn:ivankotov:diary:you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/cover.jpg",
           "image_alt": "Composite image showing a man jogging in a park while speaking into a headset on the left, and an older man sitting indoors on a phone beside a computer on the right, connected by a large pair of glasses in the center.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-aiagents-reliability-activity-7435217685241761792-8qLa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -565,6 +619,9 @@
           "tags": [],
           "raw_tags": [],
           "page": "https://ivankotov.eu/diary/today-im-publishing-volume-i-of-qubit-of-hope/",
+          "canonical_page": "https://ivankotov.eu/diary/today-im-publishing-volume-i-of-qubit-of-hope/",
+          "identifier": "urn:ivankotov:diary:today-im-publishing-volume-i-of-qubit-of-hope",
+          "is_canonical": true,
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_volume-i-of-qubit-of-hope-activity-7448761786356391936-arql?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
@@ -609,6 +666,9 @@
             "Amsterdam"
           ],
           "page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+          "canonical_page": "https://ivankotov.eu/diary/published-volume-i-of-qubit-of-hope/",
+          "identifier": "urn:ivankotov:diary:published-volume-i-of-qubit-of-hope",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/published-volume-i-of-qubit-of-hope/cover.jpg",
           "image_alt": "Book cover reading Qubit of Hope, Volume I, Kotov Ivan over a rainy Amsterdam square with a seated man in the foreground.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubitofhope-bookrelease-novel-activity-7448988846698016768-WaTA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -631,6 +691,9 @@
             "Literary Fiction"
           ],
           "page": "https://ivankotov.eu/diary/the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository/",
+          "canonical_page": "https://ivankotov.eu/diary/the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository/",
+          "identifier": "urn:ivankotov:diary:the-english-pdf-edition-of-qubit-of-hope-volume-ii-is-now-available-in-the-public-repository",
+          "is_canonical": true,
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_qubit-of-hope-volume-ii-activity-7451392873088012288-TgW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         }
       ]
@@ -701,6 +764,9 @@
             "Future of Tech"
           ],
           "page": "https://ivankotov.eu/diary/that-is-why-this-package-does-not-stop-at-concepts/",
+          "canonical_page": "https://ivankotov.eu/diary/that-is-why-this-package-does-not-stop-at-concepts/",
+          "identifier": "urn:ivankotov:diary:that-is-why-this-package-does-not-stop-at-concepts",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/that-is-why-this-package-does-not-stop-at-concepts/cover.jpg",
           "image_alt": "A concrete beam junction with an overlaid Milestone M1 flow showing runtime collision, typed glitch, research quarantine, and evidence standing.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aiarchitecture-softwarearchitecture-activity-7447901143239815168-k5i2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -733,6 +799,9 @@
             "Structural Honesty"
           ],
           "page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
+          "canonical_page": "https://ivankotov.eu/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/",
+          "identifier": "urn:ivankotov:diary:the-quiet-upgrade-in-arq-v0-2-is-model-discipline",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/the-quiet-upgrade-in-arq-v0-2-is-model-discipline/cover.jpg",
           "image_alt": "An industrial room with a large frosted cabinet labeled Universal Theorem Engine beside smaller labeled modules such as Retention Model, Trust Epoch Logic, Promotion Logic, Backlog Routing, and Substrate Profile.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aiarchitecture-systemsthinking-activity-7450438139174666240-oFQG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -796,6 +865,9 @@
             "Future of Tech"
           ],
           "page": "https://ivankotov.eu/diary/i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack/",
+          "canonical_page": "https://ivankotov.eu/diary/i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack/",
+          "identifier": "urn:ivankotov:diary:i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/i-also-published-a-graph-visibility-layer-for-the-l4-glitch-stack/cover.jpg",
           "image_alt": "A glowing glass display on a pedestal labeled visibility, graph grammar, runtime authority, and evidence standing.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aiarchitecture-softwarearchitecture-activity-7447538764920414208-HAil?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -833,6 +905,9 @@
             "SER"
           ],
           "page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus/",
+          "canonical_page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus/",
+          "identifier": "urn:ivankotov:diary:a-new-public-layer-is-now-part-of-the-corpus",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-new-public-layer-is-now-part-of-the-corpus/cover.jpg",
           "image_alt": "A glowing crystal-like device in a server room channeling document icons into labeled experience paths through transparent lines.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7446814197797081088-ZzWp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -872,6 +947,9 @@
             "Sovereign AI"
           ],
           "page": "https://ivankotov.eu/diary/continuity-bundle-cold-wake-v0-1/",
+          "canonical_page": "https://ivankotov.eu/diary/continuity-bundle-cold-wake-v0-1/",
+          "identifier": "urn:ivankotov:diary:continuity-bundle-cold-wake-v0-1",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/continuity-bundle-cold-wake-v0-1/cover.jpg",
           "image_alt": "A person working at a computer beside a glowing stacked digital structure inside a transparent enclosure in a dark lab.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-artificialintelligence-aiarchitecture-activity-7448625914634076160-Xmen?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -932,6 +1010,9 @@
             "Advanced Global Intelligence"
           ],
           "page": "https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/",
+          "canonical_page": "https://ivankotov.eu/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/",
+          "identifier": "urn:ivankotov:diary:most-ai-economy-talk-is-still-pricing-the-wrong-thing",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/most-ai-economy-talk-is-still-pricing-the-wrong-thing/cover.jpg",
           "image_alt": "An industrial paper-processing machine with a conveyor full of paper and compressed paper bundles on a platform nearby.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-aieconomy-experienceartifacts-activity-7450573735725522944-g-fR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -964,6 +1045,9 @@
             "Agentic Workflows"
           ],
           "page": "https://ivankotov.eu/diary/experience-economy-why-verified-experience-will-outprice-raw-intelligence/",
+          "canonical_page": "https://ivankotov.eu/diary/experience-economy-why-verified-experience-will-outprice-raw-intelligence/",
+          "identifier": "urn:ivankotov:diary:experience-economy-why-verified-experience-will-outprice-raw-intelligence",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/experience-economy-why-verified-experience-will-outprice-raw-intelligence/cover.jpg",
           "image_alt": "Image of a glowing glass tube connected between several white modules with clear hoses.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aieconomy-verification-trust-activity-7434130497729032192-iizE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -994,6 +1078,9 @@
             "Bounded Authority"
           ],
           "page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+          "canonical_page": "https://ivankotov.eu/diary/a-review-layer-can-fail-in-two-opposite-ways/",
+          "identifier": "urn:ivankotov:diary:a-review-layer-can-fail-in-two-opposite-ways",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
           "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -1031,6 +1118,9 @@
             "SER"
           ],
           "page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus/",
+          "canonical_page": "https://ivankotov.eu/diary/a-new-public-layer-is-now-part-of-the-corpus/",
+          "identifier": "urn:ivankotov:diary:a-new-public-layer-is-now-part-of-the-corpus",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/a-new-public-layer-is-now-part-of-the-corpus/cover.jpg",
           "image_alt": "A glowing crystal-like device in a server room channeling document icons into labeled experience paths through transparent lines.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7446814197797081088-ZzWp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -1063,6 +1153,9 @@
             "Resilience"
           ],
           "page": "https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/",
+          "canonical_page": "https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/",
+          "identifier": "urn:ivankotov:diary:you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/cover.jpg",
           "image_alt": "Composite image showing a man jogging in a park while speaking into a headset on the left, and an older man sitting indoors on a phone beside a computer on the right, connected by a large pair of glasses in the center.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-aiagents-reliability-activity-7435217685241761792-8qLa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
@@ -1095,6 +1188,9 @@
             "AI Architecture"
           ],
           "page": "https://ivankotov.eu/diary/most-ai-talk-is-still-stuck-on-capability-what-can-it-do/",
+          "canonical_page": "https://ivankotov.eu/diary/most-ai-talk-is-still-stuck-on-capability-what-can-it-do/",
+          "identifier": "urn:ivankotov:diary:most-ai-talk-is-still-stuck-on-capability-what-can-it-do",
+          "is_canonical": true,
           "primary_image": "https://ivankotov.eu/assets/diary/most-ai-talk-is-still-stuck-on-capability-what-can-it-do/cover.jpg",
           "image_alt": "Close-up of a transparent mechanical support brace strapped to a person's forearm with visible straps and internal lines.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-cybernetics-humanagency-activity-7433967362116202497-oYy1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://ivankotov.eu/schemas/machine-index-v1.schema.json",
+  "schema_version": "machine-index.v1",
+  "document_id": "ivankotov-machine-entry-v1",
+  "url": "https://ivankotov.eu/machine-index.json",
+  "last_verified": "2026-08-07",
+  "human_entry": "https://ivankotov.eu/start-here/",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845"
+  },
+  "scope": "Discovery and normalization entry point for the public authored corpus and living-corpus projection.",
+  "authority_rule": "This index is not the byte authority for DOI-bound, signed, tagged, or separately hashed artifacts. Follow each record's canonical source, release, DOI, manifest, and checksum declarations.",
+  "claim_boundary": "Machine readability does not elevate publication into implementation, internal review into independent validation, archive into continuity, replay into resumption, a profile into an entity, or telemetry into subjective experience.",
+  "counts": {
+    "normalized_works": 45,
+    "terms": 40,
+    "distinctions": 13,
+    "semantic_bridges": 4,
+    "public_repositories": 18
+  },
+  "entries": [
+    {
+      "role": "normalized_work_index",
+      "url": "https://ivankotov.eu/scientific-corpus-index.json",
+      "media_type": "application/json",
+      "schema": "https://ivankotov.eu/schemas/scientific-corpus-index-v1.schema.json"
+    },
+    {
+      "role": "linked_data_work_index",
+      "url": "https://ivankotov.eu/scientific-corpus.jsonld",
+      "media_type": "application/ld+json",
+      "schema": null
+    },
+    {
+      "role": "term_registry",
+      "url": "https://ivankotov.eu/term-registry.json",
+      "media_type": "application/json",
+      "schema": "https://ivankotov.eu/schemas/term-registry-v1.schema.json"
+    },
+    {
+      "role": "linked_data_term_registry",
+      "url": "https://ivankotov.eu/term-registry.jsonld",
+      "media_type": "application/ld+json",
+      "schema": null
+    },
+    {
+      "role": "semantic_bridges",
+      "url": "https://ivankotov.eu/semantic-bridges.json",
+      "media_type": "application/json",
+      "schema": "https://ivankotov.eu/schemas/semantic-bridges-v1.schema.json"
+    },
+    {
+      "role": "public_repository_inventory",
+      "url": "https://ivankotov.eu/public-repositories.json",
+      "media_type": "application/json",
+      "schema": "https://ivankotov.eu/schemas/public-repositories-v1.schema.json"
+    },
+    {
+      "role": "living_corpus_index",
+      "url": "https://ivankotov.eu/corpus-index.json",
+      "media_type": "application/json",
+      "schema": null
+    },
+    {
+      "role": "living_corpus_protocol_map",
+      "url": "https://ivankotov.eu/corpus-protocol-map.json",
+      "media_type": "application/json",
+      "schema": null
+    },
+    {
+      "role": "legacy_work_index",
+      "url": "https://ivankotov.eu/works-index.json",
+      "media_type": "application/json",
+      "schema": null
+    },
+    {
+      "role": "machine_guide",
+      "url": "https://ivankotov.eu/llms.txt",
+      "media_type": "text/plain",
+      "schema": null
+    },
+    {
+      "role": "extended_machine_guide",
+      "url": "https://ivankotov.eu/llms-full.txt",
+      "media_type": "text/plain",
+      "schema": null
+    }
+  ]
+}

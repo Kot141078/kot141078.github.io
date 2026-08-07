@@ -25,6 +25,7 @@ DIARY_START_HERE_JSON = ROOT / "diary-start-here.json"
 DIARY_THEMES_JSON = ROOT / "diary-themes.json"
 DIARY_CORNERSTONES_JSON = ROOT / "diary-cornerstones.json"
 DIARY_TAG_MAP_JSON = ROOT / "diary-tag-map.json"
+SITEMAP_PATH = ROOT / "sitemap.xml"
 HOME_SLOT_START = "<!-- diary-slot:start -->"
 HOME_SLOT_END = "<!-- diary-slot:end -->"
 
@@ -45,6 +46,13 @@ DIARY_ARCHIVE_URL = "https://ivankotov.eu/diary/archive/"
 DIARY_TAGS_URL = "https://ivankotov.eu/diary/tags/"
 DIARY_START_HERE_URL = "https://ivankotov.eu/diary/start-here/"
 DIARY_THEMES_URL = "https://ivankotov.eu/diary/themes/"
+
+# Exact duplicate import retained as a historical route. The non-numbered route
+# is the sole indexable entity; the alias remains reachable and points to it.
+DIARY_POST_CANONICAL_ALIASES = {
+    "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity-0116":
+        "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
+}
 
 NON_EMPTY_FIELDS = ("title", "date", "slug", "summary")
 EXPLICIT_FIELDS = ("title", "date", "slug", "summary", "tags", "primary_image", "image_alt", "linkedin_url")
@@ -75,6 +83,18 @@ class Entry:
     @property
     def url(self) -> str:
         return f"{DIARY_URL}{self.slug}/"
+
+    @property
+    def canonical_slug(self) -> str:
+        return DIARY_POST_CANONICAL_ALIASES.get(self.slug, self.slug)
+
+    @property
+    def canonical_url(self) -> str:
+        return f"{DIARY_URL}{self.canonical_slug}/"
+
+    @property
+    def identifier(self) -> str:
+        return f"urn:ivankotov:diary:{self.canonical_slug}"
 
     @property
     def date_iso(self) -> str:
@@ -717,6 +737,9 @@ def entry_payload(entry: Entry) -> dict[str, object]:
         "tags": [tag.name for tag in entry.tags],
         "raw_tags": [tag.name for tag in entry.raw_tags],
         "page": entry.url,
+        "canonical_page": entry.canonical_url,
+        "identifier": entry.identifier,
+        "is_canonical": entry.url == entry.canonical_url,
     }
     if entry.primary_image:
         payload["primary_image"] = f"{SITE_URL}{entry.primary_image}"
@@ -841,8 +864,10 @@ def render_document(
     nav_current: str,
     ld_json: str,
     body_html: str,
+    robots: str | None = None,
 ) -> str:
     og_image_line = f'\n  <meta property="og:image" content="{html.escape(og_image)}">' if og_image else ""
+    robots_line = f'\n  <meta name="robots" content="{html.escape(robots)}">' if robots else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -854,7 +879,7 @@ def render_document(
   <meta property="og:title" content="{html.escape(title)}">
   <meta property="og:description" content="{html.escape(description)}">
   <meta property="og:type" content="{html.escape(og_type)}">
-  <meta property="og:url" content="{html.escape(canonical)}">{og_image_line}
+  <meta property="og:url" content="{html.escape(canonical)}">{og_image_line}{robots_line}
   <script type="application/ld+json">
   {ld_json}
   </script>
@@ -1503,10 +1528,11 @@ def post_ld_json(entry: Entry) -> str:
     graph = [
         {
             "@type": "BlogPosting",
-            "@id": f"{entry.url}#post",
+            "@id": f"{entry.canonical_url}#post",
             "headline": entry.title,
-            "url": entry.url,
-            "mainEntityOfPage": entry.url,
+            "identifier": entry.identifier,
+            "url": entry.canonical_url,
+            "mainEntityOfPage": entry.canonical_url,
             "datePublished": entry.date_iso,
             "dateModified": entry.date_iso,
             "author": {"@type": "Person", "name": "Ivan Kotov", "url": "https://ivankotov.eu/about/"},
@@ -1516,11 +1542,11 @@ def post_ld_json(entry: Entry) -> str:
         },
         {
             "@type": "BreadcrumbList",
-            "@id": f"{entry.url}#breadcrumb",
+            "@id": f"{entry.canonical_url}#breadcrumb",
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL},
                 {"@type": "ListItem", "position": 2, "name": "Diary", "item": DIARY_URL},
-                {"@type": "ListItem", "position": 3, "name": entry.title, "item": entry.url},
+                {"@type": "ListItem", "position": 3, "name": entry.title, "item": entry.canonical_url},
             ],
         },
     ]
@@ -1528,6 +1554,8 @@ def post_ld_json(entry: Entry) -> str:
         graph[0]["keywords"] = ", ".join(tag.name for tag in entry.tags)
     if entry.primary_image:
         graph[0]["image"] = f"{SITE_URL}{entry.primary_image}"
+    if entry.linkedin_url:
+        graph[0]["sameAs"] = entry.linkedin_url
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
 
 
@@ -1818,6 +1846,7 @@ def render_tag_alias_page(tag_alias: TagAlias) -> str:
             [("Home", SITE_URL), ("Diary", DIARY_URL), ("Tags", DIARY_TAGS_URL), (tag_alias.canonical_name, tag_alias.canonical_url)],
         ),
         body_html=body_html,
+        robots="noindex,follow",
     )
 
 
@@ -1989,7 +2018,7 @@ def render_post_page(entry: Entry, related_entries: list[Entry]) -> str:
     return render_document(
         title=f"{entry.title} | Diary | Ivan Kotov",
         description=entry.summary,
-        canonical=entry.url,
+        canonical=entry.canonical_url,
         og_type="article",
         og_image=f"{SITE_URL}{entry.primary_image}" if entry.primary_image else None,
         stylesheet_href="../../styles.css",
@@ -1997,6 +2026,7 @@ def render_post_page(entry: Entry, related_entries: list[Entry]) -> str:
         nav_current="Diary",
         ld_json=post_ld_json(entry),
         body_html=body_html,
+        robots="noindex,follow" if entry.url != entry.canonical_url else None,
     )
 
 
@@ -2320,6 +2350,45 @@ def update_home_slot() -> None:
     HOME_PATH.write_text(updated, encoding="utf-8")
 
 
+def sitemap_url_pattern(url: str) -> re.Pattern[str]:
+    return re.compile(
+        rf"(?P<indent>^[ \t]*)<url>\s*<loc>{re.escape(url)}</loc>"
+        rf"(?:\s*<lastmod>[^<]+</lastmod>)?\s*</url>",
+        flags=re.MULTILINE,
+    )
+
+
+def update_diary_sitemap(entries: list[Entry], tag_aliases: list[TagAlias]) -> None:
+    sitemap = SITEMAP_PATH.read_text(encoding="utf-8")
+    for entry in entries:
+        pattern = sitemap_url_pattern(entry.url)
+        if entry.url != entry.canonical_url:
+            sitemap, count = pattern.subn("", sitemap)
+            if count > 1:
+                raise ValueError(f"Duplicate sitemap alias URL: {entry.url}")
+            continue
+        match = pattern.search(sitemap)
+        if match is None:
+            raise ValueError(f"Canonical diary post is missing from sitemap: {entry.url}")
+        indent = match.group("indent")
+        replacement = (
+            f"{indent}<url>\n"
+            f"{indent}  <loc>{entry.url}</loc>\n"
+            f"{indent}  <lastmod>{entry.date_iso}</lastmod>\n"
+            f"{indent}</url>"
+        )
+        sitemap, count = pattern.subn(replacement, sitemap)
+        if count != 1:
+            raise ValueError(f"Unexpected sitemap entry count for {entry.url}: {count}")
+
+    for tag_alias in tag_aliases:
+        sitemap, count = sitemap_url_pattern(tag_alias.url).subn("", sitemap)
+        if count > 1:
+            raise ValueError(f"Duplicate sitemap tag alias URL: {tag_alias.url}")
+
+    SITEMAP_PATH.write_text(sitemap, encoding="utf-8")
+
+
 def main() -> None:
     entries = load_entries()
     curation = load_curation(entries)
@@ -2334,6 +2403,7 @@ def main() -> None:
     write_diary_outputs(entries, tags, tag_aliases, start_here_entries, cornerstone_entries, themes, related_posts)
     write_machine_readable(entries, tags, start_here_entries, cornerstone_entries, themes)
     update_home_slot()
+    update_diary_sitemap(entries, tag_aliases)
 
 
 if __name__ == "__main__":
