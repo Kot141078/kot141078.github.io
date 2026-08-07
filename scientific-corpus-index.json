@@ -14,7 +14,7 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "7d7315d0dcfb861172a6e1ff7a33c050db3d0558eb50b2337689915d99993104",
+    "sha256": "93235082fa84002c3c276ae9f5a88638da85e8b061ed10a709ad9d4829a6b74d",
     "record_count": 46
   },
   "work_count": 46,
@@ -46,11 +46,11 @@
       },
       "source": {
         "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
-        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/ba6be6ce638683435a3ab7fa9db298c5cea4f521/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/fd131d40fc397de6944e86cc3dd84fb746f8edf2/official/authorial-statements/boundaries-of-machine-interpretation/v0.2",
         "repository_path": null,
         "release_url": null,
         "release_tag": null,
-        "commit": "ba6be6ce638683435a3ab7fa9db298c5cea4f521"
+        "commit": "fd131d40fc397de6944e86cc3dd84fb746f8edf2"
       },
       "licenses": {
         "overall": "No license granted — all rights reserved",
