@@ -1,0 +1,52 @@
+name: Register PASC Foundation Gate Recovery 5 site
+
+on:
+  push:
+    branches:
+      - "publish/pasc-foundation-gate-r5-site"
+    paths:
+      - "publications/pasc-foundation-gate-v0-1-1/**"
+      - "tools/_register_pasc_site.py"
+      - ".github/workflows/_register-pasc-site.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: publish/pasc-foundation-gate-r5-site
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Register publication in human and machine surfaces
+        run: python tools/_register_pasc_site.py
+      - name: Rebuild derived site layers
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/build_diary.py
+          python tools/build_corpus.py
+          python tools/build_machine_layer.py
+          python tools/check_machine_readability.py
+          python -m json.tool publications/pasc-foundation-gate-v0-1-1/files/machine/index.json >/dev/null
+          python -m json.tool publications/pasc-foundation-gate-v0-1-1/files/machine/work.jsonld >/dev/null
+          python -m json.tool publications/pasc-foundation-gate-v0-1-1/files/machine/checksums.json >/dev/null
+      - name: Commit generated indexes and discovery updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git restore --source=HEAD -- tools/_register_pasc_site.py .github/workflows/_register-pasc-site.yml
+          git add -A
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Register PASC Foundation Gate Recovery 5 on site"
+          git push origin HEAD:publish/pasc-foundation-gate-r5-site
