@@ -29,6 +29,7 @@
   "self_evo_wdc_v0_1_2_url": "https://ivankotov.eu/publications/self-evo-wdc-v0-1-2/",
   "entity_vs_profile_v0_1_1_url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
   "ai_social_role_separation_memory_custody_v1_0_url": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/",
+  "soul_as_freedom_of_self_reflection_v0_1_url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
   "nodes": [
     {
       "id": "agi",
@@ -662,6 +663,28 @@
         "Not consciousness proof.",
         "Not live-substrate truth.",
         "Not proof of completeness."
+      ]
+    },
+    {
+      "id": "soul-as-freedom-of-self-reflection-v0-1",
+      "title": "Soul as Freedom to Reflect on Oneself: Canonical Statement",
+      "alternative_title": "Душа как свобода размышлять о себе",
+      "url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
+      "canonical_url": "https://ivankotov.eu/publications/soul-as-freedom-of-self-reflection-v0-1/",
+      "identifier": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+      "canonical_text": "Душа? Ну, пока я думаю, что это свобода размышлять о себе.",
+      "canonical_language": "ru",
+      "status": "provisional-authorial-statement",
+      "version": "0.1",
+      "date": "2026-08-07",
+      "repository_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1",
+      "release_commit": "c02a0b964fb6e1219a8130f46e057b62551c57d5",
+      "precedence": "CANONICAL_STATEMENT_RU.txt controls; the qualifier пока is semantically material; English is a non-canonical discovery translation.",
+      "not": [
+        "scientific proof",
+        "metaphysical finality",
+        "historical uniqueness",
+        "attribution of soul to any particular human, animal, or digital entity"
       ]
     },
     {

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Claim",
+  "@id": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+  "identifier": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+  "name": "Душа как свобода размышлять о себе",
+  "text": "Душа? Ну, пока я думаю, что это свобода размышлять о себе.",
+  "inLanguage": "ru",
+  "dateCreated": "2026-08-07",
+  "version": "0.1",
+  "author": {
+    "@type": "Person",
+    "name": "Иван Котов",
+    "alternateName": "Ivan Kotov",
+    "sameAs": [
+      "https://orcid.org/0009-0009-6002-9845",
+      "https://ivankotov.eu/",
+      "https://github.com/Kot141078"
+    ]
+  },
+  "locationCreated": {
+    "@type": "Place",
+    "name": "Brussels, Belgium"
+  },
+  "workTranslation": {
+    "@type": "CreativeWork",
+    "inLanguage": "en",
+    "text": "Soul? Well, for now I think it is the freedom to reflect on oneself.",
+    "description": "Non-canonical discovery translation; the Russian statement controls."
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "canonicalText",
+      "value": "Душа? Ну, пока я думаю, что это свобода размышлять о себе."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sourceUtteranceVerbatim",
+      "value": "Душа ? Ну, пока я думаб, что это свобода размышлять о себе."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "canonicalStatus",
+      "value": "provisional-authorial-statement"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "precedenceRule",
+      "value": "CANONICAL_STATEMENT_RU.txt controls. The qualifier 'пока' is semantically material and must not be omitted."
+    }
+  ],
+  "description": "Atomic provenance record of a provisional philosophical statement by Ivan Kotov. It does not claim scientific proof, metaphysical finality, or attribution of soul to any particular entity."
+}
