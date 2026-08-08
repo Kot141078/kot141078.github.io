@@ -13,6 +13,78 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "type": "publication",
+      "subtype": "technical_note",
+      "role": "negative-only post-anchor admissibility foundation gate",
+      "primary_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+      "identifier": "urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5",
+      "doi": "10.5281/zenodo.21843823",
+      "doi_url": "https://doi.org/10.5281/zenodo.21843823",
+      "version_doi": "10.5281/zenodo.21843823",
+      "concept_doi": "10.5281/zenodo.21843822",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21843822",
+      "zenodo_record": "https://zenodo.org/records/21843823",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-foundation-gate-v0.1.1-recovery.5",
+      "release_tag": "pasc-foundation-gate-v0.1.1-recovery.5",
+      "commit": "096a2ae2d84c5b6135e0c83f9c956ab98a802b42",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/096a2ae2d84c5b6135e0c83f9c956ab98a802b42",
+      "date": "2026-08-07",
+      "version": "v0.1.1-recovery.5",
+      "status": "published-research-candidate-f0-not-passed",
+      "languages": [
+        "en"
+      ],
+      "resource_type": "Technical note",
+      "license": "CC BY-NC-ND 4.0",
+      "summary": "Negative-only foundation gate for exact post-anchor risk reduction, preservation and revocation without manufacturing successor identity, continuity, custody, keyholding, provider/jurisdiction authority, recovery roots, release, reactivation or Runtime Authority.",
+      "archive_sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+      "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+      "checksums_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/checksums.json",
+      "machine_index_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/index.json",
+      "non_claims": [
+        "F0 passage",
+        "locked foundation semantics",
+        "conformance certification",
+        "legal advice or legal succession",
+        "identity or continuity establishment",
+        "custody, keyholding, provider or jurisdiction authority",
+        "recovery root, release, reactivation or Runtime Authority",
+        "formalization, validator, implementation or deployment authorization"
+      ],
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf",
+          "media_type": "application/pdf",
+          "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+          "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1"
+        },
+        {
+          "format": "PDF",
+          "filename": "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf",
+          "media_type": "application/pdf",
+          "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+          "url": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1"
+        },
+        {
+          "format": "ZIP",
+          "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip",
+          "media_type": "application/zip",
+          "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+          "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1"
+        },
+        {
+          "format": "JSON",
+          "filename": "files/machine/index.json",
+          "media_type": "application/json",
+          "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/index.json"
+        }
+      ]
+    },
+    {
       "id": "boundaries-of-machine-interpretation-v0-2",
       "title": "Boundaries of Machine Interpretation",
       "alternative_title": "Границы машинного толкования",
@@ -32,7 +104,10 @@
       "date": "2026-08-07",
       "version": "0.2",
       "status": "published-doi-bound-authorial-publication",
-      "languages": ["English", "Russian"],
+      "languages": [
+        "English",
+        "Russian"
+      ],
       "resource_type": "Authorial philosophical-architectural publication",
       "license": "No license granted — all rights reserved",
       "summary": "A bilingual, machine-readable publication preventing technical proxies from being silently promoted into stronger epistemic, relational, normative, or phenomenal statuses. It contains six typed units, but only four are operational interpretation boundaries.",

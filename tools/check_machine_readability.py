@@ -37,7 +37,9 @@ def read_json(path: Path):
 
 
 def sha256_file(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    # Match build_machine_layer.py: source hashes are normalized-text hashes,
+    # not platform checkout newline hashes.
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def local_path_for_url(url: str) -> Path | None:

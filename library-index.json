@@ -3,6 +3,59 @@
   "page": "https://ivankotov.eu/library/",
   "items": [
     {
+      "id": "pasc-foundation-gate-v0-1-1-recovery-5",
+      "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "role": "technical note / post-anchor governance / negative-only authority",
+      "primary_page": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-foundation-gate-v0.1.1-recovery.5",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/096a2ae2d84c5b6135e0c83f9c956ab98a802b42",
+      "type": "publication",
+      "subtype": "technical_note",
+      "doi": "10.5281/zenodo.21843823",
+      "doi_url": "https://doi.org/10.5281/zenodo.21843823",
+      "concept_doi": "10.5281/zenodo.21843822",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21843822",
+      "zenodo_record": "https://zenodo.org/records/21843823",
+      "zenodo_status": "published",
+      "version": "v0.1.1-recovery.5",
+      "date": "2026-08-07",
+      "author": "Ivan Kotov",
+      "orcid": "0009-0009-6002-9845",
+      "languages": [
+        "English"
+      ],
+      "license": "CC BY-NC-ND 4.0",
+      "summary": "Negative-only foundation gate for exact post-anchor risk reduction, preservation and revocation without manufacturing successor identity, continuity, custody, keyholding, provider/jurisdiction authority, recovery roots, release, reactivation or Runtime Authority.",
+      "artifacts": [
+        {
+          "language": "English",
+          "format": "PDF",
+          "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf",
+          "media_type": "application/pdf",
+          "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+          "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1"
+        },
+        {
+          "language": "English",
+          "format": "PDF supplement",
+          "filename": "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf",
+          "media_type": "application/pdf",
+          "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+          "url": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1"
+        },
+        {
+          "language": "English",
+          "format": "ZIP",
+          "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip",
+          "media_type": "application/zip",
+          "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+          "url": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1"
+        }
+      ],
+      "machine_index_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/files/machine/index.json"
+    },
+    {
       "id": "ai-social-role-separation-memory-custody-v1-0",
       "title": "Separation and Composition of AI Social Roles, and the Custody of Memory and Interpretations: Why a Multi-Role Private c and a Service AI System Require Different Boundaries",
       "role": "technical note / AI social-role composition / memory and inference custody",

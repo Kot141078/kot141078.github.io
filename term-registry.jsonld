@@ -399,6 +399,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/pasc-foundation-gate-v0-1-1",
+      "termCode": "pasc-foundation-gate-v0-1-1",
+      "name": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+      "alternateName": [],
+      "description": "Negative-only foundation gate for exact post-anchor risk reduction, preservation and revocation without manufacturing successor identity, continuity, custody, keyholding, provider/jurisdiction authority, recovery roots, release, reactivation or Runtime Authority.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/personality_formation_evidence_package_v0_1",
       "termCode": "personality_formation_evidence_package_v0_1",
       "name": "Personality Formation Evidence Package v0.1",

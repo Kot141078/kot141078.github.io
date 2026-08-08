@@ -1,0 +1,13 @@
+{
+  "algorithm": "SHA-256",
+  "version": "v0.1.1-recovery.5",
+  "version_doi": "10.5281/zenodo.21843823",
+  "files": {
+    "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+    "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+    "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+    "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt": "3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc"
+  },
+  "canonical_zip_sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+  "verification_rule": "Verify exact downloaded bytes before interpretation. Checksums establish file identity and integrity, not F0 passage or operational authority."
+}

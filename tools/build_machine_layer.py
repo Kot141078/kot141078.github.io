@@ -63,7 +63,9 @@ def json_text(value: Any) -> str:
 
 
 def sha256_file(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    # Source JSON hashes are machine-contract identifiers, so keep them stable
+    # across Windows CRLF checkouts and Linux CI LF checkouts.
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def clean_string(value: Any) -> str | None:

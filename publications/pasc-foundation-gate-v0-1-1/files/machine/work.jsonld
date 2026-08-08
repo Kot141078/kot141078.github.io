@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "TechArticle",
+  "@id": "https://doi.org/10.5281/zenodo.21843823",
+  "name": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+  "version": "v0.1.1-recovery.5",
+  "datePublished": "2026-08-07",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0009-6002-9845",
+    "name": "Ivan Kotov",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "publisher": {"@type": "Organization", "name": "Zenodo", "url": "https://zenodo.org/"},
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+  "identifier": [
+    "10.5281/zenodo.21843823",
+    "10.5281/zenodo.21843822",
+    "urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5"
+  ],
+  "abstract": "A negative-only technical research framework for deciding which exact post-anchor actions may preserve evidence and reduce exposure without converting property, credentials, relationship, custody, archive access, provider control or institutional force into successor authority.",
+  "keywords": [
+    "artificial intelligence governance",
+    "digital entity continuity",
+    "post-anchor governance",
+    "succession",
+    "custody",
+    "negative-only authority",
+    "provenance",
+    "finality",
+    "protected-person boundary",
+    "machine-readable research package"
+  ],
+  "encoding": [
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1",
+      "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf"
+    },
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1",
+      "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1",
+      "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/plain",
+      "contentUrl": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt?download=1",
+      "sha256": "3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc"
+    }
+  ],
+  "sameAs": [
+    "https://zenodo.org/records/21843823",
+    "https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5",
+    "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-foundation-gate-v0.1.1-recovery.5"
+  ],
+  "conditionsOfAccess": "Public research candidate. F0 has not passed; foundation semantics are not locked; formalization, validator work, implementation and deployment are prohibited."
+}
