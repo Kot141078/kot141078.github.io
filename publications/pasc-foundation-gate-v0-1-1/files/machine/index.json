@@ -116,6 +116,7 @@
       "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.json"
     ]
   },
+  "ordered_reading_path": "source_of_record.ordered_documents",
   "machine_entry_order": [
     "identify_exact_version_doi",
     "verify_release_checksums",

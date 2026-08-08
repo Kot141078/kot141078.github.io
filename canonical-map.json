@@ -845,6 +845,10 @@
       "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
       "url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
       "version": "v0.1.1-recovery.5",
+      "version_doi": "10.5281/zenodo.21843823",
+      "concept_doi": "10.5281/zenodo.21843822",
+      "scientific_commit": "096a2ae2d84c5b6135e0c83f9c956ab98a802b42",
+      "canonical_zip_sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
       "summary": "Negative-only foundation gate for exact post-anchor risk reduction, preservation and revocation without manufacturing successor identity, continuity, custody, keyholding, provider/jurisdiction authority, recovery roots, release, reactivation or Runtime Authority.",
       "not": [
         "succession grant",

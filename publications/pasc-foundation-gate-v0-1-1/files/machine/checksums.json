@@ -1,5 +1,6 @@
 {
   "algorithm": "SHA-256",
+  "version": "v0.1.1-recovery.5",
   "version_doi": "10.5281/zenodo.21843823",
   "files": {
     "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
