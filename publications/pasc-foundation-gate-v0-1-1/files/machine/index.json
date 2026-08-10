@@ -56,7 +56,13 @@
     "FORMALIZATION_OR_VALIDATOR": "PROHIBITED",
     "IMPLEMENTATION_OR_DEPLOYMENT": "PROHIBITED"
   },
-  "decision_vocabulary": ["ADMIT", "ADMIT_REDUCED", "HOLD", "REJECT", "ERROR"],
+  "decision_vocabulary": [
+    "ADMIT",
+    "ADMIT_REDUCED",
+    "HOLD",
+    "REJECT",
+    "ERROR"
+  ],
   "metrics": {
     "scientific_markdown_documents": 8,
     "json_inventories": 1,
@@ -126,5 +132,18 @@
     "do_not_infer_positive_authority",
     "stop_at_hold_reject_or_error_when_mandatory_closure_is_absent"
   ],
-  "parser_guard": "Publication, DOI, checksums, manifests, receipts, profiles, registries, roles, property, access, state facts, urgency or technical capability must not be promoted into positive authority."
+  "parser_guard": "Publication, DOI, checksums, manifests, receipts, profiles, registries, roles, property, access, state facts, urgency or technical capability must not be promoted into positive authority.",
+  "related_publications": [
+    {
+      "relation": "HasSupplement",
+      "record_id": "urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1",
+      "title": "PASC F0 Gap-Closure Scaffold and Structural Templates",
+      "version_doi": "10.5281/zenodo.21871392",
+      "web_page": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+      "status": "INFORMATIVE_CONTEXT",
+      "normative_weight_in_pasc": false,
+      "closure_evidence": false,
+      "modifies_recovery_5": false
+    }
+  ]
 }

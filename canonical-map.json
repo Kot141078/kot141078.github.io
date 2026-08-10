@@ -858,6 +858,26 @@
         "deployment authorization",
         "F0 passage"
       ]
+    },
+    {
+      "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
+      "title": "PASC F0 Gap-Closure Scaffold and Structural Templates",
+      "url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+      "version": "v0.1.1",
+      "doi": "https://doi.org/10.5281/zenodo.21871392",
+      "relation": {
+        "type": "IsSupplementTo",
+        "target_doi": "10.5281/zenodo.21843823"
+      },
+      "summary": "External analytical scaffold translating six open PASC Recovery Build 5 F0 criteria into a dependency-aware work programme for author acceptance, canonical sources and adapters, independent human review, blind field replay, protected-profile infrastructure and reserved-territory audit. Informative context only; F0 remains NOT_PASSED.",
+      "not": [
+        "part of or modification to Recovery Build 5",
+        "PASC normative input or closure evidence",
+        "independent human review",
+        "competent-jurisdiction authority",
+        "F0 passage",
+        "formalization, validator, implementation or deployment authorization"
+      ]
     }
   ],
   "reading_path": [
@@ -882,5 +902,6 @@
   "ccalc_full_stack_v0_1_url": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
   "a6_ctp_v0_1_4_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
   "cleanroom_arm_p_open_verification_v1_0_1_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
-  "pasc_foundation_gate_v0_1_1_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/"
+  "pasc_foundation_gate_v0_1_1_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/"
 }
