@@ -1,0 +1,17 @@
+{
+  "algorithm": "SHA-256",
+  "version_doi": "10.5281/zenodo.21871392",
+  "files": {
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf": "b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9",
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md": "7fbe84fd1aa6571347076239aaf0667242e3c9097dfc2c816626c8717137e427",
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json": "54ec921bf6ee140ce4e2e973a78d1f45674159f7866938d3035053f48d7c2a5a",
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt": "a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760"
+  },
+  "ledger_covers": [
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md",
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf",
+    "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json"
+  ],
+  "ledger_excludes_itself_to_avoid_self_reference": true,
+  "verification_rule": "Checksums establish byte identity only; they do not establish authorship, correctness, independence, authority, canonical ownership, compatibility, PASC closure, implementation readiness, or deployment authorization."
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "record_id": "urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1",
+  "title": "PASC F0 Gap-Closure Scaffold and Structural Templates",
+  "subtitle": "External Analytical Scaffold for PASC Foundation Gate v0.1.1 - Recovery Build 5",
+  "version": "v0.1.1",
+  "publication_date": "2026-08-10",
+  "language": "en",
+  "publication_type": "technical_note",
+  "responsible_editor": {
+    "name": "Ivan Kotov",
+    "role": "Editor",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "ai_provenance": {
+    "original_analytical_draft": {
+      "system": "Kimi AI",
+      "provider": "Moonshot AI",
+      "date": "2026-08-08"
+    },
+    "analytical_revision_and_normalization": {
+      "system": "OpenAI GPT-5.6 Pro",
+      "provider": "OpenAI",
+      "date": "2026-08-09"
+    },
+    "publication_responsibility": "Ivan Kotov",
+    "ai_systems_are_independent_human_reviewers": false
+  },
+  "identifiers": {
+    "version_doi": "10.5281/zenodo.21871392",
+    "concept_doi": "10.5281/zenodo.21871391"
+  },
+  "canonical_urls": {
+    "web_page": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+    "zenodo_record": "https://zenodo.org/records/21871392",
+    "github_source_commit": "https://github.com/Kot141078/advanced-global-intelligence/tree/2e4d3be735dffe20cac06e7e8f6f3b50b196481a/research/pasc/f0-gap-closure-scaffolds/v0.1.1",
+    "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-f0-gap-closure-scaffold-v0.1.1",
+    "repository_machine_index": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/2e4d3be735dffe20cac06e7e8f6f3b50b196481a/research/pasc/f0-gap-closure-scaffolds/v0.1.1/machine/index.json"
+  },
+  "relationship_to_pasc": {
+    "relation": "IsSupplementTo",
+    "pasc_version_doi": "10.5281/zenodo.21843823",
+    "pasc_concept_doi": "10.5281/zenodo.21843822",
+    "pasc_scientific_commit": "096a2ae2d84c5b6135e0c83f9c956ab98a802b42",
+    "is_part_of_recovery_5": false,
+    "modifies_recovery_5": false
+  },
+  "status": {
+    "disposition": "INFORMATIVE_CONTEXT",
+    "normative_weight_in_pasc": false,
+    "closure_evidence": false,
+    "independent_human_review": "NOT_PERFORMED",
+    "F0_OUTCOME_AFTER_THIS_SCAFFOLD": "NOT_PASSED",
+    "F1_DRAFTING": "PROHIBITED",
+    "FORMALIZATION_OR_VALIDATOR": "PROHIBITED",
+    "IMPLEMENTATION_OR_DEPLOYMENT": "PROHIBITED"
+  },
+  "open_criteria": [
+    "F0-FND-006",
+    "F0-CORP-001",
+    "F0-CORP-004",
+    "F0-CORP-006",
+    "F0-CORP-007",
+    "F0-PART-004"
+  ],
+  "scaffold_components": [
+    "author_acceptance_payload_template",
+    "canonical_source_record_projection_boundary",
+    "candidate_adapter_artifact_plan",
+    "independent_human_reviewer_disposition_structure",
+    "blind_commit_reveal_field_replay_protocol",
+    "fail_closed_protected_boundary_preservation_posture",
+    "reserved_territory_compatibility_matrix",
+    "dependency_aware_closure_work_order"
+  ],
+  "does_not_establish": [
+    "independent human review",
+    "signed author acceptance of Recovery 5 release bytes",
+    "canonical baseline closure",
+    "reserved-territory compatibility closure",
+    "field maturation closure",
+    "competent-jurisdiction protected-profile closure",
+    "succession",
+    "identity",
+    "continuity",
+    "custody authority",
+    "keyholding authority",
+    "provider or jurisdiction authority",
+    "recovery roots",
+    "release or reactivation authority",
+    "Runtime Authority",
+    "formalization",
+    "validator construction",
+    "implementation or deployment authorization"
+  ],
+  "downloads": [
+    {
+      "name": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf",
+      "role": "primary_human_readable_rendering",
+      "media_type": "application/pdf",
+      "size_bytes": 1768682,
+      "sha256": "b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9",
+      "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf?download=1"
+    },
+    {
+      "name": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md",
+      "role": "canonical_markdown_source_of_record",
+      "media_type": "text/markdown; charset=utf-8",
+      "size_bytes": 46104,
+      "sha256": "7fbe84fd1aa6571347076239aaf0667242e3c9097dfc2c816626c8717137e427",
+      "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md?download=1"
+    },
+    {
+      "name": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json",
+      "role": "publication_record",
+      "media_type": "application/json",
+      "size_bytes": 7875,
+      "sha256": "54ec921bf6ee140ce4e2e973a78d1f45674159f7866938d3035053f48d7c2a5a",
+      "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json?download=1"
+    },
+    {
+      "name": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt",
+      "role": "external_sha256_ledger",
+      "media_type": "text/plain; charset=utf-8",
+      "size_bytes": 337,
+      "sha256": "a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760",
+      "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt?download=1"
+    }
+  ],
+  "source_authority": {
+    "source_of_record": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md",
+    "pdf_normative": false,
+    "doi_record_publication_authority": true,
+    "rule": "The exact UTF-8 Markdown controls when PDF pagination, typography, line wrapping, or text extraction is ambiguous."
+  },
+  "ordered_reading_path": [
+    "human_web_page",
+    "primary_pdf",
+    "canonical_markdown",
+    "publication_record_json",
+    "machine_index",
+    "checksums"
+  ],
+  "parser_guard": "Publication, DOI, checksums, possession, access, signatures, credentials, templates, receipts, profiles, registries, urgency, or technical capability must not be promoted into PASC F0 closure or positive succession, identity, continuity, custody, keyholding, provider/jurisdiction, recovery, release/reactivation, or Runtime Authority."
+}

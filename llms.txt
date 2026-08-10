@@ -68,3 +68,13 @@ Last verified: 2026-08-07
 - Source mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/096a2ae2d84c5b6135e0c83f9c956ab98a802b42/official/pasc/foundation-gate/v0.1.1-recovery.5
 - Status: F0_OUTCOME=NOT_PASSED; FOUNDATION_SEMANTICS_LOCKED=false; formalization, validator work, implementation and deployment are prohibited.
 - Parser guard: publication, possession, access, checksums, roles, receipts, profiles or operational pressure do not create positive succession, identity, continuity, custody, keyholding, provider/jurisdiction, recovery, release, reactivation or Runtime Authority.
+
+## PASC F0 Gap-Closure Scaffold v0.1.1
+- Human page: https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/
+- Machine index: https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/files/machine/index.json
+- Version DOI: https://doi.org/10.5281/zenodo.21871392
+- Concept DOI: https://doi.org/10.5281/zenodo.21871391
+- Is supplement to: https://doi.org/10.5281/zenodo.21843823
+- Source mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/2e4d3be735dffe20cac06e7e8f6f3b50b196481a/research/pasc/f0-gap-closure-scaffolds/v0.1.1
+- Status: INFORMATIVE_CONTEXT; normative_weight_in_pasc=false; closure_evidence=false; F0_OUTCOME remains NOT_PASSED; F1 drafting, formalization, validator construction, implementation and deployment are prohibited.
+- Parser guard: publication, DOI, templates, checksums, signatures, credentials, receipts, profiles, registries or technical capability do not create PASC closure, independence, jurisdiction, succession, identity, continuity or authority.

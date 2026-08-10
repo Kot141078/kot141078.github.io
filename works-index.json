@@ -13,6 +13,106 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
+      "title": "PASC F0 Gap-Closure Scaffold and Structural Templates",
+      "type": "publication",
+      "subtype": "technical_note",
+      "role": "external analytical scaffold for six open PASC F0 criteria",
+      "primary_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+      "identifier": "urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1",
+      "doi": "10.5281/zenodo.21871392",
+      "doi_url": "https://doi.org/10.5281/zenodo.21871392",
+      "version_doi": "10.5281/zenodo.21871392",
+      "concept_doi": "10.5281/zenodo.21871391",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21871391",
+      "zenodo_record": "https://zenodo.org/records/21871392",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/2e4d3be735dffe20cac06e7e8f6f3b50b196481a/research/pasc/f0-gap-closure-scaffolds/v0.1.1",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-f0-gap-closure-scaffold-v0.1.1",
+      "release_tag": "pasc-f0-gap-closure-scaffold-v0.1.1",
+      "commit": "2e4d3be735dffe20cac06e7e8f6f3b50b196481a",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/2e4d3be735dffe20cac06e7e8f6f3b50b196481a",
+      "date": "2026-08-10",
+      "version": "v0.1.1",
+      "status": "published-informative-context-f0-not-passed",
+      "languages": [
+        "en"
+      ],
+      "resource_type": "Technical note",
+      "license": "CC BY-NC-ND 4.0",
+      "summary": "External analytical scaffold translating six open PASC Recovery Build 5 F0 criteria into a dependency-aware work programme for author acceptance, canonical sources and adapters, independent human review, blind field replay, protected-profile infrastructure and reserved-territory audit. Informative context only; F0 remains NOT_PASSED.",
+      "responsible_editor": {
+        "name": "Ivan Kotov",
+        "role": "Editor",
+        "orcid": "0009-0009-6002-9845"
+      },
+      "ai_provenance": [
+        {
+          "system": "Kimi AI",
+          "provider": "Moonshot AI",
+          "role": "original analytical draft"
+        },
+        {
+          "system": "OpenAI GPT-5.6 Pro",
+          "provider": "OpenAI",
+          "role": "analytical revision and normalization"
+        }
+      ],
+      "related_work": {
+        "relation": "IsSupplementTo",
+        "doi": "10.5281/zenodo.21843823"
+      },
+      "sha256": "b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9",
+      "checksums_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/files/machine/checksums.json",
+      "machine_index_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/files/machine/index.json",
+      "non_claims": [
+        "PASC F0 passage",
+        "independent human review",
+        "signed Recovery 5 author acceptance",
+        "canonical baseline closure",
+        "reserved-territory compatibility closure",
+        "field maturation closure",
+        "competent-jurisdiction protected-profile closure",
+        "succession, identity, continuity or authority establishment",
+        "formalization, validator, implementation or deployment authorization"
+      ],
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf",
+          "media_type": "application/pdf",
+          "sha256": "b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9",
+          "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf?download=1"
+        },
+        {
+          "format": "Markdown",
+          "filename": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md",
+          "media_type": "text/markdown",
+          "sha256": "7fbe84fd1aa6571347076239aaf0667242e3c9097dfc2c816626c8717137e427",
+          "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md?download=1"
+        },
+        {
+          "format": "JSON",
+          "filename": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json",
+          "media_type": "application/json",
+          "sha256": "54ec921bf6ee140ce4e2e973a78d1f45674159f7866938d3035053f48d7c2a5a",
+          "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json?download=1"
+        },
+        {
+          "format": "TXT",
+          "filename": "PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt",
+          "media_type": "text/plain",
+          "sha256": "a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760",
+          "url": "https://zenodo.org/records/21871392/files/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt?download=1"
+        },
+        {
+          "format": "JSON",
+          "filename": "files/machine/index.json",
+          "media_type": "application/json",
+          "url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/files/machine/index.json"
+        }
+      ]
+    },
+    {
       "id": "pasc-foundation-gate-v0-1-1-recovery-5",
       "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
       "type": "publication",

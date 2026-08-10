@@ -399,6 +399,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/pasc-f0-gap-closure-scaffold-v0-1-1",
+      "termCode": "pasc-f0-gap-closure-scaffold-v0-1-1",
+      "name": "PASC F0 Gap-Closure Scaffold and Structural Templates",
+      "alternateName": [],
+      "description": "External analytical scaffold translating six open PASC Recovery Build 5 F0 criteria into a dependency-aware work programme for author acceptance, canonical sources and adapters, independent human review, blind field replay, protected-profile infrastructure and reserved-territory audit. Informative context only; F0 remains NOT_PASSED.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/pasc-foundation-gate-v0-1-1",
       "termCode": "pasc-foundation-gate-v0-1-1",
       "name": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
