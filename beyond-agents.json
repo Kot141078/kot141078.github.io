@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "beyond-agents.timeline.v0.1",
+  "document_id": "ivankotov-beyond-agents-public-timeline-v0.1",
+  "title": "Beyond Agents — A Public Development Timeline",
+  "url": "https://ivankotov.eu/beyond-agents/",
+  "last_updated": "2026-08-11",
+  "scope": "Selected dated public turning points in Ivan Kotov's authored development from agentic task execution toward c as a continuity-bearing, governance-bearing layer.",
+  "authority_rule": "This timeline is a navigation and provenance surface. It does not replace the authority of linked diary entries, DOI-bound publications, tagged releases, manifests, checksums, tests, or evidence packages.",
+  "claim_boundary": [
+    "not a priority claim over every similar idea",
+    "not independent validation",
+    "not proof of consciousness or personhood",
+    "not automatic entity classification",
+    "not production safety or deployment authorization",
+    "not a claim that every persistent AI system is c"
+  ],
+  "core_distinction": {
+    "model": "computes",
+    "agent": "executes",
+    "c": "continues"
+  },
+  "nodes": [
+    {
+      "date": "2026-01-15",
+      "stage": "threshold",
+      "title": "When an AI Stops Being a Tool — and Becomes a Presence",
+      "url": "https://ivankotov.eu/diary/when-an-ai-stops-being-a-tool-and-becomes-a-presence/",
+      "role": "Moves the threshold from fluency and capability toward restraint, consequential memory, and non-dominating opinion."
+    },
+    {
+      "date": "2026-02-06",
+      "stage": "question_named",
+      "title": "What comes after agents?",
+      "url": "https://ivankotov.eu/diary/what-comes-after-agents/",
+      "role": "Names the missing layer as a conductor rather than another agent, super-agent, or larger model."
+    },
+    {
+      "date": "2026-02-07",
+      "stage": "stable_presence",
+      "title": "From Better Chat to Stable Presence",
+      "url": "https://ivankotov.eu/diary/from-better-chat-to-stable-presence/",
+      "role": "Connects presence to continuity, constraints, verified identity, bounded privileges, and durable audit trails."
+    },
+    {
+      "date": "2026-03-24",
+      "stage": "subject_boundary",
+      "title": "Agents are not the subject.",
+      "url": "https://ivankotov.eu/diary/agents-are-not-the-subject/",
+      "role": "Places continuity with c rather than with an agent, judge, model, or swarm."
+    },
+    {
+      "date": "2026-04-07",
+      "stage": "category_fixed",
+      "title": "There is already enough public structure to say this calmly.",
+      "url": "https://ivankotov.eu/diary/there-is-already-enough-public-structure-to-say-this-calmly/",
+      "role": "Defines c as a temporal entity of AI presence grounded in continuity, bounded presence, and sustained relation."
+    },
+    {
+      "date": "2026-05-17",
+      "stage": "governed_workers",
+      "title": "C-Governed CLI Agent Mesh v0.1.1",
+      "url": "https://ivankotov.eu/publications/c-governed-cli-agent-mesh/",
+      "role": "Makes the distinction implementation-facing by governing executable agents as bounded workers."
+    },
+    {
+      "date": "2026-05-19",
+      "stage": "operating_layer",
+      "title": "AI is becoming an operating layer.",
+      "url": "https://ivankotov.eu/diary/ai-is-becoming-an-operating-layer/",
+      "role": "Applies c as an operating and governance layer around a living human anchor and real-world consequence."
+    },
+    {
+      "date": "2026-06-02",
+      "stage": "habitat",
+      "title": "Powerful hardware needs powerful tasks.",
+      "url": "https://ivankotov.eu/diary/powerful-hardware-needs-powerful-tasks/",
+      "role": "Shifts the unit from output to sustained presence and local cognitive infrastructure."
+    },
+    {
+      "date": "2026-06-28",
+      "stage": "foundation",
+      "title": "The industry is building a staircase to nowhere, while true intelligence requires a foundation.",
+      "url": "https://ivankotov.eu/diary/the-industry-is-building-a-staircase-to-nowhere-while-true-intelligence-requires-a-foundation/",
+      "role": "Argues that more agent execution does not create continuity, witness, memory authority, or a subject."
+    },
+    {
+      "date": "2026-07-18",
+      "stage": "falsifiability",
+      "title": "The question behind c = a + b is not whether an AI can look consistent over time.",
+      "url": "https://ivankotov.eu/diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/",
+      "role": "Moves the claim toward open verification, evidence custody, deterministic checks, and bounded public claims."
+    },
+    {
+      "date": "2026-07-20",
+      "stage": "public_synthesis",
+      "title": "Vision — From Models and Agents to c",
+      "url": "https://ivankotov.eu/vision/#from-agents-to-c",
+      "role": "Formalizes the concise distinction in the future-facing public entry layer."
+    },
+    {
+      "date": "2026-07-24",
+      "stage": "book_layer",
+      "title": "World Intelligence",
+      "url": "https://ivankotov.eu/world-intelligence/",
+      "role": "Synthesizes the argument in a complete multilingual book beyond the age of agents."
+    }
+  ],
+  "related_routes": {
+    "current_status": "https://ivankotov.eu/start-here/",
+    "future_direction": "https://ivankotov.eu/vision/",
+    "full_archive": "https://ivankotov.eu/diary/archive/",
+    "canonical_reading_path": "https://ivankotov.eu/reading-path/",
+    "corpus_map": "https://ivankotov.eu/corpus-map/",
+    "evidence": "https://ivankotov.eu/evidence/"
+  }
+}
