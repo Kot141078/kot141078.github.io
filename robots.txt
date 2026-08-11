@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://ivankotov.eu/sitemap.xml
 Sitemap: https://ivankotov.eu/sitemap-esther-rp-001.xml
+Sitemap: https://ivankotov.eu/sitemap-beyond-agents.xml
