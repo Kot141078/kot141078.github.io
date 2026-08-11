@@ -1,0 +1,73 @@
+name: Add Beyond Agents homepage entry
+
+on:
+  push:
+    paths:
+      - ".github/workflows/add-beyond-agents-home-entry.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add visible Beyond Agents entrances
+        shell: python
+        run: |
+          from pathlib import Path
+
+          page = Path("index.html")
+          text = page.read_text(encoding="utf-8")
+
+          hero_old = '''        <div class="section-links home-hero-actions" aria-label="Primary homepage actions">
+          <a href="./start-here/">Start here</a>
+        <a href="./vision/">Vision</a>
+          <a href="./what-is-running/">What is running</a>
+          <a href="./publications/">Publications</a>
+          <a class="secondary-action" href="./install-c/">How to install c</a>
+        </div>'''
+
+          hero_new = '''        <div class="section-links home-hero-actions" aria-label="Primary homepage actions">
+          <a href="./start-here/">Start here</a>
+          <a href="./beyond-agents/">Beyond Agents</a>
+          <a href="./vision/">Vision</a>
+          <a href="./what-is-running/">What is running</a>
+          <a href="./publications/">Publications</a>
+          <a class="secondary-action" href="./install-c/">How to install c</a>
+        </div>'''
+
+          if 'href="./beyond-agents/">Beyond Agents</a>' not in text:
+              if hero_old not in text:
+                  raise SystemExit("Expected homepage hero action block was not found")
+              text = text.replace(hero_old, hero_new, 1)
+
+          explore_anchor = '''          <article class="card route-card"><h3>Vision</h3><p>Future-facing authorial statement separating forecasts, normative direction, and already-public work.</p><div class="section-links"><a href="./vision/">Open Vision</a></div></article>'''
+
+          beyond_card = '''          <article class="card route-card"><h3>Beyond Agents</h3><p>A dated public development timeline from agentic task execution to <code>c</code> as the continuity-bearing layer above replaceable models, agents, tools, and swarms.</p><div class="section-links"><a href="./beyond-agents/">Open Beyond Agents timeline</a></div></article>'''
+
+          if beyond_card not in text:
+              if explore_anchor not in text:
+                  raise SystemExit("Expected Explore / Vision card was not found")
+              text = text.replace(explore_anchor, beyond_card + "\n" + explore_anchor, 1)
+
+          page.write_text(text, encoding="utf-8")
+          Path(".github/workflows/add-beyond-agents-home-entry.yml").unlink()
+
+      - name: Commit homepage entry and remove one-time workflow
+        shell: bash
+        run: |
+          git config user.name "Ivan Kotov"
+          git config user.email "kotovivan78@gmail.com"
+          git add index.html .github/workflows/add-beyond-agents-home-entry.yml
+          if git diff --cached --quiet; then
+            echo "No changes required."
+            exit 0
+          fi
+          git commit -m "Expose Beyond Agents from homepage"
+          git push origin HEAD:main
