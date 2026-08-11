@@ -1,15 +1,28 @@
-name: Homepage patch validation
+name: Add Beyond Agents homepage entry
 
 on:
   push:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  validate:
+  patch-homepage:
     runs-on: ubuntu-latest
     steps:
-      - name: Confirm workflow execution
-        run: echo "workflow-ok"
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch homepage
+        run: python .github/scripts/patch_homepage_beyond_agents.py
+
+      - name: Commit homepage entry and remove one-time files
+        run: |
+          git config user.name "Ivan Kotov"
+          git config user.email "kotovivan78@gmail.com"
+          git add index.html .github/workflows/add-beyond-agents-home-entry.yml .github/scripts/patch_homepage_beyond_agents.py
+          git commit -m "Expose Beyond Agents from homepage"
+          git push origin HEAD:main
