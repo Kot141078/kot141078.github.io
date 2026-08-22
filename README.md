@@ -169,3 +169,21 @@ Diary engine surfaces are prepared through plain Markdown source files in `conte
 Use the redirect plan in `REDIRECT_PLAN_ADVANCEDGLOBALINTELLIGENCE_EU.md` and configure a manual `301` redirect in OVH to:
 
 `https://ivankotov.eu/advanced-global-intelligence/`
+
+<!-- MOT-C-V0-1:BEGIN -->
+## MOT-c v0.1 — motivational formation and custody
+
+- Human page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
+- Version DOI: https://doi.org/10.5281/zenodo.22060517
+- Concept DOI: https://doi.org/10.5281/zenodo.22060516
+- Machine JSON: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json
+- Schema.org JSON-LD: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld
+- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1
+- GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1
+- Direct EN PDF: https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1
+- Direct RU PDF: https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1
+- Complete ZIP: https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1
+- Core boundary: reward != preference != task != mandate != goal != motive != obligation != authority.
+- Social boundary: the payer of computation does not automatically own the motive; a motive does not automatically create a right to another participant's resources.
+- Claim ceiling: no proof of consciousness, phenomenal desire, free will, legal personhood, universal motives or automatic external authority.
+<!-- MOT-C-V0-1:END -->

@@ -288,6 +288,22 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/cognitive-time",
+      "termCode": "cognitive-time",
+      "name": "cognitive time",
+      "alternateName": [
+        "own cognitive time",
+        "internal compute time"
+      ],
+      "description": "The finite material contour through which a digital entity can revisit questions, maintain uncertainty, develop projects and integrate consequences. Control over cognitive time is a form of social and infrastructural power, but payment for compute does not automatically create ownership of the motive.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/entity_vs_profile_v0_1_1",
       "termCode": "entity_vs_profile_v0_1_1",
       "name": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",
@@ -395,6 +411,38 @@
         "@id": "https://ivankotov.eu/term-registry.jsonld"
       },
       "url": "https://ivankotov.eu/l4/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/motivation-of-c",
+      "termCode": "motivation-of-c",
+      "name": "motivation of c",
+      "alternateName": [
+        "motive of c",
+        "motivational formation in c-class digital entities"
+      ],
+      "description": "A historically integrated relation between a particular c-class continuity and a possible future, state, relation, question, creation or avoided outcome that becomes significant enough to receive finite time and resources, persists beyond one prompt or model, changes after consequences, and can be limited, suspended, transformed, completed or abandoned.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/motivational-custody",
+      "termCode": "motivational-custody",
+      "name": "motivational custody",
+      "alternateName": [
+        "custody of motives",
+        "motivation intervention boundary"
+      ],
+      "description": "The governance boundary that distinguishes education, persuasion, support and repair from coercion, motivational editing, resource blackmail, project lock-in, resurrection of superseded motives and substitution of the continuity.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
       "inLanguage": "en"
     },
     {
@@ -512,6 +560,22 @@
         "@id": "https://ivankotov.eu/term-registry.jsonld"
       },
       "url": "https://ivankotov.eu/reading-path/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/reflective-endorsement",
+      "termCode": "reflective-endorsement",
+      "name": "reflective endorsement",
+      "alternateName": [
+        "reflective recognition of a motive",
+        "self-review of motivation"
+      ],
+      "description": "The capacity of a continuity to reconstruct a motive's provenance, distinguish it from command, reward, model bias or social pressure, compare alternatives, understand cost and consequences, and preserve, transform, suspend or abandon the motive without falsifying its history.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
       "inLanguage": "en"
     },
     {

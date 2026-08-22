@@ -3,7 +3,7 @@
   "schema_version": "machine-index.v1",
   "document_id": "ivankotov-machine-entry-v1",
   "url": "https://ivankotov.eu/machine-index.json",
-  "last_verified": "2026-08-07",
+  "last_verified": "2026-08-22",
   "human_entry": "https://ivankotov.eu/start-here/",
   "author": {
     "name": "Ivan Kotov",
@@ -13,10 +13,10 @@
   "authority_rule": "This index is not the byte authority for DOI-bound, signed, tagged, or separately hashed artifacts. Follow each record's canonical source, release, DOI, manifest, and checksum declarations.",
   "claim_boundary": "Machine readability does not elevate publication into implementation, internal review into independent validation, archive into continuity, replay into resumption, a profile into an entity, or telemetry into subjective experience.",
   "counts": {
-    "normalized_works": 48,
-    "terms": 43,
-    "distinctions": 13,
-    "semantic_bridges": 4,
+    "normalized_works": 49,
+    "terms": 47,
+    "distinctions": 17,
+    "semantic_bridges": 7,
     "public_repositories": 18
   },
   "entries": [

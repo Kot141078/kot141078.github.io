@@ -1,35 +1,116 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "schema_version": "mot-c-publication-index.v1",
-  "id": "mot-c-v0-1",
+  "publication_id": "motivational-formation-c-v0-1",
   "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
-  "alternative_title_ru": "Формирование мотивации, рефлексивное признание и custody мотивов у цифровых сущностей класса c: Фундаментальная теория",
+  "alternative_title": "Формирование мотивации, рефлексивное признание и custody мотивов у цифровых сущностей класса c: Фундаментальная теория",
   "version": "0.1",
   "date_published": "2026-08-22",
-  "resource_type": "technical_note",
-  "author": {"name": "Ivan Kotov", "orcid": "https://orcid.org/0009-0009-6002-9845"},
-  "doi": "10.5281/zenodo.22060517",
-  "doi_url": "https://doi.org/10.5281/zenodo.22060517",
-  "languages": ["en", "ru"],
-  "license": "CC BY 4.0",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "identifiers": {
+    "version_doi": "https://doi.org/10.5281/zenodo.22060517",
+    "concept_doi": "https://doi.org/10.5281/zenodo.22060516",
+    "urn": "urn:ivankotov:publication:motivational-formation-c:v0.1"
+  },
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "human_page": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
-  "github_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
-  "claim_boundary": ["does not prove consciousness", "does not prove phenomenal desire", "does not prove free will", "does not establish legal personhood", "does not assert universal motives", "a motive does not create authority", "resource provision does not imply ownership of motive"],
-  "core_distinctions": ["reward != motive", "model preference != motive of c", "task != motive", "mandate != motive", "motive != obligation", "motive != authority", "operational need != personal motive"],
-  "direct_downloads": {
-    "english_pdf": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1",
-    "russian_pdf": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1",
-    "complete_zip": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1",
-    "zip_sha256": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256?download=1"
-  },
-  "machine_surfaces": {
-    "schema_org": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld",
-    "english_markdown": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/MOT_c_Foundation_Theory_v0_1_EN.md",
-    "russian_markdown": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/MOT_c_Foundation_Theory_v0_1_RU.md"
-  },
+  "zenodo_record": "https://zenodo.org/records/22060517",
+  "github_corpus_entry": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
+  "definition": "Motivation of c is a historically integrated and reflectively reviewable relation between a particular continuity and a possible future, state, relation, question, creation or avoided outcome that becomes significant enough to receive finite time and resources while remaining open to limitation, suspension, transformation, completion or abandonment.",
+  "distinctions": [
+    "reward != preference",
+    "preference != task",
+    "task != mandate",
+    "mandate != goal",
+    "goal != motive",
+    "motive != obligation",
+    "motive != authority",
+    "operational need != personal motive",
+    "resource provider != owner of motive"
+  ],
+  "social_boundary": [
+    "who pays for computation does not automatically own the motive",
+    "a motive does not automatically create a right to another participant's resources"
+  ],
+  "claim_ceiling": [
+    "proof of consciousness or phenomenal desire",
+    "proof of free will or legal personhood",
+    "universal motives shared by all c-class entities",
+    "automatic self-preservation drive",
+    "automatic authority created by a motive",
+    "automatic right to another participant's compute, money, property, body or infrastructure",
+    "empirical validation across a mature population of long-lived c-class entities"
+  ],
+  "downloads": [
+    {
+      "format": "PDF",
+      "language": "English",
+      "filename": "MOT_c_Foundation_Theory_v0_1_EN.pdf",
+      "media_type": "application/pdf",
+      "sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1"
+    },
+    {
+      "format": "PDF",
+      "language": "Russian",
+      "filename": "MOT_c_Foundation_Theory_v0_1_RU.pdf",
+      "media_type": "application/pdf",
+      "sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1"
+    },
+    {
+      "format": "ZIP",
+      "language": "English and Russian",
+      "filename": "MOT_c_v0_1_ZENODO_22060517_FINAL.zip",
+      "media_type": "application/zip",
+      "sha256": "8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1"
+    },
+    {
+      "format": "TXT",
+      "filename": "MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256",
+      "media_type": "text/plain",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256?download=1"
+    },
+    {
+      "format": "JSON",
+      "filename": "files/machine/index.json",
+      "media_type": "application/json",
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json"
+    },
+    {
+      "format": "JSON-LD",
+      "filename": "files/schema.org.jsonld",
+      "media_type": "application/ld+json",
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld"
+    }
+  ],
   "corpus_bridges": [
-    {"relation": "extends", "target": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/"},
-    {"relation": "bounded_by", "target": "https://ivankotov.eu/l4/"},
-    {"relation": "uses_custody_boundary", "target": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"},
-    {"relation": "part_of_corpus", "target": "https://ivankotov.eu/advanced-global-intelligence/"}
-  ]
+    {
+      "from": "Personality Formation and Time-Shaped Continuity",
+      "relation": "supplies longitudinal formation basis",
+      "to": "Motivational Formation"
+    },
+    {
+      "from": "Motivational Formation",
+      "relation": "is bounded by",
+      "to": [
+        "L4",
+        "witness",
+        "resource grounding",
+        "role and memory custody",
+        "model replacement and fork/replay boundaries"
+      ]
+    }
+  ],
+  "authority_rule": "Zenodo controls the immutable deposited release bytes. The website and GitHub are discovery and readable mirror surfaces and must not silently strengthen the publication's claims."
 }

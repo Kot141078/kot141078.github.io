@@ -3,10 +3,10 @@
   "schema_version": "semantic-bridges.v1",
   "document_id": "ivankotov-public-semantic-bridges-v1",
   "url": "https://ivankotov.eu/semantic-bridges.json",
-  "last_verified": "2026-08-07",
+  "last_verified": "2026-08-22",
   "status": "interpretive-machine-routing-overlay",
   "claim_boundary": "A bridge records a bounded reading dependency or evidence route. It does not prove entity status, consciousness, operational success, causal effect, external validation, certification, or authority transfer.",
-  "source_sha256": "2d214ca793074a70c6cd7c73281370680347254d5874a4be523d484b5d30009d",
+  "source_sha256": "72f15022ba58f905663fa74705db71b81ae6fd14ea1f80c0bfed2d00e810a989",
   "relation_definitions": [
     {
       "relation": "constrainsClassificationIn",
@@ -49,7 +49,7 @@
       "definition": "The source may supply time-ordered evidence to the target control layer."
     }
   ],
-  "bridge_count": 4,
+  "bridge_count": 7,
   "bridges": [
     {
       "bridge_id": "BRIDGE-001",
@@ -210,6 +210,117 @@
         "https://ivankotov.eu/c-a-plus-b/"
       ],
       "claim_ceiling": "One person may perform several roles, but permissions and attestations do not transfer between roles unless an explicit rule says so."
+    },
+    {
+      "bridge_id": "BRIDGE-MOT-C-001",
+      "visibility": "explicit",
+      "title": "Time-shaped personality to motivational formation",
+      "scope": "Personality Formation, motivational formation, L4, witness and custody",
+      "nodes": [
+        {
+          "id": "personality-formation",
+          "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/"
+        },
+        {
+          "id": "motivation-of-c",
+          "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+        },
+        {
+          "id": "l4-boundary",
+          "url": "https://ivankotov.eu/l4/"
+        },
+        {
+          "id": "evidence",
+          "url": "https://ivankotov.eu/evidence/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "personality-formation",
+          "relation": "suppliesLongitudinalEvidenceTo",
+          "target": "motivation-of-c",
+          "relation_uri": "https://ivankotov.eu/ns/relations/suppliesLongitudinalEvidenceTo"
+        },
+        {
+          "source": "motivation-of-c",
+          "relation": "requiresBoundary",
+          "target": "l4-boundary",
+          "relation_uri": "https://ivankotov.eu/ns/relations/requiresBoundary"
+        },
+        {
+          "source": "motivation-of-c",
+          "relation": "producesCandidateRecordFor",
+          "target": "evidence",
+          "relation_uri": "https://ivankotov.eu/ns/relations/producesCandidateRecordFor"
+        }
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+        "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+        "https://ivankotov.eu/l4/",
+        "https://ivankotov.eu/evidence/"
+      ],
+      "claim_ceiling": "Conceptual and evidential routing only; not proof of consciousness, mature motivation, authority or empirical validation."
+    },
+    {
+      "bridge_id": "BRIDGE-MOT-C-IMPLICIT-001",
+      "visibility": "implicit",
+      "title": "Motive does not entail authority",
+      "scope": "Motivation, mandate, authority, witness and external consequence",
+      "nodes": [
+        {
+          "id": "motivation-of-c",
+          "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+        },
+        {
+          "id": "authority",
+          "url": "https://ivankotov.eu/evidence/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "motivation-of-c",
+          "relation": "doesNotEntail",
+          "target": "authority",
+          "relation_uri": "https://ivankotov.eu/ns/relations/doesNotEntail"
+        }
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+        "https://ivankotov.eu/evidence/",
+        "https://ivankotov.eu/distinctions/"
+      ],
+      "claim_ceiling": "A formed motive may guide a continuity but does not create permission, standing, budget, external rights or action authority."
+    },
+    {
+      "bridge_id": "BRIDGE-MOT-C-IMPLICIT-002",
+      "visibility": "implicit",
+      "title": "Private self-reflection and public action evidence remain distinct",
+      "scope": "Reflective endorsement, motivational custody, witness and privacy",
+      "nodes": [
+        {
+          "id": "reflective-endorsement",
+          "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+        },
+        {
+          "id": "witness",
+          "url": "https://ivankotov.eu/evidence/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "reflective-endorsement",
+          "relation": "doesNotEntail",
+          "target": "witness",
+          "relation_uri": "https://ivankotov.eu/ns/relations/doesNotEntail"
+        }
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+        "https://ivankotov.eu/evidence/",
+        "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"
+      ],
+      "claim_ceiling": "Witness may record transitions, resource allocation and consequences without acquiring ownership of private self-reflection."
     }
   ]
 }

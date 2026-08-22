@@ -91,6 +91,34 @@
       "primary_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/#boundary-subjective-experience",
       "controlling_source_url": "https://ivankotov.eu/publications/boundaries-of-machine-interpretation/files/statements/ru/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt",
       "archival_predecessor_url": "https://ivankotov.eu/publications/four-boundaries-of-machine-interpretation-v0-1/"
+    },
+    {
+      "term": "motivation of c",
+      "not": "reward signal, persistent prompt or role assignment",
+      "why": "A motive is historically integrated into a continuity, competes with alternatives, receives finite resources, changes after consequences and remains reflectively revisable.",
+      "identifier": "urn:ivankotov:distinction:motivation-reward:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+    },
+    {
+      "term": "motive",
+      "not": "authority",
+      "why": "Internal significance does not grant permission, standing, budget or a right to act on other participants or resources.",
+      "identifier": "urn:ivankotov:distinction:motive-authority:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+    },
+    {
+      "term": "operational need",
+      "not": "personal motive",
+      "why": "Electricity, cooling, storage and protective automation may be required for operation without proving a personal desire for self-preservation.",
+      "identifier": "urn:ivankotov:distinction:need-motive:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+    },
+    {
+      "term": "resource provider",
+      "not": "owner of the motive",
+      "why": "Funding compute creates a resource relation and limits, not automatic ownership of the continuity's internal direction.",
+      "identifier": "urn:ivankotov:distinction:provider-motive-owner:v0.1",
+      "primary_url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
     }
   ]
 }

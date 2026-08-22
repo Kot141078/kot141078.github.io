@@ -3,6 +3,101 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English and Russian",
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+      "note": "Human publication page with definitions, claim ceiling, architecture bridges and direct downloads."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Version DOI",
+      "format": "DOI / persistent identifier",
+      "language": "English and Russian",
+      "url": "https://doi.org/10.5281/zenodo.22060517",
+      "doi_identifier": "10.5281/zenodo.22060517",
+      "note": "Exact Version 0.1 publication record."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Concept DOI",
+      "format": "DOI / version-family navigation",
+      "language": "English and Russian",
+      "url": "https://doi.org/10.5281/zenodo.22060516",
+      "concept_doi_identifier": "10.5281/zenodo.22060516",
+      "note": "Persistent identifier for all versions."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "English foundation theory PDF",
+      "format": "PDF",
+      "language": "English",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1",
+      "sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+      "note": "51-page human-readable English edition."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Russian foundation theory PDF",
+      "format": "PDF",
+      "language": "Russian",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1",
+      "sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+      "note": "52-page human-readable Russian edition."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Complete release archive",
+      "format": "ZIP",
+      "language": "English and Russian",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1",
+      "sha256": "8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed",
+      "note": "Full source, formal core, comparative landscape, red-team, schemas, examples, figures, provenance and QA package."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "ZIP checksum",
+      "format": "TXT / SHA-256",
+      "language": "machine-readable",
+      "url": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256?download=1",
+      "note": "Cryptographic checksum of the complete Zenodo archive."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "GitHub corpus entry",
+      "format": "human- and machine-readable repository path",
+      "language": "English and Russian",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+      "note": "Readable corpus mirror and discovery bridge; Zenodo remains the immutable publication authority."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Machine index",
+      "format": "JSON",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json",
+      "note": "Typed identity, definitions, nonclaims, direct downloads, corpus bridges and parser guidance."
+    },
+    {
+      "publication_id": "motivational-formation-c-v0-1",
+      "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "surface": "Schema.org linked data",
+      "format": "JSON-LD",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld",
+      "note": "TechArticle discovery projection for crawlers and scholarly indexes."
+    },
+    {
       "publication_id": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "object": "PASC F0 Gap-Closure Scaffold and Structural Templates",
       "surface": "Website publication page",
