@@ -178,7 +178,7 @@ Use the redirect plan in `REDIRECT_PLAN_ADVANCEDGLOBALINTELLIGENCE_EU.md` and co
 - Concept DOI: https://doi.org/10.5281/zenodo.22060516
 - Machine JSON: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json
 - Schema.org JSON-LD: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld
-- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1
+- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1
 - GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1
 - Direct EN PDF: https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1
 - Direct RU PDF: https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1

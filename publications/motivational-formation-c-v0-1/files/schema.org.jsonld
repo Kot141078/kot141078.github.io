@@ -41,7 +41,8 @@
   "sameAs": [
     "https://doi.org/10.5281/zenodo.22060517",
     "https://doi.org/10.5281/zenodo.22060516",
-    "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+    "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+    "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
     "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1"
   ],
   "encoding": [
@@ -87,5 +88,7 @@
     "@type": "CreativeWorkSeries",
     "name": "Project Ester / Advanced Global Intelligence corpus",
     "url": "https://ivankotov.eu/advanced-global-intelligence/"
-  }
+  },
+  "codeRepository": "https://github.com/Kot141078/advanced-global-intelligence",
+  "isBasedOn": "https://doi.org/10.5281/zenodo.22060517"
 }

@@ -14,7 +14,7 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "adea8ae9ca55c5f0c94a55359b8c6664a4e962d104aecc92aaae14f167115fa2",
+    "sha256": "6d43fb2e2d1a9801429fbe600cb3d716d5321094c022c59db7e0cd85b12602db",
     "record_count": 49
   },
   "work_count": 49,
@@ -46,11 +46,11 @@
       },
       "source": {
         "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
-        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
-        "repository_path": null,
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+        "repository_path": "publications/motivational-formation-c-v0-1",
         "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
         "release_tag": "mot-c-v0.1",
-        "commit": null
+        "commit": "35fa9007f61836aed686c0f62404e1ae47301939"
       },
       "licenses": {
         "overall": "CC BY 4.0",

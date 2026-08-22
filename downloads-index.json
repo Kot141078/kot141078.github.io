@@ -76,8 +76,9 @@
       "surface": "GitHub corpus entry",
       "format": "human- and machine-readable repository path",
       "language": "English and Russian",
-      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
-      "note": "Readable corpus mirror and discovery bridge; Zenodo remains the immutable publication authority."
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+      "note": "Tag-pinned readable corpus mirror; Zenodo remains the immutable publication authority.",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1"
     },
     {
       "publication_id": "motivational-formation-c-v0-1",

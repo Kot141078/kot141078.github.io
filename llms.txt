@@ -67,7 +67,7 @@ Latest publication bridge added: 2026-08-22
 - Machine index: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json
 - Schema.org JSON-LD: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld
 - Version DOI: https://doi.org/10.5281/zenodo.22060517
-- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1
+- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1
 - Languages: English, Russian
 - License: CC BY 4.0
 - Core distinction: reward != preference != task != mandate != goal != motive != obligation != authority.

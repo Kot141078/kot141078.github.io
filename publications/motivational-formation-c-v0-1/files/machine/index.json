@@ -23,7 +23,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "human_page": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
   "zenodo_record": "https://zenodo.org/records/22060517",
-  "github_corpus_entry": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "github_corpus_entry": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
   "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
   "definition": "Motivation of c is a historically integrated and reflectively reviewable relation between a particular continuity and a possible future, state, relation, question, creation or avoided outcome that becomes significant enough to receive finite time and resources while remaining open to limitation, suspension, transformation, completion or abandonment.",
   "distinctions": [
@@ -112,5 +112,9 @@
       ]
     }
   ],
-  "authority_rule": "Zenodo controls the immutable deposited release bytes. The website and GitHub are discovery and readable mirror surfaces and must not silently strengthen the publication's claims."
+  "authority_rule": "Zenodo controls the immutable deposited release bytes. The website and GitHub are discovery and readable mirror surfaces and must not silently strengthen the publication's claims.",
+  "github_living_mirror": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "source_tag": "mot-c-v0.1",
+  "source_commit": "35fa9007f61836aed686c0f62404e1ae47301939",
+  "source_commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1"
 }

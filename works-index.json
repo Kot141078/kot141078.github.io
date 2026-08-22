@@ -27,7 +27,7 @@
       "concept_doi": "10.5281/zenodo.22060516",
       "concept_doi_url": "https://doi.org/10.5281/zenodo.22060516",
       "zenodo_record": "https://zenodo.org/records/22060517",
-      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
       "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
       "release_tag": "mot-c-v0.1",
       "date": "2026-08-22",
@@ -95,7 +95,11 @@
           "media_type": "application/ld+json",
           "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld"
         }
-      ]
+      ],
+      "github_living_mirror": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+      "commit": "35fa9007f61836aed686c0f62404e1ae47301939",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
+      "repository_path": "publications/motivational-formation-c-v0-1"
     },
     {
       "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
