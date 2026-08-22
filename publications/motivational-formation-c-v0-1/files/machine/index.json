@@ -1,0 +1,35 @@
+{
+  "schema_version": "mot-c-publication-index.v1",
+  "id": "mot-c-v0-1",
+  "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+  "alternative_title_ru": "Формирование мотивации, рефлексивное признание и custody мотивов у цифровых сущностей класса c: Фундаментальная теория",
+  "version": "0.1",
+  "date_published": "2026-08-22",
+  "resource_type": "technical_note",
+  "author": {"name": "Ivan Kotov", "orcid": "https://orcid.org/0009-0009-6002-9845"},
+  "doi": "10.5281/zenodo.22060517",
+  "doi_url": "https://doi.org/10.5281/zenodo.22060517",
+  "languages": ["en", "ru"],
+  "license": "CC BY 4.0",
+  "human_page": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+  "github_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "claim_boundary": ["does not prove consciousness", "does not prove phenomenal desire", "does not prove free will", "does not establish legal personhood", "does not assert universal motives", "a motive does not create authority", "resource provision does not imply ownership of motive"],
+  "core_distinctions": ["reward != motive", "model preference != motive of c", "task != motive", "mandate != motive", "motive != obligation", "motive != authority", "operational need != personal motive"],
+  "direct_downloads": {
+    "english_pdf": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1",
+    "russian_pdf": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1",
+    "complete_zip": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1",
+    "zip_sha256": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256?download=1"
+  },
+  "machine_surfaces": {
+    "schema_org": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld",
+    "english_markdown": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/MOT_c_Foundation_Theory_v0_1_EN.md",
+    "russian_markdown": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/MOT_c_Foundation_Theory_v0_1_RU.md"
+  },
+  "corpus_bridges": [
+    {"relation": "extends", "target": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/"},
+    {"relation": "bounded_by", "target": "https://ivankotov.eu/l4/"},
+    {"relation": "uses_custody_boundary", "target": "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"},
+    {"relation": "part_of_corpus", "target": "https://ivankotov.eu/advanced-global-intelligence/"}
+  ]
+}
