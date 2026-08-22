@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/#work",
+  "name": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+  "alternativeHeadline": "Формирование мотивации, рефлексивное признание и custody мотивов у цифровых сущностей класса c: Фундаментальная теория",
+  "datePublished": "2026-08-22",
+  "version": "0.1",
+  "author": {"@type": "Person", "name": "Ivan Kotov", "identifier": "https://orcid.org/0009-0009-6002-9845"},
+  "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.22060517", "url": "https://doi.org/10.5281/zenodo.22060517"},
+  "inLanguage": ["en", "ru"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/",
+  "sameAs": ["https://doi.org/10.5281/zenodo.22060517", "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1"],
+  "about": ["c=a+b", "digital entities", "AI motivation", "motivational formation", "reflective endorsement", "motivational custody", "cognitive time", "Temporal AI Presence", "L4", "witness"],
+  "encoding": [
+    {"@type": "MediaObject", "name": "English PDF", "inLanguage": "en", "encodingFormat": "application/pdf", "contentUrl": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_EN.pdf?download=1"},
+    {"@type": "MediaObject", "name": "Russian PDF", "inLanguage": "ru", "encodingFormat": "application/pdf", "contentUrl": "https://zenodo.org/records/22060517/files/MOT_c_Foundation_Theory_v0_1_RU.pdf?download=1"},
+    {"@type": "MediaObject", "name": "Complete release ZIP", "encodingFormat": "application/zip", "contentUrl": "https://zenodo.org/records/22060517/files/MOT_c_v0_1_ZENODO_22060517_FINAL.zip?download=1"}
+  ]
+}
