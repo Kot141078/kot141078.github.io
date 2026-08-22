@@ -8,7 +8,8 @@ Machine entry: [machine-index.json](https://ivankotov.eu/machine-index.json)
 Extended guide: [llms-full.txt](https://ivankotov.eu/llms-full.txt)
 Author: Ivan Kotov
 ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
-Last verified: 2026-08-07
+Last verified (base routing layer): 2026-08-07
+Latest publication bridge added: 2026-08-22
 
 ## Primary machine routes
 
@@ -16,8 +17,8 @@ Last verified: 2026-08-07
 - [Authored-corpus JSON-LD](https://ivankotov.eu/scientific-corpus.jsonld): Schema.org discovery projection.
 - [Canonical term registry](https://ivankotov.eu/term-registry.json): preferred labels, aliases, non-equivalents, sources, and source hashes.
 - [Term-registry JSON-LD](https://ivankotov.eu/term-registry.jsonld): Schema.org DefinedTermSet projection.
-- [Semantic bridge graph](https://ivankotov.eu/semantic-bridges.json): one explicit and three evidence-backed implicit routing bridges.
-- [Public repository inventory](https://ivankotov.eu/public-repositories.json): 18 observed public repositories with snapshot commits and roles.
+- [Semantic bridge graph](https://ivankotov.eu/semantic-bridges.json): evidence-backed routing bridges.
+- [Public repository inventory](https://ivankotov.eu/public-repositories.json): dated observed public repositories with snapshot commits and roles.
 - [Living-corpus index](https://ivankotov.eu/corpus-index.json): current artifact projection.
 - [Living-corpus protocol map](https://ivankotov.eu/corpus-protocol-map.json): protocol-to-artifact relations.
 - [Legacy heterogeneous works source](https://ivankotov.eu/works-index.json): preserved source for the normalized projection.
@@ -60,6 +61,19 @@ Last verified: 2026-08-07
 - Preserve immutable DOI-bound and release-bound bytes. Corrections to discovery metadata do not rewrite frozen artifacts.
 - English translations marked discovery-only are not canonical when a source declares another language authoritative.
 - Repository snapshots in public-repositories.json are observations at last_verified, not permanent identity claims.
+
+## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
+- Human page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
+- Machine index: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json
+- Schema.org JSON-LD: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/schema.org.jsonld
+- Version DOI: https://doi.org/10.5281/zenodo.22060517
+- GitHub corpus entry: https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1
+- Languages: English, Russian
+- License: CC BY 4.0
+- Core distinction: reward != preference != task != mandate != goal != motive != obligation != authority.
+- Social boundary: the payer of computation does not automatically own the motive; a motive does not automatically create a right to another participant's resources.
+- Claim ceiling: does not prove consciousness, phenomenal desire, free will, legal personhood, universal motives, or external authority.
+- Corpus bridge: Personality Formation and Time-Shaped Continuity -> Motivational Formation; bounded by L4, witness, resource grounding, and custody distinctions.
 
 ## PASC Foundation Gate v0.1.1 — Recovery Build 5
 - Human page: https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/
