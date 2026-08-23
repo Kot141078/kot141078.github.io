@@ -2,11 +2,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PAGE = ROOT / "publications" / "index.html"
-MARKER = "<!-- MOT_C_VISIBLE_PUBLICATION_CARD -->"
-NEXT_MARKER = "<!-- PASC_FOUNDATION_GATE_R5 -->"
-TARGET = '<section class="section" id="world-intelligence">'
+MOT_MARKER = "<!-- MOT_C_VISIBLE_PUBLICATION_CARD -->"
+PASC_MARKER = "<!-- PASC_FOUNDATION_GATE_R5 -->"
+WORLD_TARGET = '<section class="section" id="world-intelligence">'
+TECH_SECTION_ID = 'id="recent-technical-publications"'
 
-SECTION = r'''<!-- MOT_C_VISIBLE_PUBLICATION_CARD -->
+MOT_SECTION = r'''<!-- MOT_C_VISIBLE_PUBLICATION_CARD -->
       <section class="section" id="motivational-formation-c-v0-1">
         <div class="section-head">
           <p class="section-label">Latest DOI-backed technical note</p>
@@ -31,23 +32,76 @@ SECTION = r'''<!-- MOT_C_VISIBLE_PUBLICATION_CARD -->
         </div>
       </section>'''
 
+
+def remove_section_by_id(text: str, section_id_fragment: str) -> str:
+    hit = text.find(section_id_fragment)
+    if hit < 0:
+        return text
+    start = text.rfind('<section class="section"', 0, hit)
+    if start < 0:
+        return text
+    end = text.find("</section>", hit)
+    if end < 0:
+        raise RuntimeError(f"Unclosed section containing {section_id_fragment}")
+    return text[:start] + text[end + len("</section>"):]
+
+
 text = PAGE.read_text(encoding="utf-8")
 
-# Remove the earlier card-only insertion if present inside another card-grid.
-if MARKER in text:
-    start = text.index(MARKER)
-    if NEXT_MARKER in text[start:]:
-        end = text.index(NEXT_MARKER, start)
-        text = text[:start] + text[end:]
+# Normalize the MOT-c section so it is always a standalone top-level section.
+if MOT_MARKER in text:
+    start = text.index(MOT_MARKER)
+    section_start = text.find('<section class="section"', start)
+    if section_start >= 0 and section_start - start < 200:
+        section_end = text.find("</section>", section_start)
+        if section_end < 0:
+            raise RuntimeError("Unclosed MOT-c section")
+        text = text[:start] + text[section_end + len("</section>"):]
     else:
-        # If a standalone section already exists, remove it before re-inserting cleanly.
-        section_end = text.find("</section>", start)
-        if section_end >= 0:
-            text = text[:start] + text[section_end + len("</section>"):]
+        next_marker = text.find(PASC_MARKER, start)
+        if next_marker >= 0:
+            text = text[:start] + text[next_marker:]
 
-if TARGET not in text:
-    raise RuntimeError("Could not locate World Intelligence section as insertion anchor")
+# Remove any previously generated technical section before rebuilding it.
+text = remove_section_by_id(text, TECH_SECTION_ID)
 
-text = text.replace(TARGET, SECTION + "\n\n      " + TARGET, 1)
+if WORLD_TARGET not in text:
+    raise RuntimeError("Could not locate World Intelligence section")
+
+# World Intelligence must contain only the book card. Move PASC cards out.
+world_start = text.index(WORLD_TARGET)
+world_end = text.find("</section>", world_start)
+if world_end < 0:
+    raise RuntimeError("Unclosed World Intelligence section")
+world_block = text[world_start:world_end + len("</section>")]
+
+pasc_start = world_block.find(PASC_MARKER)
+book_eyebrow = '<p class="eyebrow">book · v1.1.0 · eight languages</p>'
+book_hit = world_block.find(book_eyebrow)
+if pasc_start < 0 or book_hit < 0:
+    raise RuntimeError("Could not identify PASC cards and World Intelligence book card")
+book_article_start = world_block.rfind('<article class="card">', 0, book_hit)
+if book_article_start < 0:
+    raise RuntimeError("Could not identify World Intelligence book article")
+
+pasc_cards = world_block[pasc_start:book_article_start].rstrip()
+clean_world_block = world_block[:pasc_start] + world_block[book_article_start:]
+text = text[:world_start] + clean_world_block + text[world_end + len("</section>"):]
+
+TECH_SECTION = f'''      <section class="section" id="recent-technical-publications">
+        <div class="section-head">
+          <p class="section-label">Recent technical publications</p>
+          <h2>Post-anchor governance and closure work</h2>
+        </div>
+        <div class="card-grid">
+{pasc_cards}
+        </div>
+      </section>'''
+
+# Place MOT-c first, then recent technical work, then the book section.
+if WORLD_TARGET not in text:
+    raise RuntimeError("World Intelligence section disappeared during normalization")
+text = text.replace(WORLD_TARGET, MOT_SECTION + "\n\n" + TECH_SECTION + "\n\n      " + WORLD_TARGET, 1)
+
 PAGE.write_text(text, encoding="utf-8", newline="\n")
-print("Placed MOT-c as a standalone first visible publication section.")
+print("Normalized Publications layout: MOT-c, recent technical publications, then World Intelligence book section.")
