@@ -18,6 +18,16 @@ SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 ARTIFACT_ID_RE = re.compile(r"^A\d{3}$")
 COMMIT_RE = re.compile(r"^[0-9a-f]{40}$")
 LOCAL_HOST = "ivankotov.eu"
+MOT_C_PUBLICATION_ID = "motivational-formation-c-v0-1"
+MOT_C_REPOSITORY = "https://github.com/Kot141078/advanced-global-intelligence"
+MOT_C_RELEASE_TAG = "mot-c-v0.1"
+MOT_C_SOURCE_COMMIT = "35fa9007f61836aed686c0f62404e1ae47301939"
+MOT_C_REPOSITORY_PATH = f"publications/{MOT_C_PUBLICATION_ID}"
+MOT_C_TAG_SOURCE = f"{MOT_C_REPOSITORY}/tree/{MOT_C_RELEASE_TAG}/{MOT_C_REPOSITORY_PATH}"
+MOT_C_LIVING_SOURCE = f"{MOT_C_REPOSITORY}/tree/main/{MOT_C_REPOSITORY_PATH}"
+MOT_C_COMMIT_SOURCE = f"{MOT_C_REPOSITORY}/tree/{MOT_C_SOURCE_COMMIT}/{MOT_C_REPOSITORY_PATH}"
+MOT_C_RELEASE_URL = f"{MOT_C_REPOSITORY}/releases/tag/{MOT_C_RELEASE_TAG}"
+MOT_C_VERSION_DOI = "https://doi.org/10.5281/zenodo.22060517"
 
 
 class CheckError(RuntimeError):
@@ -229,6 +239,118 @@ def check_repositories() -> None:
         require(item["observed_commit_url"].endswith(item["observed_head_commit"]), f"Observed commit URL mismatch for {item['name']}")
 
 
+def check_mot_c_source_pinning() -> None:
+    def one(records: list[dict], predicate, label: str) -> dict:
+        matches = [record for record in records if predicate(record)]
+        require(len(matches) == 1, f"Expected exactly one MOT-c record in {label}, found {len(matches)}")
+        return matches[0]
+
+    def expect(record: dict, expected: dict[str, object], label: str) -> None:
+        for field, value in expected.items():
+            require(record.get(field) == value, f"MOT-c {label}.{field} is not pinned to the published source")
+
+    work = one(
+        read_json(ROOT / "works-index.json")["works"],
+        lambda record: record.get("id") == MOT_C_PUBLICATION_ID,
+        "works-index.json",
+    )
+    expect(
+        work,
+        {
+            "github": MOT_C_TAG_SOURCE,
+            "github_release_url": MOT_C_RELEASE_URL,
+            "release_tag": MOT_C_RELEASE_TAG,
+            "github_living_mirror": MOT_C_LIVING_SOURCE,
+            "commit": MOT_C_SOURCE_COMMIT,
+            "commit_url": MOT_C_COMMIT_SOURCE,
+            "repository_path": MOT_C_REPOSITORY_PATH,
+        },
+        "works-index",
+    )
+
+    normalized_work = one(
+        read_json(OUTPUTS["works"])["works"],
+        lambda record: record.get("id") == MOT_C_PUBLICATION_ID,
+        OUTPUTS["works"].name,
+    )
+    expect(
+        normalized_work["source"],
+        {
+            "repository_url": MOT_C_REPOSITORY,
+            "repository_detail_url": MOT_C_TAG_SOURCE,
+            "repository_path": MOT_C_REPOSITORY_PATH,
+            "release_url": MOT_C_RELEASE_URL,
+            "release_tag": MOT_C_RELEASE_TAG,
+            "commit": MOT_C_SOURCE_COMMIT,
+        },
+        "normalized-source",
+    )
+
+    library_item = one(
+        read_json(ROOT / "library-index.json")["items"],
+        lambda record: record.get("id") == MOT_C_PUBLICATION_ID,
+        "library-index.json",
+    )
+    expect(
+        library_item,
+        {
+            "repo_url": MOT_C_REPOSITORY,
+            "release_url": MOT_C_RELEASE_URL,
+            "source_url": MOT_C_TAG_SOURCE,
+            "living_source_url": MOT_C_LIVING_SOURCE,
+            "commit_url": MOT_C_COMMIT_SOURCE,
+        },
+        "library-index",
+    )
+
+    download_item = one(
+        read_json(ROOT / "downloads-index.json")["items"],
+        lambda record: record.get("publication_id") == MOT_C_PUBLICATION_ID
+        and record.get("surface") == "GitHub corpus entry",
+        "downloads-index.json",
+    )
+    expect(download_item, {"url": MOT_C_TAG_SOURCE, "commit_url": MOT_C_COMMIT_SOURCE}, "downloads-index")
+
+    publication_machine = read_json(ROOT / MOT_C_REPOSITORY_PATH / "files" / "machine" / "index.json")
+    expect(
+        publication_machine,
+        {
+            "publication_id": MOT_C_PUBLICATION_ID,
+            "github_corpus_entry": MOT_C_TAG_SOURCE,
+            "github_living_mirror": MOT_C_LIVING_SOURCE,
+            "github_release": MOT_C_RELEASE_URL,
+            "source_tag": MOT_C_RELEASE_TAG,
+            "source_commit": MOT_C_SOURCE_COMMIT,
+            "source_commit_url": MOT_C_COMMIT_SOURCE,
+        },
+        "publication-machine-index",
+    )
+
+    linked_data = read_json(ROOT / MOT_C_REPOSITORY_PATH / "files" / "schema.org.jsonld")
+    same_as = linked_data.get("sameAs")
+    require(isinstance(same_as, list), "MOT-c Schema.org sameAs must be an array")
+    require(
+        {MOT_C_TAG_SOURCE, MOT_C_COMMIT_SOURCE, MOT_C_RELEASE_URL} <= set(same_as),
+        "MOT-c Schema.org sameAs lacks stable tag, commit, or release provenance",
+    )
+    expect(
+        linked_data,
+        {"codeRepository": MOT_C_REPOSITORY, "isBasedOn": MOT_C_VERSION_DOI},
+        "schema.org",
+    )
+
+    for relative in ("README.md", "llms.txt", "llms-full.txt", f"{MOT_C_REPOSITORY_PATH}/index.html"):
+        require(
+            MOT_C_TAG_SOURCE in (ROOT / relative).read_text(encoding="utf-8"),
+            f"MOT-c stable tag source is missing from {relative}",
+        )
+
+    for relative in ("index.html", "publications/index.html", "library/index.html", "downloads/index.html"):
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        require(MOT_C_TAG_SOURCE in text, f"MOT-c listing provenance lacks stable tag in {relative}")
+        require(MOT_C_COMMIT_SOURCE in text, f"MOT-c listing provenance lacks stable commit in {relative}")
+
+
 def protocol_payload(path: Path) -> dict:
     payload = read_json(path)
     return payload["data"] if "data" in payload and payload.get("kind") == "protocol_map" else payload
@@ -426,6 +548,7 @@ def main() -> int:
         check_terms,
         check_bridges,
         check_repositories,
+        check_mot_c_source_pinning,
         check_protocol_map,
         check_machine_index,
         check_json_files,
