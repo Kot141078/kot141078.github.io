@@ -37,7 +37,7 @@
         "additionalProperties": false,
         "required": ["bridge_id", "visibility", "title", "scope", "nodes", "edges", "canonical_evidence", "claim_ceiling"],
         "properties": {
-          "bridge_id": {"type": "string", "pattern": "^BRIDGE-(?:IMPLICIT-)?\\d{3}$"},
+          "bridge_id": {"type": "string", "pattern": "^BRIDGE-(?:MOT-C-)?(?:IMPLICIT-)?\\d{3}$"},
           "visibility": {"enum": ["explicit", "implicit"]},
           "title": {"type": "string", "minLength": 1},
           "scope": {"type": "string", "minLength": 1},
