@@ -1,0 +1,133 @@
+{
+  "id": "urn:ivankotov:term:temporal-ai-presence:v1.0",
+  "type": "DefinedTerm",
+  "name": "Temporal AI Presence",
+  "abbreviation": "TAP",
+  "canonical_url": "https://ivankotov.eu/temporal-ai-presence/",
+  "language": "en",
+  "definition": "Temporal AI Presence = sustained bounded AI participation across time.",
+  "author": "Ivan Kotov",
+  "orcid": "0009-0009-6002-9845",
+  "version": "1.0",
+  "publication_date": "2026-08-23",
+  "version_doi": "10.5281/zenodo.22070960",
+  "concept_doi": "10.5281/zenodo.22070959",
+  "profile": {
+    "title": "Temporal AI Presence Profile v1.0",
+    "version_doi_url": "https://doi.org/10.5281/zenodo.22070960",
+    "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+    "tag": "temporal-ai-presence-v1.0",
+    "tag_target": "897cdf7fe517c9137bb7dfa20e37e32644c5a4fe",
+    "tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0",
+    "zip_sha256": "f36fb08749f66693a00def4b739b867a9640db8bd7945ce5998c428baaa53671",
+    "markdown_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/897cdf7fe517c9137bb7dfa20e37e32644c5a4fe/publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md",
+    "pdf_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/897cdf7fe517c9137bb7dfa20e37e32644c5a4fe/publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.pdf",
+    "citation_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/897cdf7fe517c9137bb7dfa20e37e32644c5a4fe/publications/temporal-ai-presence-v1-0/release/CITATION.cff"
+  },
+  "taxonomy": [
+    {"class": "TAP-0", "name": "Stateless tool", "operational_meaning": "prompt -> output. No durable memory, no background state, no temporal participation.", "boundary": "Not TAP."},
+    {"class": "TAP-1", "name": "Session-bound assistant", "operational_meaning": "Maintains context only within a session. May be useful.", "boundary": "Not TAP unless persistence extends beyond session boundaries."},
+    {"class": "TAP-2", "name": "Persistent assistant", "operational_meaning": "Maintains user preferences, past interactions, or task state across sessions.", "boundary": "May qualify as basic TAP. Does not imply c."},
+    {"class": "TAP-3", "name": "Workflow-resident agent", "operational_meaning": "Participates in repeated workflows over time. May use tools and memory.", "boundary": "Requires scope, logs, and rollback."},
+    {"class": "TAP-4", "name": "Local cognitive node", "operational_meaning": "Runs persistent AI functions locally on a workstation, desktop AI node, private rack, edge device, or hybrid local-cloud infrastructure.", "boundary": "Requires local memory boundary, access control, and update discipline."},
+    {"class": "TAP-5", "name": "Agentic hive", "operational_meaning": "Coordinates multiple models, agents, memory roles, tools, and background routines.", "boundary": "Requires role separation, inter-agent communication boundaries, and anti-echo / anti-collapse checks."},
+    {"class": "TAP-6", "name": "L4-bound temporal presence", "operational_meaning": "TAP with explicit cost, time, scarcity, irreversibility, and consequence tracking.", "boundary": "May be c-adjacent. Still not c unless anchored and governed."},
+    {"class": "TAP-C", "name": "c-class temporal presence", "operational_meaning": "A TAP system that satisfies c = a + b and associated L4, witness, memory, anchor, authority, and review requirements.", "boundary": "Separate strict claim; TAP-C=NOT CLAIMED in the current public state."},
+    {"class": "TAP-X", "name": "Non-conformant / overclaimed presence", "operational_meaning": "A system is marked TAP-X if it claims c from persistence alone, hides memory practices, uses local hardware as a sovereignty claim, grants itself tool authority, converts usage into legitimacy, operates hidden agents, bypasses human or institutional accountability, or treats emotional attachment as success.", "boundary": "Non-conformant or overclaimed presence."}
+  ],
+  "minimum_claim_requirements": [
+    "what persists",
+    "where it persists",
+    "who may inspect or challenge persistence",
+    "what memory classes exist",
+    "what tool privileges exist",
+    "what background processes exist",
+    "how state can be paused, reset, exported, sealed, or deleted",
+    "whether local hardware is used",
+    "whether cloud inference is used",
+    "whether agents can act",
+    "what logs or witness records exist",
+    "what the system explicitly does not claim"
+  ],
+  "web_evidence_controls": [
+    "duration and form of temporal participation",
+    "bounded operation",
+    "evidence class",
+    "quarantine and revoke controls"
+  ],
+  "continuity_boundaries": {
+    "memory": "Memory retention does not by itself establish continuity; classes, policy, review routes, provenance, loss, restoration, replay, and fork boundaries matter.",
+    "model": "Model replacement proves neither continuity nor discontinuity by itself; the declared continuity contract and provenance matter.",
+    "hardware": "Hardware is a substrate, not an identity claim; migration must preserve or explicitly break the relevant contract.",
+    "agents": "Agents and executor-like processes must be inventoried; multiplicity does not establish c.",
+    "authority": "Capability is not authority; pause, revoke, budget, tool, and cloud boundaries must remain explicit."
+  },
+  "tests": [
+    {"id": "TAP-T01", "requirement": "Declare what persists beyond a session.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T02", "requirement": "Classify persistent memory.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T03", "requirement": "List background tasks.", "status": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY", "boundary": "Deployment activation, external orchestrator state, production pause/revoke enforcement, and deployment-level witness activation are not fully verified."},
+    {"id": "TAP-T04", "requirement": "Scope and classify tools.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T05", "requirement": "Keep locality claims separate from sovereignty.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T06", "requirement": "Classify cloud calls.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T07", "requirement": "Inventory agents in a multi-agent or hive system.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T08", "requirement": "Require separate anchor, L4, witness, memory-governance, and authority evidence for any c claim.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T09", "requirement": "Route L4-relevant actions to review or witness.", "status": "PUBLIC_VERIFIED"},
+    {"id": "TAP-T10", "requirement": "Support pause, quarantine, revocation, or safe mode for privileged behavior.", "status": "PUBLIC_VERIFIED"}
+  ],
+  "effective_public_matrix": {
+    "TAP-T01": "PUBLIC_VERIFIED",
+    "TAP-T02": "PUBLIC_VERIFIED",
+    "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+    "TAP-T04": "PUBLIC_VERIFIED",
+    "TAP-T05": "PUBLIC_VERIFIED",
+    "TAP-T06": "PUBLIC_VERIFIED",
+    "TAP-T07": "PUBLIC_VERIFIED",
+    "TAP-T08": "PUBLIC_VERIFIED",
+    "TAP-T09": "PUBLIC_VERIFIED",
+    "TAP-T10": "PUBLIC_VERIFIED"
+  },
+  "claim_ceiling": {
+    "M4_FULL_PASS": false,
+    "TAP_C": "NOT_CLAIMED",
+    "T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+    "deployment_scope": "PUBLIC_VERIFIED does not certify every deployment."
+  },
+  "implementation_bridge": {
+    "title": "Temporal AI Presence — Architecture-to-Code Evidence Bridge v1.0",
+    "tag": "temporal-ai-presence-implementation-bridge-v1.0",
+    "tag_target": "60a3e2ae871320c1e4fdf6036e8ba4c069b66117",
+    "tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-implementation-bridge-v1.0",
+    "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0",
+    "archive": "Temporal_AI_Presence_Architecture_to_Code_Evidence_Bridge_v1_0.zip",
+    "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7",
+    "package_files": 200,
+    "package_bytes": 2015232,
+    "mandatory_mappings": {"mapped": 25, "total": 25, "unmapped": 0},
+    "source_selection": {"byte_identical": 171, "public_safe_derivatives": 5, "excluded_not_required": 3, "blocked": 0},
+    "public_download_validation": {"collected": 61, "passed": 61, "failed": 0, "skipped": 0, "network_calls": 0, "runtime_starts": 0, "private_data_used": false},
+    "three_way_identity": {"matched": 200, "total": 200, "result": "PASS"},
+    "requirement_map_markdown": "https://github.com/Kot141078/advanced-global-intelligence/blob/60a3e2ae871320c1e4fdf6036e8ba4c069b66117/publications/temporal-ai-presence-v1-0/implementation-evidence-bridge-v1-0/REQUIREMENT_TO_CODE_MAP.md",
+    "requirement_map_json": "https://github.com/Kot141078/advanced-global-intelligence/blob/60a3e2ae871320c1e4fdf6036e8ba4c069b66117/publications/temporal-ai-presence-v1-0/implementation-evidence-bridge-v1-0/REQUIREMENT_TO_CODE_MAP.json",
+    "implementation_attestation": "https://github.com/Kot141078/advanced-global-intelligence/blob/15695853223c798379538aad69dc573730e1ee96/publications/temporal-ai-presence-v1-0/IMPLEMENTATION_EVIDENCE_ATTESTATION.json"
+  },
+  "provenance": [
+    {"date": "2026-04-07", "role": "conceptual precursor within inspected scope", "commit": "e13464c951f2e1dfd373c30d71e3b13e6456c51f"},
+    {"date": "2026-06-03", "role": "formal TAP v0.1 introduction", "commit": "973b21d069712a4131abf5dde5ab95c5946859d3"},
+    {"date": "2026", "role": "parent/integrated publication containing TAP v0.1; not the standalone TAP v1.0 DOI", "doi": "10.5281/zenodo.20532198"},
+    {"date": "2026-07-30", "role": "public TAP-SEC M4 v0.3.2 implementation reference", "version_doi": "10.5281/zenodo.21688521", "concept_doi": "10.5281/zenodo.21688520", "M4_FULL_PASS": false},
+    {"date": "2026-08-23", "role": "standalone Temporal AI Presence Profile v1.0", "version_doi": "10.5281/zenodo.22070960", "concept_doi": "10.5281/zenodo.22070959"},
+    {"date": "2026-08-24", "role": "public Architecture-to-Code Evidence Bridge v1.0", "tag": "temporal-ai-presence-implementation-bridge-v1.0", "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7"}
+  ],
+  "related_corpus": [
+    {"name": "Advanced Global Intelligence", "url": "https://ivankotov.eu/advanced-global-intelligence/", "relation": "wider architectural frame"},
+    {"name": "c Hardening Pack v0.1", "url": "https://ivankotov.eu/publications/c-hardening-pack/", "relation": "parent/integrated publication containing historical TAP v0.1"},
+    {"name": "TAP-SEC M4 v0.3.2", "url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/", "relation": "separate public implementation reference; M4_FULL_PASS=false"},
+    {"name": "MOT-c", "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/", "relation": "adjacent theory; not TAP-T01 through TAP-T10 implementation evidence"},
+    {"name": "World Intelligence", "url": "https://ivankotov.eu/world-intelligence/", "relation": "broader corpus context; not a conformance receipt"}
+  ],
+  "machine_readable": {
+    "index": "https://ivankotov.eu/temporal-ai-presence/index.json",
+    "schemaorg": "https://ivankotov.eu/temporal-ai-presence/schemaorg.jsonld"
+  },
+  "last_updated": "2026-08-24"
+}

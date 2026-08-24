@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://ivankotov.eu/temporal-ai-presence/#page",
+      "url": "https://ivankotov.eu/temporal-ai-presence/",
+      "name": "Temporal AI Presence",
+      "description": "Temporal AI Presence = sustained bounded AI participation across time.",
+      "inLanguage": "en",
+      "datePublished": "2026-08-24",
+      "dateModified": "2026-08-24",
+      "mainEntity": {"@id": "https://ivankotov.eu/temporal-ai-presence/#term"},
+      "author": {"@id": "https://ivankotov.eu/#ivan-kotov"},
+      "citation": {"@id": "https://doi.org/10.5281/zenodo.22070960"},
+      "isBasedOn": {"@id": "https://doi.org/10.5281/zenodo.22070960"},
+      "subjectOf": {"@id": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0"},
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.22070960",
+        "https://doi.org/10.5281/zenodo.22070959",
+        "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0",
+        "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-implementation-bridge-v1.0"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/temporal-ai-presence/#term",
+      "name": "Temporal AI Presence",
+      "alternateName": "TAP",
+      "description": "Temporal AI Presence = sustained bounded AI participation across time.",
+      "url": "https://ivankotov.eu/temporal-ai-presence/",
+      "inDefinedTermSet": {"@id": "https://ivankotov.eu/term-registry.jsonld#terms"},
+      "subjectOf": [
+        {"@id": "https://doi.org/10.5281/zenodo.22070960"},
+        {"@id": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0"}
+      ],
+      "additionalProperty": [
+        {"@type": "PropertyValue", "name": "TAP-C", "value": "NOT_CLAIMED"},
+        {"@type": "PropertyValue", "name": "M4_FULL_PASS", "value": false},
+        {"@type": "PropertyValue", "name": "TAP-T03", "value": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY"}
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.22070960",
+      "name": "Temporal AI Presence Profile v1.0",
+      "headline": "Temporal AI Presence Profile v1.0",
+      "url": "https://doi.org/10.5281/zenodo.22070960",
+      "datePublished": "2026-08-23",
+      "version": "1.0",
+      "inLanguage": "en",
+      "author": {"@id": "https://ivankotov.eu/#ivan-kotov"},
+      "identifier": [
+        {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.22070960", "url": "https://doi.org/10.5281/zenodo.22070960"},
+        {"@type": "PropertyValue", "propertyID": "Concept DOI", "value": "10.5281/zenodo.22070959", "url": "https://doi.org/10.5281/zenodo.22070959"}
+      ],
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.22070960",
+        "https://doi.org/10.5281/zenodo.22070959",
+        "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0"
+      ],
+      "isPartOf": "https://doi.org/10.5281/zenodo.22070959",
+      "subjectOf": {"@id": "https://ivankotov.eu/temporal-ai-presence/#page"},
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0",
+      "name": "Temporal AI Presence — Architecture-to-Code Evidence Bridge v1.0",
+      "softwareVersion": "1.0",
+      "datePublished": "2026-08-24",
+      "author": {"@id": "https://ivankotov.eu/#ivan-kotov"},
+      "codeRepository": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-implementation-bridge-v1.0/publications/temporal-ai-presence-v1-0/implementation-evidence-bridge-v1-0",
+      "downloadUrl": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/temporal-ai-presence-implementation-bridge-v1.0/Temporal_AI_Presence_Architecture_to_Code_Evidence_Bridge_v1_0.zip",
+      "isBasedOn": {"@id": "https://doi.org/10.5281/zenodo.22070960"},
+      "citation": {"@id": "https://doi.org/10.5281/zenodo.22070960"},
+      "subjectOf": {"@id": "https://ivankotov.eu/temporal-ai-presence/#page"},
+      "identifier": [
+        {"@type": "PropertyValue", "propertyID": "Git tag", "value": "temporal-ai-presence-implementation-bridge-v1.0"},
+        {"@type": "PropertyValue", "propertyID": "Git commit", "value": "60a3e2ae871320c1e4fdf6036e8ba4c069b66117"},
+        {"@type": "PropertyValue", "propertyID": "SHA-256", "value": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7"}
+      ],
+      "license": [
+        "https://www.gnu.org/licenses/agpl-3.0.html",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ivankotov.eu/#ivan-kotov",
+      "name": "Ivan Kotov",
+      "url": "https://ivankotov.eu/about/",
+      "identifier": "https://orcid.org/0009-0009-6002-9845",
+      "sameAs": [
+        "https://orcid.org/0009-0009-6002-9845",
+        "https://github.com/Kot141078"
+      ]
+    }
+  ]
+}
