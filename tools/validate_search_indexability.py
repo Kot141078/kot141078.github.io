@@ -5,7 +5,9 @@ import json
 import re
 import sys
 import xml.etree.ElementTree as ET
+from collections import Counter
 from dataclasses import dataclass, field
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
@@ -65,6 +67,16 @@ EXPECTED_PRIMARY_NAV = {
     "About": f"{SITE}/about/",
     "Contact": f"{SITE}/contact/",
 }
+
+# Normalized-key collisions are forbidden by default. If the corpus ever needs
+# two intentionally distinct canonical records with the same compact key, add
+# the exact normalized key and complete slug set here with a code-review note.
+CANONICAL_TAG_KEY_EXCEPTIONS: dict[str, frozenset[str]] = {}
+JS_REDIRECT_RE = re.compile(
+    r"\b(?:window\.|document\.)?location(?:\.href)?\s*="
+    r"|\b(?:window\.|document\.)?location\.(?:assign|replace)\s*\(",
+    re.IGNORECASE,
+)
 
 # These six legacy Qubit of Hope release/corpus resources were already present
 # in the frozen origin/main sitemap. This iteration neither adds raw assets nor
@@ -163,29 +175,54 @@ class HeadParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.canonicals: list[str] = []
         self.robots: list[str] = []
+        self.meta_refreshes: list[str] = []
         self.json_ld_blocks: list[str] = []
+        self.javascript_blocks: list[str] = []
+        self.javascript_sources: list[str] = []
+        self.javascript_urls: list[str] = []
         self._in_json_ld = False
         self._json_ld_parts: list[str] = []
+        self._in_javascript = False
+        self._javascript_parts: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
         values = {name.lower(): value or "" for name, value in attrs}
-        if tag.lower() == "link" and "canonical" in values.get("rel", "").lower().split():
+        for value in values.values():
+            if value.lstrip().casefold().startswith("javascript:"):
+                self.javascript_urls.append(value)
+        if tag == "link" and "canonical" in values.get("rel", "").lower().split():
             self.canonicals.append(values.get("href", ""))
-        elif tag.lower() == "meta" and values.get("name", "").lower() == "robots":
-            self.robots.append(values.get("content", ""))
-        elif tag.lower() == "script" and values.get("type", "").lower() == "application/ld+json":
-            self._in_json_ld = True
-            self._json_ld_parts = []
+        elif tag == "meta":
+            if values.get("name", "").lower() == "robots":
+                self.robots.append(values.get("content", ""))
+            if values.get("http-equiv", "").lower() == "refresh":
+                self.meta_refreshes.append(values.get("content", ""))
+        elif tag == "script":
+            if values.get("type", "").lower() == "application/ld+json":
+                self._in_json_ld = True
+                self._json_ld_parts = []
+            else:
+                if values.get("src"):
+                    self.javascript_sources.append(values["src"])
+                self._in_javascript = True
+                self._javascript_parts = []
 
     def handle_data(self, data: str) -> None:
         if self._in_json_ld:
             self._json_ld_parts.append(data)
+        if self._in_javascript:
+            self._javascript_parts.append(data)
 
     def handle_endtag(self, tag: str) -> None:
         if tag.lower() == "script" and self._in_json_ld:
             self.json_ld_blocks.append("".join(self._json_ld_parts))
             self._in_json_ld = False
             self._json_ld_parts = []
+        elif tag.lower() == "script" and self._in_javascript:
+            self.javascript_blocks.append("".join(self._javascript_parts))
+            self._in_javascript = False
+            self._javascript_parts = []
 
 
 @dataclass
@@ -518,6 +555,144 @@ def validate_tag_surfaces(locations: set[str]) -> int:
     return len(tag_pages)
 
 
+def normalized_tag_key(value: str) -> str:
+    return re.sub(r"[\s-]+", "", value.casefold())
+
+
+def validate_diary_tag_alias_normalization() -> tuple[int, int, int, int, int]:
+    tags_document = json.loads((ROOT / "diary-tags.json").read_text(encoding="utf-8"))
+    tag_records = tags_document.get("tags")
+    require(isinstance(tag_records, list) and bool(tag_records), "diary-tags.json must contain canonical tag records")
+
+    canonical_by_slug: dict[str, dict[str, object]] = {}
+    canonical_by_name: dict[str, dict[str, object]] = {}
+    normalized_groups: dict[str, set[str]] = {}
+    canonical_pages: set[str] = set()
+    for record in tag_records:
+        require(isinstance(record, dict), "diary-tags.json contains a malformed canonical record")
+        name = record.get("name")
+        slug = record.get("slug")
+        page = record.get("page")
+        require(isinstance(name, str) and bool(name), "Canonical tag name is missing")
+        require(isinstance(slug, str) and bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug)), f"Invalid canonical tag slug: {slug!r}")
+        expected_page = f"{TAG_PREFIX}{slug}/"
+        require(page == expected_page, f"Canonical tag page mismatch: {slug}")
+        require(slug not in canonical_by_slug, f"Duplicate canonical tag slug: {slug}")
+        require(name not in canonical_by_name, f"Duplicate canonical tag name: {name}")
+        require(page not in canonical_pages, f"Duplicate canonical tag page: {page}")
+        canonical_by_slug[slug] = record
+        canonical_by_name[name] = record
+        canonical_pages.add(page)
+
+        key = normalized_tag_key(slug)
+        require(bool(key), f"Canonical tag has an empty normalized key: {slug}")
+        normalized_groups.setdefault(key, set()).add(slug)
+
+        canonical_path = local_page(urlsplit(page).path)
+        require(canonical_path.is_file(), f"Canonical tag page is missing: {page}")
+        canonical_parser = parse_html(canonical_path)
+        require(canonical_parser.canonicals == [page], f"Canonical tag record is not self-canonical: {slug}")
+
+    for key, allowed_slugs in CANONICAL_TAG_KEY_EXCEPTIONS.items():
+        require(key == normalized_tag_key(key), f"Tag-key exception is not normalized: {key}")
+        require(len(allowed_slugs) >= 2, f"Tag-key exception must name at least two slugs: {key}")
+        require(
+            frozenset(normalized_groups.get(key, set())) == allowed_slugs,
+            f"Stale or incomplete tag-key exception {key}: expected {sorted(allowed_slugs)}, "
+            f"observed {sorted(normalized_groups.get(key, set()))}",
+        )
+    for key, slugs in sorted(normalized_groups.items()):
+        if len(slugs) <= 1:
+            continue
+        require(
+            CANONICAL_TAG_KEY_EXCEPTIONS.get(key) == frozenset(slugs),
+            f"Independent canonical tags share normalized key {key!r}: {sorted(slugs)}",
+        )
+
+    map_document = json.loads((ROOT / "diary-tag-map.json").read_text(encoding="utf-8"))
+    map_records = map_document.get("canonical_tags")
+    require(isinstance(map_records, list), "diary-tag-map.json must contain canonical_tags")
+    require(len(map_records) == len(canonical_by_slug), "diary-tag-map canonical record count mismatch")
+    mapped_slugs: set[str] = set()
+    for record in map_records:
+        require(isinstance(record, dict), "diary-tag-map.json contains a malformed record")
+        slug = record.get("slug")
+        require(isinstance(slug, str) and slug in canonical_by_slug, f"Tag map references a non-canonical slug: {slug!r}")
+        require(slug not in mapped_slugs, f"Tag map repeats canonical slug: {slug}")
+        mapped_slugs.add(slug)
+        canonical = canonical_by_slug[slug]
+        require(record.get("tag") == canonical.get("name"), f"Tag map name mismatch: {slug}")
+        require(record.get("page") == canonical.get("page"), f"Tag map page mismatch: {slug}")
+        require(record.get("count") == canonical.get("count"), f"Tag map count mismatch: {slug}")
+        require(record.get("aliases") == canonical.get("aliases"), f"Tag map alias membership mismatch: {slug}")
+    require(mapped_slugs == set(canonical_by_slug), "Tag map omits a canonical slug")
+
+    diary_document = json.loads((ROOT / "diary-index.json").read_text(encoding="utf-8"))
+    diary_items = diary_document.get("items")
+    require(isinstance(diary_items, list) and bool(diary_items), "diary-index.json must contain entry items")
+    membership_counts: Counter[str] = Counter()
+    membership_count = 0
+    for item in diary_items:
+        require(isinstance(item, dict), "diary-index.json contains a malformed entry")
+        entry_tags = item.get("tags")
+        require(isinstance(entry_tags, list), f"Diary entry tags are malformed: {item.get('slug')!r}")
+        for name in entry_tags:
+            require(isinstance(name, str) and name in canonical_by_name, f"Diary entry references a non-canonical tag name: {name!r}")
+            membership_counts[name] += 1
+            membership_count += 1
+
+        page = item.get("page")
+        require(isinstance(page, str) and page.startswith(f"{SITE}/diary/") and page.endswith("/"), f"Diary entry page is malformed: {page!r}")
+        page_path = local_page(urlsplit(page).path)
+        require(page_path.is_file(), f"Diary entry page is missing: {page}")
+
+    for name, canonical in canonical_by_name.items():
+        count = canonical.get("count")
+        require(isinstance(count, int) and count == membership_counts[name], f"Canonical tag membership count mismatch: {name}")
+
+    tag_root = ROOT / "diary" / "tags"
+    legacy_pages = []
+    for path in sorted(tag_root.rglob("index.html")):
+        if path == tag_root / "index.html":
+            continue
+        slug = path.parent.name
+        if slug not in canonical_by_slug:
+            legacy_pages.append(path)
+
+    for path in legacy_pages:
+        rel = path.relative_to(ROOT).as_posix()
+        legacy_url = f"{TAG_PREFIX}{path.parent.name}/"
+        parser = parse_html(path)
+        require(robots_tokens(parser.robots) == {"noindex", "follow"}, f"Legacy tag page lacks noindex, follow: {rel}")
+        require(len(parser.canonicals) == 1, f"Legacy tag page must have exactly one canonical: {rel}")
+        canonical = parser.canonicals[0]
+        require(canonical != legacy_url and canonical in canonical_pages, f"Legacy tag page has an invalid canonical target: {rel}")
+        require(local_page(urlsplit(canonical).path).is_file(), f"Legacy tag canonical target is missing: {rel}")
+        require(not parser.meta_refreshes, f"Legacy tag page uses meta refresh: {rel}")
+        require(not parser.javascript_sources, f"Legacy tag page loads JavaScript redirect-capable code: {rel}")
+        require(not parser.javascript_urls, f"Legacy tag page uses a javascript URL: {rel}")
+        raw = path.read_text(encoding="utf-8")
+        require(JS_REDIRECT_RE.search(raw) is None, f"Legacy tag page contains a JavaScript redirect: {rel}")
+
+    canonical_link_count = 0
+    for path in sorted((ROOT / "diary").rglob("*.html")):
+        rel = path.relative_to(ROOT).as_posix()
+        page_url = f"{SITE}/{rel.removesuffix('index.html')}"
+        raw = path.read_text(encoding="utf-8")
+        for _, href in re.findall(r"<a\b[^>]*\bhref=(['\"])(.*?)\1", raw, flags=re.IGNORECASE | re.DOTALL):
+            target = urljoin(page_url, unescape(href.strip()))
+            parsed = urlsplit(target)
+            if (parsed.hostname or "").casefold() != "ivankotov.eu" or not parsed.path.startswith("/diary/tags/"):
+                continue
+            target_page = f"{SITE}{parsed.path}"
+            if target_page == TAG_PREFIX:
+                continue
+            canonical_link_count += 1
+            require(target_page in canonical_pages, f"Diary surface links to a legacy tag page: {rel} -> {target_page}")
+
+    return len(canonical_by_slug), len(legacy_pages), len(diary_items), membership_count, canonical_link_count
+
+
 def validate_raw_asset_exclusion(locations: set[str]) -> None:
     observed_raw: set[str] = set()
     for url in locations:
@@ -565,6 +740,9 @@ def main() -> int:
     require(len(location_list) == len(set(location_list)), "sitemap.xml contains duplicate locations")
     locations = set(location_list)
     tag_page_count = validate_tag_surfaces(locations)
+    canonical_tag_count, legacy_tag_count, mapped_entry_count, tag_membership_count, canonical_tag_link_count = (
+        validate_diary_tag_alias_normalization()
+    )
     validate_raw_asset_exclusion(locations)
     validate_index_intended_fixtures(locations)
     validate_sitemap_pages_are_indexable(locations)
@@ -576,7 +754,9 @@ def main() -> int:
         f"({len(location_list)} sitemap URLs, 0 tag URLs, {tag_page_count} noindex tag pages, "
         f"{len(INDEX_INTENDED_PATHS)} index-intended fixtures, {diary_post_count} bounded Diary posts, "
         f"{related_card_count} related cards, {protected_post_count} protected post-content hashes, "
-        f"{section_links_count} non-empty section-links containers)"
+        f"{section_links_count} non-empty section-links containers, {canonical_tag_count} unique canonical tags, "
+        f"{legacy_tag_count} retained legacy tag pages, {tag_membership_count} canonical tag memberships "
+        f"across {mapped_entry_count} entries, {canonical_tag_link_count} canonical-only tag links)"
     )
     return 0
 

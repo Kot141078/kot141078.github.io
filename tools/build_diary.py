@@ -357,6 +357,11 @@ def normalize_tag_slug(value: str) -> str:
     return normalized
 
 
+def normalized_tag_key(value: str) -> str:
+    """Collapse only case, spaces, and hyphens for exact alias comparison."""
+    return re.sub(r"[\s-]+", "", value.casefold())
+
+
 DISPLAY_TAG_FAMILIES: tuple[tuple[str, str, tuple[str, ...]], ...] = (
     ("AI Safety", "ai-safety", ("AI Safety", "AISafety", "AIsafety")),
     ("AI Architecture", "ai-architecture", ("AI Architecture", "AIArchitecture")),
@@ -621,6 +626,43 @@ def build_tag_alias_map(curation: CurationConfig) -> dict[str, TagRef]:
         canonical = TagRef(name=item.name, slug=item.slug)
         for alias in item.aliases:
             alias_map[normalize_tag_slug(alias)] = canonical
+    return alias_map
+
+
+def extend_orthographic_tag_aliases(
+    entries: list[Entry],
+    explicit_alias_map: dict[str, TagRef],
+) -> dict[str, TagRef]:
+    """Merge exact orthographic variants after applying explicit curation aliases."""
+    resolved_by_raw_slug: dict[str, TagRef] = {}
+    candidates_by_key: dict[str, list[TagRef]] = defaultdict(list)
+
+    for entry in entries:
+        for raw_tag in entry.raw_tags:
+            resolved = explicit_alias_map.get(raw_tag.slug, raw_tag)
+            resolved_by_raw_slug[raw_tag.slug] = resolved
+            candidates_by_key[normalized_tag_key(resolved.slug)].append(resolved)
+
+    def preference(tag: TagRef) -> tuple[int, int, int, str, str, str]:
+        return (
+            0 if "-" in tag.slug else 1,
+            -tag.slug.count("-"),
+            0 if re.search(r"[\s-]", tag.name) else 1,
+            tag.slug,
+            tag.name.casefold(),
+            tag.name,
+        )
+
+    canonical_by_key = {
+        key: min(candidates, key=preference)
+        for key, candidates in candidates_by_key.items()
+    }
+
+    alias_map = dict(explicit_alias_map)
+    for raw_slug, resolved in resolved_by_raw_slug.items():
+        canonical = canonical_by_key[normalized_tag_key(resolved.slug)]
+        alias_map[raw_slug] = canonical
+        alias_map[resolved.slug] = canonical
     return alias_map
 
 
@@ -2487,7 +2529,8 @@ def update_diary_sitemap(entries: list[Entry], tag_aliases: list[TagAlias]) -> N
 def main() -> None:
     entries = load_entries()
     curation = load_curation(entries)
-    alias_map = build_tag_alias_map(curation)
+    explicit_alias_map = build_tag_alias_map(curation)
+    alias_map = extend_orthographic_tag_aliases(entries, explicit_alias_map)
     entries = normalize_entry_tags(entries, alias_map)
     tags, tag_aliases = build_tag_index(entries, alias_map)
     themes, entry_themes = build_theme_index(entries, curation)
