@@ -1759,6 +1759,7 @@ def render_tags_index(tags: list[TagInfo]) -> str:
             [("Home", SITE_URL), ("Diary", DIARY_URL), ("Tags", DIARY_TAGS_URL)],
         ),
         body_html=body_html,
+        robots="noindex, follow",
     )
 
 
@@ -1806,6 +1807,7 @@ def render_tag_page(tag: TagInfo) -> str:
             [("Home", SITE_URL), ("Diary", DIARY_URL), ("Tags", DIARY_TAGS_URL), (tag.name, tag.url)],
         ),
         body_html=body_html,
+        robots="noindex, follow",
     )
 
 
@@ -1846,7 +1848,7 @@ def render_tag_alias_page(tag_alias: TagAlias) -> str:
             [("Home", SITE_URL), ("Diary", DIARY_URL), ("Tags", DIARY_TAGS_URL), (tag_alias.canonical_name, tag_alias.canonical_url)],
         ),
         body_html=body_html,
-        robots="noindex,follow",
+        robots="noindex, follow",
     )
 
 
@@ -2385,6 +2387,16 @@ def update_diary_sitemap(entries: list[Entry], tag_aliases: list[TagAlias]) -> N
         sitemap, count = sitemap_url_pattern(tag_alias.url).subn("", sitemap)
         if count > 1:
             raise ValueError(f"Duplicate sitemap tag alias URL: {tag_alias.url}")
+
+    # Tag archives remain public navigation surfaces, but they are deliberately
+    # not index-intended. Remove the index and every canonical/legacy tag page
+    # from the sitemap in one source-level, idempotent pass.
+    tag_surface_pattern = re.compile(
+        rf"^[ \t]*<url>\s*<loc>{re.escape(DIARY_TAGS_URL)}[^<]*</loc>"
+        rf"(?:\s*<lastmod>[^<]+</lastmod>)?\s*</url>[ \t]*(?:\r?\n|$)",
+        flags=re.MULTILINE,
+    )
+    sitemap = tag_surface_pattern.sub("", sitemap)
 
     SITEMAP_PATH.write_text(sitemap, encoding="utf-8")
 

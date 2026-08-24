@@ -13,6 +13,7 @@ PYTHON_STEPS = (
     "tools/build_corpus.py",
     "tools/build_machine_layer.py",
     "tools/check_machine_readability.py",
+    "tools/validate_search_indexability.py",
     "tools/check_tap_surface.py",
 )
 
