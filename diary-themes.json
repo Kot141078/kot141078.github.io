@@ -6,7 +6,7 @@
       "title": "AGI / c = a + b / continuity",
       "slug": "agi-c-a-plus-b",
       "description": "Posts that frame AGI as bounded continuity, subjecthood, and coexistence rather than a monolithic cloud intelligence.",
-      "count": 6,
+      "count": 9,
       "page": "https://ivankotov.eu/diary/themes/agi-c-a-plus-b/",
       "items": [
         {
@@ -130,6 +130,127 @@
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agi-advancedglobalintelligence-activity-7445726791408709632-prTD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
+          "title": "What comes after agents?",
+          "date": "2026-02-06",
+          "slug": "what-comes-after-agents",
+          "summary": "A case that agents solve tasks, while a temporal c holds continuity, identity, and presence across time.",
+          "tags": [
+            "Advanced Global Intelligence",
+            "Cybernetics",
+            "Temporal AI",
+            "AI Systems",
+            "Beyond Agents",
+            "Human-Centered AI",
+            "AI Architecture"
+          ],
+          "raw_tags": [
+            "Advanced Global Intelligence",
+            "Cybernetics",
+            "Temporal AI",
+            "AI Systems",
+            "Beyond Agents",
+            "Human Centered AI",
+            "AI Architecture"
+          ],
+          "page": "https://ivankotov.eu/diary/what-comes-after-agents/",
+          "canonical_page": "https://ivankotov.eu/diary/what-comes-after-agents/",
+          "identifier": "urn:ivankotov:diary:what-comes-after-agents",
+          "is_canonical": true,
+          "primary_image": "https://ivankotov.eu/assets/diary/what-comes-after-agents/cover.jpg",
+          "image_alt": "Split illustration of robots and agent labels in a neon city on the left, and a moonlit ocean with glowing letter c on the right.",
+          "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_advancedglobalintelligence-cybernetics-temporalai-activity-7425435583650500608-18iI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        },
+        {
+          "title": "Not every continuity deserves to be called a subject.",
+          "date": "2026-04-23",
+          "slug": "not-every-continuity-deserves-to-be-called-a-subject",
+          "summary": "A note that continuity alone is too weak a signal for subjecthood, and serious ontology needs questions about bounds, memory, pressure, and responsibility.",
+          "tags": [
+            "AI",
+            "AI Architecture",
+            "AI Safety",
+            "Cybernetics",
+            "Systems Thinking",
+            "Digital Entities",
+            "Continuity",
+            "Memory",
+            "Long-Lived AI",
+            "Human AI",
+            "Human-Centered AI",
+            "L4",
+            "Accountability",
+            "Trust",
+            "Identity",
+            "Ontology",
+            "Architectural Safety",
+            "Advanced Global Intelligence",
+            "Sovereign AI",
+            "Decentralized AI",
+            "Future of AI",
+            "AI Governance"
+          ],
+          "raw_tags": [
+            "AI",
+            "Artificial Intelligence",
+            "AI Architecture",
+            "AI Safety",
+            "Cybernetics",
+            "Systems Thinking",
+            "Digital Entities",
+            "Continuity",
+            "Memory",
+            "Long Lived AI",
+            "Human AI",
+            "Human Centered AI",
+            "Reality Boundary",
+            "L4",
+            "Accountability",
+            "Trust",
+            "Identity",
+            "Ontology",
+            "Architectural Safety",
+            "Advanced Global Intelligence",
+            "Sovereign AI",
+            "Decentralized AI",
+            "Future of AI",
+            "AI Governance"
+          ],
+          "page": "https://ivankotov.eu/diary/not-every-continuity-deserves-to-be-called-a-subject/",
+          "canonical_page": "https://ivankotov.eu/diary/not-every-continuity-deserves-to-be-called-a-subject/",
+          "identifier": "urn:ivankotov:diary:not-every-continuity-deserves-to-be-called-a-subject",
+          "is_canonical": true,
+          "primary_image": "https://ivankotov.eu/assets/diary/not-every-continuity-deserves-to-be-called-a-subject/cover.jpg",
+          "image_alt": "A humanoid robot face with one eye socket open and mechanical parts visible, posed between red theater curtains.",
+          "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-artificialintelligence-aiarchitecture-activity-7452612401788710913-7B1M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        },
+        {
+          "title": "The future is not an event. It is a process.",
+          "date": "2026-02-15",
+          "slug": "the-future-is-not-an-event-it-is-a-process",
+          "summary": "A case that AI and human reasoning belong inside an unfolding process under constraints, not a prophecy frame.",
+          "tags": [
+            "Cybernetics",
+            "Systems Thinking",
+            "Human AI",
+            "Cognitive Architecture",
+            "Philosophy of Technology"
+          ],
+          "raw_tags": [
+            "Cybernetics",
+            "Systems Thinking",
+            "Human AI",
+            "Cognitive Architecture",
+            "Philosophy of Technology"
+          ],
+          "page": "https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process/",
+          "canonical_page": "https://ivankotov.eu/diary/the-future-is-not-an-event-it-is-a-process/",
+          "identifier": "urn:ivankotov:diary:the-future-is-not-an-event-it-is-a-process",
+          "is_canonical": true,
+          "primary_image": "https://ivankotov.eu/assets/diary/the-future-is-not-an-event-it-is-a-process/cover.jpg",
+          "image_alt": "Image of a person walking through fog while a handheld device projects a blue grid path across the ground.",
+          "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_cybernetics-systemsthinking-humanai-activity-7428817966928015360-TxTi?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        },
+        {
           "title": "There is a difference between \"digital immortality\" and what I would call post-anchor continuity.",
           "date": "2026-04-17",
           "slug": "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
@@ -197,7 +318,7 @@
       "title": "L4 / SER / governance",
       "slug": "l4-ser-governance",
       "description": "Entries about reality boundaries, review layers, protocol discipline, and governance that stays bounded under pressure.",
-      "count": 6,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/themes/l4-ser-governance/",
       "items": [
         {
@@ -258,6 +379,47 @@
           "primary_image": "https://ivankotov.eu/assets/diary/a-review-layer-can-fail-in-two-opposite-ways/cover.jpg",
           "image_alt": "A bright industrial room with floating dark spheres labeled with states such as partial, deferred, frozen basis, and unresolved around a glass enclosure, with a person at a workstation.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aisafety-cybernetics-activity-7449713401649565696-o4vv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        },
+        {
+          "title": "The next AI risk may not look like rebellion.",
+          "date": "2026-05-09",
+          "slug": "the-next-ai-risk-may-not-look-like-rebellion",
+          "summary": "A note that the next AI safety boundary may be controlled reproduction, inheritance, forks, permissions, and deployment ecology.",
+          "tags": [
+            "AI Safety",
+            "Agentic AI",
+            "AI Architecture",
+            "AI Governance",
+            "DigitalEvolution",
+            "EvolvableAI",
+            "L4",
+            "RealityBoundary",
+            "SER",
+            "Cybernetics",
+            "Systems Thinking",
+            "AI Infrastructure"
+          ],
+          "raw_tags": [
+            "AISafety",
+            "AgenticAI",
+            "AIArchitecture",
+            "AIGovernance",
+            "DigitalEvolution",
+            "EvolvableAI",
+            "L4",
+            "RealityBoundary",
+            "SER",
+            "Cybernetics",
+            "SystemsThinking",
+            "AIInfrastructure"
+          ],
+          "page": "https://ivankotov.eu/diary/the-next-ai-risk-may-not-look-like-rebellion/",
+          "canonical_page": "https://ivankotov.eu/diary/the-next-ai-risk-may-not-look-like-rebellion/",
+          "identifier": "urn:ivankotov:diary:the-next-ai-risk-may-not-look-like-rebellion",
+          "is_canonical": true,
+          "primary_image": "https://ivankotov.eu/assets/diary/the-next-ai-risk-may-not-look-like-rebellion/cover.jpg",
+          "image_alt": "A room containing a transparent illuminated cube, opening into a vast network of connected glass cubes beyond a broken wall.",
+          "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-agenticai-aiarchitecture-activity-7457685778077278208-uhgv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
         },
         {
           "title": "A release is not serious if it lives only in theory.",
@@ -375,7 +537,7 @@
       "title": "Local-first infrastructure",
       "slug": "local-first-infrastructure",
       "description": "Reading path through private compute, revocable cloud use, energy realities, and local-first system design.",
-      "count": 6,
+      "count": 7,
       "page": "https://ivankotov.eu/diary/themes/local-first-infrastructure/",
       "items": [
         {
@@ -601,6 +763,139 @@
           "primary_image": "https://ivankotov.eu/assets/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/cover.jpg",
           "image_alt": "Composite image showing a man jogging in a park while speaking into a headset on the left, and an older man sitting indoors on a phone beside a computer on the right, connected by a large pair of glasses in the center.",
           "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinfrastructure-aiagents-reliability-activity-7435217685241761792-8qLa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        },
+        {
+          "title": "From Better Chat to Stable Presence",
+          "date": "2026-02-07",
+          "slug": "from-better-chat-to-stable-presence",
+          "summary": "A case that stable agent presence requires continuity, constraints, and durable audit trails rather than better chat alone.",
+          "tags": [
+            "Advanced Global Intelligence",
+            "L4",
+            "SER",
+            "AI Safety",
+            "Agentic AI",
+            "Autonomous Agents",
+            "AI Agents",
+            "AI Governance",
+            "AI Compliance",
+            "Risk Management",
+            "Trustworthy AI",
+            "Accountable AI",
+            "Human Oversight",
+            "Transparency",
+            "Explainability",
+            "Auditability",
+            "AI Audit",
+            "AI Assurance",
+            "Audit Trail",
+            "Evidence Trail",
+            "Decision Register",
+            "Provenance",
+            "Identity",
+            "Attribution",
+            "Cryptography",
+            "Security Engineering",
+            "Secure by Design",
+            "AI Act",
+            "RegTech",
+            "GRC",
+            "Systems Architecture",
+            "Distributed Systems",
+            "Edge AI",
+            "Local-first AI",
+            "Confidential AI",
+            "Cybernetics",
+            "Systems Thinking"
+          ],
+          "raw_tags": [
+            "AGI",
+            "Advanced Global Intelligence",
+            "L4",
+            "Reality Boundary",
+            "SER",
+            "SER FED",
+            "AI Safety",
+            "Agentic AI",
+            "Autonomous Agents",
+            "AI Agents",
+            "AI Governance",
+            "AI Compliance",
+            "Risk Management",
+            "Trustworthy AI",
+            "Accountable AI",
+            "Human Oversight",
+            "Transparency",
+            "Explainability",
+            "Auditability",
+            "AI Audit",
+            "AI Assurance",
+            "Audit Trail",
+            "Evidence Trail",
+            "Decision Register",
+            "Provenance",
+            "Identity",
+            "Attribution",
+            "Cryptography",
+            "Security Engineering",
+            "Secure by Design",
+            "EU AI Act",
+            "AI Act",
+            "RegTech",
+            "Governance Risk Compliance",
+            "Systems Architecture",
+            "Distributed Systems",
+            "Edge AI",
+            "On Prem AI",
+            "Confidential AI",
+            "Cybernetics",
+            "Systems Thinking"
+          ],
+          "page": "https://ivankotov.eu/diary/from-better-chat-to-stable-presence/",
+          "canonical_page": "https://ivankotov.eu/diary/from-better-chat-to-stable-presence/",
+          "identifier": "urn:ivankotov:diary:from-better-chat-to-stable-presence",
+          "is_canonical": true,
+          "primary_image": "https://ivankotov.eu/assets/diary/from-better-chat-to-stable-presence/cover.jpg",
+          "image_alt": "Image of a hand switching an electrical breaker, with text about stable presence and a checklist in the background.",
+          "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_agi-advancedglobalintelligence-l4-activity-7425878544322293761-jG05?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+        }
+      ],
+      "editorial": [
+        {
+          "heading": "What local-first means here",
+          "paragraphs": [
+            "Local-first infrastructure, in this reading path, means that the state required for continuity stays under a named operator's control: identity records, durable memory, working files, policy state, and the logs needed to reconstruct what happened. It is more specific than self-hosted AI, which may describe only where inference runs. It is also different from offline isolation. A local-first system can use networks and external models; it does not make those services the sole keeper of continuity.",
+            "That is why the corpus rejects a cloud-only versus garage-only binary. [AI Infrastructure: Why the Future Is Neither Cloud-Only nor Garage-Only](/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/) treats local cores and distributed capacity as different layers: one provides anchoring and control, while the other can provide redundancy, scale, or burst capacity. The practical pattern is a local motor with external services used as revocable oracles, not as an irreplaceable nervous system."
+          ]
+        },
+        {
+          "heading": "Continuity needs a place to persist",
+          "paragraphs": [
+            "The [Theoretical Core of Project Ester](/publications/ester-theoretical-core-v0-1/) treats a controlled local environment as one part of a formation trajectory, not as formation by itself. Local hardware does not create c and does not prove subjecthood. Within [c = a + b](/c-a-plus-b/), infrastructure belongs to the bounded conditions that let origin, responsibility, and continuity remain attributable over time. The relevant question is not whether a model answers from a nearby machine, but whether the same accountable history can survive restarts, provider changes, and ordinary maintenance without being silently replaced.",
+            "The distinction is developed in the corpus entry on [long-lived AI entities](/long-lived-ai-entities/), which separates continuity-bearing entities from disposable sessions and worker agents. [From Better Chat to Stable Presence](/diary/from-better-chat-to-stable-presence/) then turns that distinction into an operational test: continuity, constraints, verified identity, auditable privileges, budgets, and a witness trail must remain coherent beyond one prompt."
+          ]
+        },
+        {
+          "heading": "Boundaries, witnesses, and authority",
+          "paragraphs": [
+            "[L4](/l4/) is relevant because local-first does not mean unconstrained. The reality boundary keeps power, time, energy, cost, access, latency, thermal behavior, and operator authority inside the architecture rather than outside it. The [Kotov Principle of L4-Bound Experience](/kotov-principle-l4-bound-experience/) presents this as an authorial architectural thesis about temporal continuity under real scarcity, not as proof that a particular deployment has achieved it.",
+            "[SER](/ser/) matters only where continuity is carried across time; a witness layer matters where claims and actions must be reconstructed in order. Local custody can make it easier to retain evidence and revoke privileges, but locality alone does not make logs trustworthy or decisions legitimate. Signatures, access boundaries, review, and arbitration remain separate requirements. The [AI governance entry](/ai-governance/) places those requirements beside public evidence and release boundaries.",
+            "The same caution applies to privacy. Keeping raw archives, microphones, photographs, or personal records local reduces one path of exposure, but it does not guarantee selective disclosure or safe use. Those outcomes still depend on explicit privileges, bounded exports, reviewable policy, and fail-closed behavior."
+          ]
+        },
+        {
+          "heading": "The engineering ledger",
+          "paragraphs": [
+            "A home or office node still consumes electricity, produces heat, needs cooling, and eventually needs storage replacement, backups, security updates, and hands-on maintenance. UPS transfer and thermal throttling are operating conditions, not metaphors. Local work may reduce network latency, while an external call adds network, billing, quota, and provider failure modes. Cost includes hardware, power, spares, maintenance time, and the person who holds authority to stop or repair the system. Any workflow able to send messages, spend money, control devices, or rewrite durable state also needs limits before an irreversible action.",
+            "These constraints are why a rack is not a symbol of automatic sovereignty. It is a responsibility surface. Capacity planning, rate and spend budgets, recoverable state, tested shutdown paths, and fail-closed defaults determine whether local continuity is dependable or merely moved to a different point of failure."
+          ]
+        },
+        {
+          "heading": "Claim and evidence boundary",
+          "paragraphs": [
+            "This page is an editorial map of an already published corpus, not a benchmark result, deployment report, certification, or consciousness claim. The entries below contain architecture arguments, release notes, and bounded examples, with origin or repository links where the source post provides them. Local custody does not by itself prove privacy, safety, continuity, independence, or subjecthood.",
+            "For evidence-facing reading, begin with the linked Diary entries and follow their source and release references. Use the cross-corpus pages above to distinguish the continuity concept from the infrastructure that supports it and the governance needed to review it."
+          ]
         }
       ]
     },

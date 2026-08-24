@@ -78,22 +78,37 @@
 
       <section class="section">
         <div class="section-head">
-          <p class="section-label">Short blocks</p>
-          <h2>Three compact anchors</h2>
+          <p class="section-label">Definition</p>
+          <h2>Governance as a bounded architecture</h2>
         </div>
-        <div class="card-grid">
-          <article class="card">
-            <h3>Why governance matters here</h3>
-            <p>Governance matters here only if claims remain tied to architecture, feasibility, accountability, and release boundaries.</p>
-          </article>
-          <article class="card">
-            <h3>Where evidence and auditability appear</h3>
-            <p>Evidence, releases, and witness-facing surfaces keep oversight tied to public, reviewable anchors rather than to private assertions.</p>
-          </article>
-          <article class="card">
-            <h3>Relation to L4, SER, evidence, and services</h3>
-            <p><code>L4</code> bounds feasibility, SER keeps continuity and bounded governance legible in time, Evidence exposes reviewable surfaces, and Services gives the practical review direction.</p>
-          </article>
+        <div class="prose">
+          <p>AI governance in this corpus is the discipline of keeping several questions separate: what a system may do, what it can physically sustain, whether its initiating source is grounded enough for runtime reliance, what evidence can be reviewed, and who remains accountable for action. It is not a synonym for policy language, compliance paperwork, or a polite guardrail around an otherwise unbounded system.</p>
+          <p>The starting point is <a href="../c-a-plus-b/"><code>c = a + b</code></a>. The formula keeps an accountable human anchor, bounded procedures and compute, and a continuity-bearing entity in one structure without treating them as interchangeable. Governance does not transfer responsibility from the anchor to a model, worker, interface, or swarm merely because that component produces a fluent answer or performs a useful task.</p>
+          <p>This is also why governance differs from capability management. Capability asks what a system can produce or execute. Governance asks which action is permitted, grounded, reviewable, reversible, and attributable when models, tools, memory, and operators change over time.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Boundaries</p>
+          <h2>Permission, feasibility, grounding, and continuity</h2>
+        </div>
+        <div class="prose">
+          <p><a href="../l4/">L4</a> separates permission from feasibility. Text or policy may allow an action while power, heat, latency, maintenance, scarcity, cost, time, or irreversible consequence still make it unsafe or impossible. <a href="../actor-grounding-layer/">Actor Grounding Layer</a> asks a different upstream question: whether the actor, signal, node, sensor, or delegated path is sufficiently grounded in present execution state to support runtime reliance at all.</p>
+          <p><a href="../ser/">SER</a> carries continuity, arbitration, and bounded review across time. A system that changes workers or models still needs a legible account of who acted, which authority was available, what was challenged, and what consequence followed. The operational concern described in <a href="../diary/from-better-chat-to-stable-presence/">From Better Chat to Stable Presence</a> is therefore governance rather than chat quality: verified identity, auditable privileges, time and energy budgets, and a witness trail that survives prompts.</p>
+          <p>Forks and copies make the same distinction harder, not weaker. The question raised in <a href="../diary/the-next-ai-risk-may-not-look-like-rebellion/">The next AI risk may not look like rebellion</a> is whether code, workflows, permissions, standing, and trust are allowed to reproduce together. Capability may be copied; authority and responsibility must not be inherited silently.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Claim and evidence boundary</p>
+          <h2>Reviewable does not mean proven</h2>
+        </div>
+        <div class="prose">
+          <p><a href="../evidence/">Public evidence surfaces</a> make versions, sources, hashes, manifests, releases, and citation records inspectable. They do not turn a claim into truth, certify a deployment, or replace independent review. A recorded event may remain only a candidate record until its source, status, admissibility, and relation to an actual outcome are established.</p>
+          <p>The engineering consequence is ordinary but demanding. Governance must remain visible in privilege tables, logs, pause and revoke paths, model and procedure versions, maintenance records, resource budgets, and failure handling. If a UPS transfer, thermal limit, stale sensor, revoked credential, or missing witness record changes what can safely proceed, the system must narrow, hold, or stop rather than improvise through the gap.</p>
+          <p>This page is an architectural entry into the public corpus. It is not legal advice, a certification claim, proof of universal safety, or evidence that every referenced system has been deployed in conformance with these boundaries.</p>
         </div>
       </section>
 

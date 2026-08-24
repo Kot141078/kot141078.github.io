@@ -164,6 +164,28 @@ PROTECTED_POST_CONTENT_SHA256 = {
 POST_CONTENT_START = b'        <div class="post-content">\n'
 POST_CONTENT_END = b'\n        </div>\n        <div class="section-links">'
 
+PRIORITY_CONTEXTUAL_LINK_SOURCES = {
+    "/ai-governance/": ("/topics/", "/publications/article50-transparency-submission/"),
+    "/long-lived-ai-entities/": ("/qubit-state-c/", "/actor-grounding-layer/"),
+    "/qubit-state-c/": ("/long-lived-ai-entities/", "/c-a-plus-b/"),
+    "/kotov-principle-l4-bound-experience/": ("/l4/", "/advanced-global-intelligence/"),
+    "/publications/ester-theoretical-core-v0-1/": ("/start-here/", "/corpus/current-state/"),
+    "/diary/what-comes-after-agents/": ("/corpus-map/", "/diary/themes/agi-c-a-plus-b/"),
+    "/diary/from-better-chat-to-stable-presence/": ("/ai-governance/", "/qubit-state-c/"),
+    "/diary/not-every-continuity-deserves-to-be-called-a-subject/": (
+        "/long-lived-ai-entities/",
+        "/kotov-principle-l4-bound-experience/",
+    ),
+    "/diary/the-future-is-not-an-event-it-is-a-process/": (
+        "/qubit-state-c/",
+        "/diary/themes/agi-c-a-plus-b/",
+    ),
+    "/diary/the-next-ai-risk-may-not-look-like-rebellion/": (
+        "/ai-governance/",
+        "/diary/themes/l4-ser-governance/",
+    ),
+}
+
 
 def require(condition: bool, message: str) -> None:
     if not condition:
@@ -724,6 +746,33 @@ def validate_index_intended_fixtures(locations: set[str]) -> None:
             json.loads(block)
 
 
+def validate_priority_contextual_links(locations: set[str]) -> int:
+    checked = 0
+    for target_path, source_paths in PRIORITY_CONTEXTUAL_LINK_SOURCES.items():
+        require(len(source_paths) >= 2 and len(set(source_paths)) == len(source_paths), f"Priority target lacks two distinct sources: {target_path}")
+        target_url = f"{SITE}{target_path}"
+        require(target_url in locations, f"Priority contextual-link target is not index-intended: {target_path}")
+        for source_path in source_paths:
+            require(source_path != target_path, f"Priority target cannot cite itself: {target_path}")
+            source_url = f"{SITE}{source_path}"
+            require(source_url in locations, f"Contextual-link source is not index-intended: {source_path}")
+            source_page = local_page(source_path)
+            require(source_page.is_file(), f"Contextual-link source page is missing: {source_path}")
+            head = parse_html(source_page)
+            require(head.canonicals == [source_url], f"Contextual-link source is not self-canonical: {source_path}")
+            require("noindex" not in robots_tokens(head.robots), f"Contextual-link source has noindex: {source_path}")
+
+            root = parse_structure(source_page)
+            mains = list(root.descendants("main"))
+            require(len(mains) == 1, f"Contextual-link source must contain exactly one main element: {source_path}")
+            require(
+                any(anchor.text and anchor_url(source_url, anchor) == target_url for anchor in anchor_nodes(mains[0])),
+                f"Contextual link is missing: {source_path} -> {target_path}",
+            )
+            checked += 1
+    return checked
+
+
 def validate_sitemap_pages_are_indexable(locations: set[str]) -> None:
     for url in locations:
         parsed = urlsplit(url)
@@ -745,6 +794,7 @@ def main() -> int:
     )
     validate_raw_asset_exclusion(locations)
     validate_index_intended_fixtures(locations)
+    contextual_link_count = validate_priority_contextual_links(locations)
     validate_sitemap_pages_are_indexable(locations)
     diary_post_count, related_card_count = validate_diary_posts()
     protected_post_count = validate_protected_post_content()
@@ -756,7 +806,8 @@ def main() -> int:
         f"{related_card_count} related cards, {protected_post_count} protected post-content hashes, "
         f"{section_links_count} non-empty section-links containers, {canonical_tag_count} unique canonical tags, "
         f"{legacy_tag_count} retained legacy tag pages, {tag_membership_count} canonical tag memberships "
-        f"across {mapped_entry_count} entries, {canonical_tag_link_count} canonical-only tag links)"
+        f"across {mapped_entry_count} entries, {canonical_tag_link_count} canonical-only tag links, "
+        f"{contextual_link_count} contextual priority links)"
     )
     return 0
 

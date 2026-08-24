@@ -190,11 +190,18 @@ class DisplayTagInfo:
 
 
 @dataclass(frozen=True)
+class ThemeEditorialSection:
+    heading: str
+    paragraphs: list[str]
+
+
+@dataclass(frozen=True)
 class ThemeConfig:
     slug: str
     title: str
     description: str
     entry_slugs: list[str]
+    editorial_sections: list[ThemeEditorialSection]
 
     @property
     def url(self) -> str:
@@ -207,6 +214,7 @@ class ThemeInfo:
     title: str
     description: str
     entries: list[Entry]
+    editorial_sections: list[ThemeEditorialSection]
 
     @property
     def url(self) -> str:
@@ -559,6 +567,66 @@ def validate_entry_slug_list(name: str, slugs: list[str], entry_lookup: dict[str
     return ordered
 
 
+def load_theme_editorial(theme_slug: str, value: object) -> list[ThemeEditorialSection]:
+    if value is None:
+        return []
+    if not isinstance(value, list):
+        raise ValueError(f"Theme {theme_slug} editorial must be a list of sections")
+
+    sections: list[ThemeEditorialSection] = []
+    for section_index, raw_section in enumerate(value, start=1):
+        if not isinstance(raw_section, dict):
+            raise ValueError(f"Theme {theme_slug} editorial section {section_index} must be an object")
+        if set(raw_section) - {"heading", "paragraphs"}:
+            raise ValueError(f"Theme {theme_slug} editorial section {section_index} has unsupported fields")
+
+        heading = raw_section.get("heading")
+        raw_paragraphs = raw_section.get("paragraphs")
+        if not isinstance(heading, str) or not heading.strip():
+            raise ValueError(f"Theme {theme_slug} editorial section {section_index} needs a heading")
+        if not isinstance(raw_paragraphs, list) or not raw_paragraphs:
+            raise ValueError(f"Theme {theme_slug} editorial section {section_index} needs paragraphs")
+
+        paragraphs: list[str] = []
+        for paragraph_index, raw_paragraph in enumerate(raw_paragraphs, start=1):
+            if not isinstance(raw_paragraph, str) or not raw_paragraph.strip():
+                raise ValueError(
+                    f"Theme {theme_slug} editorial section {section_index} "
+                    f"paragraph {paragraph_index} must be non-empty text"
+                )
+
+            link_pattern = re.compile(r"\[([^\[\]]+)\]\(([^()\s]+)\)")
+            for link_match in link_pattern.finditer(raw_paragraph):
+                label, href = link_match.groups()
+                if not label.strip():
+                    raise ValueError(
+                        f"Theme {theme_slug} editorial section {section_index} "
+                        f"paragraph {paragraph_index} has an empty link label"
+                    )
+                if (
+                    not href.startswith("/")
+                    or href.startswith("//")
+                    or any(character in href for character in ('"', "'", "<", ">", "\\"))
+                    or any(ord(character) < 32 for character in href)
+                ):
+                    raise ValueError(
+                        f"Theme {theme_slug} editorial section {section_index} "
+                        f"paragraph {paragraph_index} has an unsafe internal href"
+                    )
+
+            without_links = link_pattern.sub("", raw_paragraph)
+            if "[" in without_links or "]" in without_links:
+                raise ValueError(
+                    f"Theme {theme_slug} editorial section {section_index} "
+                    f"paragraph {paragraph_index} has malformed link syntax"
+                )
+            paragraphs.append(raw_paragraph.strip())
+
+        sections.append(ThemeEditorialSection(heading=heading.strip(), paragraphs=paragraphs))
+
+    return sections
+
+
 def load_curation(entries: list[Entry]) -> CurationConfig:
     if not CURATION_PATH.exists():
         raise ValueError("Diary curation config is missing")
@@ -583,7 +651,16 @@ def load_curation(entries: list[Entry]) -> CurationConfig:
             raise ValueError(f"Duplicate theme slug in _curation.json: {slug}")
         theme_slugs_seen.add(slug)
         theme_entries = validate_entry_slug_list(f"theme:{slug}", item.get("entries", []), entry_lookup)
-        themes.append(ThemeConfig(slug=slug, title=title, description=description, entry_slugs=theme_entries))
+        editorial_sections = load_theme_editorial(slug, item.get("editorial"))
+        themes.append(
+            ThemeConfig(
+                slug=slug,
+                title=title,
+                description=description,
+                entry_slugs=theme_entries,
+                editorial_sections=editorial_sections,
+            )
+        )
 
     alias_owner: dict[str, str] = {}
     tag_aliases: list[CanonicalTagConfig] = []
@@ -760,7 +837,13 @@ def build_theme_index(entries: list[Entry], curation: CurationConfig) -> tuple[l
 
     for theme in curation.themes:
         theme_entries = [entry_lookup[slug] for slug in theme.entry_slugs]
-        info = ThemeInfo(slug=theme.slug, title=theme.title, description=theme.description, entries=theme_entries)
+        info = ThemeInfo(
+            slug=theme.slug,
+            title=theme.title,
+            description=theme.description,
+            entries=theme_entries,
+            editorial_sections=theme.editorial_sections,
+        )
         themes.append(info)
         for entry in theme_entries:
             membership[entry.slug].append(info)
@@ -2059,6 +2142,31 @@ def render_themes_index(themes: list[ThemeInfo]) -> str:
     )
 
 
+def render_theme_editorial(theme: ThemeInfo) -> str:
+    if not theme.editorial_sections:
+        return ""
+
+    section_blocks: list[str] = []
+    for section in theme.editorial_sections:
+        paragraphs = [f"          <p>{render_inline(paragraph)}</p>" for paragraph in section.paragraphs]
+        section_blocks.append(
+            f"""        <div class="theme-editorial-section">
+          <h3>{html.escape(section.heading)}</h3>
+{chr(10).join(paragraphs)}
+        </div>"""
+        )
+
+    return f"""      <section class="section diary-theme-editorial">
+        <div class="section-head">
+          <p class="section-label">Editorial context</p>
+          <h2>Reading this theme</h2>
+        </div>
+{chr(10).join(section_blocks)}
+      </section>
+
+"""
+
+
 def render_theme_page(theme: ThemeInfo) -> str:
     body_html = f"""      <section class="hero">
         <p class="eyebrow">Diary theme</p>
@@ -2067,6 +2175,7 @@ def render_theme_page(theme: ThemeInfo) -> str:
         <p class="diary-note">{theme.count} curated entr{'y' if theme.count == 1 else 'ies'} in this reading path.</p>
       </section>
 
+{render_theme_editorial(theme)}
       <section class="section">
         <div class="section-head">
           <p class="section-label">Theme entries</p>
@@ -2188,21 +2297,31 @@ def make_cornerstones_payload(entries: list[Entry]) -> dict[str, object]:
     }
 
 
+def theme_payload(theme: ThemeInfo) -> dict[str, object]:
+    payload: dict[str, object] = {
+        "title": theme.title,
+        "slug": theme.slug,
+        "description": theme.description,
+        "count": theme.count,
+        "page": theme.url,
+        "items": [entry_payload(entry) for entry in theme.entries],
+    }
+    if theme.editorial_sections:
+        payload["editorial"] = [
+            {
+                "heading": section.heading,
+                "paragraphs": section.paragraphs,
+            }
+            for section in theme.editorial_sections
+        ]
+    return payload
+
+
 def make_themes_payload(themes: list[ThemeInfo]) -> dict[str, object]:
     return {
         "site": SITE_URL,
         "page": DIARY_THEMES_URL,
-        "themes": [
-            {
-                "title": theme.title,
-                "slug": theme.slug,
-                "description": theme.description,
-                "count": theme.count,
-                "page": theme.url,
-                "items": [entry_payload(entry) for entry in theme.entries],
-            }
-            for theme in themes
-        ],
+        "themes": [theme_payload(theme) for theme in themes],
     }
 
 

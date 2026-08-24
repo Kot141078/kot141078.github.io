@@ -90,6 +90,12 @@
           "position": 6,
           "name": "You can't \"take AI away\" anymore. So we need circuit breakers, not slogans.",
           "url": "https://ivankotov.eu/diary/you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "From Better Chat to Stable Presence",
+          "url": "https://ivankotov.eu/diary/from-better-chat-to-stable-presence/"
         }
       ]
     }
@@ -124,8 +130,42 @@
         <p class="eyebrow">Diary theme</p>
         <h1>Local-first infrastructure</h1>
         <p class="lead page-lead">Reading path through private compute, revocable cloud use, energy realities, and local-first system design.</p>
-        <p class="diary-note">6 curated entries in this reading path.</p>
+        <p class="diary-note">7 curated entries in this reading path.</p>
       </section>
+
+      <section class="section diary-theme-editorial">
+        <div class="section-head">
+          <p class="section-label">Editorial context</p>
+          <h2>Reading this theme</h2>
+        </div>
+        <div class="theme-editorial-section">
+          <h3>What local-first means here</h3>
+          <p>Local-first infrastructure, in this reading path, means that the state required for continuity stays under a named operator&#x27;s control: identity records, durable memory, working files, policy state, and the logs needed to reconstruct what happened. It is more specific than self-hosted AI, which may describe only where inference runs. It is also different from offline isolation. A local-first system can use networks and external models; it does not make those services the sole keeper of continuity.</p>
+          <p>That is why the corpus rejects a cloud-only versus garage-only binary. <a href="/diary/ai-infrastructure-why-the-future-is-neither-cloud-only-nor-garage-only/">AI Infrastructure: Why the Future Is Neither Cloud-Only nor Garage-Only</a> treats local cores and distributed capacity as different layers: one provides anchoring and control, while the other can provide redundancy, scale, or burst capacity. The practical pattern is a local motor with external services used as revocable oracles, not as an irreplaceable nervous system.</p>
+        </div>
+        <div class="theme-editorial-section">
+          <h3>Continuity needs a place to persist</h3>
+          <p>The <a href="/publications/ester-theoretical-core-v0-1/">Theoretical Core of Project Ester</a> treats a controlled local environment as one part of a formation trajectory, not as formation by itself. Local hardware does not create c and does not prove subjecthood. Within <a href="/c-a-plus-b/">c = a + b</a>, infrastructure belongs to the bounded conditions that let origin, responsibility, and continuity remain attributable over time. The relevant question is not whether a model answers from a nearby machine, but whether the same accountable history can survive restarts, provider changes, and ordinary maintenance without being silently replaced.</p>
+          <p>The distinction is developed in the corpus entry on <a href="/long-lived-ai-entities/">long-lived AI entities</a>, which separates continuity-bearing entities from disposable sessions and worker agents. <a href="/diary/from-better-chat-to-stable-presence/">From Better Chat to Stable Presence</a> then turns that distinction into an operational test: continuity, constraints, verified identity, auditable privileges, budgets, and a witness trail must remain coherent beyond one prompt.</p>
+        </div>
+        <div class="theme-editorial-section">
+          <h3>Boundaries, witnesses, and authority</h3>
+          <p><a href="/l4/">L4</a> is relevant because local-first does not mean unconstrained. The reality boundary keeps power, time, energy, cost, access, latency, thermal behavior, and operator authority inside the architecture rather than outside it. The <a href="/kotov-principle-l4-bound-experience/">Kotov Principle of L4-Bound Experience</a> presents this as an authorial architectural thesis about temporal continuity under real scarcity, not as proof that a particular deployment has achieved it.</p>
+          <p><a href="/ser/">SER</a> matters only where continuity is carried across time; a witness layer matters where claims and actions must be reconstructed in order. Local custody can make it easier to retain evidence and revoke privileges, but locality alone does not make logs trustworthy or decisions legitimate. Signatures, access boundaries, review, and arbitration remain separate requirements. The <a href="/ai-governance/">AI governance entry</a> places those requirements beside public evidence and release boundaries.</p>
+          <p>The same caution applies to privacy. Keeping raw archives, microphones, photographs, or personal records local reduces one path of exposure, but it does not guarantee selective disclosure or safe use. Those outcomes still depend on explicit privileges, bounded exports, reviewable policy, and fail-closed behavior.</p>
+        </div>
+        <div class="theme-editorial-section">
+          <h3>The engineering ledger</h3>
+          <p>A home or office node still consumes electricity, produces heat, needs cooling, and eventually needs storage replacement, backups, security updates, and hands-on maintenance. UPS transfer and thermal throttling are operating conditions, not metaphors. Local work may reduce network latency, while an external call adds network, billing, quota, and provider failure modes. Cost includes hardware, power, spares, maintenance time, and the person who holds authority to stop or repair the system. Any workflow able to send messages, spend money, control devices, or rewrite durable state also needs limits before an irreversible action.</p>
+          <p>These constraints are why a rack is not a symbol of automatic sovereignty. It is a responsibility surface. Capacity planning, rate and spend budgets, recoverable state, tested shutdown paths, and fail-closed defaults determine whether local continuity is dependable or merely moved to a different point of failure.</p>
+        </div>
+        <div class="theme-editorial-section">
+          <h3>Claim and evidence boundary</h3>
+          <p>This page is an editorial map of an already published corpus, not a benchmark result, deployment report, certification, or consciousness claim. The entries below contain architecture arguments, release notes, and bounded examples, with origin or repository links where the source post provides them. Local custody does not by itself prove privacy, safety, continuity, independence, or subjecthood.</p>
+          <p>For evidence-facing reading, begin with the linked Diary entries and follow their source and release references. Use the cross-corpus pages above to distinguish the continuity concept from the infrastructure that supports it and the governance needed to review it.</p>
+        </div>
+      </section>
+
 
       <section class="section">
         <div class="section-head">
@@ -191,6 +231,16 @@
             <p class="entry-summary">A note that AI dependency is already embedded in daily habits, so safety now depends on constraints, breakers, and local continuity rather than blanket bans.</p>
             <div class="section-links">
               <a href="../../you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-02-07</span>
+            </div>
+            <h3>From Better Chat to Stable Presence</h3>
+            <p class="entry-summary">A case that stable agent presence requires continuity, constraints, and durable audit trails rather than better chat alone.</p>
+            <div class="section-links">
+              <a href="../../from-better-chat-to-stable-presence/">Open entry</a>
             </div>
           </article>
         </div>
