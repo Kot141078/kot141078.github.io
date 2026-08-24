@@ -46,6 +46,47 @@ DIARY_ARCHIVE_URL = "https://ivankotov.eu/diary/archive/"
 DIARY_TAGS_URL = "https://ivankotov.eu/diary/tags/"
 DIARY_START_HERE_URL = "https://ivankotov.eu/diary/start-here/"
 DIARY_THEMES_URL = "https://ivankotov.eu/diary/themes/"
+POST_TAG_LINK_LIMIT = 6
+RELATED_POST_LIMIT = 4
+
+SEMANTIC_STOP_WORDS = {
+    "about",
+    "after",
+    "also",
+    "among",
+    "because",
+    "being",
+    "between",
+    "could",
+    "does",
+    "from",
+    "have",
+    "into",
+    "more",
+    "most",
+    "only",
+    "other",
+    "should",
+    "that",
+    "their",
+    "there",
+    "these",
+    "they",
+    "this",
+    "through",
+    "what",
+    "when",
+    "where",
+    "which",
+    "while",
+    "with",
+    "would",
+}
+
+
+def write_text_lf(path: Path, text: str) -> None:
+    """Write deterministic UTF-8 text without platform newline drift."""
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 # Exact duplicate import retained as a historical route. The non-numbered route
 # is the sole indexable entity; the alias remains reachable and points to it.
@@ -685,45 +726,91 @@ def build_theme_index(entries: list[Entry], curation: CurationConfig) -> tuple[l
     return themes, membership
 
 
-def score_related_entry(entry: Entry, candidate: Entry, entry_themes: dict[str, list[ThemeInfo]]) -> tuple[int, int, int, int]:
-    entry_tags = {tag.slug for tag in entry.tags}
-    candidate_tags = {tag.slug for tag in candidate.tags}
-    shared_tags = len(entry_tags & candidate_tags)
+def semantic_tokens(entry: Entry) -> set[str]:
+    return {
+        token
+        for token in re.findall(r"[a-z0-9]+", f"{entry.title} {entry.summary}".casefold())
+        if len(token) >= 3 and token not in SEMANTIC_STOP_WORDS
+    }
+
+
+def select_primary_tags(entry: Entry) -> list[TagRef]:
+    """Prefer canonical tags supported by the entry title or summary."""
+    context_tokens = semantic_tokens(entry)
+
+    def relevance(item: tuple[int, TagRef]) -> tuple[int, int, int, int]:
+        index, tag = item
+        tag_tokens = {
+            token
+            for token in re.findall(r"[a-z0-9]+", f"{tag.name} {tag.slug}".casefold())
+            if len(token) >= 3 and token not in SEMANTIC_STOP_WORDS
+        }
+        overlap = tag_tokens & context_tokens
+        return (int(bool(overlap)), len(overlap), sum(len(token) for token in overlap), -index)
+
+    ranked = sorted(enumerate(entry.tags), key=relevance, reverse=True)
+    return [tag for _, tag in ranked[:POST_TAG_LINK_LIMIT]]
+
+
+def score_related_entry(
+    entry: Entry,
+    candidate: Entry,
+    entry_themes: dict[str, list[ThemeInfo]],
+    tag_frequency: Counter[str],
+) -> tuple[int, int, int, int, int, int, int]:
+    entry_primary_topics = {tag.slug for tag in select_primary_tags(entry)}
+    candidate_primary_topics = {tag.slug for tag in select_primary_tags(candidate)}
+    shared_primary_topic_slugs = entry_primary_topics & candidate_primary_topics
+    shared_primary_topics = len(shared_primary_topic_slugs)
+    topic_specificity = max((1_000_000 // tag_frequency[tag] for tag in shared_primary_topic_slugs), default=0)
     entry_theme_slugs = {theme.slug for theme in entry_themes.get(entry.slug, [])}
     candidate_theme_slugs = {theme.slug for theme in entry_themes.get(candidate.slug, [])}
     shared_themes = len(entry_theme_slugs & candidate_theme_slugs)
+    semantic_overlap = len(semantic_tokens(entry) & semantic_tokens(candidate))
     days_apart = abs((entry.entry_date - candidate.entry_date).days)
-    time_score = 4 if days_apart == 0 else 3 if days_apart <= 3 else 2 if days_apart <= 14 else 1 if days_apart <= 45 else 0
-    score = shared_tags * 12 + shared_themes * 8 + time_score
-    return score, shared_tags, shared_themes, time_score
+    return (
+        int(bool(shared_themes)),
+        shared_themes,
+        int(bool(shared_primary_topics)),
+        shared_primary_topics,
+        topic_specificity,
+        semantic_overlap,
+        -days_apart,
+    )
 
 
 def build_related_posts(entries: list[Entry], entry_themes: dict[str, list[ThemeInfo]]) -> dict[str, list[Entry]]:
     related: dict[str, list[Entry]] = {}
+    tag_frequency: Counter[str] = Counter(tag.slug for item in entries for tag in item.tags)
 
     for entry in entries:
-        ranked: list[tuple[int, int, int, int, Entry]] = []
+        ranked: list[tuple[int, int, int, int, int, int, int, Entry]] = []
         for candidate in entries:
             if candidate.slug == entry.slug or candidate.title == entry.title:
                 continue
-            score, shared_tags, shared_themes, time_score = score_related_entry(entry, candidate, entry_themes)
-            if score <= 0:
-                continue
-            ranked.append((score, shared_tags, shared_themes, time_score, candidate))
+            score = score_related_entry(entry, candidate, entry_themes, tag_frequency)
+            ranked.append((*score, candidate))
 
-        ranked.sort(key=lambda item: (item[0], item[1], item[2], item[3], item[4].entry_date, item[4].slug), reverse=True)
+        ranked.sort(key=lambda item: (*item[:-1], item[-1].slug), reverse=True)
         selected: list[Entry] = []
         seen_signatures: set[tuple[str, ...]] = set()
-        for _, _, _, _, candidate in ranked:
+        for *_, candidate in ranked:
             signature = tuple(sorted(tag.slug for tag in candidate.tags))
             if signature and signature in seen_signatures:
                 continue
             selected.append(candidate)
             if signature:
                 seen_signatures.add(signature)
-            if len(selected) == 4:
+            if len(selected) == RELATED_POST_LIMIT:
                 break
-        related[entry.slug] = selected[:4]
+        if len(selected) < RELATED_POST_LIMIT:
+            for *_, candidate in ranked:
+                if candidate in selected:
+                    continue
+                selected.append(candidate)
+                if len(selected) == RELATED_POST_LIMIT:
+                    break
+        related[entry.slug] = selected
 
     return related
 
@@ -910,7 +997,7 @@ def render_empty_state(title: str, text: str) -> str:
 """
 
 
-def render_entry_card(entry: Entry, *, asset_prefix: str, entry_href: str, tag_prefix: str, include_image: bool) -> str:
+def render_entry_card(entry: Entry, *, asset_prefix: str, entry_href: str, include_image: bool) -> str:
     image_html = ""
     if include_image and entry.primary_image:
         image_html = f"""
@@ -918,20 +1005,13 @@ def render_entry_card(entry: Entry, *, asset_prefix: str, entry_href: str, tag_p
               <img src="{html.escape(asset_prefix + entry.primary_image)}" alt="{html.escape(entry.image_alt or entry.title)}">
             </div>
 """
-    tag_links = ""
-    if entry.tags:
-        tag_items = "".join(
-            f'              <a href="{html.escape(tag_prefix + tag.slug + "/")}">{html.escape(tag.name)}</a>\n'
-            for tag in entry.tags
-        )
-        tag_links = "            <div class=\"section-links\">\n" + tag_items + "            </div>\n"
     return f"""          <article class="entry-card">
 {image_html}            <div class="entry-meta">
               <span>{entry.date_iso}</span>
             </div>
             <h3>{html.escape(entry.title)}</h3>
             <p class="entry-summary">{html.escape(entry.summary)}</p>
-{tag_links}            <div class="section-links">
+            <div class="section-links">
               <a href="{html.escape(entry_href)}">Open entry</a>
             </div>
           </article>"""
@@ -942,7 +1022,6 @@ def render_entry_collection(
     *,
     asset_prefix: str,
     entry_prefix: str,
-    tag_prefix: str,
     include_image: bool,
     limit: int | None = None,
     wrapper_class: str = "entry-list",
@@ -953,7 +1032,6 @@ def render_entry_collection(
             entry,
             asset_prefix=asset_prefix,
             entry_href=f"{entry_prefix}{entry.slug}/",
-            tag_prefix=tag_prefix,
             include_image=include_image,
         )
         for entry in selected
@@ -1098,11 +1176,18 @@ def render_cornerstones(entries: list[Entry], tag_slug_lookup: dict[str, TagInfo
 
 
 def render_start_here_cards(
-    entries: list[Entry], *, asset_prefix: str, entry_prefix: str, tag_prefix: str, tag_slug_lookup: dict[str, TagInfo] | None = None
+    entries: list[Entry],
+    *,
+    asset_prefix: str,
+    entry_prefix: str,
+    tag_prefix: str | None = None,
+    tag_slug_lookup: dict[str, TagInfo] | None = None,
 ) -> str:
     if not entries:
         return render_empty_state("No start-here entries were configured.", "The start-here surface appears only after curated entry slugs are selected.")
     if tag_slug_lookup is not None:
+        if tag_prefix is None:
+            raise ValueError("Landing start-here cards require a tag prefix")
         return render_landing_entry_collection(
             entries,
             asset_prefix=asset_prefix,
@@ -1119,7 +1204,6 @@ def render_start_here_cards(
         entries,
         asset_prefix=asset_prefix,
         entry_prefix=entry_prefix,
-        tag_prefix=tag_prefix,
         include_image=True,
         limit=None,
         wrapper_class="archive-grid",
@@ -1332,7 +1416,7 @@ def group_entries_by_month(entries: list[Entry]) -> list[tuple[str, list[Entry]]
     return labeled
 
 
-def render_archive_groups(entries: list[Entry], *, asset_prefix: str, entry_prefix: str, tag_prefix: str) -> str:
+def render_archive_groups(entries: list[Entry], *, asset_prefix: str, entry_prefix: str) -> str:
     if not entries:
         return render_empty_state(
             "Archive chronology is empty.",
@@ -1346,7 +1430,6 @@ def render_archive_groups(entries: list[Entry], *, asset_prefix: str, entry_pref
                 entry,
                 asset_prefix=asset_prefix,
                 entry_href=f"{entry_prefix}{entry.slug}/",
-                tag_prefix=tag_prefix,
                 include_image=False,
             )
             for entry in month_entries
@@ -1417,7 +1500,7 @@ def render_gallery(entry: Entry) -> str:
 """ 
 
 
-def render_related_posts(entry: Entry, related_entries: list[Entry]) -> str:
+def render_related_posts(related_entries: list[Entry]) -> str:
     if not related_entries:
         return ""
     cards = [
@@ -1425,17 +1508,16 @@ def render_related_posts(entry: Entry, related_entries: list[Entry]) -> str:
             item,
             asset_prefix="../../",
             entry_href=f"../{item.slug}/",
-            tag_prefix="../tags/",
             include_image=False,
         )
-        for item in related_entries[:4]
+        for item in related_entries[:RELATED_POST_LIMIT]
     ]
     return f"""
       <section class="section">
         <div class="section-head">
           <p class="section-label">Related posts</p>
           <h2>Continue from here</h2>
-          <p class="diary-note">Related by normalized tags, curated themes, and nearby chronology.</p>
+          <p class="diary-note">Curated themes and canonical topics lead; semantic fit follows, with chronology used only as a fallback.</p>
         </div>
         <div class="entry-list">
 {chr(10).join(cards)}
@@ -1698,7 +1780,7 @@ def render_archive_page(entries: list[Entry]) -> str:
         </div>
       </section>
 
-{render_archive_groups(entries, asset_prefix='../../', entry_prefix='../', tag_prefix='../tags/')}
+{render_archive_groups(entries, asset_prefix='../../', entry_prefix='../')}
 """
 
     return render_document(
@@ -1780,7 +1862,7 @@ def render_tag_page(tag: TagInfo) -> str:
           <h2>Entries linked to {html.escape(tag.name)}</h2>
         </div>
         <div class="entry-list">
-{chr(10).join(render_entry_card(entry, asset_prefix='../../../', entry_href='../../' + entry.slug + '/', tag_prefix='../', include_image=False) for entry in tag.entries)}
+{chr(10).join(render_entry_card(entry, asset_prefix='../../../', entry_href='../../' + entry.slug + '/', include_image=False) for entry in tag.entries)}
         </div>
         <div class="section-links">
           <a href="../">Back to tags</a>
@@ -1864,7 +1946,7 @@ def render_start_here_page(entries: list[Entry]) -> str:
           <p class="section-label">Starting posts</p>
           <h2>First path into the archive</h2>
         </div>
-{render_start_here_cards(entries, asset_prefix='../../', entry_prefix='../', tag_prefix='../tags/')}
+{render_start_here_cards(entries, asset_prefix='../../', entry_prefix='../')}
         <p class="diary-note">These are not “best posts”, but a practical entry path into the archive.</p>
         <div class="section-links">
           <a href="../archive/">Open archive</a>
@@ -1948,7 +2030,7 @@ def render_theme_page(theme: ThemeInfo) -> str:
           <p class="section-label">Theme entries</p>
           <h2>{html.escape(theme.title)}</h2>
         </div>
-{render_entry_collection(theme.entries, asset_prefix='../../../', entry_prefix='../../', tag_prefix='../../tags/', include_image=False, limit=None, wrapper_class='entry-list')}
+{render_entry_collection(theme.entries, asset_prefix='../../../', entry_prefix='../../', include_image=False, limit=None, wrapper_class='entry-list')}
         <div class="section-links">
           <a href="../">Back to themes</a>
           <a href="../../start-here/">Open Start here</a>
@@ -1989,7 +2071,10 @@ def render_post_page(entry: Entry, related_entries: list[Entry]) -> str:
 """
     tag_links = ""
     if entry.tags:
-        items = "".join(f'          <a href="../tags/{html.escape(tag.slug)}/">{html.escape(tag.name)}</a>\n' for tag in entry.tags)
+        items = "".join(
+            f'          <a href="../tags/{html.escape(tag.slug)}/">{html.escape(tag.name)}</a>\n'
+            for tag in select_primary_tags(entry)
+        )
         tag_links = "        <div class=\"section-links\">\n" + items + "        </div>\n"
     linkedin_html = ""
     if entry.linkedin_url:
@@ -2015,7 +2100,7 @@ def render_post_page(entry: Entry, related_entries: list[Entry]) -> str:
         </div>
       </section>
 {render_gallery(entry)}
-{render_related_posts(entry, related_entries)}"""
+{render_related_posts(related_entries)}"""
 
     return render_document(
         title=f"{entry.title} | Diary | Ivan Kotov",
@@ -2188,7 +2273,7 @@ def write_feed(entries: list[Entry]) -> None:
             "",
         ]
     )
-    DIARY_FEED_XML.write_text(rss, encoding="utf-8")
+    write_text_lf(DIARY_FEED_XML, rss)
 
 
 def wipe_generated_diary_tree() -> None:
@@ -2208,47 +2293,45 @@ def write_diary_outputs(
 ) -> None:
     wipe_generated_diary_tree()
 
-    (DIARY_DIR / "index.html").write_text(
-        render_diary_index(entries, tags, start_here_entries, cornerstone_entries, themes), encoding="utf-8"
+    write_text_lf(
+        DIARY_DIR / "index.html",
+        render_diary_index(entries, tags, start_here_entries, cornerstone_entries, themes),
     )
 
     archive_dir = DIARY_DIR / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
-    (archive_dir / "index.html").write_text(render_archive_page(entries), encoding="utf-8")
+    write_text_lf(archive_dir / "index.html", render_archive_page(entries))
 
     start_here_dir = DIARY_DIR / "start-here"
     start_here_dir.mkdir(parents=True, exist_ok=True)
-    (start_here_dir / "index.html").write_text(render_start_here_page(start_here_entries), encoding="utf-8")
+    write_text_lf(start_here_dir / "index.html", render_start_here_page(start_here_entries))
 
     themes_dir = DIARY_DIR / "themes"
     themes_dir.mkdir(parents=True, exist_ok=True)
-    (themes_dir / "index.html").write_text(render_themes_index(themes), encoding="utf-8")
+    write_text_lf(themes_dir / "index.html", render_themes_index(themes))
     for theme in themes:
         theme_dir = themes_dir / theme.slug
         theme_dir.mkdir(parents=True, exist_ok=True)
-        (theme_dir / "index.html").write_text(render_theme_page(theme), encoding="utf-8")
+        write_text_lf(theme_dir / "index.html", render_theme_page(theme))
 
     tags_dir = DIARY_DIR / "tags"
     tags_dir.mkdir(parents=True, exist_ok=True)
-    (tags_dir / "index.html").write_text(render_tags_index(tags), encoding="utf-8")
+    write_text_lf(tags_dir / "index.html", render_tags_index(tags))
 
     for tag in tags:
         tag_dir = tags_dir / tag.slug
         tag_dir.mkdir(parents=True, exist_ok=True)
-        (tag_dir / "index.html").write_text(render_tag_page(tag), encoding="utf-8")
+        write_text_lf(tag_dir / "index.html", render_tag_page(tag))
 
     for tag_alias in tag_aliases:
         tag_dir = tags_dir / tag_alias.slug
         tag_dir.mkdir(parents=True, exist_ok=True)
-        (tag_dir / "index.html").write_text(render_tag_alias_page(tag_alias), encoding="utf-8")
+        write_text_lf(tag_dir / "index.html", render_tag_alias_page(tag_alias))
 
     for entry in entries:
         target_dir = DIARY_DIR / entry.slug
         target_dir.mkdir(parents=True, exist_ok=True)
-        (target_dir / "index.html").write_text(
-            render_post_page(entry, related_posts.get(entry.slug, [])),
-            encoding="utf-8",
-        )
+        write_text_lf(target_dir / "index.html", render_post_page(entry, related_posts.get(entry.slug, [])))
 
 
 def write_machine_readable(
@@ -2259,33 +2342,33 @@ def write_machine_readable(
     themes: list[ThemeInfo],
 ) -> None:
     index_payload = make_index_payload(entries)
-    DIARY_INDEX_JSON.write_text(json.dumps(index_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_text_lf(DIARY_INDEX_JSON, json.dumps(index_payload, ensure_ascii=False, indent=2) + "\n")
 
     latest_payload = {
         "site": SITE_URL,
         "page": DIARY_URL,
         "item": index_payload["latest"],
     }
-    DIARY_LATEST_JSON.write_text(json.dumps(latest_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_text_lf(DIARY_LATEST_JSON, json.dumps(latest_payload, ensure_ascii=False, indent=2) + "\n")
 
     tags_payload = make_tags_payload(tags)
-    DIARY_TAGS_JSON.write_text(json.dumps(tags_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_text_lf(DIARY_TAGS_JSON, json.dumps(tags_payload, ensure_ascii=False, indent=2) + "\n")
 
-    DIARY_START_HERE_JSON.write_text(
+    write_text_lf(
+        DIARY_START_HERE_JSON,
         json.dumps(make_start_here_payload(start_here_entries), ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
-    DIARY_THEMES_JSON.write_text(
+    write_text_lf(
+        DIARY_THEMES_JSON,
         json.dumps(make_themes_payload(themes), ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
-    DIARY_CORNERSTONES_JSON.write_text(
+    write_text_lf(
+        DIARY_CORNERSTONES_JSON,
         json.dumps(make_cornerstones_payload(cornerstone_entries), ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
-    DIARY_TAG_MAP_JSON.write_text(
+    write_text_lf(
+        DIARY_TAG_MAP_JSON,
         json.dumps(make_tag_map_payload(tags), ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
 
     write_feed(entries)
@@ -2349,7 +2432,7 @@ def update_home_slot() -> None:
     replacement = HOME_SLOT_START + "\n" + slot_html + "\n      " + HOME_SLOT_END
     pattern = re.compile(re.escape(HOME_SLOT_START) + r".*?" + re.escape(HOME_SLOT_END), re.DOTALL)
     updated = pattern.sub(replacement, home, count=1)
-    HOME_PATH.write_text(updated, encoding="utf-8")
+    write_text_lf(HOME_PATH, updated)
 
 
 def sitemap_url_pattern(url: str) -> re.Pattern[str]:
@@ -2398,7 +2481,7 @@ def update_diary_sitemap(entries: list[Entry], tag_aliases: list[TagAlias]) -> N
     )
     sitemap = tag_surface_pattern.sub("", sitemap)
 
-    SITEMAP_PATH.write_text(sitemap, encoding="utf-8")
+    write_text_lf(SITEMAP_PATH, sitemap)
 
 
 def main() -> None:
