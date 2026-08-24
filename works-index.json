@@ -13,6 +13,112 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "temporal-ai-presence-v1-0",
+      "title": "Temporal AI Presence Profile v1.0",
+      "type": "publication",
+      "subtype": "technical_note",
+      "role": "standalone profile for sustained bounded AI participation across time",
+      "primary_url": "https://ivankotov.eu/temporal-ai-presence/",
+      "identifier": "urn:ivankotov:publication:temporal-ai-presence:v1.0",
+      "doi": "10.5281/zenodo.22070960",
+      "doi_url": "https://doi.org/10.5281/zenodo.22070960",
+      "version_doi": "10.5281/zenodo.22070960",
+      "concept_doi": "10.5281/zenodo.22070959",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+      "zenodo_record": "https://zenodo.org/records/22070960",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0/publications/temporal-ai-presence-v1-0/release",
+      "tag": "temporal-ai-presence-v1.0",
+      "tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0",
+      "commit": "897cdf7fe517c9137bb7dfa20e37e32644c5a4fe",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/897cdf7fe517c9137bb7dfa20e37e32644c5a4fe",
+      "date": "2026-08-23",
+      "version": "1.0",
+      "status": "published-standalone-profile-with-public-implementation-evidence",
+      "language": "en",
+      "resource_type": "Technical note",
+      "license": "CC BY 4.0",
+      "definition": "Temporal AI Presence = sustained bounded AI participation across time.",
+      "tap_c_relation": [
+        "Temporal AI Presence is not c by default.",
+        "All valid c-class systems are Temporal AI Presences.",
+        "Not all Temporal AI Presences are c-class systems."
+      ],
+      "canonical_artifacts": [
+        {
+          "format": "Markdown",
+          "filename": "Temporal_AI_Presence_Profile_v1_0.md",
+          "media_type": "text/markdown",
+          "sha256": "eb90c28e4f3f564fccd6a9f5f7c87246eac0cf687917330523561af12e287ce9",
+          "url": "https://zenodo.org/records/22070960/files/Temporal_AI_Presence_Profile_v1_0.md?download=1"
+        },
+        {
+          "format": "PDF",
+          "filename": "Temporal_AI_Presence_Profile_v1_0.pdf",
+          "media_type": "application/pdf",
+          "sha256": "04e3f33a96690a8801e4a8fc398b555f67bf1abffe0cf9d5c8662c404dc18db8",
+          "url": "https://zenodo.org/records/22070960/files/Temporal_AI_Presence_Profile_v1_0.pdf?download=1"
+        },
+        {
+          "format": "ZIP",
+          "filename": "Temporal_AI_Presence_v1_0_Zenodo_Release.zip",
+          "media_type": "application/zip",
+          "sha256": "f36fb08749f66693a00def4b739b867a9640db8bd7945ce5998c428baaa53671",
+          "url": "https://zenodo.org/records/22070960/files/Temporal_AI_Presence_v1_0_Zenodo_Release.zip?download=1"
+        }
+      ],
+      "implementation_evidence_bridge": {
+        "title": "Temporal AI Presence — Architecture-to-Code Evidence Bridge v1.0",
+        "scope": [
+          "TAP-T02",
+          "TAP-T06",
+          "TAP-T07",
+          "TAP-T08"
+        ],
+        "tag": "temporal-ai-presence-implementation-bridge-v1.0",
+        "tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-implementation-bridge-v1.0",
+        "commit": "60a3e2ae871320c1e4fdf6036e8ba4c069b66117",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0",
+        "archive": "Temporal_AI_Presence_Architecture_to_Code_Evidence_Bridge_v1_0.zip",
+        "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7",
+        "attestation_commit": "15695853223c798379538aad69dc573730e1ee96",
+        "attestation_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/15695853223c798379538aad69dc573730e1ee96/publications/temporal-ai-presence-v1-0/IMPLEMENTATION_EVIDENCE_ATTESTATION.md",
+        "validation": {
+          "three_way_identity": "PASS",
+          "offline_validation": "61/61 PASS",
+          "network_calls": 0,
+          "runtime_starts": 0,
+          "private_data_used": false
+        },
+        "license_code": "AGPL-3.0-or-later",
+        "license_docs": "CC BY 4.0"
+      },
+      "effective_public_matrix": {
+        "TAP-T01": "PUBLIC_VERIFIED",
+        "TAP-T02": "PUBLIC_VERIFIED",
+        "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+        "TAP-T04": "PUBLIC_VERIFIED",
+        "TAP-T05": "PUBLIC_VERIFIED",
+        "TAP-T06": "PUBLIC_VERIFIED",
+        "TAP-T07": "PUBLIC_VERIFIED",
+        "TAP-T08": "PUBLIC_VERIFIED",
+        "TAP-T09": "PUBLIC_VERIFIED",
+        "TAP-T10": "PUBLIC_VERIFIED"
+      },
+      "TAP-T03_remaining_boundary": "Deployment activation, external orchestrator state, production pause/revoke enforcement, and deployment-level witness activation are not fully verified.",
+      "M4_FULL_PASS": false,
+      "TAP-C": "NOT CLAIMED",
+      "summary": "Standalone Temporal AI Presence profile with a public, immutable and offline-reproducible Architecture-to-Code Evidence Bridge for TAP-T02, TAP-T06, TAP-T07 and TAP-T08. TAP-T03 remains partial with an explicit deployment-external boundary.",
+      "non_claims": [
+        "consciousness, sentience or personhood",
+        "sovereignty, legal status or moral status",
+        "full c conformance or TAP-C",
+        "full M4 pass",
+        "full deployment conformance or production readiness",
+        "universal safety",
+        "that one reference implementation defines Temporal AI Presence"
+      ]
+    },
+    {
       "id": "motivational-formation-c-v0-1",
       "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
       "alternative_title": "Формирование мотивации, рефлексивное признание и custody мотивов у цифровых сущностей класса c: Фундаментальная теория",

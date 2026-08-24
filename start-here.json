@@ -23,6 +23,11 @@
       "role": "canonical architecture formula"
     },
     {
+      "title": "Temporal AI Presence Profile v1.0",
+      "url": "https://ivankotov.eu/temporal-ai-presence/",
+      "role": "canonical profile for sustained bounded AI participation across time, with public implementation evidence and an explicit deployment-external TAP-T03 boundary"
+    },
+    {
       "title": "L4",
       "url": "https://ivankotov.eu/l4/",
       "role": "feasibility and reality boundary"

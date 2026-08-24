@@ -632,6 +632,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/temporal-ai-presence-v1-0",
+      "termCode": "temporal-ai-presence-v1-0",
+      "name": "Temporal AI Presence Profile v1.0",
+      "alternateName": [],
+      "description": "Standalone TAP profile with public architecture-to-code evidence for TAP-T02, TAP-T06, TAP-T07 and TAP-T08; deployment-external TAP-T03 remains partial.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/temporal-ai-presence/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/what-is-running",
       "termCode": "what-is-running",
       "name": "What is running",

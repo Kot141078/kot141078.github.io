@@ -9,7 +9,7 @@ Extended guide: [llms-full.txt](https://ivankotov.eu/llms-full.txt)
 Author: Ivan Kotov
 ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 Last verified (base routing layer): 2026-08-07
-Latest publication bridge added: 2026-08-22
+Latest publication bridge added: 2026-08-24
 
 ## Primary machine routes
 
@@ -61,6 +61,18 @@ Latest publication bridge added: 2026-08-22
 - Preserve immutable DOI-bound and release-bound bytes. Corrections to discovery metadata do not rewrite frozen artifacts.
 - English translations marked discovery-only are not canonical when a source declares another language authoritative.
 - Repository snapshots in public-repositories.json are observations at last_verified, not permanent identity claims.
+
+## Temporal AI Presence Profile v1.0
+- Canonical page: https://ivankotov.eu/temporal-ai-presence/
+- Definition: Temporal AI Presence = sustained bounded AI participation across time.
+- Version DOI: https://doi.org/10.5281/zenodo.22070960
+- Concept / all-versions DOI: https://doi.org/10.5281/zenodo.22070959
+- Immutable profile tag: https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0 at commit 897cdf7fe517c9137bb7dfa20e37e32644c5a4fe.
+- Nested public implementation evidence: Temporal AI Presence — Architecture-to-Code Evidence Bridge v1.0, https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0, tag commit 60a3e2ae871320c1e4fdf6036e8ba4c069b66117, archive SHA-256 7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7.
+- Effective evidence status: TAP-T01, T02, T04, T05, T06, T07, T08, T09 and T10 are PUBLIC_VERIFIED. TAP-T03 is PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY.
+- TAP-T03 boundary: deployment activation, external orchestrator state, production pause/revoke enforcement, and deployment-level witness activation are not fully verified.
+- Relation: Temporal AI Presence is not c by default. All valid c-class systems are Temporal AI Presences. Not all Temporal AI Presences are c-class systems.
+- Claim ceiling: M4_FULL_PASS=false; TAP-C=NOT CLAIMED. The bridge does not establish consciousness, personhood, full c conformance, universal safety, production readiness, or universal deployment conformance.
 
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
 - Human page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/

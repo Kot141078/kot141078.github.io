@@ -1,6 +1,11 @@
 {
   "audience_routes": [
     {
+      "audience": "Temporal AI Presence readers",
+      "route": "TAP profile -> public Architecture-to-Code evidence -> explicit TAP-T03 boundary",
+      "url": "/temporal-ai-presence/"
+    },
+    {
       "audience": "Policy readers",
       "route": "Article 50 transparency -> Evidence -> Open problems",
       "url": "/publications/article50-transparency-submission/"
@@ -41,7 +46,7 @@
     }
   ],
   "baseline_id": "B0",
-  "document_id": "living-corpus-entry-copy-v62",
+  "document_id": "living-corpus-entry-copy-v63",
   "hero_eyebrow": "Living corpus entry",
   "hero_lead": "This page is the shortest route into the public corpus. It starts from one rule - no status elevation without admissible evidence - and shows how the programme separates definition, implementation, testing, reproduction, validation, authority, continuity, and public claims.",
   "instrument_participant_callout": {
@@ -69,14 +74,20 @@
     "eyebrow": "FUTURE-FACING LAYER",
     "title": "Vision"
   },
-  "last_verified": "2026-07-19",
+  "last_verified": "2026-08-24",
   "overview_paragraphs": [
+    "Temporal AI Presence = sustained bounded AI participation across time. Temporal AI Presence is not c by default. All valid c-class systems are Temporal AI Presences. Not all Temporal AI Presences are c-class systems. The public Architecture-to-Code bridge makes TAP-T02, TAP-T06, TAP-T07 and TAP-T08 inspectable and reproducible; TAP-T03 remains partial with a deployment-external boundary, M4_FULL_PASS=false, and TAP-C=NOT CLAIMED.",
     "The corpus is easiest to read as a control system rather than as a publication timeline. The central rule is that a weaker state must not be described or used as a stronger one until evidence supports the transition. A definition does not become an implementation; an implementation does not become a tested system; a test by the same operator does not become independent reproduction; a public page does not become external validation.",
     "In `c = a + b`, `c` names the governed candidate entity layer, `a` names the accountable human anchor, and `b` names bounded procedures, memory, models, tools, routes, witnesses, and execution surfaces. The `+` is not arithmetic addition. It is a governed binding: a rule for when human authority, procedural substrate, evidence, and witness records may be combined without laundering one status into another.",
     "L3 and L4 are the bridge between rules and consequence. L3 contains classifications, permissions, procedures, review conditions, and admissibility rules. L4 is the physical and operational boundary: time, energy, cost, latency, hardware, custody, irreversible outcomes, and failure. A witness record connects the two by saying what was attempted, under which authority, with which evidence, and what happened.",
     "The current B0 projection is intentionally conservative. It identifies 60 load-bearing artifacts across 17 families, maps 17 protocol families, records 24 open problems, and lists 18 failure or non-confirmation records. It reports zero adequately evidenced runtime failure events in the selected B0 set, and it keeps independent reproduction, external validation, and strict matched profile-control as not identified."
   ],
   "routes": [
+    {
+      "description": "Canonical standalone TAP v1.0 profile, DOI identity, public evidence matrix, implementation bridge, and deployment-external T03 boundary.",
+      "title": "Temporal AI Presence",
+      "url": "/temporal-ai-presence/"
+    },
     {
       "description": "Architecture, current status, source controls, and claim boundary.",
       "title": "Overview",
@@ -110,6 +121,7 @@
   ],
   "self_check": [
     "What is the central rule?",
+    "What distinguishes Temporal AI Presence from c, and which TAP boundary remains partial?",
     "Which evidence would be needed before a definition becomes an implementation claim?",
     "Which page lists the 24 unresolved problems?",
     "What is explicitly not being claimed?",

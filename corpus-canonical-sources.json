@@ -4,7 +4,7 @@
   "claim_boundary": "This living corpus projection is a reader-facing status map. It does not assert scientific consensus, external validation, independent reproduction, operational deployment, legal certification, sentience, personhood, consciousness, or proof of AGI.",
   "data": {
     "baseline_id": "B0",
-    "document_id": "living-corpus-canonical-sources-v62",
+    "document_id": "living-corpus-canonical-sources-v63",
     "input_hashes": [
       {
         "sha256": "75981e3b732f945fe7bb06d1f7c54113c0ff1d52c9bca755a06a8d6a76192083",
@@ -52,7 +52,7 @@
         "title": "B0 source manifest"
       }
     ],
-    "last_verified": "2026-07-19",
+    "last_verified": "2026-08-24",
     "source_policy": "The public layer links to public routes and hash receipts only. It does not publish non-public source locations from the verified consolidation registers.",
     "sources": [
       {
@@ -60,6 +60,12 @@
         "role": "Reader entry and architecture overview",
         "source_id": "start_here",
         "title": "Start here"
+      },
+      {
+        "public_url": "https://ivankotov.eu/temporal-ai-presence/",
+        "role": "Standalone TAP v1.0 profile with nested public implementation-evidence route and explicit deployment-external T03 boundary",
+        "source_id": "temporal_ai_presence_v1_0",
+        "title": "Temporal AI Presence Profile v1.0"
       },
       {
         "public_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
@@ -150,7 +156,7 @@
   "endpoint": "/corpus-canonical-sources.json",
   "generated_by": "tools/build_corpus.py",
   "kind": "canonical_sources",
-  "last_verified": "2026-07-19",
+  "last_verified": "2026-08-24",
   "schema_version": "living-corpus.v62.public",
   "site": "https://ivankotov.eu/",
   "source_controls": [

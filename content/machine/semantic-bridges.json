@@ -1,9 +1,57 @@
 {
   "schema_version": "semantic-bridges-source.v1",
-  "last_verified": "2026-08-22",
+  "last_verified": "2026-08-24",
   "status": "interpretive-machine-routing-overlay",
   "claim_boundary": "A bridge records a bounded reading dependency or evidence route. It does not prove entity status, consciousness, operational success, causal effect, external validation, certification, or authority transfer.",
   "bridges": [
+    {
+      "bridge_id": "BRIDGE-002",
+      "visibility": "explicit",
+      "title": "Temporal AI Presence profile to public Architecture-to-Code evidence",
+      "scope": "Temporal AI Presence Profile v1.0, TAP-T02, TAP-T06, TAP-T07, TAP-T08, the c boundary, and deployment-external TAP-T03",
+      "nodes": [
+        {
+          "id": "tap-profile-v1-0",
+          "url": "https://ivankotov.eu/temporal-ai-presence/"
+        },
+        {
+          "id": "tap-architecture-code-evidence-v1-0",
+          "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0"
+        },
+        {
+          "id": "c-class",
+          "url": "https://ivankotov.eu/c-a-plus-b/"
+        },
+        {
+          "id": "tap-t03-deployment-external-boundary",
+          "url": "https://ivankotov.eu/temporal-ai-presence/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "tap-profile-v1-0",
+          "relation": "hasPublicArchitectureToCodeEvidenceFor",
+          "target": "tap-architecture-code-evidence-v1-0"
+        },
+        {
+          "source": "tap-profile-v1-0",
+          "relation": "doesNotEntail",
+          "target": "c-class"
+        },
+        {
+          "source": "tap-architecture-code-evidence-v1-0",
+          "relation": "doesNotClose",
+          "target": "tap-t03-deployment-external-boundary"
+        }
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/temporal-ai-presence/",
+        "https://doi.org/10.5281/zenodo.22070960",
+        "https://doi.org/10.5281/zenodo.22070959",
+        "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0"
+      ],
+      "claim_ceiling": "Temporal AI Presence is not c by default. All valid c-class systems are Temporal AI Presences. Not all Temporal AI Presences are c-class systems. Public implementation evidence does not establish universal deployment conformance or close TAP-T03."
+    },
     {
       "bridge_id": "BRIDGE-001",
       "visibility": "explicit",

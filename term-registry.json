@@ -7,11 +7,11 @@
   "preferred_label_rule": "Use preferred_label in new machine-facing records. alternate_labels are discovery aliases, not strict equivalents outside the declared scope.",
   "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
   "source_hashes": {
-    "canonical_map": "41995661d4a0f968d8f66f5eb43c66e55b449040fe33d6b649c16d757eef1b28",
+    "canonical_map": "6bede76b1fb2046d9620425e8d669665130e363b3950d4b1f96104791be09fb7",
     "core_terms": "cd10827a9b5bda479cafad6055afaec20c52272cc525cfe1a21932204c279331",
-    "distinctions": "fe99fa1fbf83d61c0d0dd49a342eb2c3e4f7b33a5ee45f20cf1917e3bceb3259"
+    "distinctions": "757ba3ef7241e273a57dc4569da1a93000c5ec1ed82ead832e2a4ad7f41fb18e"
   },
-  "term_count": 47,
+  "term_count": 48,
   "terms": [
     {
       "local_id": "a",
@@ -1052,6 +1052,27 @@
       "language": "en"
     },
     {
+      "term_id": "https://ivankotov.eu/terms/temporal-ai-presence-v1-0",
+      "local_id": "temporal-ai-presence-v1-0",
+      "preferred_label": "Temporal AI Presence Profile v1.0",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "Standalone TAP profile with public architecture-to-code evidence for TAP-T02, TAP-T06, TAP-T07 and TAP-T08; deployment-external TAP-T03 remains partial.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/temporal-ai-presence/",
+      "source_version": null,
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "c by default",
+        "proof of consciousness, sentience or personhood",
+        "full M4 pass",
+        "full deployment conformance",
+        "production-readiness certification"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
       "term_id": "https://ivankotov.eu/terms/what-is-running",
       "local_id": "what-is-running",
       "preferred_label": "What is running",
@@ -1073,7 +1094,7 @@
       "language": "en"
     }
   ],
-  "distinction_count": 17,
+  "distinction_count": 19,
   "distinctions": [
     {
       "boundary_id": "https://ivankotov.eu/id/distinction/001",
@@ -1193,6 +1214,20 @@
       "non_equivalent_to": "owner of the motive",
       "reason": "Funding compute creates a resource relation and limits, not automatic ownership of the continuity's internal direction.",
       "authoritative_source": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:distinction:temporal-ai-presence-c:v1.0",
+      "term": "Temporal AI Presence",
+      "non_equivalent_to": "c by default",
+      "reason": "Temporal AI Presence = sustained bounded AI participation across time. All valid c-class systems are Temporal AI Presences, but not all Temporal AI Presences are c-class systems.",
+      "authoritative_source": "https://ivankotov.eu/temporal-ai-presence/"
+    },
+    {
+      "boundary_id": "urn:ivankotov:distinction:tap-evidence-deployment:v1.0",
+      "term": "public TAP architecture-to-code evidence",
+      "non_equivalent_to": "universal deployment conformance",
+      "reason": "The public bridge verifies the published T02, T06, T07 and T08 evidence chains. TAP-T03 remains PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY; M4_FULL_PASS=false; TAP-C=NOT CLAIMED.",
+      "authoritative_source": "https://ivankotov.eu/temporal-ai-presence/"
     }
   ]
 }

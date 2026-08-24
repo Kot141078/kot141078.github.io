@@ -22,6 +22,7 @@
   "qubit_state_c_url": "https://ivankotov.eu/qubit-state-c/",
   "arq_cq_integration_addendum_url": "https://ivankotov.eu/arq-cq-integration-addendum/",
   "instrumental_c_public_portfolio_url": "https://ivankotov.eu/publications/instrumental-c-public-portfolio/",
+  "temporal_ai_presence_v1_0_url": "https://ivankotov.eu/temporal-ai-presence/",
   "c_hardening_pack_url": "https://ivankotov.eu/publications/c-hardening-pack/",
   "personality_formation_time_shaped_continuity_url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
   "ester_theoretical_core_v0_1_url": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
@@ -53,6 +54,53 @@
         "school algebra",
         "a chatbot slogan",
         "a swarm by default"
+      ]
+    },
+    {
+      "id": "temporal-ai-presence-v1-0",
+      "title": "Temporal AI Presence Profile v1.0",
+      "url": "https://ivankotov.eu/temporal-ai-presence/",
+      "canonical_url": "https://ivankotov.eu/temporal-ai-presence/",
+      "definition": "Temporal AI Presence = sustained bounded AI participation across time.",
+      "version_doi": "10.5281/zenodo.22070960",
+      "version_doi_url": "https://doi.org/10.5281/zenodo.22070960",
+      "concept_doi": "10.5281/zenodo.22070959",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+      "profile_tag": "temporal-ai-presence-v1.0",
+      "profile_commit": "897cdf7fe517c9137bb7dfa20e37e32644c5a4fe",
+      "implementation_evidence": {
+        "title": "Temporal AI Presence — Architecture-to-Code Evidence Bridge v1.0",
+        "tag": "temporal-ai-presence-implementation-bridge-v1.0",
+        "commit": "60a3e2ae871320c1e4fdf6036e8ba4c069b66117",
+        "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0",
+        "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7",
+        "offline_validation": "61/61 PASS",
+        "network_calls": 0,
+        "runtime_starts": 0,
+        "private_data_used": false
+      },
+      "public_status": {
+        "TAP-T01": "PUBLIC_VERIFIED",
+        "TAP-T02": "PUBLIC_VERIFIED",
+        "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+        "TAP-T04": "PUBLIC_VERIFIED",
+        "TAP-T05": "PUBLIC_VERIFIED",
+        "TAP-T06": "PUBLIC_VERIFIED",
+        "TAP-T07": "PUBLIC_VERIFIED",
+        "TAP-T08": "PUBLIC_VERIFIED",
+        "TAP-T09": "PUBLIC_VERIFIED",
+        "TAP-T10": "PUBLIC_VERIFIED"
+      },
+      "t03_boundary": "Deployment activation, external orchestrator state, production pause/revoke enforcement, and deployment-level witness activation are not fully verified.",
+      "M4_FULL_PASS": false,
+      "TAP-C": "NOT CLAIMED",
+      "summary": "Standalone TAP profile with public architecture-to-code evidence for TAP-T02, TAP-T06, TAP-T07 and TAP-T08; deployment-external TAP-T03 remains partial.",
+      "not": [
+        "c by default",
+        "proof of consciousness, sentience or personhood",
+        "full M4 pass",
+        "full deployment conformance",
+        "production-readiness certification"
       ]
     },
     {
@@ -883,6 +931,7 @@
   "reading_path": [
     "agi",
     "c-a-plus-b",
+    "temporal-ai-presence-v1-0",
     "l4",
     "kotov-principle-l4-bound-experience",
     "arq-cq-integration-addendum",

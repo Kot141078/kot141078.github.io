@@ -43,6 +43,11 @@
     ],
     "routes": [
       {
+        "description": "Canonical standalone TAP v1.0 profile, DOI identity, public evidence matrix, implementation bridge, and deployment-external T03 boundary.",
+        "title": "Temporal AI Presence",
+        "url": "/temporal-ai-presence/"
+      },
+      {
         "description": "Architecture, current status, source controls, and claim boundary.",
         "title": "Overview",
         "url": "/corpus/"

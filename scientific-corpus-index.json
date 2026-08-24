@@ -14,11 +14,83 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "6d43fb2e2d1a9801429fbe600cb3d716d5321094c022c59db7e0cd85b12602db",
-    "record_count": 49
+    "sha256": "5e9584d73285a28c07814b08169de08e7087ebff46e92f4257c1d629eaf63cab",
+    "record_count": 50
   },
-  "work_count": 49,
+  "work_count": 50,
   "works": [
+    {
+      "id": "temporal-ai-presence-v1-0",
+      "@id": "https://ivankotov.eu/id/work/temporal-ai-presence-v1-0",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Temporal AI Presence Profile v1.0",
+      "alternative_title": null,
+      "role": "standalone profile for sustained bounded AI participation across time",
+      "summary": "Standalone Temporal AI Presence profile with a public, immutable and offline-reproducible Architecture-to-Code Evidence Bridge for TAP-T02, TAP-T06, TAP-T07 and TAP-T08. TAP-T03 remains partial with an explicit deployment-external boundary.",
+      "primary_url": "https://ivankotov.eu/temporal-ai-presence/",
+      "version": "1.0",
+      "date": "2026-08-23",
+      "status": "published-standalone-profile-with-public-implementation-evidence",
+      "languages": [
+        "en"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "version_doi": "https://doi.org/10.5281/zenodo.22070960",
+        "concept_doi": "https://doi.org/10.5281/zenodo.22070959",
+        "other": [
+          "urn:ivankotov:publication:temporal-ai-presence:v1.0"
+        ]
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/temporal-ai-presence-v1.0/publications/temporal-ai-presence-v1-0/release",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": "temporal-ai-presence-v1.0",
+        "commit": "897cdf7fe517c9137bb7dfa20e37e32644c5a4fe"
+      },
+      "licenses": {
+        "overall": "CC BY 4.0",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "consciousness, sentience or personhood",
+          "sovereignty, legal status or moral status",
+          "full c conformance or TAP-C",
+          "full M4 pass",
+          "full deployment conformance or production readiness",
+          "universal safety",
+          "that one reference implementation defines Temporal AI Presence"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/0"
+    },
     {
       "id": "motivational-formation-c-v0-1",
       "@id": "https://ivankotov.eu/id/work/motivational-formation-c-v0-1",
@@ -90,7 +162,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/0"
+      "legacy_source_pointer": "/works-index.json#/works/1"
     },
     {
       "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
@@ -164,7 +236,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/1"
+      "legacy_source_pointer": "/works-index.json#/works/2"
     },
     {
       "id": "pasc-foundation-gate-v0-1-1-recovery-5",
@@ -237,7 +309,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/2"
+      "legacy_source_pointer": "/works-index.json#/works/3"
     },
     {
       "id": "boundaries-of-machine-interpretation-v0-2",
@@ -309,7 +381,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/3"
+      "legacy_source_pointer": "/works-index.json#/works/4"
     },
     {
       "id": "four-boundaries-of-machine-interpretation-v0-1",
@@ -381,7 +453,7 @@
           "version_doi"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/4"
+      "legacy_source_pointer": "/works-index.json#/works/5"
     },
     {
       "id": "soul-as-freedom-of-self-reflection-v0-1",
@@ -452,7 +524,7 @@
           "version_doi"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/5"
+      "legacy_source_pointer": "/works-index.json#/works/6"
     },
     {
       "id": "ai-social-role-separation-memory-custody-v1-0",
@@ -522,7 +594,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/6"
+      "legacy_source_pointer": "/works-index.json#/works/7"
     },
     {
       "id": "tap-sec-m4-v0-3-2",
@@ -592,7 +664,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/7"
+      "legacy_source_pointer": "/works-index.json#/works/8"
     },
     {
       "id": "world-intelligence-v1-1-0",
@@ -662,7 +734,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/8"
+      "legacy_source_pointer": "/works-index.json#/works/9"
     },
     {
       "id": "esther-rp-001-v0-8-1",
@@ -725,7 +797,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/9"
+      "legacy_source_pointer": "/works-index.json#/works/10"
     },
     {
       "id": "agi",
@@ -786,7 +858,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/10"
+      "legacy_source_pointer": "/works-index.json#/works/11"
     },
     {
       "id": "kotov-principle-l4-bound-experience",
@@ -847,7 +919,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/11"
+      "legacy_source_pointer": "/works-index.json#/works/12"
     },
     {
       "id": "qubit-state-c",
@@ -908,7 +980,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/12"
+      "legacy_source_pointer": "/works-index.json#/works/13"
     },
     {
       "id": "c-node-boundary-docs-package-facade",
@@ -969,7 +1041,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/13"
+      "legacy_source_pointer": "/works-index.json#/works/14"
     },
     {
       "id": "ccdp-v0-1",
@@ -1030,7 +1102,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/14"
+      "legacy_source_pointer": "/works-index.json#/works/15"
     },
     {
       "id": "c-governed-cli-agent-mesh-v0-1-1",
@@ -1091,7 +1163,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/15"
+      "legacy_source_pointer": "/works-index.json#/works/16"
     },
     {
       "id": "anchor-class-boundaries",
@@ -1152,7 +1224,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/16"
+      "legacy_source_pointer": "/works-index.json#/works/17"
     },
     {
       "id": "raw-locality-experience-refinery-profile",
@@ -1213,7 +1285,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/17"
+      "legacy_source_pointer": "/works-index.json#/works/18"
     },
     {
       "id": "third-party-sensor-boundary",
@@ -1274,7 +1346,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/18"
+      "legacy_source_pointer": "/works-index.json#/works/19"
     },
     {
       "id": "minimum-c-node-profile",
@@ -1335,7 +1407,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/19"
+      "legacy_source_pointer": "/works-index.json#/works/20"
     },
     {
       "id": "ser",
@@ -1396,7 +1468,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/20"
+      "legacy_source_pointer": "/works-index.json#/works/21"
     },
     {
       "id": "erb-l4",
@@ -1457,7 +1529,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/21"
+      "legacy_source_pointer": "/works-index.json#/works/22"
     },
     {
       "id": "actor-grounding-layer",
@@ -1518,7 +1590,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/22"
+      "legacy_source_pointer": "/works-index.json#/works/23"
     },
     {
       "id": "ester-clean-code",
@@ -1579,7 +1651,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/23"
+      "legacy_source_pointer": "/works-index.json#/works/24"
     },
     {
       "id": "qubit-of-hope-volume-i",
@@ -1640,7 +1712,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/24"
+      "legacy_source_pointer": "/works-index.json#/works/25"
     },
     {
       "id": "qubit-of-hope-volume-ii",
@@ -1701,7 +1773,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/25"
+      "legacy_source_pointer": "/works-index.json#/works/26"
     },
     {
       "id": "qubit-of-hope-volume-iii",
@@ -1762,7 +1834,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/26"
+      "legacy_source_pointer": "/works-index.json#/works/27"
     },
     {
       "id": "github-profile",
@@ -1822,7 +1894,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/27"
+      "legacy_source_pointer": "/works-index.json#/works/28"
     },
     {
       "id": "linkedin-profile",
@@ -1882,7 +1954,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/28"
+      "legacy_source_pointer": "/works-index.json#/works/29"
     },
     {
       "id": "orcid-profile",
@@ -1942,7 +2014,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/29"
+      "legacy_source_pointer": "/works-index.json#/works/30"
     },
     {
       "id": "hal-record",
@@ -2002,7 +2074,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/30"
+      "legacy_source_pointer": "/works-index.json#/works/31"
     },
     {
       "id": "article50-transparency-submission-v0-1",
@@ -2063,7 +2135,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/31"
+      "legacy_source_pointer": "/works-index.json#/works/32"
     },
     {
       "id": "article50_transparency_implementation_briefs_v0_1",
@@ -2124,7 +2196,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/32"
+      "legacy_source_pointer": "/works-index.json#/works/33"
     },
     {
       "id": "self_evo_document_package_v0_1_1",
@@ -2185,7 +2257,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/33"
+      "legacy_source_pointer": "/works-index.json#/works/34"
     },
     {
       "id": "self_evo_wdc_v0_1_2",
@@ -2246,7 +2318,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/34"
+      "legacy_source_pointer": "/works-index.json#/works/35"
     },
     {
       "id": "instrumental-c-public-portfolio-v0-1",
@@ -2307,7 +2379,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/35"
+      "legacy_source_pointer": "/works-index.json#/works/36"
     },
     {
       "id": "c_hardening_pack_v0_1",
@@ -2368,7 +2440,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/36"
+      "legacy_source_pointer": "/works-index.json#/works/37"
     },
     {
       "id": "personality_formation_time_shaped_continuity_v0_1",
@@ -2429,7 +2501,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/37"
+      "legacy_source_pointer": "/works-index.json#/works/38"
     },
     {
       "id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
@@ -2490,7 +2562,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/38"
+      "legacy_source_pointer": "/works-index.json#/works/39"
     },
     {
       "id": "ccdp_amdr_pamdc_addendum_v0_1_1",
@@ -2551,7 +2623,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/39"
+      "legacy_source_pointer": "/works-index.json#/works/40"
     },
     {
       "id": "a6_composition_layer_v0_1_1",
@@ -2612,7 +2684,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/40"
+      "legacy_source_pointer": "/works-index.json#/works/41"
     },
     {
       "id": "a6_ctp_v0_1_4",
@@ -2682,7 +2754,7 @@
           "languages"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/41"
+      "legacy_source_pointer": "/works-index.json#/works/42"
     },
     {
       "id": "cleanroom_arm_p_open_verification_v1_0_1",
@@ -2753,7 +2825,7 @@
           "license"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/42"
+      "legacy_source_pointer": "/works-index.json#/works/43"
     },
     {
       "id": "adult-owner-dependency-d4-detection-v0-1-1",
@@ -2823,7 +2895,7 @@
           "languages"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/43"
+      "legacy_source_pointer": "/works-index.json#/works/44"
     },
     {
       "id": "entity_vs_profile_v0_1_1",
@@ -2884,7 +2956,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/44"
+      "legacy_source_pointer": "/works-index.json#/works/45"
     },
     {
       "id": "ester_theoretical_core_v0_1",
@@ -2945,7 +3017,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/45"
+      "legacy_source_pointer": "/works-index.json#/works/46"
     },
     {
       "id": "personality_formation_evidence_package_v0_1",
@@ -3006,7 +3078,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/46"
+      "legacy_source_pointer": "/works-index.json#/works/47"
     },
     {
       "id": "bcec_v0_2_1",
@@ -3067,7 +3139,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/47"
+      "legacy_source_pointer": "/works-index.json#/works/48"
     },
     {
       "id": "ccalc-full-stack-v0-1",
@@ -3140,7 +3212,7 @@
           "license"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/48"
+      "legacy_source_pointer": "/works-index.json#/works/49"
     }
   ]
 }

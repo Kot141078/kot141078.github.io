@@ -119,6 +119,23 @@
       "why": "Funding compute creates a resource relation and limits, not automatic ownership of the continuity's internal direction.",
       "identifier": "urn:ivankotov:distinction:provider-motive-owner:v0.1",
       "primary_url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/"
+    },
+    {
+      "term": "Temporal AI Presence",
+      "not": "c by default",
+      "why": "Temporal AI Presence = sustained bounded AI participation across time. All valid c-class systems are Temporal AI Presences, but not all Temporal AI Presences are c-class systems.",
+      "identifier": "urn:ivankotov:distinction:temporal-ai-presence-c:v1.0",
+      "version_doi": "10.5281/zenodo.22070960",
+      "concept_doi": "10.5281/zenodo.22070959",
+      "primary_url": "https://ivankotov.eu/temporal-ai-presence/"
+    },
+    {
+      "term": "public TAP architecture-to-code evidence",
+      "not": "universal deployment conformance",
+      "why": "The public bridge verifies the published T02, T06, T07 and T08 evidence chains. TAP-T03 remains PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY; M4_FULL_PASS=false; TAP-C=NOT CLAIMED.",
+      "identifier": "urn:ivankotov:distinction:tap-evidence-deployment:v1.0",
+      "primary_url": "https://ivankotov.eu/temporal-ai-presence/",
+      "evidence_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0"
     }
   ]
 }

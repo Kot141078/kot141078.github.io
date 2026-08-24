@@ -452,6 +452,8 @@ RELATION_DEFINITIONS = {
     "suppliesLongitudinalEvidenceTo": "The source may supply time-ordered evidence to the target control layer.",
     "constrainsClassificationIn": "The source limits classifications available in the target framework.",
     "mayPerformWithoutCollapsing": "One actor may perform target roles while the roles remain semantically and authoritatively distinct.",
+    "hasPublicArchitectureToCodeEvidenceFor": "The source has a public, immutable, and reproducible architecture-to-code evidence route at the target.",
+    "doesNotClose": "The source does not close the target boundary.",
 }
 
 

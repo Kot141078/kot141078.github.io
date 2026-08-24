@@ -13,10 +13,10 @@
   "authority_rule": "This index is not the byte authority for DOI-bound, signed, tagged, or separately hashed artifacts. Follow each record's canonical source, release, DOI, manifest, and checksum declarations.",
   "claim_boundary": "Machine readability does not elevate publication into implementation, internal review into independent validation, archive into continuity, replay into resumption, a profile into an entity, or telemetry into subjective experience.",
   "counts": {
-    "normalized_works": 49,
-    "terms": 47,
-    "distinctions": 17,
-    "semantic_bridges": 7,
+    "normalized_works": 50,
+    "terms": 48,
+    "distinctions": 19,
+    "semantic_bridges": 8,
     "public_repositories": 18
   },
   "entries": [
