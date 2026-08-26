@@ -7,11 +7,11 @@
   "preferred_label_rule": "Use preferred_label in new machine-facing records. alternate_labels are discovery aliases, not strict equivalents outside the declared scope.",
   "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
   "source_hashes": {
-    "canonical_map": "6bede76b1fb2046d9620425e8d669665130e363b3950d4b1f96104791be09fb7",
+    "canonical_map": "c04c56a08868417e2ef7998742d3f4b05c00f19250ebbdb1c9151464dd42fdce",
     "core_terms": "cd10827a9b5bda479cafad6055afaec20c52272cc525cfe1a21932204c279331",
     "distinctions": "757ba3ef7241e273a57dc4569da1a93000c5ec1ed82ead832e2a4ad7f41fb18e"
   },
-  "term_count": 48,
+  "term_count": 49,
   "terms": [
     {
       "local_id": "a",
@@ -273,6 +273,29 @@
         "authority upgrade",
         "personhood claim",
         "memory write"
+      ],
+      "related_terms": [],
+      "language": "en"
+    },
+    {
+      "term_id": "https://ivankotov.eu/terms/beacon-profile-v0-1",
+      "local_id": "beacon-profile-v0-1",
+      "preferred_label": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "alternate_labels": [],
+      "long_form": null,
+      "definition": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+      "scope": "Public corpus routing definition.",
+      "authoritative_source": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "source_version": "v0.1",
+      "status": "site-canonical-routing",
+      "non_equivalents": [
+        "proof of consciousness, sentience or personhood",
+        "legal identity or civil status",
+        "universal identity oracle",
+        "provider-independent deployment certificate",
+        "cryptographic conformance",
+        "API-key possession equals entity identity",
+        "access authority equals continuity identity"
       ],
       "related_terms": [],
       "language": "en"

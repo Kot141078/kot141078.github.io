@@ -99,6 +99,83 @@
       "note": "TechArticle discovery projection for crawlers and scholarly indexes."
     },
     {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "note": "Human entry with exact DOI-role, claim, protocol and implementation boundaries."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Published DOI",
+      "format": "DOI / persistent identifier",
+      "language": "machine-readable",
+      "url": "https://doi.org/10.5281/zenodo.18933553",
+      "doi_identifier": "10.5281/zenodo.18933553",
+      "doi_role": "unresolved",
+      "note": "Published identifier; version/concept relation metadata remains unresolved."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Historical Markdown mirror",
+      "format": "Markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.md",
+      "sha256": "4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1",
+      "note": "Exact local copy of the protected historical Markdown."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Historical PDF mirror",
+      "format": "PDF",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.pdf",
+      "sha256": "d646934ea8657785741af57e422d9e044a0de407f2f9d5a6089f083a37b6eeb0",
+      "note": "Exact local copy of the protected historical PDF."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Historical integrity manifest",
+      "format": "TXT / SHA-256",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt",
+      "sha256": "2cbbff8a1948866f05e00faf675b2a818b62b3af21b9ad27ca74935f07a2a3bd",
+      "note": "Protected manifest for the historical GitHub snapshot."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Publication record",
+      "format": "JSON",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json",
+      "note": "Exact DOI-safe bridge metadata copied from the frozen AGI preparation."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Machine index",
+      "format": "JSON",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/machine/index.json",
+      "note": "Site routing, DOI-role and implementation-boundary record."
+    },
+    {
+      "publication_id": "beacon-profile-v0-1",
+      "object": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "surface": "Schema.org linked data",
+      "format": "JSON-LD",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/schema.org.jsonld",
+      "note": "Discovery projection that does not assign a version or concept DOI role."
+    },
+    {
       "publication_id": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "object": "PASC F0 Gap-Closure Scaffold and Structural Templates",
       "surface": "Website publication page",

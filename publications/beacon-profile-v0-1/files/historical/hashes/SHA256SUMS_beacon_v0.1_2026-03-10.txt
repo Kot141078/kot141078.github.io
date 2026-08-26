@@ -1,0 +1,3 @@
+4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1  protocols/beacon/Beacon_Profile_v0.1_EN.md
+d646934ea8657785741af57e422d9e044a0de407f2f9d5a6089f083a37b6eeb0  protocols/beacon/Beacon_Profile_v0.1_EN.pdf
+9bf3b577e38519b7d25eb7051667e7c7db89b302c2f7ef5a80179593ed99dd26  protocols/beacon/README.md

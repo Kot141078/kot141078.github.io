@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "5e9584d73285a28c07814b08169de08e7087ebff46e92f4257c1d629eaf63cab",
-    "record_count": 50
+    "sha256": "d4735a1b1830696d4fbd988d5578167ba6393cbfd6a5134b971b0aac1535f7d9",
+    "record_count": 51
   },
-  "work_count": 50,
+  "work_count": 51,
   "works": [
     {
       "id": "temporal-ai-presence-v1-0",
@@ -37,6 +37,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.22070960",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.22070960",
         "concept_doi": "https://doi.org/10.5281/zenodo.22070959",
         "other": [
@@ -110,6 +112,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.22060517",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.22060517",
         "concept_doi": "https://doi.org/10.5281/zenodo.22060516",
         "other": [
@@ -165,6 +169,81 @@
       "legacy_source_pointer": "/works-index.json#/works/1"
     },
     {
+      "id": "beacon-profile-v0-1",
+      "@id": "https://ivankotov.eu/id/work/beacon-profile-v0-1",
+      "schema_org_type": "CreativeWork",
+      "source_type": "publication",
+      "title": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "alternative_title": null,
+      "role": "inter-entity recognition profile and DOI-safe publication bridge",
+      "summary": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+      "primary_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "version": "v0.1",
+      "date": null,
+      "status": "Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.",
+      "languages": [
+        "en"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.18933553",
+        "doi_role": "unresolved",
+        "version_doi": null,
+        "concept_doi": null,
+        "other": [
+          "doi:10.5281/zenodo.18933553"
+        ]
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/beacon",
+        "repository_path": "protocols/beacon",
+        "release_url": null,
+        "release_tag": null,
+        "commit": "20cfd66e602c9d5d65f952a433217d104a264318"
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "proof of consciousness, sentience or personhood",
+          "legal identity or civil status",
+          "universal identity oracle",
+          "provider-independent deployment certificate",
+          "cryptographic conformance",
+          "API-key possession equals entity identity",
+          "access authority equals continuity identity"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "languages",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "date",
+          "version_doi",
+          "license"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/2"
+    },
+    {
       "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "@id": "https://ivankotov.eu/id/work/pasc-f0-gap-closure-scaffold-v0-1-1",
       "schema_org_type": "CreativeWork",
@@ -182,6 +261,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21871392",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21871392",
         "concept_doi": "https://doi.org/10.5281/zenodo.21871391",
         "other": [
@@ -236,7 +317,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/2"
+      "legacy_source_pointer": "/works-index.json#/works/3"
     },
     {
       "id": "pasc-foundation-gate-v0-1-1-recovery-5",
@@ -256,6 +337,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21843823",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21843823",
         "concept_doi": "https://doi.org/10.5281/zenodo.21843822",
         "other": [
@@ -309,7 +392,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/3"
+      "legacy_source_pointer": "/works-index.json#/works/4"
     },
     {
       "id": "boundaries-of-machine-interpretation-v0-2",
@@ -330,6 +413,8 @@
         "Russian"
       ],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21841445",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21841445",
         "concept_doi": "https://doi.org/10.5281/zenodo.21841444",
         "other": [
@@ -381,7 +466,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/4"
+      "legacy_source_pointer": "/works-index.json#/works/5"
     },
     {
       "id": "four-boundaries-of-machine-interpretation-v0-1",
@@ -402,6 +487,8 @@
         "English (non-canonical discovery translations)"
       ],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": [
@@ -453,7 +540,7 @@
           "version_doi"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/5"
+      "legacy_source_pointer": "/works-index.json#/works/6"
     },
     {
       "id": "soul-as-freedom-of-self-reflection-v0-1",
@@ -474,6 +561,8 @@
         "English (non-canonical discovery translation)"
       ],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": [
@@ -524,7 +613,7 @@
           "version_doi"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/6"
+      "legacy_source_pointer": "/works-index.json#/works/7"
     },
     {
       "id": "ai-social-role-separation-memory-custody-v1-0",
@@ -545,6 +634,8 @@
         "Russian"
       ],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21751985",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21751985",
         "concept_doi": "https://doi.org/10.5281/zenodo.21751984",
         "other": []
@@ -594,7 +685,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/7"
+      "legacy_source_pointer": "/works-index.json#/works/8"
     },
     {
       "id": "tap-sec-m4-v0-3-2",
@@ -614,6 +705,8 @@
         "English"
       ],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21688521",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21688521",
         "concept_doi": "https://doi.org/10.5281/zenodo.21688520",
         "other": []
@@ -664,7 +757,7 @@
         ],
         "unknown": []
       },
-      "legacy_source_pointer": "/works-index.json#/works/8"
+      "legacy_source_pointer": "/works-index.json#/works/9"
     },
     {
       "id": "world-intelligence-v1-1-0",
@@ -691,6 +784,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": "https://doi.org/10.5281/zenodo.21497097",
         "other": []
@@ -734,7 +829,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/9"
+      "legacy_source_pointer": "/works-index.json#/works/10"
     },
     {
       "id": "esther-rp-001-v0-8-1",
@@ -754,6 +849,8 @@
       ],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21443105",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21443105",
         "concept_doi": "https://doi.org/10.5281/zenodo.21443104",
         "other": []
@@ -797,7 +894,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/10"
+      "legacy_source_pointer": "/works-index.json#/works/11"
     },
     {
       "id": "agi",
@@ -815,6 +912,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -858,7 +957,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/11"
+      "legacy_source_pointer": "/works-index.json#/works/12"
     },
     {
       "id": "kotov-principle-l4-bound-experience",
@@ -876,6 +975,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.19862969",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.19862969",
         "concept_doi": null,
         "other": []
@@ -919,7 +1020,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/12"
+      "legacy_source_pointer": "/works-index.json#/works/13"
     },
     {
       "id": "qubit-state-c",
@@ -937,6 +1038,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20090368",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20090368",
         "concept_doi": null,
         "other": []
@@ -980,7 +1083,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/13"
+      "legacy_source_pointer": "/works-index.json#/works/14"
     },
     {
       "id": "c-node-boundary-docs-package-facade",
@@ -998,6 +1101,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1041,7 +1146,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/14"
+      "legacy_source_pointer": "/works-index.json#/works/15"
     },
     {
       "id": "ccdp-v0-1",
@@ -1059,6 +1164,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20190648",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20190648",
         "concept_doi": "https://doi.org/10.5281/zenodo.20196218",
         "other": []
@@ -1102,7 +1209,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/15"
+      "legacy_source_pointer": "/works-index.json#/works/16"
     },
     {
       "id": "c-governed-cli-agent-mesh-v0-1-1",
@@ -1120,6 +1227,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20257232",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20257232",
         "concept_doi": "https://doi.org/10.5281/zenodo.20257231",
         "other": []
@@ -1163,7 +1272,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/16"
+      "legacy_source_pointer": "/works-index.json#/works/17"
     },
     {
       "id": "anchor-class-boundaries",
@@ -1181,6 +1290,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1224,7 +1335,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/17"
+      "legacy_source_pointer": "/works-index.json#/works/18"
     },
     {
       "id": "raw-locality-experience-refinery-profile",
@@ -1242,6 +1353,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1285,7 +1398,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/18"
+      "legacy_source_pointer": "/works-index.json#/works/19"
     },
     {
       "id": "third-party-sensor-boundary",
@@ -1303,6 +1416,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1346,7 +1461,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/19"
+      "legacy_source_pointer": "/works-index.json#/works/20"
     },
     {
       "id": "minimum-c-node-profile",
@@ -1364,6 +1479,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1407,7 +1524,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/20"
+      "legacy_source_pointer": "/works-index.json#/works/21"
     },
     {
       "id": "ser",
@@ -1425,6 +1542,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1468,7 +1587,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/21"
+      "legacy_source_pointer": "/works-index.json#/works/22"
     },
     {
       "id": "erb-l4",
@@ -1486,6 +1605,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1529,7 +1650,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/22"
+      "legacy_source_pointer": "/works-index.json#/works/23"
     },
     {
       "id": "actor-grounding-layer",
@@ -1547,6 +1668,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1590,7 +1713,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/23"
+      "legacy_source_pointer": "/works-index.json#/works/24"
     },
     {
       "id": "ester-clean-code",
@@ -1608,6 +1731,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1651,7 +1776,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/24"
+      "legacy_source_pointer": "/works-index.json#/works/25"
     },
     {
       "id": "qubit-of-hope-volume-i",
@@ -1669,6 +1794,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21505133",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21505133",
         "concept_doi": "https://doi.org/10.5281/zenodo.21505132",
         "other": []
@@ -1712,7 +1839,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/25"
+      "legacy_source_pointer": "/works-index.json#/works/26"
     },
     {
       "id": "qubit-of-hope-volume-ii",
@@ -1730,6 +1857,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21506200",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21506200",
         "concept_doi": "https://doi.org/10.5281/zenodo.21506199",
         "other": []
@@ -1773,7 +1902,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/26"
+      "legacy_source_pointer": "/works-index.json#/works/27"
     },
     {
       "id": "qubit-of-hope-volume-iii",
@@ -1791,6 +1920,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21507090",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21507090",
         "concept_doi": "https://doi.org/10.5281/zenodo.21507089",
         "other": []
@@ -1834,7 +1965,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/27"
+      "legacy_source_pointer": "/works-index.json#/works/28"
     },
     {
       "id": "github-profile",
@@ -1852,66 +1983,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
-        "version_doi": null,
-        "concept_doi": null,
-        "other": []
-      },
-      "source": {
-        "repository_url": null,
-        "repository_detail_url": null,
-        "repository_path": null,
-        "release_url": null,
-        "release_tag": null,
-        "commit": null
-      },
-      "licenses": {
-        "overall": null,
-        "software": null,
-        "documentation": null,
-        "machine_metadata": null,
-        "rights": null
-      },
-      "integrity": {
-        "sha256": null,
-        "archive_sha256": null,
-        "manifest_url": null,
-        "checksums_url": null
-      },
-      "claim_boundary": {
-        "non_claims": [],
-        "source_field": null,
-        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
-      },
-      "metadata_completeness": {
-        "known": [],
-        "unknown": [
-          "version",
-          "date",
-          "version_doi",
-          "languages",
-          "license",
-          "repository",
-          "claim_boundary"
-        ]
-      },
-      "legacy_source_pointer": "/works-index.json#/works/28"
-    },
-    {
-      "id": "linkedin-profile",
-      "@id": "https://ivankotov.eu/id/work/linkedin-profile",
-      "schema_org_type": "CreativeWork",
-      "source_type": "anchor",
-      "title": "LinkedIn profile",
-      "alternative_title": null,
-      "role": "profile/identity anchor",
-      "summary": null,
-      "primary_url": "https://www.linkedin.com/in/ivan-kotov-57627b210",
-      "version": null,
-      "date": null,
-      "status": null,
-      "languages": [],
-      "source_language_labels": [],
-      "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -1957,21 +2030,23 @@
       "legacy_source_pointer": "/works-index.json#/works/29"
     },
     {
-      "id": "orcid-profile",
-      "@id": "https://ivankotov.eu/id/work/orcid-profile",
+      "id": "linkedin-profile",
+      "@id": "https://ivankotov.eu/id/work/linkedin-profile",
       "schema_org_type": "CreativeWork",
       "source_type": "anchor",
-      "title": "ORCID profile",
+      "title": "LinkedIn profile",
       "alternative_title": null,
       "role": "profile/identity anchor",
       "summary": null,
-      "primary_url": "https://orcid.org/0009-0009-6002-9845",
+      "primary_url": "https://www.linkedin.com/in/ivan-kotov-57627b210",
       "version": null,
       "date": null,
       "status": null,
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -2017,21 +2092,23 @@
       "legacy_source_pointer": "/works-index.json#/works/30"
     },
     {
-      "id": "hal-record",
-      "@id": "https://ivankotov.eu/id/work/hal-record",
+      "id": "orcid-profile",
+      "@id": "https://ivankotov.eu/id/work/orcid-profile",
       "schema_org_type": "CreativeWork",
       "source_type": "anchor",
-      "title": "HAL record",
+      "title": "ORCID profile",
       "alternative_title": null,
       "role": "profile/identity anchor",
       "summary": null,
-      "primary_url": "https://hal.science/hal-05529115",
+      "primary_url": "https://orcid.org/0009-0009-6002-9845",
       "version": null,
       "date": null,
       "status": null,
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -2077,6 +2154,68 @@
       "legacy_source_pointer": "/works-index.json#/works/31"
     },
     {
+      "id": "hal-record",
+      "@id": "https://ivankotov.eu/id/work/hal-record",
+      "schema_org_type": "CreativeWork",
+      "source_type": "anchor",
+      "title": "HAL record",
+      "alternative_title": null,
+      "role": "profile/identity anchor",
+      "summary": null,
+      "primary_url": "https://hal.science/hal-05529115",
+      "version": null,
+      "date": null,
+      "status": null,
+      "languages": [],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
+        "version_doi": null,
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [],
+        "unknown": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/32"
+    },
+    {
       "id": "article50-transparency-submission-v0-1",
       "@id": "https://ivankotov.eu/id/work/article50-transparency-submission-v0-1",
       "schema_org_type": "CreativeWork",
@@ -2092,6 +2231,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20315439",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20315439",
         "concept_doi": null,
         "other": []
@@ -2135,7 +2276,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/32"
+      "legacy_source_pointer": "/works-index.json#/works/33"
     },
     {
       "id": "article50_transparency_implementation_briefs_v0_1",
@@ -2153,6 +2294,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20784845",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20784845",
         "concept_doi": null,
         "other": []
@@ -2196,7 +2339,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/33"
+      "legacy_source_pointer": "/works-index.json#/works/34"
     },
     {
       "id": "self_evo_document_package_v0_1_1",
@@ -2214,6 +2357,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20938909",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20938909",
         "concept_doi": null,
         "other": []
@@ -2257,7 +2402,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/34"
+      "legacy_source_pointer": "/works-index.json#/works/35"
     },
     {
       "id": "self_evo_wdc_v0_1_2",
@@ -2275,6 +2420,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20975581",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20975581",
         "concept_doi": null,
         "other": []
@@ -2318,7 +2465,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/35"
+      "legacy_source_pointer": "/works-index.json#/works/36"
     },
     {
       "id": "instrumental-c-public-portfolio-v0-1",
@@ -2336,6 +2483,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": null,
+        "doi_role": null,
         "version_doi": null,
         "concept_doi": null,
         "other": []
@@ -2379,7 +2528,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/36"
+      "legacy_source_pointer": "/works-index.json#/works/37"
     },
     {
       "id": "c_hardening_pack_v0_1",
@@ -2397,6 +2546,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20532198",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20532198",
         "concept_doi": null,
         "other": []
@@ -2440,7 +2591,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/37"
+      "legacy_source_pointer": "/works-index.json#/works/38"
     },
     {
       "id": "personality_formation_time_shaped_continuity_v0_1",
@@ -2458,6 +2609,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20648731",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20648731",
         "concept_doi": "https://doi.org/10.5281/zenodo.20648730",
         "other": []
@@ -2501,7 +2654,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/38"
+      "legacy_source_pointer": "/works-index.json#/works/39"
     },
     {
       "id": "ccdp_v0_1_1_hygiene_addendum_mode_a",
@@ -2519,6 +2672,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20680938",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20680938",
         "concept_doi": null,
         "other": []
@@ -2562,7 +2717,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/39"
+      "legacy_source_pointer": "/works-index.json#/works/40"
     },
     {
       "id": "ccdp_amdr_pamdc_addendum_v0_1_1",
@@ -2580,6 +2735,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20691716",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20691716",
         "concept_doi": null,
         "other": []
@@ -2623,7 +2780,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/40"
+      "legacy_source_pointer": "/works-index.json#/works/41"
     },
     {
       "id": "a6_composition_layer_v0_1_1",
@@ -2641,6 +2798,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20752182",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20752182",
         "concept_doi": null,
         "other": []
@@ -2684,7 +2843,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/41"
+      "legacy_source_pointer": "/works-index.json#/works/42"
     },
     {
       "id": "a6_ctp_v0_1_4",
@@ -2702,6 +2861,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21227129",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21227129",
         "concept_doi": "https://doi.org/10.5281/zenodo.21227128",
         "other": []
@@ -2754,7 +2915,7 @@
           "languages"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/42"
+      "legacy_source_pointer": "/works-index.json#/works/43"
     },
     {
       "id": "cleanroom_arm_p_open_verification_v1_0_1",
@@ -2772,6 +2933,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21401893",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21401893",
         "concept_doi": "https://doi.org/10.5281/zenodo.21401892",
         "other": []
@@ -2825,7 +2988,7 @@
           "license"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/43"
+      "legacy_source_pointer": "/works-index.json#/works/44"
     },
     {
       "id": "adult-owner-dependency-d4-detection-v0-1-1",
@@ -2843,6 +3006,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21207504",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21207504",
         "concept_doi": "https://doi.org/10.5281/zenodo.21207503",
         "other": []
@@ -2895,7 +3060,7 @@
           "languages"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/44"
+      "legacy_source_pointer": "/works-index.json#/works/45"
     },
     {
       "id": "entity_vs_profile_v0_1_1",
@@ -2913,6 +3078,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21204415",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21204415",
         "concept_doi": "https://doi.org/10.5281/zenodo.21204414",
         "other": []
@@ -2956,7 +3123,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/45"
+      "legacy_source_pointer": "/works-index.json#/works/46"
     },
     {
       "id": "ester_theoretical_core_v0_1",
@@ -2974,6 +3141,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20679718",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20679718",
         "concept_doi": "https://doi.org/10.5281/zenodo.20679717",
         "other": []
@@ -3017,7 +3186,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/46"
+      "legacy_source_pointer": "/works-index.json#/works/47"
     },
     {
       "id": "personality_formation_evidence_package_v0_1",
@@ -3035,6 +3204,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20692453",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20692453",
         "concept_doi": null,
         "other": []
@@ -3078,7 +3249,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/47"
+      "legacy_source_pointer": "/works-index.json#/works/48"
     },
     {
       "id": "bcec_v0_2_1",
@@ -3096,6 +3267,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.20953796",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.20953796",
         "concept_doi": null,
         "other": []
@@ -3139,7 +3312,7 @@
           "claim_boundary"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/48"
+      "legacy_source_pointer": "/works-index.json#/works/49"
     },
     {
       "id": "ccalc-full-stack-v0-1",
@@ -3157,6 +3330,8 @@
       "languages": [],
       "source_language_labels": [],
       "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.21205427",
+        "doi_role": "version",
         "version_doi": "https://doi.org/10.5281/zenodo.21205427",
         "concept_doi": null,
         "other": []
@@ -3212,7 +3387,7 @@
           "license"
         ]
       },
-      "legacy_source_pointer": "/works-index.json#/works/49"
+      "legacy_source_pointer": "/works-index.json#/works/50"
     }
   ]
 }

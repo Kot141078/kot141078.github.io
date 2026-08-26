@@ -67,8 +67,10 @@
         "identifiers": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["version_doi", "concept_doi", "other"],
+          "required": ["published_doi", "doi_role", "version_doi", "concept_doi", "other"],
           "properties": {
+            "published_doi": {"$ref": "#/$defs/nullableUri"},
+            "doi_role": {"type": ["string", "null"], "enum": ["version", "concept", "unresolved", null]},
             "version_doi": {"$ref": "#/$defs/nullableUri"},
             "concept_doi": {"$ref": "#/$defs/nullableUri"},
             "other": {"type": "array", "items": {"type": "string", "minLength": 1}}

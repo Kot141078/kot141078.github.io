@@ -104,6 +104,31 @@
       ]
     },
     {
+      "id": "beacon-profile-v0-1",
+      "title": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "canonical_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "version": "v0.1",
+      "document_date": "2026-03-09",
+      "published_doi": "10.5281/zenodo.18933553",
+      "published_doi_url": "https://doi.org/10.5281/zenodo.18933553",
+      "doi_role": "unresolved",
+      "version_doi": null,
+      "concept_doi": null,
+      "zenodo_record": "https://zenodo.org/records/18933553",
+      "summary": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+      "status": "Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.",
+      "not": [
+        "proof of consciousness, sentience or personhood",
+        "legal identity or civil status",
+        "universal identity oracle",
+        "provider-independent deployment certificate",
+        "cryptographic conformance",
+        "API-key possession equals entity identity",
+        "access authority equals continuity identity"
+      ]
+    },
+    {
       "id": "what-is-running",
       "title": "What is running",
       "url": "https://ivankotov.eu/what-is-running/",
@@ -952,5 +977,6 @@
   "a6_ctp_v0_1_4_url": "https://ivankotov.eu/publications/a6-ctp-v0-1-4/",
   "cleanroom_arm_p_open_verification_v1_0_1_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
   "pasc_foundation_gate_v0_1_1_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
-  "pasc_f0_gap_closure_scaffold_v0_1_1_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/"
+  "pasc_f0_gap_closure_scaffold_v0_1_1_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
+  "beacon_profile_v0_1_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/"
 }

@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 50,
+  "numberOfItems": 51,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -26,7 +26,8 @@
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.22070960",
-          "https://doi.org/10.5281/zenodo.22070959"
+          "https://doi.org/10.5281/zenodo.22070959",
+          "urn:ivankotov:publication:temporal-ai-presence:v1.0"
         ]
       }
     },
@@ -50,13 +51,36 @@
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.22060517",
-          "https://doi.org/10.5281/zenodo.22060516"
+          "https://doi.org/10.5281/zenodo.22060516",
+          "urn:ivankotov:publication:motivational-formation-c:v0.1"
         ]
       }
     },
     {
       "@type": "ListItem",
       "position": 3,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://ivankotov.eu/id/work/beacon-profile-v0-1",
+        "name": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+        "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "v0.1",
+        "description": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+        "inLanguage": [
+          "en"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.18933553",
+          "doi:10.5281/zenodo.18933553"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/pasc-f0-gap-closure-scaffold-v0-1-1",
@@ -73,13 +97,14 @@
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.21871392",
-          "https://doi.org/10.5281/zenodo.21871391"
+          "https://doi.org/10.5281/zenodo.21871391",
+          "urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1"
         ]
       }
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/pasc-foundation-gate-v0-1-1-recovery-5",
@@ -96,13 +121,14 @@
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.21843823",
-          "https://doi.org/10.5281/zenodo.21843822"
+          "https://doi.org/10.5281/zenodo.21843822",
+          "urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5"
         ]
       }
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/boundaries-of-machine-interpretation-v0-2",
@@ -116,13 +142,14 @@
         "description": "A bilingual, machine-readable publication preventing technical proxies from being silently promoted into stronger epistemic, relational, normative, or phenomenal statuses. It contains six typed units, but only four are operational interpretation boundaries.",
         "identifier": [
           "https://doi.org/10.5281/zenodo.21841445",
-          "https://doi.org/10.5281/zenodo.21841444"
+          "https://doi.org/10.5281/zenodo.21841444",
+          "urn:ivankotov:publication:boundaries-machine-interpretation:v0.2"
         ]
       }
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/four-boundaries-of-machine-interpretation-v0-1",
@@ -133,12 +160,15 @@
         },
         "version": "0.1",
         "datePublished": "2026-08-07",
-        "description": "Four separately hashed canonical Russian authorial boundaries separating doubt from numerical uncertainty, forgetting from data loss, empathy from optimization, and subjective experience from telemetry. The set records prohibited automatic inferences without claiming that machines either possess or lack those states."
+        "description": "Four separately hashed canonical Russian authorial boundaries separating doubt from numerical uncertainty, forgetting from data loss, empathy from optimization, and subjective experience from telemetry. The set records prohibited automatic inferences without claiming that machines either possess or lack those states.",
+        "identifier": [
+          "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1"
+        ]
       }
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/soul-as-freedom-of-self-reflection-v0-1",
@@ -149,12 +179,15 @@
         },
         "version": "0.1",
         "datePublished": "2026-08-07",
-        "description": "Atomic provenance record of Ivan Kotov's provisional statement: Душа? Ну, пока я думаю, что это свобода размышлять о себе. The Russian text controls and the qualifier пока is semantically material."
+        "description": "Atomic provenance record of Ivan Kotov's provisional statement: Душа? Ну, пока я думаю, что это свобода размышлять о себе. The Russian text controls and the qualifier пока is semantically material.",
+        "identifier": [
+          "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1"
+        ]
       }
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ai-social-role-separation-memory-custody-v1-0",
@@ -174,7 +207,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "SoftwareSourceCode",
         "@id": "https://ivankotov.eu/id/work/tap-sec-m4-v0-3-2",
@@ -194,7 +227,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "Book",
         "@id": "https://ivankotov.eu/id/work/world-intelligence-v1-1-0",
@@ -223,7 +256,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "item": {
         "@type": "ScholarlyArticle",
         "@id": "https://ivankotov.eu/id/work/esther-rp-001-v0-8-1",
@@ -245,7 +278,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/agi",
@@ -260,7 +293,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/kotov-principle-l4-bound-experience",
@@ -278,7 +311,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/qubit-state-c",
@@ -296,7 +329,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/c-node-boundary-docs-package-facade",
@@ -311,7 +344,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ccdp-v0-1",
@@ -330,7 +363,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/c-governed-cli-agent-mesh-v0-1-1",
@@ -349,7 +382,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/anchor-class-boundaries",
@@ -364,7 +397,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/raw-locality-experience-refinery-profile",
@@ -379,7 +412,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/third-party-sensor-boundary",
@@ -394,7 +427,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/minimum-c-node-profile",
@@ -409,7 +442,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ser",
@@ -424,7 +457,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 24,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/erb-l4",
@@ -439,7 +472,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 25,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/actor-grounding-layer",
@@ -453,7 +486,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 26,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ester-clean-code",
@@ -468,7 +501,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 27,
       "item": {
         "@type": "Book",
         "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-i",
@@ -487,7 +520,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 28,
       "item": {
         "@type": "Book",
         "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-ii",
@@ -506,7 +539,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 29,
       "item": {
         "@type": "Book",
         "@id": "https://ivankotov.eu/id/work/qubit-of-hope-volume-iii",
@@ -525,7 +558,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 30,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/github-profile",
@@ -538,7 +571,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 31,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/linkedin-profile",
@@ -551,7 +584,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 32,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/orcid-profile",
@@ -564,7 +597,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 33,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/hal-record",
@@ -577,7 +610,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 34,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/article50-transparency-submission-v0-1",
@@ -595,7 +628,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 35,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/article50_transparency_implementation_briefs_v0_1",
@@ -614,7 +647,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 36,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/self_evo_document_package_v0_1_1",
@@ -633,7 +666,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 37,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/self_evo_wdc_v0_1_2",
@@ -652,7 +685,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 38,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/instrumental-c-public-portfolio-v0-1",
@@ -667,7 +700,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 39,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/c_hardening_pack_v0_1",
@@ -685,7 +718,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 40,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/personality_formation_time_shaped_continuity_v0_1",
@@ -705,7 +738,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 41,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ccdp_v0_1_1_hygiene_addendum_mode_a",
@@ -724,7 +757,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 42,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ccdp_amdr_pamdc_addendum_v0_1_1",
@@ -743,7 +776,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 43,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/a6_composition_layer_v0_1_1",
@@ -762,7 +795,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 44,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/a6_ctp_v0_1_4",
@@ -782,7 +815,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 45,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/cleanroom_arm_p_open_verification_v1_0_1",
@@ -802,7 +835,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 46,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/adult-owner-dependency-d4-detection-v0-1-1",
@@ -822,7 +855,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 47,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/entity_vs_profile_v0_1_1",
@@ -842,7 +875,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 48,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ester_theoretical_core_v0_1",
@@ -862,7 +895,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 49,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/personality_formation_evidence_package_v0_1",
@@ -881,7 +914,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 50,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/bcec_v0_2_1",
@@ -900,7 +933,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 51,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://ivankotov.eu/id/work/ccalc-full-stack-v0-1",

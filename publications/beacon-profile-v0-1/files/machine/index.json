@@ -1,0 +1,139 @@
+{
+  "schema_version": "beacon-profile-site-index.v1",
+  "publication_id": "beacon-profile-v0-1",
+  "title": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+  "version": "v0.1",
+  "document_date": "2026-03-09",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "location": "Bruxelles, Belgium"
+  },
+  "identifiers": {
+    "published_doi": "10.5281/zenodo.18933553",
+    "doi_url": "https://doi.org/10.5281/zenodo.18933553",
+    "doi_role": "unresolved",
+    "version_doi": null,
+    "concept_doi": null,
+    "zenodo_record_url": "https://zenodo.org/records/18933553"
+  },
+  "verification": {
+    "zenodo_metadata_verified": false,
+    "zenodo_file_inventory_verified": false,
+    "zenodo_byte_identity_verified": false
+  },
+  "status_ceiling": "Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.",
+  "normative_language_boundary": "MUST and SHOULD express the profile's local design requirements but do not by themselves establish independent interoperability.",
+  "human_page": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+  "source": {
+    "repository": "https://github.com/Kot141078/advanced-global-intelligence",
+    "living_profile_root": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/beacon",
+    "publication_commit": "20cfd66e602c9d5d65f952a433217d104a264318",
+    "immutable_profile_root": "https://github.com/Kot141078/advanced-global-intelligence/tree/20cfd66e602c9d5d65f952a433217d104a264318/protocols/beacon",
+    "historical_source_commit": "15695853223c798379538aad69dc573730e1ee96"
+  },
+  "local_artifacts": [
+    {
+      "role": "canonical_markdown_mirror",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.md",
+      "sha256": "4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1"
+    },
+    {
+      "role": "publication_pdf_mirror",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.pdf",
+      "sha256": "d646934ea8657785741af57e422d9e044a0de407f2f9d5a6089f083a37b6eeb0"
+    },
+    {
+      "role": "historical_package_readme",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/README.md",
+      "sha256": "9bf3b577e38519b7d25eb7051667e7c7db89b302c2f7ef5a80179593ed99dd26"
+    },
+    {
+      "role": "historical_integrity_manifest",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt",
+      "sha256": "2cbbff8a1948866f05e00faf675b2a818b62b3af21b9ad27ca74935f07a2a3bd"
+    },
+    {
+      "role": "doi_safe_publication_record",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json",
+      "sha256": "9cc6fc93f6704ac0fef23d8ab4c6eb18f2f2a5652979e92fba4102cc86bc6289"
+    }
+  ],
+  "publication_bridge_artifacts": [
+    {
+      "role": "bridge_readme",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/README.md",
+      "sha256": "ad17fbfda021a1c26558602de57038e7b5510954557cdd45f66dc352d4972a14"
+    },
+    {
+      "role": "publication_record",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json",
+      "sha256": "9cc6fc93f6704ac0fef23d8ab4c6eb18f2f2a5652979e92fba4102cc86bc6289"
+    },
+    {
+      "role": "cff_metadata",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/CITATION.cff",
+      "sha256": "66fa7ab787eef421aa77b2ad94e0e4d7d490a72f488b073a34c0e2ccd7833ebf"
+    },
+    {
+      "role": "bridge_manifest",
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/SHA256SUMS_PUBLICATION_BRIDGE.txt",
+      "sha256": "06bcdd34be22c9663da866f6ff9b3c57a5ea1d48a95fbea4ad85228870ac59f4"
+    }
+  ],
+  "implementation": {
+    "repository": "https://github.com/Kot141078/ester-clean-code",
+    "commit": "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+    "module": "https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py",
+    "tests": "https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py",
+    "status": "Structural reference classifier and persistence sidecar.",
+    "demonstrates": [
+      "Beacon bundle data structures",
+      "Slot A and Slot B classification flow",
+      "fail-closed downgrade",
+      "class-to-privilege mapping",
+      "local persistence of bundles and decisions",
+      "default rejection of raw-memory disclosure"
+    ],
+    "does_not_demonstrate": [
+      "recomputation of payload hashes",
+      "cryptographic signature verification",
+      "Ed25519 verification",
+      "key resolution",
+      "key rotation or revocation proof",
+      "witness-reference resolution",
+      "challenge execution",
+      "independent interoperability",
+      "production deployment conformance"
+    ]
+  },
+  "protocol_boundary": {
+    "beacon": "recognition semantics",
+    "vxcx": "bounded visual-experience capsule structure and transfer",
+    "l4_witness": "challengeable evidence and consequence-bearing resolution",
+    "authority": "separate local policy decision",
+    "cross_constraints": [
+      "Valid VXCX evidence cannot independently raise Beacon class.",
+      "Beacon recognition cannot independently prove VXCX content truth."
+    ]
+  },
+  "bridge_discipline": {
+    "explicit_bridge_coverage": "canonical profile section 16",
+    "hidden_bridges": [
+      "Ashby/requisite variety",
+      "bounded information-theoretic disclosure"
+    ],
+    "engineering_anatomical_grounding": "canonical profile section 17",
+    "site_scope": "publication and implementation boundaries only"
+  },
+  "citation": "Kotov, Ivan. Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities. v0.1, document dated 2026-03-09. Published DOI: https://doi.org/10.5281/zenodo.18933553.",
+  "claim_boundary": [
+    "No proof of consciousness, sentience or personhood.",
+    "No legal identity or civil status.",
+    "No universal identity oracle.",
+    "No provider-independent deployment certificate.",
+    "No cryptographic conformance claim.",
+    "API-key possession is not entity identity.",
+    "Access authority is not continuity identity."
+  ]
+}

@@ -208,6 +208,67 @@
       "repository_path": "publications/motivational-formation-c-v0-1"
     },
     {
+      "id": "beacon-profile-v0-1",
+      "title": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "type": "publication",
+      "subtype": "informative_synthesis_profile",
+      "role": "inter-entity recognition profile and DOI-safe publication bridge",
+      "primary_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "identifier": "doi:10.5281/zenodo.18933553",
+      "published_doi": "10.5281/zenodo.18933553",
+      "published_doi_url": "https://doi.org/10.5281/zenodo.18933553",
+      "doi_role": "unresolved",
+      "version_doi": null,
+      "concept_doi": null,
+      "zenodo_record": "https://zenodo.org/records/18933553",
+      "version": "v0.1",
+      "document_date": "2026-03-09",
+      "status": "Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.",
+      "languages": [
+        "en"
+      ],
+      "resource_type": "Report",
+      "summary": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+      "machine_index_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/machine/index.json",
+      "schema_org_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/schema.org.jsonld",
+      "historical_manifest_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt",
+      "publication_record_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/beacon",
+      "immutable_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/20cfd66e602c9d5d65f952a433217d104a264318/protocols/beacon",
+      "github_living_mirror": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/beacon",
+      "commit": "20cfd66e602c9d5d65f952a433217d104a264318",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/20cfd66e602c9d5d65f952a433217d104a264318/protocols/beacon",
+      "repository_path": "protocols/beacon",
+      "implementation_repository": "https://github.com/Kot141078/ester-clean-code",
+      "implementation_commit": "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+      "implementation_status": "Structural reference classifier and persistence sidecar.",
+      "non_claims": [
+        "proof of consciousness, sentience or personhood",
+        "legal identity or civil status",
+        "universal identity oracle",
+        "provider-independent deployment certificate",
+        "cryptographic conformance",
+        "API-key possession equals entity identity",
+        "access authority equals continuity identity"
+      ],
+      "canonical_artifacts": [
+        {
+          "format": "Markdown",
+          "filename": "Beacon_Profile_v0.1_EN.md",
+          "media_type": "text/markdown",
+          "sha256": "4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1",
+          "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.md"
+        },
+        {
+          "format": "PDF",
+          "filename": "Beacon_Profile_v0.1_EN.pdf",
+          "media_type": "application/pdf",
+          "sha256": "d646934ea8657785741af57e422d9e044a0de407f2f9d5a6089f083a37b6eeb0",
+          "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.pdf"
+        }
+      ]
+    },
+    {
       "id": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "title": "PASC F0 Gap-Closure Scaffold and Structural Templates",
       "type": "publication",

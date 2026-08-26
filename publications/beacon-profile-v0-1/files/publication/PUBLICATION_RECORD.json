@@ -1,0 +1,90 @@
+{
+  "schema": "beacon_profile_publication_bridge.v0.1",
+  "record_status": "doi_backfill_publication_facade",
+  "title": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+  "short_title": "Beacon Profile v0.1",
+  "version": "v0.1",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "location": "Bruxelles, Belgium"
+  },
+  "document_date": "2026-03-09",
+  "published_doi": "10.5281/zenodo.18933553",
+  "doi_url": "https://doi.org/10.5281/zenodo.18933553",
+  "doi_role": "unresolved",
+  "version_doi": null,
+  "concept_doi": null,
+  "zenodo_record_url": "https://zenodo.org/records/18933553",
+  "zenodo_metadata_verified": false,
+  "zenodo_file_inventory_verified": false,
+  "zenodo_byte_identity_verified": false,
+  "doi_role_resolution_note": "The exact DOI is confirmed, but version/concept relation metadata has not yet been ingested. No neighboring DOI is inferred.",
+  "status": "published_doi_linked_informative_synthesis_profile_with_normative_style_local_requirements",
+  "canonical_repository": {
+    "repository": "Kot141078/advanced-global-intelligence",
+    "historical_source_commit": "15695853223c798379538aad69dc573730e1ee96",
+    "root": "protocols/beacon/",
+    "publication_bridge": "protocols/beacon/publication/"
+  },
+  "historical_artifacts": [
+    {
+      "role": "canonical_markdown_mirror",
+      "path": "protocols/beacon/Beacon_Profile_v0.1_EN.md",
+      "sha256": "4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1"
+    },
+    {
+      "role": "publication_pdf_mirror",
+      "path": "protocols/beacon/Beacon_Profile_v0.1_EN.pdf",
+      "sha256": "d646934ea8657785741af57e422d9e044a0de407f2f9d5a6089f083a37b6eeb0"
+    },
+    {
+      "role": "historical_package_readme",
+      "path": "protocols/beacon/README.md",
+      "sha256": "9bf3b577e38519b7d25eb7051667e7c7db89b302c2f7ef5a80179593ed99dd26"
+    }
+  ],
+  "historical_integrity_manifest": "hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt",
+  "implementation_bridge": {
+    "repository": "Kot141078/ester-clean-code",
+    "commit": "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+    "module": "modules/beacon_profile/profile.py",
+    "tests": "tests/test_beacon_profile.py",
+    "status": "structural_reference_classifier_and_persistence_sidecar",
+    "demonstrates": [
+      "bundle data structures",
+      "Slot A and Slot B classification flow",
+      "fail-closed downgrade",
+      "class-to-privilege mapping",
+      "bundle and decision persistence",
+      "raw-memory disclosure rejected by default"
+    ],
+    "does_not_demonstrate": [
+      "payload-hash recomputation",
+      "cryptographic signature verification",
+      "Ed25519 verification",
+      "key resolution",
+      "key rotation proof",
+      "key revocation proof",
+      "witness-reference resolution",
+      "challenge execution",
+      "independent interoperability",
+      "production deployment conformance"
+    ]
+  },
+  "protocol_boundary": {
+    "beacon": "recognition semantics",
+    "vxcx": "bounded visual-experience capsule structure and transfer",
+    "l4_witness": "challengeable evidence and consequence-bearing resolution",
+    "authority": "separate receiver-local policy decision"
+  },
+  "claim_boundary": [
+    "No proof of consciousness, sentience or personhood.",
+    "No legal identity, citizenship or civil status.",
+    "No universal identity oracle.",
+    "No cryptographic conformance claim.",
+    "No production deployment certification.",
+    "API-key possession is not entity identity.",
+    "Access authority is not continuity identity."
+  ]
+}

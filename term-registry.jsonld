@@ -168,6 +168,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/beacon-profile-v0-1",
+      "termCode": "beacon-profile-v0-1",
+      "name": "Beacon Profile v0.1 — Inter-Entity Recognition for Sovereign Digital Entities",
+      "alternateName": [],
+      "description": "DOI-linked informative synthesis profile for layered recognition of sovereign digital entities. Beacon owns recognition semantics while authority remains a separate local policy decision.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/boundaries-of-machine-interpretation-v0-2",
       "termCode": "boundaries-of-machine-interpretation-v0-2",
       "name": "Boundaries of Machine Interpretation",

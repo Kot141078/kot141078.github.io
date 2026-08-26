@@ -74,6 +74,16 @@ Latest publication bridge added: 2026-08-24
 - Relation: Temporal AI Presence is not c by default. All valid c-class systems are Temporal AI Presences. Not all Temporal AI Presences are c-class systems.
 - Claim ceiling: M4_FULL_PASS=false; TAP-C=NOT CLAIMED. The bridge does not establish consciousness, personhood, full c conformance, universal safety, production readiness, or universal deployment conformance.
 
+<!-- BEACON-V0-1:BEGIN -->
+## Beacon Profile v0.1 — DOI-safe publication route
+
+- Canonical page: [https://ivankotov.eu/publications/beacon-profile-v0-1/](https://ivankotov.eu/publications/beacon-profile-v0-1/)
+- Published DOI (role unresolved): [https://doi.org/10.5281/zenodo.18933553](https://doi.org/10.5281/zenodo.18933553); version DOI and concept DOI are unresolved and are not guessed.
+- Publication record: [https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json](https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json)
+- Historical manifest: [https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt](https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt)
+- Status ceiling: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+- Implementation: Structural reference classifier and persistence sidecar. [Source](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py) · [Tests](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py). It does not establish payload-hash recomputation, cryptographic signature or Ed25519 verification, key resolution, witness-reference resolution, interoperability, production conformance, or certification.
+<!-- BEACON-V0-1:END -->
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
 - Human page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
 - Machine index: https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json

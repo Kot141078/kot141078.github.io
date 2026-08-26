@@ -31,3 +31,16 @@ Once entities begin to persist, interact, and exchange authority, the difference
 Protocol details:
 
 [https://lnkd.in/ekW6tsax](https://lnkd.in/ekW6tsax)
+
+<!-- BEACON-V0-1-CANONICAL-RESOURCES:BEGIN -->
+## Canonical resources
+
+- [Beacon Profile v0.1 publication page](https://ivankotov.eu/publications/beacon-profile-v0-1/)
+- [Published DOI (role unresolved)](https://doi.org/10.5281/zenodo.18933553)
+- [Historical Markdown](https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.md)
+- [Historical PDF](https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/protocols/beacon/Beacon_Profile_v0.1_EN.pdf)
+- [Historical SHA-256 manifest](https://ivankotov.eu/publications/beacon-profile-v0-1/files/historical/hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt)
+- [DOI-safe publication record](https://ivankotov.eu/publications/beacon-profile-v0-1/files/publication/PUBLICATION_RECORD.json)
+
+The LinkedIn URL above remains the origin trace; these links are the canonical publication resources.
+<!-- BEACON-V0-1-CANONICAL-RESOURCES:END -->

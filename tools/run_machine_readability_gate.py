@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import shutil
 import subprocess
 import sys
@@ -9,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 PYTHON_STEPS = (
+    "tools/build_beacon_v0_1_site_surfaces.py",
     "tools/build_diary.py",
     "tools/build_corpus.py",
     "tools/build_machine_layer.py",
@@ -25,6 +27,21 @@ SCHEMA_DOCUMENT_PAIRS = (
     ("schemas/public-repositories-v1.schema.json", "public-repositories.json"),
 )
 
+BEACON_VALIDATOR = "tools/validate_beacon_v0_1_site.py"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run the complete machine-readability gate.")
+    parser.add_argument(
+        "--allow-beacon-mock",
+        action="store_true",
+        help=(
+            "Permit the reserved Beacon AGI mock commit for offline package validation. "
+            "The normal gate rejects it."
+        ),
+    )
+    return parser.parse_args()
+
 
 def run(command: list[str]) -> None:
     print("+ " + " ".join(command), flush=True)
@@ -39,8 +56,14 @@ def find_npm() -> str:
 
 
 def main() -> int:
+    args = parse_args()
     for script in PYTHON_STEPS:
         run([sys.executable, script])
+
+    beacon_validation = [sys.executable, BEACON_VALIDATOR]
+    if args.allow_beacon_mock:
+        beacon_validation.append("--allow-mock-commit")
+    run(beacon_validation)
 
     npm = find_npm()
     for schema, document in SCHEMA_DOCUMENT_PAIRS:
@@ -67,7 +90,7 @@ def main() -> int:
     run(["git", "diff", "--check"])
     print(
         f"PASS full machine-readability gate "
-        f"({len(PYTHON_STEPS)} Python steps, {len(SCHEMA_DOCUMENT_PAIRS)} schema contracts)",
+        f"({len(PYTHON_STEPS) + 1} Python steps, {len(SCHEMA_DOCUMENT_PAIRS)} schema contracts)",
         flush=True,
     )
     return 0

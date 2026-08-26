@@ -173,6 +173,18 @@ def normalize_work(record: dict[str, Any], index: int) -> dict[str, Any]:
 
     version_doi = normalize_doi(first_string(record, ["version_doi", "doi_url", "doi", "doi_identifier", "doi_value"]))
     concept_doi = normalize_doi(first_string(record, ["concept_doi_url", "concept_doi", "full_technical_corpus_concept_doi_url", "full_technical_corpus_concept_doi"]))
+    published_doi = normalize_doi(first_string(record, ["published_doi_url", "published_doi"]))
+    doi_role = clean_string(record.get("doi_role"))
+    if doi_role and doi_role not in {"version", "concept", "unresolved"}:
+        raise BuildError(f"Work {record_id} has an unsupported DOI role: {doi_role}")
+    if doi_role == "unresolved":
+        if not published_doi:
+            raise BuildError(f"Work {record_id} has unresolved DOI role without a published DOI")
+        if version_doi or concept_doi:
+            raise BuildError(f"Work {record_id} assigns a version or concept DOI while DOI role is unresolved")
+    elif not published_doi and version_doi:
+        published_doi = version_doi
+        doi_role = doi_role or "version"
     repository_url, repository_detail_url = github_repository(record)
     language_codes, language_labels = language_values(record)
     boundaries, boundary_source_field = non_claims(record)
@@ -227,6 +239,8 @@ def normalize_work(record: dict[str, Any], index: int) -> dict[str, Any]:
         "languages": language_codes,
         "source_language_labels": language_labels,
         "identifiers": {
+            "published_doi": published_doi,
+            "doi_role": doi_role,
             "version_doi": version_doi,
             "concept_doi": concept_doi,
             "other": [clean_string(record.get("identifier"))] if clean_string(record.get("identifier")) else [],
@@ -301,7 +315,15 @@ def build_works() -> tuple[dict[str, Any], dict[str, Any]]:
             item["description"] = record["summary"]
         if record["languages"]:
             item["inLanguage"] = record["languages"]
-        identifiers = [value for value in record["identifiers"].values() if isinstance(value, str) and value]
+        identifiers: list[str] = []
+        for value in (
+            record["identifiers"]["published_doi"],
+            record["identifiers"]["version_doi"],
+            record["identifiers"]["concept_doi"],
+            *record["identifiers"]["other"],
+        ):
+            if isinstance(value, str) and value and value not in identifiers:
+                identifiers.append(value)
         if identifiers:
             item["identifier"] = identifiers
         item_list.append({"@type": "ListItem", "position": position, "item": item})

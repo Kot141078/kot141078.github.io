@@ -164,9 +164,15 @@ def check_works() -> None:
     completeness_fields = {"version", "date", "version_doi", "languages", "license", "repository", "claim_boundary"}
     for work in works:
         require(work["primary_url"].startswith("https://"), f"Non-HTTPS primary URL in {work['id']}")
-        for key in ("version_doi", "concept_doi"):
+        for key in ("published_doi", "version_doi", "concept_doi"):
             doi = work["identifiers"][key]
             require(doi is None or bool(DOI_RE.fullmatch(doi)), f"Malformed {key} in {work['id']}: {doi!r}")
+        doi_role = work["identifiers"]["doi_role"]
+        require(doi_role in {None, "version", "concept", "unresolved"}, f"Malformed doi_role in {work['id']}: {doi_role!r}")
+        if doi_role == "unresolved":
+            require(work["identifiers"]["published_doi"] is not None, f"Unresolved DOI role lacks a published DOI in {work['id']}")
+            require(work["identifiers"]["version_doi"] is None, f"Unresolved DOI was assigned as version DOI in {work['id']}")
+            require(work["identifiers"]["concept_doi"] is None, f"Unresolved DOI was assigned as concept DOI in {work['id']}")
         for key in ("sha256", "archive_sha256"):
             value = work["integrity"][key]
             require(value is None or bool(SHA256_RE.fullmatch(value)), f"Malformed {key} in {work['id']}")
