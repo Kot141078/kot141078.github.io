@@ -2,34 +2,36 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Palantir solves a real problem: large organizations have data scattered across dozens or hundreds of disconnected systems.",
-    "date": "2026-08-10",
-    "slug": "palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems",
-    "summary": "A data-architecture argument for preserving raw evidence and multiple representations while binding temporary semantics as late as reasonably possible.",
+    "title": "The AI System Is Not the Model",
+    "date": "2026-08-16",
+    "slug": "the-ai-system-is-not-the-model",
+    "summary": "An architectural distinction between replaceable AI substrates and the slower continuity, authority, state, and provenance core.",
     "tags": [
-      "AI",
-      "DataArchitecture",
-      "Palantir",
-      "Ontology",
-      "KnowledgeGraphs",
-      "MultimodalAI",
-      "AI Safety"
+      "ArtificialIntelligence",
+      "Agentic AI",
+      "AI Architecture",
+      "AI Governance",
+      "Continuity",
+      "Digital Identity",
+      "Provenance",
+      "Local-first AI"
     ],
     "raw_tags": [
-      "AI",
-      "DataArchitecture",
-      "Palantir",
-      "Ontology",
-      "KnowledgeGraphs",
-      "MultimodalAI",
-      "AISafety"
+      "ArtificialIntelligence",
+      "AgenticAI",
+      "AIArchitecture",
+      "AIGovernance",
+      "Continuity",
+      "DigitalIdentity",
+      "Provenance",
+      "LocalFirstAI"
     ],
-    "page": "https://ivankotov.eu/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/",
-    "canonical_page": "https://ivankotov.eu/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/",
-    "identifier": "urn:ivankotov:diary:palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems",
+    "page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
+    "canonical_page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
+    "identifier": "urn:ivankotov:diary:the-ai-system-is-not-the-model",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/cover.jpg",
-    "image_alt": "Construction wall surrounded by linked BIM, point-cloud, camera, humidity, cost, task, and acceptance-record views.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-dataarchitecture-palantir-activity-7492475026026266624-sc-r?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/the-ai-system-is-not-the-model/cover.png",
+    "image_alt": "Multicolored translucent blocks floating above a dark carved stone structure in a mountainous landscape.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-agenticai-aiarchitecture-activity-7494592626390638592-PieA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

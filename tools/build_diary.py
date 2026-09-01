@@ -1606,19 +1606,23 @@ def render_tag_grid(tags: list[TagInfo], *, link_prefix: str) -> str:
 def render_gallery(entry: Entry) -> str:
     if not entry.extra_images:
         return ""
+    gallery_size = len(entry.extra_images) + 1
+    gallery_alt_base = re.sub(
+        r"\s+image\s+1\s+of\s+\d+\.?$", "", entry.image_alt, flags=re.IGNORECASE
+    ).strip(" .,:;!?") or entry.title.strip(" .,:;!?")
     cards = [
-        f"""          <div class="entry-cover">
-            <img src="../../{html.escape(image)}" alt="{html.escape(entry.title)} gallery image">
-          </div>"""
-        for image in entry.extra_images
+        f"""          <figure class="entry-cover diary-gallery-item">
+            <img src="../../{html.escape(image)}" alt="{html.escape(gallery_alt_base)} image {position} of {gallery_size}" loading="lazy" decoding="async">
+          </figure>"""
+        for position, image in enumerate(entry.extra_images, start=2)
     ]
     return f"""
-        <section class="section">
+        <section class="section diary-gallery" aria-label="Entry image gallery">
           <div class="section-head">
             <p class="section-label">Gallery</p>
             <h2>Linked visual surfaces</h2>
           </div>
-          <div class="archive-grid">
+          <div class="archive-grid diary-gallery-grid">
 {chr(10).join(cards)}
           </div>
         </section>
@@ -2215,10 +2219,12 @@ def render_theme_page(theme: ThemeInfo) -> str:
 def render_post_page(entry: Entry, related_entries: list[Entry]) -> str:
     image_html = ""
     if entry.primary_image:
+        cover_element = "figure" if entry.extra_images else "div"
+        cover_class = "entry-cover diary-gallery-lead" if entry.extra_images else "entry-cover"
         image_html = f"""
-      <div class="entry-cover">
+      <{cover_element} class="{cover_class}">
         <img src="../../{html.escape(entry.primary_image)}" alt="{html.escape(entry.image_alt or entry.title)}">
-      </div>
+      </{cover_element}>
 """
     tag_links = ""
     if entry.tags:

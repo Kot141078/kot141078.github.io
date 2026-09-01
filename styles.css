@@ -590,6 +590,48 @@
   overflow-x: auto;
 }
 
+.post-content {
+  min-width: 0;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.post-content > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.post-content a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Diary V66: scoped, non-scripted multi-image gallery. */
+.diary-gallery-lead,
+.diary-gallery-item {
+  margin: 0;
+}
+
+.diary-gallery-grid {
+  align-items: start;
+}
+
+.diary-gallery-grid .entry-cover img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+@media print {
+  .diary-gallery-lead,
+  .diary-gallery-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .diary-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .vision-prose pre {
   max-width: 100%;
   overflow-x: auto;
@@ -1322,6 +1364,7 @@
 @media print {
   .site-shell {
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .site-header {
@@ -1349,6 +1392,10 @@
   .diary-landing .section {
     box-shadow: none;
     break-inside: auto;
+  }
+
+  .site-shell:has(.diary-landing) > .site-footer {
+    display: none;
   }
 
   .vision-diagram,
