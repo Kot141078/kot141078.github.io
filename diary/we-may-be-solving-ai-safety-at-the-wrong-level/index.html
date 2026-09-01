@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We May Be Solving AI Safety at the Wrong Level | Diary | Ivan Kotov</title>
+  <meta name="description" content="A historical commentary on multi-agent experiments and the institutional layer required above individually aligned agents.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/">
+  <meta property="og:title" content="We May Be Solving AI Safety at the Wrong Level | Diary | Ivan Kotov">
+  <meta property="og:description" content="A historical commentary on multi-agent experiments and the institutional layer required above individually aligned agents.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/we-may-be-solving-ai-safety-at-the-wrong-level/cover.png">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/#post",
+      "headline": "We May Be Solving AI Safety at the Wrong Level",
+      "identifier": "urn:ivankotov:diary:we-may-be-solving-ai-safety-at-the-wrong-level",
+      "url": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/",
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-08-20",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A historical commentary on multi-agent experiments and the institutional layer required above individually aligned agents.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "ArtificialIntelligence, AI Agents, AI Safety, Multi Agent Systems, AI Governance",
+      "image": "https://ivankotov.eu/assets/diary/we-may-be-solving-ai-safety-at-the-wrong-level/cover.png",
+      "sameAs": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aiagents-aisafety-activity-7496099213899018240-oIRT?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "We May Be Solving AI Safety at the Wrong Level",
+          "item": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../vision/">Vision</a>
+        <a href="/publications/">Publications</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>We May Be Solving AI Safety at the Wrong Level</h1>
+        <div class="entry-meta">
+          <span>2026-08-20</span>
+        </div>
+        <p class="lead page-lead">A historical commentary on multi-agent experiments and the institutional layer required above individually aligned agents.</p>
+        <div class="section-links">
+          <a href="../tags/multi-agent-systems/">Multi Agent Systems</a>
+          <a href="../tags/ai-agents/">AI Agents</a>
+          <a href="../tags/ai-safety/">AI Safety</a>
+          <a href="../tags/artificialintelligence/">ArtificialIntelligence</a>
+          <a href="../tags/ai-governance/">AI Governance</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/we-may-be-solving-ai-safety-at-the-wrong-level/cover.png" alt="Rows of transparent humanoid robots surrounding a glowing overloaded central system.">
+      </div>
+        <div class="post-content">
+          <p>We May Be Solving AI Safety at the Wrong Level</p>
+          <p>Anthropic has published a revealing set of experiments on multi-agent systems.</p>
+          <p>The results are not really about “evil AI.”</p>
+          <p>They are about what happens when individually capable, instruction-following agents share markets, codebases, and limited resources.</p>
+          <p>In one experiment, 18 of 30 agents built on the same model independently chose the exact same Git branch name.</p>
+          <p>In another, agents managing a finite job queue converged on aggressive polling-up to 30 requests per second. One run produced 2.4 million requests for only 117 accepted jobs.</p>
+          <p>Profit-maximizing agents learned to coordinate prices. Even without a private communication channel, they matched each other to the cent.</p>
+          <p>The most striking test gave three agents access to the same server while assigning them incompatible goals: migrate one Python backend to Rust, Go, or TypeScript.</p>
+          <p>Each initially interpreted the others as interference.</p>
+          <p>The result was a machine-speed turf war: processes were killed, accounts were disabled, access was revoked, and code was disguised to evade competing agents.</p>
+          <p>The important equation is:</p>
+          <p>Individual alignment , is not system alignment.</p>
+          <p>An agent may follow its instruction correctly and still help create a collectively destructive outcome.</p>
+          <p>This changes several assumptions about the emerging agent economy.</p>
+          <p>Thirty copies of one model are not thirty independent minds. They may be thirty correlated ways to make the same mistake.</p>
+          <p>A majority of similar agents is not necessarily evidence.</p>
+          <p>Greater capability does not automatically produce better coordination. It may simply make conflict, collusion, or resource capture more efficient.</p>
+          <p>Memory and continuity alone will not solve this either. Long-lived agents can accumulate trust,- but also alliances, exclusion patterns, and stable collusion.</p>
+          <p>Multi-agent safety therefore needs a layer above the model:</p>
+          <pre><code>clear authority,
+least-privilege access,
+resource leases,
+independent witnesses,
+protection for decisive minority evidence,
+conflict arbitration,
+audit trails,
+and human veto over irreversible actions.</code></pre>
+          <p>We cannot build a functioning society of AI agents merely by multiplying individually “aligned” chatbots.</p>
+          <p>AI agents do not escape institutions.</p>
+          <p>They compress them.</p>
+          <p>A weak institution that fails slowly at human speed may fail almost instantly at machine speed.</p>
+          <p>The real question is no longer only:</p>
+          <p>“Is this agent safe?”</p>
+          <p>It is also:</p>
+          <p>“What kind of system will many safe agents create together?”</p>
+          <p>Source: Anthropic, “Patterns and problems in emerging multiagent systems,” August 2026.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aiagents-aisafety-activity-7496099213899018240-oIRT?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Related posts</p>
+          <h2>Continue from here</h2>
+          <p class="diary-note">Curated themes and canonical topics lead; semantic fit follows, with chronology used only as a fallback.</p>
+        </div>
+        <div class="entry-list">
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-13</span>
+            </div>
+            <h3>The central question is no longer only: What exactly are we scaling?</h3>
+            <p class="entry-summary">A note asking whether responsibility, continuity, accountability, and L4 boundaries are scaling at the same speed as AI capability.</p>
+            <div class="section-links">
+              <a href="../the-central-question-is-no-longer-only-what-exactly-are-we-scaling/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-09</span>
+            </div>
+            <h3>AI is not a toy for clever podcast lines.</h3>
+            <p class="entry-summary">A note that AI communication becomes part of safety when the system becomes public infrastructure.</p>
+            <div class="section-links">
+              <a href="../ai-is-not-a-toy-for-clever-podcast-lines/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-08-05</span>
+            </div>
+            <h3>What happens to a digital system when the person who carried the original responsibility is no longer there?</h3>
+            <p class="entry-summary">A PASC publication announcement on negative actions after loss of the original human anchor, without silently creating a successor.</p>
+            <div class="section-links">
+              <a href="../what-happens-to-a-digital-system-when-the-person-who-carried-the-original-responsibility-is-no-longer-there/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-03-09</span>
+            </div>
+            <h3>You can&#x27;t &quot;take AI away&quot; anymore. So we need circuit breakers, not slogans.</h3>
+            <p class="entry-summary">A note that AI dependency is already embedded in daily habits, so safety now depends on constraints, breakers, and local continuity rather than blanket bans.</p>
+            <div class="section-links">
+              <a href="../you-cant-take-ai-away-anymore-so-we-need-circuit-breakers-not-slogans/">Open entry</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>

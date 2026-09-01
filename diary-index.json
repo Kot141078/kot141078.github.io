@@ -1,41 +1,225 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 217,
+  "count": 223,
   "latest": {
-    "title": "The AI System Is Not the Model",
-    "date": "2026-08-16",
-    "slug": "the-ai-system-is-not-the-model",
-    "summary": "An architectural distinction between replaceable AI substrates and the slower continuity, authority, state, and provenance core.",
+    "title": "A goal can be installed.",
+    "date": "2026-08-24",
+    "slug": "a-goal-can-be-installed",
+    "summary": "A publication note distinguishing installed goals from motivation formed through history, reflection, and motivational custody.",
     "tags": [
-      "ArtificialIntelligence",
-      "Agentic AI",
       "AI Architecture",
+      "AIMotivation",
+      "Digital Entities",
+      "TemporalAIPresence",
+      "Cybernetics",
       "AI Governance",
-      "Continuity",
-      "Digital Identity",
-      "Provenance",
-      "Local-first AI"
+      "Long-Lived AI"
     ],
     "raw_tags": [
-      "ArtificialIntelligence",
-      "AgenticAI",
       "AIArchitecture",
+      "AIMotivation",
+      "DigitalEntities",
+      "TemporalAIPresence",
+      "Cybernetics",
       "AIGovernance",
-      "Continuity",
-      "DigitalIdentity",
-      "Provenance",
-      "LocalFirstAI"
+      "LongLivedAI"
     ],
-    "page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
-    "canonical_page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
-    "identifier": "urn:ivankotov:diary:the-ai-system-is-not-the-model",
+    "page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+    "canonical_page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+    "identifier": "urn:ivankotov:diary:a-goal-can-be-installed",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/the-ai-system-is-not-the-model/cover.png",
-    "image_alt": "Multicolored translucent blocks floating above a dark carved stone structure in a mountainous landscape.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-agenticai-aiarchitecture-activity-7494592626390638592-PieA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/a-goal-can-be-installed/cover.jpg",
+    "image_alt": "Hand placing a small key on a branching network map above server hardware.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aimotivation-digitalentities-activity-7497171292417232896-65Fj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "A goal can be installed.",
+      "date": "2026-08-24",
+      "slug": "a-goal-can-be-installed",
+      "summary": "A publication note distinguishing installed goals from motivation formed through history, reflection, and motivational custody.",
+      "tags": [
+        "AI Architecture",
+        "AIMotivation",
+        "Digital Entities",
+        "TemporalAIPresence",
+        "Cybernetics",
+        "AI Governance",
+        "Long-Lived AI"
+      ],
+      "raw_tags": [
+        "AIArchitecture",
+        "AIMotivation",
+        "DigitalEntities",
+        "TemporalAIPresence",
+        "Cybernetics",
+        "AIGovernance",
+        "LongLivedAI"
+      ],
+      "page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+      "canonical_page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+      "identifier": "urn:ivankotov:diary:a-goal-can-be-installed",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/a-goal-can-be-installed/cover.jpg",
+      "image_alt": "Hand placing a small key on a branching network map above server hardware.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aimotivation-digitalentities-activity-7497171292417232896-65Fj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "People keep asking whether AI will make humanity better or worse.",
+      "date": "2026-08-21",
+      "slug": "people-keep-asking-whether-ai-will-make-humanity-better-or-worse",
+      "summary": "A reflection on AI as an amplifier of human action situated within place, law, jurisdiction, and social context.",
+      "tags": [
+        "ArtificialIntelligence",
+        "AI Governance",
+        "AI Alignment",
+        "Persistent AI",
+        "Digital Identity",
+        "Future of AI"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "AIGovernance",
+        "AIAlignment",
+        "PersistentAI",
+        "DigitalIdentity",
+        "FutureOfAI"
+      ],
+      "page": "https://ivankotov.eu/diary/people-keep-asking-whether-ai-will-make-humanity-better-or-worse/",
+      "canonical_page": "https://ivankotov.eu/diary/people-keep-asking-whether-ai-will-make-humanity-better-or-worse/",
+      "identifier": "urn:ivankotov:diary:people-keep-asking-whether-ai-will-make-humanity-better-or-worse",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/people-keep-asking-whether-ai-will-make-humanity-better-or-worse/cover.jpg",
+      "image_alt": "Person in a library facing a mirrored globe among books, maps, scales, and a passport.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aigovernance-aialignment-activity-7496461184263634944-Qv-q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "We May Be Solving AI Safety at the Wrong Level",
+      "date": "2026-08-20",
+      "slug": "we-may-be-solving-ai-safety-at-the-wrong-level",
+      "summary": "A historical commentary on multi-agent experiments and the institutional layer required above individually aligned agents.",
+      "tags": [
+        "ArtificialIntelligence",
+        "AI Agents",
+        "AI Safety",
+        "Multi Agent Systems",
+        "AI Governance"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "AIAgents",
+        "AISafety",
+        "MultiAgentSystems",
+        "AIGovernance"
+      ],
+      "page": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/",
+      "canonical_page": "https://ivankotov.eu/diary/we-may-be-solving-ai-safety-at-the-wrong-level/",
+      "identifier": "urn:ivankotov:diary:we-may-be-solving-ai-safety-at-the-wrong-level",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/we-may-be-solving-ai-safety-at-the-wrong-level/cover.png",
+      "image_alt": "Rows of transparent humanoid robots surrounding a glowing overloaded central system.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aiagents-aisafety-activity-7496099213899018240-oIRT?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The Second Missing Layer in Home Robotics: Repair Without Identity Capture",
+      "date": "2026-08-19",
+      "slug": "the-second-missing-layer-in-home-robotics-repair-without-identity-capture",
+      "summary": "An argument for repair boundaries that preserve hardware serviceability without exposing persistent AI memory, identity, or authority.",
+      "tags": [
+        "RightToRepair",
+        "Robotics",
+        "Embodied AI",
+        "AI Architecture",
+        "Digital Sovereignty",
+        "AI Safety",
+        "LocalAI",
+        "L4",
+        "CEqualsAPlusB"
+      ],
+      "raw_tags": [
+        "RightToRepair",
+        "Robotics",
+        "EmbodiedAI",
+        "AIArchitecture",
+        "DigitalSovereignty",
+        "AISafety",
+        "LocalAI",
+        "L4",
+        "CEqualsAPlusB"
+      ],
+      "page": "https://ivankotov.eu/diary/the-second-missing-layer-in-home-robotics-repair-without-identity-capture/",
+      "canonical_page": "https://ivankotov.eu/diary/the-second-missing-layer-in-home-robotics-repair-without-identity-capture/",
+      "identifier": "urn:ivankotov:diary:the-second-missing-layer-in-home-robotics-repair-without-identity-capture",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/the-second-missing-layer-in-home-robotics-repair-without-identity-capture/cover.png",
+      "image_alt": "Technician repairing a wheeled home robot beneath a display showing locked memory and limited hardware access.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_righttorepair-robotics-embodiedai-activity-7495736375082725376-6pFR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Today I watched my cat proudly riding the robot vacuum.",
+      "date": "2026-08-18",
+      "slug": "today-i-watched-my-cat-proudly-riding-the-robot-vacuum",
+      "summary": "An architectural argument that embodied AI insurability depends on reconstructable action, authority, version, and evidence chains.",
+      "tags": [
+        "AIInsurance",
+        "Robotics",
+        "Embodied AI",
+        "AI Safety",
+        "AI Architecture",
+        "AI Governance",
+        "L4",
+        "CEqualsAPlusB"
+      ],
+      "raw_tags": [
+        "AIInsurance",
+        "Robotics",
+        "EmbodiedAI",
+        "AISafety",
+        "AIArchitecture",
+        "AIGovernance",
+        "L4",
+        "CEqualsAPlusB"
+      ],
+      "page": "https://ivankotov.eu/diary/today-i-watched-my-cat-proudly-riding-the-robot-vacuum/",
+      "canonical_page": "https://ivankotov.eu/diary/today-i-watched-my-cat-proudly-riding-the-robot-vacuum/",
+      "identifier": "urn:ivankotov:diary:today-i-watched-my-cat-proudly-riding-the-robot-vacuum",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/today-i-watched-my-cat-proudly-riding-the-robot-vacuum/cover.png",
+      "image_alt": "Gray cat wearing a small crown on a robot vacuum beside a broken vase and floating system dashboards.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiinsurance-robotics-embodiedai-activity-7495374640035549184-wSj0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "“AI Is Eating All the Memory.”",
+      "date": "2026-08-17",
+      "slug": "ai-is-eating-all-the-memory",
+      "summary": "A historical commentary on AI-driven memory scarcity, semiconductor concentration, and access to affordable local computing.",
+      "tags": [
+        "ArtificialIntelligence",
+        "Semiconductors",
+        "DRAM",
+        "Digital Sovereignty",
+        "Antitrust",
+        "AI Infrastructure",
+        "Human AI"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "Semiconductors",
+        "DRAM",
+        "DigitalSovereignty",
+        "Antitrust",
+        "AIInfrastructure",
+        "HumanAI"
+      ],
+      "page": "https://ivankotov.eu/diary/ai-is-eating-all-the-memory/",
+      "canonical_page": "https://ivankotov.eu/diary/ai-is-eating-all-the-memory/",
+      "identifier": "urn:ivankotov:diary:ai-is-eating-all-the-memory",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/ai-is-eating-all-the-memory/cover.jpg",
+      "image_alt": "Graphics card and memory module displayed behind glass with illuminated price panels.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-semiconductors-dram-activity-7495011788774703104-yhWS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "The AI System Is Not the Model",
       "date": "2026-08-16",

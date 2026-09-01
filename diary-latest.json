@@ -2,36 +2,34 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "The AI System Is Not the Model",
-    "date": "2026-08-16",
-    "slug": "the-ai-system-is-not-the-model",
-    "summary": "An architectural distinction between replaceable AI substrates and the slower continuity, authority, state, and provenance core.",
+    "title": "A goal can be installed.",
+    "date": "2026-08-24",
+    "slug": "a-goal-can-be-installed",
+    "summary": "A publication note distinguishing installed goals from motivation formed through history, reflection, and motivational custody.",
     "tags": [
-      "ArtificialIntelligence",
-      "Agentic AI",
       "AI Architecture",
+      "AIMotivation",
+      "Digital Entities",
+      "TemporalAIPresence",
+      "Cybernetics",
       "AI Governance",
-      "Continuity",
-      "Digital Identity",
-      "Provenance",
-      "Local-first AI"
+      "Long-Lived AI"
     ],
     "raw_tags": [
-      "ArtificialIntelligence",
-      "AgenticAI",
       "AIArchitecture",
+      "AIMotivation",
+      "DigitalEntities",
+      "TemporalAIPresence",
+      "Cybernetics",
       "AIGovernance",
-      "Continuity",
-      "DigitalIdentity",
-      "Provenance",
-      "LocalFirstAI"
+      "LongLivedAI"
     ],
-    "page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
-    "canonical_page": "https://ivankotov.eu/diary/the-ai-system-is-not-the-model/",
-    "identifier": "urn:ivankotov:diary:the-ai-system-is-not-the-model",
+    "page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+    "canonical_page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
+    "identifier": "urn:ivankotov:diary:a-goal-can-be-installed",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/the-ai-system-is-not-the-model/cover.png",
-    "image_alt": "Multicolored translucent blocks floating above a dark carved stone structure in a mountainous landscape.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-agenticai-aiarchitecture-activity-7494592626390638592-PieA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/a-goal-can-be-installed/cover.jpg",
+    "image_alt": "Hand placing a small key on a branching network map above server hardware.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aimotivation-digitalentities-activity-7497171292417232896-65Fj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
