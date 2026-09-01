@@ -2,34 +2,34 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "The question behind c = a + b is not whether an AI can look consistent over time.",
-    "date": "2026-07-18",
-    "slug": "the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time",
-    "summary": "A Cleanroom ARM-P note framing open verification as the control-side infrastructure needed to make c = a + b falsifiable.",
+    "title": "Palantir solves a real problem: large organizations have data scattered across dozens or hundreds of disconnected systems.",
+    "date": "2026-08-10",
+    "slug": "palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems",
+    "summary": "A data-architecture argument for preserving raw evidence and multiple representations while binding temporary semantics as late as reasonably possible.",
     "tags": [
-      "AIResearch",
-      "AIVerification",
-      "ReproducibleResearch",
-      "SoftwareVerification",
-      "AI Governance",
-      "OpenScience",
-      "LongTermAIMemory"
+      "AI",
+      "DataArchitecture",
+      "Palantir",
+      "Ontology",
+      "KnowledgeGraphs",
+      "MultimodalAI",
+      "AI Safety"
     ],
     "raw_tags": [
-      "AIResearch",
-      "AIVerification",
-      "ReproducibleResearch",
-      "SoftwareVerification",
-      "AIGovernance",
-      "OpenScience",
-      "LongTermAIMemory"
+      "AI",
+      "DataArchitecture",
+      "Palantir",
+      "Ontology",
+      "KnowledgeGraphs",
+      "MultimodalAI",
+      "AISafety"
     ],
-    "page": "https://ivankotov.eu/diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/",
-    "canonical_page": "https://ivankotov.eu/diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/",
-    "identifier": "urn:ivankotov:diary:the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time",
+    "page": "https://ivankotov.eu/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/",
+    "canonical_page": "https://ivankotov.eu/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/",
+    "identifier": "urn:ivankotov:diary:palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/cover.jpg",
-    "image_alt": "Cleanroom ARM-P open verification graphic showing c = a + b and four control-side evidence steps.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_airesearch-aiverification-reproducibleresearch-activity-7484235843713470464-vLHo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/cover.jpg",
+    "image_alt": "Construction wall surrounded by linked BIM, point-cloud, camera, humidity, cost, task, and acceptance-record views.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-dataarchitecture-palantir-activity-7492475026026266624-sc-r?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

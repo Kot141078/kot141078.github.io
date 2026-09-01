@@ -578,6 +578,18 @@
   border-top: 1px solid var(--line);
 }
 
+.post-content pre,
+.post-content pre code {
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.post-content pre {
+  overflow-x: auto;
+}
+
 .vision-prose pre {
   max-width: 100%;
   overflow-x: auto;
