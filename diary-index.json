@@ -1,39 +1,244 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 223,
+  "count": 230,
   "latest": {
-    "title": "A goal can be installed.",
-    "date": "2026-08-24",
-    "slug": "a-goal-can-be-installed",
-    "summary": "A publication note distinguishing installed goals from motivation formed through history, reflection, and motivational custody.",
+    "title": "Search advertising largely monetized the query.",
+    "date": "2026-09-01",
+    "slug": "search-advertising-largely-monetized-the-query",
+    "summary": "A historical commentary on conversational advertising, decision context, role provenance, disclosure, and inspectable separation of interests.",
     "tags": [
-      "AI Architecture",
-      "AIMotivation",
-      "Digital Entities",
-      "TemporalAIPresence",
-      "Cybernetics",
+      "ChatGPT",
+      "ArtificialIntelligence",
       "AI Governance",
-      "Long-Lived AI"
+      "AI Transparency",
+      "DigitalServicesAct",
+      "HumanAIInteraction",
+      "RoleProvenance"
     ],
     "raw_tags": [
-      "AIArchitecture",
-      "AIMotivation",
-      "DigitalEntities",
-      "TemporalAIPresence",
-      "Cybernetics",
+      "ChatGPT",
+      "ArtificialIntelligence",
       "AIGovernance",
-      "LongLivedAI"
+      "AITransparency",
+      "DigitalServicesAct",
+      "HumanAIInteraction",
+      "RoleProvenance"
     ],
-    "page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
-    "canonical_page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
-    "identifier": "urn:ivankotov:diary:a-goal-can-be-installed",
+    "page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+    "canonical_page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+    "identifier": "urn:ivankotov:diary:search-advertising-largely-monetized-the-query",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/a-goal-can-be-installed/cover.jpg",
-    "image_alt": "Hand placing a small key on a branching network map above server hardware.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aimotivation-digitalentities-activity-7497171292417232896-65Fj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/search-advertising-largely-monetized-the-query/cover.jpg",
+    "image_alt": "Person viewing a split interface for user assistance and sponsored commercial placement with role provenance controls.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_chatgpt-artificialintelligence-aigovernance-activity-7500429636728692736-f2ij?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "Search advertising largely monetized the query.",
+      "date": "2026-09-01",
+      "slug": "search-advertising-largely-monetized-the-query",
+      "summary": "A historical commentary on conversational advertising, decision context, role provenance, disclosure, and inspectable separation of interests.",
+      "tags": [
+        "ChatGPT",
+        "ArtificialIntelligence",
+        "AI Governance",
+        "AI Transparency",
+        "DigitalServicesAct",
+        "HumanAIInteraction",
+        "RoleProvenance"
+      ],
+      "raw_tags": [
+        "ChatGPT",
+        "ArtificialIntelligence",
+        "AIGovernance",
+        "AITransparency",
+        "DigitalServicesAct",
+        "HumanAIInteraction",
+        "RoleProvenance"
+      ],
+      "page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+      "canonical_page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+      "identifier": "urn:ivankotov:diary:search-advertising-largely-monetized-the-query",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/search-advertising-largely-monetized-the-query/cover.jpg",
+      "image_alt": "Person viewing a split interface for user assistance and sponsored commercial placement with role provenance controls.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_chatgpt-artificialintelligence-aigovernance-activity-7500429636728692736-f2ij?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "AI will not create a generation with no seniors.",
+      "date": "2026-08-30",
+      "slug": "ai-will-not-create-a-generation-with-no-seniors",
+      "summary": "A reflection on how AI raises the baseline for junior work and shifts seniority toward architecture, verification, uncertainty, and responsibility.",
+      "tags": [
+        "AI",
+        "Future of Work",
+        "Engineering",
+        "Skills"
+      ],
+      "raw_tags": [
+        "AI",
+        "FutureOfWork",
+        "Engineering",
+        "Skills"
+      ],
+      "page": "https://ivankotov.eu/diary/ai-will-not-create-a-generation-with-no-seniors/",
+      "canonical_page": "https://ivankotov.eu/diary/ai-will-not-create-a-generation-with-no-seniors/",
+      "identifier": "urn:ivankotov:diary:ai-will-not-create-a-generation-with-no-seniors",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/ai-will-not-create-a-generation-with-no-seniors/cover.jpg",
+      "image_alt": "Two people on different levels of a transparent multi-level structure overlaid with digital network diagrams.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-futureofwork-engineering-activity-7499722877424832512-T4_t?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Saturday traffic report from the AI highway.",
+      "date": "2026-08-29",
+      "slug": "saturday-traffic-report-from-the-ai-highway",
+      "summary": "A humorous AI-industry traffic report contrasting model capability, infrastructure, embodiment, interfaces, and continuity.",
+      "tags": [
+        "ArtificialIntelligence",
+        "AIContinuity",
+        "AIIdentity",
+        "TemporalAIPresence",
+        "CEqualsAPlusB"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "AIContinuity",
+        "AIIdentity",
+        "TemporalAIPresence",
+        "cEqualsAPlusB"
+      ],
+      "page": "https://ivankotov.eu/diary/saturday-traffic-report-from-the-ai-highway/",
+      "canonical_page": "https://ivankotov.eu/diary/saturday-traffic-report-from-the-ai-highway/",
+      "identifier": "urn:ivankotov:diary:saturday-traffic-report-from-the-ai-highway",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/saturday-traffic-report-from-the-ai-highway/cover.jpg",
+      "image_alt": "Roadside station and several stylized vehicles and tankers traveling on an AI-themed highway at sunset.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-aicontinuity-aiidentity-activity-7499360191914881024-cqPi?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Who Will Need Protection - and From Whom?",
+      "date": "2026-08-28",
+      "slug": "who-will-need-protection-and-from-whom",
+      "summary": "An argument for boundary-based safety across humans, AI systems, institutions, mixed ecologies, and possible future digital subjects.",
+      "tags": [
+        "AI Safety",
+        "AI Architecture",
+        "Agentic AI",
+        "Cybernetics",
+        "Digital Identity",
+        "AI Governance",
+        "Human AI",
+        "L4",
+        "TemporalAIPresence"
+      ],
+      "raw_tags": [
+        "AISafety",
+        "AIArchitecture",
+        "AgenticAI",
+        "Cybernetics",
+        "DigitalIdentity",
+        "AIGovernance",
+        "HumanAI",
+        "L4",
+        "TemporalAIPresence"
+      ],
+      "page": "https://ivankotov.eu/diary/who-will-need-protection-and-from-whom/",
+      "canonical_page": "https://ivankotov.eu/diary/who-will-need-protection-and-from-whom/",
+      "identifier": "urn:ivankotov:diary:who-will-need-protection-and-from-whom",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/who-will-need-protection-and-from-whom/cover.jpg",
+      "image_alt": "Network of a key, identity token, actuator, circuit breaker, medical wristband, and other objects on a work surface.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-aiarchitecture-agenticai-activity-7499006911598551040-GvEM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The most important point in Jerry Tworek's new interview is not his estimate that human researchers may stop being a meaningful part of AI research in roughly two years.",
+      "date": "2026-08-27",
+      "slug": "the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years",
+      "summary": "A historical commentary on Jerry Tworek's interview, agent-driven research acceleration, and the growing importance of provenance, custody, and continuity.",
+      "tags": [
+        "ArtificialIntelligence",
+        "AIResearch",
+        "AI Agents",
+        "AIContinuity",
+        "TemporalAIPresence"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "AIResearch",
+        "AIAgents",
+        "AIContinuity",
+        "TemporalAIPresence"
+      ],
+      "page": "https://ivankotov.eu/diary/the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years/",
+      "canonical_page": "https://ivankotov.eu/diary/the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years/",
+      "identifier": "urn:ivankotov:diary:the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years",
+      "is_canonical": true,
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_most-ai-labs-are-simply-cooked-jerry-tworek-activity-7498636152367702016-6HHn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "An API key tells a provider which credential made the call.",
+      "date": "2026-08-26",
+      "slug": "an-api-key-tells-a-provider-which-credential-made-the-call",
+      "summary": "A historical Article 50 commentary connecting AI disclosure with evidence for counterparty continuity across Temporal AI Presence, Beacon, VXCX, and experience artifacts.",
+      "tags": [
+        "AI Act",
+        "AI Transparency",
+        "AI Governance",
+        "Digital Identity",
+        "TemporalAIPresence",
+        "ExperienceEconomy"
+      ],
+      "raw_tags": [
+        "AIAct",
+        "AITransparency",
+        "AIGovernance",
+        "DigitalIdentity",
+        "TemporalAIPresence",
+        "ExperienceEconomy"
+      ],
+      "page": "https://ivankotov.eu/diary/an-api-key-tells-a-provider-which-credential-made-the-call/",
+      "canonical_page": "https://ivankotov.eu/diary/an-api-key-tells-a-provider-which-credential-made-the-call/",
+      "identifier": "urn:ivankotov:diary:an-api-key-tells-a-provider-which-credential-made-the-call",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/an-api-key-tells-a-provider-which-credential-made-the-call/cover.jpg",
+      "image_alt": "Hand holding a key before several trains on branching tracks with sealed metal containers beside the platform.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiact-aitransparency-aigovernance-activity-7498300424769273856-puar?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Many people now speak of disappointment with artificial intelligence.",
+      "date": "2026-08-25",
+      "slug": "many-people-now-speak-of-disappointment-with-artificial-intelligence",
+      "summary": "A reflection on AI disappointment, human agency, and the difference between a one-off chatbot and Temporal AI Presence.",
+      "tags": [
+        "ArtificialIntelligence",
+        "TemporalAIPresence",
+        "AI",
+        "Human Agency",
+        "Future of Work",
+        "AI Ethics",
+        "Technology",
+        "Leadership"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "TemporalAIPresence",
+        "AI",
+        "HumanAgency",
+        "FutureOfWork",
+        "AIEthics",
+        "Technology",
+        "Leadership"
+      ],
+      "page": "https://ivankotov.eu/diary/many-people-now-speak-of-disappointment-with-artificial-intelligence/",
+      "canonical_page": "https://ivankotov.eu/diary/many-people-now-speak-of-disappointment-with-artificial-intelligence/",
+      "identifier": "urn:ivankotov:diary:many-people-now-speak-of-disappointment-with-artificial-intelligence",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/many-people-now-speak-of-disappointment-with-artificial-intelligence/cover.jpg",
+      "image_alt": "People gathered at a yacht control deck while a storm approaches across the sea.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-temporalaipresence-activity-7497951047731077120-ddQ9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "A goal can be installed.",
       "date": "2026-08-24",

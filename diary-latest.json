@@ -2,34 +2,34 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "A goal can be installed.",
-    "date": "2026-08-24",
-    "slug": "a-goal-can-be-installed",
-    "summary": "A publication note distinguishing installed goals from motivation formed through history, reflection, and motivational custody.",
+    "title": "Search advertising largely monetized the query.",
+    "date": "2026-09-01",
+    "slug": "search-advertising-largely-monetized-the-query",
+    "summary": "A historical commentary on conversational advertising, decision context, role provenance, disclosure, and inspectable separation of interests.",
     "tags": [
-      "AI Architecture",
-      "AIMotivation",
-      "Digital Entities",
-      "TemporalAIPresence",
-      "Cybernetics",
+      "ChatGPT",
+      "ArtificialIntelligence",
       "AI Governance",
-      "Long-Lived AI"
+      "AI Transparency",
+      "DigitalServicesAct",
+      "HumanAIInteraction",
+      "RoleProvenance"
     ],
     "raw_tags": [
-      "AIArchitecture",
-      "AIMotivation",
-      "DigitalEntities",
-      "TemporalAIPresence",
-      "Cybernetics",
+      "ChatGPT",
+      "ArtificialIntelligence",
       "AIGovernance",
-      "LongLivedAI"
+      "AITransparency",
+      "DigitalServicesAct",
+      "HumanAIInteraction",
+      "RoleProvenance"
     ],
-    "page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
-    "canonical_page": "https://ivankotov.eu/diary/a-goal-can-be-installed/",
-    "identifier": "urn:ivankotov:diary:a-goal-can-be-installed",
+    "page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+    "canonical_page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
+    "identifier": "urn:ivankotov:diary:search-advertising-largely-monetized-the-query",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/a-goal-can-be-installed/cover.jpg",
-    "image_alt": "Hand placing a small key on a branching network map above server hardware.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aimotivation-digitalentities-activity-7497171292417232896-65Fj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/search-advertising-largely-monetized-the-query/cover.jpg",
+    "image_alt": "Person viewing a split interface for user assistance and sponsored commercial placement with role provenance controls.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_chatgpt-artificialintelligence-aigovernance-activity-7500429636728692736-f2ij?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }
