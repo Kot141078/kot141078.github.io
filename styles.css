@@ -1101,6 +1101,20 @@
   max-height: 160px;
 }
 
+.diary-start-grid .start-here-external-card .landing-card-media {
+  background: color-mix(in srgb, var(--bg-panel) 94%, white);
+}
+
+.diary-start-grid .start-here-external-card .landing-card-media img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.curated-route-meta {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .route-step {
   display: inline-flex;
   align-items: center;

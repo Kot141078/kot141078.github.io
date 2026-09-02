@@ -37,7 +37,11 @@ DIARY_ARCHIVE_DESCRIPTION = "Chronological archive surface for public posts and 
 DIARY_TAGS_TITLE = "Diary tags | Ivan Kotov"
 DIARY_TAGS_DESCRIPTION = "Tag-based entry into the diary archive."
 DIARY_START_HERE_TITLE = "Diary start here | Ivan Kotov"
-DIARY_START_HERE_DESCRIPTION = "Curated entry path into the diary archive for first-time readers."
+DIARY_START_HERE_DESCRIPTION = (
+    "Six starting points, ordered as a reading path through the Diary and the wider public corpus: "
+    "foundation, local reality, evidence, continuity, temporal presence, and book-length synthesis. "
+    "They are curated, not ranked."
+)
 DIARY_THEMES_TITLE = "Diary themes | Ivan Kotov"
 DIARY_THEMES_DESCRIPTION = "Topic-based reading paths through the diary archive."
 SITE_URL = "https://ivankotov.eu/"
@@ -233,8 +237,37 @@ class CanonicalTagConfig:
 
 
 @dataclass(frozen=True)
+class StartHereExternalRoute:
+    kind: str
+    source_json: str
+    url: str
+    image: str
+    image_alt: str
+    cta: str
+    page_role: str
+    title: str
+    subtitle: str
+    version: str
+    release_tag: str
+    publication_date: str
+
+    @property
+    def absolute_url(self) -> str:
+        return SITE_URL.rstrip("/") + self.url
+
+    @property
+    def absolute_image(self) -> str:
+        return SITE_URL + self.image
+
+    @property
+    def source_json_url(self) -> str:
+        return SITE_URL + self.source_json
+
+
+@dataclass(frozen=True)
 class CurationConfig:
     start_here_slugs: list[str]
+    start_here_external: list[StartHereExternalRoute]
     cornerstone_slugs: list[str]
     themes: list[ThemeConfig]
     tag_aliases: list[CanonicalTagConfig]
@@ -567,6 +600,99 @@ def validate_entry_slug_list(name: str, slugs: list[str], entry_lookup: dict[str
     return ordered
 
 
+def load_start_here_external(value: object) -> list[StartHereExternalRoute]:
+    if value is None:
+        return []
+    if not isinstance(value, list):
+        raise ValueError("Curation field start_here_external must be a list")
+    if len(value) > 1:
+        raise ValueError("V69 supports at most one external Start-here route")
+
+    routes: list[StartHereExternalRoute] = []
+    required_fields = {"kind", "source_json", "url", "image", "image_alt", "cta", "page_role"}
+    for index, item in enumerate(value, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"External Start-here route {index} must be an object")
+        unsupported = set(item) - required_fields
+        missing = required_fields - set(item)
+        if unsupported:
+            raise ValueError(f"External Start-here route {index} has unsupported fields: {sorted(unsupported)}")
+        if missing:
+            raise ValueError(f"External Start-here route {index} is missing fields: {sorted(missing)}")
+
+        if any(not isinstance(item.get(name), str) for name in required_fields):
+            raise ValueError(f"External Start-here route {index} fields must be strings")
+        fields = {name: item[name].strip() for name in required_fields}
+        if any(not value for value in fields.values()):
+            raise ValueError(f"External Start-here route {index} fields must be non-empty")
+        if fields["kind"] != "book":
+            raise ValueError("V69 external Start-here route kind must be book")
+
+        source_relative = Path(fields["source_json"])
+        if source_relative.is_absolute() or ".." in source_relative.parts or source_relative.suffix.lower() != ".json":
+            raise ValueError("External Start-here source_json must be a safe root-relative JSON path")
+        source_path = (ROOT / source_relative).resolve()
+        if not source_path.is_relative_to(ROOT.resolve()) or not source_path.is_file():
+            raise ValueError(f"External Start-here metadata source is missing: {fields['source_json']}")
+
+        route_url = fields["url"]
+        if not route_url.startswith("/") or not route_url.endswith("/") or "//" in route_url or any(
+            character in route_url for character in ("?", "#", "\\")
+        ):
+            raise ValueError("External Start-here URL must be a clean root-relative directory route")
+
+        image_relative = Path(fields["image"])
+        if image_relative.is_absolute() or ".." in image_relative.parts or fields["image"].startswith("/"):
+            raise ValueError("External Start-here image must be a safe root-relative asset path")
+        image_path = (ROOT / image_relative).resolve()
+        if not image_path.is_relative_to(ROOT.resolve()) or not image_path.is_file():
+            raise ValueError(f"External Start-here image is missing: {fields['image']}")
+
+        metadata = json.loads(source_path.read_text(encoding="utf-8"))
+        metadata_fields = {
+            "title": str(metadata.get("title", "")).strip(),
+            "subtitle": str(metadata.get("subtitle", "")).strip(),
+            "version": str(metadata.get("version", "")).strip(),
+            "release_tag": str(metadata.get("release_tag", "")).strip(),
+            "publication_date": str(metadata.get("publication_date", "")).strip(),
+            "page": str(metadata.get("page", "")).strip(),
+            "cover": str(metadata.get("cover", "")).strip(),
+        }
+        if any(not value for value in metadata_fields.values()):
+            raise ValueError(f"External Start-here metadata source is incomplete: {fields['source_json']}")
+        try:
+            date.fromisoformat(metadata_fields["publication_date"])
+        except ValueError as exc:
+            raise ValueError("External Start-here publication_date must be ISO YYYY-MM-DD") from exc
+
+        absolute_url = SITE_URL.rstrip("/") + route_url
+        absolute_image = SITE_URL + fields["image"]
+        if metadata_fields["page"] != absolute_url:
+            raise ValueError("External Start-here URL does not match its canonical metadata source")
+        if metadata_fields["cover"] != absolute_image:
+            raise ValueError("External Start-here image does not match its canonical metadata source")
+        if metadata_fields["release_tag"] != f"v{metadata_fields['version']}":
+            raise ValueError("External Start-here version and release_tag are inconsistent")
+
+        routes.append(
+            StartHereExternalRoute(
+                kind=fields["kind"],
+                source_json=fields["source_json"],
+                url=route_url,
+                image=fields["image"],
+                image_alt=fields["image_alt"],
+                cta=fields["cta"],
+                page_role=fields["page_role"],
+                title=metadata_fields["title"],
+                subtitle=metadata_fields["subtitle"],
+                version=metadata_fields["version"],
+                release_tag=metadata_fields["release_tag"],
+                publication_date=metadata_fields["publication_date"],
+            )
+        )
+    return routes
+
+
 def load_theme_editorial(theme_slug: str, value: object) -> list[ThemeEditorialSection]:
     if value is None:
         return []
@@ -636,6 +762,10 @@ def load_curation(entries: list[Entry]) -> CurationConfig:
     raw_tag_lookup = {tag.name: tag.slug for entry in entries for tag in entry.raw_tags}
 
     start_here_slugs = validate_entry_slug_list("start_here", raw.get("start_here", []), entry_lookup)
+    start_here_external = load_start_here_external(raw.get("start_here_external", []))
+    start_here_shape = (len(start_here_slugs), len(start_here_external))
+    if start_here_shape not in {(6, 0), (5, 1)}:
+        raise ValueError("Start-here curation must use the legacy 6+0 shape or the V69 5+1 shape")
     cornerstone_slugs = validate_entry_slug_list("cornerstones", raw.get("cornerstones", []), entry_lookup)
 
     themes: list[ThemeConfig] = []
@@ -691,6 +821,7 @@ def load_curation(entries: list[Entry]) -> CurationConfig:
 
     return CurationConfig(
         start_here_slugs=start_here_slugs,
+        start_here_external=start_here_external,
         cornerstone_slugs=cornerstone_slugs,
         themes=themes,
         tag_aliases=tag_aliases,
@@ -1196,8 +1327,8 @@ def render_landing_entry_card(
     *,
     asset_prefix: str,
     entry_href: str,
-    tag_prefix: str,
-    tag_slug_lookup: dict[str, TagInfo],
+    tag_prefix: str | None,
+    tag_slug_lookup: dict[str, TagInfo] | None,
     include_image: bool,
     eager_image: bool = False,
     step_number: int | None = None,
@@ -1214,7 +1345,11 @@ def render_landing_entry_card(
     step_html = ""
     if step_number is not None:
         step_html = f'            <span class="route-step" aria-label="Editorial route step {step_number:02d}">{step_number:02d}</span>\n'
-    tag_links = render_landing_tag_chips(entry, tag_slug_lookup, tag_prefix=tag_prefix, limit=6)
+    tag_links = ""
+    if tag_slug_lookup is not None:
+        if tag_prefix is None:
+            raise ValueError("Landing entry cards require a tag prefix when tags are rendered")
+        tag_links = render_landing_tag_chips(entry, tag_slug_lookup, tag_prefix=tag_prefix, limit=6)
     classes = "entry-card landing-entry-card"
     if compact:
         classes += " landing-entry-card-compact"
@@ -1302,37 +1437,59 @@ def render_cornerstones(entries: list[Entry], tag_slug_lookup: dict[str, TagInfo
 
 def render_start_here_cards(
     entries: list[Entry],
+    external_routes: list[StartHereExternalRoute],
     *,
     asset_prefix: str,
     entry_prefix: str,
     tag_prefix: str | None = None,
     tag_slug_lookup: dict[str, TagInfo] | None = None,
 ) -> str:
-    if not entries:
+    if not entries and not external_routes:
         return render_empty_state("No start-here entries were configured.", "The start-here surface appears only after curated entry slugs are selected.")
-    if tag_slug_lookup is not None:
-        if tag_prefix is None:
-            raise ValueError("Landing start-here cards require a tag prefix")
-        return render_landing_entry_collection(
-            entries,
+    cards = [
+        render_landing_entry_card(
+            entry,
             asset_prefix=asset_prefix,
-            entry_prefix=entry_prefix,
+            entry_href=f"{entry_prefix}{entry.slug}/",
             tag_prefix=tag_prefix,
             tag_slug_lookup=tag_slug_lookup,
             include_image=True,
-            limit=None,
-            wrapper_class="diary-start-grid",
-            numbered=True,
+            eager_image=index == 0,
+            step_number=index + 1,
             compact=True,
         )
-    return render_entry_collection(
-        entries,
-        asset_prefix=asset_prefix,
-        entry_prefix=entry_prefix,
-        include_image=True,
-        limit=None,
-        wrapper_class="archive-grid",
+        for index, entry in enumerate(entries)
+    ]
+    cards.extend(
+        render_start_here_external_card(route, asset_prefix=asset_prefix, step_number=len(entries) + index)
+        for index, route in enumerate(external_routes, start=1)
     )
+    return "        <div class=\"diary-start-grid\">\n" + "\n".join(cards) + "\n        </div>\n"
+
+
+def render_start_here_external_card(
+    route: StartHereExternalRoute,
+    *,
+    asset_prefix: str,
+    step_number: int,
+) -> str:
+    metadata = f"{route.publication_date} · Book · {route.release_tag}"
+    return f"""          <article class="entry-card landing-entry-card landing-entry-card-compact start-here-external-card" data-start-here-kind="{html.escape(route.kind)}">
+            <div class="entry-cover landing-card-media">
+              <img src="{html.escape(asset_prefix + route.image)}" alt="{html.escape(route.image_alt)}" loading="lazy" decoding="async">
+            </div>
+            <div class="landing-card-body">
+              <span class="route-step" aria-label="Editorial route step {step_number:02d}">{step_number:02d}</span>
+              <div class="curated-route-meta">
+                <span>{html.escape(metadata)}</span>
+              </div>
+              <h3>{html.escape(route.title)}</h3>
+              <p class="entry-summary">{html.escape(route.subtitle)}</p>
+              <div class="section-links landing-card-actions">
+                <a href="{html.escape(route.url)}">{html.escape(route.cta)}</a>
+              </div>
+            </div>
+          </article>"""
 
 
 def render_theme_cards(themes: list[ThemeInfo], *, link_prefix: str) -> str:
@@ -1774,6 +1931,7 @@ def render_diary_index(
     entries: list[Entry],
     tags: list[TagInfo],
     start_here_entries: list[Entry],
+    start_here_external: list[StartHereExternalRoute],
     cornerstone_entries: list[Entry],
     themes: list[ThemeInfo],
 ) -> str:
@@ -1824,9 +1982,9 @@ def render_diary_index(
         <div class="section-head">
           <p class="section-label">Curated entry path</p>
           <h2>Start here</h2>
-          <p class="diary-note">These are not the newest posts and not a ranking. They form an editorial reading path through the archive.</p>
+          <p class="diary-note">{html.escape(DIARY_START_HERE_DESCRIPTION)}</p>
         </div>
-{render_start_here_cards(start_here_entries, asset_prefix='../', entry_prefix='./', tag_prefix='./tags/', tag_slug_lookup=tag_slug_lookup)}
+{render_start_here_cards(start_here_entries, start_here_external, asset_prefix='../', entry_prefix='./', tag_prefix='./tags/', tag_slug_lookup=tag_slug_lookup)}
         <div class="section-links">
           <a href="./start-here/">Open Start here</a>
           <a href="./themes/">Open themes</a>
@@ -2063,11 +2221,11 @@ def render_tag_alias_page(tag_alias: TagAlias) -> str:
     )
 
 
-def render_start_here_page(entries: list[Entry]) -> str:
+def render_start_here_page(entries: list[Entry], external_routes: list[StartHereExternalRoute]) -> str:
     body_html = f"""      <section class="hero">
         <p class="eyebrow">Curated diary entry</p>
         <h1>Start here in the Diary</h1>
-        <p class="lead page-lead">A short curated entry into the diary archive.</p>
+        <p class="lead page-lead">{html.escape(DIARY_START_HERE_DESCRIPTION)}</p>
       </section>
 
       <section class="section">
@@ -2075,8 +2233,7 @@ def render_start_here_page(entries: list[Entry]) -> str:
           <p class="section-label">Starting posts</p>
           <h2>First path into the archive</h2>
         </div>
-{render_start_here_cards(entries, asset_prefix='../../', entry_prefix='../')}
-        <p class="diary-note">These are not “best posts”, but a practical entry path into the archive.</p>
+{render_start_here_cards(entries, external_routes, asset_prefix='../../', entry_prefix='../')}
         <div class="section-links">
           <a href="../archive/">Open archive</a>
           <a href="../themes/">Open themes</a>
@@ -2099,7 +2256,10 @@ def render_start_here_page(entries: list[Entry]) -> str:
             DIARY_START_HERE_TITLE,
             DIARY_START_HERE_DESCRIPTION,
             [("Home", SITE_URL), ("Diary", DIARY_URL), ("Start here", DIARY_START_HERE_URL)],
-            [(entry.title, entry.url) for entry in entries],
+            [
+                *[(entry.title, entry.url) for entry in entries],
+                *[(route.title, route.absolute_url) for route in external_routes],
+            ],
         ),
         body_html=body_html,
     )
@@ -2287,12 +2447,39 @@ def make_index_payload(entries: list[Entry]) -> dict[str, object]:
     }
 
 
-def make_start_here_payload(entries: list[Entry]) -> dict[str, object]:
+def start_here_external_payload(route: StartHereExternalRoute, position: int) -> dict[str, object]:
     return {
+        "position": position,
+        "kind": route.kind,
+        "title": route.title,
+        "subtitle": route.subtitle,
+        "version": route.version,
+        "release_tag": route.release_tag,
+        "publication_date": route.publication_date,
+        "page_role": route.page_role,
+        "page": route.absolute_url,
+        "image": route.absolute_image,
+        "image_alt": route.image_alt,
+        "cta": route.cta,
+        "source_json": route.source_json_url,
+    }
+
+
+def make_start_here_payload(
+    entries: list[Entry],
+    external_routes: list[StartHereExternalRoute],
+) -> dict[str, object]:
+    payload: dict[str, object] = {
         "site": SITE_URL,
         "page": DIARY_START_HERE_URL,
         "items": [entry_payload(entry) for entry in entries],
     }
+    if external_routes:
+        payload["external_routes"] = [
+            start_here_external_payload(route, len(entries) + index)
+            for index, route in enumerate(external_routes, start=1)
+        ]
+    return payload
 
 
 def make_cornerstones_payload(entries: list[Entry]) -> dict[str, object]:
@@ -2454,6 +2641,7 @@ def write_diary_outputs(
     tags: list[TagInfo],
     tag_aliases: list[TagAlias],
     start_here_entries: list[Entry],
+    start_here_external: list[StartHereExternalRoute],
     cornerstone_entries: list[Entry],
     themes: list[ThemeInfo],
     related_posts: dict[str, list[Entry]],
@@ -2462,7 +2650,7 @@ def write_diary_outputs(
 
     write_text_lf(
         DIARY_DIR / "index.html",
-        render_diary_index(entries, tags, start_here_entries, cornerstone_entries, themes),
+        render_diary_index(entries, tags, start_here_entries, start_here_external, cornerstone_entries, themes),
     )
 
     archive_dir = DIARY_DIR / "archive"
@@ -2471,7 +2659,7 @@ def write_diary_outputs(
 
     start_here_dir = DIARY_DIR / "start-here"
     start_here_dir.mkdir(parents=True, exist_ok=True)
-    write_text_lf(start_here_dir / "index.html", render_start_here_page(start_here_entries))
+    write_text_lf(start_here_dir / "index.html", render_start_here_page(start_here_entries, start_here_external))
 
     themes_dir = DIARY_DIR / "themes"
     themes_dir.mkdir(parents=True, exist_ok=True)
@@ -2505,6 +2693,7 @@ def write_machine_readable(
     entries: list[Entry],
     tags: list[TagInfo],
     start_here_entries: list[Entry],
+    start_here_external: list[StartHereExternalRoute],
     cornerstone_entries: list[Entry],
     themes: list[ThemeInfo],
 ) -> None:
@@ -2523,7 +2712,7 @@ def write_machine_readable(
 
     write_text_lf(
         DIARY_START_HERE_JSON,
-        json.dumps(make_start_here_payload(start_here_entries), ensure_ascii=False, indent=2) + "\n",
+        json.dumps(make_start_here_payload(start_here_entries, start_here_external), ensure_ascii=False, indent=2) + "\n",
     )
     write_text_lf(
         DIARY_THEMES_JSON,
@@ -2663,8 +2852,24 @@ def main() -> None:
     entry_lookup = {entry.slug: entry for entry in entries}
     start_here_entries = [entry_lookup[slug] for slug in curation.start_here_slugs]
     cornerstone_entries = [entry_lookup[slug] for slug in curation.cornerstone_slugs]
-    write_diary_outputs(entries, tags, tag_aliases, start_here_entries, cornerstone_entries, themes, related_posts)
-    write_machine_readable(entries, tags, start_here_entries, cornerstone_entries, themes)
+    write_diary_outputs(
+        entries,
+        tags,
+        tag_aliases,
+        start_here_entries,
+        curation.start_here_external,
+        cornerstone_entries,
+        themes,
+        related_posts,
+    )
+    write_machine_readable(
+        entries,
+        tags,
+        start_here_entries,
+        curation.start_here_external,
+        cornerstone_entries,
+        themes,
+    )
     update_home_slot()
     update_diary_sitemap(entries, tag_aliases)
 

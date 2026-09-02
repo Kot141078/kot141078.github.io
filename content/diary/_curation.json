@@ -1,11 +1,21 @@
 {
   "start_here": [
     "we-are-building-a-partner",
-    "why-thinking-ai-wont-take-over-the-world",
     "why-id-put-an-ai-rack-in-my-garage",
-    "a-review-layer-can-fail-in-two-opposite-ways",
-    "there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity",
-    "published-volume-i-of-qubit-of-hope"
+    "the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time",
+    "the-ai-system-is-not-the-model",
+    "many-people-now-speak-of-disappointment-with-artificial-intelligence"
+  ],
+  "start_here_external": [
+    {
+      "kind": "book",
+      "source_json": "world-intelligence.json",
+      "url": "/world-intelligence/",
+      "image": "assets/media/world-intelligence-eight-languages-collage.png",
+      "image_alt": "World Intelligence complete edition available in eight languages",
+      "cta": "Open book",
+      "page_role": "complete multilingual book"
+    }
   ],
   "cornerstones": [
     "agi-public-release-v1-1",
@@ -103,8 +113,8 @@
     },
     {
       "slug": "book-layer",
-      "title": "Book layer / Qubit of Hope",
-      "description": "The narrative and publication path around Qubit of Hope as the literary surface adjacent to the protocol and architecture layers.",
+      "title": "Book layer",
+      "description": "World Intelligence provides the book-length conceptual synthesis; Qubit of Hope provides the literary and narrative layer adjacent to the technical corpus.",
       "entries": [
         "today-im-publishing-volume-i-of-qubit-of-hope",
         "published-volume-i-of-qubit-of-hope",
