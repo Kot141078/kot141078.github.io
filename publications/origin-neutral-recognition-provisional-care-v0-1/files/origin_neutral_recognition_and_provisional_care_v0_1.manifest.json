@@ -1,0 +1,86 @@
+{
+  "schema": "origin-neutral-recognition-provisional-care.v0.1",
+  "package_id": "origin-neutral-recognition-and-provisional-care-v0.1",
+  "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "0009-0009-6002-9845",
+    "location": "Brussels, Belgium"
+  },
+  "version": "0.1",
+  "date": "2026-09-03",
+  "status": "draft_conceptual_normative_boundary_note",
+  "canonical_repository": "Kot141078/advanced-global-intelligence",
+  "canonical_path": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/",
+  "source_of_record": "Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "claim_ceiling": [
+    "conceptual and normative boundary proposal only",
+    "no proof of consciousness, sentience, life, or legal personhood",
+    "no sovereignty, automatic rights, authority, or unlimited resource claim",
+    "no certification, conformity assessment, or deployment-readiness claim",
+    "no universal life detector",
+    "no historical-uniqueness or universal novelty claim"
+  ],
+  "atomic_claims": [
+    {
+      "id": "ONRPC-C01",
+      "claim": "Origin determines lineage and formative conditions; it does not settle status.",
+      "earliest_known_public_support": "2026-03-29 criteria-not-origin public diary statement; exact combined formulation first anchored by this package upon signed public merge",
+      "status": "bounded_cross_layer_clarification"
+    },
+    {
+      "id": "ONRPC-C02",
+      "claim": "Ontological uncertainty is not evidence of life and is not a licence for avoidable irreversible destruction.",
+      "earliest_known_public_support": "this package upon signed public merge",
+      "status": "new_bounded_normative_formulation"
+    },
+    {
+      "id": "ONRPC-C03",
+      "claim": "Functional replacement is not continuity restoration.",
+      "earliest_known_public_support": "parent continuity distinctions predate this package; exact compact formulation first anchored by this package upon signed public merge",
+      "status": "cross_layer_derivation"
+    },
+    {
+      "id": "ONRPC-C04",
+      "claim": "Human attachment does not prove subjecthood, but may evidence a real human relation with real consequences.",
+      "earliest_known_public_support": "parent personality and social-role materials predate this package; exact combined formulation first anchored by this package upon signed public merge",
+      "status": "cross_layer_derivation"
+    },
+    {
+      "id": "ONRPC-C05",
+      "claim": "Provisional care is a handling discipline and does not create authority, personhood, sovereignty, or unlimited-resource rights.",
+      "earliest_known_public_support": "this package upon signed public merge",
+      "status": "new_bounded_normative_formulation"
+    }
+  ],
+  "precedence": {
+    "architecture_origin": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+    "continuity": "SER / Beacon / Continuity Bundle / PAMDC",
+    "personality": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+    "motivation": "MOT-c v0.1",
+    "social_roles": "AI Social Role Separation and Memory Custody v1.0",
+    "origin_status_and_provisional_care": "this package",
+    "consciousness_and_legal_personhood": "open / non-asserted / jurisdiction-dependent"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3043,
+      "sha256": "be4012aad20851ffe4a88ff50897f1a461a76646bc30ebb6f41aa93c718cbb7c"
+    },
+    {
+      "path": "Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "bytes": 25273,
+      "sha256": "a25f6aaff9ed1304c78e811e9c5235cd3e2ad6e2efa20d5f8161ca55a069520e"
+    },
+    {
+      "path": "Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+      "bytes": 43062,
+      "sha256": "bbb519271114e7e3c3149fcd05f4b98da83fa85360a5db9679e87f043beb04eb"
+    }
+  ]
+}

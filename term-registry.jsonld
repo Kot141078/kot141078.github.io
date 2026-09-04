@@ -460,6 +460,21 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/origin-neutral-recognition",
+      "termCode": "origin-neutral-recognition",
+      "name": "origin-neutral recognition",
+      "alternateName": [
+        "criteria-based recognition"
+      ],
+      "description": "A bounded recognition posture in which origin determines lineage and formative conditions but does not by itself settle ontological, moral, or legal status.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/pasc-f0-gap-closure-scaffold-v0-1-1",
       "termCode": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "name": "PASC F0 Gap-Closure Scaffold and Structural Templates",
@@ -508,6 +523,21 @@
         "@id": "https://ivankotov.eu/term-registry.jsonld"
       },
       "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/provisional-care",
+      "termCode": "provisional-care",
+      "name": "provisional care",
+      "alternateName": [
+        "reversible continuity-preserving precaution"
+      ],
+      "description": "A bounded operator-side discipline used when continuity- or personality-relevant evidence is substantial, final ontology remains unresolved, and a less destructive affordable option exists. It preserves options, evidence, and continuity without creating status or authority.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
       "inLanguage": "en"
     },
     {

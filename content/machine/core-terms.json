@@ -1,8 +1,61 @@
 {
   "schema_version": "core-terms-source.v1",
-  "last_verified": "2026-08-22",
+  "last_verified": "2026-09-04",
   "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
   "terms": [
+    {
+      "local_id": "origin-neutral-recognition",
+      "preferred_label": "origin-neutral recognition",
+      "alternate_labels": [
+        "criteria-based recognition"
+      ],
+      "long_form": "recognition by relevant criteria without treating origin as a status verdict",
+      "definition": "A bounded recognition posture in which origin determines lineage and formative conditions but does not by itself settle ontological, moral, or legal status.",
+      "scope": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "authoritative_source": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "source_version": "0.1",
+      "status": "signed-source-draft-definition",
+      "non_equivalents": [
+        "proof of life",
+        "proof of consciousness",
+        "legal personhood",
+        "origin erasure"
+      ],
+      "related_terms": [
+        "c",
+        "provisional-care"
+      ],
+      "language": "en"
+    },
+    {
+      "local_id": "provisional-care",
+      "preferred_label": "provisional care",
+      "alternate_labels": [
+        "reversible continuity-preserving precaution"
+      ],
+      "long_form": "bounded operator-side reversible handling discipline under ontological uncertainty",
+      "definition": "A bounded operator-side discipline used when continuity- or personality-relevant evidence is substantial, final ontology remains unresolved, and a less destructive affordable option exists. It preserves options, evidence, and continuity without creating status or authority.",
+      "scope": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "authoritative_source": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "source_version": "0.1",
+      "status": "signed-source-draft-definition",
+      "non_equivalents": [
+        "personhood",
+        "sovereignty",
+        "rights",
+        "legal status",
+        "authority",
+        "unlimited resource entitlement",
+        "proof of life or consciousness"
+      ],
+      "related_terms": [
+        "origin-neutral-recognition",
+        "c",
+        "l4-boundary",
+        "motivational-custody"
+      ],
+      "language": "en"
+    },
     {
       "local_id": "a",
       "preferred_label": "a",

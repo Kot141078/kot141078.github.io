@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://ivankotov.eu"
 OWNER = "Kot141078"
-LAST_VERIFIED = "2026-08-22"
+LAST_VERIFIED = "2026-09-04"
 
 WORKS_SOURCE = ROOT / "works-index.json"
 CANONICAL_SOURCE = ROOT / "canonical-map.json"

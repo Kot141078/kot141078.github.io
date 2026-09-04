@@ -3,6 +3,94 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English and Russian",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "note": "Public draft conceptual / normative boundary note; no DOI assigned."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "English Markdown",
+      "format": "Markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "sha256": "a25f6aaff9ed1304c78e811e9c5235cd3e2ad6e2efa20d5f8161ca55a069520e",
+      "note": "Canonical English source of record."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Russian Markdown",
+      "format": "Markdown",
+      "language": "Russian",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+      "sha256": "bbb519271114e7e3c3149fcd05f4b98da83fa85360a5db9679e87f043beb04eb",
+      "note": "Canonical Russian translation."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Package README",
+      "format": "Markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/README.md",
+      "sha256": "be4012aad20851ffe4a88ff50897f1a461a76646bc30ebb6f41aa93c718cbb7c",
+      "note": "Package scope, status, reading order, and claim ceiling."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Package manifest",
+      "format": "JSON",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json",
+      "sha256": "d104d0e0ccd834f63716fcd25526c5559af651174161c00ea6a08159f36d3476",
+      "note": "Typed package metadata, atomic claims, precedence, and source-file integrity."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Package checksums",
+      "format": "TXT / SHA-256",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/SHA256SUMS",
+      "sha256": "587e0be9340c31599140f95fd54353d849b9f7ef4c756768e730870f2a2dc534",
+      "note": "SHA-256 ledger for canonical package files."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Machine index",
+      "format": "JSON",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/machine/index.json",
+      "sha256": "810c9f9a8810624cc54c88e49fc208d0ea71d405e7a164fe28e09420ad7d02b0",
+      "note": "Bounded machine entry with explicit axes, negative boundaries, source commit, and no-DOI status."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Schema.org linked data",
+      "format": "JSON-LD",
+      "language": "machine-readable",
+      "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/schema.org.jsonld",
+      "sha256": "39fbc3fd092d2c81a7f5bc043aa175493851494b1bf91f275f6daa192cde9a84",
+      "note": "CreativeWork discovery projection without a DOI identifier."
+    },
+    {
+      "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
+      "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "surface": "Signed canonical source",
+      "format": "human- and machine-readable repository path",
+      "language": "English and Russian",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/e0295e6ad8032f258fa47951e2a116d5b586f99b/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+      "note": "Immutable public Git tree at the signed implementation commit."
+    },
+    {
       "publication_id": "motivational-formation-c-v0-1",
       "object": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
       "surface": "Website publication page",

@@ -1,0 +1,56 @@
+{
+  "schema": "ivankotov.publication.machine_entry.v1",
+  "id": "origin-neutral-recognition-provisional-care-v0-1",
+  "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+  "date_published": "2026-09-03",
+  "status": "draft_conceptual_normative_boundary_note",
+  "canonical_url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+  "canonical_repository": "Kot141078/advanced-global-intelligence",
+  "canonical_repository_path": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/",
+  "doi": null,
+  "no_doi": true,
+  "source_commit": "e0295e6ad8032f258fa47951e2a116d5b586f99b",
+  "living_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+  "immutable_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/e0295e6ad8032f258fa47951e2a116d5b586f99b/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+  "source_of_record": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+  "translations": {
+    "en": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+    "ru": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md"
+  },
+  "integrity": {
+    "manifest": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json",
+    "sha256sums": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/SHA256SUMS"
+  },
+  "axes": [
+    "lineage / architecture",
+    "operational continuity",
+    "personality formation",
+    "relational membership",
+    "ontological / moral recognition",
+    "legal status / authority"
+  ],
+  "core_boundaries": [
+    "origin determines lineage and formative conditions; it does not settle status",
+    "life should be recognized by criteria, not by origin",
+    "ontological uncertainty is not evidence of life and is not a licence for avoidable irreversible destruction",
+    "functional replacement is not continuity restoration",
+    "human attachment does not prove subjecthood, but may evidence a real human relation with real consequences",
+    "provisional care is a handling discipline; it does not create authority, personhood, sovereignty, rights, legal status, or entitlement to unlimited resources"
+  ],
+  "negative_boundaries": [
+    "origin != status",
+    "continuity != consciousness",
+    "personality != authority",
+    "relational membership != personhood",
+    "care != sovereignty",
+    "care != authority",
+    "functional replacement != continuity restoration",
+    "permission != feasibility"
+  ],
+  "claim_ceiling": [
+    "no proof of consciousness, sentience, life, or legal personhood",
+    "no sovereignty, automatic rights, authority, or unlimited-resource claim",
+    "no universal life detector",
+    "no certification or deployment-readiness claim"
+  ]
+}

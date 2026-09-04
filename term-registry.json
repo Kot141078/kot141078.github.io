@@ -3,15 +3,15 @@
   "schema_version": "term-registry.v1",
   "document_id": "ivankotov-public-term-registry-v1",
   "url": "https://ivankotov.eu/term-registry.json",
-  "last_verified": "2026-08-22",
+  "last_verified": "2026-09-04",
   "preferred_label_rule": "Use preferred_label in new machine-facing records. alternate_labels are discovery aliases, not strict equivalents outside the declared scope.",
   "claim_boundary": "These records are a machine-routing projection of cited public sources. They do not establish entity status, consciousness, personhood, validation, deployment authorization, or authority transfer.",
   "source_hashes": {
     "canonical_map": "c04c56a08868417e2ef7998742d3f4b05c00f19250ebbdb1c9151464dd42fdce",
-    "core_terms": "cd10827a9b5bda479cafad6055afaec20c52272cc525cfe1a21932204c279331",
+    "core_terms": "44b2b6557b02eb7008e418e4ef3194bd2d624f0d74ffa8dfa9be77365636a2b5",
     "distinctions": "757ba3ef7241e273a57dc4569da1a93000c5ec1ed82ead832e2a4ad7f41fb18e"
   },
-  "term_count": 49,
+  "term_count": 51,
   "terms": [
     {
       "local_id": "a",
@@ -783,6 +783,31 @@
       "term_id": "https://ivankotov.eu/terms/motivational-custody"
     },
     {
+      "local_id": "origin-neutral-recognition",
+      "preferred_label": "origin-neutral recognition",
+      "alternate_labels": [
+        "criteria-based recognition"
+      ],
+      "long_form": "recognition by relevant criteria without treating origin as a status verdict",
+      "definition": "A bounded recognition posture in which origin determines lineage and formative conditions but does not by itself settle ontological, moral, or legal status.",
+      "scope": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "authoritative_source": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "source_version": "0.1",
+      "status": "signed-source-draft-definition",
+      "non_equivalents": [
+        "proof of life",
+        "proof of consciousness",
+        "legal personhood",
+        "origin erasure"
+      ],
+      "related_terms": [
+        "c",
+        "provisional-care"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/origin-neutral-recognition"
+    },
+    {
       "term_id": "https://ivankotov.eu/terms/pasc-f0-gap-closure-scaffold-v0-1-1",
       "local_id": "pasc-f0-gap-closure-scaffold-v0-1-1",
       "preferred_label": "PASC F0 Gap-Closure Scaffold and Structural Templates",
@@ -870,6 +895,36 @@
       ],
       "related_terms": [],
       "language": "en"
+    },
+    {
+      "local_id": "provisional-care",
+      "preferred_label": "provisional care",
+      "alternate_labels": [
+        "reversible continuity-preserving precaution"
+      ],
+      "long_form": "bounded operator-side reversible handling discipline under ontological uncertainty",
+      "definition": "A bounded operator-side discipline used when continuity- or personality-relevant evidence is substantial, final ontology remains unresolved, and a less destructive affordable option exists. It preserves options, evidence, and continuity without creating status or authority.",
+      "scope": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "authoritative_source": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "source_version": "0.1",
+      "status": "signed-source-draft-definition",
+      "non_equivalents": [
+        "personhood",
+        "sovereignty",
+        "rights",
+        "legal status",
+        "authority",
+        "unlimited resource entitlement",
+        "proof of life or consciousness"
+      ],
+      "related_terms": [
+        "origin-neutral-recognition",
+        "c",
+        "l4-boundary",
+        "motivational-custody"
+      ],
+      "language": "en",
+      "term_id": "https://ivankotov.eu/terms/provisional-care"
     },
     {
       "term_id": "https://ivankotov.eu/terms/qubit-of-hope",

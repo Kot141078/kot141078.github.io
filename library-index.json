@@ -3,6 +3,90 @@
   "page": "https://ivankotov.eu/library/",
   "items": [
     {
+      "id": "origin-neutral-recognition-provisional-care-v0-1",
+      "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "role": "public draft conceptual / normative boundary note",
+      "primary_page": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/e0295e6ad8032f258fa47951e2a116d5b586f99b/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+      "living_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/e0295e6ad8032f258fa47951e2a116d5b586f99b",
+      "type": "publication",
+      "subtype": "conceptual_normative_boundary_note",
+      "version": "0.1",
+      "date": "2026-09-03",
+      "status": "draft_conceptual_normative_boundary_note",
+      "author": "Ivan Kotov",
+      "orcid": "0009-0009-6002-9845",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "summary": "Boundary note separating origin, continuity, personality formation, relational membership, ontological or moral recognition, and legal status or authority, with a bounded provisional-care discipline that creates no status or authority.",
+      "artifacts": [
+        {
+          "format": "Markdown",
+          "language": "English",
+          "filename": "Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+          "media_type": "text/markdown",
+          "sha256": "a25f6aaff9ed1304c78e811e9c5235cd3e2ad6e2efa20d5f8161ca55a069520e",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md"
+        },
+        {
+          "format": "Markdown",
+          "language": "Russian",
+          "filename": "Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+          "media_type": "text/markdown",
+          "sha256": "bbb519271114e7e3c3149fcd05f4b98da83fa85360a5db9679e87f043beb04eb",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md"
+        },
+        {
+          "format": "Markdown",
+          "language": "English",
+          "filename": "README.md",
+          "media_type": "text/markdown",
+          "sha256": "be4012aad20851ffe4a88ff50897f1a461a76646bc30ebb6f41aa93c718cbb7c",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/README.md"
+        },
+        {
+          "format": "JSON",
+          "filename": "origin_neutral_recognition_and_provisional_care_v0_1.manifest.json",
+          "media_type": "application/json",
+          "sha256": "d104d0e0ccd834f63716fcd25526c5559af651174161c00ea6a08159f36d3476",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json"
+        },
+        {
+          "format": "TXT",
+          "filename": "SHA256SUMS",
+          "media_type": "text/plain",
+          "sha256": "587e0be9340c31599140f95fd54353d849b9f7ef4c756768e730870f2a2dc534",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/SHA256SUMS"
+        },
+        {
+          "format": "JSON",
+          "filename": "files/machine/index.json",
+          "media_type": "application/json",
+          "sha256": "810c9f9a8810624cc54c88e49fc208d0ea71d405e7a164fe28e09420ad7d02b0",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/machine/index.json"
+        },
+        {
+          "format": "JSON-LD",
+          "filename": "files/schema.org.jsonld",
+          "media_type": "application/ld+json",
+          "sha256": "39fbc3fd092d2c81a7f5bc043aa175493851494b1bf91f275f6daa192cde9a84",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/schema.org.jsonld"
+        }
+      ],
+      "machine_index_url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/machine/index.json",
+      "schema_org_url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/schema.org.jsonld",
+      "not": [
+        "proof of consciousness, sentience, life, or legal personhood",
+        "sovereignty, rights, authority, or unlimited-resource entitlement",
+        "certification, conformity assessment, or deployment readiness",
+        "a universal life detector"
+      ]
+    },
+    {
       "id": "temporal-ai-presence-v1-0",
       "title": "Temporal AI Presence Profile v1.0",
       "role": "technical note / temporal participation profile / public implementation-evidence route",

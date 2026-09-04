@@ -9,7 +9,7 @@ Extended guide: [llms-full.txt](https://ivankotov.eu/llms-full.txt)
 Author: Ivan Kotov
 ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 Last verified (base routing layer): 2026-08-07
-Latest publication bridge added: 2026-08-24
+Latest publication bridge added: 2026-09-04
 
 ## Primary machine routes
 
@@ -61,6 +61,14 @@ Latest publication bridge added: 2026-08-24
 - Preserve immutable DOI-bound and release-bound bytes. Corrections to discovery metadata do not rewrite frozen artifacts.
 - English translations marked discovery-only are not canonical when a source declares another language authoritative.
 - Repository snapshots in public-repositories.json are observations at last_verified, not permanent identity claims.
+
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+- Canonical page: https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/
+- Signed source: https://github.com/Kot141078/advanced-global-intelligence/tree/e0295e6ad8032f258fa47951e2a116d5b586f99b/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1
+- English Markdown: https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md
+- Russian Markdown: https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/files/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md
+- Core boundaries: origin does not settle status; functional replacement is not continuity restoration; provisional care does not create authority.
+- Status: public draft conceptual / normative boundary note. No DOI, Zenodo deposit, release, tag, certification, status grant, or deployment-readiness claim.
 
 ## Temporal AI Presence Profile v1.0
 - Canonical page: https://ivankotov.eu/temporal-ai-presence/

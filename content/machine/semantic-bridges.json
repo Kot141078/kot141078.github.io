@@ -1,9 +1,66 @@
 {
   "schema_version": "semantic-bridges-source.v1",
-  "last_verified": "2026-08-24",
+  "last_verified": "2026-09-04",
   "status": "interpretive-machine-routing-overlay",
   "claim_boundary": "A bridge records a bounded reading dependency or evidence route. It does not prove entity status, consciousness, operational success, causal effect, external validation, certification, or authority transfer.",
   "bridges": [
+    {
+      "bridge_id": "BRIDGE-003",
+      "visibility": "explicit",
+      "title": "Origin-neutral recognition and provisional-care separation",
+      "scope": "Origin, status, operational continuity, functional replacement, provisional care, and authority remain non-collapsed across the public corpus.",
+      "nodes": [
+        {
+          "id": "origin",
+          "url": "https://ivankotov.eu/c-a-plus-b/"
+        },
+        {
+          "id": "status",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/"
+        },
+        {
+          "id": "provisional-care",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/"
+        },
+        {
+          "id": "authority",
+          "url": "https://ivankotov.eu/l4/"
+        },
+        {
+          "id": "functional-replacement",
+          "url": "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/"
+        },
+        {
+          "id": "continuity-restoration",
+          "url": "https://ivankotov.eu/ser/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "origin",
+          "relation": "doesNotEntail",
+          "target": "status"
+        },
+        {
+          "source": "provisional-care",
+          "relation": "doesNotEntail",
+          "target": "authority"
+        },
+        {
+          "source": "functional-replacement",
+          "relation": "doesNotEntail",
+          "target": "continuity-restoration"
+        }
+      ],
+      "canonical_evidence": [
+        "https://ivankotov.eu/publications/origin-neutral-recognition-provisional-care-v0-1/",
+        "https://github.com/Kot141078/advanced-global-intelligence/tree/e0295e6ad8032f258fa47951e2a116d5b586f99b/protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1",
+        "https://ivankotov.eu/c-a-plus-b/",
+        "https://ivankotov.eu/ser/",
+        "https://ivankotov.eu/l4/"
+      ],
+      "claim_ceiling": "Interpretive and prospective boundary only; not proof of consciousness, life, subjecthood, legal personhood, rights, sovereignty, authority, continuity restoration, certification, or deployment readiness."
+    },
     {
       "bridge_id": "BRIDGE-002",
       "visibility": "explicit",
