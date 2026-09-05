@@ -122,3 +122,8 @@ Latest publication bridge added: 2026-09-04
 - Source mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/2e4d3be735dffe20cac06e7e8f6f3b50b196481a/research/pasc/f0-gap-closure-scaffolds/v0.1.1
 - Status: INFORMATIVE_CONTEXT; normative_weight_in_pasc=false; closure_evidence=false; F0_OUTCOME remains NOT_PASSED; F1 drafting, formalization, validator construction, implementation and deployment are prohibited.
 - Parser guard: publication, DOI, templates, checksums, signatures, credentials, receipts, profiles, registries or technical capability do not create PASC closure, independence, jurisdiction, succession, identity, continuity or authority.
+
+## Scientific corrections — 5 September 2026
+
+- https://ivankotov.eu/publications/scientific-corrections-v1-0/
+Source-bound ARQ M2, MOT-c and C-Calculus corrigendum, corrected reading editions and regression checks. Historical DOI payloads retained; the correction supplement has no DOI assigned yet.

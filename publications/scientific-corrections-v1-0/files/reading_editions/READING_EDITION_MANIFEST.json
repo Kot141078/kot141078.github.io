@@ -1,0 +1,26 @@
+{
+  "artifact": "SCIENTIFIC_CORRIGENDA_HARDENING_v1_0",
+  "scope": "exact document patch replay only",
+  "files": [
+    {
+      "filename": "04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2_CORRECTED_20260905.md",
+      "size_bytes": 61390,
+      "sha256": "2683da9156862d4990844650f743b09a26db07d09adc7f499851c48c3120736d"
+    },
+    {
+      "filename": "ARQ_System_Models_and_Assumptions_v0.2_CORRECTED_20260905.md",
+      "size_bytes": 23455,
+      "sha256": "96be3c908abee74ec73ca5a17a5c9378d6728e84763dc2328d8ac619cfb6b720"
+    },
+    {
+      "filename": "MOT_c_Foundation_Theory_v0_1_EN_CORRECTED_20260905.md",
+      "size_bytes": 77197,
+      "sha256": "dc413a2322d06c214544105e392ec57ded2f0b4cbc9b7e026bc436a2cb5a543c"
+    },
+    {
+      "filename": "MOT_c_Foundation_Theory_v0_1_RU_CORRECTED_20260905.md",
+      "size_bytes": 130199,
+      "sha256": "f102adc14c042b3ecf55c45314eb5225e69133458ecc39022a201cf41ead075d"
+    }
+  ]
+}

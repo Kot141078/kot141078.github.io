@@ -13,6 +13,81 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "scientific-corrections-v1-0",
+      "title": "Scientific Corrigenda and Regression Hardening for ARQ M2, MOT-c and C-Calculus",
+      "type": "publication",
+      "subtype": "scientific_corrigendum",
+      "role": "source-bound scientific corrections and reproducible document regression hardening",
+      "primary_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/78bce9419de6006a21fdfd8fcf1aee35c383205c/hardening/scientific_corrigenda_v1_0",
+      "commit": "78bce9419de6006a21fdfd8fcf1aee35c383205c",
+      "date": "2026-09-05",
+      "version": "1.0",
+      "status": "published_repository_correction_zenodo_deposit_pending",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "license": "CC BY 4.0; source material retains original licenses",
+      "license_code": "MIT",
+      "summary": "Corrections to ARQ M2 initial-state and resource-accounting formulas, EN/RU MOT-c Appendix A LATENT examples and C-Calculus relation taxonomy/finite adjacency. Four complete corrected reading editions and 29 focused first-party tests.",
+      "archive_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip",
+      "archive_sha256": "ca1e741f7d4f2dbf76a4a66fed7a5d83cf37e599e0fc4552bbca5aaa59b4ffde",
+      "manifest_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/SHA256SUMS.txt",
+      "sha256sums_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip.sha256",
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "publication/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2_CORRECTED_20260905.pdf",
+          "media_type": "application/pdf",
+          "sha256": "1f9aae293b81b7bce71bf575ab52d2003b41ce4fb0e93bb0ad9d4ccffa491e94",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2_CORRECTED_20260905.pdf"
+        },
+        {
+          "format": "PDF",
+          "filename": "publication/ARQ_System_Models_and_Assumptions_v0.2_CORRECTED_20260905.pdf",
+          "media_type": "application/pdf",
+          "sha256": "b72fe11849b13b7d1b622cec7c7f56f74beba05e4e7a063989e72bc949ddf865",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/ARQ_System_Models_and_Assumptions_v0.2_CORRECTED_20260905.pdf"
+        },
+        {
+          "format": "PDF",
+          "filename": "publication/CORRIGENDUM_EN.pdf",
+          "media_type": "application/pdf",
+          "sha256": "72443dcdca4c50f06d59572b2f7e539d94838bd2ca145a51cda3f3a624c4d925",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/CORRIGENDUM_EN.pdf"
+        },
+        {
+          "format": "PDF",
+          "filename": "publication/CORRIGENDUM_RU.pdf",
+          "media_type": "application/pdf",
+          "sha256": "e02ab30df6080374792843b50a89a05327d62c5fa90b583e2fcb18ceb6f3c76a",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/CORRIGENDUM_RU.pdf"
+        },
+        {
+          "format": "PDF",
+          "filename": "publication/MOT_c_Foundation_Theory_v0_1_EN_CORRECTED_20260905.pdf",
+          "media_type": "application/pdf",
+          "sha256": "6bdd1c15a6df9cc11aba224c70963b4c30374908ec2295fffc0736ea3ef1ab14",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/MOT_c_Foundation_Theory_v0_1_EN_CORRECTED_20260905.pdf"
+        },
+        {
+          "format": "PDF",
+          "filename": "publication/MOT_c_Foundation_Theory_v0_1_RU_CORRECTED_20260905.pdf",
+          "media_type": "application/pdf",
+          "sha256": "5ee1e3f1edeace4431d2f10737f388a05658d4baae5513765fa3e6bc7e6d8121",
+          "url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/files/publication/MOT_c_Foundation_Theory_v0_1_RU_CORRECTED_20260905.pdf"
+        }
+      ],
+      "non_claims": [
+        "not a complete replacement of the parent compound releases",
+        "no new DOI assigned yet",
+        "not independent scientific peer review",
+        "not deployed runtime validation",
+        "no c-specific effect, identity, consciousness or economic-value result"
+      ]
+    },
+    {
       "id": "origin-neutral-recognition-provisional-care-v0-1",
       "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
       "type": "publication",
@@ -97,7 +172,9 @@
         "a universal life detector",
         "certification, conformity assessment, or deployment readiness",
         "historical uniqueness or universal novelty"
-      ]
+      ],
+      "correction_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
+      "correction_date": "2026-09-05"
     },
     {
       "id": "temporal-ai-presence-v1-0",
@@ -292,7 +369,9 @@
       "github_living_mirror": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
       "commit": "35fa9007f61836aed686c0f62404e1ae47301939",
       "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
-      "repository_path": "publications/motivational-formation-c-v0-1"
+      "repository_path": "publications/motivational-formation-c-v0-1",
+      "correction_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
+      "correction_date": "2026-09-05"
     },
     {
       "id": "beacon-profile-v0-1",
@@ -2103,7 +2182,9 @@
         "Not consciousness proof.",
         "Not live-substrate truth.",
         "Not proof of completeness."
-      ]
+      ],
+      "correction_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
+      "correction_date": "2026-09-05"
     }
   ]
 }

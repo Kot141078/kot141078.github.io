@@ -1,0 +1,12 @@
+{
+  "status": "PASS_STATIC_CORRECTION_PUBLICATION_BUILD",
+  "source_commit": "78bce9419de6006a21fdfd8fcf1aee35c383205c",
+  "archive_sha256": "ca1e741f7d4f2dbf76a4a66fed7a5d83cf37e599e0fc4552bbca5aaa59b4ffde",
+  "archive_bytes": 2808783,
+  "internal_manifest_entries": 48,
+  "old_doi_payload_changes": 0,
+  "site_machine_generator": "existing tools/build_machine_layer.py",
+  "site_checks": "existing tools/check_machine_readability.py",
+  "new_page": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
+  "live_deployment_verified": false
+}

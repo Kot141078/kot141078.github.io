@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "md_ids": [
+    "O01",
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O06",
+    "O07",
+    "O08",
+    "O09",
+    "O10",
+    "O11",
+    "O13",
+    "O12"
+  ],
+  "json_ids": [
+    "O01",
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O06",
+    "O07",
+    "O08",
+    "O09",
+    "O10",
+    "O11",
+    "O12",
+    "O13"
+  ],
+  "old_O12_owner_retained": true,
+  "history_before_insertion": "7bb19aa6d9c2606f8e9366ba009ab74cef9fc5d5",
+  "unrelated_objection_numbers_modified": false
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "title": "Scientific Corrigenda and Regression Hardening for ARQ M2, MOT-c and C-Calculus",
+    "upload_type": "publication",
+    "publication_type": "technicalnote",
+    "creators": [{"name":"Kotov, Ivan","orcid":"0009-0009-6002-9845"}],
+    "version": "1.0",
+    "publication_date": "2026-09-05",
+    "language": "eng",
+    "license": "cc-by-4.0",
+    "keywords": ["scientific corrigendum","ARQ","MOT-c","C-Calculus","regression testing","Temporal AI Presence","c=a+b"],
+    "description": "<p>This author-issued corrigendum and reproducible maintenance supplement corrects three scientific-document families: ARQ M2 initial-state and resource-accounting formulas; the missing LATENT value in the English and Russian MOT-c Appendix A examples; and the C-Calculus distinction between equivalence, directed continuation and threshold resemblance, together with an explicit finite-trace adjacency convention.</p><p>The package includes four complete corrected reading editions, PDF projections, unchanged source snapshots, exact source-bound edits and 29 focused first-party regression tests. It also documents the ownership O12/O13 correction and the interpretation limit of a bounded-summary substitution control.</p><p>This is a supplementary correction, not a complete replacement release of the parent compound publications. Original DOI payloads and historical test evidence remain unchanged. Exact ARQ M2 membership in a particular Zenodo deposit remains unresolved; the public SER repository commit and SHA-256 identify that source. No native runtime test, independent scientific review, new model experiment, c-specific effect, consciousness, identity or economic-value result is claimed. New explanatory text is CC BY 4.0; new maintenance code is MIT; reproduced sources retain their original attribution and applicable licenses.</p>",
+    "related_identifiers": [
+      {"identifier":"10.5281/zenodo.22060517","relation":"isSupplementTo","scheme":"doi"},
+      {"identifier":"10.5281/zenodo.21205427","relation":"isSupplementTo","scheme":"doi"},
+      {"identifier":"https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/protocol/arq/v0.2/ARQ_System_Models_and_Assumptions_v0.2.md","relation":"isSupplementTo","scheme":"url"}
+    ]
+  },
+  "submission_note": "Create a separate explicitly linked corrigendum record. Do not upload this partial cross-corpus supplement as a complete new version of either parent compound package. A DOI for this supplement has not been assigned. The JSON provides deposit fields; it does not claim submission."
+}

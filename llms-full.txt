@@ -186,3 +186,8 @@ Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here
 - Social boundary: the payer of computation does not automatically own the motive; a motive does not automatically create a right to another participant's resources.
 - Claim ceiling: no proof of consciousness, phenomenal desire, free will, legal personhood, universal motives or automatic external authority.
 <!-- MOT-C-V0-1:END -->
+
+## Scientific corrections — 5 September 2026
+
+- https://ivankotov.eu/publications/scientific-corrections-v1-0/
+Source-bound ARQ M2, MOT-c and C-Calculus corrigendum, corrected reading editions and regression checks. Historical DOI payloads retained; the correction supplement has no DOI assigned yet.

@@ -1,0 +1,34 @@
+test_01_source_bindings (__main__.CorrectionTests.test_01_source_bindings) ... ok
+test_02_replay_exact_editions (__main__.CorrectionTests.test_02_replay_exact_editions) ... ok
+test_03_changed_source_is_rejected (__main__.CorrectionTests.test_03_changed_source_is_rejected) ... ok
+test_04_repeated_patch_is_rejected (__main__.CorrectionTests.test_04_repeated_patch_is_rejected) ... ok
+test_05_no_output_overwrite (__main__.CorrectionTests.test_05_no_output_overwrite) ... ok
+test_06_bad_input_creates_no_output (__main__.CorrectionTests.test_06_bad_input_creates_no_output) ... ok
+test_07_successful_fresh_rebuild (__main__.CorrectionTests.test_07_successful_fresh_rebuild) ... ok
+test_08_mot_en_vocabulary (__main__.CorrectionTests.test_08_mot_en_vocabulary) ... ok
+test_09_mot_ru_vocabulary (__main__.CorrectionTests.test_09_mot_ru_vocabulary) ... ok
+test_10_old_en_defect_detected (__main__.CorrectionTests.test_10_old_en_defect_detected) ... ok
+test_11_old_ru_defect_detected (__main__.CorrectionTests.test_11_old_ru_defect_detected) ... ok
+test_12_mot_duplicate_state_detected (__main__.CorrectionTests.test_12_mot_duplicate_state_detected) ... ok
+test_13_lifecycle_semantics_unchanged (__main__.CorrectionTests.test_13_lifecycle_semantics_unchanged) ... ok
+test_14_initial_eight_bits_no_new_commit (__main__.CorrectionTests.test_14_initial_eight_bits_no_new_commit) ... ok
+test_15_budget_normalization (__main__.CorrectionTests.test_15_budget_normalization) ... ok
+test_16_unit_scale_invariance (__main__.CorrectionTests.test_16_unit_scale_invariance) ... ok
+test_17_floor_and_zero_budget (__main__.CorrectionTests.test_17_floor_and_zero_budget) ... ok
+test_18_invalid_charge_rejected (__main__.CorrectionTests.test_18_invalid_charge_rejected) ... ok
+test_19_subset_costs_cannot_bound_all_commits (__main__.CorrectionTests.test_19_subset_costs_cannot_bound_all_commits) ... ok
+test_20_finite_memory_not_lifetime_count (__main__.CorrectionTests.test_20_finite_memory_not_lifetime_count) ... ok
+test_21_empty_and_singleton_trace (__main__.CorrectionTests.test_21_empty_and_singleton_trace) ... ok
+test_22_terminal_origin_excluded (__main__.CorrectionTests.test_22_terminal_origin_excluded) ... ok
+test_23_defined_row_sums_exhaustive_small_traces (__main__.CorrectionTests.test_23_defined_row_sums_exhaustive_small_traces) ... ok
+test_24_no_implicit_terminal_self_loop (__main__.CorrectionTests.test_24_no_implicit_terminal_self_loop) ... ok
+test_25_unknown_labels_rejected (__main__.CorrectionTests.test_25_unknown_labels_rejected) ... ok
+test_26_resemblance_nontransitive (__main__.CorrectionTests.test_26_resemblance_nontransitive) ... ok
+test_27_directed_path_not_symmetric (__main__.CorrectionTests.test_27_directed_path_not_symmetric) ... ok
+test_28_admission_algorithms_unchanged (__main__.CorrectionTests.test_28_admission_algorithms_unchanged) ... ok
+test_29_source_doi_not_assigned_to_new_bytes (__main__.CorrectionTests.test_29_source_doi_not_assigned_to_new_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.037s
+
+OK

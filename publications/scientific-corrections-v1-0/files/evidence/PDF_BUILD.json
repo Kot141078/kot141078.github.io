@@ -1,0 +1,43 @@
+{
+  "scope": "PDF projections, not independent scientific validation",
+  "files": [
+    {
+      "source": "reading_editions/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2_CORRECTED_20260905.md",
+      "pdf": "publication/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2_CORRECTED_20260905.pdf",
+      "size_bytes": 145583,
+      "sha256": "1f9aae293b81b7bce71bf575ab52d2003b41ce4fb0e93bb0ad9d4ccffa491e94"
+    },
+    {
+      "source": "reading_editions/ARQ_System_Models_and_Assumptions_v0.2_CORRECTED_20260905.md",
+      "pdf": "publication/ARQ_System_Models_and_Assumptions_v0.2_CORRECTED_20260905.pdf",
+      "size_bytes": 97469,
+      "sha256": "b72fe11849b13b7d1b622cec7c7f56f74beba05e4e7a063989e72bc949ddf865"
+    },
+    {
+      "source": "reading_editions/MOT_c_Foundation_Theory_v0_1_EN_CORRECTED_20260905.md",
+      "pdf": "publication/MOT_c_Foundation_Theory_v0_1_EN_CORRECTED_20260905.pdf",
+      "size_bytes": 699169,
+      "sha256": "6bdd1c15a6df9cc11aba224c70963b4c30374908ec2295fffc0736ea3ef1ab14"
+    },
+    {
+      "source": "reading_editions/MOT_c_Foundation_Theory_v0_1_RU_CORRECTED_20260905.md",
+      "pdf": "publication/MOT_c_Foundation_Theory_v0_1_RU_CORRECTED_20260905.pdf",
+      "size_bytes": 765624,
+      "sha256": "5ee1e3f1edeace4431d2f10737f388a05658d4baae5513765fa3e6bc7e6d8121"
+    },
+    {
+      "source": "CORRIGENDUM_EN.md",
+      "pdf": "publication/CORRIGENDUM_EN.pdf",
+      "size_bytes": 62921,
+      "sha256": "72443dcdca4c50f06d59572b2f7e539d94838bd2ca145a51cda3f3a624c4d925"
+    },
+    {
+      "source": "CORRIGENDUM_RU.md",
+      "pdf": "publication/CORRIGENDUM_RU.pdf",
+      "size_bytes": 65059,
+      "sha256": "e02ab30df6080374792843b50a89a05327d62c5fa90b583e2fcb18ceb6f3c76a"
+    }
+  ],
+  "pandoc": "pandoc 3.1.3",
+  "xelatex": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)"
+}

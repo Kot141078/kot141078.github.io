@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2.md",
+    "sha256": "35861cc5c8c579be07840bcace3f44197343d4c384956672da86a308b7bd6fa9",
+    "size_bytes": 58689,
+    "version_doi": "10.5281/zenodo.21205427",
+    "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/77cdc6632d7385ba3be374d257b833ab4790f935/publications/ccalc-full-stack-v0-1/sources/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2.md",
+    "source_acquisition": "exact source pin; original mirror matched public repository digest",
+    "direct_zenodo_download": false
+  },
+  {
+    "filename": "ARQ_System_Models_and_Assumptions_v0.2.md",
+    "sha256": "73f3ed2a98d691e053a6ee9b6ce05392418cd7dac00febb1e3c392e8ae34f4b6",
+    "size_bytes": 21548,
+    "version_doi": null,
+    "source_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/protocol/arq/v0.2/ARQ_System_Models_and_Assumptions_v0.2.md",
+    "source_acquisition": "exact source pin; original mirror matched public repository digest",
+    "direct_zenodo_download": false
+  },
+  {
+    "filename": "MOT_c_Foundation_Theory_v0_1_EN.md",
+    "sha256": "8ca0de6c61929b831d857e835fc8cba6e7bf167e13a12d0a0aaaff784079ea7b",
+    "size_bytes": 76618,
+    "version_doi": "10.5281/zenodo.22060517",
+    "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_EN.md",
+    "source_acquisition": "exact source pin; original mirror matched public repository digest",
+    "direct_zenodo_download": false
+  },
+  {
+    "filename": "MOT_c_Foundation_Theory_v0_1_RU.md",
+    "sha256": "5e0a1c356f13185109d7c23878e34ae1a931895226207e0f980fd66f413e6be7",
+    "size_bytes": 129568,
+    "version_doi": "10.5281/zenodo.22060517",
+    "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_RU.md",
+    "source_acquisition": "exact source pin; original mirror matched public repository digest",
+    "direct_zenodo_download": false
+  }
+]

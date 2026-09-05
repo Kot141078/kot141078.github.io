@@ -1,0 +1,56 @@
+[
+  {
+    "figure": "mot_c_formation_cycle_en.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_pdf_sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+    "embedded_xref": 420,
+    "png_sha256": "1bd16a2cc6d81d333b9f6ec4947f8bfe630f2a64a72f9ae0b7a2aa37223ed196",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  },
+  {
+    "figure": "mot_c_motivational_field_en.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_pdf_sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+    "embedded_xref": 422,
+    "png_sha256": "c8178b45990acc735a5e1845f682401f2c9dc4668f93f5d39c3c132087982245",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  },
+  {
+    "figure": "mot_c_privacy_witness_boundary_en.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_EN.pdf",
+    "source_pdf_sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+    "embedded_xref": 424,
+    "png_sha256": "6d91193c1c5b98da5863d5a62ea71e05518d01ec757456ec21f2417372116b09",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  },
+  {
+    "figure": "mot_c_formation_cycle_ru.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_pdf_sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+    "embedded_xref": 427,
+    "png_sha256": "39262736968df76b1ed068172dc954a1805fd5644e77de2a7edfb59afe05f01c",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  },
+  {
+    "figure": "mot_c_motivational_field_ru.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_pdf_sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+    "embedded_xref": 429,
+    "png_sha256": "9e5314f4e91a4783bee2d47ddbae4d2e6f4d581c236bff186c3a129dd101abb1",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  },
+  {
+    "figure": "mot_c_privacy_witness_boundary_ru.png",
+    "source_pdf": "MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/77cdc6632d7385ba3be374d257b833ab4790f935/publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_RU.pdf",
+    "source_pdf_sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+    "embedded_xref": 431,
+    "png_sha256": "055c57cd2e190ccb976cf3462294206a6e699f74548c7a059153fd2c2e9ff875",
+    "qualification": "embedded source-PDF image re-encoded as PNG; not original PNG-byte identity"
+  }
+]
