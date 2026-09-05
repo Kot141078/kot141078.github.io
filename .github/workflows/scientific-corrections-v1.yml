@@ -19,8 +19,12 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           ref: scientific-corrections-v1-0-20260905
-      - name: Publish verified source package through the existing site generators
-        run: python tools/publish_scientific_corrections_20260905.py
+      - name: Publish verified package if absent, then run the complete existing site gate
+        run: |
+          if ! test -f publications/scientific-corrections-v1-0/index.html; then
+            python tools/publish_scientific_corrections_20260905.py
+          fi
+          python tools/run_machine_readability_gate.py
       - name: Render desktop and phone views
         shell: bash
         run: |
