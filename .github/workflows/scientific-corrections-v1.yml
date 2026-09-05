@@ -1,0 +1,103 @@
+name: Scientific correction publication v1
+on:
+  push:
+    branches: [scientific-corrections-v1-0-20260905, main]
+    paths:
+      - '.github/workflows/scientific-corrections-v1.yml'
+      - 'tools/publish_scientific_corrections_20260905.py'
+permissions:
+  contents: write
+concurrency:
+  group: scientific-correction-site-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/scientific-corrections-v1-0-20260905'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scientific-corrections-v1-0-20260905
+      - name: Publish verified source package through the existing site generators
+        run: python tools/publish_scientific_corrections_20260905.py
+      - name: Render desktop and phone views
+        shell: bash
+        run: |
+          CHROME=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          test -n "$CHROME"
+          python -m http.server 8765 > /tmp/correction-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          sleep 2
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1440,1200 --screenshot=evidence/scientific-corrections-20260905/desktop.png http://127.0.0.1:8765/publications/scientific-corrections-v1-0/
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=390,1100 --screenshot=evidence/scientific-corrections-20260905/phone.png http://127.0.0.1:8765/publications/scientific-corrections-v1-0/
+      - name: Commit only named publication and generated-index paths
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications/scientific-corrections-v1-0 publications/index.html publications/motivational-formation-c-v0-1/index.html publications/ccalc-full-stack-v0-1/index.html publications/origin-neutral-recognition-provisional-care-v0-1/index.html works-index.json sitemap.xml llms.txt llms-full.txt machine-index.json scientific-corpus-index.json scientific-corpus.jsonld term-registry.json term-registry.jsonld semantic-bridges.json public-repositories.json evidence/scientific-corrections-20260905
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish explicit scientific corrections, full reading editions and machine entry"
+            git push origin HEAD:scientific-corrections-v1-0-20260905
+          fi
+      - name: Return preview and static build receipt
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: scientific-correction-site-preview
+          path: evidence/scientific-corrections-20260905
+          if-no-files-found: warn
+          retention-days: 14
+  verify-live:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - name: Observe deployed correction pages and exact downloadable archive
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, time, urllib.request
+          base='https://ivankotov.eu'
+          slug='/publications/scientific-corrections-v1-0/'
+          expected='ca1e741f7d4f2dbf76a4a66fed7a5d83cf37e599e0fc4552bbca5aaa59b4ffde'
+          paths=[slug, '/publications/motivational-formation-c-v0-1/', '/publications/ccalc-full-stack-v0-1/', '/publications/origin-neutral-recognition-provisional-care-v0-1/', '/works-index.json', slug+'files/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip']
+          errors=[]
+          for attempt in range(1,25):
+              results=[]
+              try:
+                  for path in paths:
+                      request=urllib.request.Request(base+path,headers={'Cache-Control':'no-cache','User-Agent':'Kotov-Correction-Deployment-Check/1.0'})
+                      with urllib.request.urlopen(request,timeout=30) as response:
+                          data=response.read(5000001); status=response.status
+                      if status!=200 or len(data)>5000000: raise ValueError('Unexpected response: '+path)
+                      if path.endswith('.zip'):
+                          if hashlib.sha256(data).hexdigest()!=expected: raise ValueError('Deployed ZIP hash mismatch')
+                      elif path.endswith('.json'):
+                          works=json.loads(data)['works']
+                          if not any(x['id']=='scientific-corrections-v1-0' for x in works): raise ValueError('Work not deployed')
+                      elif path==slug:
+                          if b'Scientific Corrigenda and Regression Hardening' not in data: raise ValueError('New page not deployed')
+                      elif b'SCIENTIFIC-CORRECTION-20260905' not in data:
+                          raise ValueError('Correction notice not deployed: '+path)
+                      results.append({'url':base+path,'status':status,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+                  pathlib.Path('LIVE_DEPLOYMENT_RECEIPT.json').write_text(json.dumps({'status':'PASS_LIVE_CORRECTION_PAGES_AND_EXACT_ZIP','attempt':attempt,'results':results,'earlier_attempts':errors},indent=2)+'\n')
+                  print('PASS: six deployed routes; exact archive SHA-256 matches')
+                  break
+              except Exception as error:
+                  errors.append({'attempt':attempt,'error':str(error)})
+                  if attempt==24:
+                      pathlib.Path('LIVE_DEPLOYMENT_RECEIPT.json').write_text(json.dumps({'status':'FAILED_DEPLOYMENT_VERIFICATION','errors':errors},indent=2)+'\n')
+                      raise
+                  time.sleep(10)
+          PY
+      - name: Return actual live verification
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: scientific-correction-live-receipt
+          path: LIVE_DEPLOYMENT_RECEIPT.json
+          if-no-files-found: error
+          retention-days: 14
