@@ -125,5 +125,8 @@ Latest publication bridge added: 2026-09-04
 
 ## Scientific corrections — 5 September 2026
 
-- https://ivankotov.eu/publications/scientific-corrections-v1-0/
-Source-bound ARQ M2, MOT-c and C-Calculus corrigendum, corrected reading editions and regression checks. Historical DOI payloads retained; the correction supplement has no DOI assigned yet.
+- Human page: https://ivankotov.eu/publications/scientific-corrections-v1-0/
+- Version DOI: https://doi.org/10.5281/zenodo.22402601
+- All-versions DOI: https://doi.org/10.5281/zenodo.22402600
+- Zenodo: https://zenodo.org/records/22402601
+- Source-bound ARQ M2, MOT-c and C-Calculus corrigendum, corrected reading editions and regression checks. Historical parent DOI payloads remain unchanged.

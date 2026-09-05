@@ -23,7 +23,7 @@
       "commit": "78bce9419de6006a21fdfd8fcf1aee35c383205c",
       "date": "2026-09-05",
       "version": "1.0",
-      "status": "published_repository_correction_zenodo_deposit_pending",
+      "status": "published_scientific_corrigendum_with_zenodo_doi",
       "languages": [
         "en",
         "ru"
@@ -81,11 +81,21 @@
       ],
       "non_claims": [
         "not a complete replacement of the parent compound releases",
-        "no new DOI assigned yet",
+        "the correction DOI does not replace or rewrite parent DOI payloads",
         "not independent scientific peer review",
         "not deployed runtime validation",
         "no c-specific effect, identity, consciousness or economic-value result"
-      ]
+      ],
+      "doi": "10.5281/zenodo.22402601",
+      "doi_url": "https://doi.org/10.5281/zenodo.22402601",
+      "version_doi": "10.5281/zenodo.22402601",
+      "concept_doi": "10.5281/zenodo.22402600",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.22402600",
+      "zenodo_record": "https://zenodo.org/records/22402601",
+      "doi_role": "version",
+      "resource_type": "Technical note",
+      "acceptance_commit": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "acceptance_commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d"
     },
     {
       "id": "origin-neutral-recognition-provisional-care-v0-1",

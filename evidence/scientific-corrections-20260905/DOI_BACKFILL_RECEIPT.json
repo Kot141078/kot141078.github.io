@@ -1,0 +1,22 @@
+{
+  "schema": "scientific-corrigenda-doi-backfill-v1",
+  "status": "DOI_BACKFILL_APPLIED_AWAITING_CI_AND_LIVE_VERIFICATION",
+  "date": "2026-09-05",
+  "version_doi": "10.5281/zenodo.22402601",
+  "concept_doi": "10.5281/zenodo.22402600",
+  "zenodo_record": "https://zenodo.org/records/22402601",
+  "package_sha256_unchanged": "ca1e741f7d4f2dbf76a4a66fed7a5d83cf37e599e0fc4552bbca5aaa59b4ffde",
+  "acceptance_commit": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+  "changed_classes": [
+    "canonical publication page metadata and citation surface",
+    "publications index",
+    "parent correction notices",
+    "legacy works index",
+    "LLM discovery guides"
+  ],
+  "generated_machine_outputs": [
+    "scientific-corpus-index.json",
+    "scientific-corpus.jsonld"
+  ],
+  "boundary": "No scientific package bytes, parent DOI payloads, corrected PDFs/Markdown, source snapshots, regression fixtures, or archive hashes are changed by this backfill."
+}

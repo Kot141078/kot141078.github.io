@@ -24,6 +24,10 @@
         "inLanguage": [
           "en",
           "ru"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.22402601",
+          "https://doi.org/10.5281/zenodo.22402600"
         ]
       }
     },

@@ -14,7 +14,7 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "703d6cda774ca9b49d9dd0f357c2e03332008e5e62ab07b2816273db132a5224",
+    "sha256": "23af78d9ce5d9cab87b36194c03cdfbab18d86e1d6b4cf1a624f66a22ccc3509",
     "record_count": 53
   },
   "work_count": 53,
@@ -31,17 +31,17 @@
       "primary_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
       "version": "1.0",
       "date": "2026-09-05",
-      "status": "published_repository_correction_zenodo_deposit_pending",
+      "status": "published_scientific_corrigendum_with_zenodo_doi",
       "languages": [
         "en",
         "ru"
       ],
       "source_language_labels": [],
       "identifiers": {
-        "published_doi": null,
-        "doi_role": null,
-        "version_doi": null,
-        "concept_doi": null,
+        "published_doi": "https://doi.org/10.5281/zenodo.22402601",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.22402601",
+        "concept_doi": "https://doi.org/10.5281/zenodo.22402600",
         "other": []
       },
       "source": {
@@ -68,7 +68,7 @@
       "claim_boundary": {
         "non_claims": [
           "not a complete replacement of the parent compound releases",
-          "no new DOI assigned yet",
+          "the correction DOI does not replace or rewrite parent DOI payloads",
           "not independent scientific peer review",
           "not deployed runtime validation",
           "no c-specific effect, identity, consciousness or economic-value result"
@@ -80,14 +80,13 @@
         "known": [
           "version",
           "date",
+          "version_doi",
           "languages",
           "license",
           "repository",
           "claim_boundary"
         ],
-        "unknown": [
-          "version_doi"
-        ]
+        "unknown": []
       },
       "legacy_source_pointer": "/works-index.json#/works/0"
     },
