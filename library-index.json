@@ -3,6 +3,71 @@
   "page": "https://ivankotov.eu/library/",
   "items": [
     {
+      "id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
+      "role": "conceptual and methodological human–AI co-play research preprint",
+      "primary_page": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+      "repo_url": "https://github.com/Kot141078/advanced-global-intelligence",
+      "source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2",
+      "living_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/shared-open-worlds-human-ai-dyads-v0-2",
+      "commit_url": "https://github.com/Kot141078/advanced-global-intelligence/commit/259055a705689d86e6d7099dfa4f40e3d81b9a7d",
+      "type": "paper",
+      "subtype": "preprint",
+      "version": "0.2",
+      "date": "2026-09-06",
+      "status": "published_preprint",
+      "author": "Ivan Kotov",
+      "orcid": "0009-0009-6002-9845",
+      "languages": [
+        "en"
+      ],
+      "license": "CC BY 4.0",
+      "license_code": "CC-BY-4.0",
+      "version_doi": "10.5281/zenodo.22542470",
+      "concept_doi": "10.5281/zenodo.22542469",
+      "summary": "A conceptual and methodological preprint about a person and a long-lived candidate AI line cooperating, competing by agreement, and returning to joint activity across open worlds.",
+      "artifacts": [
+        {
+          "format": "PDF",
+          "language": "English",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+          "media_type": "application/pdf",
+          "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf"
+        },
+        {
+          "format": "Markdown",
+          "language": "English",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md",
+          "media_type": "text/markdown",
+          "sha256": "a832f5e7f207c1b563300ea6976db94785940b7d1342a8db65c629899749c396",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md"
+        },
+        {
+          "format": "DOCX",
+          "language": "English",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx",
+          "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "sha256": "d883ab3c39ded3bffeef94543d5380762f5cbd2e2bd70d0a999cf90e143a8591",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx"
+        },
+        {
+          "format": "ZIP",
+          "language": "English",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+          "media_type": "application/zip",
+          "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip"
+        }
+      ],
+      "not": [
+        "completed experiment",
+        "runtime implementation",
+        "independently annotated benchmark",
+        "proof of a c-specific effect, identity, consciousness, or economic superiority"
+      ]
+    },
+    {
       "id": "origin-neutral-recognition-provisional-care-v0-1",
       "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
       "role": "public draft conceptual / normative boundary note",

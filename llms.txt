@@ -135,5 +135,5 @@ Latest publication bridge added: 2026-09-04
 
 - https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/
 - Version DOI: https://doi.org/10.5281/zenodo.22542470
-- Exact repository mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/fb6a71dc022e7d894ad49a246f3b59adaf13c55b/publications/shared-open-worlds-human-ai-dyads-v0-2
+- Exact repository mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2
 Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, experience qualification and human enjoyment; no empirical game result, independently annotated benchmark or distinct C/B1 treatment.

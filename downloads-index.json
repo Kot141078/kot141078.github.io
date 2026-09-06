@@ -3,6 +3,83 @@
   "page": "https://ivankotov.eu/downloads/",
   "items": [
     {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "Website publication page",
+      "format": "website page",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+      "note": "Conceptual and methodological preprint; no empirical or c-specific effect is claimed."
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "Version DOI",
+      "format": "DOI",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.22542470",
+      "note": "Cite this DOI for the specific English v0.2 text."
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "Concept DOI",
+      "format": "DOI",
+      "language": "English",
+      "url": "https://doi.org/10.5281/zenodo.22542469",
+      "note": "All-versions identifier, distinct from the v0.2 DOI."
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "English PDF",
+      "format": "PDF",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+      "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+      "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee"
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "English Markdown",
+      "format": "Markdown",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md",
+      "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md",
+      "sha256": "a832f5e7f207c1b563300ea6976db94785940b7d1342a8db65c629899749c396"
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "Editable DOCX",
+      "format": "DOCX",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx",
+      "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx",
+      "sha256": "d883ab3c39ded3bffeef94543d5380762f5cbd2e2bd70d0a999cf90e143a8591"
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "Complete public package",
+      "format": "ZIP",
+      "language": "English",
+      "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+      "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+      "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+      "note": "Exact nine-member CC BY 4.0 public package."
+    },
+    {
+      "publication_id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "object": "Shared Open Worlds for Human–AI Dyads",
+      "surface": "GitHub source mirror",
+      "format": "repository directory",
+      "language": "English",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2",
+      "note": "Commit-pinned exact-byte mirror and additive publication metadata."
+    },
+    {
       "publication_id": "origin-neutral-recognition-provisional-care-v0-1",
       "object": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
       "surface": "Website publication page",

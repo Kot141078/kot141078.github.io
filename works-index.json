@@ -15,12 +15,12 @@
     {
       "id": "shared-open-worlds-human-ai-dyads-v0-2",
       "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
-      "type": "research_paper",
+      "type": "paper",
       "subtype": "preprint",
       "role": "conceptual human–AI co-play and cross-world evaluation proposal",
       "primary_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
-      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/fb6a71dc022e7d894ad49a246f3b59adaf13c55b/publications/shared-open-worlds-human-ai-dyads-v0-2",
-      "commit": "fb6a71dc022e7d894ad49a246f3b59adaf13c55b",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2",
+      "commit": "259055a705689d86e6d7099dfa4f40e3d81b9a7d",
       "date": "2026-09-06",
       "version": "0.2",
       "version_doi": "10.5281/zenodo.22542470",
@@ -31,9 +31,11 @@
         "en"
       ],
       "license": "CC BY 4.0",
+      "license_code": "CC-BY-4.0",
       "summary": "A conceptual research preprint on shared human–AI gameplay, role switching, qualified experience and cross-world evaluation. No empirical result is reported.",
       "archive_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
       "archive_sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+      "archive_bytes": 301436,
       "manifest_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/SHA256SUMS.txt",
       "sha256sums_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip.sha256",
       "canonical_artifacts": [
@@ -41,8 +43,33 @@
           "format": "PDF",
           "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
           "media_type": "application/pdf",
+          "bytes": 307911,
           "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee",
           "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf"
+        },
+        {
+          "format": "Markdown",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md",
+          "media_type": "text/markdown",
+          "bytes": 84341,
+          "sha256": "a832f5e7f207c1b563300ea6976db94785940b7d1342a8db65c629899749c396",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md"
+        },
+        {
+          "format": "DOCX",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx",
+          "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 73105,
+          "sha256": "d883ab3c39ded3bffeef94543d5380762f5cbd2e2bd70d0a999cf90e143a8591",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx"
+        },
+        {
+          "format": "ZIP",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+          "media_type": "application/zip",
+          "bytes": 301436,
+          "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip"
         }
       ],
       "related_dois": [

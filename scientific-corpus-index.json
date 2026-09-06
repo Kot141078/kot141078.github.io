@@ -14,7 +14,7 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "63ab6f914b1a132fee88584ba763c8e7a66d4913a636cb0f23e580309e593725",
+    "sha256": "5ef759408791b09051c0eff6e6c0904b37db4e74c70a89489829d90d1216f95e",
     "record_count": 54
   },
   "work_count": 54,
@@ -23,7 +23,7 @@
       "id": "shared-open-worlds-human-ai-dyads-v0-2",
       "@id": "https://ivankotov.eu/id/work/shared-open-worlds-human-ai-dyads-v0-2",
       "schema_org_type": "ScholarlyArticle",
-      "source_type": "research_paper",
+      "source_type": "paper",
       "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
       "alternative_title": null,
       "role": "conceptual human–AI co-play and cross-world evaluation proposal",
@@ -45,15 +45,15 @@
       },
       "source": {
         "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
-        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/fb6a71dc022e7d894ad49a246f3b59adaf13c55b/publications/shared-open-worlds-human-ai-dyads-v0-2",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2",
         "repository_path": null,
         "release_url": null,
         "release_tag": null,
-        "commit": "fb6a71dc022e7d894ad49a246f3b59adaf13c55b"
+        "commit": "259055a705689d86e6d7099dfa4f40e3d81b9a7d"
       },
       "licenses": {
         "overall": "CC BY 4.0",
-        "software": null,
+        "software": "CC-BY-4.0",
         "documentation": null,
         "machine_metadata": null,
         "rights": null
