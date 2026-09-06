@@ -1,0 +1,5 @@
+# Immutable deposited payloads: do not normalize line endings on checkout.
+files/* -text
+# These exact Markdown sources use two-space line breaks. Retain their DOI-bound bytes.
+files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md whitespace=-blank-at-eol
+files/EDITION_AND_SOURCE_NOTE.md whitespace=-blank-at-eol
