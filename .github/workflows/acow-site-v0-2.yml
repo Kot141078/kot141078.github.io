@@ -1,0 +1,144 @@
+name: ACOW v0.2 publication site
+on:
+  push:
+    branches: [acow-v0-2-site-20260906, main]
+    paths:
+      - '.github/workflows/acow-site-v0-2.yml'
+      - 'tools/publish_acow_site_20260906.py'
+permissions:
+  contents: write
+concurrency:
+  group: acow-site-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/acow-v0-2-site-20260906'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Verify publisher, integrate, and run the complete existing site gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '243ac5ab2e012d9ed99eed3c1e7700ad0d16a427f3be8060ce9bc817e2e15874  tools/publish_acow_site_20260906.py' | sha256sum -c -
+          python tools/publish_acow_site_20260906.py
+          python tools/run_machine_readability_gate.py 2>&1 | tee evidence/acow-publication-20260906/FULL_SITE_GATE.txt
+          python - <<'PY'
+          import json,pathlib
+          root=pathlib.Path('.')
+          slug='shared-open-worlds-human-ai-dyads-v0-2'
+          work=next(x for x in json.loads((root/'scientific-corpus-index.json').read_text())['works'] if x['id']==slug)
+          assert work['identifiers']['version_doi']=='https://doi.org/10.5281/zenodo.22542470'
+          p=root/'evidence/acow-publication-20260906/BUILD_RECEIPT.json'
+          receipt=json.loads(p.read_text());receipt['status']='PASS_STATIC_INTEGRATION_AND_COMPLETE_SITE_GATE';receipt['full_site_gate']='PASS'
+          p.write_text(json.dumps(receipt,indent=2)+'\n')
+          PY
+      - name: Render desktop, mobile and Publications listing
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHROME=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          test -n "$CHROME"
+          python -m http.server 8765 >/tmp/acow-site-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          sleep 2
+          mkdir -p /tmp/acow-site-preview
+          "$CHROME" --headless --disable-gpu --hide-scrollbars --window-size=1440,4200 --screenshot=/tmp/acow-site-preview/desktop.png http://127.0.0.1:8765/publications/shared-open-worlds-human-ai-dyads-v0-2/
+          "$CHROME" --headless --disable-gpu --hide-scrollbars --window-size=390,9000 --screenshot=/tmp/acow-site-preview/mobile.png http://127.0.0.1:8765/publications/shared-open-worlds-human-ai-dyads-v0-2/
+          "$CHROME" --headless --disable-gpu --hide-scrollbars --window-size=1440,1500 --screenshot=/tmp/acow-site-preview/publications.png http://127.0.0.1:8765/publications/
+      - name: Commit only named publication and generated-index paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import subprocess
+          allowed={'publications/index.html','works-index.json','sitemap.xml','llms.txt','llms-full.txt','machine-index.json','scientific-corpus-index.json','scientific-corpus.jsonld','term-registry.json','term-registry.jsonld','semantic-bridges.json','public-repositories.json'}
+          changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
+          assert all(x in allowed or x.startswith('publications/shared-open-worlds-human-ai-dyads-v0-2/') or x.startswith('evidence/acow-publication-20260906/') for x in changed),changed
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add publications/shared-open-worlds-human-ai-dyads-v0-2 publications/index.html works-index.json sitemap.xml llms.txt llms-full.txt machine-index.json scientific-corpus-index.json scientific-corpus.jsonld term-registry.json term-registry.jsonld semantic-bridges.json public-repositories.json evidence/acow-publication-20260906
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish ACOW English v0.2 page, DOI metadata and exact downloadable files'
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+      - name: Return actual previews and gate evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: acow-site-v0-2-preview
+          path: |
+            /tmp/acow-site-preview
+            evidence/acow-publication-20260906
+          if-no-files-found: warn
+          retention-days: 14
+  verify-live:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - name: Verify deployed page, listing, DOI indexes and exact files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,pathlib,time,urllib.request
+          base='https://ivankotov.eu';slug='shared-open-worlds-human-ai-dyads-v0-2';route='/publications/'+slug+'/'
+          doi='10.5281/zenodo.22542470';concept='10.5281/zenodo.22542469'
+          expected={route+'files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip':(301436,'47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce'),route+'files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf':(307911,'59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee')}
+          paths=[route,'/publications/','/works-index.json','/scientific-corpus-index.json','/scientific-corpus.jsonld','/llms.txt','/llms-full.txt','/sitemap.xml',route+'publication.json',route+'citation.bib',route+'files/LICENSE.md',*expected]
+          failures=[]
+          for attempt in range(1,21):
+              observations=[]
+              try:
+                  for path in paths:
+                      request=urllib.request.Request(base+path,headers={'Cache-Control':'no-cache','User-Agent':'Kotov-ACOW-Live-Verification/0.2'})
+                      with urllib.request.urlopen(request,timeout=20) as response:
+                          status=response.status;data=response.read(5000001)
+                      if status!=200 or len(data)>5000000: raise ValueError('HTTP/size mismatch '+path)
+                      if path in expected:
+                          size,digest=expected[path]
+                          if len(data)!=size or hashlib.sha256(data).hexdigest()!=digest: raise ValueError('Published file mismatch '+path)
+                      elif path=='/works-index.json':
+                          work=next(x for x in json.loads(data)['works'] if x['id']==slug)
+                          if work.get('version_doi')!=doi or work.get('concept_doi')!=concept: raise ValueError('Legacy DOI metadata mismatch')
+                      elif path=='/scientific-corpus-index.json':
+                          work=next(x for x in json.loads(data)['works'] if x['id']==slug)
+                          if work['identifiers']['version_doi']!='https://doi.org/'+doi: raise ValueError('Normalized DOI mismatch')
+                      elif path=='/scientific-corpus.jsonld':
+                          work=next(x['item'] for x in json.loads(data)['itemListElement'] if x.get('item',{}).get('@id')==base+'/id/work/'+slug)
+                          if 'https://doi.org/'+doi not in work.get('identifier',[]): raise ValueError('JSON-LD DOI missing')
+                      elif path.endswith('LICENSE.md'):
+                          if b'https://creativecommons.org/licenses/by/4.0/' not in data: raise ValueError('License mismatch')
+                      elif path=='/sitemap.xml':
+                          if (base+route).encode() not in data: raise ValueError('Sitemap route missing')
+                      else:
+                          if doi.encode() not in data: raise ValueError('DOI missing '+path)
+                          if path in [route,'/publications/'] and b'Shared Open Worlds' not in data: raise ValueError('Page/listing absent')
+                      observations.append({'url':base+path,'http_status':status,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+                  pathlib.Path('ACOW_LIVE_DEPLOYMENT_RECEIPT.json').write_text(json.dumps({'status':'PASS_LIVE_ACOW_PUBLICATION','attempt':attempt,'version_doi':doi,'concept_doi':concept,'verified_routes':len(observations),'observations':observations,'earlier_attempts':failures},indent=2)+'\n')
+                  print('PASS: deployed ACOW page, listing, citation/discovery indexes and byte-exact PDF/ZIP; '+str(len(observations))+' routes')
+                  break
+              except Exception as error:
+                  failures.append({'attempt':attempt,'error':str(error)})
+                  if attempt==20:
+                      pathlib.Path('ACOW_LIVE_DEPLOYMENT_RECEIPT.json').write_text(json.dumps({'status':'FAILED_LIVE_ACOW_VERIFICATION','failures':failures},indent=2)+'\n')
+                      raise
+                  time.sleep(10)
+          PY
+      - name: Preserve actual live verification receipt
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: acow-v0-2-live-verification
+          path: ACOW_LIVE_DEPLOYMENT_RECEIPT.json
+          if-no-files-found: error
+          retention-days: 14
