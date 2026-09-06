@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/acow-site-v0-2.yml'
       - 'tools/publish_acow_site_20260906.py'
+      - 'publications/shared-open-worlds-human-ai-dyads-v0-2/.gitattributes'
 permissions:
   contents: write
 concurrency:
