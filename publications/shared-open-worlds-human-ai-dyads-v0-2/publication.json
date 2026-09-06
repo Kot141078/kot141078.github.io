@@ -1,0 +1,17 @@
+{
+  "id": "shared-open-worlds-human-ai-dyads-v0-2",
+  "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
+  "version": "0.2",
+  "publication_date": "2026-09-06",
+  "version_doi": "10.5281/zenodo.22542470",
+  "concept_doi": "10.5281/zenodo.22542469",
+  "license": "CC-BY-4.0",
+  "canonical_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+  "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/fb6a71dc022e7d894ad49a246f3b59adaf13c55b/publications/shared-open-worlds-human-ai-dyads-v0-2",
+  "source_commit": "fb6a71dc022e7d894ad49a246f3b59adaf13c55b",
+  "status": "published_preprint",
+  "evidence_boundary": "Conceptual and methodological preprint. No empirical experiment, runtime implementation, independently annotated benchmark, identity-continuity result or economic superiority is reported. English v0.2 has not undergone separate independent peer review. A separate C/B1 comparison is not planned before an actual treatment is specified.",
+  "archive_sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+  "archive_bytes": 301436,
+  "artifact_mutations": 0
+}

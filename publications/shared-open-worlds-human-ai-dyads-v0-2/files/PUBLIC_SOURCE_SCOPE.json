@@ -1,0 +1,237 @@
+{
+  "edition": "0.2 English",
+  "date": "2026-09-06",
+  "scope": "Coverage declarations inherited from the accepted Russian v0.2 editorial record; not new reading or verification performed during translation.",
+  "source_manuscript_sha256": "8e6bcea4e8f69c2b4fb7e1c74ac21c90c1c2ddc64648d32cb9d986c160698eeb",
+  "original_survey_attribution": {
+    "performed_during": "v0.1 preparation",
+    "archives": 5,
+    "text_entries": 699,
+    "unique_text_contents": 660,
+    "repeated_here": false,
+    "claim": "Historical recorded search coverage, not full line-by-line reading of current AGI."
+  },
+  "public_corpus_commit": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+  "public_corpus_selected_reads": [
+    {
+      "id": "K02",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "e24029160436f33977fff4ed38b1076771708f94",
+      "scope_read_this_revision": "1-160",
+      "use": "TAP definition, sustained participation, nonidentity claim; pending-publication header retained as snapshot metadata, not universal current DOI status.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K04",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/protocols/dea/normative/DEA_v1_0.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "56b5dc1a3f12ec08dbfff47aad597bdf2d4bdb5f",
+      "scope_read_this_revision": "full connector text",
+      "use": "I0-I3; integration/persistence/consequence; section12 c/anchor normative prerequisite does not establish c empirically.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K05",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "bb03844ecdd3e82456061bb4f07addfb81ea05e5",
+      "scope_read_this_revision": "full connector text",
+      "use": "R1 finite resources/nonzero cost/irreversibility; R6 not purely synthetic; no blanket game-log qualification.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K06",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "a4dfd1a423c18798169bded429e9c1ebce50c9d9",
+      "scope_read_this_revision": "1-180",
+      "use": "Capture, memory, qualification, disclosure and training use are separate.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K07",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "2afa747b33883b1ff9061bffc9b1642aabf4871f",
+      "scope_read_this_revision": "1-120 plus README",
+      "use": "Conceptual/normative formulation, not verified personality law or measured effect.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K08",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/docs/economic-layer/extensions/EA_Operative_vs_Historical_Truth_Clause_v0.1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "038456d2462d155c8ea9f5da4e10704ef368f66c",
+      "scope_read_this_revision": "1-210",
+      "use": "Historical membership and current operative use distinguished; historical ARL force not imported.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K09a",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/docs/economic-layer/extensions/EA_Receiver_Mode_and_Fidelity_Clause_v0.1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "bccff59454ddb799e0e7057adc76a56f8df71a68",
+      "scope_read_this_revision": "1-115",
+      "use": "Receiver purposes not interchangeable.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K09b",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/docs/economic-layer/extensions/Synthetic_Laundering_and_Source_Class_Clause_v0.1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "3030a176a2c2a7e373d473b940983122b5d972d8",
+      "scope_read_this_revision": "1-115",
+      "use": "Origin remains material; synthetic processing does not create source parity.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K10",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/d170b0e8cd09a590a1826cf907125bd5cdc4dc1d/docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
+      "ref": "d170b0e8cd09a590a1826cf907125bd5cdc4dc1d",
+      "git_blob_sha1_reported": "b84e52b05b53a26c8ece97955baadb9439ce37d3",
+      "scope_read_this_revision": "1-90",
+      "use": "Admissibility/reuse limits, not proof of a market.",
+      "raw_sha256_observed_this_revision": null,
+      "evidence": "Primary GitHub connector text; blob SHA is not raw SHA-256 or deposited-member verification."
+    },
+    {
+      "id": "K03",
+      "url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/blob/v1.0/docs/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.md",
+      "ref": "v1.0",
+      "git_blob_sha1_reported": "5798090701ea930a8d561e8ae06b0e0a29835213",
+      "scope_read_this_revision": "1-100; public work-page metadata and role/custody synopsis",
+      "raw_sha256_observed_this_revision": null,
+      "use": "Role composition/hidden blending, current constraints and interpretations; not whole-text reread or deposit-byte check."
+    }
+  ],
+  "external_references": [
+    {
+      "id": "R01",
+      "bibliography_text": "Carroll, M., Shah, R., Ho, M. K., Griffiths, T. L., Seshia, S. A., Abbeel, P., and Dragan, A. (2019). *On the Utility of Learning about Humans for Human-AI Coordination*. NeurIPS. arXiv:1910.05789. https://arxiv.org/abs/1910.05789",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R02",
+      "bibliography_text": "Hu, H., Lerer, A., Peysakhovich, A., and Foerster, J. (2020). *“Other-Play” for Zero-Shot Coordination*. PMLR 119, 4399–4410. https://proceedings.mlr.press/v119/hu20a.html",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R03",
+      "bibliography_text": "Park, J. S., O’Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., and Bernstein, M. S. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. arXiv:2304.03442. https://arxiv.org/abs/2304.03442",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R04",
+      "bibliography_text": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., and Anandkumar, A. (2023). *Voyager: An Open-Ended Embodied Agent with Large Language Models*. arXiv:2305.16291. https://arxiv.org/abs/2305.16291",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R05",
+      "bibliography_text": "SIMA Team et al. (2024). *Scaling Instructable Agents Across Many Simulated Worlds*. arXiv:2404.10179. https://arxiv.org/abs/2404.10179",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R06",
+      "bibliography_text": "SIMA Team / Google DeepMind (2025-11-13). *SIMA 2: An Agent That Plays, Reasons, and Learns With You in Virtual 3D Worlds*. Official research announcement. https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R07",
+      "bibliography_text": "White, I., Nottingham, K., Maniar, A., Robinson, M., Lillemark, H., Maheshwari, M., Qin, L., and Ammanabrolu, P. (2025). *Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning*. arXiv:2504.17950. https://arxiv.org/abs/2504.17950",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R08",
+      "bibliography_text": "Moufarek, A., and Bolton, A. (2026-08-21). *From Atari to EVE Online: Building on 15 Years of AI Research in Games*. Google DeepMind. Official announcement of a research direction, not a result of the present experiment. https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R09",
+      "bibliography_text": "Hudson, J. (2026). *HRIS Framework*. Author's research repository; consulted 2026-09-06. https://github.com/HudsonCapsuleAI/hris-framework",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R10",
+      "bibliography_text": "nkuhanas (2026). *Parley*. Author's software-project documentation; pre-1.0; consulted 2026-09-06, without execution. https://github.com/nkuhanas/Parley",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R11",
+      "bibliography_text": "Farokhi, S. (2026-08-24). *World 8 / Z0-A: Provider-Independent Identity, Governed Development, and Recoverable Continuity for Long-Lived AI Agents*. Final Design Baseline. DOI:10.5281/zenodo.22085394. https://zenodo.org/records/22085394",
+      "recorded_scope": "Fresh primary Zenodo metadata/description retrieved for exact22085394; full deposit and code NOT_REPRODUCED.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R12",
+      "bibliography_text": "LoriensLibrary (2026). *CAMA Continuity Burden Dataset*. Author's aggregate research-data card; consulted 2026-09-06. https://huggingface.co/datasets/LoriensLibrary/cama-continuity-burden",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R13",
+      "bibliography_text": "Ryan, R. M., Rigby, C. S., and Przybylski, A. (2006). *The Motivational Pull of Video Games: A Self-Determination Theory Approach*. Motivation and Emotion. DOI:10.1007/s11031-006-9051-8. https://link.springer.com/article/10.1007/s11031-006-9051-8",
+      "recorded_scope": "Retained from v0.1 and prior R1 checks; not newly fully reread for v0.2. Underlying historical editorial records are retained internally; this public index does not independently substantiate them.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R14",
+      "bibliography_text": "Singh, P. (2026-06-25). *How KRAFTON Built PUBG Ally, a Co-Playable Character Powered by NVIDIA ACE*. NVIDIA Technical Blog, primary interview with the developers. The indexed text, including the memory section, was checked; this is not an independent product audit. https://developer.nvidia.com/blog/how-krafton-built-pubg-ally-a-co-playable-character-powered-by-nvidia-ace/",
+      "recorded_scope": "Fresh indexed full primary developer Q&A including long-term player preferences and match history. Direct page opening returned no text. Not independent product evaluation.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R15",
+      "bibliography_text": "Strouse, D. J., McKee, K. R., Botvinick, M., Hughes, E., and Everett, R. (2021). *Collaborating with Humans without Human Data*. NeurIPS 2021. The abstract and metadata of arXiv v2, dated January 7, 2022, were read. https://arxiv.org/abs/2110.08176v2",
+      "recorded_scope": "Primary arXiv abstract and metadata, version2 (2022-01-07) of NeurIPS2021 paper; full PDF NOT_READ.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R16",
+      "bibliography_text": "Bickmore, T. W. (2003). *Relational Agents: Effecting Change through Human-Computer Relationships*. MIT, doctoral thesis. The primary page with abstract and metadata was checked, not the full PDF. https://www.media.mit.edu/publications/relational-agents-effecting-change-through-human-computer-relationships/",
+      "recorded_scope": "Primary MIT publication-page abstract/metadata for Bickmore2003 thesis; full thesis PDF NOT_READ.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R17",
+      "bibliography_text": "Shafti, A., Tjomsland, J., Dudley, W., and Faisal, A. A. (2020). *Real-World Human-Robot Collaborative Reinforcement Learning*. IROS 2020. The arXiv abstract and metadata were read; the latest displayed revision was v2, dated July 31, 2020. https://arxiv.org/abs/2003.01156",
+      "recorded_scope": "Primary arXiv abstract/metadata; version2 (2020-07-31), IROS2020; full PDF NOT_READ.",
+      "new_full_text_claim": false
+    },
+    {
+      "id": "R18",
+      "bibliography_text": "Center for Self-Determination Theory. *Player Experience of Needs Satisfaction (PENS)*. Official description of the instrument; consulted September 6, 2026. The questionnaire itself and its Russian validation were not checked in this work. https://selfdeterminationtheory.org/player-experience-of-needs-satisfaction-pens/",
+      "recorded_scope": "Official PENS overview page; questionnaire items/download, use terms and Russian validation NOT_REVIEWED. No download terms accepted.",
+      "new_full_text_claim": false
+    }
+  ],
+  "K01_scope": "Historical post text and Diary title/date previously read in v0.1/R1. Documentary source only; GTA build/code/runtime not re-executed or freshly checked.",
+  "K11_K12_scope": "Internal routing/procedure only; no scientific evidence role, no public private-Drive dependency for understanding the revised operational examples.",
+  "limits": [
+    "No primary-source code was executed.",
+    "No fresh raw SHA-256 is invented for connector-text-only public files.",
+    "No proof of complete DOI-deposit membership for all parents.",
+    "Public definitions make this article inspectable; they do not certify every statement in every parent.",
+    "Some canonical texts use stronger normative terminology; it remains attributed, not empirical proof.",
+    "No raw private archives, credentials or personal memories are included."
+  ],
+  "public_export_note": "Private Drive IDs, private folder locators, internal input bindings, and preparation logs are excluded. This is a source-scope index, not the source corpus or a conformance report."
+}

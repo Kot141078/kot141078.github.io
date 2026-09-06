@@ -13,6 +13,51 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "shared-open-worlds-human-ai-dyads-v0-2",
+      "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
+      "type": "research_paper",
+      "subtype": "preprint",
+      "role": "conceptual human–AI co-play and cross-world evaluation proposal",
+      "primary_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/fb6a71dc022e7d894ad49a246f3b59adaf13c55b/publications/shared-open-worlds-human-ai-dyads-v0-2",
+      "commit": "fb6a71dc022e7d894ad49a246f3b59adaf13c55b",
+      "date": "2026-09-06",
+      "version": "0.2",
+      "version_doi": "10.5281/zenodo.22542470",
+      "concept_doi": "10.5281/zenodo.22542469",
+      "doi_role": "version",
+      "status": "published_preprint",
+      "languages": [
+        "en"
+      ],
+      "license": "CC BY 4.0",
+      "summary": "A conceptual research preprint on shared human–AI gameplay, role switching, qualified experience and cross-world evaluation. No empirical result is reported.",
+      "archive_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+      "archive_sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+      "manifest_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/SHA256SUMS.txt",
+      "sha256sums_url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip.sha256",
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+          "media_type": "application/pdf",
+          "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee",
+          "url": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf"
+        }
+      ],
+      "related_dois": [
+        "10.5281/zenodo.21751985",
+        "10.5281/zenodo.22085394"
+      ],
+      "non_claims": [
+        "no empirical experiment or runtime implementation",
+        "not independently peer reviewed in English v0.2",
+        "no independently annotated benchmark",
+        "no distinct C/B1 treatment established",
+        "no identity-continuity, consciousness, new-AI-class or economic-superiority result"
+      ]
+    },
+    {
       "id": "scientific-corrections-v1-0",
       "title": "Scientific Corrigenda and Regression Hardening for ARQ M2, MOT-c and C-Calculus",
       "type": "publication",

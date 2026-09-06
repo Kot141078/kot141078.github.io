@@ -1,0 +1,13 @@
+{
+  "status": "PASS_STATIC_INTEGRATION_AND_COMPLETE_SITE_GATE",
+  "source_commit": "fb6a71dc022e7d894ad49a246f3b59adaf13c55b",
+  "version_doi": "10.5281/zenodo.22542470",
+  "archive_sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+  "archive_bytes": 301436,
+  "members": 9,
+  "checksum_rows": 8,
+  "deposited_payload_mutations": 0,
+  "canonical_page": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+  "full_site_gate": "PASS",
+  "live_deployment": "NOT_YET_VERIFIED"
+}
