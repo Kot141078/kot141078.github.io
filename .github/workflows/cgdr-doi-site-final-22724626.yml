@@ -21,7 +21,27 @@ jobs:
         with:
           python-version: "3.11"
       - name: Patch DOI surfaces
-        run: python tools/one_shot_cgdr_site_finalize_22724626.py
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import runpy
+          ns = runpy.run_path("tools/one_shot_cgdr_site_finalize_22724626.py", run_name="cgdr_site_finalizer")
+          for fn in ("patch_work_page", "patch_evidence", "patch_publications", "patch_works_index", "patch_sitemap"):
+              ns[fn]()
+          doi = ns["DOI"]
+          for path in [
+              "publications/cgdr-selected-process-r1-6an/index.html",
+              "evidence/index.html",
+              "publications/index.html",
+              "works-index.json",
+          ]:
+              if doi not in Path(path).read_text(encoding="utf-8"):
+                  raise SystemExit(f"missing DOI in {path}")
+          if ns["CANON"] not in Path("sitemap.xml").read_text(encoding="utf-8"):
+              raise SystemExit("missing canonical CGDR URL in sitemap.xml")
+          print("PASS_CGDR_DOI_SITE_SOURCE_PATCH")
+          PY
       - name: Rebuild and validate machine layer
         run: python tools/run_machine_readability_gate.py
       - name: Verify DOI routing
@@ -37,10 +57,12 @@ jobs:
               "works-index.json",
               "scientific-corpus-index.json",
               "scientific-corpus.jsonld",
-              "sitemap.xml",
           ]:
               if doi not in Path(path).read_text(encoding="utf-8"):
                   raise SystemExit(f"missing DOI in {path}")
+          canonical = "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/"
+          if canonical not in Path("sitemap.xml").read_text(encoding="utf-8"):
+              raise SystemExit("missing CGDR canonical URL in sitemap")
           print("PASS_CGDR_DOI_ROUTING")
           PY
       - name: Commit finalized site surfaces
