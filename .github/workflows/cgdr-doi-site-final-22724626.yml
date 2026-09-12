@@ -1,0 +1,150 @@
+name: CGDR DOI site final binding 22724626
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/cgdr-doi-site-final-22724626.yml]
+permissions:
+  contents: write
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Bind DOI to canonical public discovery surfaces
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          DOI='10.5281/zenodo.22724626'
+          DOI_URL='https://doi.org/'+DOI
+          CANON='https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/'
+          TITLE='CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence'
+          AGI='93de42857f5057d49d7272a6be9fd2b237e8d4d2'
+          BASE='https://github.com/Kot141078/advanced-global-intelligence/'
+          PART='publications/cgdr-selected-process-r1-6an/'
+          PACKAGE=BASE+'tree/'+AGI+'/'+PART+'doi-v0.1.1'
+          RAW='https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/'+AGI+'/'+PART
+          PDF_NAME='CGDR_R1_6AN_Technical_Report_v0_1_1.pdf'
+          PDF=RAW+'doi-v0.1.1/'+PDF_NAME
+          ARCHIVE=RAW+'CGDR_R1_6AN_DOI_22724626_v0_1_1_PUBLIC.zip'
+          ZIP_SHA='2f299d529e22e2dfd8981ec8cd0ffa8d3a7a22d63f7f84a63c12eea2f8140e01'
+          LICENSE=BASE+'blob/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/'+PART+'source-v0.1/LICENSE.md'
+
+          def read(p): return Path(p).read_text(encoding='utf-8')
+          def write(p,s): Path(p).write_text(s,encoding='utf-8',newline='\n')
+          def require(v,m):
+              if not v: raise RuntimeError(m)
+
+          # Canonical work page.
+          p='publications/cgdr-selected-process-r1-6an/index.html'
+          s=read(p)
+          require('No DOI or formal GitHub Release has been assigned.' in s,'canonical page already diverged')
+          s=s.replace('Source disclosure and evidence note · v0.1 · 12 September 2026','Source and synthetic evidence · v0.1.1 · 12 September 2026',1)
+          s=s.replace('No DOI or formal GitHub Release has been assigned.','DOI: <a href="'+DOI_URL+'">'+DOI+'</a>. No formal GitHub Release has been assigned.',1)
+          pat=r'<script type="application/ld\+json">\s*(.*?)\s*</script>'
+          matches=list(re.finditer(pat,s,flags=re.S)); require(len(matches)==1,'canonical JSON-LD block count')
+          m=matches[0]; j=json.loads(m.group(1))
+          require(j.get('@id')==CANON+'#work','canonical JSON-LD id')
+          j['headline']=TITLE; j['version']='0.1.1'; j['dateModified']='2026-09-12'; j['inLanguage']=['en','ru']
+          j['identifier']={'@type':'PropertyValue','propertyID':'DOI','value':DOI,'url':DOI_URL}
+          j['sameAs']=[DOI_URL,PACKAGE]; j['license']=LICENSE
+          j['encoding']=[{'@type':'MediaObject','encodingFormat':'application/pdf','contentUrl':PDF},{'@type':'MediaObject','encodingFormat':'application/zip','contentUrl':ARCHIVE}]
+          block='<script type="application/ld+json">\n'+json.dumps(j,ensure_ascii=False,indent=2)+'\n</script>'
+          s=s[:m.start()]+block+s[m.end():]
+          section='''      <section class="section" id="doi-edition-22724626">
+            <div class="section-head"><p class="section-label">DOI edition · 0.1.1</p><h2>Source, report and citation</h2></div>
+            <p><strong>Ivan Kotov</strong> · ORCID <a href="https://orcid.org/0009-0009-6002-9845">0009-0009-6002-9845</a> · DOI <a href="{doi_url}">{doi}</a>.</p>
+            <p>Version 0.1.1 adds the attributed technical report, DOI citation and metadata. All 118 files of source package v0.1 remain byte-identical, including the 93 accepted current-AK files, three profile files and original evidence. This is a publication edition, not a new code version or experimental run.</p>
+            <div class="section-links"><a href="{pdf}">Technical report PDF</a><a href="{archive}">Complete public ZIP</a><a href="{package}">Exact GitHub edition</a></div>
+            <p>Public ZIP: 541,373 bytes. SHA-256:</p><pre><code>{sha}</code></pre>
+            <p class="status-note">Research verification permission applies together with preserved component licenses. This package is not the private AN execution/custody archive, an independent replication or live-deployment approval.</p>
+          </section>
+'''.format(doi_url=DOI_URL,doi=DOI,pdf=PDF,archive=ARCHIVE,package=PACKAGE,sha=ZIP_SHA)
+          anchor='      <section class="section" id="current-ak-source">'
+          require(s.count(anchor)==1,'canonical section anchor')
+          s=s.replace(anchor,section+anchor,1); write(p,s)
+
+          # Evidence index card.
+          p='evidence/index.html'; s=read(p)
+          card='''<article class="card" id="cgdr-r1-6an-evidence-note">
+            <h3>CGDR R1.6AN: source and synthetic evidence</h3>
+            <p>Ivan Kotov · v0.1.1 · 12 September 2026. Complete unchanged current-AK source, technical report and all 756 observer values. The internally accepted selected profile reports 18/18 episodes and 21/21 checkpoints, three expected local effects and zero promotions.</p>
+            <p class="status-note">Independent replication, c-specific real effect, economic value and deployment readiness remain unestablished. Diagnostic failures and inconclusive values are retained.</p>
+            <div class="section-links"><a href="../publications/cgdr-selected-process-r1-6an/">Work page</a><a href="{doi_url}">{doi}</a><a href="{package}">Exact package</a></div>
+          </article>'''.format(doi_url=DOI_URL,doi=DOI,package=PACKAGE)
+          s,n=re.subn(r'<article class="card" id="cgdr-r1-6an-evidence-note">.*?</article>',lambda _:card,s,flags=re.S)
+          require(n==1,'evidence card'); write(p,s)
+
+          # Publications page: visible entry + the one JSON-LD ItemList that owns works.
+          p='publications/index.html'; s=read(p)
+          require('id="doi-edition-22724626"' not in s,'publication entry duplicate')
+          visible='''      <section class="section" id="doi-edition-22724626">
+        <div class="section-head"><p class="section-label">Software and technical evidence</p><h2>CGDR R1.6AN</h2></div>
+        <p>{title}. Ivan Kotov, version 0.1.1, 12 September 2026. Source and report for a bounded internally accepted synthetic profile; no independent replication or real-world effect is claimed.</p>
+        <div class="section-links"><a href="{canon}">Canonical work page</a><a href="{doi_url}">{doi}</a><a href="{pdf}">Report PDF</a><a href="{package}">Source and evidence</a></div>
+      </section>
+'''.format(title=TITLE,canon=CANON,doi_url=DOI_URL,doi=DOI,pdf=PDF,package=PACKAGE)
+          pos=s.rfind('</main>'); require(pos!=-1,'publications closing main')
+          s=s[:pos]+visible+s[pos:]
+          patched=0
+          def patch_script(m):
+              nonlocal_placeholder = None
+              try: obj=json.loads(m.group(1))
+              except Exception: return m.group(0)
+              nodes=[x for x in obj.get('@graph',[]) if x.get('@id')=='https://ivankotov.eu/publications/#works']
+              if not nodes: return m.group(0)
+              if len(nodes)!=1: raise RuntimeError('ambiguous publications works ItemList')
+              seq=nodes[0]['itemListElement']
+              if any(x.get('item',{}).get('@id')==CANON+'#work' for x in seq): raise RuntimeError('duplicate publications metadata')
+              seq.append({'@type':'ListItem','position':len(seq)+1,'item':{'@type':'SoftwareSourceCode','@id':CANON+'#work','name':TITLE,'url':CANON,'identifier':DOI_URL,'version':'0.1.1','datePublished':'2026-09-12','author':{'@type':'Person','name':'Ivan Kotov','sameAs':'https://orcid.org/0009-0009-6002-9845'},'codeRepository':PACKAGE,'license':LICENSE}})
+              if 'numberOfItems' in nodes[0]: nodes[0]['numberOfItems']=len(seq)
+              patch_script.count += 1
+              return '<script type="application/ld+json">\n'+json.dumps(obj,ensure_ascii=False,indent=2)+'\n</script>'
+          patch_script.count=0
+          s=re.sub(pat,patch_script,s,flags=re.S); require(patch_script.count==1,'publications ItemList patch count')
+          write(p,s)
+
+          # Authored works index; generated machine surfaces are rebuilt below.
+          p='works-index.json'; obj=json.loads(read(p)); wid='cgdr-selected-process-r1-6an-v0-1-1'
+          require(not any(x.get('id')==wid or x.get('primary_url')==CANON for x in obj['works']),'work already indexed')
+          obj['works'].append({'id':wid,'title':TITLE,'type':'software','role':'bounded selected-process source and synthetic evidence','primary_url':CANON,'github':PACKAGE,'repository_path':PART+'doi-v0.1.1','commit':AGI,'date':'2026-09-12','version':'0.1.1','version_doi':DOI,'doi_role':'version','status':'public_source_and_internal_synthetic_evidence','languages':['en','ru'],'license':'CGDR research and verification permission; preserved component licenses','rights':LICENSE,'summary':'Unchanged current-AK source and a technical report for the internally accepted 18-episode/21-checkpoint synthetic profile. Three expected local effects, zero promotions; raw diagnostic failures retained. Publication does not supply independent replication.','archive_url':ARCHIVE,'archive_sha256':ZIP_SHA,'archive_bytes':541373,'manifest_url':RAW+'doi-v0.1.1/SHA256SUMS.txt','sha256sums_url':RAW+'CGDR_R1_6AN_DOI_22724626_v0_1_1_PUBLIC.zip.sha256','non_claims':['No same-c identity or identity continuity','No consciousness, personhood or lawful succession','No B5 superiority or c-specific real effect','No economic value measurement','No general-stack conformance or live-deployment readiness','No independent clean-host replication','Not a turnkey full AN execution/custody archive'],'canonical_artifacts':[{'format':'PDF','filename':PDF_NAME,'media_type':'application/pdf','bytes':89151,'sha256':'a3e24048a5acfbc98af82c31c1718cdfcfb3e571750b699ff1956972bfc50d56','url':PDF}]})
+          write(p,json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
+
+          p='sitemap.xml'; s=read(p)
+          if CANON not in s:
+              require('</urlset>' in s,'sitemap closing tag')
+              s=s.replace('</urlset>','  <url><loc>'+CANON+'</loc><lastmod>2026-09-12</lastmod></url>\n</urlset>',1)
+              write(p,s)
+          PY
+          python tools/run_machine_readability_gate.py
+          python - <<'PY'
+          from pathlib import Path
+          required={
+            'publications/cgdr-selected-process-r1-6an/index.html':'10.5281/zenodo.22724626',
+            'evidence/index.html':'10.5281/zenodo.22724626',
+            'publications/index.html':'10.5281/zenodo.22724626',
+            'works-index.json':'10.5281/zenodo.22724626',
+            'scientific-corpus-index.json':'10.5281/zenodo.22724626',
+            'scientific-corpus.jsonld':'10.5281/zenodo.22724626',
+          }
+          for p,needle in required.items():
+              if needle not in Path(p).read_text(encoding='utf-8'): raise RuntimeError('missing DOI in '+p)
+          PY
+          rm -f .github/workflows/cgdr-doi-site-22724626.yml
+          rm -f .github/workflows/cgdr-doi-site-22724626-correction.yml
+          rm -f .github/workflows/cgdr-doi-site-final-22724626.yml
+          git config user.name "Ivan Kotov"
+          git config user.email "kotovivan78@gmail.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Bind CGDR DOI 10.5281/zenodo.22724626 across site and machine discovery; remove temporary workflows"
+          git push origin HEAD:main
