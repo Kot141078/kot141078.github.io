@@ -9,8 +9,8 @@ end = '<!-- CGDR-R1-6AN-NAV:END -->'
 if begin in s or end in s:
     raise RuntimeError('CGDR visible navigation marker already present')
 
-m = re.search(r'(<main\b[^>]*>\s*<section class="hero".*?</section>)', s, flags=re.S)
-if not m:
+m = re.search(r'(<section class="hero"[^>]*>.*?</section>)', s, flags=re.S)
+if not m or '<h1>Publications</h1>' not in m.group(1):
     raise RuntimeError('Publications hero anchor not found')
 
 card = '''
