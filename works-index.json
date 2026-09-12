@@ -2267,6 +2267,58 @@
       ],
       "correction_url": "https://ivankotov.eu/publications/scientific-corrections-v1-0/",
       "correction_date": "2026-09-05"
+    },
+    {
+      "id": "cgdr-selected-process-r1-6an-v0-1-1",
+      "title": "CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence",
+      "type": "software",
+      "role": "bounded selected-process source and synthetic evidence",
+      "primary_url": "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/93de42857f5057d49d7272a6be9fd2b237e8d4d2/publications/cgdr-selected-process-r1-6an/doi-v0.1.1",
+      "repository_path": "publications/cgdr-selected-process-r1-6an/doi-v0.1.1",
+      "commit": "93de42857f5057d49d7272a6be9fd2b237e8d4d2",
+      "date": "2026-09-12",
+      "version": "0.1.1",
+      "version_doi": "10.5281/zenodo.22724626",
+      "doi_role": "version",
+      "status": "published_software_and_internal_synthetic_evidence",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "license": "CGDR research and verification permission; preserved component licenses",
+      "rights": "https://github.com/Kot141078/advanced-global-intelligence/blob/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/publications/cgdr-selected-process-r1-6an/source-v0.1/LICENSE.md",
+      "summary": "Unchanged current-AK source and technical report for the internally accepted 18-episode/21-checkpoint synthetic selected-process profile. Three expected local effects, zero promotions; raw diagnostic failures retained. Publication does not supply independent replication.",
+      "archive_url": "https://zenodo.org/records/22724626/files/CGDR_R1_6AN_DOI_22724626_v0_1_1_PUBLIC.zip?download=1",
+      "archive_sha256": "2f299d529e22e2dfd8981ec8cd0ffa8d3a7a22d63f7f84a63c12eea2f8140e01",
+      "archive_bytes": 541373,
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "CGDR_R1_6AN_Technical_Report_v0_1_1.pdf",
+          "media_type": "application/pdf",
+          "bytes": 89151,
+          "sha256": "a3e24048a5acfbc98af82c31c1718cdfcfb3e571750b699ff1956972bfc50d56",
+          "url": "https://zenodo.org/records/22724626/files/CGDR_R1_6AN_Technical_Report_v0_1_1.pdf?download=1"
+        },
+        {
+          "format": "ZIP",
+          "filename": "CGDR_R1_6AN_DOI_22724626_v0_1_1_PUBLIC.zip",
+          "media_type": "application/zip",
+          "bytes": 541373,
+          "sha256": "2f299d529e22e2dfd8981ec8cd0ffa8d3a7a22d63f7f84a63c12eea2f8140e01",
+          "url": "https://zenodo.org/records/22724626/files/CGDR_R1_6AN_DOI_22724626_v0_1_1_PUBLIC.zip?download=1"
+        }
+      ],
+      "non_claims": [
+        "no same-c identity or identity continuity",
+        "no consciousness, personhood or lawful succession",
+        "no B5 superiority or c-specific real effect",
+        "no economic value measurement",
+        "no general-stack conformance or live-deployment readiness",
+        "no independent clean-host replication",
+        "not a turnkey full AN execution/custody archive"
+      ]
     }
   ]
 }

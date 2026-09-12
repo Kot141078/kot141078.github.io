@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "5ef759408791b09051c0eff6e6c0904b37db4e74c70a89489829d90d1216f95e",
-    "record_count": 54
+    "sha256": "7bf169fa289af3b58a30dc5ef9f3595007dadc1130fba8056b67f865dd2055f7",
+    "record_count": 55
   },
-  "work_count": 54,
+  "work_count": 55,
   "works": [
     {
       "id": "shared-open-worlds-human-ai-dyads-v0-2",
@@ -3601,6 +3601,79 @@
         ]
       },
       "legacy_source_pointer": "/works-index.json#/works/53"
+    },
+    {
+      "id": "cgdr-selected-process-r1-6an-v0-1-1",
+      "@id": "https://ivankotov.eu/id/work/cgdr-selected-process-r1-6an-v0-1-1",
+      "schema_org_type": "SoftwareSourceCode",
+      "source_type": "software",
+      "title": "CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence",
+      "alternative_title": null,
+      "role": "bounded selected-process source and synthetic evidence",
+      "summary": "Unchanged current-AK source and technical report for the internally accepted 18-episode/21-checkpoint synthetic selected-process profile. Three expected local effects, zero promotions; raw diagnostic failures retained. Publication does not supply independent replication.",
+      "primary_url": "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/",
+      "version": "0.1.1",
+      "date": "2026-09-12",
+      "status": "published_software_and_internal_synthetic_evidence",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.22724626",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.22724626",
+        "concept_doi": null,
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/93de42857f5057d49d7272a6be9fd2b237e8d4d2/publications/cgdr-selected-process-r1-6an/doi-v0.1.1",
+        "repository_path": "publications/cgdr-selected-process-r1-6an/doi-v0.1.1",
+        "release_url": null,
+        "release_tag": null,
+        "commit": "93de42857f5057d49d7272a6be9fd2b237e8d4d2"
+      },
+      "licenses": {
+        "overall": "CGDR research and verification permission; preserved component licenses",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": "https://github.com/Kot141078/advanced-global-intelligence/blob/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/publications/cgdr-selected-process-r1-6an/source-v0.1/LICENSE.md"
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "2f299d529e22e2dfd8981ec8cd0ffa8d3a7a22d63f7f84a63c12eea2f8140e01",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "no same-c identity or identity continuity",
+          "no consciousness, personhood or lawful succession",
+          "no B5 superiority or c-specific real effect",
+          "no economic value measurement",
+          "no general-stack conformance or live-deployment readiness",
+          "no independent clean-host replication",
+          "not a turnkey full AN execution/custody archive"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/54"
     }
   ]
 }

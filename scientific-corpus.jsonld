@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 54,
+  "numberOfItems": 55,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -1014,6 +1014,29 @@
         "description": "DOI-published CCALC / C-calculus governed binding stack v0.1 defining a governed operational perimeter around c = a + b, continuity, self-evolution, runtime authority, public evidence, interoperability, deployment, and the protected plus boundary.",
         "identifier": [
           "https://doi.org/10.5281/zenodo.21205427"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://ivankotov.eu/id/work/cgdr-selected-process-r1-6an-v0-1-1",
+        "name": "CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence",
+        "url": "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "0.1.1",
+        "datePublished": "2026-09-12",
+        "description": "Unchanged current-AK source and technical report for the internally accepted 18-episode/21-checkpoint synthetic selected-process profile. Three expected local effects, zero promotions; raw diagnostic failures retained. Publication does not supply independent replication.",
+        "inLanguage": [
+          "en",
+          "ru"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.22724626"
         ]
       }
     }
