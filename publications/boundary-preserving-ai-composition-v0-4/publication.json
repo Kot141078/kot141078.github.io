@@ -1,0 +1,24 @@
+{
+  "id": "boundary-preserving-ai-composition-v0-4",
+  "title": "Boundary-Preserving Composition of Personal and Enterprise AI Systems",
+  "subtitle": "A Reference Architecture and Evaluation Agenda for Delegation, Memory Custody and Resource-Bounded Work",
+  "version": "0.4",
+  "publication_date": "2026-09-15",
+  "language": "en",
+  "resource_type": "report",
+  "status": "published_technical_report",
+  "doi": "10.5281/zenodo.22766595",
+  "doi_url": "https://doi.org/10.5281/zenodo.22766595",
+  "zenodo": "https://zenodo.org/records/22766595",
+  "canonical_url": "https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/",
+  "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/0fc792d191d51703dc151350609150839bb4ed4f/publications/boundary-preserving-ai-composition-v0-4",
+  "github_commit": "0fc792d191d51703dc151350609150839bb4ed4f",
+  "license": "CC-BY-4.0",
+  "files": {
+    "pdf": {"url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1", "bytes": 308465, "sha256": "2af538c0e81902332851b6f51b735501768f67eabd31fa44f2e74093f1116ca2"},
+    "docx": {"url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.docx?download=1", "bytes": 43906, "sha256": "92775af71a2ad3f7e798edfec46d433dec2a559b4cd45fec1287993d83937c9b"},
+    "zip": {"url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1", "bytes": 325150, "sha256": "30fdd6a3d283f6602f96cdce56f805279a3cb9e9e32b7b5036c04d3fa21fa05a"}
+  },
+  "counts": {"external_references": 38, "authored_references": 12, "scenario_definitions": 24, "executed_episodes": 0},
+  "claim_ceiling": ["no integrated implementation", "no empirical comparison result", "no economic advantage result", "no identity or consciousness result", "no c-specific formation effect", "not independently peer reviewed"]
+}
