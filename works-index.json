@@ -13,6 +13,69 @@
   "contact_url": "https://ivankotov.eu/contact/",
   "works": [
     {
+      "id": "boundary-preserving-ai-composition-v0-4",
+      "title": "Boundary-Preserving Composition of Personal and Enterprise AI Systems",
+      "type": "paper",
+      "subtype": "technical_report",
+      "role": "boundary-preserving personal/enterprise AI composition and matched evaluation agenda",
+      "primary_url": "https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/0fc792d191d51703dc151350609150839bb4ed4f/publications/boundary-preserving-ai-composition-v0-4",
+      "commit": "0fc792d191d51703dc151350609150839bb4ed4f",
+      "date": "2026-09-15",
+      "version": "0.4",
+      "version_doi": "10.5281/zenodo.22766595",
+      "doi_role": "version",
+      "status": "published_technical_report",
+      "languages": [
+        "en"
+      ],
+      "license": "CC BY 4.0",
+      "license_code": "CC-BY-4.0",
+      "summary": "Source-grounded technical report on preserving authority, custody, provenance and resource boundaries across personal/enterprise AI lifecycle transitions. 24 inert scenario definitions; no empirical result.",
+      "archive_url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1",
+      "archive_sha256": "30fdd6a3d283f6602f96cdce56f805279a3cb9e9e32b7b5036c04d3fa21fa05a",
+      "archive_bytes": 325150,
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf",
+          "media_type": "application/pdf",
+          "bytes": 308465,
+          "sha256": "2af538c0e81902332851b6f51b735501768f67eabd31fa44f2e74093f1116ca2",
+          "url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1"
+        },
+        {
+          "format": "DOCX",
+          "filename": "WORKPLACE_COMPOSITION_v0_4_EN_DOI.docx",
+          "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 43906,
+          "sha256": "92775af71a2ad3f7e798edfec46d433dec2a559b4cd45fec1287993d83937c9b",
+          "url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.docx?download=1"
+        },
+        {
+          "format": "ZIP",
+          "filename": "WORKPLACE_COMPOSITION_v0_4.zip",
+          "media_type": "application/zip",
+          "bytes": 325150,
+          "sha256": "30fdd6a3d283f6602f96cdce56f805279a3cb9e9e32b7b5036c04d3fa21fa05a",
+          "url": "https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1"
+        }
+      ],
+      "related_dois": [
+        "10.5281/zenodo.21751985",
+        "10.5281/zenodo.20257232",
+        "10.5281/zenodo.19408654"
+      ],
+      "non_claims": [
+        "no integrated implementation",
+        "no empirical comparison result",
+        "no economic advantage result",
+        "no identity-continuity or consciousness result",
+        "no c-specific formation effect",
+        "not independently peer reviewed"
+      ]
+    },
+    {
       "id": "shared-open-worlds-human-ai-dyads-v0-2",
       "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
       "type": "paper",

@@ -137,3 +137,12 @@ Latest publication bridge added: 2026-09-04
 - Version DOI: https://doi.org/10.5281/zenodo.22542470
 - Exact repository mirror: https://github.com/Kot141078/advanced-global-intelligence/tree/259055a705689d86e6d7099dfa4f40e3d81b9a7d/publications/shared-open-worlds-human-ai-dyads-v0-2
 Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, experience qualification and human enjoyment; no empirical game result, independently annotated benchmark or distinct C/B1 treatment.
+## Boundary-Preserving Composition of Personal and Enterprise AI Systems — v0.4
+
+- Canonical page: https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/
+- Version DOI: https://doi.org/10.5281/zenodo.22766595
+- Zenodo: https://zenodo.org/records/22766595
+- Immutable GitHub publication bridge: https://github.com/Kot141078/advanced-global-intelligence/tree/0fc792d191d51703dc151350609150839bb4ed4f/publications/boundary-preserving-ai-composition-v0-4
+- Direct PDF: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1
+- Public ZIP: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1
+- Technical report on authority, custody, provenance and resource boundaries across personal/enterprise AI transitions. 24 inert scenario definitions; 0 executed episodes. No empirical superiority, economic advantage, identity-continuity result or c-specific formation effect is claimed.
