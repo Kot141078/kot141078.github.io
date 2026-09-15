@@ -1,0 +1,49 @@
+name: Workplace composition v0.4 site publication R2
+on:
+  push:
+    branches: [workplace-v0-4-site-20260915]
+    paths:
+      - '.github/workflows/publish-workplace-v0-4-r2.yml'
+permissions:
+  contents: write
+concurrency:
+  group: workplace-v0-4-site-r2-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  integrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Reuse bounded R1 integration with EOF correction
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          old=Path('.github/workflows/publish-workplace-v0-4.yml')
+          lines=old.read_text(encoding='utf-8').splitlines()
+          start=next(i for i,x in enumerate(lines) if "python - <<'PY'" in x)+1
+          end=next(i for i in range(start,len(lines)) if lines[i].strip()=='PY')
+          code='\n'.join((x[10:] if x.startswith('          ') else x) for x in lines[start:end])+'\n'
+          code=code.replace("p.write_text(t.rstrip()+discovery+'\\n',encoding='utf-8')","p.write_text(t.rstrip()+discovery,encoding='utf-8')")
+          exec(compile(code,'workplace-v0-4-integrator','exec'),{})
+          Path('.github/workflows/publish-workplace-v0-4-r2.yml').unlink()
+          PY
+          python -m json.tool publications/boundary-preserving-ai-composition-v0-4/publication.json >/dev/null
+          python -m json.tool works-index.json >/dev/null
+          git diff --check
+      - name: Commit integration and remove one-shot workflows
+        shell: bash
+        run: |
+          set -euo pipefail
+          remote=$(git ls-remote origin refs/heads/${GITHUB_REF_NAME} | awk '{print $1}')
+          test "$remote" = "$GITHUB_SHA"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A .github/workflows/publish-workplace-v0-4.yml .github/workflows/publish-workplace-v0-4-r2.yml publications/index.html works-index.json sitemap.xml llms.txt llms-full.txt
+          git diff --cached --check
+          git commit -m 'Integrate workplace composition v0.4 into Publications and discovery indexes'
+          git push origin HEAD:${GITHUB_REF_NAME}
