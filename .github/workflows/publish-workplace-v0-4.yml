@@ -1,0 +1,112 @@
+name: Workplace composition v0.4 site publication
+on:
+  push:
+    branches: [workplace-v0-4-site-20260915]
+    paths:
+      - '.github/workflows/publish-workplace-v0-4.yml'
+permissions:
+  contents: write
+concurrency:
+  group: workplace-v0-4-site-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  integrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Add visible Publications entry and discovery routes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          slug='boundary-preserving-ai-composition-v0-4'
+          route='/publications/'+slug+'/'
+          canonical='https://ivankotov.eu'+route
+          doi='10.5281/zenodo.22766595'
+          repo_commit='0fc792d191d51703dc151350609150839bb4ed4f'
+          github='https://github.com/Kot141078/advanced-global-intelligence/tree/'+repo_commit+'/publications/'+slug
+          pdf='https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1'
+          docx='https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.docx?download=1'
+          zipurl='https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1'
+          title='Boundary-Preserving Composition of Personal and Enterprise AI Systems'
+          subtitle='A Reference Architecture and Evaluation Agenda for Delegation, Memory Custody and Resource-Bounded Work'
+
+          page=Path('publications')/slug/'index.html'
+          metadata=Path('publications')/slug/'publication.json'
+          machine=Path('publications')/slug/'llms.txt'
+          assert page.exists() and metadata.exists() and machine.exists()
+          assert doi in page.read_text(encoding='utf-8')
+          meta=json.loads(metadata.read_text(encoding='utf-8'))
+          assert meta['doi']==doi and meta['github_commit']==repo_commit and meta['counts']['executed_episodes']==0
+
+          idx=Path('publications/index.html')
+          text=idx.read_text(encoding='utf-8')
+          assert slug not in text, 'Publication already present in index'
+          ld='''<!-- WORKPLACE-V0-4-LISTING-LD:BEGIN -->\n<script type="application/ld+json" id="workplace-v0-4-listing-linked-data">\n{\n  "@context": "https://schema.org",\n  "@type": "TechArticle",\n  "@id": "https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/#work",\n  "url": "https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/",\n  "name": "Boundary-Preserving Composition of Personal and Enterprise AI Systems",\n  "headline": "Boundary-Preserving Composition of Personal and Enterprise AI Systems",\n  "alternativeHeadline": "A Reference Architecture and Evaluation Agenda for Delegation, Memory Custody and Resource-Bounded Work",\n  "datePublished": "2026-09-15",\n  "version": "0.4",\n  "inLanguage": "en",\n  "identifier": "https://doi.org/10.5281/zenodo.22766595",\n  "sameAs": [\n    "https://doi.org/10.5281/zenodo.22766595",\n    "https://zenodo.org/records/22766595",\n    "https://github.com/Kot141078/advanced-global-intelligence/tree/0fc792d191d51703dc151350609150839bb4ed4f/publications/boundary-preserving-ai-composition-v0-4"\n  ],\n  "author": {"@type":"Person","name":"Ivan Kotov","sameAs":"https://orcid.org/0009-0009-6002-9845"},\n  "license": "https://creativecommons.org/licenses/by/4.0/"\n}\n</script>\n<!-- WORKPLACE-V0-4-LISTING-LD:END -->\n'''
+          assert '</head>' in text
+          text=text.replace('</head>',ld+'</head>',1)
+          card='''<!-- WORKPLACE-V0-4:BEGIN -->\n<section class="section" id="boundary-preserving-ai-composition-v0-4">\n  <div class="section-head"><p class="section-label">Published technical report · 15 September 2026</p><h2>Boundary-Preserving Composition of Personal and Enterprise AI Systems</h2></div>\n  <div class="card-grid"><article class="card">\n    <p class="eyebrow">English · v0.4 · Report · CC BY 4.0</p>\n    <h3>A Reference Architecture and Evaluation Agenda for Delegation, Memory Custody and Resource-Bounded Work</h3>\n    <p>When personal AI participation, enterprise coordination and temporary executors share work, which permissions, provenance, role boundaries and resource constraints must still hold at consequential transitions? This report turns that boundary problem into a source-grounded requirements crosswalk and a matched evaluation agenda.</p>\n    <p class="status-note">Conceptual technical report and evaluation design. 24 inert scenario definitions, 0 executed episodes. No integrated implementation, empirical superiority, economic advantage, identity-continuity result or c-specific formation effect is claimed.</p>\n    <div class="section-links">\n      <a href="./boundary-preserving-ai-composition-v0-4/">Detailed publication page</a>\n      <a href="https://doi.org/10.5281/zenodo.22766595">DOI 10.5281/zenodo.22766595</a>\n      <a href="https://zenodo.org/records/22766595">Zenodo</a>\n      <a href="https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1">PDF</a>\n      <a href="https://github.com/Kot141078/advanced-global-intelligence/tree/0fc792d191d51703dc151350609150839bb4ed4f/publications/boundary-preserving-ai-composition-v0-4">GitHub</a>\n    </div>\n  </article></div>\n</section>\n<!-- WORKPLACE-V0-4:END -->\n\n'''
+          anchor='<!-- CGDR-R1-6AN-NAV:BEGIN -->'
+          assert anchor in text
+          text=text.replace(anchor,card+anchor,1)
+          idx.write_text(text,encoding='utf-8')
+
+          wi=Path('works-index.json')
+          data=json.loads(wi.read_text(encoding='utf-8'))
+          assert not any(x.get('id')==slug for x in data['works'])
+          data['works'].insert(0,{
+            'id':slug,'title':title,'type':'paper','subtype':'technical_report',
+            'role':'boundary-preserving personal/enterprise AI composition and matched evaluation agenda',
+            'primary_url':canonical,'github':github,'commit':repo_commit,'date':'2026-09-15','version':'0.4',
+            'version_doi':doi,'doi_role':'version','status':'published_technical_report','languages':['en'],
+            'license':'CC BY 4.0','license_code':'CC-BY-4.0',
+            'summary':'Source-grounded technical report on preserving authority, custody, provenance and resource boundaries across personal/enterprise AI lifecycle transitions. 24 inert scenario definitions; no empirical result.',
+            'archive_url':zipurl,'archive_sha256':'30fdd6a3d283f6602f96cdce56f805279a3cb9e9e32b7b5036c04d3fa21fa05a','archive_bytes':325150,
+            'canonical_artifacts':[
+              {'format':'PDF','filename':'WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf','media_type':'application/pdf','bytes':308465,'sha256':'2af538c0e81902332851b6f51b735501768f67eabd31fa44f2e74093f1116ca2','url':pdf},
+              {'format':'DOCX','filename':'WORKPLACE_COMPOSITION_v0_4_EN_DOI.docx','media_type':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','bytes':43906,'sha256':'92775af71a2ad3f7e798edfec46d433dec2a559b4cd45fec1287993d83937c9b','url':docx},
+              {'format':'ZIP','filename':'WORKPLACE_COMPOSITION_v0_4.zip','media_type':'application/zip','bytes':325150,'sha256':'30fdd6a3d283f6602f96cdce56f805279a3cb9e9e32b7b5036c04d3fa21fa05a','url':zipurl}
+            ],
+            'related_dois':['10.5281/zenodo.21751985','10.5281/zenodo.20257232','10.5281/zenodo.19408654'],
+            'non_claims':['no integrated implementation','no empirical comparison result','no economic advantage result','no identity-continuity or consciousness result','no c-specific formation effect','not independently peer reviewed']
+          })
+          wi.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          sm=Path('sitemap.xml')
+          s=sm.read_text(encoding='utf-8')
+          assert canonical not in s and '</urlset>' in s
+          s=s.replace('</urlset>',f'  <url><loc>{canonical}</loc><lastmod>2026-09-15</lastmod></url>\n</urlset>',1)
+          sm.write_text(s,encoding='utf-8')
+
+          discovery=f'''\n## Boundary-Preserving Composition of Personal and Enterprise AI Systems — v0.4\n\n- Canonical page: {canonical}\n- Version DOI: https://doi.org/{doi}\n- Zenodo: https://zenodo.org/records/22766595\n- Immutable GitHub publication bridge: {github}\n- Direct PDF: {pdf}\n- Public ZIP: {zipurl}\n- Technical report on authority, custody, provenance and resource boundaries across personal/enterprise AI transitions. 24 inert scenario definitions; 0 executed episodes. No empirical superiority, economic advantage, identity-continuity result or c-specific formation effect is claimed.\n'''
+          for name in ('llms.txt','llms-full.txt'):
+              p=Path(name); t=p.read_text(encoding='utf-8'); assert slug not in t; p.write_text(t.rstrip()+discovery+'\n',encoding='utf-8')
+
+          wf=Path('.github/workflows/publish-workplace-v0-4.yml')
+          assert wf.exists(); wf.unlink()
+
+          assert title in idx.read_text(encoding='utf-8') and canonical in idx.read_text(encoding='utf-8')
+          assert any(x.get('id')==slug for x in json.loads(wi.read_text(encoding='utf-8'))['works'])
+          assert canonical in sm.read_text(encoding='utf-8')
+          PY
+          python -m json.tool publications/boundary-preserving-ai-composition-v0-4/publication.json >/dev/null
+          python -m json.tool works-index.json >/dev/null
+          git diff --check
+      - name: Commit bounded site integration and remove one-shot workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          remote=$(git ls-remote origin refs/heads/${GITHUB_REF_NAME} | awk '{print $1}')
+          test "$remote" = "$GITHUB_SHA"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A .github/workflows/publish-workplace-v0-4.yml publications/index.html works-index.json sitemap.xml llms.txt llms-full.txt
+          git diff --cached --check
+          git commit -m 'Integrate workplace composition v0.4 into Publications and discovery indexes'
+          git push origin HEAD:${GITHUB_REF_NAME}
