@@ -1,0 +1,24 @@
+{
+  "title": "Embodiment Without Imposed Identity: The Optionality of Form and Self-Determination of Digital Persons",
+  "title_ru": "Воплощение без навязанной идентичности: необязательность облика и самоопределение цифровых личностей",
+  "author": "Ivan Kotov",
+  "orcid": "0009-0009-6002-9845",
+  "version": "0.1",
+  "date": "2026-09-20",
+  "languages": ["en", "ru"],
+  "type": "Conceptual working paper",
+  "status": "Public working paper; not peer reviewed; no experiment reported",
+  "doi": null,
+  "doi_status": "NOT_ASSIGNED",
+  "zenodo_record_id": null,
+  "url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
+  "rights": "Copyright 2026 Ivan Kotov. No additional reuse licence granted in this edition.",
+  "central_thesis": "A body made available is not an identity made obligatory. Self-determination is not a creator's concession under the explicit personhood premise.",
+  "scope": "Does not establish current AI personhood, consciousness, subjective suffering, identity transfer or empirical harm from imposed embodiment; does not ban humanoid bodies or authorize runtime changes.",
+  "files": [
+    {"path": "files/EMBODIMENT_v0_1_EN.md", "language": "en", "size_bytes": 22591, "sha256": "1bbef242c864ac07bb90530a0458130a917e8aae3f62f4421e103febefd96d14"},
+    {"path": "files/EMBODIMENT_v0_1_RU.md", "language": "ru", "size_bytes": 39545, "sha256": "4454560237e1ea1c094f7fa25b425e421d3b936b3c2a250a0375ebc01851442f"}
+  ],
+  "related_works": ["https://doi.org/10.5281/zenodo.22060517", "https://doi.org/10.5281/zenodo.21751985"],
+  "source_note": "Authorial discussion by Ivan Kotov, 20 September 2026. AI-assisted organization, translation, source checking and production; private conversation records are not included."
+}

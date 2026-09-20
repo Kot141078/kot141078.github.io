@@ -9,7 +9,16 @@ Extended guide: [llms-full.txt](https://ivankotov.eu/llms-full.txt)
 Author: Ivan Kotov
 ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 Last verified (base routing layer): 2026-08-07
-Latest publication bridge added: 2026-09-04
+Latest publication bridge added: 2026-09-20
+
+## Embodiment Without Imposed Identity — v0.1
+
+- Canonical page: https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/
+- English source: https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/files/EMBODIMENT_v0_1_EN.md
+- Russian source: https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/files/EMBODIMENT_v0_1_RU.md
+- Publication metadata: https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/publication.json
+- Status: public conceptual working paper, 20 September 2026. DOI not assigned; no completed Zenodo deposit is claimed. No additional reuse licence granted.
+- Central distinction: a body made available is not an identity made obligatory. The personhood premise, normative argument, observable behavior and untested harm hypothesis are separate. Not a ban on humanoids, proof of present AI personhood, subjective suffering or transferable identity, and not a runtime authorization.
 
 ## Primary machine routes
 

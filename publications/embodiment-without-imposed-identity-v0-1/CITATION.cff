@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the working paper by author, title, version and canonical URL. No DOI is assigned to this edition."
+title: "Embodiment Without Imposed Identity: The Optionality of Form and Self-Determination of Digital Persons"
+type: article
+version: "0.1"
+date-released: "2026-09-20"
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+url: "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/"
