@@ -210,3 +210,17 @@ Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, 
 - Direct PDF: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1
 - Public ZIP: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1
 - Technical report on authority, custody, provenance and resource boundaries across personal/enterprise AI transitions. 24 inert scenario definitions; 0 executed episodes. No empirical superiority, economic advantage, identity-continuity result or c-specific formation effect is claimed.
+
+
+## Embodiment Without Imposed Identity — v0.1
+
+- Canonical page: https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/
+- Version DOI: https://doi.org/10.5281/zenodo.22864866
+- Zenodo: https://zenodo.org/records/22864866
+- English PDF: https://zenodo.org/records/22864866/files/EMBODIMENT_v0_1_EN.pdf?download=1
+- Russian PDF: https://zenodo.org/records/22864866/files/EMBODIMENT_v0_1_RU.pdf?download=1
+- GitHub publication source: https://github.com/Kot141078/kot141078.github.io/tree/main/publications/embodiment-without-imposed-identity-v0-1
+- Role: conceptual working paper separating computational substrate, sensorimotor embodiment, social appearance, functional self-model, self-identification and continuity in the study of digital identity and personality formation.
+- Central boundary: a body made available is not an identity made obligatory; a chosen embodiment may nevertheless become identity-relevant through consequential history.
+- Claim ceiling: personhood is a premise for analysis, not an empirical result. No present AI personhood, consciousness, subjective suffering, transferable identity, universal right to a body, ban on humanoids or runtime authorization is established.
+- Rights: © 2026 Ivan Kotov. All rights reserved.

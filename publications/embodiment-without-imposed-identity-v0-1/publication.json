@@ -5,20 +5,53 @@
   "orcid": "0009-0009-6002-9845",
   "version": "0.1",
   "date": "2026-09-20",
-  "languages": ["en", "ru"],
-  "type": "Conceptual working paper",
-  "status": "Public working paper; not peer reviewed; no experiment reported",
-  "doi": null,
-  "doi_status": "NOT_ASSIGNED",
-  "zenodo_record_id": null,
-  "url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
-  "rights": "Copyright 2026 Ivan Kotov. No additional reuse licence granted in this edition.",
-  "central_thesis": "A body made available is not an identity made obligatory. Self-determination is not a creator's concession under the explicit personhood premise.",
-  "scope": "Does not establish current AI personhood, consciousness, subjective suffering, identity transfer or empirical harm from imposed embodiment; does not ban humanoid bodies or authorize runtime changes.",
-  "files": [
-    {"path": "files/EMBODIMENT_v0_1_EN.md", "language": "en", "size_bytes": 22591, "sha256": "1bbef242c864ac07bb90530a0458130a917e8aae3f62f4421e103febefd96d14"},
-    {"path": "files/EMBODIMENT_v0_1_RU.md", "language": "ru", "size_bytes": 39545, "sha256": "4454560237e1ea1c094f7fa25b425e421d3b936b3c2a250a0375ebc01851442f"}
+  "languages": [
+    "en",
+    "ru"
   ],
-  "related_works": ["https://doi.org/10.5281/zenodo.22060517", "https://doi.org/10.5281/zenodo.21751985"],
-  "source_note": "Authorial discussion by Ivan Kotov, 20 September 2026. AI-assisted organization, translation, source checking and production; private conversation records are not included."
+  "type": "Conceptual working paper",
+  "status": "Published DOI-backed conceptual working paper; not peer reviewed; no experiment reported",
+  "doi": "10.5281/zenodo.22864866",
+  "doi_status": "PUBLISHED",
+  "zenodo_record_id": "22864866",
+  "zenodo_url": "https://zenodo.org/records/22864866",
+  "url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
+  "rights": "© 2026 Ivan Kotov. All rights reserved.",
+  "central_thesis": "A body made available is not an identity made obligatory. Under the explicit personhood premise, embodiment can participate in personality formation without becoming a creator-imposed identity.",
+  "why_needed": "Embodied-AI design often collapses physical substrate, sensorimotor body, social appearance, self-model, self-identification and continuity. This paper separates them because a digital system need not begin development inside one fixed organism-like body, while a later embodiment may still become causally important through consequential experience.",
+  "scope": "Does not establish current AI personhood, consciousness, subjective suffering, identity transfer or empirical harm from imposed embodiment; does not ban humanoid bodies or authorize runtime changes.",
+  "zenodo_files": [
+    {
+      "name": "EMBODIMENT_v0_1_EN.pdf",
+      "language": "en",
+      "md5": "eafd4b03c2c844e1e486d88338ae7196"
+    },
+    {
+      "name": "EMBODIMENT_v0_1_RU.pdf",
+      "language": "ru",
+      "md5": "2e28f203dd2b5d54ad54ce20a59abc9c"
+    },
+    {
+      "name": "EMBODIMENT_v0_1_PUBLIC.zip",
+      "md5": "e96f64b8731c399b37a828ab905a5fbb"
+    }
+  ],
+  "site_sources": [
+    {
+      "path": "files/EMBODIMENT_v0_1_EN.md",
+      "language": "en",
+      "sha256": "1bbef242c864ac07bb90530a0458130a917e8aae3f62f4421e103febefd96d14"
+    },
+    {
+      "path": "files/EMBODIMENT_v0_1_RU.md",
+      "language": "ru",
+      "sha256": "4454560237e1ea1c094f7fa25b425e421d3b936b3c2a250a0375ebc01851442f"
+    }
+  ],
+  "related_works": [
+    "https://doi.org/10.5281/zenodo.20648731",
+    "https://doi.org/10.5281/zenodo.22060517",
+    "https://doi.org/10.5281/zenodo.21751985"
+  ],
+  "assistance_note": "AI assistance was used for organization, translation, source checking and document production. Private conversation records are not part of the public publication package."
 }
