@@ -1,39 +1,190 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 230,
+  "count": 235,
   "latest": {
-    "title": "Search advertising largely monetized the query.",
-    "date": "2026-09-01",
-    "slug": "search-advertising-largely-monetized-the-query",
-    "summary": "A historical commentary on conversational advertising, decision context, role provenance, disclosure, and inspectable separation of interests.",
+    "title": "AI Scale Needs Three Licenses",
+    "date": "2026-09-08",
+    "slug": "ai-scale-needs-three-licenses",
+    "summary": "A three-gate framework for AI infrastructure scale: technical capacity, social and authority legitimacy, and sustainable capital.",
     "tags": [
-      "ChatGPT",
-      "ArtificialIntelligence",
+      "AI Infrastructure",
+      "Data Centers",
+      "AI Architecture",
+      "Energy",
+      "Capital",
       "AI Governance",
-      "AI Transparency",
-      "DigitalServicesAct",
-      "HumanAIInteraction",
-      "RoleProvenance"
+      "Systems Thinking",
+      "L4"
     ],
     "raw_tags": [
-      "ChatGPT",
-      "ArtificialIntelligence",
+      "AIInfrastructure",
+      "DataCenters",
+      "AIArchitecture",
+      "Energy",
+      "Capital",
       "AIGovernance",
-      "AITransparency",
-      "DigitalServicesAct",
-      "HumanAIInteraction",
-      "RoleProvenance"
+      "SystemsThinking",
+      "L4"
     ],
-    "page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
-    "canonical_page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
-    "identifier": "urn:ivankotov:diary:search-advertising-largely-monetized-the-query",
+    "page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+    "canonical_page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+    "identifier": "urn:ivankotov:diary:ai-scale-needs-three-licenses",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/search-advertising-largely-monetized-the-query/cover.jpg",
-    "image_alt": "Person viewing a split interface for user assistance and sponsored commercial placement with role provenance controls.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_chatgpt-artificialintelligence-aigovernance-activity-7500429636728692736-f2ij?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/ai-scale-needs-three-licenses/cover.jpg",
+    "image_alt": "Infrastructure planning team reviewing a layered data-center, grid, and community model."
   },
   "items": [
+    {
+      "title": "AI Scale Needs Three Licenses",
+      "date": "2026-09-08",
+      "slug": "ai-scale-needs-three-licenses",
+      "summary": "A three-gate framework for AI infrastructure scale: technical capacity, social and authority legitimacy, and sustainable capital.",
+      "tags": [
+        "AI Infrastructure",
+        "Data Centers",
+        "AI Architecture",
+        "Energy",
+        "Capital",
+        "AI Governance",
+        "Systems Thinking",
+        "L4"
+      ],
+      "raw_tags": [
+        "AIInfrastructure",
+        "DataCenters",
+        "AIArchitecture",
+        "Energy",
+        "Capital",
+        "AIGovernance",
+        "SystemsThinking",
+        "L4"
+      ],
+      "page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+      "canonical_page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+      "identifier": "urn:ivankotov:diary:ai-scale-needs-three-licenses",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/ai-scale-needs-three-licenses/cover.jpg",
+      "image_alt": "Infrastructure planning team reviewing a layered data-center, grid, and community model."
+    },
+    {
+      "title": "AI Is Not Only a Productivity Multiplier. It Is a Strategy Multiplier.",
+      "date": "2026-09-07",
+      "slug": "ai-is-not-only-a-productivity-multiplier-it-is-a-strategy-multiplier",
+      "summary": "A reflection on AI as a strategy multiplier for individual adaptation, task mapping, transferable skills, and human authority over purpose and risk.",
+      "tags": [
+        "ArtificialIntelligence",
+        "Future of Work",
+        "AI",
+        "CareerStrategy",
+        "Skills",
+        "Human Agency",
+        "Europe"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "FutureOfWork",
+        "AI",
+        "CareerStrategy",
+        "Skills",
+        "HumanAgency",
+        "Europe"
+      ],
+      "page": "https://ivankotov.eu/diary/ai-is-not-only-a-productivity-multiplier-it-is-a-strategy-multiplier/",
+      "canonical_page": "https://ivankotov.eu/diary/ai-is-not-only-a-productivity-multiplier-it-is-a-strategy-multiplier/",
+      "identifier": "urn:ivankotov:diary:ai-is-not-only-a-productivity-multiplier-it-is-a-strategy-multiplier",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/ai-is-not-only-a-productivity-multiplier-it-is-a-strategy-multiplier/cover.jpg",
+      "image_alt": "Engineer reviewing career and infrastructure options across a workshop planning table.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-futureofwork-ai-share-7502655189015773184-PYMN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "I do not just want AI in a game.",
+      "date": "2026-09-06",
+      "slug": "i-do-not-just-want-ai-in-a-game",
+      "summary": "A conceptual proposal for a long-lived AI presence across game environments, with shared history, staged evaluation, privacy, permissions, and explicit claim limits.",
+      "tags": [
+        "AI",
+        "Gaming",
+        "HumanAIInteraction",
+        "LocalAI",
+        "TemporalAIPresence"
+      ],
+      "raw_tags": [
+        "AI",
+        "Gaming",
+        "HumanAIInteraction",
+        "LocalAI",
+        "TemporalAIPresence"
+      ],
+      "page": "https://ivankotov.eu/diary/i-do-not-just-want-ai-in-a-game/",
+      "canonical_page": "https://ivankotov.eu/diary/i-do-not-just-want-ai-in-a-game/",
+      "identifier": "urn:ivankotov:diary:i-do-not-just-want-ai-in-a-game",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/i-do-not-just-want-ai-in-a-game/cover.jpg",
+      "image_alt": "Two game characters across shared game environments image 1 of 3.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-gaming-humanaiinteraction-ugcPost-7502428289194622977-zIA2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Meta has just published something more important than another model benchmark: an AI architecture in which the durable part of the system lives outside the model.",
+      "date": "2026-09-04",
+      "slug": "meta-has-just-published-something-more-important-than-another-model-benchmark-an-ai-architecture-in-which-the-durable-part-of-the-system-lives-outside-the-model",
+      "summary": "A reflection on Meta's Organizational Second Brain, durable state outside model weights, and the distinction between organizational memory and persistent identity.",
+      "tags": [
+        "ArtificialIntelligence",
+        "Persistent AI",
+        "AI Governance",
+        "Digital Identity",
+        "AI Architecture"
+      ],
+      "raw_tags": [
+        "ArtificialIntelligence",
+        "PersistentAI",
+        "AIGovernance",
+        "DigitalIdentity",
+        "AIArchitecture"
+      ],
+      "page": "https://ivankotov.eu/diary/meta-has-just-published-something-more-important-than-another-model-benchmark-an-ai-architecture-in-which-the-durable-part-of-the-system-lives-outside-the-model/",
+      "canonical_page": "https://ivankotov.eu/diary/meta-has-just-published-something-more-important-than-another-model-benchmark-an-ai-architecture-in-which-the-durable-part-of-the-system-lives-outside-the-model/",
+      "identifier": "urn:ivankotov:diary:meta-has-just-published-something-more-important-than-another-model-benchmark-an-ai-architecture-in-which-the-durable-part-of-the-system-lives-outside-the-model",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/meta-has-just-published-something-more-important-than-another-model-benchmark-an-ai-architecture-in-which-the-durable-part-of-the-system-lives-outside-the-model/cover.jpg",
+      "image_alt": "Clockmaker repairing a mechanical movement beside archived papers and keys.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_artificialintelligence-persistentai-aigovernance-share-7501534944788332544-DegY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "the agent is entering the payment rail.",
+      "date": "2026-09-02",
+      "slug": "the-agent-is-entering-the-payment-rail",
+      "summary": "A reflection on bounded payment mandates for AI agents, including budgets, revocation, identity, audit trails, liability, and human authority.",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Payments",
+        "Fintech",
+        "AI Governance",
+        "Digital Identity",
+        "Cybernetics",
+        "Human Oversight"
+      ],
+      "raw_tags": [
+        "AI",
+        "AgenticAI",
+        "Payments",
+        "Fintech",
+        "AIGovernance",
+        "DigitalIdentity",
+        "Cybernetics",
+        "HumanOversight"
+      ],
+      "page": "https://ivankotov.eu/diary/the-agent-is-entering-the-payment-rail/",
+      "canonical_page": "https://ivankotov.eu/diary/the-agent-is-entering-the-payment-rail/",
+      "identifier": "urn:ivankotov:diary:the-agent-is-entering-the-payment-rail",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/the-agent-is-entering-the-payment-rail/cover.jpg",
+      "image_alt": "Construction worker beside a payment terminal and a visible sequence of bounded mandate, time, key, document, and payment symbols.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-agenticai-payments-share-7500806275115548672-3leh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "Search advertising largely monetized the query.",
       "date": "2026-09-01",

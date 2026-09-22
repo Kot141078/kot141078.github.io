@@ -2,34 +2,35 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Search advertising largely monetized the query.",
-    "date": "2026-09-01",
-    "slug": "search-advertising-largely-monetized-the-query",
-    "summary": "A historical commentary on conversational advertising, decision context, role provenance, disclosure, and inspectable separation of interests.",
+    "title": "AI Scale Needs Three Licenses",
+    "date": "2026-09-08",
+    "slug": "ai-scale-needs-three-licenses",
+    "summary": "A three-gate framework for AI infrastructure scale: technical capacity, social and authority legitimacy, and sustainable capital.",
     "tags": [
-      "ChatGPT",
-      "ArtificialIntelligence",
+      "AI Infrastructure",
+      "Data Centers",
+      "AI Architecture",
+      "Energy",
+      "Capital",
       "AI Governance",
-      "AI Transparency",
-      "DigitalServicesAct",
-      "HumanAIInteraction",
-      "RoleProvenance"
+      "Systems Thinking",
+      "L4"
     ],
     "raw_tags": [
-      "ChatGPT",
-      "ArtificialIntelligence",
+      "AIInfrastructure",
+      "DataCenters",
+      "AIArchitecture",
+      "Energy",
+      "Capital",
       "AIGovernance",
-      "AITransparency",
-      "DigitalServicesAct",
-      "HumanAIInteraction",
-      "RoleProvenance"
+      "SystemsThinking",
+      "L4"
     ],
-    "page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
-    "canonical_page": "https://ivankotov.eu/diary/search-advertising-largely-monetized-the-query/",
-    "identifier": "urn:ivankotov:diary:search-advertising-largely-monetized-the-query",
+    "page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+    "canonical_page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
+    "identifier": "urn:ivankotov:diary:ai-scale-needs-three-licenses",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/search-advertising-largely-monetized-the-query/cover.jpg",
-    "image_alt": "Person viewing a split interface for user assistance and sponsored commercial placement with role provenance controls.",
-    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_chatgpt-artificialintelligence-aigovernance-activity-7500429636728692736-f2ij?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    "primary_image": "https://ivankotov.eu/assets/diary/ai-scale-needs-three-licenses/cover.jpg",
+    "image_alt": "Infrastructure planning team reviewing a layered data-center, grid, and community model."
   }
 }
