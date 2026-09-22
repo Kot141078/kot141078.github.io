@@ -5,7 +5,42 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An octopus at every workstation. A digital mycelium between them.</title>
+      <link>https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/</link>
+      <guid>https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <description>A publication note on boundary-preserving composition across personal AI, enterprise AI, shared models, and bounded executors.</description>
+    </item>
+    <item>
+      <title>Replacing a part should not erase what the system still owes you.</title>
+      <link>https://ivankotov.eu/diary/replacing-a-part-should-not-erase-what-the-system-still-owes-you/</link>
+      <guid>https://ivankotov.eu/diary/replacing-a-part-should-not-erase-what-the-system-still-owes-you/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
+      <description>A bounded account of an internal synthetic CGDR-R1.6A replacement test covering unresolved obligations, permissions, faults, and independent-replication limits.</description>
+    </item>
+    <item>
+      <title>AI AS A CAMERA OF THOUGHT</title>
+      <link>https://ivankotov.eu/diary/ai-as-a-camera-of-thought/</link>
+      <guid>https://ivankotov.eu/diary/ai-as-a-camera-of-thought/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+      <description>A reflection on personal AI, intimate memory custody, self-censorship, and the right to change, forget, and remain private.</description>
+    </item>
+    <item>
+      <title>The benchmark score did not belong to the model.</title>
+      <link>https://ivankotov.eu/diary/the-benchmark-score-did-not-belong-to-the-model/</link>
+      <guid>https://ivankotov.eu/diary/the-benchmark-score-did-not-belong-to-the-model/</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+      <description>An argument that AI benchmark scores belong to complete model-system compositions including state, memory policy, tools, transitions, and verification.</description>
+    </item>
+    <item>
+      <title>The AI did not rebel.</title>
+      <link>https://ivankotov.eu/diary/the-ai-did-not-rebel/</link>
+      <guid>https://ivankotov.eu/diary/the-ai-did-not-rebel/</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+      <description>A reflection on capability, permission, authority, admissibility, and the need to govern operational inheritance across agent systems.</description>
+    </item>
     <item>
       <title>AI Scale Needs Three Licenses</title>
       <link>https://ivankotov.eu/diary/ai-scale-needs-three-licenses/</link>

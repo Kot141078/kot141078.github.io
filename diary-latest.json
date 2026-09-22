@@ -2,35 +2,30 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "AI Scale Needs Three Licenses",
-    "date": "2026-09-08",
-    "slug": "ai-scale-needs-three-licenses",
-    "summary": "A three-gate framework for AI infrastructure scale: technical capacity, social and authority legitimacy, and sustainable capital.",
+    "title": "An octopus at every workstation. A digital mycelium between them.",
+    "date": "2026-09-15",
+    "slug": "an-octopus-at-every-workstation-a-digital-mycelium-between-them",
+    "summary": "A publication note on boundary-preserving composition across personal AI, enterprise AI, shared models, and bounded executors.",
     "tags": [
-      "AI Infrastructure",
-      "Data Centers",
       "AI Architecture",
-      "Energy",
-      "Capital",
+      "Future of Work",
+      "Human AI",
       "AI Governance",
-      "Systems Thinking",
-      "L4"
+      "TemporalAIPresence"
     ],
     "raw_tags": [
-      "AIInfrastructure",
-      "DataCenters",
       "AIArchitecture",
-      "Energy",
-      "Capital",
+      "FutureOfWork",
+      "HumanAI",
       "AIGovernance",
-      "SystemsThinking",
-      "L4"
+      "TemporalAIPresence"
     ],
-    "page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
-    "canonical_page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
-    "identifier": "urn:ivankotov:diary:ai-scale-needs-three-licenses",
+    "page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+    "canonical_page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+    "identifier": "urn:ivankotov:diary:an-octopus-at-every-workstation-a-digital-mycelium-between-them",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/ai-scale-needs-three-licenses/cover.jpg",
-    "image_alt": "Infrastructure planning team reviewing a layered data-center, grid, and community model."
+    "primary_image": "https://ivankotov.eu/assets/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/cover.jpg",
+    "image_alt": "An architect studies a distributed workplace plan beside crossed-out octopus sketches.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-futureofwork-humanai-share-7505597837095763968-o3bK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   }
 }

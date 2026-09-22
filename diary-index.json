@@ -1,40 +1,182 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 235,
+  "count": 240,
   "latest": {
-    "title": "AI Scale Needs Three Licenses",
-    "date": "2026-09-08",
-    "slug": "ai-scale-needs-three-licenses",
-    "summary": "A three-gate framework for AI infrastructure scale: technical capacity, social and authority legitimacy, and sustainable capital.",
+    "title": "An octopus at every workstation. A digital mycelium between them.",
+    "date": "2026-09-15",
+    "slug": "an-octopus-at-every-workstation-a-digital-mycelium-between-them",
+    "summary": "A publication note on boundary-preserving composition across personal AI, enterprise AI, shared models, and bounded executors.",
     "tags": [
-      "AI Infrastructure",
-      "Data Centers",
       "AI Architecture",
-      "Energy",
-      "Capital",
+      "Future of Work",
+      "Human AI",
       "AI Governance",
-      "Systems Thinking",
-      "L4"
+      "TemporalAIPresence"
     ],
     "raw_tags": [
-      "AIInfrastructure",
-      "DataCenters",
       "AIArchitecture",
-      "Energy",
-      "Capital",
+      "FutureOfWork",
+      "HumanAI",
       "AIGovernance",
-      "SystemsThinking",
-      "L4"
+      "TemporalAIPresence"
     ],
-    "page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
-    "canonical_page": "https://ivankotov.eu/diary/ai-scale-needs-three-licenses/",
-    "identifier": "urn:ivankotov:diary:ai-scale-needs-three-licenses",
+    "page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+    "canonical_page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+    "identifier": "urn:ivankotov:diary:an-octopus-at-every-workstation-a-digital-mycelium-between-them",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/ai-scale-needs-three-licenses/cover.jpg",
-    "image_alt": "Infrastructure planning team reviewing a layered data-center, grid, and community model."
+    "primary_image": "https://ivankotov.eu/assets/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/cover.jpg",
+    "image_alt": "An architect studies a distributed workplace plan beside crossed-out octopus sketches.",
+    "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-futureofwork-humanai-share-7505597837095763968-o3bK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
   },
   "items": [
+    {
+      "title": "An octopus at every workstation. A digital mycelium between them.",
+      "date": "2026-09-15",
+      "slug": "an-octopus-at-every-workstation-a-digital-mycelium-between-them",
+      "summary": "A publication note on boundary-preserving composition across personal AI, enterprise AI, shared models, and bounded executors.",
+      "tags": [
+        "AI Architecture",
+        "Future of Work",
+        "Human AI",
+        "AI Governance",
+        "TemporalAIPresence"
+      ],
+      "raw_tags": [
+        "AIArchitecture",
+        "FutureOfWork",
+        "HumanAI",
+        "AIGovernance",
+        "TemporalAIPresence"
+      ],
+      "page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+      "canonical_page": "https://ivankotov.eu/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/",
+      "identifier": "urn:ivankotov:diary:an-octopus-at-every-workstation-a-digital-mycelium-between-them",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/an-octopus-at-every-workstation-a-digital-mycelium-between-them/cover.jpg",
+      "image_alt": "An architect studies a distributed workplace plan beside crossed-out octopus sketches.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-futureofwork-humanai-share-7505597837095763968-o3bK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "Replacing a part should not erase what the system still owes you.",
+      "date": "2026-09-12",
+      "slug": "replacing-a-part-should-not-erase-what-the-system-still-owes-you",
+      "summary": "A bounded account of an internal synthetic CGDR-R1.6A replacement test covering unresolved obligations, permissions, faults, and independent-replication limits.",
+      "tags": [
+        "AI Governance",
+        "AI Safety",
+        "AI Architecture",
+        "Systems Engineering",
+        "ResearchTransparency"
+      ],
+      "raw_tags": [
+        "AIGovernance",
+        "AISafety",
+        "AIArchitecture",
+        "SystemsEngineering",
+        "ResearchTransparency"
+      ],
+      "page": "https://ivankotov.eu/diary/replacing-a-part-should-not-erase-what-the-system-still-owes-you/",
+      "canonical_page": "https://ivankotov.eu/diary/replacing-a-part-should-not-erase-what-the-system-still-owes-you/",
+      "identifier": "urn:ivankotov:diary:replacing-a-part-should-not-erase-what-the-system-still-owes-you",
+      "is_canonical": true,
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_cgdr-r16a-selected-process-conformance-ugcPost-7504524426982612992-zOsv/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "AI AS A CAMERA OF THOUGHT",
+      "date": "2026-09-11",
+      "slug": "ai-as-a-camera-of-thought",
+      "summary": "A reflection on personal AI, intimate memory custody, self-censorship, and the right to change, forget, and remain private.",
+      "tags": [
+        "AI",
+        "Privacy",
+        "Personal AI",
+        "AI Architecture",
+        "Digital Identity",
+        "DataCustody",
+        "FutureOfAITEST"
+      ],
+      "raw_tags": [
+        "AI",
+        "Privacy",
+        "PersonalAI",
+        "AIArchitecture",
+        "DigitalIdentity",
+        "DataCustody",
+        "FutureOfAITEST"
+      ],
+      "page": "https://ivankotov.eu/diary/ai-as-a-camera-of-thought/",
+      "canonical_page": "https://ivankotov.eu/diary/ai-as-a-camera-of-thought/",
+      "identifier": "urn:ivankotov:diary:ai-as-a-camera-of-thought",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/ai-as-a-camera-of-thought/cover.jpg",
+      "image_alt": "A person at a computer beside a secure archive, with data moving toward a remote data center.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_ai-privacy-personalai-share-7504179435596660736-kDZG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The benchmark score did not belong to the model.",
+      "date": "2026-09-10",
+      "slug": "the-benchmark-score-did-not-belong-to-the-model",
+      "summary": "An argument that AI benchmark scores belong to complete model-system compositions including state, memory policy, tools, transitions, and verification.",
+      "tags": [
+        "AI Architecture",
+        "AIEvaluation",
+        "Agentic AI",
+        "Systems Engineering",
+        "AI Infrastructure",
+        "TemporalAIPresence",
+        "Systems Thinking"
+      ],
+      "raw_tags": [
+        "AIArchitecture",
+        "AIEvaluation",
+        "AgenticAI",
+        "SystemsEngineering",
+        "AIInfrastructure",
+        "TemporalAIPresence",
+        "SystemsThinking"
+      ],
+      "page": "https://ivankotov.eu/diary/the-benchmark-score-did-not-belong-to-the-model/",
+      "canonical_page": "https://ivankotov.eu/diary/the-benchmark-score-did-not-belong-to-the-model/",
+      "identifier": "urn:ivankotov:diary:the-benchmark-score-did-not-belong-to-the-model",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/the-benchmark-score-did-not-belong-to-the-model/cover.jpg",
+      "image_alt": "Multiple vehicle frames and engines arranged in an engineering workshop.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aiarchitecture-aievaluation-agenticai-share-7503497602311598080-b3q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
+    {
+      "title": "The AI did not rebel.",
+      "date": "2026-09-09",
+      "slug": "the-ai-did-not-rebel",
+      "summary": "A reflection on capability, permission, authority, admissibility, and the need to govern operational inheritance across agent systems.",
+      "tags": [
+        "AI Safety",
+        "Agentic AI",
+        "AI Architecture",
+        "AI Governance",
+        "DigitalContinuity",
+        "DigitalEvolution",
+        "Systems Thinking",
+        "TemporalAIPresence"
+      ],
+      "raw_tags": [
+        "AISafety",
+        "AgenticAI",
+        "AIArchitecture",
+        "AIGovernance",
+        "DigitalContinuity",
+        "DigitalEvolution",
+        "SystemsThinking",
+        "TemporalAIPresence"
+      ],
+      "page": "https://ivankotov.eu/diary/the-ai-did-not-rebel/",
+      "canonical_page": "https://ivankotov.eu/diary/the-ai-did-not-rebel/",
+      "identifier": "urn:ivankotov:diary:the-ai-did-not-rebel",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/the-ai-did-not-rebel/cover.jpg",
+      "image_alt": "A row of crowns, a sealed ledger, and a scepter arranged in a ceremonial hall.",
+      "linkedin_url": "https://www.linkedin.com/posts/ivan-kotov-57627b210_aisafety-agenticai-aiarchitecture-share-7503141917795184641-RFFe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVu3GoBN_Pu_ZXBEYSWMVPvV8kIPjwXXGw"
+    },
     {
       "title": "AI Scale Needs Three Licenses",
       "date": "2026-09-08",
