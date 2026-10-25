@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 56,
+  "numberOfItems": 57,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -1059,6 +1059,30 @@
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.22724626"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://ivankotov.eu/id/work/continuity-instrument-v1-0-0",
+        "name": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+        "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "1.0.0",
+        "datePublished": "2026-10-25",
+        "description": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+        "inLanguage": [
+          "en",
+          "ru"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.23651305",
+          "https://doi.org/10.5281/zenodo.23651304"
         ]
       }
     }

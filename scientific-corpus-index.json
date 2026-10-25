@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "9995274c53f2c6aa5dd3e075559d1b7301d26f4c3e682c8a90c651be8d2203e4",
-    "record_count": 56
+    "sha256": "caff63feabd64324a190314fd2b6568f4b115db66fc15e44a7525fa5380e0053",
+    "record_count": 57
   },
-  "work_count": 56,
+  "work_count": 57,
   "works": [
     {
       "id": "boundary-preserving-ai-composition-v0-4",
@@ -3745,6 +3745,78 @@
         "unknown": []
       },
       "legacy_source_pointer": "/works-index.json#/works/55"
+    },
+    {
+      "id": "continuity-instrument-v1-0-0",
+      "@id": "https://ivankotov.eu/id/work/continuity-instrument-v1-0-0",
+      "schema_org_type": "SoftwareSourceCode",
+      "source_type": "software",
+      "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+      "alternative_title": null,
+      "role": "evidence-bound continuity specification and deterministic supplied-record transformation",
+      "summary": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+      "primary_url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "version": "1.0.0",
+      "date": "2026-10-25",
+      "status": "published; real-subject and evaluator qualification NOT_ESTABLISHED",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.23651305",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.23651305",
+        "concept_doi": "https://doi.org/10.5281/zenodo.23651304",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0",
+        "repository_path": "publications/continuity-instrument-v1-0-0",
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": "All rights reserved. No license grant.",
+        "documentation": "CC-BY-4.0 for scientific and explanatory text; PDF 04 contains reserved reproduced material.",
+        "machine_metadata": "CC-BY-4.0 for descriptive metadata; Zenodo record metadata is separately CC0.",
+        "rights": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0/LICENSES.md"
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+        "manifest_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PACKAGE_MANIFEST.json",
+        "checksums_url": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip.sha256?download=1"
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "No autonomous evidence collection, truth adjudication or witness-independence verification.",
+          "No real-subject or evaluator qualification: NOT_ESTABLISHED.",
+          "No identity, consciousness, personhood, legal-status or continuity proof for a real system.",
+          "No empirical validation, independent human peer review or independent replication claim.",
+          "No production approval, runtime integration, provider attestation or Beacon conformance.",
+          "R157 is bounded open-synthetic predecessor evidence; R160 and R161 remain negative and are not replayed."
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/56"
     }
   ]
 }

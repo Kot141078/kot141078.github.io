@@ -6,7 +6,7 @@
   "last_verified": "2026-09-04",
   "status": "interpretive-machine-routing-overlay",
   "claim_boundary": "A bridge records a bounded reading dependency or evidence route. It does not prove entity status, consciousness, operational success, causal effect, external validation, certification, or authority transfer.",
-  "source_sha256": "d66c6865c5bfac27609d7fd77943fcf914f7b033df9e1655b263bbe05f50cc0d",
+  "source_sha256": "b2e3eaad87dae96133e218598fbb859aba4ba929ebb7a37564549ef75d7c76f8",
   "relation_definitions": [
     {
       "relation": "constrainsClassificationIn",
@@ -59,7 +59,7 @@
       "definition": "The source may supply time-ordered evidence to the target control layer."
     }
   ],
-  "bridge_count": 9,
+  "bridge_count": 10,
   "bridges": [
     {
       "bridge_id": "BRIDGE-003",
@@ -442,6 +442,47 @@
         "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"
       ],
       "claim_ceiling": "Witness may record transitions, resource allocation and consequences without acquiring ownership of private self-reflection."
+    },
+    {
+      "bridge_id": "BRIDGE-004",
+      "visibility": "explicit",
+      "title": "Continuity measurement, personality and entity claims remain distinct",
+      "scope": "CI explanatory paper, sections 9–10; supplied evidence and the ceiling of a profile result",
+      "nodes": [
+        {
+          "id": "continuity-instrument-v1-0-0",
+          "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
+        },
+        {
+          "id": "personality_formation_time_shaped_continuity_v0_1",
+          "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/"
+        },
+        {
+          "id": "entity_vs_profile_v0_1_1",
+          "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "continuity-instrument-v1-0-0",
+          "relation": "doesNotEntail",
+          "target": "personality_formation_time_shaped_continuity_v0_1",
+          "relation_uri": "https://ivankotov.eu/ns/relations/doesNotEntail"
+        },
+        {
+          "source": "continuity-instrument-v1-0-0",
+          "relation": "doesNotEntail",
+          "target": "entity_vs_profile_v0_1_1",
+          "relation_uri": "https://ivankotov.eu/ns/relations/doesNotEntail"
+        }
+      ],
+      "canonical_evidence": [
+        "https://zenodo.org/records/23651305/files/01_CI_Explanatory_Paper_EN.pdf?download=1",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+        "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+        "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/"
+      ],
+      "claim_ceiling": "A CI vector describes supplied, admitted evidence and interval coverage. It does not measure personality, prove an individual entity or qualify a real system. Related works retain their own claims and limits."
     }
   ]
 }

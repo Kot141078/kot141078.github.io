@@ -1,0 +1,198 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/#page",
+      "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "name": "Continuity Instrument (CI) v1.0.0",
+      "description": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-25",
+      "mainEntity": {
+        "@id": "https://ivankotov.eu/id/work/continuity-instrument-v1-0-0"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Publications",
+          "item": "https://ivankotov.eu/publications/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Continuity Instrument (CI) v1.0.0",
+          "item": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://ivankotov.eu/id/work/continuity-instrument-v1-0-0",
+      "name": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+      "headline": "Continuity Instrument (CI) v1.0.0",
+      "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "description": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+      "datePublished": "2026-10-25",
+      "version": "1.0.0",
+      "softwareVersion": "1.0.0",
+      "inLanguage": [
+        "en",
+        "ru"
+      ],
+      "programmingLanguage": "Python",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "identifier": "https://orcid.org/0009-0009-6002-9845",
+        "sameAs": "https://orcid.org/0009-0009-6002-9845",
+        "url": "https://ivankotov.eu/about/",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Independent researcher, Brussels, Belgium"
+        }
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Version DOI",
+        "value": "10.5281/zenodo.23651305",
+        "url": "https://doi.org/10.5281/zenodo.23651305"
+      },
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.5281/zenodo.23651304",
+        "name": "Continuity Instrument — all versions"
+      },
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.23651305",
+        "https://zenodo.org/records/23651305"
+      ],
+      "codeRepository": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0",
+      "downloadUrl": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip?download=1",
+      "license": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0/LICENSES.md",
+      "copyrightNotice": "Copyright © 2026 Ivan Kotov. Text and descriptive metadata: CC BY 4.0; source code, original tests and specified build artifacts: all rights reserved. PDF 04 has mixed rights.",
+      "keywords": [
+        "Continuity Instrument",
+        "evidence-bound continuity",
+        "Temporal AI Presence",
+        "governed change",
+        "interval coverage",
+        "AI systems"
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Temporal AI Presence Profile v1.0",
+          "url": "https://doi.org/10.5281/zenodo.22070960"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Beacon Profile v0.1",
+          "url": "https://doi.org/10.5281/zenodo.18933553"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "C-Calculus / Governed Binding Stack v0.1",
+          "url": "https://doi.org/10.5281/zenodo.21205427"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Personality Formation and Time-Shaped Continuity",
+          "url": "https://doi.org/10.5281/zenodo.20648731"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Theoretical Core of Project Ester",
+          "url": "https://doi.org/10.5281/zenodo.20679718"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Entity vs. Profile",
+          "url": "https://doi.org/10.5281/zenodo.21204415"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Explanatory paper",
+          "url": "https://zenodo.org/records/23651305/files/01_CI_Explanatory_Paper_EN.pdf?download=1",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-2"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Explanatory paper — Russian",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "ru",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-1"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Technical specification",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/03_CI_Technical_Specification_EN.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-2"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Implementation and reproducibility",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "Mixed rights; original implementation README in Part I is reserved, distinct editorial material is CC-BY-4.0.",
+          "version": "academic-pdf-2"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Evidence, claims and limitations",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-2"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Rights and citation",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-2"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Publication guide",
+          "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/07_CI_Publication_Guide_EN.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "en",
+          "copyrightNotice": "CC-BY-4.0; third-party material retains its own terms.",
+          "version": "academic-pdf-2"
+        }
+      ],
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Published CI release metadata",
+        "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+        "encodingFormat": "application/json"
+      }
+    }
+  ]
+}

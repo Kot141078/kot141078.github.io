@@ -9,7 +9,7 @@ Extended guide: [llms-full.txt](https://ivankotov.eu/llms-full.txt)
 Author: Ivan Kotov
 ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 Last verified (base routing layer): 2026-08-07
-Latest publication bridge added: 2026-09-20
+Latest publication bridge added: 2026-10-25
 
 ## Embodiment Without Imposed Identity — v0.1
 
@@ -157,3 +157,17 @@ Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, 
 - Direct PDF: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4_EN_DOI.pdf?download=1
 - Public ZIP: https://zenodo.org/records/22766595/files/WORKPLACE_COMPOSITION_v0_4.zip?download=1
 - Technical report on authority, custody, provenance and resource boundaries across personal/enterprise AI transitions. 24 inert scenario definitions; 0 executed episodes. No empirical superiority, economic advantage, identity-continuity result or c-specific formation effect is claimed.
+
+<!-- CI-V1-0-0:BEGIN -->
+## Continuity Instrument (CI) v1.0.0 — published 25 October 2026
+
+- [Detailed explanation and seven PDFs](https://ivankotov.eu/publications/continuity-instrument-v1-0-0/). Source version 1.0.0, build _02; editorial edition academic-pdf-2. English primary, Russian explanatory supplement.
+- [Version DOI](https://doi.org/10.5281/zenodo.23651305); [concept DOI](https://doi.org/10.5281/zenodo.23651304); [Zenodo record](https://zenodo.org/records/23651305). Resource type: Software. Author: Ivan Kotov, ORCID 0009-0009-6002-9845.
+- [GitHub package](https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0); [CITATION.cff](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/CITATION.cff); [published record JSON](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json); [CodeMeta](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/codemeta.json).
+- [Website metadata and PDF hashes](https://ivankotov.eu/publications/continuity-instrument-v1-0-0/publication.json); [Schema.org JSON-LD](https://ivankotov.eu/publications/continuity-instrument-v1-0-0/schema.org.jsonld); [complete ZIP](https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip?download=1); [ZIP checksum](https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip.sha256?download=1).
+- CI means Continuity Instrument, not continuous integration. It deterministically transforms supplied JSON records; it does not collect evidence, establish its truth, dereference evidence, verify witness independence or prove identity.
+- Real-subject and evaluator qualification: NOT_ESTABLISHED. R157 is bounded open-synthetic predecessor evidence. R160 and R161 remain negative, preserved, no-retry/no-replay. The 40/10/10-minute example is a separate synthetic illustration.
+- [Scoped component rights](https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0/LICENSES.md): scientific/explanatory text and descriptive metadata CC BY 4.0; original code, schemas, implementation README, tests and specified build materials reserved. PDF 04 has mixed rights. No blanket open-source license.
+- Frozen pre-deposit DOI placeholders remain historical; post-publication wrapper metadata identifies the assigned DOI. The website is a discovery projection, not a new source version or new measurement result.
+
+<!-- CI-V1-0-0:END -->

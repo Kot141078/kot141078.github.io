@@ -366,6 +366,45 @@
         "https://ivankotov.eu/publications/ai-social-role-separation-memory-custody-v1-0/"
       ],
       "claim_ceiling": "Witness may record transitions, resource allocation and consequences without acquiring ownership of private self-reflection."
+    },
+    {
+      "bridge_id": "BRIDGE-004",
+      "visibility": "explicit",
+      "title": "Continuity measurement, personality and entity claims remain distinct",
+      "scope": "CI explanatory paper, sections 9–10; supplied evidence and the ceiling of a profile result",
+      "nodes": [
+        {
+          "id": "continuity-instrument-v1-0-0",
+          "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
+        },
+        {
+          "id": "personality_formation_time_shaped_continuity_v0_1",
+          "url": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/"
+        },
+        {
+          "id": "entity_vs_profile_v0_1_1",
+          "url": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/"
+        }
+      ],
+      "edges": [
+        {
+          "source": "continuity-instrument-v1-0-0",
+          "relation": "doesNotEntail",
+          "target": "personality_formation_time_shaped_continuity_v0_1"
+        },
+        {
+          "source": "continuity-instrument-v1-0-0",
+          "relation": "doesNotEntail",
+          "target": "entity_vs_profile_v0_1_1"
+        }
+      ],
+      "canonical_evidence": [
+        "https://zenodo.org/records/23651305/files/01_CI_Explanatory_Paper_EN.pdf?download=1",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+        "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+        "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/"
+      ],
+      "claim_ceiling": "A CI vector describes supplied, admitted evidence and interval coverage. It does not measure personality, prove an individual entity or qualify a real system. Related works retain their own claims and limits."
     }
   ]
 }

@@ -317,6 +317,19 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://ivankotov.eu/terms/continuity-instrument-v1-0-0",
+      "termCode": "continuity-instrument-v1-0-0",
+      "name": "Continuity Instrument (CI)",
+      "alternateName": [],
+      "description": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+      "inDefinedTermSet": {
+        "@id": "https://ivankotov.eu/term-registry.jsonld"
+      },
+      "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://ivankotov.eu/terms/entity_vs_profile_v0_1_1",
       "termCode": "entity_vs_profile_v0_1_1",
       "name": "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities",

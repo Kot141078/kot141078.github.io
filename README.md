@@ -187,3 +187,21 @@ Use the redirect plan in `REDIRECT_PLAN_ADVANCEDGLOBALINTELLIGENCE_EU.md` and co
 - Social boundary: the payer of computation does not automatically own the motive; a motive does not automatically create a right to another participant's resources.
 - Claim ceiling: no proof of consciousness, phenomenal desire, free will, legal personhood, universal motives or automatic external authority.
 <!-- MOT-C-V0-1:END -->
+
+<!-- CI-V1-0-0:BEGIN -->
+## Continuity Instrument publication bridge — 25 October 2026
+
+The [CI v1.0.0 publication page](https://ivankotov.eu/publications/continuity-instrument-v1-0-0/) explains the purpose, input/output contract, 40/10/10-minute synthetic example, corpus relationships, evidence limits and component rights. It links all seven academic PDFs (six English, one Russian), original source and the complete verified archive.
+
+- Published version: [10.5281/zenodo.23651305](https://doi.org/10.5281/zenodo.23651305); all versions: [10.5281/zenodo.23651304](https://doi.org/10.5281/zenodo.23651304).
+- Source version `1.0.0`, build `_02`; editorial edition `academic-pdf-2`.
+- Source and exact artifact mirror: [publications/continuity-instrument-v1-0-0](https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0).
+- Citation and canonical published metadata: [CITATION.cff](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/CITATION.cff), [PUBLICATION_RECORD.json](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json), [codemeta.json](https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/codemeta.json).
+- Local discovery metadata: [publications/continuity-instrument-v1-0-0/publication.json](publications/continuity-instrument-v1-0-0/publication.json) and [schema.org.jsonld](publications/continuity-instrument-v1-0-0/schema.org.jsonld).
+- Rights: [component scope](https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0/LICENSES.md); text CC BY 4.0 with stated exceptions, implementation and specified components reserved, PDF 04 mixed rights.
+
+Publication, source and PDF metadata are linked through the existing Publications, Library, Downloads, Releases, Corpus map and machine-index routes. The frozen package is not rewritten. Real-subject and evaluator qualification remain `NOT_ESTABLISHED`; R157 is synthetic predecessor evidence, and R160/R161 remain negative.
+
+Machine sources were updated in `works-index.json`, `canonical-map.json` and `content/machine/semantic-bridges.json`; generated projections are maintained by `tools/build_machine_layer.py`. Run `python tools/run_machine_readability_gate.py` before publishing changes.
+
+<!-- CI-V1-0-0:END -->

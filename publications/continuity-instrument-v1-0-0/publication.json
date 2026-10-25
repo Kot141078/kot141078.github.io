@@ -1,0 +1,294 @@
+{
+  "record_version": "1.0",
+  "record_role": "Website discovery projection of the published CI release",
+  "canonical_publication_record": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+  "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+  "short_title": "Continuity Instrument (CI) v1.0.0",
+  "id": "continuity-instrument-v1-0-0",
+  "resource_type": "Software",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent researcher, Brussels, Belgium"
+  },
+  "date_published": "2026-10-25",
+  "source_version": "1.0.0",
+  "source_build": "_02",
+  "editorial_edition": "academic-pdf-2",
+  "status": "published",
+  "identifiers": {
+    "version_doi": "10.5281/zenodo.23651305",
+    "concept_doi": "10.5281/zenodo.23651304",
+    "zenodo_record_id": "23651305"
+  },
+  "languages": {
+    "primary": "en",
+    "supplementary": [
+      "ru"
+    ],
+    "supplementary_edition": "academic-pdf-1, Russian explanatory PDF preserved byte-for-byte"
+  },
+  "urls": {
+    "page": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+    "version_doi": "https://doi.org/10.5281/zenodo.23651305",
+    "concept_doi": "https://doi.org/10.5281/zenodo.23651304",
+    "zenodo": "https://zenodo.org/records/23651305",
+    "github_package": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0",
+    "citation_cff": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/CITATION.cff",
+    "codemeta": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/codemeta.json",
+    "publication_record": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+    "schema_org": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/schema.org.jsonld"
+  },
+  "summary": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+  "execution_boundary": {
+    "input": "Caller-supplied ci-profile-input/v1 JSON with declared time axis, witnesses, intervals, pauses, events, lineages, uncertainty and claim ceiling.",
+    "output": "Deterministic continuity profile, formation_depth_vector and digest of that vector only.",
+    "collects_primary_evidence": false,
+    "adjudicates_truth": false,
+    "dereferences_evidence_or_validates_external_digests": false,
+    "establishes_witness_independence": false,
+    "runtime_adapter_included": false
+  },
+  "evidence_status": {
+    "real_subject_qualification": "NOT_ESTABLISHED",
+    "evaluator_qualification": "NOT_ESTABLISHED",
+    "R157": "bounded open-synthetic predecessor evidence",
+    "R160": "negative local evaluator qualification; preserved; no retry or replay",
+    "R161": "negative local evaluator qualification; preserved; no retry or replay",
+    "known_defect": "Unpaired Unicode surrogate can raise uncaught UnicodeEncodeError and exit 1 rather than controlled invalid-input exit 2."
+  },
+  "archive": {
+    "filename": "CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+    "url": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip?download=1",
+    "bytes": 1097821,
+    "sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+    "checksum_url": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip.sha256?download=1",
+    "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+    "original_source_zip": {
+      "filename": "CI_CONTINUITY_INSTRUMENT_V1_0_0.zip",
+      "bytes": 50765,
+      "sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663",
+      "build": "_02"
+    }
+  },
+  "artifacts": [
+    {
+      "filename": "01_CI_Explanatory_Paper_EN.pdf",
+      "title": "Explanatory paper",
+      "language": "en",
+      "pages": 15,
+      "bytes": 175238,
+      "sha256": "651839185c6ac621e0e2f014d7ba2c263222ddb3ce75e6344088ad77cc0b76ad",
+      "media_type": "application/pdf",
+      "url": "https://zenodo.org/records/23651305/files/01_CI_Explanatory_Paper_EN.pdf?download=1",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "package_path": "PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "Purpose, vocabulary, relationships and a worked example.",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "filename": "02_CI_Explanatory_Paper_RU.pdf",
+      "title": "Explanatory paper — Russian",
+      "language": "ru",
+      "pages": 15,
+      "bytes": 185817,
+      "sha256": "8d608445e44e88845eb121b5fbe541e677d112090959475214c74fb63ef5ea0f",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "package_path": "PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "The Russian explanatory edition, retained alongside English.",
+      "editorial_edition": "academic-pdf-1"
+    },
+    {
+      "filename": "03_CI_Technical_Specification_EN.pdf",
+      "title": "Technical specification",
+      "language": "en",
+      "pages": 15,
+      "bytes": 142434,
+      "sha256": "c01f2a0a5df71b3816500642105abbe1cd8afe6e5b860393ae56bb93321c8955",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/03_CI_Technical_Specification_EN.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/03_CI_Technical_Specification_EN.pdf",
+      "package_path": "PDFs/03_CI_Technical_Specification_EN.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "Definitions, evidence rules, vector fields and boundaries.",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "filename": "04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "title": "Implementation and reproducibility",
+      "language": "en",
+      "pages": 8,
+      "bytes": 127343,
+      "sha256": "0831884ad3bd17c65b87a848c7b215b5fda01f196597e88a21155d1467f8bcfa",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "package_path": "PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "rights": "Mixed rights; original implementation README in Part I is reserved, distinct editorial material is CC-BY-4.0.",
+      "reading_note": "Reference program, execution contract and reproduction limits. Mixed rights.",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "filename": "05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "title": "Evidence, claims and limitations",
+      "language": "en",
+      "pages": 10,
+      "bytes": 131580,
+      "sha256": "ab47e3b6a7e49bf5f853f2b14d49b55a76d548bcd393019fc1deac3e4df5aa7b",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "package_path": "PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "What was checked, what remains negative, and what is not established.",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "filename": "06_CI_Rights_and_Citation_EN.pdf",
+      "title": "Rights and citation",
+      "language": "en",
+      "pages": 7,
+      "bytes": 127950,
+      "sha256": "5ae580e7bf89d87948eb0790eb5532ff54f055c9ca59aeb2fa947f88408ba6c0",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "package_path": "PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "Authorship, attribution, reserved code and component rights.",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "filename": "07_CI_Publication_Guide_EN.pdf",
+      "title": "Publication guide",
+      "language": "en",
+      "pages": 8,
+      "bytes": 145041,
+      "sha256": "0438227ebcb7f0f752239071b53236d38a85bf78077239b48ae3768190841df7",
+      "media_type": "application/pdf",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/07_CI_Publication_Guide_EN.pdf",
+      "github_mirror_url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/07_CI_Publication_Guide_EN.pdf",
+      "package_path": "PDFs/07_CI_Publication_Guide_EN.pdf",
+      "rights": "CC-BY-4.0; third-party material retains its own terms.",
+      "reading_note": "Package structure, integrity and the original deposit workflow.",
+      "editorial_edition": "academic-pdf-2"
+    }
+  ],
+  "related_works": [
+    {
+      "title": "Temporal AI Presence Profile v1.0",
+      "doi": "10.5281/zenodo.22070960",
+      "page": "https://ivankotov.eu/temporal-ai-presence/",
+      "role": "Defines sustained bounded AI participation across time; CI supplies a proposed evidence-description and measurement layer.",
+      "relation": "References"
+    },
+    {
+      "title": "Beacon Profile v0.1",
+      "doi": "10.5281/zenodo.18933553",
+      "doi_role": "concept",
+      "page": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+      "role": "Addresses recognition and continuity-related presentation; a CI profile does not implement or certify Beacon conformance.",
+      "relation": "References"
+    },
+    {
+      "title": "C-Calculus / Governed Binding Stack v0.1",
+      "doi": "10.5281/zenodo.21205427",
+      "page": "https://ivankotov.eu/publications/ccalc-full-stack-v0-1/",
+      "role": "Provides governed binding and transition context. CI records supplied lineage and event distinctions; it does not perform the governed binding.",
+      "relation": "References"
+    },
+    {
+      "title": "Personality Formation and Time-Shaped Continuity",
+      "doi": "10.5281/zenodo.20648731",
+      "page": "https://ivankotov.eu/publications/personality-formation-time-shaped-continuity/",
+      "role": "Studies formation over time; CI distinguishes covered participation from unsupported elapsed time without measuring personality or maturity.",
+      "relation": "References"
+    },
+    {
+      "title": "Theoretical Core of Project Ester",
+      "doi": "10.5281/zenodo.20679718",
+      "page": "https://ivankotov.eu/publications/ester-theoretical-core-v0-1/",
+      "role": "Supplies the wider conceptual architecture. CI is one bounded research instrument within that context.",
+      "relation": "References"
+    },
+    {
+      "title": "Entity vs. Profile",
+      "doi": "10.5281/zenodo.21204415",
+      "page": "https://ivankotov.eu/publications/entity-vs-profile-v0-1-1/",
+      "role": "Separates a persistent entity claim from a reproducible profile. A computed CI profile cannot settle that distinction by itself.",
+      "relation": "References"
+    }
+  ],
+  "rights": {
+    "statement_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0/LICENSES.md",
+    "copyright_holder": "Ivan Kotov",
+    "copyright_year": 2026,
+    "scientific_explanatory_text_and_descriptive_metadata": "CC-BY-4.0",
+    "original_reference_implementation_including_README_and_schemas": "All rights reserved. No license grant.",
+    "original_tests_test_ci_profile_py": "All rights reserved. No license grant.",
+    "editorial_build_scripts_verifier_and_examples": "All rights reserved. No license grant.",
+    "pdf_04": "Mixed rights: Part I reproduces reserved original implementation README; Parts II and III and distinct editorial notes are CC-BY-4.0.",
+    "fonts_and_third_party_material": "Retain their component terms; see package/FONT_LICENSE.txt and the rights statement.",
+    "zenodo_record_metadata": "CC0-1.0, separately from deposited files."
+  },
+  "non_claims": [
+    "No autonomous evidence collection, truth adjudication or witness-independence verification.",
+    "No real-subject or evaluator qualification: NOT_ESTABLISHED.",
+    "No identity, consciousness, personhood, legal-status or continuity proof for a real system.",
+    "No empirical validation, independent human peer review or independent replication claim.",
+    "No production approval, runtime integration, provider attestation or Beacon conformance.",
+    "R157 is bounded open-synthetic predecessor evidence; R160 and R161 remain negative and are not replayed.",
+    "No BACON adapter or demonstrated compatibility; BACON is a prospective integration target."
+  ],
+  "precedence": [
+    "Published Zenodo record and deposited bytes identify this release.",
+    "GitHub package and release directories mirror those frozen bytes.",
+    "Post-publication wrapper CFF and JSON supply assigned DOI and current discovery links.",
+    "Frozen preparation-time metadata may say DOI unassigned; that historical state is preserved.",
+    "Website metadata is a discovery projection and does not change release claims or rights."
+  ],
+  "teaching_example": {
+    "status": "synthetic illustration, not an empirical result or R157/R160/R161 evidence",
+    "unit": "minute",
+    "window": [
+      0,
+      60
+    ],
+    "interval_convention": "[start,end)",
+    "eligible_verified_intervals": [
+      [
+        0,
+        20
+      ],
+      [
+        10,
+        30
+      ],
+      [
+        50,
+        60
+      ]
+    ],
+    "known_pauses": [
+      [
+        30,
+        40
+      ]
+    ],
+    "unexplained_gaps": [
+      [
+        40,
+        50
+      ]
+    ],
+    "verified_duration": 40,
+    "known_pause_duration": 10,
+    "unexplained_gap_duration": 10,
+    "coverage_fraction": "2/3",
+    "coverage_is_not_identity_probability": true
+  }
+}

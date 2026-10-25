@@ -951,6 +951,22 @@
         "F0 passage",
         "formalization, validator, implementation or deployment authorization"
       ]
+    },
+    {
+      "id": "continuity-instrument-v1-0-0",
+      "title": "Continuity Instrument (CI)",
+      "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "version": "1.0.0",
+      "doi": "https://doi.org/10.5281/zenodo.23651305",
+      "summary": "Research specification and deterministic Python transformation of supplied JSON records into an evidence-bound continuity profile: verified participation, known pauses, unexplained gaps, events and separate lineages. Source v1.0.0, English academic edition academic-pdf-2; real-subject and evaluator qualification remain NOT_ESTABLISHED.",
+      "not": [
+        "continuous integration",
+        "an autonomous evidence collector",
+        "a universal AI age or maturity score",
+        "proof of identity, personhood or consciousness",
+        "empirical qualification of a real system",
+        "runtime or deployment authorization"
+      ]
     }
   ],
   "reading_path": [
@@ -978,5 +994,6 @@
   "cleanroom_arm_p_open_verification_v1_0_1_url": "https://ivankotov.eu/publications/cleanroom-arm-p-open-verification-v1-0-1/",
   "pasc_foundation_gate_v0_1_1_url": "https://ivankotov.eu/publications/pasc-foundation-gate-v0-1-1/",
   "pasc_f0_gap_closure_scaffold_v0_1_1_url": "https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/",
-  "beacon_profile_v0_1_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/"
+  "beacon_profile_v0_1_url": "https://ivankotov.eu/publications/beacon-profile-v0-1/",
+  "continuity_instrument_v1_0_0_url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
 }
