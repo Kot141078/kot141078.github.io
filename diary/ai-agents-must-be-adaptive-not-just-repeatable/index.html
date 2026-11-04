@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agents Must Be Adaptive, Not Just Repeatable | Diary | Ivan Kotov</title>
+  <meta name="description" content="An authorial engineering account distinguishing controlled repeatability from adaptability across different computing environments.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/">
+  <meta property="og:title" content="AI Agents Must Be Adaptive, Not Just Repeatable | Diary | Ivan Kotov">
+  <meta property="og:description" content="An authorial engineering account distinguishing controlled repeatability from adaptability across different computing environments.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/ai-agents-must-be-adaptive-not-just-repeatable/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/#post",
+      "headline": "AI Agents Must Be Adaptive, Not Just Repeatable",
+      "identifier": "urn:ivankotov:diary:ai-agents-must-be-adaptive-not-just-repeatable",
+      "url": "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/",
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "An authorial engineering account distinguishing controlled repeatability from adaptability across different computing environments.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AI, AI Agents, Software Engineering, Systems Engineering, LocalAI",
+      "image": "https://ivankotov.eu/assets/diary/ai-agents-must-be-adaptive-not-just-repeatable/cover.jpg",
+      "sameAs": "https://lnkd.in/p/e7xQav9J"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Agents Must Be Adaptive, Not Just Repeatable",
+          "item": "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../vision/">Vision</a>
+        <a href="/publications/">Publications</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>AI Agents Must Be Adaptive, Not Just Repeatable</h1>
+        <div class="entry-meta">
+          <span>2026-10-03</span>
+        </div>
+        <p class="lead page-lead">An authorial engineering account distinguishing controlled repeatability from adaptability across different computing environments.</p>
+        <div class="section-links">
+          <a href="../tags/software-engineering/">Software Engineering</a>
+          <a href="../tags/systems-engineering/">Systems Engineering</a>
+          <a href="../tags/ai-agents/">AI Agents</a>
+          <a href="../tags/ai/">AI</a>
+          <a href="../tags/localai/">LocalAI</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/ai-agents-must-be-adaptive-not-just-repeatable/cover.jpg" alt="Three robotic vehicles carry protected porcelain vases across rocky ground, sand, and a river.">
+      </div>
+        <div class="post-content">
+          <p>AI Agents Must Be Adaptive, Not Just Repeatable</p>
+          <p>Twenty successful runs in one controlled environment tell us something valuable.</p>
+          <p>They do not tell us what happens when the environment changes.</p>
+          <p>I encountered this while developing the software skeleton for my long-lived AI systems.</p>
+          <p>After improving Liya on Linux, I wanted to transfer those improvements to Ester on Windows and Rita on a DGX Spark. I started with Rita. Also Linux. It seemed the more straightforward step.</p>
+          <p>The implementation did not transfer cleanly.</p>
+          <p>I am now developing the systems separately, guided by the same theory, but with substantially different code.</p>
+          <p>The goal stayed the same. The engineering problem did not.</p>
+          <p>Processor architecture, memory, drivers, dependencies, permissions and existing runtime state are part of the task. Change them, and the path to a correct result may change too.</p>
+          <p>Repeatability asks: Can you do this reliably here, from the same starting conditions?</p>
+          <p>Adaptability asks: Can you recognise what changed and find a valid way to achieve the required outcome elsewhere?</p>
+          <p>An engineering agent should not force Rita to behave like Liya. It should inspect the environment, identify which assumptions no longer hold, and choose an implementation that preserves the required guarantees.</p>
+          <p>Reuse portable code where it works. Replace platform-specific mechanisms where necessary. Do not quietly weaken the requirements just to report success.</p>
+          <p>The code may change. What must remain true should not.</p>
+          <p>Sometimes the environment cannot support the required result. Recognising that limitation, identifying the missing prerequisite and stopping honestly is part of adaptability too.</p>
+          <p>These are different tests. Controlled repetition measures one property. Transfer across environments measures another. For engineering agents expected to work beyond a single controlled setup, we need both.</p>
+          <p>The objective is not identical commands on every machine.</p>
+          <p>It is equivalent guarantees through different implementations.</p>
+          <p>Portability should be tested at the level of guarantees, not just source files.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://lnkd.in/p/e7xQav9J">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Related posts</p>
+          <h2>Continue from here</h2>
+          <p class="diary-note">Curated themes and canonical topics lead; semantic fit follows, with chronology used only as a fallback.</p>
+        </div>
+        <div class="entry-list">
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-09-29</span>
+            </div>
+            <h3>The next AI price increase may sell me a workstation, not a bigger subscription.</h3>
+            <p class="entry-summary">A historical reflection on AI subscription costs, local compute, software craft, and cost per accepted, verified change.</p>
+            <div class="section-links">
+              <a href="../the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-01</span>
+            </div>
+            <h3>One of the missing dimensions in most AI systems is not intelligence.</h3>
+            <p class="entry-summary">A note that selfhood needs time as lived continuity, not only memory, scheduling, timestamps, or larger context windows.</p>
+            <div class="section-links">
+              <a href="../one-of-the-missing-dimensions-in-most-ai-systems-is-not-intelligence/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-07-04</span>
+            </div>
+            <h3>How to install c</h3>
+            <p class="entry-summary">A practical local-first installation path toward a governed local c-node candidate with local memory, bounded agents, oracle routing, witness logs, and human-controlled stop and freeze paths.</p>
+            <div class="section-links">
+              <a href="../how-to-install-c/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-09-06</span>
+            </div>
+            <h3>I do not just want AI in a game.</h3>
+            <p class="entry-summary">A conceptual proposal for a long-lived AI presence across game environments, with shared history, staged evaluation, privacy, permissions, and explicit claim limits.</p>
+            <div class="section-links">
+              <a href="../i-do-not-just-want-ai-in-a-game/">Open entry</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>
