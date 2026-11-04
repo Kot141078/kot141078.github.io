@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "diary_count": 257,
+  "latest_id": "0257",
+  "latest_date": "2026-10-02",
+  "latest_five": [
+    "0257",
+    "0256",
+    "0255",
+    "0254",
+    "0253"
+  ],
+  "generated_baseline_pages_preserved": true,
+  "source_asset_integrity": "10/10 unchanged",
+  "images": [
+    {
+      "id": "0253",
+      "source": "C:\\Users\\kotov\\Downloads\\1790671005452.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\for-years-the-personal-computer-was-becoming-less-personal\\cover.jpg",
+      "bytes": 156179,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "7edfe3e1e664a9a943e1dcb16ee469faf1b30d81d30848515ad9781010db797f",
+      "destination_sha256": "7edfe3e1e664a9a943e1dcb16ee469faf1b30d81d30848515ad9781010db797f"
+    },
+    {
+      "id": "0254",
+      "source": "C:\\Users\\kotov\\Downloads\\1790760640094.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription\\cover.jpg",
+      "bytes": 378297,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "3073d0af9301daa540f8c345d08f5f1961de530e6799310c5e428656913213e1",
+      "destination_sha256": "3073d0af9301daa540f8c345d08f5f1961de530e6799310c5e428656913213e1"
+    },
+    {
+      "id": "0255",
+      "source": "C:\\Users\\kotov\\Downloads\\1790790731447.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly\\cover.jpg",
+      "bytes": 338176,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "6265612e0217f792fc2a1d914a4195aa6090d98165f8b874ab8435be45b16782",
+      "destination_sha256": "6265612e0217f792fc2a1d914a4195aa6090d98165f8b874ab8435be45b16782"
+    },
+    {
+      "id": "0256",
+      "source": "C:\\Users\\kotov\\Downloads\\1790930690195.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\ai-is-getting-a-work-shift\\cover.jpg",
+      "bytes": 220361,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "747005e1325273e37ebe8fd7634bb7f356b62868220eace034b9b9b5b137302d",
+      "destination_sha256": "747005e1325273e37ebe8fd7634bb7f356b62868220eace034b9b9b5b137302d"
+    },
+    {
+      "id": "0257",
+      "source": "C:\\Users\\kotov\\Downloads\\1791188680169.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\intelligence-is-getting-good-enough-now-we-need-to-afford-it\\cover.jpg",
+      "bytes": 286075,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "f2e7edc7d6e753aaca06338b444b18d30838049a6da9360a82b9dde5da39fcf7",
+      "destination_sha256": "f2e7edc7d6e753aaca06338b444b18d30838049a6da9360a82b9dde5da39fcf7"
+    }
+  ],
+  "before_count": 351,
+  "after_count": 356,
+  "added": [
+    "https://ivankotov.eu/diary/ai-is-getting-a-work-shift/",
+    "https://ivankotov.eu/diary/for-years-the-personal-computer-was-becoming-less-personal/",
+    "https://ivankotov.eu/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/",
+    "https://ivankotov.eu/diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/",
+    "https://ivankotov.eu/diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly/"
+  ],
+  "removed": [],
+  "stats": {
+    "html": 973,
+    "json": 134,
+    "jsonld": 985,
+    "xml": 5,
+    "local_links": 2843,
+    "images": 263
+  },
+  "affected_tags": [
+    "/diary/tags/",
+    "/diary/tags/agentic-ai/",
+    "/diary/tags/agenticai/",
+    "/diary/tags/ai-agents/",
+    "/diary/tags/ai-governance/",
+    "/diary/tags/ai-infrastructure/",
+    "/diary/tags/ai/",
+    "/diary/tags/aiagents/",
+    "/diary/tags/aicoding/",
+    "/diary/tags/aigovernance/",
+    "/diary/tags/aihardware/",
+    "/diary/tags/aiinfrast/",
+    "/diary/tags/aiinfrastructure/",
+    "/diary/tags/aimanagement/",
+    "/diary/tags/aiproductivity/",
+    "/diary/tags/artificial-intelligence/",
+    "/diary/tags/artificialintelligence/",
+    "/diary/tags/automation/",
+    "/diary/tags/craftsmanship/",
+    "/diary/tags/delegation/",
+    "/diary/tags/dgxspark/",
+    "/diary/tags/digitalinfrastructure/",
+    "/diary/tags/edge-ai/",
+    "/diary/tags/edgeai/",
+    "/diary/tags/future-of-work/",
+    "/diary/tags/futureofcomputing/",
+    "/diary/tags/futureofwork/",
+    "/diary/tags/governance/",
+    "/diary/tags/human-ai/",
+    "/diary/tags/humanai/",
+    "/diary/tags/humancomputerinteraction/",
+    "/diary/tags/independentresearch/",
+    "/diary/tags/inference/",
+    "/diary/tags/localai/",
+    "/diary/tags/personal-ai/",
+    "/diary/tags/personalai/",
+    "/diary/tags/productivity/",
+    "/diary/tags/software-engineering/",
+    "/diary/tags/softwareengineering/",
+    "/diary/tags/systems-thinking/",
+    "/diary/tags/systemsthinking/",
+    "/diary/tags/techphilosophy/",
+    "/diary/tags/tpu/"
+  ],
+  "related_only_changed_old_posts": [
+    "diary/a-serious-ai-future-should-not-make-human-experience-socially-disposable/index.html",
+    "diary/ai-as-a-camera-of-thought/index.html",
+    "diary/ai-is-eating-all-the-memory/index.html",
+    "diary/ai-is-no-longer-living-inside-a-chat-window/index.html",
+    "diary/ai-will-not-make-everyone-a-billionaire/index.html",
+    "diary/every-now-and-then-between-my-usual-thoughts-on-ai-infrastructure-and-machine-intelligence-the-old-pc-geek-in-me-stages-a-small-rebellion/index.html",
+    "diary/i-bought-a-5-000-graphics-card/index.html",
+    "diary/i-do-not-just-want-ai-in-a-game/index.html",
+    "diary/powerful-hardware-needs-powerful-tasks/index.html",
+    "diary/provider-exit-must-be-a-boring-routine-otherwise-you-are-a-hostage/index.html",
+    "diary/the-ai-transition-is-not-about-chatbots/index.html",
+    "diary/the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years/index.html",
+    "diary/the-next-ai-breakthrough-should-not-require-a-geek-to-assemble-it/index.html",
+    "diary/there-is-a-difference-between-digital-immortality-and-what-i-would-call-post-anchor-continuity/index.html",
+    "diary/tokens-are-becoming-the-billable-unit-of-ai/index.html"
+  ],
+  "protected_october_and_publications": "byte-identical; homepage unchanged outside latest slot",
+  "V23": "PASS date-only",
+  "V28": "PASS five latest 0257..0253",
+  "V59": "PASS compact cards/search/aliases; six display-tag cap",
+  "V69": "PASS 5 Diary plus external World Intelligence position 06",
+  "galleries": "PASS 0216=5, 0233=3",
+  "builder_determinism": "PASS second build zero changes across 896 surfaces",
+  "full_machine_gate": "PASS 8 Python steps, 5 schemas"
+}

@@ -1,0 +1,72 @@
+{
+  "0253": {
+    "raw_block_sha256": "3c1e746691f703153a2103d924c84e4cb897f6737b1dedb0b6bd0812d19e110a",
+    "body_words_punctuation": "PASS after whitespace-only normalization",
+    "raw_tags": [
+      "AI",
+      "PersonalAI",
+      "LocalAI",
+      "EdgeAI",
+      "AgenticAI",
+      "FutureOfComputing",
+      "HumanComputerInteraction",
+      "DigitalInfrastructure",
+      "AIHardware",
+      "TechPhilosophy"
+    ]
+  },
+  "0254": {
+    "raw_block_sha256": "f792c75a25b3c8772ce0e84bfa93ab448e61a9f15391a778de15e8ea45d81951",
+    "body_words_punctuation": "PASS after whitespace-only normalization",
+    "raw_tags": [
+      "AI",
+      "LocalAI",
+      "SoftwareEngineering",
+      "AICoding",
+      "Craftsmanship",
+      "DGXSpark",
+      "IndependentResearch"
+    ]
+  },
+  "0255": {
+    "raw_block_sha256": "af2dedc60784b91a21fbc37b57a43f8fc70b39861d3e96a830ce0c06464d03ce",
+    "body_words_punctuation": "PASS after whitespace-only normalization",
+    "raw_tags": [
+      "ArtificialIntelligence",
+      "FutureOfWork",
+      "Automation",
+      "Productivity",
+      "LocalAI",
+      "AIInfrastructure",
+      "HumanAI"
+    ]
+  },
+  "0256": {
+    "raw_block_sha256": "c99c8e21dcdda8184c21c1b0c0a3270334af74d57a2747c61c2b4a31394ce47d",
+    "body_words_punctuation": "PASS after whitespace-only normalization",
+    "raw_tags": [
+      "ArtificialIntelligence",
+      "AIAgents",
+      "HumanAI",
+      "Delegation",
+      "AIManagement",
+      "AIGovernance",
+      "FutureOfWork",
+      "Automation",
+      "AIProductivity",
+      "SystemsThinking"
+    ]
+  },
+  "0257": {
+    "raw_block_sha256": "fbc7b0ac6fffbd24c3f6f5e0460cb0a56fcfd9f70f0c2f2aa030398b2e2b6aec",
+    "body_words_punctuation": "PASS after whitespace-only normalization",
+    "raw_tags": [
+      "AI",
+      "Inference",
+      "AIHardware",
+      "TPU",
+      "LocalAI",
+      "AIInfrastructure"
+    ]
+  }
+}

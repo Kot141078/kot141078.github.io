@@ -1,0 +1,18 @@
+[
+  {
+    "conclusion": "success",
+    "databaseId": 41923336564,
+    "headSha": "86bebc3e1e083df130f384abff4828ec4bd9a105",
+    "name": "Machine readability",
+    "status": "completed",
+    "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41923336564"
+  },
+  {
+    "conclusion": "success",
+    "databaseId": 41923333603,
+    "headSha": "86bebc3e1e083df130f384abff4828ec4bd9a105",
+    "name": "pages build and deployment",
+    "status": "completed",
+    "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41923333603"
+  }
+]

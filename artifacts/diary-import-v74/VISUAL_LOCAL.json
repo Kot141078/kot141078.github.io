@@ -1,0 +1,1315 @@
+{
+  "status": "PASS_AUTOMATED_PENDING_VISUAL_REVIEW",
+  "base": "http://127.0.0.1:3805",
+  "receipts": [
+    "after-local-diary-desktop-1440x900.png",
+    "after-local-diary-mobile-390x844.png",
+    "after-local-home-desktop-1440x900.png",
+    "after-local-entry0253-desktop-1440x900.png",
+    "after-local-entry0254-desktop-1440x900.png",
+    "after-local-entry0255-desktop-1440x900.png",
+    "after-local-entry0256-desktop-1440x900.png",
+    "after-local-entry0257-desktop-1440x900.png",
+    "after-local-entry0257-mobile-390x844.png",
+    "after-local-diary-start-here-desktop-1440x900.png",
+    "after-local-diary-print-a4.pdf"
+  ],
+  "measurements": [
+    {
+      "path": "/diary/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [
+        "Intelligence Is Getting Good Enough. Now We Need to Afford It.",
+        "AI is getting a work shift.",
+        "When people say AI will destroy \"laptop jobs\", I think the question is framed incorrectly.",
+        "The next AI price increase may sell me a workstation, not a bigger subscription.",
+        "For years, the “personal computer” was becoming less personal."
+      ],
+      "home": null,
+      "tagChips": [
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Inference",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Hardware",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Tpu",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Agents",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Delegation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Management",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Work",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Automation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Productivity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Software Engineering",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Coding",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Craftsmanship",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Dgx Spark",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Personal AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Agentic AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Computing",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human-Centered AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Sovereignty",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Philosophy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Innovation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Private AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cognitive Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Research",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Reproducible Research",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Software Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Open Science",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Agentic AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Identity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Temporal AI Presence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human Agency",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Work",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Ethics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Decentralized AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Private AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cognitive Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Privacy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Data Minimization",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Sovereignty",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "SER",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Economy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Experience Artifacts",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Provenance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Trust",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Qubit of Hope",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Book Release",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Novel",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Literary Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Speculative Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Science Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture (131)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4 (131)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics (126)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety (117)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI (101)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence (94)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance (76)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence (67)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Systems Thinking (67)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human-Centered AI (45)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI (42)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity (41)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of AI (41)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI (40)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Long-Lived AI (40)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities (34)",
+          "title": "",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "path": "/diary/",
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": [],
+      "latest": [
+        "Intelligence Is Getting Good Enough. Now We Need to Afford It.",
+        "AI is getting a work shift.",
+        "When people say AI will destroy \"laptop jobs\", I think the question is framed incorrectly.",
+        "The next AI price increase may sell me a workstation, not a bigger subscription.",
+        "For years, the “personal computer” was becoming less personal."
+      ],
+      "home": null,
+      "tagChips": [
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Inference",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Hardware",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Tpu",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Agents",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Delegation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Management",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Work",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Automation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Productivity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Software Engineering",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Coding",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Craftsmanship",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Dgx Spark",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Personal AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Agentic AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Computing",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human-Centered AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Sovereignty",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Philosophy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Innovation",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Private AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cognitive Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Research",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Reproducible Research",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Software Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Open Science",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Agentic AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Identity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Temporal AI Presence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human Agency",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of Work",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Ethics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Decentralized AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Private AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cognitive Infrastructure",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Privacy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Data Minimization",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local First AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Edge AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Sovereignty",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "SER",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Economy",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Experience Artifacts",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Verification",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Provenance",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Trust",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Qubit of Hope",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Book Release",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Novel",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Literary Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Speculative Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Science Fiction",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Architecture (131)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "L4 (131)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Cybernetics (126)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Safety (117)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI (101)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Advanced Global Intelligence (94)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "AI Governance (76)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Artificial Intelligence (67)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Systems Thinking (67)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human-Centered AI (45)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Human AI (42)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Continuity (41)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Future of AI (41)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Local AI (40)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Long-Lived AI (40)",
+          "title": "",
+          "overflow": false
+        },
+        {
+          "text": "Digital Entities (34)",
+          "title": "",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": "Intelligence Is Getting Good Enough. Now We Need to Afford It.",
+      "tagChips": []
+    },
+    {
+      "path": "/diary/for-years-the-personal-computer-was-becoming-less-personal/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/ai-is-getting-a-work-shift/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/",
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    },
+    {
+      "path": "/diary/start-here/",
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "latest": [],
+      "home": null,
+      "tagChips": []
+    }
+  ],
+  "search": "PASS date, raw tag, Escape",
+  "page_errors": []
+}

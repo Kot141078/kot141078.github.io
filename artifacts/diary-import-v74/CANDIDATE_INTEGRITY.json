@@ -1,0 +1,52 @@
+[
+  {
+    "path": "assets/diary/for-years-the-personal-computer-was-becoming-less-personal/cover.jpg",
+    "bytes": 156179,
+    "sha256": "7edfe3e1e664a9a943e1dcb16ee469faf1b30d81d30848515ad9781010db797f"
+  },
+  {
+    "path": "assets/diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/cover.jpg",
+    "bytes": 378297,
+    "sha256": "3073d0af9301daa540f8c345d08f5f1961de530e6799310c5e428656913213e1"
+  },
+  {
+    "path": "assets/diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly/cover.jpg",
+    "bytes": 338176,
+    "sha256": "6265612e0217f792fc2a1d914a4195aa6090d98165f8b874ab8435be45b16782"
+  },
+  {
+    "path": "assets/diary/ai-is-getting-a-work-shift/cover.jpg",
+    "bytes": 220361,
+    "sha256": "747005e1325273e37ebe8fd7634bb7f356b62868220eace034b9b9b5b137302d"
+  },
+  {
+    "path": "assets/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/cover.jpg",
+    "bytes": 286075,
+    "sha256": "f2e7edc7d6e753aaca06338b444b18d30838049a6da9360a82b9dde5da39fcf7"
+  },
+  {
+    "path": "content/diary/for-years-the-personal-computer-was-becoming-less-personal.md",
+    "bytes": 2348,
+    "sha256": "097610ba94db14a14470fa368d2ddf99a606e56d7f9848a747a7d298eb35f9b7"
+  },
+  {
+    "path": "content/diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription.md",
+    "bytes": 3408,
+    "sha256": "40eac08d9c2c1643938e3ad46d261c7fc2e85de77b0b8ed505a84f335610a749"
+  },
+  {
+    "path": "content/diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly.md",
+    "bytes": 3034,
+    "sha256": "8e44cd74e181d4948d84f796c7d41c7476ad2875dba85ba8fe2c73b30e3b52ff"
+  },
+  {
+    "path": "content/diary/ai-is-getting-a-work-shift.md",
+    "bytes": 2968,
+    "sha256": "e11dcdb8ff358a1788cd99b1795959eded7553041d4f5bb424d369c9ea232e5d"
+  },
+  {
+    "path": "content/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it.md",
+    "bytes": 3159,
+    "sha256": "74ca235de521270c036aa6411b7a99538d245991cbee421f327e62aafbe3f278"
+  }
+]

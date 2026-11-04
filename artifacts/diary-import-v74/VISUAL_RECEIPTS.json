@@ -1,0 +1,263 @@
+[
+  {
+    "name": "after-local-diary-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-diary-desktop-1440x900.png",
+    "bytes": 2024679,
+    "sha256": "723ffde9167a98bcf662ad4ebaaa7a2cec8b355a28e2e5f3abb0c9d61d7549c4",
+    "measured_image_dimensions": [
+      1440,
+      7255
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-diary-mobile-390x844.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-diary-mobile-390x844.png",
+    "bytes": 1882159,
+    "sha256": "481030f6a28df9eb71cfc8262273552e8df92a458bfeb9118bcd48f901274506",
+    "measured_image_dimensions": [
+      390,
+      13504
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "name": "after-local-home-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-home-desktop-1440x900.png",
+    "bytes": 1203069,
+    "sha256": "54b88fffbcf0919980a5c04a43b759066e7e8df34f0b952a1782860e8766e44c",
+    "measured_image_dimensions": [
+      1440,
+      5908
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0253-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0253-desktop-1440x900.png",
+    "bytes": 950411,
+    "sha256": "d0f5a7c41220edd60bcb8c22c553089b5867ec0437b732c2bdad839d478e7a7c",
+    "measured_image_dimensions": [
+      1440,
+      3280
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0254-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0254-desktop-1440x900.png",
+    "bytes": 1829227,
+    "sha256": "c3082a035fd196c21824f840c158c9d67ef975ca770540205f4f68e89cd0f6b8",
+    "measured_image_dimensions": [
+      1440,
+      3702
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0255-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0255-desktop-1440x900.png",
+    "bytes": 1488796,
+    "sha256": "95c0ec392bdd876fe96dc6e9e1ec8190c4cf2de485e59ca4ec9636d647337397",
+    "measured_image_dimensions": [
+      1440,
+      4164
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0256-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0256-desktop-1440x900.png",
+    "bytes": 1178949,
+    "sha256": "8dce569ab2e6166e9e1436d2285bdd96e992eab2e91452409997800d12be931c",
+    "measured_image_dimensions": [
+      1440,
+      3406
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0257-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0257-desktop-1440x900.png",
+    "bytes": 1298432,
+    "sha256": "064ae7b8a4ee79b48fb18390bd430c22f4cf9ec98f9898f40cb55ecf860b0554",
+    "measured_image_dimensions": [
+      1440,
+      3557
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-entry0257-mobile-390x844.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-entry0257-mobile-390x844.png",
+    "bytes": 429318,
+    "sha256": "aa4d0bb0a1653cf797ea6593ead32c4d91e43a7bd5e9a4b9d25862050f706c7f",
+    "measured_image_dimensions": [
+      390,
+      4679
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "name": "after-local-diary-start-here-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-diary-start-here-desktop-1440x900.png",
+    "bytes": 732408,
+    "sha256": "bf07b2d1f630006430451bfeb2ecc1cf155625c50d5eebd44af4e89bea63ae21",
+    "measured_image_dimensions": [
+      1440,
+      2139
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "after-local-diary-print-a4.pdf",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\after-local-diary-print-a4.pdf",
+    "bytes": 9430966,
+    "sha256": "05142bc0d5866223becc699999744a5127743609e24a4b798c5f4dd6a09f98fe",
+    "pages": 7,
+    "page_sizes_points": [
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ],
+      [
+        595.9199829101562,
+        842.8800048828125
+      ]
+    ]
+  },
+  {
+    "name": "final-remote-diary-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-diary-desktop-1440x900.png",
+    "bytes": 2024679,
+    "sha256": "723ffde9167a98bcf662ad4ebaaa7a2cec8b355a28e2e5f3abb0c9d61d7549c4",
+    "measured_image_dimensions": [
+      1440,
+      7255
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "final-remote-diary-mobile-390x844.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-diary-mobile-390x844.png",
+    "bytes": 1882159,
+    "sha256": "481030f6a28df9eb71cfc8262273552e8df92a458bfeb9118bcd48f901274506",
+    "measured_image_dimensions": [
+      390,
+      13504
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "name": "final-remote-home-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-home-desktop-1440x900.png",
+    "bytes": 1203069,
+    "sha256": "54b88fffbcf0919980a5c04a43b759066e7e8df34f0b952a1782860e8766e44c",
+    "measured_image_dimensions": [
+      1440,
+      5908
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "final-remote-entry0254-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-entry0254-desktop-1440x900.png",
+    "bytes": 1829227,
+    "sha256": "c3082a035fd196c21824f840c158c9d67ef975ca770540205f4f68e89cd0f6b8",
+    "measured_image_dimensions": [
+      1440,
+      3702
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "final-remote-entry0257-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-entry0257-desktop-1440x900.png",
+    "bytes": 1298432,
+    "sha256": "064ae7b8a4ee79b48fb18390bd430c22f4cf9ec98f9898f40cb55ecf860b0554",
+    "measured_image_dimensions": [
+      1440,
+      3557
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "name": "final-remote-diary-start-here-desktop-1440x900.png",
+    "path": "C:\\Users\\kotov\\Downloads\\111\\diary-v74-visual\\final-remote-diary-start-here-desktop-1440x900.png",
+    "bytes": 732408,
+    "sha256": "bf07b2d1f630006430451bfeb2ecc1cf155625c50d5eebd44af4e89bea63ae21",
+    "measured_image_dimensions": [
+      1440,
+      2139
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  }
+]
