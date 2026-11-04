@@ -2,31 +2,32 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "Maybe Uncle Jensen Huang simply forgot to mention that he was using my terminology😂",
-    "date": "2026-09-27",
-    "slug": "maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology",
-    "summary": "A humorous distinction between Advanced Global Intelligence and Artificial General Intelligence, followed by questions about continuity, custody, and authority.",
+    "title": "Intelligence Is Getting Good Enough. Now We Need to Afford It.",
+    "date": "2026-10-02",
+    "slug": "intelligence-is-getting-good-enough-now-we-need-to-afford-it",
+    "summary": "An argument for making capable inference affordable, with attention to completed work, quality, reliability, and practical infrastructure.",
     "tags": [
-      "Advanced Global Intelligence",
-      "ArtificialIntelligence",
-      "AI Architecture",
-      "TemporalAIPresence",
-      "Future of AI"
+      "AI",
+      "Inference",
+      "AIHardware",
+      "TPU",
+      "LocalAI",
+      "AI Infrastructure"
     ],
     "raw_tags": [
-      "AGI",
-      "AdvancedGlobalIntelligence",
-      "ArtificialIntelligence",
-      "AIArchitecture",
-      "TemporalAIPresence",
-      "FutureOfAI"
+      "AI",
+      "Inference",
+      "AIHardware",
+      "TPU",
+      "LocalAI",
+      "AIInfrastructure"
     ],
-    "page": "https://ivankotov.eu/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/",
-    "canonical_page": "https://ivankotov.eu/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/",
-    "identifier": "urn:ivankotov:diary:maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology",
+    "page": "https://ivankotov.eu/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/",
+    "canonical_page": "https://ivankotov.eu/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/",
+    "identifier": "urn:ivankotov:diary:intelligence-is-getting-good-enough-now-we-need-to-afford-it",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/cover.jpg",
-    "image_alt": "Large AGI letters between projections of a central tower and a connected network of homes and infrastructure.",
-    "linkedin_url": "https://lnkd.in/p/eVSFexMi"
+    "primary_image": "https://ivankotov.eu/assets/diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/cover.jpg",
+    "image_alt": "Two computing systems receive different flows of coins above conveyor belts carrying architectural models.",
+    "linkedin_url": "https://lnkd.in/p/ewcsBURt"
   }
 }

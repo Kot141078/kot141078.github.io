@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
+import stat
 from collections import Counter, defaultdict
 from dataclasses import dataclass, replace
 from datetime import date, datetime, timezone
@@ -2630,9 +2632,46 @@ def write_feed(entries: list[Entry]) -> None:
     write_text_lf(DIARY_FEED_XML, rss)
 
 
+def retry_generated_readonly_delete(function, path, exc_info) -> None:
+    """Retry one Windows ReadOnly delete, only inside this generated tree."""
+    error = exc_info[1]
+    if (
+        os.name != "nt"
+        or not isinstance(error, PermissionError)
+        or getattr(error, "winerror", None) != 5
+        or function not in (os.unlink, os.remove, os.rmdir)
+    ):
+        raise error
+
+    generated = ROOT.resolve() / "diary"
+    target = Path(os.path.abspath(path))
+    if Path(os.path.abspath(DIARY_DIR)) != generated or not target.is_relative_to(generated):
+        raise error
+    for ancestor in (target, *target.parents):
+        if not ancestor.is_relative_to(generated):
+            break
+        info = ancestor.lstat()
+        if info.st_file_attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT:
+            raise error
+    if not target.resolve(strict=True).is_relative_to(generated):
+        raise error
+
+    info = target.lstat()
+    attributes = info.st_file_attributes
+    if not attributes & stat.FILE_ATTRIBUTE_READONLY:
+        raise error
+    # On Windows chmod changes only the ReadOnly attribute, not the ACL.
+    os.chmod(target, info.st_mode | stat.S_IWRITE)
+    after = target.lstat().st_file_attributes
+    if after != attributes & ~stat.FILE_ATTRIBUTE_READONLY:
+        raise error
+    print(f"Diary ReadOnly delete retry: {target} attributes {attributes:#x} -> {after:#x}")
+    function(path)  # Exactly one retry; any failure propagates.
+
+
 def wipe_generated_diary_tree() -> None:
     if DIARY_DIR.exists():
-        shutil.rmtree(DIARY_DIR)
+        shutil.rmtree(DIARY_DIR, onerror=retry_generated_readonly_delete)
     DIARY_DIR.mkdir(parents=True, exist_ok=True)
 
 
