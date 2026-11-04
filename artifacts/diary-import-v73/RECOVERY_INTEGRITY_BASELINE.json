@@ -1,0 +1,62 @@
+[
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\i-bought-a-5-000-graphics-card\\cover.jpg",
+    "relative": "assets/diary/i-bought-a-5-000-graphics-card/cover.jpg",
+    "bytes": 257559,
+    "sha256": "51575785e25a1b43c0a2d68020181e123856e6b8f2376656765e3d23d54e9334"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\i-have-often-argued-that-personal-ai-memory-should-remain-local\\cover.jpg",
+    "relative": "assets/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local/cover.jpg",
+    "bytes": 222430,
+    "sha256": "eb14c551bc9f47efc14a3bc28d7d78f10473940c2b62d4630db4ec6765a3c8b8"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology\\cover.jpg",
+    "relative": "assets/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/cover.jpg",
+    "bytes": 181814,
+    "sha256": "2425ff625e7fbc8058c5dc7fb1f1def33c7ee9a5b6fde35206d6b42643d34584"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\speaking-the-same-language-does-not-mean-seeing-the-same-world\\cover.jpg",
+    "relative": "assets/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world/cover.jpg",
+    "bytes": 280117,
+    "sha256": "d2dfbe6abd8b666e42957e8fa0a1359e81f52443ca4b4fa701318294128906b5"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem\\cover.jpg",
+    "relative": "assets/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/cover.jpg",
+    "bytes": 252117,
+    "sha256": "a2eb9d110ce8244291e5f05a3853e9d6ca0551f5672db2be25602b8ec1287ffc"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\content\\diary\\i-bought-a-5-000-graphics-card.md",
+    "relative": "content/diary/i-bought-a-5-000-graphics-card.md",
+    "bytes": 2909,
+    "sha256": "c5fab1368804c62474af3c344a15d3d8363ec86981c58373f7a7cd07b89e855b"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\content\\diary\\i-have-often-argued-that-personal-ai-memory-should-remain-local.md",
+    "relative": "content/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local.md",
+    "bytes": 3414,
+    "sha256": "bfa7decc633f02ef4192c377e65b00fb57516faf7e9d8ee9309a589572154de5"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\content\\diary\\maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology.md",
+    "relative": "content/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology.md",
+    "bytes": 2908,
+    "sha256": "f98488c7285141bc135891a3c7304abda63d748792d0cb3e6f19e63a2acb6e70"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\content\\diary\\speaking-the-same-language-does-not-mean-seeing-the-same-world.md",
+    "relative": "content/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world.md",
+    "bytes": 3320,
+    "sha256": "49d6bd90cbc8541f00bf87de35d1c21cef1f1d1a6d3bdd118180a7956e6093c9"
+  },
+  {
+    "path": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\content\\diary\\when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem.md",
+    "relative": "content/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem.md",
+    "bytes": 3520,
+    "sha256": "63824d6e1b883d320e50c900340273a168bf96e200b512be5fa149e837f3b230"
+  }
+]

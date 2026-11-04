@@ -1,0 +1,29 @@
+{
+  "head": "39ab5db276fa998b56debc5272888ebe2ffde51d",
+  "remote": "39ab5db276fa998b56debc5272888ebe2ffde51d",
+  "status": [
+    " D diary/a-goal-can-be-installed/index.html",
+    " M sitemap.xml",
+    "?? assets/diary/i-bought-a-5-000-graphics-card/cover.jpg",
+    "?? assets/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local/cover.jpg",
+    "?? assets/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/cover.jpg",
+    "?? assets/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world/cover.jpg",
+    "?? assets/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/cover.jpg",
+    "?? content/diary/i-bought-a-5-000-graphics-card.md",
+    "?? content/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local.md",
+    "?? content/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology.md",
+    "?? content/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world.md",
+    "?? content/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem.md"
+  ],
+  "source_contract_correspondence": "PASS: preserved source.py bodies reviewed against original session contract; metadata, bodies, raw tags, dates, title, short URL match candidate",
+  "generated_paths_scanned": 1711,
+  "reparse_points": 0,
+  "generated_untracked": 0,
+  "readonly_count": 856,
+  "acl": "KOT/kotov FullControl; no ACL repair authorized or performed",
+  "initial_stop": "WinError 5 shutil.rmtree: diary/a-goal-can-be-installed; generated index.html missing",
+  "protected_october_files": "unchanged",
+  "original_uploaded_text_sha256": "ba4abb2867a89dcf3bf3acf686ee70d8fcd91a434150ad817b16ac63cd03d7d3",
+  "original_contract_sha256": "77c2a17e12611888c3b0819ac6f32dcdcf4754677ab0639a529814fcd4731f35",
+  "provenance_note": "Supplied provenance only; neither original attachment nor raw complete contract was re-hashed on Windows"
+}

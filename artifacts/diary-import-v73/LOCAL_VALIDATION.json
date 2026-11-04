@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "diary_count": 252,
+  "latest_id": "0252",
+  "latest_date": "2026-09-27",
+  "latest_five": [
+    "0252",
+    "0251",
+    "0250",
+    "0249",
+    "0248"
+  ],
+  "missing_generated_page_regenerated": true,
+  "source_asset_integrity": "10/10 unchanged",
+  "images": [
+    {
+      "id": "0248",
+      "source": "C:\\Users\\kotov\\Downloads\\1790249852336.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\speaking-the-same-language-does-not-mean-seeing-the-same-world\\cover.jpg",
+      "bytes": 280117,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "source_sha256": "d2dfbe6abd8b666e42957e8fa0a1359e81f52443ca4b4fa701318294128906b5",
+      "destination_sha256": "d2dfbe6abd8b666e42957e8fa0a1359e81f52443ca4b4fa701318294128906b5"
+    },
+    {
+      "id": "0249",
+      "source": "C:\\Users\\kotov\\Downloads\\1790323383326.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\i-have-often-argued-that-personal-ai-memory-should-remain-local\\cover.jpg",
+      "bytes": 222430,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "source_sha256": "eb14c551bc9f47efc14a3bc28d7d78f10473940c2b62d4630db4ec6765a3c8b8",
+      "destination_sha256": "eb14c551bc9f47efc14a3bc28d7d78f10473940c2b62d4630db4ec6765a3c8b8"
+    },
+    {
+      "id": "0250",
+      "source": "C:\\Users\\kotov\\Downloads\\1790340886192.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem\\cover.jpg",
+      "bytes": 252117,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "source_sha256": "a2eb9d110ce8244291e5f05a3853e9d6ca0551f5672db2be25602b8ec1287ffc",
+      "destination_sha256": "a2eb9d110ce8244291e5f05a3853e9d6ca0551f5672db2be25602b8ec1287ffc"
+    },
+    {
+      "id": "0251",
+      "source": "C:\\Users\\kotov\\Downloads\\1790506936696.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\i-bought-a-5-000-graphics-card\\cover.jpg",
+      "bytes": 257559,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "source_sha256": "51575785e25a1b43c0a2d68020181e123856e6b8f2376656765e3d23d54e9334",
+      "destination_sha256": "51575785e25a1b43c0a2d68020181e123856e6b8f2376656765e3d23d54e9334"
+    },
+    {
+      "id": "0252",
+      "source": "C:\\Users\\kotov\\Downloads\\1790596733378.jpg",
+      "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology\\cover.jpg",
+      "bytes": 181814,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_sha256": "2425ff625e7fbc8058c5dc7fb1f1def33c7ee9a5b6fde35206d6b42643d34584",
+      "destination_sha256": "2425ff625e7fbc8058c5dc7fb1f1def33c7ee9a5b6fde35206d6b42643d34584"
+    }
+  ],
+  "before_count": 346,
+  "after_count": 351,
+  "added": [
+    "https://ivankotov.eu/diary/i-bought-a-5-000-graphics-card/",
+    "https://ivankotov.eu/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local/",
+    "https://ivankotov.eu/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/",
+    "https://ivankotov.eu/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world/",
+    "https://ivankotov.eu/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/"
+  ],
+  "removed": [],
+  "stats": {
+    "html": 958,
+    "json": 125,
+    "jsonld": 970,
+    "xml": 5,
+    "local_links": 3440,
+    "images": 258
+  },
+  "affected_tags": [
+    "/diary/tags/",
+    "/diary/tags/advanced-global-intelligence/",
+    "/diary/tags/advancedglobalintelligence/",
+    "/diary/tags/advancedglobalintelligencefety/",
+    "/diary/tags/agi/",
+    "/diary/tags/ai-architecture/",
+    "/diary/tags/ai-governance/",
+    "/diary/tags/ai/",
+    "/diary/tags/aiarchitecture/",
+    "/diary/tags/aicommunication/",
+    "/diary/tags/aiforscience/",
+    "/diary/tags/aigovernance/",
+    "/diary/tags/aimemory/",
+    "/diary/tags/airesearch/",
+    "/diary/tags/artificial-intelligence/",
+    "/diary/tags/artificialintelligence/",
+    "/diary/tags/cloud-gaming/",
+    "/diary/tags/cloudgaming/",
+    "/diary/tags/confidentialcomputing/",
+    "/diary/tags/cybernetics/",
+    "/diary/tags/datagovernance/",
+    "/diary/tags/dgxspark/",
+    "/diary/tags/digital-sovereignty/",
+    "/diary/tags/digitalsovereignty/",
+    "/diary/tags/europe/",
+    "/diary/tags/experimentaldesign/",
+    "/diary/tags/future-of-ai/",
+    "/diary/tags/futureofai/",
+    "/diary/tags/futureofcomputing/",
+    "/diary/tags/geforcenow/",
+    "/diary/tags/governance/",
+    "/diary/tags/human-ai/",
+    "/diary/tags/human-centered-ai/",
+    "/diary/tags/human-centric-ai/",
+    "/diary/tags/humanai/",
+    "/diary/tags/humancenteredai/",
+    "/diary/tags/humancomputerinteraction/",
+    "/diary/tags/localai/",
+    "/diary/tags/localfirst/",
+    "/diary/tags/machineintelligence/",
+    "/diary/tags/multimodalai/",
+    "/diary/tags/nvidia/",
+    "/diary/tags/openscience/",
+    "/diary/tags/personal-ai/",
+    "/diary/tags/personalai/",
+    "/diary/tags/privacy/",
+    "/diary/tags/reproducibility/",
+    "/diary/tags/research/",
+    "/diary/tags/scientificdiscovery/",
+    "/diary/tags/scientificmethod/",
+    "/diary/tags/systems-thinking/",
+    "/diary/tags/systemsthinking/",
+    "/diary/tags/temporalaipresence/",
+    "/diary/tags/worldmodels/"
+  ],
+  "related_only_changed_old_posts": [
+    "diary/a-serious-ai-future-should-not-make-human-experience-socially-disposable/index.html",
+    "diary/a-system-can-speak-fluently-remember-fragments-imitate-continuity-survive-a-restart-or-even-sound-emotionally-consistent-and-still-not-have-enough-evidence-for-a-personality-formation-claim/index.html",
+    "diary/ai-as-a-camera-of-thought/index.html",
+    "diary/ai-will-not-make-everyone-a-billionaire/index.html",
+    "diary/c-calculus-governed-binding-stack-v0-1/index.html",
+    "diary/every-now-and-then-between-my-usual-thoughts-on-ai-infrastructure-and-machine-intelligence-the-old-pc-geek-in-me-stages-a-small-rebellion/index.html",
+    "diary/grief-is-not-a-user-error/index.html",
+    "diary/i-do-not-just-want-ai-in-a-game/index.html",
+    "diary/llms-are-not-the-ai/index.html",
+    "diary/palantir-solves-a-real-problem-large-organizations-have-data-scattered-across-dozens-or-hundreds-of-disconnected-systems/index.html",
+    "diary/pavel-durovs-original-speech-english-oslo-freedom-forum-june-2026/index.html",
+    "diary/saturday-traffic-report-from-the-ai-highway/index.html",
+    "diary/the-ai-transition-is-not-about-chatbots/index.html",
+    "diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/index.html",
+    "diary/tokens-are-becoming-the-billable-unit-of-ai/index.html",
+    "diary/what-body-should-an-ai-have/index.html",
+    "diary/why-robots-should-be-raised-not-deployed/index.html"
+  ],
+  "protected_october_and_publications": "byte-identical; homepage unchanged outside latest slot",
+  "V23": "PASS date-only",
+  "V28": "PASS five latest",
+  "V59": "PASS compact cards/search/aliases; six display-tag cap",
+  "V69": "PASS 5 Diary plus external World Intelligence position 06",
+  "galleries": "PASS 0216=5, 0233=3",
+  "builder_determinism": "PASS second build zero changes across 881 surfaces",
+  "full_machine_gate": "PASS 8 Python steps, 5 schemas"
+}

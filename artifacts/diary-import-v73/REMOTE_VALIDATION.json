@@ -1,0 +1,975 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "20261104T213043115647Z",
+  "route_count": 105,
+  "asset_count": 5,
+  "non_asset_count": 100,
+  "affected_tags": 54,
+  "diary_count": 252,
+  "latest_id": "0252",
+  "latest_date": "2026-09-27",
+  "latest_five": [
+    "0252",
+    "0251",
+    "0250",
+    "0249",
+    "0248"
+  ],
+  "sitemap_count": 351,
+  "sitemap_local_remote_semantic_parity": true,
+  "all_local_remote_content_identical": true,
+  "new_images_byte_identical": true,
+  "transport_normalized_routes": [
+    "/c-a-plus-b/",
+    "/publications/personality-formation-time-shaped-continuity/",
+    "/vision/",
+    "/world-intelligence/"
+  ],
+  "observations": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 22687,
+      "sha256": "dd1e521295891eb90276764e2fb947a8d2f88b71f25625172902a27783df0f50",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/advanced-global-intelligence/",
+      "status": 200,
+      "bytes": 25630,
+      "sha256": "4236ccce314a45e8487cfb275deaf6ea5fddd073c3af03c82b02a65e54013dff",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/assets/diary/i-bought-a-5-000-graphics-card/cover.jpg",
+      "status": 200,
+      "bytes": 257559,
+      "sha256": "51575785e25a1b43c0a2d68020181e123856e6b8f2376656765e3d23d54e9334",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/assets/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local/cover.jpg",
+      "status": 200,
+      "bytes": 222430,
+      "sha256": "eb14c551bc9f47efc14a3bc28d7d78f10473940c2b62d4630db4ec6765a3c8b8",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/assets/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/cover.jpg",
+      "status": 200,
+      "bytes": 181814,
+      "sha256": "2425ff625e7fbc8058c5dc7fb1f1def33c7ee9a5b6fde35206d6b42643d34584",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/assets/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world/cover.jpg",
+      "status": 200,
+      "bytes": 280117,
+      "sha256": "d2dfbe6abd8b666e42957e8fa0a1359e81f52443ca4b4fa701318294128906b5",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/assets/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/cover.jpg",
+      "status": 200,
+      "bytes": 252117,
+      "sha256": "a2eb9d110ce8244291e5f05a3853e9d6ca0551f5672db2be25602b8ec1287ffc",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/c-a-plus-b/",
+      "status": 200,
+      "bytes": 4504,
+      "sha256": "1bfc44a7a51d4ae385c512ecfc12860ed1df91ec5f2e51f1fae7093a6ac19528",
+      "local_byte_parity": false,
+      "content_parity": true,
+      "transport_normalization": "CRLF to LF only"
+    },
+    {
+      "route": "/canonical-map.json",
+      "status": 200,
+      "bytes": 54295,
+      "sha256": "2f739f6dab224d4b59127bec92f796ad183e1b78225512f4f1ee216b7cee9042",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/corpus-map/",
+      "status": 200,
+      "bytes": 17282,
+      "sha256": "68b0a6fba85a093d8529b657c12df32b9a09ed84e983b4c85d3e99ae9cf2ff64",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/corpus/",
+      "status": 200,
+      "bytes": 12390,
+      "sha256": "d2f5f1d1398bda93f53fe62407ebfd6f2686524dc7f43260772fc1d98c7a0c82",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary-feed.xml",
+      "status": 200,
+      "bytes": 137427,
+      "sha256": "9656beec7743906fadb439ac3834c2cec7dedbb6cd6e3075bdd84b41b5a15128",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary-index.json",
+      "status": 200,
+      "bytes": 431724,
+      "sha256": "c70c4fbf9127b1bf51429acc8b66d14ace818343f3d32f643204fd5af1e4d29d",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary-latest.json",
+      "status": 200,
+      "bytes": 1586,
+      "sha256": "68d68401a55d8583b4fd3b0342308a2495c5efcec727934535639569f65360ca",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary-start-here.json",
+      "status": 200,
+      "bytes": 8568,
+      "sha256": "10c59da52558a46a9def5aadfeef5014e8617d32d1c0c1468e3ba52696e4869d",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary-tags.json",
+      "status": 200,
+      "bytes": 110833,
+      "sha256": "92f1daa54fdfefe05a69e6e9dcc1510cf4fc87fc8f2d6fee6dfdd09da4a8ca4a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/",
+      "status": 200,
+      "bytes": 79555,
+      "sha256": "6aa5cc8be5c35c895de6558d5067363fc18c1d8c22f6539d86b84eee44897bc7",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/a-goal-can-be-installed/",
+      "status": 200,
+      "bytes": 11137,
+      "sha256": "fb9e6d31ae5b761748a3f91e42d7f777b4edfe4c0e129b7579ee501bd347fb38",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/archive/",
+      "status": 200,
+      "bytes": 151083,
+      "sha256": "9a6d01af1a62d2b64959a201c87b89f41f34c13d3f148e6a395c2bacdba831af",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/i-bought-a-5-000-graphics-card/",
+      "status": 200,
+      "bytes": 10759,
+      "sha256": "e12685158c59548af77a2344b3476a4389d40e7de671a88b30f4939112ab1958",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/i-have-often-argued-that-personal-ai-memory-should-remain-local/",
+      "status": 200,
+      "bytes": 11824,
+      "sha256": "9992721eda5498ad864c24228db83615c0a09a241cb5f594f6051ad257339448",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/",
+      "status": 200,
+      "bytes": 11563,
+      "sha256": "1cbb1cc61f281c5440eeb386fc7028573368e8d022f9f1002a28f7581e970361",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/speaking-the-same-language-does-not-mean-seeing-the-same-world/",
+      "status": 200,
+      "bytes": 11771,
+      "sha256": "f761c947ee269de4d244dfb15aa02d0c7c1e9953f14dce9846a6f0b762820a04",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/start-here/",
+      "status": 200,
+      "bytes": 11930,
+      "sha256": "ae7cae0b013b188a47d3a72ffdb46417e61b2b1dac79376deeb4e2bec30846b9",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/",
+      "status": 200,
+      "bytes": 51009,
+      "sha256": "e198ec26b318c8edd8a24f14a45f88cb80d02d167eeb74eca5e0c9d0f3cb4906",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/advanced-global-intelligence/",
+      "status": 200,
+      "bytes": 58871,
+      "sha256": "f2373526a8d0d273aa4d4d686420e00cbcf08992ff1a24d9d07ff3bcdb136f2c",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/advancedglobalintelligence/",
+      "status": 200,
+      "bytes": 4079,
+      "sha256": "9581c423154b4d36b98447538cde2cff712a19c9fdb975bd990a1c56153835b8",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/advancedglobalintelligencefety/",
+      "status": 200,
+      "bytes": 4107,
+      "sha256": "59d44bc488a3e7142cdc9882bcc922a9e7730fb67696c30067cbb9ec1e60e46b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/agi/",
+      "status": 200,
+      "bytes": 3918,
+      "sha256": "5ff6d13fd457f4371e78ea1d92adbee2598b9168068e1c2c59e90fed554052e9",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/ai-architecture/",
+      "status": 200,
+      "bytes": 79650,
+      "sha256": "14c3f16dbdae8028abe4372ff8eab20ec59c88c9e78d531608b205b918a6bee0",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/ai-governance/",
+      "status": 200,
+      "bytes": 47808,
+      "sha256": "fa740544f02a76957a4668350645908c0dc0e76e44a1b67587c357e11a369a89",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/ai/",
+      "status": 200,
+      "bytes": 60934,
+      "sha256": "328634479235cdfa37875b8b438ae6b6ba01658ba80874f49b65dcc76ff80919",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/aiarchitecture/",
+      "status": 200,
+      "bytes": 3827,
+      "sha256": "beb7a7e6bf6060c581906749bef3ed808475ece17f42944ad290e0a5c024f1c3",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/aicommunication/",
+      "status": 200,
+      "bytes": 4372,
+      "sha256": "a6ce8721105e287035f4abc8215ec8af92e3315345274df2de44b906b4df3076",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/aiforscience/",
+      "status": 200,
+      "bytes": 4382,
+      "sha256": "86131c96247429bb4f1c6cb94df516576c4bd783797602cbb53d7479b50ebe4e",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/aigovernance/",
+      "status": 200,
+      "bytes": 3786,
+      "sha256": "1e5df8dee05089405bf755feee471f0f5a235f59b12c24c49e310dbd7faeb31b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/aimemory/",
+      "status": 200,
+      "bytes": 5093,
+      "sha256": "154f2cf8217785c60a3e0481cf723e6a765b8ae533be56983a8a6ca2dd226ef2",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/airesearch/",
+      "status": 200,
+      "bytes": 7175,
+      "sha256": "ac7db6ca6fd72961e88300aee9bb43910408de29a2fc71a690a57fd0f6abacd5",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/artificial-intelligence/",
+      "status": 200,
+      "bytes": 3720,
+      "sha256": "83d909a306fe18b550a0d3256268ef86f261b9323ed3476d7f3c4505757ed0f1",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/artificialintelligence/",
+      "status": 200,
+      "bytes": 29836,
+      "sha256": "f168faae75b7aad39febe69b5b7e3d21f2ecaef1a876f0dbaca05ed0405667ee",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/cloud-gaming/",
+      "status": 200,
+      "bytes": 5706,
+      "sha256": "616dd58c44c434e8f9ed0bdb733efbcb2c5608d6af274e109d54302b9303da12",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/cloudgaming/",
+      "status": 200,
+      "bytes": 3765,
+      "sha256": "ce3d5bb2ee255c0478a76e7e8659c91d01c22c5bf1f4a6bb19ce91cbbe81a966",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/confidentialcomputing/",
+      "status": 200,
+      "bytes": 4463,
+      "sha256": "01ffab731b9451d8e828fb065c87a3ae782c452c786d2cbd71001c284fe7c298",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/cybernetics/",
+      "status": 200,
+      "bytes": 76592,
+      "sha256": "017c97efc3b6c863e3f6d5595977571bbb6468d657b4b073843ee40e4cb020b9",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/datagovernance/",
+      "status": 200,
+      "bytes": 4358,
+      "sha256": "1bc6124fc10853f8626c83b6fc846ab5bb7a7cecfecc893faacb2869b8f593b3",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/dgxspark/",
+      "status": 200,
+      "bytes": 4233,
+      "sha256": "97e182230c6c1d76c516f058788f2d5d1789764b831ece60250a27b6c25c67fc",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/digital-sovereignty/",
+      "status": 200,
+      "bytes": 15484,
+      "sha256": "b57946fb64ddb4064d926e01172da2be973cbdb68bfaa34aa4b197e2d353765a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/digitalsovereignty/",
+      "status": 200,
+      "bytes": 3906,
+      "sha256": "c2c3a56757484d3c6a19cb969bc71c3363dfda22f1903b61b8882f8b076a2b3c",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/europe/",
+      "status": 200,
+      "bytes": 4815,
+      "sha256": "bc046869c2351c986b51fc0dd4ee0a73597296f7c80fbc4fd583f233fee16735",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/experimentaldesign/",
+      "status": 200,
+      "bytes": 4472,
+      "sha256": "7a77836ee31deacf4cd8751d410e426dce2ad53240820560febd8daf2203ed9c",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/future-of-ai/",
+      "status": 200,
+      "bytes": 27960,
+      "sha256": "009434f22cdc0055b3dddc4c694931cd93692ec7b97736c8d42e976f26be6d6c",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/futureofai/",
+      "status": 200,
+      "bytes": 3759,
+      "sha256": "676ddbaf471c58e11fc928da568be32c65c156442323926008cb5bb33fe39339",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/futureofcomputing/",
+      "status": 200,
+      "bytes": 4952,
+      "sha256": "67bb60f66df78fe9e3d8afacd33dbef370633a12898d116ea6784b09f8df16c9",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/geforcenow/",
+      "status": 200,
+      "bytes": 4993,
+      "sha256": "486c1eb9d26c850cc3a21b363b876f5f38f5a84207e25b429bf40a8ccc93ac69",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/governance/",
+      "status": 200,
+      "bytes": 3772,
+      "sha256": "76515bc22d047269814d55a0bf4f6e8136baf0d48b23cd9dbfc0914049e709e6",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/human-ai/",
+      "status": 200,
+      "bytes": 27258,
+      "sha256": "3665f914bfca67475b1af2373d2c7fba3e87e0db7ae911e78653f671dc78b64a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/human-centered-ai/",
+      "status": 200,
+      "bytes": 29919,
+      "sha256": "730de6862e1c72d6f2161b404720fb73b04b7cb5b4672bed349bf93868d9cd05",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/human-centric-ai/",
+      "status": 200,
+      "bytes": 3866,
+      "sha256": "63a643b90cdb7050ad7b646724d137bac651419a26d81dd7d9bfddc6bc3043b4",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/humanai/",
+      "status": 200,
+      "bytes": 3686,
+      "sha256": "f689aec08049f57c718a84003a9fb14411b48a251a2c5221442504bb9423c902",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/humancenteredai/",
+      "status": 200,
+      "bytes": 3859,
+      "sha256": "a1c012d45a7e76e05b729619d9d4a2ffdf1430ad1e77c783829a1e6ed550af7c",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/humancomputerinteraction/",
+      "status": 200,
+      "bytes": 5237,
+      "sha256": "58e42a545b7e1f9bb59c646ee12ad8b780586c83fd505bf19e94a41a86222bd9",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/localai/",
+      "status": 200,
+      "bytes": 13645,
+      "sha256": "cda42378efddbf17b5c9ca47d057cdde0d627d7723f5bf83cd89003af533a798",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/localfirst/",
+      "status": 200,
+      "bytes": 4298,
+      "sha256": "3b558010dbe41fcac085b37cc4adce97fd7b764a38802e1309bd62412bc40c15",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/machineintelligence/",
+      "status": 200,
+      "bytes": 7267,
+      "sha256": "ee1a5fe8bddb829a30cb93c238ef96d4b0084344e610b423dc161f19bdfbb636",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/multimodalai/",
+      "status": 200,
+      "bytes": 5046,
+      "sha256": "ac9eb8cd460722d891eb329f4840165619a8e7d24262670e23d3c90e0b58710a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/nvidia/",
+      "status": 200,
+      "bytes": 4759,
+      "sha256": "27f6740a1b0b477bbb450bf9fd9e0d0e5a97b8c760805aab00363824ee2fe70a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/openscience/",
+      "status": 200,
+      "bytes": 6631,
+      "sha256": "58602398c0958ce67c83ac3282616593682239efaac79cf6e19d60fcc54e28a0",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/personal-ai/",
+      "status": 200,
+      "bytes": 7076,
+      "sha256": "e3d2de9faaf6998bca3e3ec8379b279929ec67c6aefcae23a6e9bd44a36a5994",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/personalai/",
+      "status": 200,
+      "bytes": 3745,
+      "sha256": "d1f22828c07c8853aacd2b0145b6743c39bfacf2e37d516318acc5cc2bd54223",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/privacy/",
+      "status": 200,
+      "bytes": 7626,
+      "sha256": "5399cda6c8fb1a8bd14c7422d41489e6fafbcf9fc14182ad166b002f2fb33aff",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/reproducibility/",
+      "status": 200,
+      "bytes": 4427,
+      "sha256": "6698f274ca462ce390d7c179e36ac4257c78385ca579732d77d3603cd854bcd2",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/research/",
+      "status": 200,
+      "bytes": 4888,
+      "sha256": "3efdae0cbd150d47e76013df767f41da1d6883ec78d1203b6b7400af719087f6",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/scientificdiscovery/",
+      "status": 200,
+      "bytes": 4487,
+      "sha256": "a67255d1bbf8a9728940ebc034eaff8ca7f978e7cf6cd98d5075bb0505d88fa4",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/scientificmethod/",
+      "status": 200,
+      "bytes": 4442,
+      "sha256": "565dd8c95ef0d99a814f3cc495a07bca01fb8ac507188c4e82e8757087ffefce",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/systems-thinking/",
+      "status": 200,
+      "bytes": 41933,
+      "sha256": "08b1aa33461753a66c4b0ee43a0eb6bc218ce2c8682cb19f4519c8d7bca7e39b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/systemsthinking/",
+      "status": 200,
+      "bytes": 3846,
+      "sha256": "02f873f9f93ed60bad98cb1ea5f8693cf7ac1c896ea68fa08b6892d3030f5b95",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/temporalaipresence/",
+      "status": 200,
+      "bytes": 13981,
+      "sha256": "f55218bcd19175d09a95346be21fb49fca224b4951b0a4dd3c5c41635c41a3d6",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/tags/worldmodels/",
+      "status": 200,
+      "bytes": 4801,
+      "sha256": "9e43322a3c85a243fd084a32d3fbcb40393295e4e33ad8a0680c5366ad4e3dd8",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/",
+      "status": 200,
+      "bytes": 12091,
+      "sha256": "078ab9e15c79823a1de38ac5a6b90c9facc1457c8da8b644549c34f66b50336a",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/downloads-index.json",
+      "status": 200,
+      "bytes": 179130,
+      "sha256": "07c29ff30f090f21591fcb5fe75ffce1c10401de92bf53aa3fba9500e3088a2f",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/downloads/",
+      "status": 200,
+      "bytes": 126919,
+      "sha256": "b78655d952f7e4568da0cfc4e3397125025fcbf42e35685bd81f4981af30ebeb",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/library-index.json",
+      "status": 200,
+      "bytes": 104681,
+      "sha256": "d407e800a47693be5b49b164091f41ad0c6561a4f870bacf16b31838bfc42fcb",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/library/",
+      "status": 200,
+      "bytes": 80526,
+      "sha256": "4d0bcd74cc0bcd69d54ba681d78b2cd366fe59971becee6857ca07c7fd3f6cbf",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/llms-full.txt",
+      "status": 200,
+      "bytes": 54202,
+      "sha256": "2bbb1c3c08774b3351f70ca4a78c90b79de8d0694fac7a5565a36cbee7f72484",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/llms.txt",
+      "status": 200,
+      "bytes": 18127,
+      "sha256": "d817f381ea1851ec1dba8f380f11fc8aa929dcabbf5c1111787a5f789eb8f6b2",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/local-first-ai/",
+      "status": 200,
+      "bytes": 5048,
+      "sha256": "0597a5864720986226c58d9f0fb9f4c8dd9bd61e62ffd2a188c908f951ce637e",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/machine-index.json",
+      "status": 200,
+      "bytes": 3244,
+      "sha256": "86c1ce09a6693c5c314ac10ec3129eb4ff76b174afc8b35a545e8cd2aba8cc57",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/",
+      "status": 200,
+      "bytes": 125415,
+      "sha256": "aa35218352c20fd1a64edd2fbff4b310ecd8107d9b727051de8da0f03ec50efc",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/boundary-preserving-ai-composition-v0-4/",
+      "status": 200,
+      "bytes": 17188,
+      "sha256": "aa98b5bb30e47301e698aa5385db821520c319ac580271b3595351f2f8b47f62",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/cgdr-selected-process-r1-6an/",
+      "status": 200,
+      "bytes": 14729,
+      "sha256": "62dd44d4dde3b2544bf2918a69579ae3576368eebd85ea2e77d5130b7fd70fc4",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/continuity-instrument-v1-0-0/",
+      "status": 200,
+      "bytes": 40868,
+      "sha256": "feec983ff7661afb907ee67594a17c27afb73a20a9f7e253b8632ccecccda30b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/continuity-instrument-v1-0-0/publication.json",
+      "status": 200,
+      "bytes": 16219,
+      "sha256": "d3906e50ef758d5c60b7d520426fac3b493604acc7e02f98e949cbd4c17b9f7b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/continuity-instrument-v1-0-0/schema.org.jsonld",
+      "status": 200,
+      "bytes": 9049,
+      "sha256": "2998dc058f321314ae367798e858a494b0914fc54f2238326d9c7b09c7fdb591",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/embodiment-without-imposed-identity-v0-1/",
+      "status": 200,
+      "bytes": 24911,
+      "sha256": "d9f79bd68d6aa166adb7b34696086b867362d298b651bb92a20eb699be3b4fc2",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/publications/personality-formation-time-shaped-continuity/",
+      "status": 200,
+      "bytes": 10396,
+      "sha256": "e8195c621eeb798a8c145268ecf1fc863c952b7cd91db63234a41a3c04d2b00b",
+      "local_byte_parity": false,
+      "content_parity": true,
+      "transport_normalization": "CRLF to LF only"
+    },
+    {
+      "route": "/releases/",
+      "status": 200,
+      "bytes": 43794,
+      "sha256": "b496eb86d91330d965e2695a2e184688d60061f4048b2a80901a6d46d59e0913",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/scientific-corpus-index.json",
+      "status": 200,
+      "bytes": 153563,
+      "sha256": "bafa2928f992b4fdd9a9c8bc7a74d7c53654def228cce9d83eae5207e9005f6b",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/scientific-corpus.jsonld",
+      "status": 200,
+      "bytes": 43594,
+      "sha256": "6bd869314eb28066185acc1d141a6f48e85cb608eb984e5deb20fced2130f4f3",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/semantic-bridges.json",
+      "status": 200,
+      "bytes": 19709,
+      "sha256": "15878a629dd8802d2a607d7f39d20e3c27adf6555bfd9630e92114ca3d6abfab",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bytes": 48959,
+      "sha256": "e6ee8cb183e56662217aeb510a1fdfcadaed3fcd9d165e5d3a11c346ade951d6",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/term-registry.json",
+      "status": 200,
+      "bytes": 59848,
+      "sha256": "606ff21c7a0683dbf48f464c664ef9b6119963930b6f5c628b505b521e68bdee",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/term-registry.jsonld",
+      "status": 200,
+      "bytes": 33688,
+      "sha256": "246a5aa419e50e95c15fed15a91ee6b24f79f4af584583820b6187284384162f",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/vision/",
+      "status": 200,
+      "bytes": 37266,
+      "sha256": "27d880b297ad560efd1cddc2924a196036b047cb47367c9aada0e27e9604dbb2",
+      "local_byte_parity": false,
+      "content_parity": true,
+      "transport_normalization": "CRLF to LF only"
+    },
+    {
+      "route": "/works-index.json",
+      "status": 200,
+      "bytes": 141552,
+      "sha256": "caff63feabd64324a190314fd2b6568f4b115db66fc15e44a7525fa5380e0053",
+      "local_byte_parity": true,
+      "content_parity": true,
+      "transport_normalization": null
+    },
+    {
+      "route": "/world-intelligence/",
+      "status": 200,
+      "bytes": 23927,
+      "sha256": "35b7006c75f779d1fdf596cfd5706ad87ba5bf0c3bd640d8c456da629b331801",
+      "local_byte_parity": false,
+      "content_parity": true,
+      "transport_normalization": "CRLF to LF only"
+    }
+  ]
+}
