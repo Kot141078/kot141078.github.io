@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your AI Remembered. That Was the Problem. | Diary | Ivan Kotov</title>
+  <meta name="description" content="A reflection on when valid historical memory becomes unsuitable advice, with a bounded discussion of the MemDev-Bench preprint.">
+  <link rel="canonical" href="https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/">
+  <meta property="og:title" content="Your AI Remembered. That Was the Problem. | Diary | Ivan Kotov">
+  <meta property="og:description" content="A reflection on when valid historical memory becomes unsuitable advice, with a bounded discussion of the MemDev-Bench preprint.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/">
+  <meta property="og:image" content="https://ivankotov.eu/assets/diary/your-ai-remembered-that-was-the-problem/cover.jpg">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/#post",
+      "headline": "Your AI Remembered. That Was the Problem.",
+      "identifier": "urn:ivankotov:diary:your-ai-remembered-that-was-the-problem",
+      "url": "https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/",
+      "mainEntityOfPage": "https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ivan Kotov",
+        "url": "https://ivankotov.eu/about/"
+      },
+      "description": "A reflection on when valid historical memory becomes unsuitable advice, with a bounded discussion of the MemDev-Bench preprint.",
+      "isPartOf": {
+        "@type": "Blog",
+        "url": "https://ivankotov.eu/diary/",
+        "name": "Diary — posts, notes, and visual archive | Ivan Kotov"
+      },
+      "keywords": "AI, AIMemory, Software Engineering, Persistent AI, Human AI, AIResearch, Advanced Global Intelligence",
+      "image": "https://ivankotov.eu/assets/diary/your-ai-remembered-that-was-the-problem/cover.jpg",
+      "sameAs": "https://lnkd.in/p/eAtRHnR8"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ivankotov.eu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diary",
+          "item": "https://ivankotov.eu/diary/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your AI Remembered. That Was the Problem.",
+          "item": "https://ivankotov.eu/diary/your-ai-remembered-that-was-the-problem/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-name">Ivan Kotov</span>
+        <span class="brand-role">AI Systems Architect</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../../start-here/">Start here</a>
+        <a href="../../vision/">Vision</a>
+        <a href="/publications/">Publications</a>
+        <a href="../../diary/" aria-current="page">Diary</a>
+        <a href="../../topics/">Topics</a>
+        <a href="../../library/">Library</a>
+        <a href="../../services/">Services</a>
+        <a href="../../about/">About</a>
+        <a href="../../contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Diary entry</p>
+        <h1>Your AI Remembered. That Was the Problem.</h1>
+        <div class="entry-meta">
+          <span>2026-10-28</span>
+        </div>
+        <p class="lead page-lead">A reflection on when valid historical memory becomes unsuitable advice, with a bounded discussion of the MemDev-Bench preprint.</p>
+        <div class="section-links">
+          <a href="../tags/ai/">AI</a>
+          <a href="../tags/aimemory/">AIMemory</a>
+          <a href="../tags/software-engineering/">Software Engineering</a>
+          <a href="../tags/persistent-ai/">Persistent AI</a>
+          <a href="../tags/human-ai/">Human AI</a>
+          <a href="../tags/airesearch/">AIResearch</a>
+        </div>
+      </section>
+
+      <section class="section">
+
+      <div class="entry-cover">
+        <img src="../../assets/diary/your-ai-remembered-that-was-the-problem/cover.jpg" alt="Hands hold a removed metal cover beside a machine and an open book of technical drawings on a workbench.">
+      </div>
+        <div class="post-content">
+          <p>Your AI Remembered. That Was the Problem.</p>
+          <p>&quot;We solved this last time.&quot;</p>
+          <p>A useful sentence. Until it becomes a reason to stop checking what has changed.</p>
+          <p>A 20 October preprint, MemDev-Bench, examines memory in coding agents. The results are not simply good or bad: memory helped solve some difficult tasks, but also introduced failures on tasks the agent could solve without it.</p>
+          <p>The authors traced failures to historical solutions applied under incompatible assumptions, transferred to the wrong component, or followed despite conflicting feedback. Even relevant history did not guarantee appropriate reuse.</p>
+          <p>The evaluation covers one agent-model configuration on a software-engineering benchmark. It is not a verdict on every AI memory system. But it exposes a failure worth designing against.</p>
+          <p>The uncomfortable point: a memory does not have to be fabricated to become bad advice.</p>
+          <p>Imagine a maintenance record describing a setting that solved a machine&#x27;s problem last year. Since then, a component has been replaced and the operating load has changed. The record is still accurate. Repeating its recommendation may not be.</p>
+          <p>Deleting the record would lose useful experience. Treating it as a permanent instruction would make a different mistake.</p>
+          <p>I have argued that a person&#x27;s accumulated experience could become a major AI advantage. I still believe that. But making history available is not the same as knowing how to use it.</p>
+          <p>For long-lived AI, I want the distinction to remain visible between what happened, what we concluded at the time, and what we have reason to do now.</p>
+          <p>A correction should not require pretending the earlier event never happened. Nor should respect for history prevent a system from revising its interpretation.</p>
+          <p>An old workaround deserves a question: does the condition that made it necessary still exist?</p>
+          <p>An earlier preference deserves another: has the person changed their mind?</p>
+          <p>This also changes what I would ask from a memory demonstration. Show me the tasks it rescued, but also the tasks it broke. Compare the same work with and without the added history, rather than showing only impressive examples of recall.</p>
+          <p>A larger archive is not automatically a better relationship with the past.</p>
+          <p>Sometimes the most useful answer is not &quot;I remember how we did it.&quot;</p>
+          <p>It is: &quot;I remember why we did it. That reason no longer applies.&quot;</p>
+          <p>Research: MemDev-Bench, arXiv:2610.27524.</p>
+        </div>
+        <div class="section-links">
+          <a href="../">Diary</a>
+          <a href="../archive/">Archive</a>
+          <a href="https://lnkd.in/p/eAtRHnR8">LinkedIn origin trace</a>
+          <a href="../../about/">About</a>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-head">
+          <p class="section-label">Related posts</p>
+          <h2>Continue from here</h2>
+          <p class="diary-note">Curated themes and canonical topics lead; semantic fit follows, with chronology used only as a fallback.</p>
+        </div>
+        <div class="entry-list">
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-10-29</span>
+            </div>
+            <h3>AI Improved the Output. Did It Train the Person?</h3>
+            <p class="entry-summary">A reflection on the distinction between AI-assisted performance, skill in using AI, and transferable understanding in a reported consultant study.</p>
+            <div class="section-links">
+              <a href="../ai-improved-the-output-did-it-train-the-person/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-08-14</span>
+            </div>
+            <h3>SOONER OR LATER, WE WILL HAVE TO NEGOTIATE WITH AI</h3>
+            <p class="entry-summary">A reflection on governed negotiation, reciprocal refusal, and responsibility in long-lived human–AI relationships.</p>
+            <div class="section-links">
+              <a href="../sooner-or-later-we-will-have-to-negotiate-with-ai/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-08-13</span>
+            </div>
+            <h3>What Do We Really Expect from AI?</h3>
+            <p class="entry-summary">A reflection on persistent AI as a thinking counterpart that can preserve questions, notice change, and challenge premature closure.</p>
+            <div class="section-links">
+              <a href="../what-do-we-really-expect-from-ai/">Open entry</a>
+            </div>
+          </article>
+          <article class="entry-card">
+            <div class="entry-meta">
+              <span>2026-05-06</span>
+            </div>
+            <h3>Today I am sharing &quot;Qubit of Hope - Volume III&quot;.</h3>
+            <p class="entry-summary">A note sharing Qubit of Hope Volume III as the completion of the trilogy and the human layer of work on persistent AI entities.</p>
+            <div class="section-links">
+              <a href="../today-i-am-sharing-qubit-of-hope-volume-iii/">Open entry</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Primary domain: <span>ivankotov.eu</span></p>
+    </footer>
+  </div>
+</body>
+</html>
