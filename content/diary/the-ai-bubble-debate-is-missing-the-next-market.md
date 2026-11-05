@@ -4,8 +4,8 @@ date: 2026-10-13
 slug: the-ai-bubble-debate-is-missing-the-next-market
 summary: A forecast of a distributed local AI economy, with explicit limits around business failures, hardware reuse, costs, and strategic demand.
 tags: AI, ArtificialIntelligence, LocalAI, PrivateAI, EdgeAI, OnPremAI, OpenWeights, AIHardware, AIInfrastructure, AICompute, DataCenters, Inference, AIEconomy, AIBubble, TechEconomics, Semiconductors, DecentralizedAI, DigitalSovereignty, Cybersecurity, HumanAI, FutureOfAI, AdvancedGlobalIntelligence
-primary_image:
-image_alt:
+primary_image: assets/diary/the-ai-bubble-debate-is-missing-the-next-market/cover.jpg
+image_alt: A riverside town at dusk, with an illuminated home in the foreground and a large building complex in the distance.
 linkedin_url: https://lnkd.in/p/egaQV7Rp
 ---
 
