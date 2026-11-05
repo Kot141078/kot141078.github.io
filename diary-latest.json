@@ -2,34 +2,30 @@
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
   "item": {
-    "title": "AI Improved the Output. Did It Train the Person?",
-    "date": "2026-10-29",
-    "slug": "ai-improved-the-output-did-it-train-the-person",
-    "summary": "A reflection on the distinction between AI-assisted performance, skill in using AI, and transferable understanding in a reported consultant study.",
+    "title": "Domino Drift: When AI Argues With a Claim You Never Made",
+    "date": "2026-11-04",
+    "slug": "domino-drift-when-ai-argues-with-a-claim-you-never-made",
+    "summary": "A discussion of premise substitution in AI conversations, the limits of causal inference, and revising dependent conclusions after errors.",
     "tags": [
       "AI",
-      "Future of Work",
+      "AIReasoning",
+      "LocalAI",
       "Human AI",
-      "Learning",
-      "Skills",
-      "AIResearch",
-      "Advanced Global Intelligence"
+      "AIAccountability"
     ],
     "raw_tags": [
       "AI",
-      "FutureOfWork",
+      "AIReasoning",
+      "LocalAI",
       "HumanAI",
-      "Learning",
-      "Skills",
-      "AIResearch",
-      "AdvancedGlobalIntelligence"
+      "AIAccountability"
     ],
-    "page": "https://ivankotov.eu/diary/ai-improved-the-output-did-it-train-the-person/",
-    "canonical_page": "https://ivankotov.eu/diary/ai-improved-the-output-did-it-train-the-person/",
-    "identifier": "urn:ivankotov:diary:ai-improved-the-output-did-it-train-the-person",
+    "page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+    "canonical_page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+    "identifier": "urn:ivankotov:diary:domino-drift-when-ai-argues-with-a-claim-you-never-made",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/ai-improved-the-output-did-it-train-the-person/cover.jpg",
-    "image_alt": "A man studies an open notebook beside a transparent humanoid figure and a laptop, with diagrams on a blackboard.",
-    "linkedin_url": "https://lnkd.in/p/eeCAwNqr"
+    "primary_image": "https://ivankotov.eu/assets/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/cover.jpg",
+    "image_alt": "Rows of dominoes form branching paths across a long wooden table in a sunlit room.",
+    "linkedin_url": "https://lnkd.in/p/ewyUKhPh"
   }
 }

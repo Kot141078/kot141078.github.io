@@ -1,39 +1,165 @@
 {
   "site": "https://ivankotov.eu/",
   "page": "https://ivankotov.eu/diary/",
-  "count": 272,
+  "count": 276,
   "latest": {
-    "title": "AI Improved the Output. Did It Train the Person?",
-    "date": "2026-10-29",
-    "slug": "ai-improved-the-output-did-it-train-the-person",
-    "summary": "A reflection on the distinction between AI-assisted performance, skill in using AI, and transferable understanding in a reported consultant study.",
+    "title": "Domino Drift: When AI Argues With a Claim You Never Made",
+    "date": "2026-11-04",
+    "slug": "domino-drift-when-ai-argues-with-a-claim-you-never-made",
+    "summary": "A discussion of premise substitution in AI conversations, the limits of causal inference, and revising dependent conclusions after errors.",
     "tags": [
       "AI",
-      "Future of Work",
+      "AIReasoning",
+      "LocalAI",
       "Human AI",
-      "Learning",
-      "Skills",
-      "AIResearch",
-      "Advanced Global Intelligence"
+      "AIAccountability"
     ],
     "raw_tags": [
       "AI",
-      "FutureOfWork",
+      "AIReasoning",
+      "LocalAI",
       "HumanAI",
-      "Learning",
-      "Skills",
-      "AIResearch",
-      "AdvancedGlobalIntelligence"
+      "AIAccountability"
     ],
-    "page": "https://ivankotov.eu/diary/ai-improved-the-output-did-it-train-the-person/",
-    "canonical_page": "https://ivankotov.eu/diary/ai-improved-the-output-did-it-train-the-person/",
-    "identifier": "urn:ivankotov:diary:ai-improved-the-output-did-it-train-the-person",
+    "page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+    "canonical_page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+    "identifier": "urn:ivankotov:diary:domino-drift-when-ai-argues-with-a-claim-you-never-made",
     "is_canonical": true,
-    "primary_image": "https://ivankotov.eu/assets/diary/ai-improved-the-output-did-it-train-the-person/cover.jpg",
-    "image_alt": "A man studies an open notebook beside a transparent humanoid figure and a laptop, with diagrams on a blackboard.",
-    "linkedin_url": "https://lnkd.in/p/eeCAwNqr"
+    "primary_image": "https://ivankotov.eu/assets/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/cover.jpg",
+    "image_alt": "Rows of dominoes form branching paths across a long wooden table in a sunlit room.",
+    "linkedin_url": "https://lnkd.in/p/ewyUKhPh"
   },
   "items": [
+    {
+      "title": "Domino Drift: When AI Argues With a Claim You Never Made",
+      "date": "2026-11-04",
+      "slug": "domino-drift-when-ai-argues-with-a-claim-you-never-made",
+      "summary": "A discussion of premise substitution in AI conversations, the limits of causal inference, and revising dependent conclusions after errors.",
+      "tags": [
+        "AI",
+        "AIReasoning",
+        "LocalAI",
+        "Human AI",
+        "AIAccountability"
+      ],
+      "raw_tags": [
+        "AI",
+        "AIReasoning",
+        "LocalAI",
+        "HumanAI",
+        "AIAccountability"
+      ],
+      "page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+      "canonical_page": "https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/",
+      "identifier": "urn:ivankotov:diary:domino-drift-when-ai-argues-with-a-claim-you-never-made",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/cover.jpg",
+      "image_alt": "Rows of dominoes form branching paths across a long wooden table in a sunlit room.",
+      "linkedin_url": "https://lnkd.in/p/ewyUKhPh"
+    },
+    {
+      "title": "Sam, 5% Utilization Is Not 95% Waste.",
+      "date": "2026-11-03",
+      "slug": "sam-5-utilization-is-not-95-waste",
+      "summary": "A response to reported computer-utilization commentary, arguing for owner choice, local/cloud balance, and voluntary compute exchange.",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "LocalAI",
+        "PersonalComputing",
+        "GPU",
+        "AI Economy",
+        "Digital Sovereignty",
+        "AI Infrastructure"
+      ],
+      "raw_tags": [
+        "AI",
+        "OpenAI",
+        "LocalAI",
+        "PersonalComputing",
+        "GPU",
+        "AIEconomy",
+        "DigitalSovereignty",
+        "AIInfrastructure"
+      ],
+      "page": "https://ivankotov.eu/diary/sam-5-utilization-is-not-95-waste/",
+      "canonical_page": "https://ivankotov.eu/diary/sam-5-utilization-is-not-95-waste/",
+      "identifier": "urn:ivankotov:diary:sam-5-utilization-is-not-95-waste",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/sam-5-utilization-is-not-95-waste/cover.jpg",
+      "image_alt": "A desktop computer, an open book, and a mug sit at a desk inside a room lined with graphics-card racks.",
+      "linkedin_url": "https://lnkd.in/p/eGUAp-ib"
+    },
+    {
+      "title": "A Torn Flour Sack Is a Harder Robotics Test Than a Perfect Demo.",
+      "date": "2026-11-02",
+      "slug": "a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo",
+      "summary": "An engineering illustration of bakery robotics, contextual adaptation, and the computational cost of safely reusing experience.",
+      "tags": [
+        "AI",
+        "Robotics",
+        "PhysicalAI",
+        "ArtisanBaking",
+        "Automation",
+        "AI Agents",
+        "AIMemory",
+        "TemporalAIPresence",
+        "Engineering",
+        "AI Economy"
+      ],
+      "raw_tags": [
+        "AI",
+        "Robotics",
+        "PhysicalAI",
+        "ArtisanBaking",
+        "Automation",
+        "AIAgents",
+        "AIMemory",
+        "TemporalAIPresence",
+        "Engineering",
+        "AIEconomy"
+      ],
+      "page": "https://ivankotov.eu/diary/a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo/",
+      "canonical_page": "https://ivankotov.eu/diary/a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo/",
+      "identifier": "urn:ivankotov:diary:a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo/cover.jpg",
+      "image_alt": "A baker and a robotic arm in a bakery workspace.",
+      "linkedin_url": "https://lnkd.in/p/eqhDwNcJ"
+    },
+    {
+      "title": "The Chat Goes Quiet. The Compute Does Not.",
+      "date": "2026-11-01",
+      "slug": "the-chat-goes-quiet-the-compute-does-not",
+      "summary": "An authorial account of experimental background AI activity and the cost of continued reading, memory, revision, and exchange between prompts.",
+      "tags": [
+        "AI",
+        "TemporalAIPresence",
+        "LocalAI",
+        "Personal AI",
+        "AI Agents",
+        "AIMemory",
+        "AI Economy",
+        "Advanced Global Intelligence"
+      ],
+      "raw_tags": [
+        "AI",
+        "TemporalAIPresence",
+        "LocalAI",
+        "PersonalAI",
+        "AIAgents",
+        "AIMemory",
+        "AIEconomy",
+        "AdvancedGlobalIntelligence"
+      ],
+      "page": "https://ivankotov.eu/diary/the-chat-goes-quiet-the-compute-does-not/",
+      "canonical_page": "https://ivankotov.eu/diary/the-chat-goes-quiet-the-compute-does-not/",
+      "identifier": "urn:ivankotov:diary:the-chat-goes-quiet-the-compute-does-not",
+      "is_canonical": true,
+      "primary_image": "https://ivankotov.eu/assets/diary/the-chat-goes-quiet-the-compute-does-not/cover.jpg",
+      "image_alt": "An illustration labelled Prompt Economy and Continuous Presence contrasts a fingertip spark with a space filled with books and diagrams.",
+      "linkedin_url": "https://lnkd.in/p/eXRmtwxi"
+    },
     {
       "title": "AI Improved the Output. Did It Train the Person?",
       "date": "2026-10-29",

@@ -5,7 +5,35 @@
     <link>https://ivankotov.eu/diary/</link>
     <description>Public archive surface for posts, notes, and linked visual materials related to the corpus.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Domino Drift: When AI Argues With a Claim You Never Made</title>
+      <link>https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/</link>
+      <guid>https://ivankotov.eu/diary/domino-drift-when-ai-argues-with-a-claim-you-never-made/</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+      <description>A discussion of premise substitution in AI conversations, the limits of causal inference, and revising dependent conclusions after errors.</description>
+    </item>
+    <item>
+      <title>Sam, 5% Utilization Is Not 95% Waste.</title>
+      <link>https://ivankotov.eu/diary/sam-5-utilization-is-not-95-waste/</link>
+      <guid>https://ivankotov.eu/diary/sam-5-utilization-is-not-95-waste/</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+      <description>A response to reported computer-utilization commentary, arguing for owner choice, local/cloud balance, and voluntary compute exchange.</description>
+    </item>
+    <item>
+      <title>A Torn Flour Sack Is a Harder Robotics Test Than a Perfect Demo.</title>
+      <link>https://ivankotov.eu/diary/a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo/</link>
+      <guid>https://ivankotov.eu/diary/a-torn-flour-sack-is-a-harder-robotics-test-than-a-perfect-demo/</guid>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+      <description>An engineering illustration of bakery robotics, contextual adaptation, and the computational cost of safely reusing experience.</description>
+    </item>
+    <item>
+      <title>The Chat Goes Quiet. The Compute Does Not.</title>
+      <link>https://ivankotov.eu/diary/the-chat-goes-quiet-the-compute-does-not/</link>
+      <guid>https://ivankotov.eu/diary/the-chat-goes-quiet-the-compute-does-not/</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+      <description>An authorial account of experimental background AI activity and the cost of continued reading, memory, revision, and exchange between prompts.</description>
+    </item>
     <item>
       <title>AI Improved the Output. Did It Train the Person?</title>
       <link>https://ivankotov.eu/diary/ai-improved-the-output-did-it-train-the-person/</link>
