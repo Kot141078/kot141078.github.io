@@ -1,0 +1,507 @@
+{
+  "local": {
+    "status": "PASS",
+    "diary_count": 268,
+    "latest_id": "0268",
+    "latest_date": "2026-10-21",
+    "latest_five": [
+      "0268",
+      "0267",
+      "0266",
+      "0265",
+      "0264"
+    ],
+    "generated_baseline_pages_preserved": true,
+    "source_asset_integrity": "10/10 unchanged",
+    "images": [
+      {
+        "id": "0264",
+        "source": "C:\\Users\\kotov\\Downloads\\1791973986927.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\a-home-full-of-smart-devices-is-not-yet-a-smart-home\\cover.jpg",
+        "bytes": 215198,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "source_sha256": "c9f68b86b2eb21c17c2eb7bacef3a0c8ddbf9634c9a673363e2e1ad6c942e970",
+        "destination_sha256": "c9f68b86b2eb21c17c2eb7bacef3a0c8ddbf9634c9a673363e2e1ad6c942e970"
+      },
+      {
+        "id": "0265",
+        "source": "C:\\Users\\kotov\\Downloads\\1792054201018.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\ai-is-getting-cheaper-but-is-technological-independence\\cover.jpg",
+        "bytes": 209859,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "source_sha256": "675094b935015bdde3f9b9526ec3c1614cb73b4d5e758619b3f629e62a35e961",
+        "destination_sha256": "675094b935015bdde3f9b9526ec3c1614cb73b4d5e758619b3f629e62a35e961"
+      },
+      {
+        "id": "0266",
+        "source": "C:\\Users\\kotov\\Downloads\\1792143767646.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\the-next-ai-breakthrough-may-never-appear-in-your-chat\\cover.jpg",
+        "bytes": 256086,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "source_sha256": "28c13b0605e93da97433114e5d06cf5aaadede00c91ecb0636ff59798d63cf9d",
+        "destination_sha256": "28c13b0605e93da97433114e5d06cf5aaadede00c91ecb0636ff59798d63cf9d"
+      },
+      {
+        "id": "0267",
+        "source": "C:\\Users\\kotov\\Downloads\\1792441166767.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\a-7-000-ai-laptop-what-exactly-is-revolutionary\\cover.jpg",
+        "bytes": 239979,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "source_sha256": "ad456aa1bfc43bdd07c8156ff76ffc582b9537264c3a2cfc07ce1c5be744c592",
+        "destination_sha256": "ad456aa1bfc43bdd07c8156ff76ffc582b9537264c3a2cfc07ce1c5be744c592"
+      },
+      {
+        "id": "0268",
+        "source": "C:\\Users\\kotov\\Downloads\\1792577876316.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\who-will-pay-the-next-ai-invoice\\cover.jpg",
+        "bytes": 282189,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "source_sha256": "a076eeb6a321de4724f2d463def19bb8eac0f0c3404597a2c288e57ac9e7dd9a",
+        "destination_sha256": "a076eeb6a321de4724f2d463def19bb8eac0f0c3404597a2c288e57ac9e7dd9a"
+      }
+    ],
+    "before_count": 362,
+    "after_count": 367,
+    "added": [
+      "https://ivankotov.eu/diary/a-7-000-ai-laptop-what-exactly-is-revolutionary/",
+      "https://ivankotov.eu/diary/a-home-full-of-smart-devices-is-not-yet-a-smart-home/",
+      "https://ivankotov.eu/diary/ai-is-getting-cheaper-but-is-technological-independence/",
+      "https://ivankotov.eu/diary/the-next-ai-breakthrough-may-never-appear-in-your-chat/",
+      "https://ivankotov.eu/diary/who-will-pay-the-next-ai-invoice/"
+    ],
+    "removed": [],
+    "stats": {
+      "html": 1016,
+      "json": 147,
+      "jsonld": 1028,
+      "xml": 5,
+      "local_links": 3503,
+      "images": 274
+    },
+    "affected_tags": [
+      "/diary/tags/",
+      "/diary/tags/ai-agents/",
+      "/diary/tags/ai-economy/",
+      "/diary/tags/ai-infrastructure/",
+      "/diary/tags/ai/",
+      "/diary/tags/aiadoption/",
+      "/diary/tags/aiagents/",
+      "/diary/tags/aieconomy/",
+      "/diary/tags/aiforscience/",
+      "/diary/tags/aihardware/",
+      "/diary/tags/aiinfrast/",
+      "/diary/tags/aiinfrastructure/",
+      "/diary/tags/applesilicon/",
+      "/diary/tags/artificial-intelligence/",
+      "/diary/tags/artificialintelligence/",
+      "/diary/tags/automation/",
+      "/diary/tags/buildingautomation/",
+      "/diary/tags/cern/",
+      "/diary/tags/construction/",
+      "/diary/tags/cuda/",
+      "/diary/tags/dgxspark/",
+      "/diary/tags/digital-sovereignty/",
+      "/diary/tags/digitalindependence/",
+      "/diary/tags/digitalsovereignty/",
+      "/diary/tags/edge-ai/",
+      "/diary/tags/edgeai/",
+      "/diary/tags/energy/",
+      "/diary/tags/energyefficiency/",
+      "/diary/tags/energymanagement/",
+      "/diary/tags/engineering/",
+      "/diary/tags/entrepreneurship/",
+      "/diary/tags/europeanai/",
+      "/diary/tags/foundationmodels/",
+      "/diary/tags/future-of-work/",
+      "/diary/tags/futureofcomputing/",
+      "/diary/tags/futureofwork/",
+      "/diary/tags/homeautomation/",
+      "/diary/tags/human-ai/",
+      "/diary/tags/humanai/",
+      "/diary/tags/hvac/",
+      "/diary/tags/innovation/",
+      "/diary/tags/interoperability/",
+      "/diary/tags/localai/",
+      "/diary/tags/m5max/",
+      "/diary/tags/microsoft/",
+      "/diary/tags/mistralai/",
+      "/diary/tags/nvidia/",
+      "/diary/tags/ondeviceai/",
+      "/diary/tags/particlephysics/",
+      "/diary/tags/pcindustry/",
+      "/diary/tags/personal-ai/",
+      "/diary/tags/personalai/",
+      "/diary/tags/physics/",
+      "/diary/tags/private-ai/",
+      "/diary/tags/privateai/",
+      "/diary/tags/productivity/",
+      "/diary/tags/renovation/",
+      "/diary/tags/research/",
+      "/diary/tags/retrofit/",
+      "/diary/tags/rtxspark/",
+      "/diary/tags/scientificdiscovery/",
+      "/diary/tags/smallbusiness/",
+      "/diary/tags/smartbuildings/",
+      "/diary/tags/smarthome/",
+      "/diary/tags/software-engineering/",
+      "/diary/tags/softwareengineering/",
+      "/diary/tags/technology/",
+      "/diary/tags/temporalaipresence/"
+    ],
+    "related_only_changed_old_posts": [
+      "diary/ai-agents-must-be-adaptive-not-just-repeatable/index.html",
+      "diary/ai-as-a-camera-of-thought/index.html",
+      "diary/ai-is-eating-all-the-memory/index.html",
+      "diary/ai-is-no-longer-living-inside-a-chat-window/index.html",
+      "diary/ai-is-slowly-outgrowing-the-old-language-used-to-describe-it/index.html",
+      "diary/ai-isnt-expensive-its-becoming-infrastructure/index.html",
+      "diary/ai-will-not-create-a-generation-with-no-seniors/index.html",
+      "diary/ai-will-not-make-everyone-a-billionaire/index.html",
+      "diary/every-complaining-gamer-is-basically-a-millionaire/index.html",
+      "diary/for-years-the-personal-computer-was-becoming-less-personal/index.html",
+      "diary/i-bought-a-5-000-graphics-card/index.html",
+      "diary/ownership-ends-where-the-screwdriver-is-forbidden/index.html",
+      "diary/provider-exit-must-be-a-boring-routine-otherwise-you-are-a-hostage/index.html",
+      "diary/the-ai-bubble-debate-is-missing-the-next-market/index.html",
+      "diary/the-ai-transition-is-not-about-chatbots/index.html",
+      "diary/the-next-ai-advantage-may-be-your-own-experience/index.html",
+      "diary/the-next-ai-breakthrough-should-not-require-a-geek-to-assemble-it/index.html",
+      "diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/index.html",
+      "diary/there-is-a-pattern-that-many-people-do-not-want-to-look-at-directly/index.html",
+      "diary/this-is-not-a-studio-render/index.html",
+      "diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/index.html",
+      "diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly/index.html",
+      "diary/when-tokens-become-electricity-terms-of-use-become-physics/index.html"
+    ],
+    "protected_october_and_publications": "byte-identical; homepage unchanged outside latest slot",
+    "V23": "PASS date-only",
+    "V28": "PASS five latest 0268..0264",
+    "V59": "PASS compact cards/search/aliases; six display-tag cap",
+    "V69": "PASS 5 Diary plus external World Intelligence position 06",
+    "galleries": "PASS 0216=5, 0233=3",
+    "builder_determinism": "PASS second build zero changes across 939 surfaces",
+    "full_machine_gate": "PASS 8 Python steps, 5 schemas"
+  },
+  "source_block_hashes": {
+    "0264": "50a0101b470b2a54d5dc60813261c03d3af6735dccaa932ef2d2db0270cede70",
+    "0265": "579264d17d6780fcb342246d2877fdda2ac8aeb6b3df9c83083892ecd5e8bfee",
+    "0266": "cef158d0cd16f44adfbec92099e8c3a9a134cabceccd878ad57b47d8dba3c5ed",
+    "0267": "53d9d4958c07be66522fc0652c83292ee69a33de47a13bea396fe600c783b192",
+    "0268": "45b7a5de86945aa7f5a99eafb1a58752db0ae56c0afe112edac9026185550e23"
+  },
+  "source_asset_integrity": [
+    {
+      "path": "content/diary/a-home-full-of-smart-devices-is-not-yet-a-smart-home.md",
+      "bytes": 3378,
+      "sha256": "3ff68777d4ae0d221d2347a68757097027df4093fe51066642b32a664331113f"
+    },
+    {
+      "path": "assets/diary/a-home-full-of-smart-devices-is-not-yet-a-smart-home/cover.jpg",
+      "bytes": 215198,
+      "sha256": "c9f68b86b2eb21c17c2eb7bacef3a0c8ddbf9634c9a673363e2e1ad6c942e970"
+    },
+    {
+      "path": "content/diary/ai-is-getting-cheaper-but-is-technological-independence.md",
+      "bytes": 3518,
+      "sha256": "da176626591d7bf4202db7a702c30f6fd45ef4596afb78a528c62d58355e4b4f"
+    },
+    {
+      "path": "assets/diary/ai-is-getting-cheaper-but-is-technological-independence/cover.jpg",
+      "bytes": 209859,
+      "sha256": "675094b935015bdde3f9b9526ec3c1614cb73b4d5e758619b3f629e62a35e961"
+    },
+    {
+      "path": "content/diary/the-next-ai-breakthrough-may-never-appear-in-your-chat.md",
+      "bytes": 3464,
+      "sha256": "a1ae335e558c3c3007287b31849998daa8b17fa655430d19dc9060e47ddad3cb"
+    },
+    {
+      "path": "assets/diary/the-next-ai-breakthrough-may-never-appear-in-your-chat/cover.jpg",
+      "bytes": 256086,
+      "sha256": "28c13b0605e93da97433114e5d06cf5aaadede00c91ecb0636ff59798d63cf9d"
+    },
+    {
+      "path": "content/diary/a-7-000-ai-laptop-what-exactly-is-revolutionary.md",
+      "bytes": 3302,
+      "sha256": "48dc064f79de330a594defbe6039e15328bfad4b01b80d06f9d00577fc30131a"
+    },
+    {
+      "path": "assets/diary/a-7-000-ai-laptop-what-exactly-is-revolutionary/cover.jpg",
+      "bytes": 239979,
+      "sha256": "ad456aa1bfc43bdd07c8156ff76ffc582b9537264c3a2cfc07ce1c5be744c592"
+    },
+    {
+      "path": "content/diary/who-will-pay-the-next-ai-invoice.md",
+      "bytes": 2856,
+      "sha256": "ee3475284cab6aa91d1287911e1db4f66fc08ed08d203280af8238cc7e06f953"
+    },
+    {
+      "path": "assets/diary/who-will-pay-the-next-ai-invoice/cover.jpg",
+      "bytes": 282189,
+      "sha256": "a076eeb6a321de4724f2d463def19bb8eac0f0c3404597a2c288e57ac9e7dd9a"
+    }
+  ],
+  "entry0263_baseline": {
+    "content/diary/the-ai-bubble-debate-is-missing-the-next-market.md": "164aecafb2ca31a268ed30c3eb8bedb6d879d5fccc1d652dd29d7c5f31a20707",
+    "assets/diary/the-ai-bubble-debate-is-missing-the-next-market/cover.jpg": "dc7f230633d74e9ee9468f41457794c80941bfa407376f7c6a2fe48c5e8ccdb8",
+    "diary/the-ai-bubble-debate-is-missing-the-next-market/index.html": "6b839c59e12afd4d4c7e429147f68390858ee60a4fdaf79e6870808c784af7c0",
+    "artifacts/diary-import-v75/ENTRY_0263_COVER_CORRECTION.md": "dd6d576467636ad7674bba98a73c0b6f1a26a274bda6ac7f1f4e18720924308f"
+  },
+  "implementation_workflows": [
+    {
+      "conclusion": "success",
+      "databaseId": 41990536430,
+      "headSha": "21b241ad0a916ffbbaafaa354faba6210c086b4d",
+      "name": "pages build and deployment",
+      "status": "completed",
+      "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990536430",
+      "detail": {
+        "attempt": 1,
+        "conclusion": "success",
+        "headSha": "21b241ad0a916ffbbaafaa354faba6210c086b4d",
+        "jobs": [
+          {
+            "completedAt": "2026-11-05T07:54:57Z",
+            "conclusion": "success",
+            "databaseId": 127121445128,
+            "name": "build",
+            "startedAt": "2026-11-05T07:54:41Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-11-05T07:54:44Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-11-05T07:54:42Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:49Z",
+                "conclusion": "success",
+                "name": "Checkout",
+                "number": 2,
+                "startedAt": "2026-11-05T07:54:44Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:54Z",
+                "conclusion": "success",
+                "name": "Upload artifact",
+                "number": 3,
+                "startedAt": "2026-11-05T07:54:49Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:55Z",
+                "conclusion": "success",
+                "name": "Post Checkout",
+                "number": 6,
+                "startedAt": "2026-11-05T07:54:54Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:55Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 7,
+                "startedAt": "2026-11-05T07:54:55Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990536430/job/127121445128"
+          },
+          {
+            "completedAt": "2026-11-05T07:55:11Z",
+            "conclusion": "success",
+            "databaseId": 127121559715,
+            "name": "deploy",
+            "startedAt": "2026-11-05T07:55:01Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-11-05T07:55:03Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-11-05T07:55:02Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:09Z",
+                "conclusion": "success",
+                "name": "Deploy to GitHub Pages",
+                "number": 2,
+                "startedAt": "2026-11-05T07:55:03Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:09Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 3,
+                "startedAt": "2026-11-05T07:55:09Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990536430/job/127121559715"
+          },
+          {
+            "completedAt": "2026-11-05T07:55:04Z",
+            "conclusion": "success",
+            "databaseId": 127121559778,
+            "name": "report-build-status",
+            "startedAt": "2026-11-05T07:55:00Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-11-05T07:55:00Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-11-05T07:55:00Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:03Z",
+                "conclusion": "success",
+                "name": "Report Build Status",
+                "number": 2,
+                "startedAt": "2026-11-05T07:55:01Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:03Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 3,
+                "startedAt": "2026-11-05T07:55:03Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990536430/job/127121559778"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990536430"
+      }
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 41990537403,
+      "headSha": "21b241ad0a916ffbbaafaa354faba6210c086b4d",
+      "name": "Machine readability",
+      "status": "completed",
+      "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990537403",
+      "detail": {
+        "attempt": 1,
+        "conclusion": "success",
+        "headSha": "21b241ad0a916ffbbaafaa354faba6210c086b4d",
+        "jobs": [
+          {
+            "completedAt": "2026-11-05T07:55:15Z",
+            "conclusion": "success",
+            "databaseId": 127121443761,
+            "name": "validate",
+            "startedAt": "2026-11-05T07:54:41Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-11-05T07:54:43Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-11-05T07:54:42Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:48Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@v4",
+                "number": 2,
+                "startedAt": "2026-11-05T07:54:43Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:54:48Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@v5",
+                "number": 3,
+                "startedAt": "2026-11-05T07:54:48Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:12Z",
+                "conclusion": "success",
+                "name": "Run full machine-readability gate",
+                "number": 4,
+                "startedAt": "2026-11-05T07:54:48Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:12Z",
+                "conclusion": "success",
+                "name": "Reject stale generated files",
+                "number": 5,
+                "startedAt": "2026-11-05T07:55:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:12Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@v5",
+                "number": 9,
+                "startedAt": "2026-11-05T07:55:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:13Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@v4",
+                "number": 10,
+                "startedAt": "2026-11-05T07:55:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-11-05T07:55:13Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 11,
+                "startedAt": "2026-11-05T07:55:13Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990537403/job/127121443761"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/Kot141078/kot141078.github.io/actions/runs/41990537403"
+      }
+    }
+  ],
+  "remote": {
+    "timestamp": "20261105T075647801501Z",
+    "non_assets": 152,
+    "assets": 6,
+    "diary_count": 268,
+    "latest": "0268/2026-10-21",
+    "sitemap_urls": 367,
+    "content_parity": true
+  },
+  "journal": "DRIVE_JOURNAL=NOT_UPDATED_OWNER_NOT_BOUND. Current valid parent-scoped Drive searches in exact site mirror1zmP6lMz3LheCkaOsulPfzXT0ri4cJW45 and established parent11s4i2_ybzXgXPmi0k3S0lRiqrECJF0TK returned no SESSION_JOURNAL/HANDOFF/JOURNAL. Local site controls do not bind a current owner-authorized journal. No parallel/unrelated Ester/CI/semantic-watch or theory ledger written; owner journal binding remains a separate decision."
+}
