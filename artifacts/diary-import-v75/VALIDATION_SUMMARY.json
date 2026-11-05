@@ -1,0 +1,275 @@
+{
+  "local": {
+    "status": "PASS",
+    "diary_count": 263,
+    "latest_id": "0263",
+    "latest_date": "2026-10-13",
+    "latest_five": [
+      "0263",
+      "0262",
+      "0261",
+      "0260",
+      "0259"
+    ],
+    "generated_baseline_pages_preserved": true,
+    "source_asset_integrity": "11/11 unchanged",
+    "images": [
+      {
+        "id": "0258",
+        "source": "C:\\Users\\kotov\\Downloads\\1791267318461.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\ai-agents-must-be-adaptive-not-just-repeatable\\cover.jpg",
+        "bytes": 355233,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "source_sha256": "5a9dec5f78c94c9ee6ad6c7ebd7fe64bec82bdaf67984f80073e5921abce9011",
+        "destination_sha256": "5a9dec5f78c94c9ee6ad6c7ebd7fe64bec82bdaf67984f80073e5921abce9011"
+      },
+      {
+        "id": "0259",
+        "source": "C:\\Users\\kotov\\Downloads\\1791361788621.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\agi-is-becoming-a-strangely-unstable-term\\cover.jpg",
+        "bytes": 269880,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "source_sha256": "b3da3d2fa9423e9fe645693822953c28147a93481f94e69a6028968d254ac258",
+        "destination_sha256": "b3da3d2fa9423e9fe645693822953c28147a93481f94e69a6028968d254ac258"
+      },
+      {
+        "id": "0260",
+        "source": "C:\\Users\\kotov\\Downloads\\1791405746134.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\the-ai-debate-is-still-looking-at-the-shop-window\\cover.jpg",
+        "bytes": 324557,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "source_sha256": "2a64ddf549c672dfd6c3e0a2f2ec72383d739e3a484a5b02dfb89628129b855f",
+        "destination_sha256": "2a64ddf549c672dfd6c3e0a2f2ec72383d739e3a484a5b02dfb89628129b855f"
+      },
+      {
+        "id": "0261",
+        "source": "C:\\Users\\kotov\\Downloads\\1791484240226.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\when-ai-disagrees-who-can-still-say-no\\cover.jpg",
+        "bytes": 94485,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "source_sha256": "5f6c4d5e8e5e55386c6351a3714d205367850c70086704a669ece45ff5f61bc1",
+        "destination_sha256": "5f6c4d5e8e5e55386c6351a3714d205367850c70086704a669ece45ff5f61bc1"
+      },
+      {
+        "id": "0262",
+        "source": "C:\\Users\\kotov\\Downloads\\1791791372928.jpg",
+        "destination": "C:\\Users\\kotov\\Desktop\\AGI\\kot141078.github.io\\assets\\diary\\the-next-ai-advantage-may-be-your-own-experience\\cover.jpg",
+        "bytes": 240505,
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "source_sha256": "6c4423d927d4b70151614fe05934c4a5459060f4e79565bd914c663565fc0671",
+        "destination_sha256": "6c4423d927d4b70151614fe05934c4a5459060f4e79565bd914c663565fc0671"
+      }
+    ],
+    "before_count": 356,
+    "after_count": 362,
+    "added": [
+      "https://ivankotov.eu/diary/agi-is-becoming-a-strangely-unstable-term/",
+      "https://ivankotov.eu/diary/ai-agents-must-be-adaptive-not-just-repeatable/",
+      "https://ivankotov.eu/diary/the-ai-bubble-debate-is-missing-the-next-market/",
+      "https://ivankotov.eu/diary/the-ai-debate-is-still-looking-at-the-shop-window/",
+      "https://ivankotov.eu/diary/the-next-ai-advantage-may-be-your-own-experience/",
+      "https://ivankotov.eu/diary/when-ai-disagrees-who-can-still-say-no/"
+    ],
+    "removed": [],
+    "stats": {
+      "html": 986,
+      "json": 143,
+      "jsonld": 998,
+      "xml": 5,
+      "local_links": 3437,
+      "images": 266
+    },
+    "affected_tags": [
+      "/diary/tags/",
+      "/diary/tags/advanced-global-intelligence/",
+      "/diary/tags/advancedglobalintelligence/",
+      "/diary/tags/advancedglobalintelligencefety/",
+      "/diary/tags/agents/",
+      "/diary/tags/agi/",
+      "/diary/tags/ai-agents/",
+      "/diary/tags/ai-economy/",
+      "/diary/tags/ai-engineering/",
+      "/diary/tags/ai-governance/",
+      "/diary/tags/ai-infrastructure/",
+      "/diary/tags/ai/",
+      "/diary/tags/aiagents/",
+      "/diary/tags/aiautonomy/",
+      "/diary/tags/aibubble/",
+      "/diary/tags/aicompute/",
+      "/diary/tags/aieconomy/",
+      "/diary/tags/aiengineering/",
+      "/diary/tags/aigovernance/",
+      "/diary/tags/aihardware/",
+      "/diary/tags/aiinfrast/",
+      "/diary/tags/aiinfrastructure/",
+      "/diary/tags/airesearch/",
+      "/diary/tags/artificial-intelligence/",
+      "/diary/tags/artificialintelligence/",
+      "/diary/tags/cybersecurity/",
+      "/diary/tags/data-centers/",
+      "/diary/tags/datacenters/",
+      "/diary/tags/decentralized-ai/",
+      "/diary/tags/decentralizedai/",
+      "/diary/tags/digital-sovereignty/",
+      "/diary/tags/digitalintelligence/",
+      "/diary/tags/digitalsovereignty/",
+      "/diary/tags/edge-ai/",
+      "/diary/tags/edgeai/",
+      "/diary/tags/experience/",
+      "/diary/tags/future-of-ai/",
+      "/diary/tags/future-of-work/",
+      "/diary/tags/futureofai/",
+      "/diary/tags/futureofwork/",
+      "/diary/tags/governance/",
+      "/diary/tags/human-ai/",
+      "/diary/tags/humanai/",
+      "/diary/tags/inference/",
+      "/diary/tags/localai/",
+      "/diary/tags/onpremai/",
+      "/diary/tags/openweights/",
+      "/diary/tags/private-ai/",
+      "/diary/tags/privateai/",
+      "/diary/tags/semiconductors/",
+      "/diary/tags/software-engineering/",
+      "/diary/tags/softwareengineering/",
+      "/diary/tags/superintelligence/",
+      "/diary/tags/systems-engineering/",
+      "/diary/tags/systemsengineering/",
+      "/diary/tags/techeconomics/",
+      "/diary/tags/temporalaipresence/"
+    ],
+    "related_only_changed_old_posts": [
+      "diary/a-personal-c-cannot-require-a-private-data-center/index.html",
+      "diary/ai-is-getting-a-work-shift/index.html",
+      "diary/ai-is-slowly-outgrowing-the-old-language-used-to-describe-it/index.html",
+      "diary/for-years-the-personal-computer-was-becoming-less-personal/index.html",
+      "diary/how-to-install-c/index.html",
+      "diary/i-do-not-just-want-ai-in-a-game/index.html",
+      "diary/i-think-we-are-misnaming-what-is-happening-in-ai/index.html",
+      "diary/intelligence-is-getting-good-enough-now-we-need-to-afford-it/index.html",
+      "diary/maybe-uncle-jensen-huang-simply-forgot-to-mention-that-he-was-using-my-terminology/index.html",
+      "diary/one-of-the-most-damaging-habits-in-technical-culture-is-the-assumption-that-every-pause-means-failure/index.html",
+      "diary/powerful-hardware-needs-powerful-tasks/index.html",
+      "diary/provider-exit-must-be-a-boring-routine-otherwise-you-are-a-hostage/index.html",
+      "diary/the-ai-transition-is-not-about-chatbots/index.html",
+      "diary/the-most-important-point-in-jerry-tworeks-new-interview-is-not-his-estimate-that-human-researchers-may-stop-being-a-meaningful-part-of-ai-research-in-roughly-two-years/index.html",
+      "diary/the-next-ai-price-increase-may-sell-me-a-workstation-not-a-bigger-subscription/index.html",
+      "diary/the-question-behind-c-a-b-is-not-whether-an-ai-can-look-consistent-over-time/index.html",
+      "diary/this-is-not-a-studio-render/index.html",
+      "diary/tokens-are-becoming-the-billable-unit-of-ai/index.html",
+      "diary/what-body-should-an-ai-have/index.html",
+      "diary/when-ai-multiplies-hypotheses-scientific-taste-becomes-a-practical-problem/index.html",
+      "diary/when-people-say-ai-will-destroy-laptop-jobs-i-think-the-question-is-framed-incorrectly/index.html"
+    ],
+    "protected_october_and_publications": "byte-identical; homepage unchanged outside latest slot",
+    "V23": "PASS date-only",
+    "V28": "PASS five latest 0263..0259",
+    "V59": "PASS compact cards/search/aliases; six display-tag cap",
+    "V69": "PASS 5 Diary plus external World Intelligence position 06",
+    "galleries": "PASS 0216=5, 0233=3",
+    "builder_determinism": "PASS second build zero changes across 909 surfaces",
+    "full_machine_gate": "PASS 8 Python steps, 5 schemas"
+  },
+  "raw_block_hashes": {
+    "0258": "f08df8088cabc8fb2867f1d7cb219e9b02eb98f411269cf3b3efad8d7e53498d",
+    "0259": "0685dd2795391624547cfd9b376025b1c069da9eb864a5c19599fabfc91b762a",
+    "0260": "91c7fd2ab347f89630a429745943d4dff1ac33d238c956ac90184545d5cddda1",
+    "0261": "daa1424a02deb458fa61257e02998458671a29ada8b5ce40f1e99daf2c9cbd2f",
+    "0262": "7b1a386e1852bb1ece635cb0ec1c068dfc44b46335b91a8235153010de778a73",
+    "0263": "25e15ad70b62cfd6098838bd379051f6767e163a4de6f245058d0b5f884e6177"
+  },
+  "source_asset_final_integrity": [
+    {
+      "path": "assets/diary/ai-agents-must-be-adaptive-not-just-repeatable/cover.jpg",
+      "bytes": 355233,
+      "sha256": "5a9dec5f78c94c9ee6ad6c7ebd7fe64bec82bdaf67984f80073e5921abce9011"
+    },
+    {
+      "path": "assets/diary/agi-is-becoming-a-strangely-unstable-term/cover.jpg",
+      "bytes": 269880,
+      "sha256": "b3da3d2fa9423e9fe645693822953c28147a93481f94e69a6028968d254ac258"
+    },
+    {
+      "path": "assets/diary/the-ai-debate-is-still-looking-at-the-shop-window/cover.jpg",
+      "bytes": 324557,
+      "sha256": "2a64ddf549c672dfd6c3e0a2f2ec72383d739e3a484a5b02dfb89628129b855f"
+    },
+    {
+      "path": "assets/diary/when-ai-disagrees-who-can-still-say-no/cover.jpg",
+      "bytes": 94485,
+      "sha256": "5f6c4d5e8e5e55386c6351a3714d205367850c70086704a669ece45ff5f61bc1"
+    },
+    {
+      "path": "assets/diary/the-next-ai-advantage-may-be-your-own-experience/cover.jpg",
+      "bytes": 240505,
+      "sha256": "6c4423d927d4b70151614fe05934c4a5459060f4e79565bd914c663565fc0671"
+    },
+    {
+      "path": "content/diary/ai-agents-must-be-adaptive-not-just-repeatable.md",
+      "bytes": 2662,
+      "sha256": "545bb0c4febae36523578a713805a7bd25d3f9aebd1cb6647498eaf23f6d3b86"
+    },
+    {
+      "path": "content/diary/agi-is-becoming-a-strangely-unstable-term.md",
+      "bytes": 2829,
+      "sha256": "e09db8f6ffc44a875dd3c42dbe48d922fca083d8d4edee0c97e5908ca3cb6d28"
+    },
+    {
+      "path": "content/diary/the-ai-debate-is-still-looking-at-the-shop-window.md",
+      "bytes": 3469,
+      "sha256": "e978a3c461751ed699996c8a1d90678337feeefa2ce012c3c12f8bf9862e8319"
+    },
+    {
+      "path": "content/diary/when-ai-disagrees-who-can-still-say-no.md",
+      "bytes": 3322,
+      "sha256": "927ccad3565dd72c0de7849d795b33524864216860674a55e1d7ba692f3fcb3a"
+    },
+    {
+      "path": "content/diary/the-next-ai-advantage-may-be-your-own-experience.md",
+      "bytes": 2726,
+      "sha256": "4ec09463f785fa5f3602e4cd3772c4d2a8fdcdf2b06e3d9789d745be8341adbe"
+    },
+    {
+      "path": "content/diary/the-ai-bubble-debate-is-missing-the-next-market.md",
+      "bytes": 3318,
+      "sha256": "66600d909f6175e0e68f8e30d30d840d890561ea08346f9b85af1f53f6592774"
+    }
+  ],
+  "live_baseline": {
+    "head": "ca353f97007c8924c61daf437e53fddcd5446063",
+    "timestamp": "2026-11-04T23:49:38.220304+00:00",
+    "route_count": 96,
+    "diary_count": 257,
+    "sitemap_count": 356,
+    "V74_gate": "FAILED attempts1/2"
+  },
+  "remote": {
+    "timestamp": "20261105T000000031451Z",
+    "route_count": 146,
+    "non_asset_count": 141,
+    "assets": 5,
+    "diary_count": 263,
+    "latest": "0263/2026-10-13",
+    "sitemap_count": 362,
+    "all_publication_routes_checked": true,
+    "tag_noindex_count": 57
+  },
+  "readonly_tests": "6 PASS; unchanged fix",
+  "build": "909 files, second pass0 diff",
+  "journal": "DRIVE_JOURNAL=NOT_UPDATED_OWNER_NOT_BOUND. Current scoped discovery in exact site mirror folder1zmP6lMz3LheCkaOsulPfzXT0ri4cJW45 and observed parent11s4i2_ybzXgXPmi0k3S0lRiqrECJF0TK found no SESSION_JOURNAL/HANDOFF by name. Root full-text search returned only the existing V74 report mentioning an unbound journal, not journal authority; local protocol/checklist/README supplied no owning journal control. No unrelated Ester/CI/semantic-watch journal, parallel journal or theory-ledger event was written."
+}
