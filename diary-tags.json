@@ -49,7 +49,7 @@
     {
       "name": "AI",
       "slug": "ai",
-      "count": 105,
+      "count": 109,
       "page": "https://ivankotov.eu/diary/tags/ai/",
       "aliases": [
         "AI",
@@ -93,7 +93,7 @@
     {
       "name": "ArtificialIntelligence",
       "slug": "artificialintelligence",
-      "count": 50,
+      "count": 52,
       "page": "https://ivankotov.eu/diary/tags/artificialintelligence/",
       "aliases": [
         "ArtificialIntelligence"
@@ -102,7 +102,7 @@
     {
       "name": "Human AI",
       "slug": "human-ai",
-      "count": 47,
+      "count": 49,
       "page": "https://ivankotov.eu/diary/tags/human-ai/",
       "aliases": [
         "Human AI",
@@ -173,6 +173,17 @@
       ]
     },
     {
+      "name": "AI Infrastructure",
+      "slug": "ai-infrastructure",
+      "count": 33,
+      "page": "https://ivankotov.eu/diary/tags/ai-infrastructure/",
+      "aliases": [
+        "AI Infrastructure",
+        "AIInfrast",
+        "AIInfrastructure"
+      ]
+    },
+    {
       "name": "Sovereign AI",
       "slug": "sovereign-ai",
       "count": 33,
@@ -180,17 +191,6 @@
       "aliases": [
         "Sovereign AI",
         "SovereignAI"
-      ]
-    },
-    {
-      "name": "AI Infrastructure",
-      "slug": "ai-infrastructure",
-      "count": 30,
-      "page": "https://ivankotov.eu/diary/tags/ai-infrastructure/",
-      "aliases": [
-        "AI Infrastructure",
-        "AIInfrast",
-        "AIInfrastructure"
       ]
     },
     {
@@ -206,6 +206,15 @@
       ]
     },
     {
+      "name": "LocalAI",
+      "slug": "localai",
+      "count": 28,
+      "page": "https://ivankotov.eu/diary/tags/localai/",
+      "aliases": [
+        "LocalAI"
+      ]
+    },
+    {
       "name": "Decentralized AI",
       "slug": "decentralized-ai",
       "count": 26,
@@ -216,32 +225,23 @@
       ]
     },
     {
-      "name": "LocalAI",
-      "slug": "localai",
-      "count": 25,
-      "page": "https://ivankotov.eu/diary/tags/localai/",
+      "name": "Digital Sovereignty",
+      "slug": "digital-sovereignty",
+      "count": 24,
+      "page": "https://ivankotov.eu/diary/tags/digital-sovereignty/",
       "aliases": [
-        "LocalAI"
+        "Digital Sovereignty",
+        "DigitalSovereignty"
       ]
     },
     {
       "name": "Future of Work",
       "slug": "future-of-work",
-      "count": 23,
+      "count": 24,
       "page": "https://ivankotov.eu/diary/tags/future-of-work/",
       "aliases": [
         "Future of Work",
         "FutureOfWork"
-      ]
-    },
-    {
-      "name": "Digital Sovereignty",
-      "slug": "digital-sovereignty",
-      "count": 22,
-      "page": "https://ivankotov.eu/diary/tags/digital-sovereignty/",
-      "aliases": [
-        "Digital Sovereignty",
-        "DigitalSovereignty"
       ]
     },
     {
@@ -272,6 +272,15 @@
       ]
     },
     {
+      "name": "TemporalAIPresence",
+      "slug": "temporalaipresence",
+      "count": 20,
+      "page": "https://ivankotov.eu/diary/tags/temporalaipresence/",
+      "aliases": [
+        "TemporalAIPresence"
+      ]
+    },
+    {
       "name": "Deep Tech",
       "slug": "deep-tech",
       "count": 19,
@@ -292,15 +301,6 @@
       ]
     },
     {
-      "name": "TemporalAIPresence",
-      "slug": "temporalaipresence",
-      "count": 19,
-      "page": "https://ivankotov.eu/diary/tags/temporalaipresence/",
-      "aliases": [
-        "TemporalAIPresence"
-      ]
-    },
-    {
       "name": "Trust",
       "slug": "trust",
       "count": 19,
@@ -308,6 +308,16 @@
       "aliases": [
         "Trust",
         "Trusts"
+      ]
+    },
+    {
+      "name": "AI Agents",
+      "slug": "ai-agents",
+      "count": 17,
+      "page": "https://ivankotov.eu/diary/tags/ai-agents/",
+      "aliases": [
+        "AI Agents",
+        "AIAgents"
       ]
     },
     {
@@ -328,16 +338,6 @@
         "AI Act",
         "EU AI Act",
         "AIAct"
-      ]
-    },
-    {
-      "name": "AI Agents",
-      "slug": "ai-agents",
-      "count": 16,
-      "page": "https://ivankotov.eu/diary/tags/ai-agents/",
-      "aliases": [
-        "AI Agents",
-        "AIAgents"
       ]
     },
     {
@@ -371,6 +371,16 @@
       ]
     },
     {
+      "name": "Edge AI",
+      "slug": "edge-ai",
+      "count": 15,
+      "page": "https://ivankotov.eu/diary/tags/edge-ai/",
+      "aliases": [
+        "Edge AI",
+        "EdgeAI"
+      ]
+    },
+    {
       "name": "Systems Engineering",
       "slug": "systems-engineering",
       "count": 15,
@@ -378,16 +388,6 @@
       "aliases": [
         "Systems Engineering",
         "SystemsEngineering"
-      ]
-    },
-    {
-      "name": "Edge AI",
-      "slug": "edge-ai",
-      "count": 14,
-      "page": "https://ivankotov.eu/diary/tags/edge-ai/",
-      "aliases": [
-        "Edge AI",
-        "EdgeAI"
       ]
     },
     {
@@ -430,6 +430,16 @@
       ]
     },
     {
+      "name": "Private AI",
+      "slug": "private-ai",
+      "count": 12,
+      "page": "https://ivankotov.eu/diary/tags/private-ai/",
+      "aliases": [
+        "Private AI",
+        "PrivateAI"
+      ]
+    },
+    {
       "name": "Human In The Loop",
       "slug": "human-in-the-loop",
       "count": 11,
@@ -460,22 +470,22 @@
       ]
     },
     {
-      "name": "Private AI",
-      "slug": "private-ai",
-      "count": 11,
-      "page": "https://ivankotov.eu/diary/tags/private-ai/",
-      "aliases": [
-        "Private AI",
-        "PrivateAI"
-      ]
-    },
-    {
       "name": "Robotics",
       "slug": "robotics",
       "count": 11,
       "page": "https://ivankotov.eu/diary/tags/robotics/",
       "aliases": [
         "Robotics"
+      ]
+    },
+    {
+      "name": "AI Economy",
+      "slug": "ai-economy",
+      "count": 10,
+      "page": "https://ivankotov.eu/diary/tags/ai-economy/",
+      "aliases": [
+        "AI Economy",
+        "AIEconomy"
       ]
     },
     {
@@ -499,16 +509,6 @@
       ]
     },
     {
-      "name": "AI Economy",
-      "slug": "ai-economy",
-      "count": 9,
-      "page": "https://ivankotov.eu/diary/tags/ai-economy/",
-      "aliases": [
-        "AI Economy",
-        "AIEconomy"
-      ]
-    },
-    {
       "name": "Auditability",
       "slug": "auditability",
       "count": 8,
@@ -525,6 +525,25 @@
       "aliases": [
         "cEqualsAPlusB",
         "CEqualsAPlusB"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "slug": "engineering",
+      "count": 8,
+      "page": "https://ivankotov.eu/diary/tags/engineering/",
+      "aliases": [
+        "Engineering"
+      ]
+    },
+    {
+      "name": "Personal AI",
+      "slug": "personal-ai",
+      "count": 8,
+      "page": "https://ivankotov.eu/diary/tags/personal-ai/",
+      "aliases": [
+        "Personal AI",
+        "PersonalAI"
       ]
     },
     {
@@ -577,15 +596,6 @@
       ]
     },
     {
-      "name": "Engineering",
-      "slug": "engineering",
-      "count": 7,
-      "page": "https://ivankotov.eu/diary/tags/engineering/",
-      "aliases": [
-        "Engineering"
-      ]
-    },
-    {
       "name": "Long Term Memory",
       "slug": "long-term-memory",
       "count": 7,
@@ -615,22 +625,22 @@
       ]
     },
     {
-      "name": "Personal AI",
-      "slug": "personal-ai",
-      "count": 7,
-      "page": "https://ivankotov.eu/diary/tags/personal-ai/",
-      "aliases": [
-        "Personal AI",
-        "PersonalAI"
-      ]
-    },
-    {
       "name": "Privacy",
       "slug": "privacy",
       "count": 7,
       "page": "https://ivankotov.eu/diary/tags/privacy/",
       "aliases": [
         "Privacy"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "slug": "software-engineering",
+      "count": 7,
+      "page": "https://ivankotov.eu/diary/tags/software-engineering/",
+      "aliases": [
+        "Software Engineering",
+        "SoftwareEngineering"
       ]
     },
     {
@@ -709,16 +719,6 @@
       ]
     },
     {
-      "name": "Software Engineering",
-      "slug": "software-engineering",
-      "count": 6,
-      "page": "https://ivankotov.eu/diary/tags/software-engineering/",
-      "aliases": [
-        "Software Engineering",
-        "SoftwareEngineering"
-      ]
-    },
-    {
       "name": "Structural Honesty",
       "slug": "structural-honesty",
       "count": 6,
@@ -735,6 +735,15 @@
       "aliases": [
         "SystemArchitec",
         "Systems Architecture"
+      ]
+    },
+    {
+      "name": "Technology",
+      "slug": "technology",
+      "count": 6,
+      "page": "https://ivankotov.eu/diary/tags/technology/",
+      "aliases": [
+        "Technology"
       ]
     },
     {
@@ -764,6 +773,15 @@
       "page": "https://ivankotov.eu/diary/tags/ai-audit/",
       "aliases": [
         "AI Audit"
+      ]
+    },
+    {
+      "name": "AIHardware",
+      "slug": "aihardware",
+      "count": 5,
+      "page": "https://ivankotov.eu/diary/tags/aihardware/",
+      "aliases": [
+        "AIHardware"
       ]
     },
     {
@@ -848,15 +866,6 @@
       "page": "https://ivankotov.eu/diary/tags/aicontinuity/",
       "aliases": [
         "AIContinuity"
-      ]
-    },
-    {
-      "name": "AIHardware",
-      "slug": "aihardware",
-      "count": 4,
-      "page": "https://ivankotov.eu/diary/tags/aihardware/",
-      "aliases": [
-        "AIHardware"
       ]
     },
     {
@@ -969,12 +978,30 @@
       ]
     },
     {
+      "name": "FutureOfComputing",
+      "slug": "futureofcomputing",
+      "count": 4,
+      "page": "https://ivankotov.eu/diary/tags/futureofcomputing/",
+      "aliases": [
+        "FutureOfComputing"
+      ]
+    },
+    {
       "name": "Inference",
       "slug": "inference",
       "count": 4,
       "page": "https://ivankotov.eu/diary/tags/inference/",
       "aliases": [
         "Inference"
+      ]
+    },
+    {
+      "name": "Innovation",
+      "slug": "innovation",
+      "count": 4,
+      "page": "https://ivankotov.eu/diary/tags/innovation/",
+      "aliases": [
+        "Innovation"
       ]
     },
     {
@@ -1080,6 +1107,15 @@
       ]
     },
     {
+      "name": "Automation",
+      "slug": "automation",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/automation/",
+      "aliases": [
+        "Automation"
+      ]
+    },
+    {
       "name": "Autonomous Agents",
       "slug": "autonomous-agents",
       "count": 3,
@@ -1154,6 +1190,15 @@
       ]
     },
     {
+      "name": "Construction",
+      "slug": "construction",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/construction/",
+      "aliases": [
+        "Construction"
+      ]
+    },
+    {
       "name": "Data Centers",
       "slug": "data-centers",
       "count": 3,
@@ -1161,6 +1206,15 @@
       "aliases": [
         "Data Centers",
         "DataCenters"
+      ]
+    },
+    {
+      "name": "DGXSpark",
+      "slug": "dgxspark",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/dgxspark/",
+      "aliases": [
+        "DGXSpark"
       ]
     },
     {
@@ -1189,15 +1243,6 @@
       "page": "https://ivankotov.eu/diary/tags/experience-artifacts/",
       "aliases": [
         "Experience Artifacts"
-      ]
-    },
-    {
-      "name": "FutureOfComputing",
-      "slug": "futureofcomputing",
-      "count": 3,
-      "page": "https://ivankotov.eu/diary/tags/futureofcomputing/",
-      "aliases": [
-        "FutureOfComputing"
       ]
     },
     {
@@ -1257,15 +1302,6 @@
       ]
     },
     {
-      "name": "Innovation",
-      "slug": "innovation",
-      "count": 3,
-      "page": "https://ivankotov.eu/diary/tags/innovation/",
-      "aliases": [
-        "Innovation"
-      ]
-    },
-    {
       "name": "L4Witness",
       "slug": "l4witness",
       "count": 3,
@@ -1303,12 +1339,30 @@
       ]
     },
     {
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/nvidia/",
+      "aliases": [
+        "NVIDIA"
+      ]
+    },
+    {
       "name": "OpenWeights",
       "slug": "openweights",
       "count": 3,
       "page": "https://ivankotov.eu/diary/tags/openweights/",
       "aliases": [
         "OpenWeights"
+      ]
+    },
+    {
+      "name": "Research",
+      "slug": "research",
+      "count": 3,
+      "page": "https://ivankotov.eu/diary/tags/research/",
+      "aliases": [
+        "Research"
       ]
     },
     {
@@ -1345,15 +1399,6 @@
       "page": "https://ivankotov.eu/diary/tags/slow-intelligence/",
       "aliases": [
         "Slow Intelligence"
-      ]
-    },
-    {
-      "name": "Technology",
-      "slug": "technology",
-      "count": 3,
-      "page": "https://ivankotov.eu/diary/tags/technology/",
-      "aliases": [
-        "Technology"
       ]
     },
     {
@@ -1448,6 +1493,15 @@
       ]
     },
     {
+      "name": "AIForScience",
+      "slug": "aiforscience",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/aiforscience/",
+      "aliases": [
+        "AIForScience"
+      ]
+    },
+    {
       "name": "AIIdentity",
       "slug": "aiidentity",
       "count": 2,
@@ -1511,15 +1565,6 @@
       ]
     },
     {
-      "name": "Automation",
-      "slug": "automation",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/automation/",
-      "aliases": [
-        "Automation"
-      ]
-    },
-    {
       "name": "B2B",
       "slug": "b2b",
       "count": 2,
@@ -1565,15 +1610,6 @@
       ]
     },
     {
-      "name": "Construction",
-      "slug": "construction",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/construction/",
-      "aliases": [
-        "Construction"
-      ]
-    },
-    {
       "name": "Cybersecurity",
       "slug": "cybersecurity",
       "count": 2,
@@ -1607,15 +1643,6 @@
       "page": "https://ivankotov.eu/diary/tags/devsecops/",
       "aliases": [
         "DevSecOps"
-      ]
-    },
-    {
-      "name": "DGXSpark",
-      "slug": "dgxspark",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/dgxspark/",
-      "aliases": [
-        "DGXSpark"
       ]
     },
     {
@@ -1673,6 +1700,15 @@
       ]
     },
     {
+      "name": "Energy",
+      "slug": "energy",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/energy/",
+      "aliases": [
+        "Energy"
+      ]
+    },
+    {
       "name": "Energy Budget",
       "slug": "energy-budget",
       "count": 2,
@@ -1688,6 +1724,15 @@
       "page": "https://ivankotov.eu/diary/tags/europe/",
       "aliases": [
         "Europe"
+      ]
+    },
+    {
+      "name": "EuropeanAI",
+      "slug": "europeanai",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/europeanai/",
+      "aliases": [
+        "EuropeanAI"
       ]
     },
     {
@@ -1742,6 +1787,15 @@
       "page": "https://ivankotov.eu/diary/tags/home-robots/",
       "aliases": [
         "Home Robots"
+      ]
+    },
+    {
+      "name": "Interoperability",
+      "slug": "interoperability",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/interoperability/",
+      "aliases": [
+        "Interoperability"
       ]
     },
     {
@@ -1826,15 +1880,6 @@
       "page": "https://ivankotov.eu/diary/tags/multimodalai/",
       "aliases": [
         "MultimodalAI"
-      ]
-    },
-    {
-      "name": "NVIDIA",
-      "slug": "nvidia",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/nvidia/",
-      "aliases": [
-        "NVIDIA"
       ]
     },
     {
@@ -1947,6 +1992,15 @@
       ]
     },
     {
+      "name": "Productivity",
+      "slug": "productivity",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/productivity/",
+      "aliases": [
+        "Productivity"
+      ]
+    },
+    {
       "name": "Quantum Computing",
       "slug": "quantum-computing",
       "count": 2,
@@ -1984,21 +2038,21 @@
       ]
     },
     {
-      "name": "Research",
-      "slug": "research",
-      "count": 2,
-      "page": "https://ivankotov.eu/diary/tags/research/",
-      "aliases": [
-        "Research"
-      ]
-    },
-    {
       "name": "RightToRepair",
       "slug": "righttorepair",
       "count": 2,
       "page": "https://ivankotov.eu/diary/tags/righttorepair/",
       "aliases": [
         "RightToRepair"
+      ]
+    },
+    {
+      "name": "ScientificDiscovery",
+      "slug": "scientificdiscovery",
+      "count": 2,
+      "page": "https://ivankotov.eu/diary/tags/scientificdiscovery/",
+      "aliases": [
+        "ScientificDiscovery"
       ]
     },
     {
@@ -2273,6 +2327,15 @@
       ]
     },
     {
+      "name": "AIAdoption",
+      "slug": "aiadoption",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/aiadoption/",
+      "aliases": [
+        "AIAdoption"
+      ]
+    },
+    {
       "name": "AIAgency",
       "slug": "aiagency",
       "count": 1,
@@ -2324,15 +2387,6 @@
       "page": "https://ivankotov.eu/diary/tags/aievaluation/",
       "aliases": [
         "AIEvaluation"
-      ]
-    },
-    {
-      "name": "AIForScience",
-      "slug": "aiforscience",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/aiforscience/",
-      "aliases": [
-        "AIForScience"
       ]
     },
     {
@@ -2441,6 +2495,15 @@
       "page": "https://ivankotov.eu/diary/tags/antitrust/",
       "aliases": [
         "Antitrust"
+      ]
+    },
+    {
+      "name": "AppleSilicon",
+      "slug": "applesilicon",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/applesilicon/",
+      "aliases": [
+        "AppleSilicon"
       ]
     },
     {
@@ -2570,6 +2633,15 @@
       ]
     },
     {
+      "name": "BuildingAutomation",
+      "slug": "buildingautomation",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/buildingautomation/",
+      "aliases": [
+        "BuildingAutomation"
+      ]
+    },
+    {
       "name": "Burnout",
       "slug": "burnout",
       "count": 1,
@@ -2612,6 +2684,15 @@
       "page": "https://ivankotov.eu/diary/tags/ccalculus/",
       "aliases": [
         "Ccalculus"
+      ]
+    },
+    {
+      "name": "CERN",
+      "slug": "cern",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/cern/",
+      "aliases": [
+        "CERN"
       ]
     },
     {
@@ -2930,6 +3011,15 @@
       ]
     },
     {
+      "name": "CUDA",
+      "slug": "cuda",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/cuda/",
+      "aliases": [
+        "CUDA"
+      ]
+    },
+    {
       "name": "Data Mining",
       "slug": "data-mining",
       "count": 1,
@@ -3035,6 +3125,15 @@
       "page": "https://ivankotov.eu/diary/tags/digital-policy/",
       "aliases": [
         "Digital Policy"
+      ]
+    },
+    {
+      "name": "DigitalIndependence",
+      "slug": "digitalindependence",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/digitalindependence/",
+      "aliases": [
+        "DigitalIndependence"
       ]
     },
     {
@@ -3182,12 +3281,21 @@
       ]
     },
     {
-      "name": "Energy",
-      "slug": "energy",
+      "name": "EnergyEfficiency",
+      "slug": "energyefficiency",
       "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/energy/",
+      "page": "https://ivankotov.eu/diary/tags/energyefficiency/",
       "aliases": [
-        "Energy"
+        "EnergyEfficiency"
+      ]
+    },
+    {
+      "name": "EnergyManagement",
+      "slug": "energymanagement",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/energymanagement/",
+      "aliases": [
+        "EnergyManagement"
       ]
     },
     {
@@ -3206,6 +3314,15 @@
       "page": "https://ivankotov.eu/diary/tags/english-edition/",
       "aliases": [
         "English Edition"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "slug": "entrepreneurship",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/entrepreneurship/",
+      "aliases": [
+        "Entrepreneurship"
       ]
     },
     {
@@ -3287,15 +3404,6 @@
       "page": "https://ivankotov.eu/diary/tags/euaiaiact/",
       "aliases": [
         "EUAIAIAct"
-      ]
-    },
-    {
-      "name": "EuropeanAI",
-      "slug": "europeanai",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/europeanai/",
-      "aliases": [
-        "EuropeanAI"
       ]
     },
     {
@@ -3395,6 +3503,15 @@
       "page": "https://ivankotov.eu/diary/tags/fintech/",
       "aliases": [
         "Fintech"
+      ]
+    },
+    {
+      "name": "FoundationModels",
+      "slug": "foundationmodels",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/foundationmodels/",
+      "aliases": [
+        "FoundationModels"
       ]
     },
     {
@@ -3596,6 +3713,15 @@
       ]
     },
     {
+      "name": "HomeAutomation",
+      "slug": "homeautomation",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/homeautomation/",
+      "aliases": [
+        "HomeAutomation"
+      ]
+    },
+    {
       "name": "Homelab",
       "slug": "homelab",
       "count": 1,
@@ -3722,6 +3848,15 @@
       ]
     },
     {
+      "name": "HVAC",
+      "slug": "hvac",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/hvac/",
+      "aliases": [
+        "HVAC"
+      ]
+    },
+    {
       "name": "ImmersiveTechnology",
       "slug": "immersivetechnology",
       "count": 1,
@@ -3773,15 +3908,6 @@
       "page": "https://ivankotov.eu/diary/tags/intelligence/",
       "aliases": [
         "Intelligence"
-      ]
-    },
-    {
-      "name": "Interoperability",
-      "slug": "interoperability",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/interoperability/",
-      "aliases": [
-        "Interoperability"
       ]
     },
     {
@@ -3893,6 +4019,15 @@
       ]
     },
     {
+      "name": "M5Max",
+      "slug": "m5max",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/m5max/",
+      "aliases": [
+        "M5Max"
+      ]
+    },
+    {
       "name": "MachineInterpretation",
       "slug": "machineinterpretation",
       "count": 1,
@@ -3965,6 +4100,24 @@
       ]
     },
     {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/microsoft/",
+      "aliases": [
+        "Microsoft"
+      ]
+    },
+    {
+      "name": "MistralAI",
+      "slug": "mistralai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/mistralai/",
+      "aliases": [
+        "MistralAI"
+      ]
+    },
+    {
       "name": "Multi-Intelligence Systems",
       "slug": "multi-intelligence-systems",
       "count": 1,
@@ -4016,6 +4169,15 @@
       "page": "https://ivankotov.eu/diary/tags/occupationalsafety/",
       "aliases": [
         "OccupationalSafety"
+      ]
+    },
+    {
+      "name": "OnDeviceAI",
+      "slug": "ondeviceai",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/ondeviceai/",
+      "aliases": [
+        "OnDeviceAI"
       ]
     },
     {
@@ -4100,6 +4262,15 @@
       ]
     },
     {
+      "name": "ParticlePhysics",
+      "slug": "particlephysics",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/particlephysics/",
+      "aliases": [
+        "ParticlePhysics"
+      ]
+    },
+    {
       "name": "PASC",
       "slug": "pasc",
       "count": 1,
@@ -4133,6 +4304,15 @@
       "page": "https://ivankotov.eu/diary/tags/payments/",
       "aliases": [
         "Payments"
+      ]
+    },
+    {
+      "name": "PCIndustry",
+      "slug": "pcindustry",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/pcindustry/",
+      "aliases": [
+        "PCIndustry"
       ]
     },
     {
@@ -4208,6 +4388,15 @@
       ]
     },
     {
+      "name": "Physics",
+      "slug": "physics",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/physics/",
+      "aliases": [
+        "Physics"
+      ]
+    },
+    {
       "name": "Physics of AI",
       "slug": "physics-of-ai",
       "count": 1,
@@ -4250,15 +4439,6 @@
       "page": "https://ivankotov.eu/diary/tags/postquantumcryptography/",
       "aliases": [
         "PostQuantumCryptography"
-      ]
-    },
-    {
-      "name": "Productivity",
-      "slug": "productivity",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/productivity/",
-      "aliases": [
-        "Productivity"
       ]
     },
     {
@@ -4388,6 +4568,15 @@
       ]
     },
     {
+      "name": "Renovation",
+      "slug": "renovation",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/renovation/",
+      "aliases": [
+        "Renovation"
+      ]
+    },
+    {
       "name": "Repairability",
       "slug": "repairability",
       "count": 1,
@@ -4442,6 +4631,15 @@
       ]
     },
     {
+      "name": "Retrofit",
+      "slug": "retrofit",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/retrofit/",
+      "aliases": [
+        "Retrofit"
+      ]
+    },
+    {
       "name": "Right to Pause",
       "slug": "right-to-pause",
       "count": 1,
@@ -4466,6 +4664,15 @@
       "page": "https://ivankotov.eu/diary/tags/roleprovenance/",
       "aliases": [
         "RoleProvenance"
+      ]
+    },
+    {
+      "name": "RTXSpark",
+      "slug": "rtxspark",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/rtxspark/",
+      "aliases": [
+        "RTXSpark"
       ]
     },
     {
@@ -4541,15 +4748,6 @@
       ]
     },
     {
-      "name": "ScientificDiscovery",
-      "slug": "scientificdiscovery",
-      "count": 1,
-      "page": "https://ivankotov.eu/diary/tags/scientificdiscovery/",
-      "aliases": [
-        "ScientificDiscovery"
-      ]
-    },
-    {
       "name": "ScientificMethod",
       "slug": "scientificmethod",
       "count": 1,
@@ -4619,6 +4817,33 @@
       "page": "https://ivankotov.eu/diary/tags/simracing/",
       "aliases": [
         "SimRacing"
+      ]
+    },
+    {
+      "name": "SmallBusiness",
+      "slug": "smallbusiness",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/smallbusiness/",
+      "aliases": [
+        "SmallBusiness"
+      ]
+    },
+    {
+      "name": "SmartBuildings",
+      "slug": "smartbuildings",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/smartbuildings/",
+      "aliases": [
+        "SmartBuildings"
+      ]
+    },
+    {
+      "name": "SmartHome",
+      "slug": "smarthome",
+      "count": 1,
+      "page": "https://ivankotov.eu/diary/tags/smarthome/",
+      "aliases": [
+        "SmartHome"
       ]
     },
     {
