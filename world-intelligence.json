@@ -45,7 +45,13 @@
         "zip": "0073771e64f139f05701107082b8e5d2450d83ef55abba30f709d9984837c93c",
         "cover": "1edb631f361392f6c3db6bc2689b3139aa7df31db4b3eab3c9e6f809d53b830c"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/en-GB.png",
+      "site_cover_sha256": "1edb631f361392f6c3db6bc2689b3139aa7df31db4b3eab3c9e6f809d53b830c",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Russian",
@@ -69,7 +75,13 @@
         "zip": "08e65ef605830fc8015a216598280b5668acecd0c535ddb4d85b7cb121c7e080",
         "cover": "7c065c796dbe73a113b2497f1aef836034e16c83177d1e4e818e363cba0dae62"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/ru.png",
+      "site_cover_sha256": "7c065c796dbe73a113b2497f1aef836034e16c83177d1e4e818e363cba0dae62",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "French",
@@ -93,7 +105,13 @@
         "zip": "38ddc3e6267dd2c236b18492b0d227d749638e5078b80cc73d4e0768a6654725",
         "cover": "f149158b3f3fea9dc28f34643fdb3deebf7210009bda84ad904fa5f7000750cf"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/fr-FR.png",
+      "site_cover_sha256": "f149158b3f3fea9dc28f34643fdb3deebf7210009bda84ad904fa5f7000750cf",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "German",
@@ -117,7 +135,13 @@
         "zip": "2a9c032bca60b96e8004a39f4486526ac96273cff69111c0336c6d337b533f53",
         "cover": "b80027847bddcaccbc05ff91a377192147a329045533240fc78b69e3a4620548"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/de.png",
+      "site_cover_sha256": "b80027847bddcaccbc05ff91a377192147a329045533240fc78b69e3a4620548",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Spanish",
@@ -141,7 +165,13 @@
         "zip": "da235585ebc59d1641917315e1950af079bd500aac4247ca339822b3a638b3c8",
         "cover": "b61ad192fec20c554193f00fe096a6cc42efd6f708b60262d80255d2325b9ead"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/es.png",
+      "site_cover_sha256": "98d33549b2924ddf351452a7e7c0d5f9e0960e6643eccf1db8894345447f0f2e",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Dutch",
@@ -165,7 +195,13 @@
         "zip": "42f27e8831d762e6613ab0faf87221a391c5c78330d6099751022f505d3aba7b",
         "cover": "5490534ad8c8116c517b5edf57aa787f1b1bff188c7916c8abf6e4d201c392a3"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/nl-NL.png",
+      "site_cover_sha256": "f339e86508f43be9bc661b538b3fb45954ae33c43154a8f7271c9b6a35043f22",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Italian",
@@ -189,7 +225,13 @@
         "zip": "501a85987715bf58a2d4cc2826d786278d8bac0cf3b5d52ee82a6810d0611491",
         "cover": "375a21824d4f8e742a65ff95c404e7c4c17c85cac8a35be8274550e06c09809e"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/it-IT.png",
+      "site_cover_sha256": "375a21824d4f8e742a65ff95c404e7c4c17c85cac8a35be8274550e06c09809e",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Simplified Chinese",
@@ -213,7 +255,13 @@
         "zip": "1480c0e41321ac44d8d495b44955d2483818b70b1719bca9f554f5ddc8947772",
         "cover": "7c32ab3ab379f26e46abb4a5adfd1d5994a174ee3e907bec063717727ba2e0e8"
       },
-      "status": "VALIDATED_PUBLIC_RELEASE"
+      "status": "VALIDATED_PUBLIC_RELEASE",
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/zh-CN.png",
+      "site_cover_sha256": "4ab6c5ede5dac823cab5fad1cad895f152bb5f765d1c1a1958dd5559c15a6948",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "language": "Portuguese (Brazil)",
@@ -264,7 +312,13 @@
         "zip_sha256": "3f484675c44738258d3345093aca75ae691ce4dd439f7fb7812352c103d5ebb1",
         "related_earlier_multilingual_doi": "10.5281/zenodo.21497098",
         "relationship": "isVariantFormOf"
-      }
+      },
+      "site_cover": "https://ivankotov.eu/assets/media/world-intelligence-covers/pt-BR.png",
+      "site_cover_sha256": "b8e4f733480b074adb0f8e0b2fffb1a2dc1c6834e95813d017e14e6463292b5d",
+      "site_cover_dimensions": [
+        1024,
+        1536
+      ]
     }
   ],
   "release_assets": {
