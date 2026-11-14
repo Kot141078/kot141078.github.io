@@ -1475,7 +1475,7 @@ def render_start_here_external_card(
     asset_prefix: str,
     step_number: int,
 ) -> str:
-    metadata = f"{route.publication_date} · Book · {route.release_tag}"
+    metadata = f"{route.publication_date} · {route.page_role} · {route.release_tag}"
     return f"""          <article class="entry-card landing-entry-card landing-entry-card-compact start-here-external-card" data-start-here-kind="{html.escape(route.kind)}">
             <div class="entry-cover landing-card-media">
               <img src="{html.escape(asset_prefix + route.image)}" alt="{html.escape(route.image_alt)}" loading="lazy" decoding="async">

@@ -1150,12 +1150,12 @@
       "role": "complete multilingual book / temporal AI presence / governed intelligence",
       "primary_url": "https://ivankotov.eu/world-intelligence/",
       "github": "https://github.com/Kot141078/world-intelligence",
-      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0",
-      "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md",
+      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0",
+      "downloads": "https://github.com/Kot141078/world-intelligence/blob/v1.3.0/DOWNLOADS.md",
       "concept_doi": "10.5281/zenodo.21497097",
       "concept_doi_url": "https://doi.org/10.5281/zenodo.21497097",
       "date": "2026-07-24",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "languages": [
         "en-GB",
         "ru",
@@ -1164,21 +1164,26 @@
         "es",
         "nl-NL",
         "it-IT",
-        "zh-CN"
+        "zh-CN",
+        "pt-BR"
       ],
       "formats": [
         "Markdown",
         "PDF",
         "DOCX",
-        "FB2"
+        "FB2",
+        "EPUB"
       ],
       "status": "published",
       "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE",
-      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in eight languages with immutable v1.1.0 reading and package links.",
-      "version_doi_status": "PENDING_ZENODO_NEW_VERSION",
+      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in nine languages. GitHub v1.3.0 adds pt-BR; earlier files remain pinned to v1.1.0. The Portuguese Zenodo edition is a separate deposit.",
+      "version_doi_status": "NO_COMBINED_NINE_LANGUAGE_ZENODO_DEPOSIT",
       "previous_version_doi": "10.5281/zenodo.21497098",
       "previous_version_doi_url": "https://doi.org/10.5281/zenodo.21497098",
-      "previous_zenodo_record": "https://zenodo.org/records/21497098"
+      "previous_zenodo_record": "https://zenodo.org/records/21497098",
+      "date_modified": "2026-11-14",
+      "release_tag": "v1.3.0",
+      "source_commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd"
     },
     {
       "id": "esther-rp-001-v0-8-1",
@@ -2533,6 +2538,36 @@
           "editorial_edition": "academic-pdf-2"
         }
       ]
+    },
+    {
+      "id": "world-intelligence-pt-br-v1-0-0",
+      "title": "Inteligência mundial",
+      "alternative_title": "Pessoas, c e a presença temporal de IA após a era dos agentes",
+      "type": "book",
+      "role": "Brazilian Portuguese edition of World Intelligence",
+      "primary_url": "https://ivankotov.eu/world-intelligence/#pt-br",
+      "github": "https://github.com/Kot141078/world-intelligence",
+      "release": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0",
+      "release_tag": "v1.3.0",
+      "source_commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd",
+      "version": "1.0.0",
+      "date": "2026-11-14",
+      "languages": [
+        "pt-BR"
+      ],
+      "formats": [
+        "Markdown",
+        "PDF",
+        "EPUB",
+        "DOCX"
+      ],
+      "version_doi": "10.5281/zenodo.24223356",
+      "concept_doi": "10.5281/zenodo.24223355",
+      "status": "published",
+      "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE",
+      "sha256": "27d1116702106110156732c0cb5dfa992f10bd8997b362ff4a48702687cc6a2a",
+      "archive_sha256": "3f484675c44738258d3345093aca75ae691ce4dd439f7fb7812352c103d5ebb1",
+      "summary": "Complete Brazilian Portuguese reading edition, content version 1.0.0, archived separately on Zenodo as a variant of the earlier eight-language edition."
     }
   ]
 }

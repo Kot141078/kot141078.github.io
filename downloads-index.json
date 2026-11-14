@@ -719,15 +719,15 @@
     },
     {
       "object": "World Intelligence",
-      "surface": "Concept DOI (all versions)",
+      "surface": "Earlier multilingual concept DOI",
       "format": "DOI / version-family navigation",
       "language": "multilingual",
       "url": "https://doi.org/10.5281/zenodo.21497097",
-      "note": "Concept DOI for the World Intelligence Zenodo version family."
+      "note": "Concept DOI for the earlier multilingual version family; Portuguese has a separate concept DOI."
     },
     {
       "object": "World Intelligence",
-      "surface": "Previous v1.0.0 DOI",
+      "surface": "Earlier eight-language DOI",
       "format": "DOI / previous archival citation",
       "language": "multilingual",
       "url": "https://doi.org/10.5281/zenodo.21497098",
@@ -735,27 +735,27 @@
     },
     {
       "object": "World Intelligence",
-      "surface": "Previous Zenodo record 21497098",
+      "surface": "Earlier eight-language Zenodo record",
       "format": "Archival record / previous 31 published files",
       "language": "multilingual",
       "url": "https://zenodo.org/records/21497098",
-      "note": "Previous v1.0.0 archival record; no new Zenodo version record is claimed here."
+      "note": "Earlier multilingual archival record; Portuguese is in separate record 24223356."
     },
     {
       "object": "World Intelligence",
-      "surface": "Complete multilingual edition v1.1.0",
-      "format": "GitHub Release / 35 verified assets",
+      "surface": "Current GitHub release v1.3.0",
+      "format": "GitHub Release / seven new Portuguese assets",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0",
-      "note": "Canonical immutable release boundary for eight languages."
+      "url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0",
+      "note": "Nine reading editions overall; the eight earlier languages retain v1.1.0 file URLs."
     },
     {
       "object": "World Intelligence",
-      "surface": "Tag-pinned download matrix v1.1.0",
+      "surface": "Tag-pinned download matrix v1.3.0",
       "format": "Markdown download index",
       "language": "multilingual",
-      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md",
-      "note": "Canonical matrix for eight languages and four reading formats."
+      "url": "https://github.com/Kot141078/world-intelligence/blob/v1.3.0/DOWNLOADS.md",
+      "note": "Nine languages; EPUB is available only for pt-BR, FB2 only for the eight earlier languages."
     },
     {
       "object": "World Intelligence",
@@ -3036,6 +3036,66 @@
       "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/CITATION.cff",
       "page_url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
       "note": "Post-publication citation record; DOI assigned on 25 October 2026."
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Inteligência mundial — Português brasileiro 1.0.0",
+      "format": "PDF",
+      "language": "pt-BR",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.pdf",
+      "sha256": "27d1116702106110156732c0cb5dfa992f10bd8997b362ff4a48702687cc6a2a"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Inteligência mundial — Português brasileiro 1.0.0",
+      "format": "EPUB",
+      "language": "pt-BR",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.epub",
+      "sha256": "4e8721381d6a28c68bced349aa5b1ee44aa0879c9f9c974a55ab4ce0f8ad5244"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Inteligência mundial — Português brasileiro 1.0.0",
+      "format": "DOCX",
+      "language": "pt-BR",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.docx",
+      "sha256": "61724a25ab39f59e701184494a1a9d462cbb16b7ec6d261d701fd9df956e3a69"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Inteligência mundial — Português brasileiro 1.0.0",
+      "format": "Markdown",
+      "language": "pt-BR",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.md",
+      "sha256": "20098c3b8f79b7a3c0554843b501c97a4ef67e6a4cbaf9c484371e8b5c15813e"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Portuguese edition DOI",
+      "format": "DOI",
+      "language": "pt-BR",
+      "url": "https://doi.org/10.5281/zenodo.24223356"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Portuguese Zenodo PDF",
+      "format": "PDF",
+      "language": "pt-BR",
+      "url": "https://zenodo.org/api/records/24223356/files/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.pdf/content"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Portuguese Zenodo package",
+      "format": "ZIP",
+      "language": "pt-BR",
+      "url": "https://zenodo.org/api/records/24223356/files/WORLD_INTELLIGENCE_pt-BR_ZENODO_v1.0.0.zip/content"
+    },
+    {
+      "object": "World Intelligence",
+      "surface": "Portuguese author LICENSE",
+      "format": "text/plain",
+      "language": "pt-BR",
+      "url": "https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/LICENSE"
     }
   ]
 }

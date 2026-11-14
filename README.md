@@ -36,6 +36,7 @@ It also includes canonical, identity, authority/evidence, distinctions, and entr
 - `L4`
 - `Actor Grounding Layer`
 - `SER`
+- `World Intelligence` — nine reading editions, including Português brasileiro (pt-BR); `world-intelligence.json` is the book/edition source
 - `Qubit of Hope — Volume I`
 - `Qubit of Hope — Volume II`
 - `glossary`

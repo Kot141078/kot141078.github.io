@@ -171,3 +171,7 @@ Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, 
 - Frozen pre-deposit DOI placeholders remain historical; post-publication wrapper metadata identifies the assigned DOI. The website is a discovery projection, not a new source version or new measurement result.
 
 <!-- CI-V1-0-0:END -->
+
+World Intelligence: https://ivankotov.eu/world-intelligence/ — nine reading editions, including Português brasileiro (pt-BR).
+Book metadata and direct formats: https://ivankotov.eu/world-intelligence.json
+Portuguese edition DOI (separate from the earlier multilingual record): https://doi.org/10.5281/zenodo.24223356

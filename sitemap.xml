@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ivankotov.eu/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/start-here/</loc>
@@ -19,12 +20,14 @@
   </url>
   <url>
     <loc>https://ivankotov.eu/diary/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/diary/archive/</loc>
   </url>
 <url>
     <loc>https://ivankotov.eu/diary/start-here/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/diary/themes/</loc>
@@ -356,9 +359,11 @@
   </url>
   <url>
     <loc>https://ivankotov.eu/library/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/downloads/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/downloads/article50-transparency-implementation-briefs-v0-1/</loc>
@@ -455,6 +460,7 @@
   </url>
   <url>
     <loc>https://ivankotov.eu/publications/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/publications/c-governed-cli-agent-mesh/</loc>
@@ -466,6 +472,7 @@
   </url>
   <url>
     <loc>https://ivankotov.eu/releases/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/evidence/</loc>
@@ -1272,7 +1279,7 @@
   </url>
   <url>
     <loc>https://ivankotov.eu/world-intelligence/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/</loc>

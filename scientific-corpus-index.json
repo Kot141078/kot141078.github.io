@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "caff63feabd64324a190314fd2b6568f4b115db66fc15e44a7525fa5380e0053",
-    "record_count": 57
+    "sha256": "12662e02335a673484764f38e9e0c594bce8eb6d2497ee9c5c75523575280480",
+    "record_count": 58
   },
-  "work_count": 57,
+  "work_count": 58,
   "works": [
     {
       "id": "boundary-preserving-ai-composition-v0-4",
@@ -1051,9 +1051,9 @@
       "title": "World Intelligence — Complete Multilingual Edition",
       "alternative_title": null,
       "role": "complete multilingual book / temporal AI presence / governed intelligence",
-      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in eight languages with immutable v1.1.0 reading and package links.",
+      "summary": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in nine languages. GitHub v1.3.0 adds pt-BR; earlier files remain pinned to v1.1.0. The Portuguese Zenodo edition is a separate deposit.",
       "primary_url": "https://ivankotov.eu/world-intelligence/",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "date": "2026-07-24",
       "status": "published",
       "languages": [
@@ -1064,7 +1064,8 @@
         "es",
         "nl-NL",
         "it-IT",
-        "zh-CN"
+        "zh-CN",
+        "pt-BR"
       ],
       "source_language_labels": [],
       "identifiers": {
@@ -1078,9 +1079,9 @@
         "repository_url": "https://github.com/Kot141078/world-intelligence",
         "repository_detail_url": "https://github.com/Kot141078/world-intelligence",
         "repository_path": null,
-        "release_url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0",
-        "release_tag": null,
-        "commit": null
+        "release_url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0",
+        "release_tag": "v1.3.0",
+        "commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd"
       },
       "licenses": {
         "overall": null,
@@ -3817,6 +3818,71 @@
         "unknown": []
       },
       "legacy_source_pointer": "/works-index.json#/works/56"
+    },
+    {
+      "id": "world-intelligence-pt-br-v1-0-0",
+      "@id": "https://ivankotov.eu/id/work/world-intelligence-pt-br-v1-0-0",
+      "schema_org_type": "Book",
+      "source_type": "book",
+      "title": "Inteligência mundial",
+      "alternative_title": "Pessoas, c e a presença temporal de IA após a era dos agentes",
+      "role": "Brazilian Portuguese edition of World Intelligence",
+      "summary": "Complete Brazilian Portuguese reading edition, content version 1.0.0, archived separately on Zenodo as a variant of the earlier eight-language edition.",
+      "primary_url": "https://ivankotov.eu/world-intelligence/#pt-br",
+      "version": "1.0.0",
+      "date": "2026-11-14",
+      "status": "published",
+      "languages": [
+        "pt-BR"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.24223356",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.24223356",
+        "concept_doi": "https://doi.org/10.5281/zenodo.24223355",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/world-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/world-intelligence",
+        "repository_path": null,
+        "release_url": "https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0",
+        "release_tag": "v1.3.0",
+        "commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd"
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": "All rights reserved; limited complete-file sharing under the repository LICENSE"
+      },
+      "integrity": {
+        "sha256": "27d1116702106110156732c0cb5dfa992f10bd8997b362ff4a48702687cc6a2a",
+        "archive_sha256": "3f484675c44738258d3345093aca75ae691ce4dd439f7fb7812352c103d5ebb1",
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [],
+        "source_field": null,
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository"
+        ],
+        "unknown": [
+          "claim_boundary"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/57"
     }
   ]
 }

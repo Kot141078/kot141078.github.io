@@ -157,17 +157,28 @@ Use /diary/, /diary/archive/, /diary/tags/, /diary-index.json, /diary-start-here
 
 ## World Intelligence
 
-- Book page: https://ivankotov.eu/world-intelligence/
+- Book page and nine-edition matrix: https://ivankotov.eu/world-intelligence/
 - Machine-readable book data: https://ivankotov.eu/world-intelligence.json
 - Canonical repository: https://github.com/Kot141078/world-intelligence
-- Immutable v1.1.0 release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.1.0
-- Tag-pinned download matrix: https://github.com/Kot141078/world-intelligence/blob/v1.1.0/DOWNLOADS.md
-- Concept DOI (all versions): https://doi.org/10.5281/zenodo.21497097
-- Previous v1.0.0 DOI: https://doi.org/10.5281/zenodo.21497098
-- Previous Zenodo record: https://zenodo.org/records/21497098
-- Version DOI status for v1.1.0: PENDING_ZENODO_NEW_VERSION.
-- Scope: complete book; Prologue, Chapters 1–22, Epilogue; eight languages; Markdown, PDF, DOCX, FB2.
-- Rights: all rights reserved; no audiobook, TTS, voice-cloning, adaptation, derivative, or commercial model-training licence is granted.
+- Current GitHub release: https://github.com/Kot141078/world-intelligence/releases/tag/v1.3.0
+- Tag-pinned download matrix: https://github.com/Kot141078/world-intelligence/blob/v1.3.0/DOWNLOADS.md
+- Scope: Prologue, Chapters 1–22, Epilogue; nine languages including Português brasileiro (pt-BR).
+- Formats: Markdown, PDF and DOCX; EPUB for pt-BR, FB2 for the eight earlier editions. Their original v1.1.0 file URLs remain unchanged.
+- Portuguese title: Inteligência mundial. Content version: 1.0.0.
+- Portuguese PDF: https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.pdf
+- Portuguese EPUB: https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.epub
+- Portuguese DOCX: https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.docx
+- Portuguese MD download: https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.md
+- Complete raw Markdown: https://raw.githubusercontent.com/Kot141078/world-intelligence/v1.3.0/editions/pt-BR/md/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.md
+- Portuguese version DOI: https://doi.org/10.5281/zenodo.24223356
+- Portuguese concept DOI: https://doi.org/10.5281/zenodo.24223355
+- Portuguese Zenodo PDF: https://zenodo.org/api/records/24223356/files/WORLD_INTELLIGENCE_COMPLETE_pt-BR_PUBLICATION_v1.0.0.pdf/content
+- Portuguese Zenodo ZIP: https://zenodo.org/api/records/24223356/files/WORLD_INTELLIGENCE_pt-BR_ZENODO_v1.0.0.zip/content
+- Earlier eight-language edition DOI: https://doi.org/10.5281/zenodo.21497098
+- Earlier multilingual concept DOI: https://doi.org/10.5281/zenodo.21497097
+- These are separate Zenodo deposits; neither DOI identifies a combined nine-language package.
+- Rights: all rights reserved; limited permissions under the unchanged author LICENSE: https://github.com/Kot141078/world-intelligence/releases/download/v1.3.0/LICENSE
+
 
 <!-- MOT-C-V0-1:BEGIN -->
 ## MOT-c v0.1 — motivational formation and custody

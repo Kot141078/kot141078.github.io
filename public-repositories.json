@@ -7,7 +7,7 @@
   "owner": "Kot141078",
   "scope": "Public repositories participating in the authored corpus, implementation evidence, literary layer, or public navigation layer.",
   "claim_boundary": "Repository presence is discovery metadata only. It does not establish canonical release status, implementation maturity, external validation, continuity, personhood, consciousness, safety, certification, or deployment authorization.",
-  "source_sha256": "5ca6f5d8884c301352cc949147fdb9d0d8974f63f33035be16a997778073e9b2",
+  "source_sha256": "9b0f774102fb13ccd5be8131c6e104382e0db2fe8abddee808df78a2e03f6d6a",
   "repository_count": 18,
   "repositories": [
     {
@@ -397,11 +397,11 @@
     {
       "name": "world-intelligence",
       "corpus_class": "book",
-      "discovery_role": "complete multilingual World Intelligence edition",
+      "discovery_role": "complete World Intelligence edition in nine languages, including pt-BR",
       "archived": false,
       "default_branch": "main",
-      "observed_head_commit": "210124f75a9fd8d813d9c809b4737b70693402e8",
-      "tracked_files": 47,
+      "observed_head_commit": "c4656746d042b2b0a3494f505e40c458a8e8c4d7",
+      "tracked_files": 52,
       "observed_presence": {
         "readme": true,
         "license": true,
@@ -415,7 +415,7 @@
       },
       "repository_id": "github:Kot141078/world-intelligence",
       "repository_url": "https://github.com/Kot141078/world-intelligence",
-      "observed_commit_url": "https://github.com/Kot141078/world-intelligence/commit/210124f75a9fd8d813d9c809b4737b70693402e8",
+      "observed_commit_url": "https://github.com/Kot141078/world-intelligence/commit/c4656746d042b2b0a3494f505e40c458a8e8c4d7",
       "presence_scope": "Observed anywhere in the tracked tree at the stated commit; a true value does not imply a top-level file."
     },
     {

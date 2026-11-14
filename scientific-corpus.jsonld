@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 57,
+  "numberOfItems": 58,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -325,9 +325,9 @@
         "creator": {
           "@id": "https://ivankotov.eu/about/#person"
         },
-        "version": "1.1.0",
+        "version": "1.3.0",
         "datePublished": "2026-07-24",
-        "description": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in eight languages with immutable v1.1.0 reading and package links.",
+        "description": "Complete book by Ivan Kotov: Prologue, Chapters 1–22, and Epilogue in nine languages. GitHub v1.3.0 adds pt-BR; earlier files remain pinned to v1.1.0. The Portuguese Zenodo edition is a separate deposit.",
         "inLanguage": [
           "en-GB",
           "ru",
@@ -336,7 +336,8 @@
           "es",
           "nl-NL",
           "it-IT",
-          "zh-CN"
+          "zh-CN",
+          "pt-BR"
         ],
         "identifier": [
           "https://doi.org/10.5281/zenodo.21497097"
@@ -1083,6 +1084,29 @@
         "identifier": [
           "https://doi.org/10.5281/zenodo.23651305",
           "https://doi.org/10.5281/zenodo.23651304"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "Book",
+        "@id": "https://ivankotov.eu/id/work/world-intelligence-pt-br-v1-0-0",
+        "name": "Inteligência mundial",
+        "url": "https://ivankotov.eu/world-intelligence/#pt-br",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "1.0.0",
+        "datePublished": "2026-11-14",
+        "description": "Complete Brazilian Portuguese reading edition, content version 1.0.0, archived separately on Zenodo as a variant of the earlier eight-language edition.",
+        "inLanguage": [
+          "pt-BR"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.24223356",
+          "https://doi.org/10.5281/zenodo.24223355"
         ]
       }
     }
