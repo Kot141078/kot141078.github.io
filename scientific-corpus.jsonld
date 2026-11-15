@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 58,
+  "numberOfItems": 59,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -1107,6 +1107,29 @@
         "identifier": [
           "https://doi.org/10.5281/zenodo.24223356",
           "https://doi.org/10.5281/zenodo.24223355"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://ivankotov.eu/id/work/tap-endogenous-cognition-addendum-a-v0-1-0",
+        "name": "Temporal AI Presence Profile v1.0 — Interpretive Addendum A: Endogenous Cognition and the c-Class Conformance Boundary",
+        "url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-1-0/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "0.1.0",
+        "datePublished": "2026-11-16",
+        "description": "An independent DOI-backed interpretive note clarifying endogenous self-directed cognition as a proposed necessary condition for assessing an active c-line, while distinguishing it from background agents and schedulers.",
+        "inLanguage": [
+          "en"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.24265163",
+          "https://doi.org/10.5281/zenodo.24265162"
         ]
       }
     }

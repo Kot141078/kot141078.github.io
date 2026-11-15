@@ -3,7 +3,7 @@
   "schema_version": "scientific-corpus-index.v1",
   "document_id": "ivankotov-public-authored-corpus-index-v1",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
-  "last_verified": "2026-09-04",
+  "last_verified": "2026-11-16",
   "author": {
     "name": "Ivan Kotov",
     "orcid": "https://orcid.org/0009-0009-6002-9845",
@@ -17,7 +17,7 @@
     "sha256": "12662e02335a673484764f38e9e0c594bce8eb6d2497ee9c5c75523575280480",
     "record_count": 58
   },
-  "work_count": 58,
+  "work_count": 59,
   "works": [
     {
       "id": "boundary-preserving-ai-composition-v0-4",
@@ -3883,6 +3883,77 @@
         ]
       },
       "legacy_source_pointer": "/works-index.json#/works/57"
+    },
+    {
+      "id": "tap-endogenous-cognition-addendum-a-v0-1-0",
+      "@id": "https://ivankotov.eu/id/work/tap-endogenous-cognition-addendum-a-v0-1-0",
+      "schema_org_type": "ScholarlyArticle",
+      "source_type": "paper",
+      "title": "Temporal AI Presence Profile v1.0 — Interpretive Addendum A: Endogenous Cognition and the c-Class Conformance Boundary",
+      "alternative_title": null,
+      "role": "independent TAP-C interpretive clarification regarding endogenous self-directed cognition",
+      "summary": "An independent DOI-backed interpretive note clarifying endogenous self-directed cognition as a proposed necessary condition for assessing an active c-line, while distinguishing it from background agents and schedulers.",
+      "primary_url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-1-0/",
+      "version": "0.1.0",
+      "date": "2026-11-16",
+      "status": "published_interpretive_technical_note",
+      "languages": [
+        "en"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.24265163",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.24265163",
+        "concept_doi": "https://doi.org/10.5281/zenodo.24265162",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+        "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99/publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0",
+        "repository_path": "publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0",
+        "release_url": null,
+        "release_tag": null,
+        "commit": "bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99"
+      },
+      "licenses": {
+        "overall": "All rights reserved",
+        "software": null,
+        "documentation": "All rights reserved",
+        "machine_metadata": null,
+        "rights": "Copyright © 2026 Ivan Kotov. All rights reserved."
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1",
+        "checksums_url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1"
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "not an adopted standalone TAP-C conformance standard",
+          "no change to original TAP v1.0 DOI-bound content",
+          "no empirical same-c identity result",
+          "no consciousness or legal-personhood proof",
+          "no runtime qualification or new authority"
+        ],
+        "source_field": "non_claims",
+        "rule": "This deposited interpretive note does not change TAP v1.0 or provide c-class conformance, same-c, consciousness or legal-personhood proof."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "source_files",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/58"
     }
   ]
 }

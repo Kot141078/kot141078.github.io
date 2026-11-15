@@ -2568,6 +2568,67 @@
       "sha256": "27d1116702106110156732c0cb5dfa992f10bd8997b362ff4a48702687cc6a2a",
       "archive_sha256": "3f484675c44738258d3345093aca75ae691ce4dd439f7fb7812352c103d5ebb1",
       "summary": "Complete Brazilian Portuguese reading edition, content version 1.0.0, archived separately on Zenodo as a variant of the earlier eight-language edition."
+    },
+    {
+      "id": "tap-endogenous-cognition-addendum-a-v0-1-0",
+      "title": "Temporal AI Presence Profile v1.0 — Interpretive Addendum A: Endogenous Cognition and the c-Class Conformance Boundary",
+      "type": "paper",
+      "subtype": "technical_note",
+      "role": "independent TAP-C interpretive clarification regarding endogenous self-directed cognition",
+      "primary_url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-1-0/",
+      "github": "https://github.com/Kot141078/advanced-global-intelligence/tree/bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99/publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0",
+      "commit": "bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99",
+      "date": "2026-11-16",
+      "version": "0.1.0",
+      "version_doi": "10.5281/zenodo.24265163",
+      "concept_doi": "10.5281/zenodo.24265162",
+      "doi_role": "version",
+      "status": "published_interpretive_technical_note",
+      "languages": [
+        "en"
+      ],
+      "license": "All rights reserved",
+      "summary": "An independent DOI-backed interpretive note clarifying endogenous self-directed cognition as a proposed necessary condition for assessing an active c-line, while distinguishing it from background agents and schedulers.",
+      "archive_url": "https://zenodo.org/records/24265163",
+      "manifest_url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1",
+      "canonical_artifacts": [
+        {
+          "format": "PDF",
+          "filename": "TAP_v1_0_Interpretive_Addendum_A_Endogenous_Cognition_v0_1_0_EN.pdf",
+          "media_type": "application/pdf",
+          "bytes": 25915,
+          "sha256": "2dc47372486580118b9718d6c84621b850d90c73e523f5152233d119417852a7",
+          "url": "https://zenodo.org/records/24265163/files/TAP_v1_0_Interpretive_Addendum_A_Endogenous_Cognition_v0_1_0_EN.pdf?download=1"
+        },
+        {
+          "format": "Markdown",
+          "filename": "TAP_v1_0_Interpretive_Addendum_A_Endogenous_Cognition_v0_1_0_EN.md",
+          "media_type": "text/markdown",
+          "bytes": 9485,
+          "sha256": "a56206294982a6ee9fc2ba7103f3804ff0019b145cd7292978dab848c265ae0e",
+          "url": "https://zenodo.org/records/24265163/files/TAP_v1_0_Interpretive_Addendum_A_Endogenous_Cognition_v0_1_0_EN.md?download=1"
+        },
+        {
+          "format": "SHA256SUMS",
+          "filename": "SHA256SUMS.txt",
+          "media_type": "text/plain",
+          "bytes": 268,
+          "url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1"
+        }
+      ],
+      "related_dois": [
+        "10.5281/zenodo.22070960",
+        "10.5281/zenodo.20648731",
+        "10.5281/zenodo.22060517",
+        "10.5281/zenodo.22402601"
+      ],
+      "non_claims": [
+        "not an adopted standalone TAP-C conformance standard",
+        "no change to original TAP v1.0 DOI-bound content",
+        "no empirical same-c identity result",
+        "no consciousness or legal-personhood proof",
+        "no runtime qualification or new authority"
+      ]
     }
   ]
 }
