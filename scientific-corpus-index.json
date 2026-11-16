@@ -3,7 +3,7 @@
   "schema_version": "scientific-corpus-index.v1",
   "document_id": "ivankotov-public-authored-corpus-index-v1",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-09-04",
   "author": {
     "name": "Ivan Kotov",
     "orcid": "https://orcid.org/0009-0009-6002-9845",
@@ -14,8 +14,8 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "12662e02335a673484764f38e9e0c594bce8eb6d2497ee9c5c75523575280480",
-    "record_count": 58
+    "sha256": "36c60c18c1fd8ba27294f232d9f55bf513be7200c26031d20029d22afa2a9d61",
+    "record_count": 59
   },
   "work_count": 59,
   "works": [
@@ -3911,7 +3911,7 @@
       "source": {
         "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
         "repository_detail_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99/publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0",
-        "repository_path": "publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0",
+        "repository_path": null,
         "release_url": null,
         "release_tag": null,
         "commit": "bb7825ffe7e01ebf9f63e770b398ad67dcd2ed99"
@@ -3919,15 +3919,15 @@
       "licenses": {
         "overall": "All rights reserved",
         "software": null,
-        "documentation": "All rights reserved",
+        "documentation": null,
         "machine_metadata": null,
-        "rights": "Copyright © 2026 Ivan Kotov. All rights reserved."
+        "rights": null
       },
       "integrity": {
         "sha256": null,
         "archive_sha256": null,
         "manifest_url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1",
-        "checksums_url": "https://zenodo.org/records/24265163/files/SHA256SUMS.txt?download=1"
+        "checksums_url": null
       },
       "claim_boundary": {
         "non_claims": [
@@ -3938,7 +3938,7 @@
           "no runtime qualification or new authority"
         ],
         "source_field": "non_claims",
-        "rule": "This deposited interpretive note does not change TAP v1.0 or provide c-class conformance, same-c, consciousness or legal-personhood proof."
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
       },
       "metadata_completeness": {
         "known": [
@@ -3948,7 +3948,6 @@
           "languages",
           "license",
           "repository",
-          "source_files",
           "claim_boundary"
         ],
         "unknown": []
