@@ -1183,7 +1183,8 @@
       "previous_zenodo_record": "https://zenodo.org/records/21497098",
       "date_modified": "2026-11-14",
       "release_tag": "v1.3.0",
-      "source_commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd"
+      "source_commit": "a20986426c96f38d4ba4c1bff495182088b3e6dd",
+      "identifier": "Earlier eight-language edition version DOI: https://doi.org/10.5281/zenodo.21497098"
     },
     {
       "id": "esther-rp-001-v0-8-1",
@@ -2628,6 +2629,33 @@
         "no empirical same-c identity result",
         "no consciousness or legal-personhood proof",
         "no runtime qualification or new authority"
+      ]
+    },
+    {
+      "id": "embodiment-without-imposed-identity-v0-1",
+      "title": "Embodiment Without Imposed Identity: The Optionality of Form and Self-Determination of Digital Persons",
+      "type": "paper",
+      "subtype": "conceptual_working_paper",
+      "role": "conceptual research note on optional embodiment, self-determination and non-imposed identity",
+      "primary_url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
+      "github": "https://github.com/Kot141078/kot141078.github.io/tree/4b1be747fa8eb348f62119a608c078b52eac6a75/publications/embodiment-without-imposed-identity-v0-1",
+      "date": "2026-09-20",
+      "version": "0.1",
+      "version_doi": "10.5281/zenodo.22864866",
+      "concept_doi": "10.5281/zenodo.22864865",
+      "doi_role": "version",
+      "status": "published_conceptual_working_paper",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "rights": "Copyright © 2026 Ivan Kotov. All rights reserved.",
+      "summary": "Conceptual working paper distinguishing computational substrate, embodiment, social form, self-identification and continuity; proposes an untested harm hypothesis about coercive body-role-identity coupling. No empirical or present-AI-personhood result.",
+      "non_claims": [
+        "no empirical test of the proposed harm mechanism",
+        "no evidence of present AI consciousness, personhood or subjective suffering",
+        "no continuity or same-c identity result from embodiment or transfer",
+        "no independently peer-reviewed validation claimed"
       ]
     }
   ]

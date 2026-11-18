@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "36c60c18c1fd8ba27294f232d9f55bf513be7200c26031d20029d22afa2a9d61",
-    "record_count": 59
+    "sha256": "a7a12b598ce2eacbdaa6782f6fb1c214a370e11ae6d826a07460abcd55b0bfca",
+    "record_count": 60
   },
-  "work_count": 59,
+  "work_count": 60,
   "works": [
     {
       "id": "boundary-preserving-ai-composition-v0-4",
@@ -1073,7 +1073,9 @@
         "doi_role": null,
         "version_doi": null,
         "concept_doi": "https://doi.org/10.5281/zenodo.21497097",
-        "other": []
+        "other": [
+          "Earlier eight-language edition version DOI: https://doi.org/10.5281/zenodo.21497098"
+        ]
       },
       "source": {
         "repository_url": "https://github.com/Kot141078/world-intelligence",
@@ -3953,6 +3955,76 @@
         "unknown": []
       },
       "legacy_source_pointer": "/works-index.json#/works/58"
+    },
+    {
+      "id": "embodiment-without-imposed-identity-v0-1",
+      "@id": "https://ivankotov.eu/id/work/embodiment-without-imposed-identity-v0-1",
+      "schema_org_type": "ScholarlyArticle",
+      "source_type": "paper",
+      "title": "Embodiment Without Imposed Identity: The Optionality of Form and Self-Determination of Digital Persons",
+      "alternative_title": null,
+      "role": "conceptual research note on optional embodiment, self-determination and non-imposed identity",
+      "summary": "Conceptual working paper distinguishing computational substrate, embodiment, social form, self-identification and continuity; proposes an untested harm hypothesis about coercive body-role-identity coupling. No empirical or present-AI-personhood result.",
+      "primary_url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
+      "version": "0.1",
+      "date": "2026-09-20",
+      "status": "published_conceptual_working_paper",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.22864866",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.22864866",
+        "concept_doi": "https://doi.org/10.5281/zenodo.22864865",
+        "other": []
+      },
+      "source": {
+        "repository_url": "https://github.com/Kot141078/kot141078.github.io",
+        "repository_detail_url": "https://github.com/Kot141078/kot141078.github.io/tree/4b1be747fa8eb348f62119a608c078b52eac6a75/publications/embodiment-without-imposed-identity-v0-1",
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": null,
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": "Copyright © 2026 Ivan Kotov. All rights reserved."
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": null,
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "no empirical test of the proposed harm mechanism",
+          "no evidence of present AI consciousness, personhood or subjective suffering",
+          "no continuity or same-c identity result from embodiment or transfer",
+          "no independently peer-reviewed validation claimed"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "repository",
+          "claim_boundary"
+        ],
+        "unknown": []
+      },
+      "legacy_source_pointer": "/works-index.json#/works/59"
     }
   ]
 }
