@@ -116,18 +116,20 @@
     {"date": "2026", "role": "parent/integrated publication containing TAP v0.1; not the standalone TAP v1.0 DOI", "doi": "10.5281/zenodo.20532198"},
     {"date": "2026-07-30", "role": "public TAP-SEC M4 v0.3.2 implementation reference", "version_doi": "10.5281/zenodo.21688521", "concept_doi": "10.5281/zenodo.21688520", "M4_FULL_PASS": false},
     {"date": "2026-08-23", "role": "standalone Temporal AI Presence Profile v1.0", "version_doi": "10.5281/zenodo.22070960", "concept_doi": "10.5281/zenodo.22070959"},
-    {"date": "2026-08-24", "role": "public Architecture-to-Code Evidence Bridge v1.0", "tag": "temporal-ai-presence-implementation-bridge-v1.0", "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7"}
+    {"date": "2026-08-24", "role": "public Architecture-to-Code Evidence Bridge v1.0", "tag": "temporal-ai-presence-implementation-bridge-v1.0", "archive_sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7"},
+    {"date": "2026-11-18", "role": "published Interpretive Addendum A v0.2.0; original profile unchanged", "version_doi": "10.5281/zenodo.24339191", "url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-2-0/"}
   ],
   "related_corpus": [
     {"name": "Advanced Global Intelligence", "url": "https://ivankotov.eu/advanced-global-intelligence/", "relation": "wider architectural frame"},
     {"name": "c Hardening Pack v0.1", "url": "https://ivankotov.eu/publications/c-hardening-pack/", "relation": "parent/integrated publication containing historical TAP v0.1"},
     {"name": "TAP-SEC M4 v0.3.2", "url": "https://ivankotov.eu/publications/tap-sec-m4-v0-3-2/", "relation": "separate public implementation reference; M4_FULL_PASS=false"},
     {"name": "MOT-c", "url": "https://ivankotov.eu/publications/motivational-formation-c-v0-1/", "relation": "adjacent theory; not TAP-T01 through TAP-T10 implementation evidence"},
-    {"name": "World Intelligence", "url": "https://ivankotov.eu/world-intelligence/", "relation": "broader corpus context; not a conformance receipt"}
+    {"name": "World Intelligence", "url": "https://ivankotov.eu/world-intelligence/", "relation": "broader corpus context; not a conformance receipt"},
+    {"name": "TAP Interpretive Addendum A v0.2.0", "url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-2-0/", "relation": "published supplement to TAP v1.0; proposed interpretive clarification, not conformance evidence", "version_doi": "10.5281/zenodo.24339191", "concept_doi": "10.5281/zenodo.24265162"}
   ],
   "machine_readable": {
     "index": "https://ivankotov.eu/temporal-ai-presence/index.json",
     "schemaorg": "https://ivankotov.eu/temporal-ai-presence/schemaorg.jsonld"
   },
-  "last_updated": "2026-08-24"
+  "last_updated": "2026-11-18"
 }

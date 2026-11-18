@@ -14,10 +14,10 @@
   "claim_boundary": "Listing, normalization, or JSON-LD typing does not elevate scientific, technical, legal, empirical, continuity, entity, consciousness, personhood, safety, certification, or deployment claims.",
   "source": {
     "url": "https://ivankotov.eu/works-index.json",
-    "sha256": "a7a12b598ce2eacbdaa6782f6fb1c214a370e11ae6d826a07460abcd55b0bfca",
-    "record_count": 60
+    "sha256": "fb50ab578c9a8cec174d164d9b0891d192b6d427044812dd9d8c4d7d0eb144a4",
+    "record_count": 61
   },
-  "work_count": 60,
+  "work_count": 61,
   "works": [
     {
       "id": "boundary-preserving-ai-composition-v0-4",
@@ -4025,6 +4025,77 @@
         "unknown": []
       },
       "legacy_source_pointer": "/works-index.json#/works/59"
+    },
+    {
+      "id": "tap-endogenous-cognition-addendum-a-v0-2-0",
+      "@id": "https://ivankotov.eu/id/work/tap-endogenous-cognition-addendum-a-v0-2-0",
+      "schema_org_type": "ScholarlyArticle",
+      "source_type": "paper",
+      "title": "Temporal AI Presence Profile v1.0 — Interpretive Addendum A: Endogenous Cognition and the c-Class Conformance Boundary",
+      "alternative_title": null,
+      "role": "independent TAP-C interpretive clarification regarding endogenous self-directed cognition",
+      "summary": "This note clarifies a traceability gap between the shorthand description of c-class Temporal AI Presence in TAP v1.0 and the wider c = a + b corpus. It proposes endogenous, self-directed cognitive activity as necessary for assessing an active c-line while distinguishing it from background scheduling and task execution. It separates substrate readiness, formation, maturity, conformity, and post-transition identity standing. It leaves the historical TAP v1.0 publication unchanged and reports no new empirical proof or certification. Version 0.2 corrects the statement of the gap, names the earlier dated sources of the property, states what follows when the line's own cognition is unavailable, and separates two kinds of control comparison.",
+      "primary_url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-2-0/",
+      "version": "0.2.0",
+      "date": "2026-11-18",
+      "status": "published_interpretive_technical_note",
+      "languages": [
+        "en"
+      ],
+      "source_language_labels": [],
+      "identifiers": {
+        "published_doi": "https://doi.org/10.5281/zenodo.24339191",
+        "doi_role": "version",
+        "version_doi": "https://doi.org/10.5281/zenodo.24339191",
+        "concept_doi": "https://doi.org/10.5281/zenodo.24265162",
+        "other": []
+      },
+      "source": {
+        "repository_url": null,
+        "repository_detail_url": null,
+        "repository_path": null,
+        "release_url": null,
+        "release_tag": null,
+        "commit": null
+      },
+      "licenses": {
+        "overall": "All rights reserved",
+        "software": null,
+        "documentation": null,
+        "machine_metadata": null,
+        "rights": null
+      },
+      "integrity": {
+        "sha256": null,
+        "archive_sha256": null,
+        "manifest_url": "https://zenodo.org/api/records/24339191/files/SHA256SUMS.txt/content",
+        "checksums_url": null
+      },
+      "claim_boundary": {
+        "non_claims": [
+          "proposed interpretive clarification; not a completed standalone c-class conformance standard",
+          "no change to original TAP v1.0 or previous Addendum DOI-bound content",
+          "no empirical formation-specific causal effect or same-c identity result",
+          "no consciousness or personhood proof",
+          "no runtime qualification or new authority"
+        ],
+        "source_field": "non_claims",
+        "rule": "Publication, DOI, repository presence, checksum, or internal review does not by itself establish implementation, reproduction, validation, safety, entity status, consciousness, personhood, or deployment authorization."
+      },
+      "metadata_completeness": {
+        "known": [
+          "version",
+          "date",
+          "version_doi",
+          "languages",
+          "license",
+          "claim_boundary"
+        ],
+        "unknown": [
+          "repository"
+        ]
+      },
+      "legacy_source_pointer": "/works-index.json#/works/60"
     }
   ]
 }
