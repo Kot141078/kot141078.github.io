@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 60,
+  "numberOfItems": 61,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -1155,6 +1155,29 @@
         "identifier": [
           "https://doi.org/10.5281/zenodo.22864866",
           "https://doi.org/10.5281/zenodo.22864865"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "item": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://ivankotov.eu/id/work/tap-endogenous-cognition-addendum-a-v0-2-0",
+        "name": "Temporal AI Presence Profile v1.0 — Interpretive Addendum A: Endogenous Cognition and the c-Class Conformance Boundary",
+        "url": "https://ivankotov.eu/publications/tap-endogenous-cognition-addendum-a-v0-2-0/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "0.2.0",
+        "datePublished": "2026-11-18",
+        "description": "This note clarifies a traceability gap between the shorthand description of c-class Temporal AI Presence in TAP v1.0 and the wider c = a + b corpus. It proposes endogenous, self-directed cognitive activity as necessary for assessing an active c-line while distinguishing it from background scheduling and task execution. It separates substrate readiness, formation, maturity, conformity, and post-transition identity standing. It leaves the historical TAP v1.0 publication unchanged and reports no new empirical proof or certification. Version 0.2 corrects the statement of the gap, names the earlier dated sources of the property, states what follows when the line's own cognition is unavailable, and separates two kinds of control comparison.",
+        "inLanguage": [
+          "en"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.24339191",
+          "https://doi.org/10.5281/zenodo.24265162"
         ]
       }
     }
