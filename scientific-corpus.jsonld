@@ -4,7 +4,7 @@
   "@id": "https://ivankotov.eu/scientific-corpus.jsonld",
   "url": "https://ivankotov.eu/scientific-corpus-index.json",
   "name": "Ivan Kotov public authored corpus — normalized machine index",
-  "numberOfItems": 59,
+  "numberOfItems": 60,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
@@ -340,7 +340,8 @@
           "pt-BR"
         ],
         "identifier": [
-          "https://doi.org/10.5281/zenodo.21497097"
+          "https://doi.org/10.5281/zenodo.21497097",
+          "Earlier eight-language edition version DOI: https://doi.org/10.5281/zenodo.21497098"
         ]
       }
     },
@@ -1130,6 +1131,30 @@
         "identifier": [
           "https://doi.org/10.5281/zenodo.24265163",
           "https://doi.org/10.5281/zenodo.24265162"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "item": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://ivankotov.eu/id/work/embodiment-without-imposed-identity-v0-1",
+        "name": "Embodiment Without Imposed Identity: The Optionality of Form and Self-Determination of Digital Persons",
+        "url": "https://ivankotov.eu/publications/embodiment-without-imposed-identity-v0-1/",
+        "creator": {
+          "@id": "https://ivankotov.eu/about/#person"
+        },
+        "version": "0.1",
+        "datePublished": "2026-09-20",
+        "description": "Conceptual working paper distinguishing computational substrate, embodiment, social form, self-identification and continuity; proposes an untested harm hypothesis about coercive body-role-identity coupling. No empirical or present-AI-personhood result.",
+        "inLanguage": [
+          "en",
+          "ru"
+        ],
+        "identifier": [
+          "https://doi.org/10.5281/zenodo.22864866",
+          "https://doi.org/10.5281/zenodo.22864865"
         ]
       }
     }
