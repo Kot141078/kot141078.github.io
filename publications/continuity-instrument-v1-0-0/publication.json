@@ -16,6 +16,17 @@
   "source_build": "_02",
   "editorial_edition": "academic-pdf-2",
   "status": "published",
+  "corrigendum_01": {
+    "doi": "10.5281/zenodo.24337031",
+    "doi_url": "https://doi.org/10.5281/zenodo.24337031",
+    "publication_date": "2026-11-20",
+    "resource_type": "Publication / Technical note",
+    "relation_from_original": "isSupplementedBy",
+    "correction_scope": "BACON to Beacon name and reference correction",
+    "original_deposit_files_unchanged": true,
+    "CI_to_Beacon_adapter": false,
+    "CI_to_Beacon_compatibility_result": false
+  },
   "identifiers": {
     "version_doi": "10.5281/zenodo.23651305",
     "concept_doi": "10.5281/zenodo.23651304",
@@ -242,7 +253,7 @@
     "No empirical validation, independent human peer review or independent replication claim.",
     "No production approval, runtime integration, provider attestation or Beacon conformance.",
     "R157 is bounded open-synthetic predecessor evidence; R160 and R161 remain negative and are not replayed.",
-    "No BACON adapter or demonstrated compatibility; BACON is a prospective integration target."
+    "No CI-to-Beacon adapter or demonstrated compatibility; Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is only a prospective integration target."
   ],
   "precedence": [
     "Published Zenodo record and deposited bytes identify this release.",

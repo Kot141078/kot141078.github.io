@@ -160,6 +160,7 @@ Conceptual English preprint, CC BY 4.0. Shared-history utility, role switching, 
 
 <!-- CI-V1-0-0:BEGIN -->
 ## Continuity Instrument (CI) v1.0.0 — published 25 October 2026
+- Corrigendum 01 (20 November 2026): https://doi.org/10.5281/zenodo.24337031 — BACON → Beacon. Separate Technical note v1.0, with original CI v1.0.0 files unchanged. No CI-to-Beacon mapping, adapter, compatibility result or change to empirical qualification. Beacon Profile reference DOI: https://doi.org/10.5281/zenodo.18933553 (DOI version/concept role unresolved).
 
 - [Detailed explanation and seven PDFs](https://ivankotov.eu/publications/continuity-instrument-v1-0-0/). Source version 1.0.0, build _02; editorial edition academic-pdf-2. English primary, Russian explanatory supplement.
 - [Version DOI](https://doi.org/10.5281/zenodo.23651305); [concept DOI](https://doi.org/10.5281/zenodo.23651304); [Zenodo record](https://zenodo.org/records/23651305). Resource type: Software. Author: Ivan Kotov, ORCID 0009-0009-6002-9845.
