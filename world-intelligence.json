@@ -120,7 +120,16 @@
       "site_cover_dimensions": [
         1024,
         1536
-      ]
+      ],
+      "audiobook": {
+        "language_tag": "fr-FR",
+        "status": "VALIDATED_PUBLIC_RELEASE",
+        "publication_date": "2026-11-22",
+        "archive_url": "https://archive.org/details/world-intelligence-ivan-kotov-fr-audiobook-2026",
+        "complete_mp3_url": "https://github.com/Kot141078/world-intelligence/releases/download/audiobook-fr-v1.0.0/WORLD_INTELLIGENCE_AUDIOBOOK_FR_COMPLETE_v1.0.0.mp3",
+        "chapters_zip_url": "https://github.com/Kot141078/world-intelligence/releases/download/audiobook-fr-v1.0.0/WORLD_INTELLIGENCE_AUDIOBOOK_FR_CHAPTERS_v1.0.0.zip",
+        "narration": "Voix de synthèse générée avec ElevenLabs sous la direction d’Ivan Kotov."
+      }
     },
     {
       "language": "German",
