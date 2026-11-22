@@ -279,7 +279,16 @@
       "site_cover_dimensions": [
         1024,
         1536
-      ]
+      ],
+      "audiobook": {
+        "language_tag": "zh-CN",
+        "status": "VALIDATED_PUBLIC_RELEASE",
+        "publication_date": "2026-11-22",
+        "archive_url": "https://archive.org/details/world-intelligence-ivan-kotov-zh-cn-audiobook-2026",
+        "complete_mp3_url": "https://github.com/Kot141078/world-intelligence/releases/download/audiobook-zh-cn-v1.0.0/WORLD_INTELLIGENCE_AUDIOBOOK_ZH_CN_COMPLETE_v1.0.0.mp3",
+        "chapters_zip_url": "https://github.com/Kot141078/world-intelligence/releases/download/audiobook-zh-cn-v1.0.0/WORLD_INTELLIGENCE_AUDIOBOOK_ZH_CN_CHAPTERS_v1.0.0.zip",
+        "narration": "使用 ElevenLabs 合成语音，在作者 Ivan Kotov 指导下制作。"
+      }
     },
     {
       "language": "Portuguese (Brazil)",
