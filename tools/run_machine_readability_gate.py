@@ -14,6 +14,7 @@ PYTHON_STEPS = (
     "tools/build_diary.py",
     "tools/build_corpus.py",
     "tools/build_machine_layer.py",
+    "tools/update_page_lastmod.py",
     "tools/check_machine_readability.py",
     "tools/validate_search_indexability.py",
     "tools/check_tap_surface.py",
@@ -59,6 +60,8 @@ def main() -> int:
     args = parse_args()
     for script in PYTHON_STEPS:
         run([sys.executable, script])
+
+    run([sys.executable, "-B", "tools/test_page_lastmod.py"])
 
     beacon_validation = [sys.executable, BEACON_VALIDATOR]
     if args.allow_beacon_mock:
