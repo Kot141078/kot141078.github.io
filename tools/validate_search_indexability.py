@@ -7,6 +7,7 @@ import sys
 import xml.etree.ElementTree as ET
 from collections import Counter
 from dataclasses import dataclass, field
+from datetime import date
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -17,6 +18,11 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://ivankotov.eu"
 TAG_PREFIX = f"{SITE}/diary/tags/"
 SITEMAP_NAMESPACE = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+CORRIGENDUM_PAGE_SITEMAPS = {
+    "/publications/motivational-formation-c-v0-1/": ("sitemap.xml", "sitemap-mot-c.xml"),
+    "/publications/ccalc-full-stack-v0-1/": ("sitemap.xml",),
+    "/publications/continuity-instrument-v1-0-0/": ("sitemap.xml",),
+}
 DIARY_POST_TAG_LINK_LIMIT = 6
 DIARY_POST_INTERNAL_LINK_LIMIT = 30
 RELATED_CARD_LIMIT = 4
@@ -529,9 +535,61 @@ def robots_tokens(values: list[str]) -> set[str]:
     return tokens
 
 
-def sitemap_locations() -> list[str]:
-    tree = ET.parse(ROOT / "sitemap.xml")
+def sitemap_locations(tree: ET.ElementTree) -> list[str]:
     return [node.text or "" for node in tree.findall(".//sm:loc", SITEMAP_NAMESPACE)]
+
+
+def validate_corrigendum_dates(main_sitemap: ET.ElementTree) -> None:
+    sitemaps = {
+        "sitemap.xml": main_sitemap,
+        "sitemap-mot-c.xml": ET.parse(ROOT / "sitemap-mot-c.xml"),
+    }
+    for page_path, sitemap_names in CORRIGENDUM_PAGE_SITEMAPS.items():
+        url = f"{SITE}{page_path}"
+        path = local_page(page_path)
+        source = path.relative_to(ROOT).as_posix()
+        require(path.is_file(), f"{url} is missing its HTML source {source}")
+
+        webpages = []
+        for block in parse_html(path).json_ld_blocks:
+            try:
+                document = json.loads(block)
+            except json.JSONDecodeError as exc:
+                raise ValueError(f"{url} has invalid JSON-LD in {source}: {exc}") from exc
+            nodes = document.get("@graph", [document]) if isinstance(document, dict) else document
+            if isinstance(nodes, list):
+                webpages.extend(
+                    node
+                    for node in nodes
+                    if isinstance(node, dict)
+                    and node.get("@id") == f"{url}#page"
+                    and node.get("@type") == "WebPage"
+                )
+
+        require(
+            len(webpages) == 1,
+            f"{url} in {source} needs one WebPage with @id {url}#page, found {len(webpages)}",
+        )
+        date_modified = webpages[0].get("dateModified", "<missing>")
+        try:
+            valid_date = (
+                isinstance(date_modified, str)
+                and date.fromisoformat(date_modified).isoformat() == date_modified
+            )
+        except ValueError:
+            valid_date = False
+
+        for sitemap_name in sitemap_names:
+            entries = sitemaps[sitemap_name].findall(f"sm:url[sm:loc='{url}']", SITEMAP_NAMESPACE)
+            lastmods = [
+                node.text for entry in entries for node in entry.findall("sm:lastmod", SITEMAP_NAMESPACE)
+            ]
+            observed = (
+                f"{url} has WebPage.dateModified={date_modified!r} in {source} "
+                f"and lastmod={lastmods!r} in {sitemap_name}"
+            )
+            require(valid_date, f"{observed} (expected a calendar date in YYYY-MM-DD format)")
+            require(len(entries) == 1 and lastmods == [date_modified], f"{observed} (expected one matching lastmod)")
 
 
 def expected_tag_pages() -> set[Path]:
@@ -785,7 +843,9 @@ def validate_sitemap_pages_are_indexable(locations: set[str]) -> None:
 
 
 def main() -> int:
-    location_list = sitemap_locations()
+    main_sitemap = ET.parse(ROOT / "sitemap.xml")
+    validate_corrigendum_dates(main_sitemap)
+    location_list = sitemap_locations(main_sitemap)
     require(len(location_list) == len(set(location_list)), "sitemap.xml contains duplicate locations")
     locations = set(location_list)
     tag_page_count = validate_tag_surfaces(locations)
@@ -801,7 +861,8 @@ def main() -> int:
     section_links_count = validate_no_empty_diary_section_links()
     print(
         "PASS search indexability gate "
-        f"({len(location_list)} sitemap URLs, 0 tag URLs, {tag_page_count} noindex tag pages, "
+        f"({len(location_list)} sitemap URLs, {len(CORRIGENDUM_PAGE_SITEMAPS)} publication correction dates, "
+        f"0 tag URLs, {tag_page_count} noindex tag pages, "
         f"{len(INDEX_INTENDED_PATHS)} index-intended fixtures, {diary_post_count} bounded Diary posts, "
         f"{related_card_count} related cards, {protected_post_count} protected post-content hashes, "
         f"{section_links_count} non-empty section-links containers, {canonical_tag_count} unique canonical tags, "
